@@ -59,7 +59,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
   "outro_mid": "one more line",
   "scholar": "optional, HTML; defaults to الشيخ محمد بن صالح<br>العثيمين",
   "scholar_dua": "optional; defaults to رحمه الله — use حفظه الله for a living scholar",
-  "audio": "optional; \"ambience\" (default: calm wind/hall bed, no music) or \"silent\""
+  "audio": "optional; leave out (silent). The owner rejected the synthetic ambience bed, so do not set \"ambience\""
 }
 ```
-`gold_words`: `[page, firstWord, endWord)` ranges coloured gold. Write «صلى الله عليه وسلم» in full (the font has no ﷺ glyph). Only the Arabic font DejaVu Sans is available. Owner's rule: no music, ever — only the calm ambience bed (tool/audio/calm_ambience.m4a), and never TikTok's auto-added music.
+`gold_words`: `[page, firstWord, endWord)` ranges coloured gold. Write «صلى الله عليه وسلم» in full (the font has no ﷺ glyph). Only the Arabic font DejaVu Sans is available. Owner's rule: no music, ever, and never TikTok's auto-added music. Videos are silent (the owner rejected the synthetic ambience in tool/audio).

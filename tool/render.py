@@ -90,7 +90,7 @@ def main():
                     os.path.join(work, "list.txt"), "-c", "copy", joined], check=True)
     tmp = out_path + ".tmp.mp4"
     amb = os.path.join(HERE, "audio", "calm_ambience.m4a")
-    if data.get("audio", "ambience") == "ambience" and os.path.exists(amb):
+    if data.get("audio", "silent") == "ambience" and os.path.exists(amb):
         audio_in = ["-stream_loop", "-1", "-i", amb]
         afilter = ["-af", f"afade=t=in:d=2,afade=t=out:st={max(dur - 3, 0):.2f}:d=3"]
     else:
