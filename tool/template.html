@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<style>
+  :root{
+    --gold:#e3c27a; --gold2:#f6e2a8; --deep:#03141b; --teal:#0b3a44; --ink:#f4ecd8;
+  }
+  html,body{margin:0;padding:0;width:1080px;height:1920px;overflow:hidden;background:#020b10}
+  body{font-family:"DejaVu Sans",sans-serif;color:var(--ink)}
+  #stage{position:absolute;inset:0;overflow:hidden;
+    background:radial-gradient(120% 70% at 50% 42%, #0e4652 0%, #072a33 38%, #03141b 72%, #01080b 100%);}
+  svg{position:absolute;left:0;top:0}
+  .layer{position:absolute;inset:0}
+  .scene{position:absolute;left:140px;right:140px;top:520px;height:900px;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;text-align:center;opacity:0}
+  .small{font-size:46px;color:var(--gold2);letter-spacing:0;margin-bottom:28px}
+  .big{font-size:108px;font-weight:bold;color:var(--gold);text-shadow:0 0 28px rgba(227,194,122,.45)}
+  .mid{font-size:52px;line-height:1.75;font-weight:bold}
+  .matn{font-size:64px;line-height:1.9;font-weight:bold;color:#fff7e3}
+  .matn span{display:inline-block;margin:0 9px}
+  .gold{color:var(--gold)}
+  .badge{width:150px;height:150px;position:relative;margin-bottom:34px}
+  .badge svg{position:absolute;inset:0}
+  .badge b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:60px;color:#03141b}
+  .ptitle{font-size:58px;font-weight:bold;color:var(--gold);margin-bottom:30px}
+  .pbody{font-size:50px;line-height:1.8;font-weight:bold;color:var(--ink)}
+  .hl{color:var(--gold2);border-bottom:4px solid rgba(227,194,122,.55)}
+  .rule{width:420px;height:3px;margin:30px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+  #hdr{position:absolute;top:440px;left:0;right:0;text-align:center;font-size:34px;color:var(--gold2);opacity:.0;font-weight:bold}
+  #ftr{position:absolute;bottom:92px;left:0;right:0;text-align:center;direction:ltr;font-size:30px;color:rgba(246,226,168,.8);font-family:"DejaVu Sans"}
+</style>
+</head>
+<body>
+<div id="stage">
+  <svg id="bg" width="1080" height="1920"></svg>
+  <div id="hdr"></div>
+  <div id="scenes"></div>
+  <div id="ftr">@963aperture_soul</div>
+</div>
+<script src="data.js"></script>
+<script>
+const W=1080,H=1920,NS="http://www.w3.org/2000/svg";
+const bg=document.getElementById('bg');
+function el(tag,attrs,parent){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);(parent||bg).appendChild(e);return e;}
+
+// ---------- defs ----------
+const defs=el('defs',{});
+defs.innerHTML=`
+<linearGradient id="goldG" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#f8e7b0"/><stop offset=".5" stop-color="#d9b062"/><stop offset="1" stop-color="#a77b2f"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+  <stop offset="0" stop-color="#ffd98a" stop-opacity=".95"/><stop offset=".4" stop-color="#ffb84a" stop-opacity=".45"/><stop offset="1" stop-color="#ff9a2a" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+  <stop offset="0" stop-color="#fff2c8" stop-opacity=".55"/><stop offset="1" stop-color="#fff2c8" stop-opacity="0"/>
+</radialGradient>
+<pattern id="tile" width="120" height="120" patternUnits="userSpaceOnUse">
+  <g fill="none" stroke="#e3c27a" stroke-width="1.4" opacity=".55">
+    <path d="M60 18 L72 48 L102 60 L72 72 L60 102 L48 72 L18 60 L48 48 Z"/>
+    <rect x="35" y="35" width="50" height="50" transform="rotate(45 60 60)"/>
+    <rect x="35" y="35" width="50" height="50"/>
+    <path d="M0 0 L18 0 M0 0 L0 18 M120 0 L102 0 M120 0 L120 18 M0 120 L18 120 M0 120 L0 102 M120 120 L102 120 M120 120 L120 102"/>
+  </g>
+</pattern>
+<mask id="tileMask"><rect width="1080" height="1920" fill="url(#vign)"/></mask>
+<radialGradient id="vign" cx="50%" cy="45%" r="70%">
+  <stop offset="0" stop-color="#000"/><stop offset=".45" stop-color="#555"/><stop offset="1" stop-color="#fff"/>
+</radialGradient>
+`;
+
+// stars
+const starsG=el('g',{});
+function rnd(i){const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x);}
+const stars=[];
+for(let i=0;i<90;i++){const s=el('circle',{cx:rnd(i)*W,cy:rnd(i+500)*1150,r:0.8+rnd(i+900)*2.2,fill:'#fff6dc'},starsG);stars.push(s);}
+
+// tile pattern layer
+const tile=el('rect',{x:-200,y:-200,width:1480,height:2320,fill:'url(#tile)',mask:'url(#tileMask)',opacity:.22});
+
+// moon
+const moonG=el('g',{});
+el('circle',{cx:0,cy:0,r:120,fill:'url(#moonGlow)'},moonG);
+const moon=el('path',{d:'M 18 -52 A 56 56 0 1 0 18 52 A 44 44 0 1 1 18 -52 Z',fill:'url(#goldG)'},moonG);
+
+// rosette
+function starPath(n,k,R){let d='';for(let i=0;i<=n;i++){const a=(i*k%n)/n*Math.PI*2-Math.PI/2;d+=(i?'L':'M')+(R*Math.cos(a)).toFixed(2)+' '+(R*Math.sin(a)).toFixed(2);}return d+'Z';}
+const ros=el('g',{fill:'none',stroke:'url(#goldG)'});
+const rosPaths=[
+  el('path',{d:starPath(16,6,430),'stroke-width':2.2,opacity:.38},ros),
+  el('path',{d:starPath(16,5,330),'stroke-width':1.8,opacity:.32},ros),
+  el('path',{d:starPath(8,3,250),'stroke-width':2.4,opacity:.42},ros),
+  el('circle',{r:470,'stroke-width':1.5,opacity:.25},ros),
+  el('circle',{r:480,'stroke-width':4,opacity:.12},ros),
+];
+rosPaths.forEach(p=>{const L=p.getTotalLength();p.dataset.L=L;p.setAttribute('stroke-dasharray',L);});
+
+// mihrab arch frame
+function archD(x0,x1,y0,yBottom){const cx=(x0+x1)/2,w=x1-x0;
+ return `M${x0} ${yBottom} L${x0} ${y0} Q${x0} ${y0-w*0.38} ${cx} ${y0-w*0.62} Q${x1} ${y0-w*0.38} ${x1} ${y0} L${x1} ${yBottom}`;}
+const arch1=el('path',{d:archD(90,990,640,1620),fill:'none',stroke:'url(#goldG)','stroke-width':5,opacity:.85});
+const arch2=el('path',{d:archD(116,964,655,1620),fill:'none',stroke:'url(#goldG)','stroke-width':1.8,opacity:.6});
+[arch1,arch2].forEach(p=>{const L=p.getTotalLength();p.dataset.L=L;p.setAttribute('stroke-dasharray',L);});
+const archFill=el('path',{d:archD(116,964,655,1620)+' Z',fill:'#021016',opacity:.0});
+
+// mosque silhouette
+const mosque=el('g',{fill:'#010a0d'});
+(function(){
+  const base=1700;
+  el('rect',{x:0,y:base,width:W,height:H-base},mosque);
+  // central dome
+  el('path',{d:`M330 ${base} L330 1600 Q330 1450 540 1400 Q750 1450 750 1600 L750 ${base} Z`},mosque);
+  el('rect',{x:536,y:1340,width:8,height:62},mosque);
+  el('path',{d:'M552 1318 A 18 18 0 1 0 552 1350 A 14 14 0 1 1 552 1318 Z'},mosque);
+  // drum
+  el('rect',{x:300,y:1600,width:480,height:110},mosque);
+  // side domes
+  for(const cx of [210,870]){
+    el('path',{d:`M${cx-90} ${base} L${cx-90} 1640 Q${cx-90} 1560 ${cx} 1540 Q${cx+90} 1560 ${cx+90} 1640 L${cx+90} ${base} Z`},mosque);
+    el('rect',{x:cx-3,y:1505,width:6,height:38},mosque);
+  }
+  // minarets
+  for(const mx of [70,1010]){
+    el('rect',{x:mx-22,y:1250,width:44,height:460},mosque);
+    el('rect',{x:mx-34,y:1330,width:68,height:16},mosque);
+    el('rect',{x:mx-30,y:1470,width:60,height:14},mosque);
+    el('path',{d:`M${mx-24} 1252 L${mx} 1170 L${mx+24} 1252 Z`},mosque);
+    el('rect',{x:mx-2,y:1140,width:4,height:32},mosque);
+  }
+})();
+// lit windows
+const wins=el('g',{fill:'#ffcb6b'});
+const winList=[];
+for(const [x,y] of [[420,1640],[480,1640],[600,1640],[660,1640],[180,1660],[240,1660],[840,1660],[900,1660]]){
+  winList.push(el('path',{d:`M${x-10} ${y+36} L${x-10} ${y+8} Q${x-10} ${y-6} ${x} ${y-10} Q${x+10} ${y-6} ${x+10} ${y+8} L${x+10} ${y+36} Z`},wins));
+}
+
+// lanterns
+function lantern(x,len,scale){
+  const g=el('g',{});
+  el('line',{x1:0,y1:0,x2:0,y2:len,stroke:'#c9a35a','stroke-width':2},g);
+  const b=el('g',{transform:`translate(0 ${len}) scale(${scale})`},g);
+  el('circle',{cx:0,cy:60,r:110,fill:'url(#glow)',class:'lg'},b);
+  el('path',{d:'M-14 -6 L14 -6 L8 8 L-8 8 Z',fill:'url(#goldG)'},b);
+  el('path',{d:'M-34 8 L34 8 L22 26 L-22 26 Z',fill:'url(#goldG)'},b);
+  el('path',{d:'M-30 26 L30 26 L36 70 L22 112 L-22 112 L-36 70 Z',fill:'#ffcf7a',opacity:.9},b);
+  el('path',{d:'M-30 26 L30 26 L36 70 L22 112 L-22 112 L-36 70 Z M-12 34 L-12 104 M12 34 L12 104 M-34 70 L34 70',fill:'none',stroke:'#8a6420','stroke-width':3},b);
+  el('path',{d:'M-22 112 L22 112 L12 128 L-12 128 Z',fill:'url(#goldG)'},b);
+  el('path',{d:'M0 128 L0 146',stroke:'#c9a35a','stroke-width':3},b);
+  return {g,x,len};
+}
+const lanterns=[lantern(200,190,1.15),lantern(880,250,1.0),lantern(110,120,0.7),lantern(970,140,0.75)];
+
+// particles
+const partsG=el('g',{});
+const parts=[];
+for(let i=0;i<46;i++){parts.push({c:el('circle',{r:1.5+rnd(i+70)*3.5,fill:'#ffe3a0'},partsG),x:rnd(i+11)*W,sp:18+rnd(i+33)*40,ph:rnd(i+55)*1000,amp:10+rnd(i+77)*30});}
+
+// ---------- content from DATA ----------
+const D=window.DATA;
+const scenesEl=document.getElementById('scenes');
+document.getElementById('hdr').textContent=D.header;
+const T={}; let cur=0; const order=[];
+function addScene(id,html,dur){const d=document.createElement('div');d.className='scene';d.id=id;d.innerHTML=html;scenesEl.appendChild(d);T[id]=[cur,cur+dur];cur+=dur;order.push(id);return d;}
+const wc=s=>s.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length;
+addScene('intro',`<div class="small st" data-a="0.6">بسم الله الرحمن الرحيم</div><div class="rule"></div><div class="big st" data-a="1.5" data-zoom="1">${D.title}</div><div class="mid st" data-a="2.5" style="margin-top:26px;color:#f6e2a8">${D.subtitle||'من صحيح الإمام البخاري'}</div>`,5.2);
+const isn=D.isnad.map((b,i)=>`<div class="mid st" data-a="${0.3+i*2.2}">${b}</div>`).join('<div class="rule"></div>');
+addScene('isnad',isn,Math.max(5.5,3+D.isnad.length*2.4));
+const wordSets=[];
+D.matn_pages.forEach((p,pi)=>{
+  const ws=p.trim().split(/\s+/);const per=0.55;const dur=1.2+ws.length*per+2.6;
+  const sc=addScene('matn'+pi,'<div class="matn"></div>',dur);
+  const box=sc.firstChild;
+  const spans=ws.map((w,i)=>{const s=document.createElement('span');s.textContent=w;box.appendChild(s);return s;});
+  if(pi===0)spans[0].textContent='« '+spans[0].textContent;
+  if(pi===D.matn_pages.length-1)spans[spans.length-1].textContent+=' »';
+  (D.gold_words||[]).forEach(g=>{if(g[0]===pi)for(let k=g[1];k<g[2]&&k<spans.length;k++)spans[k].className='gold';});
+  if(ws.length>26)box.style.fontSize='54px';
+  wordSets.push({id:sc.id,spans,per});
+});
+addScene('sharh',`<div class="small">الشرح</div><div class="big" style="font-size:68px;white-space:nowrap">${D.scholar||'الشيخ محمد بن صالح<br>العثيمين'}</div><div class="small" style="margin-top:28px">رحمه الله</div>`,3.5);
+const AR='٠١٢٣٤٥٦٧٨٩';
+D.points.forEach((p,i)=>{
+  const n=String(i+1).split('').map(c=>AR[+c]).join('');
+  addScene('pt'+i,`<div class="badge"><svg viewBox="-75 -75 150 150" width="150" height="150" class="star"></svg><b>${n}</b></div><div class="ptitle">${p.title}</div><div class="pbody">${p.body}</div>`,Math.max(7.5,3.5+wc(p.title+' '+p.body)*0.32));
+});
+addScene('outro',`<div class="big" style="font-size:84px">${D.outro_big}</div><div class="mid" style="margin-top:26px">${D.outro_mid}</div><div class="rule"></div><div class="small" style="font-size:38px">المصادر في الوصف ⬇</div><div class="small" style="font-size:36px;direction:ltr;color:#e3c27a">@963aperture_soul</div>`,6);
+const DUR=cur;
+// badge stars
+document.querySelectorAll('svg.star').forEach(s=>{
+  s.innerHTML=`<path d="${starPath(8,3,70)}" fill="url(#goldG)"/><path d="${starPath(8,3,58)}" fill="none" stroke="#03141b" stroke-width="2" opacity=".5"/><circle r="44" fill="url(#goldG)"/>`;
+});
+// gradients are in bg svg defs; badge svgs need their own copy
+document.querySelectorAll('svg.star').forEach(s=>{const d=document.createElementNS(NS,'defs');d.innerHTML=defs.innerHTML.split('<radialGradient id="glow"')[0];s.prepend(d);});
+const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
+const ease=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+const ramp=(t,a,b)=>ease(clamp((t-a)/(b-a)));
+function sceneEnv(t,[a,b],fin=.7,fout=.6){return ramp(t,a,a+fin)*(1-ramp(t,b-fout,b));}
+const staged=[...document.querySelectorAll('.st')].map(e=>({e,sc:e.closest('.scene').id,a:+e.dataset.a,zoom:e.dataset.zoom}));
+window.render=function(t){
+  stars.forEach((s,i)=>s.setAttribute('opacity',(0.25+0.75*(0.5+0.5*Math.sin(t*(1+rnd(i)*2)+i))).toFixed(3)));
+  tile.setAttribute('transform',`translate(${(t*6)%120} ${(t*4)%120})`);
+  moonG.setAttribute('transform',`translate(540 ${300+Math.sin(t*0.5)*6})`);
+  const draw=ramp(t,0.2,3.6);
+  ros.setAttribute('transform',`translate(540 1010) rotate(${t*3}) scale(${0.96+0.04*Math.sin(t*0.6)})`);
+  rosPaths.forEach((p,i)=>p.setAttribute('stroke-dashoffset',(p.dataset.L*(1-clamp(draw*1.2-i*0.05))).toFixed(1)));
+  const ad=ramp(t,0.6,3.2);
+  [arch1,arch2].forEach(p=>p.setAttribute('stroke-dashoffset',(p.dataset.L*(1-ad)).toFixed(1)));
+  archFill.setAttribute('opacity',(0.35*ramp(t,1,3)).toFixed(3));
+  const mr=ramp(t,0,2.2);
+  mosque.setAttribute('transform',`translate(0 ${(1-mr)*260})`);
+  wins.setAttribute('transform',`translate(0 ${(1-mr)*260})`);
+  winList.forEach((w,i)=>w.setAttribute('opacity',(0.55+0.4*Math.sin(t*2+i*1.7)*0.5+0.2).toFixed(3)));
+  lanterns.forEach((L,i)=>{const drop=ramp(t,0.3+i*0.25,2.0+i*0.25);const ang=Math.sin(t*1.1+i*1.3)*4.5;
+    L.g.setAttribute('transform',`translate(${L.x} ${-260+drop*260}) rotate(${ang.toFixed(2)})`);
+    L.g.querySelectorAll('.lg').forEach(g=>g.setAttribute('opacity',(0.75+0.25*Math.sin(t*3+i)).toFixed(3)));});
+  parts.forEach((p,i)=>{const y=1900-((t*p.sp+p.ph)%1900);
+    p.c.setAttribute('cx',(p.x+Math.sin(t*0.8+i)*p.amp).toFixed(1));p.c.setAttribute('cy',y.toFixed(1));
+    p.c.setAttribute('opacity',(0.15+0.55*Math.sin((y/1900)*Math.PI)).toFixed(3));});
+  document.getElementById('hdr').style.opacity=(ramp(t,3,4)*(1-ramp(t,DUR-1.5,DUR-0.5))).toFixed(3);
+  document.getElementById('ftr').style.opacity=(0.85*ramp(t,2,3.5)*(1-ramp(t,T.outro[0]-0.5,T.outro[0]+0.2))).toFixed(3);
+  for(const id in T){const s=document.getElementById(id);const env=sceneEnv(t,T[id]);const k=ramp(t,T[id][0],T[id][0]+0.9);
+    s.style.opacity=env.toFixed(3);s.style.transform=`translateY(${((1-k)*40).toFixed(1)}px) scale(${(0.97+0.03*k).toFixed(4)})`;
+    s.style.filter=`blur(${((1-k)*6).toFixed(2)}px)`;}
+  staged.forEach(({e,sc,a,zoom})=>{const t0=T[sc][0]+a;e.style.opacity=ramp(t,t0,t0+0.9);if(zoom)e.style.transform=`scale(${0.85+0.15*ramp(t,t0,t0+1.1)})`;});
+  wordSets.forEach(({id,spans,per})=>{const w0=T[id][0]+0.6;spans.forEach((w,i)=>{const a=w0+i*per;const k=ramp(t,a,a+0.5);
+    w.style.opacity=k.toFixed(3);w.style.transform=`translateY(${((1-k)*24).toFixed(1)}px)`;
+    w.style.textShadow=k>0?`0 0 ${(18*(1-ramp(t,a+0.3,a+1.4))+6).toFixed(1)}px rgba(255,220,140,${(0.9*(1-ramp(t,a+0.4,a+1.6))+0.15).toFixed(2)})`:'none';});});
+  document.querySelectorAll('.badge').forEach(b=>{const sc=b.closest('.scene').id;const k=ramp(t,T[sc][0]+0.1,T[sc][0]+1.1);
+    b.style.transform=`rotate(${((1-k)*-180+Math.sin(t)*3).toFixed(1)}deg) scale(${(0.4+0.6*k).toFixed(3)})`;});
+};
+window.DUR=DUR; window.T=T;
+render(0);
+</script>
+</body>
+</html>

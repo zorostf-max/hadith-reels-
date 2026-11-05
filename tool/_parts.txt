@@ -1,0 +1,6 @@
+// badge stars
+document.querySelectorAll('svg.star').forEach(s=>{
+  s.innerHTML=`<path d="${starPath(8,3,70)}" fill="url(#goldG)"/><path d="${starPath(8,3,58)}" fill="none" stroke="#03141b" stroke-width="2" opacity=".5"/><circle r="44" fill="url(#goldG)"/>`;
+});
+// gradients are in bg svg defs; badge svgs need their own copy
+document.querySelectorAll('svg.star').forEach(s=>{const d=document.createElementNS(NS,'defs');d.innerHTML=defs.innerHTML.split('<radialGradient id="glow"')[0];s.prepend(d);});
