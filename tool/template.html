@@ -162,14 +162,14 @@ const D=window.DATA;
 const scenesEl=document.getElementById('scenes');
 document.getElementById('hdr').textContent=D.header;
 const T={}; let cur=0; const order=[];
-function addScene(id,html,dur){const d=document.createElement('div');d.className='scene';d.id=id;d.innerHTML=html;scenesEl.appendChild(d);T[id]=[cur,cur+dur];cur+=dur;order.push(id);return d;}
+function addScene(id,html,dur){if(D.durations&&D.durations[id])dur=Math.max(dur*0.5,D.durations[id]);const d=document.createElement('div');d.className='scene';d.id=id;d.innerHTML=html;scenesEl.appendChild(d);T[id]=[cur,cur+dur];cur+=dur;order.push(id);return d;}
 const wc=s=>s.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length;
 addScene('intro',`<div class="small st" data-a="0.6">بسم الله الرحمن الرحيم</div><div class="rule"></div><div class="big st" data-a="1.5" data-zoom="1">${D.title}</div><div class="mid st" data-a="2.5" style="margin-top:26px;color:#f6e2a8">${D.subtitle||'من صحيح الإمام البخاري'}</div>`,5.2);
 const isn=D.isnad.map((b,i)=>`<div class="mid st" data-a="${0.3+i*2.2}">${b}</div>`).join('<div class="rule"></div>');
 addScene('isnad',isn,Math.max(5.5,3+D.isnad.length*2.4));
 const wordSets=[];
 D.matn_pages.forEach((p,pi)=>{
-  const ws=p.trim().split(/\s+/);const per=0.55;const dur=1.2+ws.length*per+2.6;
+  const ws=p.trim().split(/\s+/);let per=0.55;let dur=1.2+ws.length*per+2.6;const ov=D.durations&&D.durations['matn'+pi];if(ov){dur=ov;per=Math.max(0.2,Math.min(0.9,(ov-1.2-1.2)/ws.length));}
   const sc=addScene('matn'+pi,'<div class="matn"></div>',dur);
   const box=sc.firstChild;
   const spans=ws.map((w,i)=>{const s=document.createElement('span');s.textContent=w;box.appendChild(s);return s;});

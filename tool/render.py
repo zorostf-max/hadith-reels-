@@ -43,8 +43,9 @@ async def duration(work):
         pg = await b.new_page(viewport={"width": 1080, "height": 1920})
         await pg.goto("file://" + os.path.join(work, "index.html"))
         d = await pg.evaluate("DUR")
+        tl = await pg.evaluate("T")
         await b.close()
-        return d
+        return d, tl
 
 
 async def stills(work, times, outdir):
@@ -75,7 +76,9 @@ def main():
         asyncio.run(stills(work, None, outdir))
         print("stills written to", outdir)
         return
-    dur = asyncio.run(duration(work))
+    dur, timeline = asyncio.run(duration(work))
+    with open(os.path.splitext(out_path)[0] + ".timeline.json", "w") as f:
+        json.dump({"duration": dur, "scenes": timeline}, f, ensure_ascii=False, indent=1)
     n = 4
     step = dur / n
     parts = [os.path.join(work, f"part{i}.mp4") for i in range(n)]
