@@ -2,7 +2,7 @@
 
 Usage:  python3 render.py path/to/data.json path/to/output.mp4
 The data file follows the schema in README.md. Output: 1080x1920, 30 fps,
-H.264 + silent AAC, kept under ~18 MB so Telegram can fetch it by URL.
+H.264 + AAC (calm ambience bed from tool/audio by default; "audio": "silent" in the data file turns it off), kept under ~18 MB so Telegram can fetch it by URL.
 """
 import sys, os, json, asyncio, subprocess, shutil, tempfile
 from playwright.async_api import async_playwright
@@ -89,8 +89,15 @@ def main():
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i",
                     os.path.join(work, "list.txt"), "-c", "copy", joined], check=True)
     tmp = out_path + ".tmp.mp4"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined, "-f", "lavfi", "-i",
-                    "anullsrc=r=44100:cl=stereo", "-map", "0:v", "-map", "1:a", "-c:v", "libx264",
+    amb = os.path.join(HERE, "audio", "calm_ambience.m4a")
+    if data.get("audio", "ambience") == "ambience" and os.path.exists(amb):
+        audio_in = ["-stream_loop", "-1", "-i", amb]
+        afilter = ["-af", f"afade=t=in:d=2,afade=t=out:st={max(dur - 3, 0):.2f}:d=3"]
+    else:
+        audio_in = ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
+        afilter = []
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined, *audio_in, *afilter,
+                    "-map", "0:v", "-map", "1:a", "-c:v", "libx264",
                     "-preset", "veryfast", "-crf", "23", "-maxrate", "2M", "-bufsize", "4M",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k", "-shortest",
                     "-movflags", "+faststart", tmp], check=True)
