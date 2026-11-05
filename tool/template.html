@@ -179,7 +179,7 @@ D.matn_pages.forEach((p,pi)=>{
   if(ws.length>26)box.style.fontSize='54px';
   wordSets.push({id:sc.id,spans,per});
 });
-addScene('sharh',`<div class="small">الشرح</div><div class="big" style="font-size:68px;white-space:nowrap">${D.scholar||'الشيخ محمد بن صالح<br>العثيمين'}</div><div class="small" style="margin-top:28px">رحمه الله</div>`,3.5);
+addScene('sharh',`<div class="small">الشرح</div><div class="big" style="font-size:68px;white-space:nowrap">${D.scholar||'الشيخ محمد بن صالح<br>العثيمين'}</div><div class="small" style="margin-top:28px">${D.scholar_dua||'رحمه الله'}</div>`,3.5);
 const AR='٠١٢٣٤٥٦٧٨٩';
 D.points.forEach((p,i)=>{
   const n=String(i+1).split('').map(c=>AR[+c]).join('');

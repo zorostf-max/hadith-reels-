@@ -15,7 +15,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 2. Pick 3 hadith numbers: first any numbers listed in `rejected_notes` (redo them and apply the owner's note), then continue from `next_hadith`.
 3. For each hadith, research with WebSearch/WebFetch:
    - The exact text of Sahih al-Bukhari hadith N (e.g. dorar.net, sunnah.com, shamela.ws). Use the narrator chain only from the Companion onward (عن ... رضي الله عنه/عنها).
-   - Ibn Uthaymeen's explanation of this hadith: his شرح صحيح البخاري, or his other works on the same hadith (شرح الأربعين النووية، شرح رياض الصالحين، فتاوى). Use only points you actually found in a source, paraphrased faithfully, never invented. If no explanation by Ibn Uthaymeen can be found for this hadith, use a different recognised scholar's verified explanation and name him accurately in the caption and in the "الشرح" scene (edit the scene title through the data, see schema), or skip the hadith and note why in the Telegram message.
+   - Ibn Uthaymeen's explanation of this hadith: his شرح صحيح البخاري, or his other works on the same hadith (شرح الأربعين النووية، شرح رياض الصالحين، فتاوى). Use only points you actually found in a source, paraphrased faithfully, never invented. If no explanation by Ibn Uthaymeen can be found for this hadith, the owner's rule is: use the verified explanation of another trusted Saudi scholar of Ahl al-Sunnah wal-Jama'ah — for example الشيخ عبد العزيز بن باز، الشيخ صالح الفوزان، الشيخ عبد المحسن العباد، الشيخ عبد الكريم الخضير، الشيخ صالح آل الشيخ، أو فتاوى اللجنة الدائمة — taken from their own books, official websites (e.g. binbaz.org.sa, alfawzan.af.org.sa, shkhudheir.com) or recorded lessons. Name that scholar accurately in the "الشرح" scene (`scholar` field), in the caption heading («من شرح الشيخ … حفظه الله / رحمه الله» as fits) and in the sources, and mention the substitution in the Telegram preview message. Never use scholars outside that description, and never attribute a point to a scholar without a source. If none of them has a findable explanation, skip the hadith and say why in the Telegram message.
 4. Write `data/bukhari-NNN.json` (schema below). Matn: full text with tashkeel when available; if the hadith is very long, keep the Prophet's ﷺ words (the core statement) and say «مختصر» in the caption. Split the matn into pages of at most ~24 words. Keep each isnad/point line short (≤ ~22 characters per line, use `<br>`). 2–4 points per video. Target length 45–90 s.
 5. Run `--check`, look at the stills (text must fit inside the arch, nothing cut off), fix the data if needed, then render the mp4. Keep files under 19 MB.
 6. Write `videos/bukhari-NNN.txt` caption in the same shape as `videos/bukhari-001.txt`: title line, hadith text, «من شرح الشيخ ابن عثيمين رحمه الله:» numbered points, «📚 المصادر:» with exact sources (book, chapter, hadith number; the sharh book you used), then hashtags. Max 2,000 characters.
@@ -57,7 +57,8 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
   "points": [{"title": "…", "body": "line<br><span class=\"hl\">highlight</span>"}],
   "outro_big": "short takeaway",
   "outro_mid": "one more line",
-  "scholar": "optional, HTML; defaults to الشيخ محمد بن صالح<br>العثيمين"
+  "scholar": "optional, HTML; defaults to الشيخ محمد بن صالح<br>العثيمين",
+  "scholar_dua": "optional; defaults to رحمه الله — use حفظه الله for a living scholar"
 }
 ```
 `gold_words`: `[page, firstWord, endWord)` ranges coloured gold. Write «صلى الله عليه وسلم» in full (the font has no ﷺ glyph). Only the Arabic font DejaVu Sans is available.
