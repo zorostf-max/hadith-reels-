@@ -22,9 +22,9 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 7. Commit + push the json, mp4 and txt.
 8. Telegram (AnythingMCP connector, tool `telegram_bot_send_video`, chat_id from state): send each video by its raw URL with a short caption «(١/٣) الحديث رقم N — <موضوع قصير> — يُنشر <الوقت>». Then `telegram_bot_send_message` with:
    «📋 دفعة <التاريخ>: ٣ فيديوهات جاهزة للمراجعة.
-   ✅ للموافقة على الكل أرسل: موافق
-   ✅ لبعضها: موافق ١ ٣
-   ❌ للرفض مع ملاحظة: رفض ٢ <ملاحظتك>
+   ✅ للموافقة على الكل أرسل: ok
+   ✅ لبعضها: ok 1 3
+   ❌ للرفض مع ملاحظة: no 2 <ملاحظتك>
    لن يُنشر شيء قبل موافقتك.»
 9. Set `pending_batch` = `{"publish_date": "<tomorrow YYYY-MM-DD>", "hadiths": [n1,n2,n3], "status": "awaiting", "approved": [], "rejected": [], "scheduled": {}}`, advance `next_hadith` past the new numbers (not past redone ones), clear `rejected_notes` entries you redid. Commit + push.
 
@@ -32,7 +32,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 
 1. `git pull`. Read `state.json`. If there is no `pending_batch`, or its status is `done`, stop quietly.
 2. Read new Telegram messages with `telegram_bot_get_updates` (this consumes them). Keep only messages from the owner's chat_id sent after the batch previews. Save the raw text of any you read into `pending_batch.messages` so later runs still see them.
-3. Interpret the owner's replies (Arabic, free wording is fine): «موافق» alone = all approved; «موافق ١ ٣» = those positions; «رفض ٢ …» = rejected with a note. Numbers refer to positions 1–3 in the batch. If the meaning is unclear, ask on Telegram and stop.
+3. Interpret the owner's replies. The owner's chosen reply words are English: `ok` / `yes` / `approve` alone = all approved; `ok 1 3` = those positions; `no 2 <note>` / `reject 2 <note>` = rejected with a note (the note may be in Arabic). Also accept the Arabic equivalents (موافق، رفض) and Arabic or Western digits, case-insensitive. Numbers refer to positions 1–3 in the batch. If the meaning is unclear, ask on Telegram and stop.
 4. For each approved, not-yet-scheduled video, in order, take the next slot of `publish_date` (08:00, 13:00, 20:00 Europe/Istanbul) that is still at least 10 minutes away; if none is left today, use the next day's slots. Schedule it with Metricool `createScheduledPost`, blogId from state, ONE post with providers instagram + youtube + tiktok:
    - media: the raw GitHub URL; text: the caption file content
    - instagramData `{"type":"REEL"}`
