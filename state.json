@@ -1,10 +1,33 @@
 {
-  "next_hadith": 2,
-  "published": [1],
-  "pending_batch": null,
+  "next_hadith": 5,
+  "published": [
+    1
+  ],
+  "pending_batch": {
+    "publish_date": "2026-11-07",
+    "hadiths": [
+      2,
+      3,
+      4
+    ],
+    "status": "awaiting",
+    "approved": [],
+    "rejected": [],
+    "scheduled": {},
+    "preview_message_ids": [
+      128,
+      129,
+      130,
+      131
+    ]
+  },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",
   "metricool_blog_id": "7884161",
-  "slots": ["08:00", "13:00", "20:00"],
+  "slots": [
+    "08:00",
+    "13:00",
+    "20:00"
+  ],
   "timezone": "Europe/Istanbul"
 }
