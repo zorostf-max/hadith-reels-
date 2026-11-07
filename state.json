@@ -61,5 +61,10 @@
     "20:00"
   ],
   "timezone": "Europe/Istanbul",
-  "telegram_last_update_id": 81690004
+  "telegram_last_update_id": 81690004,
+  "slot_themes": {
+    "08:00": "morning",
+    "13:00": "noon",
+    "20:00": "night"
+  }
 }

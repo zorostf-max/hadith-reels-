@@ -70,6 +70,37 @@ defs.innerHTML=`
 </radialGradient>
 `;
 
+// ---------- time-of-day theme (data "theme": morning | noon | night) ----------
+const THEMES={
+  night:  {sky:null, silhouette:'#010a0d', frame:'#021016', frameOp:.35, stars:1, moon:true, sun:null, tile:.22, lantern:1, win:1, parts:1},
+  morning:{sky:[[0,'#141a3d'],[.28,'#2c2d5e'],[.52,'#6a4777'],[.70,'#c46f6f'],[.84,'#f09a62'],[1,'#ffd08a']],
+           silhouette:'#170c1a', frame:'#0d0a1f', frameOp:.66, stars:.35, moon:false,
+           sun:{x:540,y0:1540,y1:1425,r:88,glowR:520,core:'#fff3cf',glow:'#ffab52',rays:false}, tile:.15, lantern:.45, win:.55, parts:.8},
+  noon:   {sky:[[0,'#06375a'],[.35,'#0f5f8c'],[.70,'#3d97c0'],[1,'#9fd6e6']],
+           silhouette:'#06222f', frame:'#031a26', frameOp:.74, stars:0, moon:false,
+           sun:{x:700,y0:150,y1:150,r:62,glowR:420,core:'#fffbe9',glow:'#fff0b8',rays:true}, tile:.14, lantern:.15, win:.12, parts:.5},
+};
+const THEME=THEMES[(window.DATA&&window.DATA.theme)||'night']||THEMES.night;
+if(THEME.sky){
+  document.getElementById('stage').style.background='#000';
+  defs.innerHTML+=`<linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">${THEME.sky.map(([o,c])=>`<stop offset="${o}" stop-color="${c}"/>`).join('')}</linearGradient>
+  <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="${THEME.sun.glow}" stop-opacity=".85"/><stop offset=".35" stop-color="${THEME.sun.glow}" stop-opacity=".32"/><stop offset="1" stop-color="${THEME.sun.glow}" stop-opacity="0"/></radialGradient>`;
+  el('rect',{x:0,y:0,width:W,height:H,fill:'url(#skyG)'});
+}
+// frame shading: dark where the text sits, fading near the horizon so the sky shows
+defs.innerHTML+=`<linearGradient id="frameG" gradientUnits="userSpaceOnUse" x1="0" y1="120" x2="0" y2="1620">
+  <stop offset="0" stop-color="${THEME.frame}" stop-opacity="${THEME.sky ? .55 : 1}"/><stop offset=".22" stop-color="${THEME.frame}" stop-opacity="1"/>
+  <stop offset=".80" stop-color="${THEME.frame}" stop-opacity="1"/><stop offset="1" stop-color="${THEME.frame}" stop-opacity="${THEME.sky ? .15 : 1}"/></linearGradient>`;
+let sunG=null,sunRays=null;
+if(THEME.sun){
+  sunG=el('g',{});
+  el('circle',{r:THEME.sun.glowR,fill:'url(#sunGlow)'},sunG);
+  if(THEME.sun.rays){sunRays=el('g',{stroke:THEME.sun.core,'stroke-width':3,opacity:.35,'stroke-linecap':'round'},sunG);
+    for(let i=0;i<16;i++){const a=i/16*Math.PI*2,r0=THEME.sun.r+22,r1=THEME.sun.r+(i%2?60:95);
+      el('line',{x1:(r0*Math.cos(a)).toFixed(1),y1:(r0*Math.sin(a)).toFixed(1),x2:(r1*Math.cos(a)).toFixed(1),y2:(r1*Math.sin(a)).toFixed(1)},sunRays);}}
+  el('circle',{r:THEME.sun.r,fill:THEME.sun.core},sunG);
+}
+
 // stars
 const starsG=el('g',{});
 function rnd(i){const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x);}
@@ -77,12 +108,13 @@ const stars=[];
 for(let i=0;i<90;i++){const s=el('circle',{cx:rnd(i)*W,cy:rnd(i+500)*1150,r:0.8+rnd(i+900)*2.2,fill:'#fff6dc'},starsG);stars.push(s);}
 
 // tile pattern layer
-const tile=el('rect',{x:-200,y:-200,width:1480,height:2320,fill:'url(#tile)',mask:'url(#tileMask)',opacity:.22});
+const tile=el('rect',{x:-200,y:-200,width:1480,height:2320,fill:'url(#tile)',mask:'url(#tileMask)',opacity:THEME.tile});
 
 // moon
 const moonG=el('g',{});
 el('circle',{cx:0,cy:0,r:120,fill:'url(#moonGlow)'},moonG);
 const moon=el('path',{d:'M 18 -52 A 56 56 0 1 0 18 52 A 44 44 0 1 1 18 -52 Z',fill:'url(#goldG)'},moonG);
+if(!THEME.moon)moonG.setAttribute('display','none');
 
 // rosette
 function starPath(n,k,R){let d='';for(let i=0;i<=n;i++){const a=(i*k%n)/n*Math.PI*2-Math.PI/2;d+=(i?'L':'M')+(R*Math.cos(a)).toFixed(2)+' '+(R*Math.sin(a)).toFixed(2);}return d+'Z';}
@@ -102,10 +134,11 @@ function archD(x0,x1,y0,yBottom){const cx=(x0+x1)/2,w=x1-x0;
 const arch1=el('path',{d:archD(90,990,640,1620),fill:'none',stroke:'url(#goldG)','stroke-width':5,opacity:.85});
 const arch2=el('path',{d:archD(116,964,655,1620),fill:'none',stroke:'url(#goldG)','stroke-width':1.8,opacity:.6});
 [arch1,arch2].forEach(p=>{const L=p.getTotalLength();p.dataset.L=L;p.setAttribute('stroke-dasharray',L);});
-const archFill=el('path',{d:archD(116,964,655,1620)+' Z',fill:'#021016',opacity:.0});
+const archFill=el('path',{d:archD(116,964,655,1620)+' Z',fill:'url(#frameG)',opacity:.0});
+if(sunG)bg.appendChild(sunG); // sun sits in front of the frame shading, behind the mosque
 
 // mosque silhouette
-const mosque=el('g',{fill:'#010a0d'});
+const mosque=el('g',{fill:THEME.silhouette});
 (function(){
   const base=1700;
   el('rect',{x:0,y:base,width:W,height:H-base},mosque);
@@ -199,7 +232,10 @@ const ramp=(t,a,b)=>ease(clamp((t-a)/(b-a)));
 function sceneEnv(t,[a,b],fin=.7,fout=.6){return ramp(t,a,a+fin)*(1-ramp(t,b-fout,b));}
 const staged=[...document.querySelectorAll('.st')].map(e=>({e,sc:e.closest('.scene').id,a:+e.dataset.a,zoom:e.dataset.zoom}));
 window.render=function(t){
-  stars.forEach((s,i)=>s.setAttribute('opacity',(0.25+0.75*(0.5+0.5*Math.sin(t*(1+rnd(i)*2)+i))).toFixed(3)));
+  stars.forEach((s,i)=>s.setAttribute('opacity',(THEME.stars*(0.25+0.75*(0.5+0.5*Math.sin(t*(1+rnd(i)*2)+i)))).toFixed(3)));
+  if(sunG){const sy=THEME.sun.y0+(THEME.sun.y1-THEME.sun.y0)*ramp(t,0,Math.min(DUR,40));
+    sunG.setAttribute('transform',`translate(${THEME.sun.x} ${sy.toFixed(1)}) scale(${(1+0.025*Math.sin(t*0.9)).toFixed(4)})`);
+    if(sunRays)sunRays.setAttribute('transform',`rotate(${(t*4).toFixed(2)})`);}
   tile.setAttribute('transform',`translate(${(t*6)%120} ${(t*4)%120})`);
   moonG.setAttribute('transform',`translate(540 ${300+Math.sin(t*0.5)*6})`);
   const draw=ramp(t,0.2,3.6);
@@ -207,17 +243,17 @@ window.render=function(t){
   rosPaths.forEach((p,i)=>p.setAttribute('stroke-dashoffset',(p.dataset.L*(1-clamp(draw*1.2-i*0.05))).toFixed(1)));
   const ad=ramp(t,0.6,3.2);
   [arch1,arch2].forEach(p=>p.setAttribute('stroke-dashoffset',(p.dataset.L*(1-ad)).toFixed(1)));
-  archFill.setAttribute('opacity',(0.35*ramp(t,1,3)).toFixed(3));
+  archFill.setAttribute('opacity',(THEME.frameOp*ramp(t,1,3)).toFixed(3));
   const mr=ramp(t,0,2.2);
   mosque.setAttribute('transform',`translate(0 ${(1-mr)*260})`);
   wins.setAttribute('transform',`translate(0 ${(1-mr)*260})`);
-  winList.forEach((w,i)=>w.setAttribute('opacity',(0.55+0.4*Math.sin(t*2+i*1.7)*0.5+0.2).toFixed(3)));
+  winList.forEach((w,i)=>w.setAttribute('opacity',(THEME.win*(0.55+0.4*Math.sin(t*2+i*1.7)*0.5+0.2)).toFixed(3)));
   lanterns.forEach((L,i)=>{const drop=ramp(t,0.3+i*0.25,2.0+i*0.25);const ang=Math.sin(t*1.1+i*1.3)*4.5;
     L.g.setAttribute('transform',`translate(${L.x} ${-260+drop*260}) rotate(${ang.toFixed(2)})`);
-    L.g.querySelectorAll('.lg').forEach(g=>g.setAttribute('opacity',(0.75+0.25*Math.sin(t*3+i)).toFixed(3)));});
+    L.g.querySelectorAll('.lg').forEach(g=>g.setAttribute('opacity',(THEME.lantern*(0.75+0.25*Math.sin(t*3+i))).toFixed(3)));});
   parts.forEach((p,i)=>{const y=1900-((t*p.sp+p.ph)%1900);
     p.c.setAttribute('cx',(p.x+Math.sin(t*0.8+i)*p.amp).toFixed(1));p.c.setAttribute('cy',y.toFixed(1));
-    p.c.setAttribute('opacity',(0.15+0.55*Math.sin((y/1900)*Math.PI)).toFixed(3));});
+    p.c.setAttribute('opacity',(THEME.parts*(0.15+0.55*Math.sin((y/1900)*Math.PI))).toFixed(3));});
   document.getElementById('hdr').style.opacity=(ramp(t,3,4)*(1-ramp(t,DUR-1.5,DUR-0.5))).toFixed(3);
   document.getElementById('ftr').style.opacity=(0.85*ramp(t,2,3.5)*(1-ramp(t,T.outro[0]-0.5,T.outro[0]+0.2))).toFixed(3);
   for(const id in T){const s=document.getElementById(id);const env=sceneEnv(t,T[id]);const k=ramp(t,T[id][0],T[id][0]+0.9);

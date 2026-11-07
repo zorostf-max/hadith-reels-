@@ -1,7 +1,8 @@
 """Render a hadith reel from a data JSON file.
 
-Usage:  python3 render.py path/to/data.json path/to/output.mp4
-The data file follows the schema in README.md. Output: 1080x1920, 30 fps,
+Usage:  python3 render.py path/to/data.json path/to/output.mp4 [--theme morning|noon|night] [--check]
+Background follows the publishing time: "theme" in the data file (morning = 08:00, noon = 13:00,
+night = 20:00; default night), or --theme to override it. The data file follows the schema in README.md. Output: 1080x1920, 30 fps,
 H.264 + AAC (calm ambience bed from tool/audio by default; "audio": "silent" in the data file turns it off), kept under ~18 MB so Telegram can fetch it by URL.
 """
 import sys, os, json, asyncio, subprocess, shutil, tempfile
@@ -69,6 +70,11 @@ def main():
     work = tempfile.mkdtemp(prefix="reel_")
     shutil.copy(os.path.join(HERE, "template.html"), os.path.join(work, "index.html"))
     data = json.load(open(data_path, encoding="utf-8"))
+    for i, arg in enumerate(sys.argv):
+        if arg.startswith("--theme"):
+            data["theme"] = arg.split("=", 1)[1] if "=" in arg else sys.argv[i + 1]
+    if data.get("theme", "night") not in ("morning", "noon", "night"):
+        raise SystemExit("theme must be morning, noon or night")
     with open(os.path.join(work, "data.js"), "w", encoding="utf-8") as f:
         f.write("window.DATA=" + json.dumps(data, ensure_ascii=False) + ";")
     if check_only:
