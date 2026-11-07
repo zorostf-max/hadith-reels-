@@ -11,7 +11,11 @@
       4
     ],
     "status": "awaiting",
-    "approved": [],
+    "approved": [
+      2,
+      3,
+      4
+    ],
     "rejected": [],
     "scheduled": {},
     "preview_message_ids": [
@@ -19,6 +23,14 @@
       129,
       130,
       131
+    ],
+    "messages": [
+      {
+        "update_id": 81690004,
+        "message_id": 132,
+        "date": 1793993459,
+        "text": "Ok"
+      }
     ]
   },
   "rejected_notes": {},
@@ -29,5 +41,6 @@
     "13:00",
     "20:00"
   ],
-  "timezone": "Europe/Istanbul"
+  "timezone": "Europe/Istanbul",
+  "telegram_last_update_id": 81690004
 }
