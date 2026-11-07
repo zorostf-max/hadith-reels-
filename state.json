@@ -1,7 +1,10 @@
 {
   "next_hadith": 5,
   "published": [
-    1
+    1,
+    2,
+    3,
+    4
   ],
   "pending_batch": {
     "publish_date": "2026-11-07",
@@ -10,14 +13,30 @@
       3,
       4
     ],
-    "status": "awaiting",
+    "status": "done",
     "approved": [
       2,
       3,
       4
     ],
     "rejected": [],
-    "scheduled": {},
+    "scheduled": {
+      "2": {
+        "slot": "2026-11-07T08:00+03:00",
+        "metricool_id": 419658672,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-7136280486682737647"
+      },
+      "3": {
+        "slot": "2026-11-07T13:00+03:00",
+        "metricool_id": 419658778,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-5958466417929794036"
+      },
+      "4": {
+        "slot": "2026-11-07T20:00+03:00",
+        "metricool_id": 419658925,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=7126892751411888502"
+      }
+    },
     "preview_message_ids": [
       128,
       129,
