@@ -197,6 +197,7 @@ document.getElementById('hdr').textContent=D.header;
 const T={}; let cur=0; const order=[];
 function addScene(id,html,dur){if(D.durations&&D.durations[id])dur=Math.max(dur*0.5,D.durations[id]);const d=document.createElement('div');d.className='scene';d.id=id;d.innerHTML=html;scenesEl.appendChild(d);T[id]=[cur,cur+dur];cur+=dur;order.push(id);return d;}
 const wc=s=>s.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length;
+if(D.hook)addScene('hook',`<div class="big st" data-a="0.15" data-zoom="1" style="font-size:76px;line-height:1.5">${D.hook}</div>`,3.4);
 addScene('intro',`<div class="small st" data-a="0.6">بسم الله الرحمن الرحيم</div><div class="rule"></div><div class="big st" data-a="1.5" data-zoom="1">${D.title}</div><div class="mid st" data-a="2.5" style="margin-top:26px;color:#f6e2a8">${D.subtitle||'من صحيح الإمام البخاري'}</div>`,5.2);
 const isn=D.isnad.map((b,i)=>`<div class="mid st" data-a="${0.3+i*2.2}">${b}</div>`).join('<div class="rule"></div>');
 addScene('isnad',isn,Math.max(5.5,3+D.isnad.length*2.4));
@@ -218,7 +219,7 @@ D.points.forEach((p,i)=>{
   const n=String(i+1).split('').map(c=>AR[+c]).join('');
   addScene('pt'+i,`<div class="badge"><svg viewBox="-75 -75 150 150" width="150" height="150" class="star"></svg><b>${n}</b></div><div class="ptitle">${p.title}</div><div class="pbody">${p.body}</div>`,Math.max(7.5,3.5+wc(p.title+' '+p.body)*0.32));
 });
-addScene('outro',`<div class="big" style="font-size:84px">${D.outro_big}</div><div class="mid" style="margin-top:26px">${D.outro_mid}</div><div class="rule"></div><div class="small" style="font-size:38px">المصادر في الوصف ⬇</div><div class="small" style="font-size:36px;direction:ltr;color:#e3c27a">@963aperture_soul</div>`,6);
+addScene('outro',`<div class="big" style="font-size:84px">${D.outro_big}</div><div class="mid" style="margin-top:26px">${D.outro_mid}</div><div class="rule"></div>${D.question?`<div class="mid" style="font-size:46px;color:#f6e2a8;margin-bottom:22px">${D.question}</div>`:''}<div class="small" style="font-size:38px">المصادر في الوصف ⬇</div><div class="small" style="font-size:36px;direction:ltr;color:#e3c27a">@963aperture_soul</div>`,D.question?8.5:6);
 const DUR=cur;
 // badge stars
 document.querySelectorAll('svg.star').forEach(s=>{
