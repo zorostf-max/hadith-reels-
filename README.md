@@ -10,10 +10,10 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 
 ---
 
-## RUNBOOK A — prepare a batch (runs the evening before a publishing day)
+## RUNBOOK A — prepare a batch (runs on each publishing day at ~17:20, so the previews reach the owner around the time the day's last video goes out at 18:00; the batch is for the next publishing day, two days later)
 
-1. `git pull`. Read `state.json`. If `pending_batch` exists with status `awaiting` and its date is today or later, stop (a batch is already waiting for approval).
-2. Pick **2** hadith numbers (owner's request since 2026-11-07: 2 videos per publishing day, at 10:00 and 18:00 — the best times on TikTok, YouTube and Instagram per Metricool): first any numbers listed in `rejected_notes` (redo them and apply the owner's note), then continue from `next_hadith`.
+1. `git pull`. Read `state.json`. If `pending_batch` exists with status `awaiting` and its `publish_date` is later than today, stop (a batch is already waiting for approval). If it is still `awaiting` (or partly unanswered) and its `publish_date` is today or earlier, the owner did not reply before the single morning check: its unapproved, unrejected hadiths were NOT published, so put them first in the new batch (their data/videos already exist; re-render only if the theme for the new slot differs) and do not count them as published.
+2. Pick **2** hadith numbers — after any carried-over ones from step 1 — (owner's request since 2026-11-07: 2 videos per publishing day, at 10:00 and 18:00 — the best times on TikTok, YouTube and Instagram per Metricool): first any numbers listed in `rejected_notes` (redo them and apply the owner's note), then continue from `next_hadith`.
 3. For each hadith, research with WebSearch/WebFetch:
    - The exact text of Sahih al-Bukhari hadith N (e.g. dorar.net, sunnah.com, shamela.ws). Use the narrator chain only from the Companion onward (عن ... رضي الله عنه/عنها).
    - Ibn Uthaymeen's explanation of this hadith: his شرح صحيح البخاري, or his other works on the same hadith (شرح الأربعين النووية، شرح رياض الصالحين، فتاوى). Use only points you actually found in a source, paraphrased faithfully, never invented. If no explanation by Ibn Uthaymeen can be found for this hadith, the owner's rule is: use the verified explanation of another trusted Saudi scholar of Ahl al-Sunnah wal-Jama'ah — for example الشيخ عبد العزيز بن باز، الشيخ صالح الفوزان، الشيخ عبد المحسن العباد، الشيخ عبد الكريم الخضير، الشيخ صالح آل الشيخ، أو فتاوى اللجنة الدائمة — taken from their own books, official websites (e.g. binbaz.org.sa, alfawzan.af.org.sa, shkhudheir.com) or recorded lessons. Name that scholar accurately in the "الشرح" scene (`scholar` field), in the caption heading («من شرح الشيخ … حفظه الله / رحمه الله» as fits) and in the sources, and mention the substitution in the Telegram preview message. Never use scholars outside that description, and never attribute a point to a scholar without a source. If none of them has a findable explanation, skip the hadith and say why in the Telegram message.
@@ -27,10 +27,11 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
    ✅ للموافقة على الكل أرسل: ok
    ✅ لأحدهما: ok 1
    ❌ للرفض مع ملاحظة: no 2 <ملاحظتك>
+   ⏰ تُفحص موافقتك مرة واحدة الساعة ٩:٢٥ صباح يوم النشر (<التاريخ>)، فأرسل ردّك قبلها.
    لن يُنشر شيء قبل موافقتك.»
-9. Set `pending_batch` = `{"publish_date": "<tomorrow YYYY-MM-DD>", "hadiths": [n1,n2], "status": "awaiting", "approved": [], "rejected": [], "scheduled": {}}`, advance `next_hadith` past the new numbers (not past redone ones), clear `rejected_notes` entries you redid. Commit + push.
+9. Set `pending_batch` = `{"publish_date": "<the next publishing day = today + 2 days, YYYY-MM-DD>", "hadiths": [n1,n2], "status": "awaiting", "approved": [], "rejected": [], "scheduled": {}}`, advance `next_hadith` past the new numbers (not past redone ones), clear `rejected_notes` entries you redid. Commit + push.
 
-## RUNBOOK B — check approval and schedule (runs on publishing days at ~09:25 and 17:25)
+## RUNBOOK B — check approval and schedule (runs ONCE on each publishing day at ~09:25 — owner's request: a single approval check)
 
 1. `git pull`. Read `state.json`. If there is no `pending_batch`, or its status is `done`, stop quietly.
 2. Read new Telegram messages with `telegram_bot_get_updates` (this consumes them). Keep only messages from the owner's chat_id sent after the batch previews. Save the raw text of any you read into `pending_batch.messages` so later runs still see them.
