@@ -1,5 +1,5 @@
 {
-  "next_hadith": 5,
+  "next_hadith": 7,
   "published": [
     1,
     2,
@@ -7,50 +7,23 @@
     4
   ],
   "pending_batch": {
-    "publish_date": "2026-11-07",
+    "publish_date": "2026-11-09",
     "hadiths": [
-      2,
-      3,
-      4
+      5,
+      6
     ],
-    "status": "done",
-    "approved": [
-      2,
-      3,
-      4
-    ],
+    "status": "awaiting",
+    "approved": [],
     "rejected": [],
-    "scheduled": {
-      "2": {
-        "slot": "2026-11-07T08:00+03:00",
-        "metricool_id": 419658672,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-7136280486682737647"
-      },
-      "3": {
-        "slot": "2026-11-07T13:00+03:00",
-        "metricool_id": 419658778,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-5958466417929794036"
-      },
-      "4": {
-        "slot": "2026-11-07T20:00+03:00",
-        "metricool_id": 419658925,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=7126892751411888502"
-      }
-    },
+    "scheduled": {},
     "preview_message_ids": [
-      128,
-      129,
-      130,
-      131
+      134,
+      135,
+      136
     ],
-    "messages": [
-      {
-        "update_id": 81690004,
-        "message_id": 132,
-        "date": 1793993459,
-        "text": "Ok"
-      }
-    ]
+    "notes": {
+      "6": "Fallback scholar: Abd al-Karim al-Khudair (Ibn Uthaymeen's sharh of this hadith was not retrievable this run)"
+    }
   },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",
