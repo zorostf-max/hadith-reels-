@@ -3,7 +3,8 @@
 Usage:  python3 render.py path/to/data.json path/to/output.mp4 [--theme morning|noon|night] [--check]
 Background follows the publishing time: "theme" in the data file (morning = 08:00, noon = 13:00,
 night = 20:00; default night), or --theme to override it. The data file follows the schema in README.md. Output: 1080x1920, 30 fps,
-H.264 + AAC (calm ambience bed from tool/audio by default; "audio": "silent" in the data file turns it off), kept under ~18 MB so Telegram can fetch it by URL.
+H.264 + AAC, kept under ~18 MB so Telegram can fetch it by URL. Sound: the per-scene narration clips in
+"narration" (each scene is stretched to fit its clip); otherwise silent ("audio": "ambience" is rejected by the owner).
 """
 import sys, os, json, asyncio, subprocess, shutil, tempfile
 from playwright.async_api import async_playwright
@@ -75,6 +76,19 @@ def main():
             data["theme"] = arg.split("=", 1)[1] if "=" in arg else sys.argv[i + 1]
     if data.get("theme", "night") not in ("morning", "noon", "night"):
         raise SystemExit("theme must be morning, noon or night")
+    # Narration: {"<scene id>": "path/to/clip.mp3", ...} (paths relative to the data file).
+    # Each clip starts 0.35 s into its scene; the scene is stretched so the clip ends >= 0.6 s before it does.
+    clips = {}
+    for sid, rel in (data.get("narration") or {}).items():
+        p = rel if os.path.isabs(rel) else os.path.join(os.path.dirname(os.path.abspath(data_path)), rel)
+        if not os.path.exists(p):
+            raise SystemExit(f"narration clip missing for scene {sid}: {p}")
+        d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
+                                 capture_output=True, text=True, check=True).stdout.strip())
+        clips[sid] = (p, d)
+        need = round(d + 0.35 + 0.6, 2)
+        data.setdefault("durations", {})
+        data["durations"][sid] = max(data["durations"].get(sid, 0), need)
     with open(os.path.join(work, "data.js"), "w", encoding="utf-8") as f:
         f.write("window.DATA=" + json.dumps(data, ensure_ascii=False) + ";")
     if check_only:
@@ -99,6 +113,26 @@ def main():
                     os.path.join(work, "list.txt"), "-c", "copy", joined], check=True)
     tmp = out_path + ".tmp.mp4"
     amb = os.path.join(HERE, "audio", "calm_ambience.m4a")
+    missing = [s for s in clips if s not in timeline]
+    if missing:
+        raise SystemExit(f"narration scenes not in the timeline: {missing}; valid: {list(timeline)}")
+    if clips:
+        audio_in, parts_f = [], []
+        for k, (sid, (p, d)) in enumerate(clips.items()):
+            audio_in += ["-i", p]
+            ms = int((timeline[sid][0] + 0.35) * 1000)
+            parts_f.append(f"[{k + 1}:a]aresample=44100,aformat=channel_layouts=stereo,adelay={ms}|{ms}[a{k}]")
+        mix = "".join(f"[a{k}]" for k in range(len(clips)))
+        fc = ";".join(parts_f) + f";{mix}amix=inputs={len(clips)}:normalize=0,apad=whole_dur={dur:.2f}[aout]"
+        afilter = ["-filter_complex", fc]
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined, *audio_in, *afilter,
+                        "-map", "0:v", "-map", "[aout]", "-c:v", "libx264",
+                        "-preset", "veryfast", "-crf", "23", "-maxrate", "2M", "-bufsize", "4M",
+                        "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", "-t", f"{dur:.2f}",
+                        "-movflags", "+faststart", tmp], check=True)
+        os.rename(tmp, out_path)
+        print(f"done: {out_path} ({dur:.1f}s, {os.path.getsize(out_path)/1e6:.1f} MB, narrated scenes: {', '.join(clips)})")
+        return
     if data.get("audio", "silent") == "ambience" and os.path.exists(amb):
         audio_in = ["-stream_loop", "-1", "-i", amb]
         afilter = ["-af", f"afade=t=in:d=2,afade=t=out:st={max(dur - 3, 0):.2f}:d=3"]
