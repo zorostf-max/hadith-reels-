@@ -17,12 +17,13 @@
     "rejected": [],
     "scheduled": {},
     "preview_message_ids": [
-      134,
-      135,
-      136
+      138,
+      139,
+      140
     ],
     "notes": {
-      "6": "Fallback scholar: Abd al-Karim al-Khudair (Ibn Uthaymeen's sharh of this hadith was not retrievable this run)"
+      "6": "Fallback scholar: Abd al-Karim al-Khudair (Ibn Uthaymeen's sharh of this hadith was not retrievable this run)",
+      "narration": "2026-11-08 22:55: re-rendered 5 and 6 with Hijazi narration at owner's request; new previews sent (messages 138-140). Approval refers to the narrated versions."
     }
   },
   "rejected_notes": {},
