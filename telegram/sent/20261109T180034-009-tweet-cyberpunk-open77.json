@@ -1,0 +1,11 @@
+{
+ "job": "20261109T180034-009-tweet-cyberpunk-open77.json",
+ "ref": "tweet-cyberpunk-open77",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T18:00:51Z",
+ "message_id": 152,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

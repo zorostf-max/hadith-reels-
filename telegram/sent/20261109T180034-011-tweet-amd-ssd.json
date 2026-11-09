@@ -1,0 +1,11 @@
+{
+ "job": "20261109T180034-011-tweet-amd-ssd.json",
+ "ref": "tweet-amd-ssd",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T18:00:55Z",
+ "message_id": 154,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

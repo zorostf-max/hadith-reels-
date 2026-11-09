@@ -1,0 +1,11 @@
+{
+ "job": "20261109T180034-010-tweet-ps-portal.json",
+ "ref": "tweet-ps-portal",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T18:00:53Z",
+ "message_id": 153,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
