@@ -1,0 +1,11 @@
+{
+ "job": "20261109T213157-009-tweet-zelda-oot-remake-speedrun-glitches.json",
+ "ref": "tweet-zelda-oot-remake-speedrun-glitches",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T21:32:18Z",
+ "message_id": 159,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

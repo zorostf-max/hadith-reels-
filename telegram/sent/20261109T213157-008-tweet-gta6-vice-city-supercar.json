@@ -1,0 +1,11 @@
+{
+ "job": "20261109T213157-008-tweet-gta6-vice-city-supercar.json",
+ "ref": "tweet-gta6-vice-city-supercar",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T21:32:17Z",
+ "message_id": 158,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
