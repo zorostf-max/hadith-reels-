@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/maxresdefault_wbxErkr.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 On the first N7 Day since BioWare's closure, several Mass Effect voice actors joined fans in the #SaveMassEffect push to keep the series alive.\n\nhttps://www.eurogamer.net/mass-effect-cast-save-bioware-n7-day\n\n#MassEffect</code>"
+ },
+ "ref": "tweet-mass-effect-n7",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 On the first N7 Day since BioWare's closure, several Mass Effect voice actors joined fans in the #SaveMassEffect push to keep the series alive.\n\nhttps://www.eurogamer.net/mass-effect-cast-save-bioware-n7-day\n\n#MassEffect</code>"
+}

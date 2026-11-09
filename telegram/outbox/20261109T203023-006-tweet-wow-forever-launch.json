@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2026/09/28/wow-1790594365869.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 World of Warcraft Forever just had the biggest launch in WoW history, according to Blizzard.\n\nhttps://www.ign.com/articles/world-of-warcraft-forever-is-the-biggest-wow-launch-in-history\n\n#WorldOfWarcraft #Blizzard</code>"
+ },
+ "ref": "tweet-wow-forever-launch",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 World of Warcraft Forever just had the biggest launch in WoW history, according to Blizzard.\n\nhttps://www.ign.com/articles/world-of-warcraft-forever-is-the-biggest-wow-launch-in-history\n\n#WorldOfWarcraft #Blizzard</code>"
+}
