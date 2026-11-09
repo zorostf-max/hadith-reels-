@@ -1,0 +1,11 @@
+{
+ "job": "20261109T182912-010-news-mouz-no1.json",
+ "ref": "news-mouz-no1",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T18:39:56Z",
+ "message_id": 32,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
