@@ -1,0 +1,5 @@
+{
+ "method": "getMe",
+ "params": {},
+ "ref": "test-getme"
+}
