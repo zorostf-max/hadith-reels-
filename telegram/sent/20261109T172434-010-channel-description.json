@@ -1,0 +1,11 @@
+{
+ "job": "20261109T172434-010-channel-description.json",
+ "ref": "channel-description",
+ "method": "setChatDescription",
+ "ok": true,
+ "sent_at": "2026-11-09T17:24:54Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

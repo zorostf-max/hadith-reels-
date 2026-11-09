@@ -1,0 +1,11 @@
+{
+ "job": "20261109T172434-009-channel-photo.json",
+ "ref": "channel-photo",
+ "method": "setChatPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T17:24:52Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
