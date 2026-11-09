@@ -1,0 +1,11 @@
+{
+ "job": "20261109T223210-011-tweet-gta6-preorders.json",
+ "ref": "tweet-gta6-preorders",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T22:32:37Z",
+ "message_id": 163,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

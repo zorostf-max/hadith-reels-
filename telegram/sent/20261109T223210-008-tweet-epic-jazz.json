@@ -1,0 +1,11 @@
+{
+ "job": "20261109T223210-008-tweet-epic-jazz.json",
+ "ref": "tweet-epic-jazz",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T22:32:33Z",
+ "message_id": 160,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

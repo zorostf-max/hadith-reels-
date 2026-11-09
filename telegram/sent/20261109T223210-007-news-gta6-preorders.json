@@ -1,0 +1,11 @@
+{
+ "job": "20261109T223210-007-news-gta6-preorders.json",
+ "ref": "news-gta6-preorders",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T22:32:31Z",
+ "message_id": 43,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

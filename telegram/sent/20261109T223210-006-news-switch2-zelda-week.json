@@ -1,0 +1,11 @@
+{
+ "job": "20261109T223210-006-news-switch2-zelda-week.json",
+ "ref": "news-switch2-zelda-week",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T22:32:30Z",
+ "message_id": 42,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

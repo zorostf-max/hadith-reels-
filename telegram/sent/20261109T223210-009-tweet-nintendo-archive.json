@@ -1,0 +1,11 @@
+{
+ "job": "20261109T223210-009-tweet-nintendo-archive.json",
+ "ref": "tweet-nintendo-archive",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T22:32:34Z",
+ "message_id": 161,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

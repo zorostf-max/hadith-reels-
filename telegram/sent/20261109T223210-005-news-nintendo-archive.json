@@ -1,0 +1,11 @@
+{
+ "job": "20261109T223210-005-news-nintendo-archive.json",
+ "ref": "news-nintendo-archive",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T22:32:28Z",
+ "message_id": 41,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

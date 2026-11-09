@@ -1,0 +1,11 @@
+{
+ "job": "20261109T223210-004-news-epic-jazz.json",
+ "ref": "news-epic-jazz",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T22:32:27Z",
+ "message_id": 40,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
