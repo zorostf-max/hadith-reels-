@@ -1,0 +1,11 @@
+{
+ "job": "20261109T193221-008-news-nvidia-china-cloud.json",
+ "ref": "news-nvidia-china-cloud",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T19:32:38Z",
+ "message_id": 33,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

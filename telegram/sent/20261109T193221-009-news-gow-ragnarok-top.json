@@ -1,0 +1,11 @@
+{
+ "job": "20261109T193221-009-news-gow-ragnarok-top.json",
+ "ref": "news-gow-ragnarok-top",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T19:32:40Z",
+ "message_id": 34,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
