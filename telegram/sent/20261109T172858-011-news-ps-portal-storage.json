@@ -1,0 +1,11 @@
+{
+ "job": "20261109T172858-011-news-ps-portal-storage.json",
+ "ref": "news-ps-portal-storage",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T17:29:15Z",
+ "message_id": 24,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

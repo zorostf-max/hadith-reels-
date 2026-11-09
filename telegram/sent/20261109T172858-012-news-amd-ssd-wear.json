@@ -1,0 +1,11 @@
+{
+ "job": "20261109T172858-012-news-amd-ssd-wear.json",
+ "ref": "news-amd-ssd-wear",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T17:29:16Z",
+ "message_id": 25,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
