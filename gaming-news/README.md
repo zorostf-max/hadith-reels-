@@ -38,17 +38,18 @@ Files: `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an 
 6. For each job that `wait` reports as ok, append its line to `posted.txt` (time in GMT+3, source, link). Then `git add gaming-news && git commit -m "news: N posts" && git push` (pull --rebase and retry once if the push is rejected).
 7. If a feed in `feed_errors` keeps failing, or the bot cannot post (e.g. it lost admin rights), queue one short `sendMessage` to the owner (`state.json` → `telegram_chat_id`) — at most once a day.
 
-## Tweets for X (owner posts them by hand — added 2026-11-09)
+## Tweets for X (owner posts them by hand)
 
-The owner has no paid X API, so he posts to X (@AbdulbariH2771) himself. In each hourly run, after the channel posts:
+The owner has no paid X API, so he posts to X (@AbdulbariH2771) himself. **The hourly run does NOT send tweets.** A separate scheduled task sends **one tweet at each of the owner's 4 times: 10:15, 13:15, 16:15 and 20:00 Istanbul** (owner's request 2026-11-09):
 
-- Pick **at most 1** item for X from what you just posted: the most important story (big releases/announcements, major esports results, notable hardware). Send **at most 5 tweets per Istanbul day**, and only between **10:00 and 23:00 Istanbul** — outside those hours send none. Count today's tweets in `gaming-news/tweets.txt` (one line per tweet: `time GMT+3<TAB>link`).
-- Queue a `sendPhoto` job to the owner's private chat (`state.json → telegram_chat_id`) with the same image and this caption (`parse_mode` HTML):
+1. `git pull`. Candidates = channel posts in `posted.txt` (not `(same story)` lines) from the last 8 hours whose link is not in `tweets.txt`. If there are none, run `fetch_news.py --hours 4` and use a qualifying item from it instead (same topic rules). If still none, send nothing.
+2. Pick the **single most important** story: big release dates/announcements, major esports results, notable hardware or platform news — over minor deals and rumours.
+3. Queue a `sendPhoto` job to the owner's private chat (`state.json → telegram_chat_id`) with the story's image and this caption (`parse_mode` HTML):
 
-  ```
-  🐦 تغريدة جاهزة — اضغط على النص لنسخه:
+   ```
+   🐦 تغريدة جاهزة — اضغط على النص لنسخه:
 
-  <code>TWEET TEXT</code>
-  ```
-  TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words: an emoji, the news in one or two short sentences, the source link, and 1–2 hashtags. Escape `&`, `<`, `>`.
-  The owner saves the image and pastes the text on X. Append the line to `tweets.txt` with the other files and push in the same commit.
+   <code>TWEET TEXT</code>
+   ```
+   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words: an emoji, the news in one or two short sentences, the source link, and 1–2 hashtags. Escape `&`, `<`, `>`. If you need the image URL, take it from the channel post (`telegram/sent` does not keep it) or from `fetch_news.py`.
+4. Append `time GMT+3<TAB>link` to `tweets.txt`, commit + push, then `tg.py wait`.
