@@ -1,0 +1,11 @@
+{
+ "job": "20261109T233215-007-tweet-skydance-layoffs.json",
+ "ref": "tweet-skydance-layoffs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T23:32:39Z",
+ "message_id": 164,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

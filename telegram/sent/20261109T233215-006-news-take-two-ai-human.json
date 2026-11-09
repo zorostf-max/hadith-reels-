@@ -1,0 +1,11 @@
+{
+ "job": "20261109T233215-006-news-take-two-ai-human.json",
+ "ref": "news-take-two-ai-human",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T23:32:38Z",
+ "message_id": 46,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
