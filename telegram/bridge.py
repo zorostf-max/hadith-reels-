@@ -75,6 +75,9 @@ def send_outbox(token):
         if not name.endswith(".json"):
             continue
         path = os.path.join(OUTBOX, name)
+        if os.path.exists(os.path.join(SENT, name)):
+            os.remove(path)  # already sent by an earlier run: never send twice
+            continue
         try:
             job = json.load(open(path))
             # Scheduled job: leave it in the outbox until its time comes.

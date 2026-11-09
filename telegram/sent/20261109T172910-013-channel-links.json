@@ -1,0 +1,10 @@
+{
+ "job": "20261109T172910-013-channel-links.json",
+ "ref": "channel-links",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-09T17:29:38Z",
+ "message_id": null,
+ "error": null,
+ "note": "sent by run 42665076257 whose results were lost; message_id unknown"
+}
