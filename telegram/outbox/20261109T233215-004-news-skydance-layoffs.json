@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/09/skydance-tmnt-1794259767892.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Skydance Games cuts jobs after the Paramount–Warner Bros. merger</b>\n\nSkydance Games has confirmed layoffs, roughly a month after Paramount's acquisition of Warner Bros. Discovery brought the companies' game teams together. The studio says it is scaling down some of its projects as the merged division reorganises.\n\n🕒 Nov 10, 2026 · 00:36 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/skydance-games-confirms-layoffs-following-warner-bros-paramount-merger\">IGN</a>\n\n#Skydance #Layoffs #GamingNews"
+ },
+ "ref": "news-skydance-layoffs",
+ "fallback_text": "🎮 <b>Skydance Games cuts jobs after the Paramount–Warner Bros. merger</b>\n\nSkydance Games has confirmed layoffs, roughly a month after Paramount's acquisition of Warner Bros. Discovery brought the companies' game teams together. The studio says it is scaling down some of its projects as the merged division reorganises.\n\n🕒 Nov 10, 2026 · 00:36 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/skydance-games-confirms-layoffs-following-warner-bros-paramount-merger\">IGN</a>\n\n#Skydance #Layoffs #GamingNews"
+}

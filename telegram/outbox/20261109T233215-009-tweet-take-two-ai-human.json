@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/Lucia-ai-background.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Asked about AI on Take-Two's earnings call, CEO Strauss Zelnick said making hit games \"remains the purview of human beings\". https://www.eurogamer.net/gta-6-ai-strauss-zelnick-earnings-call-purview #GTA6 #TakeTwo</code>"
+ },
+ "ref": "tweet-take-two-ai-human",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Asked about AI on Take-Two's earnings call, CEO Strauss Zelnick said making hit games \"remains the purview of human beings\". https://www.eurogamer.net/gta-6-ai-strauss-zelnick-earnings-call-purview #GTA6 #TakeTwo</code>"
+}
