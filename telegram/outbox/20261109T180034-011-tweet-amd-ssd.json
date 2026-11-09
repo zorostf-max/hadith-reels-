@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/6e2eGX2VSocFcNeEdt85NB-1920-80.jpg",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ AMD GPU users report a misbehaving driver utility wearing down SSD health by about 1% a month. AMD says a fix is on the way.\n\nhttps://www.pcgamer.com/hardware/graphics-cards/amd-users-are-reporting-a-misfiring-utility-is-eating-ssd-health-by-1-percent-a-month-amd-says-a-fix-is-on-the-way-for-its-gpu-drivers/\n\n#AMD #PCHardware</code>",
+  "parse_mode": "HTML"
+ },
+ "ref": "tweet-amd-ssd",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ AMD GPU users report a misbehaving driver utility wearing down SSD health by about 1% a month. AMD says a fix is on the way.\n\nhttps://www.pcgamer.com/hardware/graphics-cards/amd-users-are-reporting-a-misfiring-utility-is-eating-ssd-health-by-1-percent-a-month-amd-says-a-fix-is-on-the-way-for-its-gpu-drivers/\n\n#AMD #PCHardware</code>"
+}
