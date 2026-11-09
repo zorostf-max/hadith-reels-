@@ -9,7 +9,7 @@ Owner's rules (2026-11-09):
 - Write in **English**, always with the **source** linked and the item's **publish time**.
 - Topics: game news and releases · esports and tournaments (CS2, Valorant, LoL…) · PC hardware and graphics cards · platforms and deals (PlayStation, Xbox, Nintendo, Steam, free games, big discounts).
 
-Files: `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an image URL) · `posted.txt` (log of every link already posted or skipped as a duplicate — one line per link: `time<TAB>source<TAB>url`).
+Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an image URL) · `posted.txt` (log of every link already posted or skipped as a duplicate — one line per link: `time<TAB>source<TAB>url`).
 
 ## RUNBOOK — hourly run
 
@@ -41,16 +41,20 @@ Files: `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an 
 
 ## Tweets for X (owner posts them by hand)
 
-The owner has no paid X API, so he posts to X (@AbdulbariH2771) himself. **The hourly run does NOT send tweets.** A separate scheduled task sends **one tweet at each of the owner's 4 times: 10:15, 13:15, 16:15 and 20:00 Istanbul** (owner's request 2026-11-09):
+The owner has no paid X API, so he copies each tweet into X (@AbdulbariH2771) himself and schedules it there. **Every story posted to the channel also gets one ready-to-copy tweet, sent to the owner's private chat in the same hourly run** (owner's request 2026-11-09 23:29; this replaces the earlier "one tweet at 10:15 / 13:15 / 16:15 / 20:00" tasks, which are disabled).
 
-1. `git pull`. Candidates = channel posts in `posted.txt` (not `(same story)` lines) from the last 8 hours whose link is not in `tweets.txt`. If there are none, run `fetch_news.py --hours 4` and use a qualifying item from it instead (same topic rules). If still none, send nothing.
-2. Pick the **single most important** story: big release dates/announcements, major esports results, notable hardware or platform news — over minor deals and rumours.
-3. Queue a `sendPhoto` job to the owner's private chat (`state.json → telegram_chat_id`) with the story's image and this caption (`parse_mode` HTML):
+In the hourly run, for each story chosen in step 3:
+
+1. Together with the channel job, queue a second `sendPhoto` job to the owner's private chat (`state.json → telegram_chat_id`) with the same image, `--ref tweet-<slug>`, a `--fallback-text` with the same caption, and this caption (`parse_mode` HTML):
 
    ```
    🐦 تغريدة جاهزة — اضغط على النص لنسخه:
 
    <code>TWEET TEXT</code>
    ```
-   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words: an emoji, the news in one or two short sentences, the source link, and 1–2 hashtags. Escape `&`, `<`, `>`. Get the story's image URL from `python3 gaming-news/fetch_news.py --hours 10 --limit 80 --include-posted` (match the link).
-4. Append `time GMT+3<TAB>link` to `tweets.txt`, commit + push, then `tg.py wait`.
+   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words: an emoji, the news in one or two short sentences, the source link, and 1–2 hashtags. Escape `&`, `<`, `>`. Only facts the source states.
+2. Queue the tweet jobs **after** all the channel jobs, in the same push, and `tg.py wait` them too.
+3. For each tweet job that `wait` reports as ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`).
+4. Catch-up: before choosing news, any link in `posted.txt` from the last 24 hours (not a `(same story)` line) that is missing from `tweets.txt` also gets its tweet in this run (image from `fetch_news.py --hours 24 --limit 80 --include-posted`, or a plain `sendMessage` if there is no image).
+
+No tweet is sent for a story that was not posted to the channel, and never two tweets for the same story.
