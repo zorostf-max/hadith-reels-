@@ -5,6 +5,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 - `tool/template.html` + `tool/render.py`: the animation. `python3 tool/render.py data/bukhari-NNN.json videos/bukhari-NNN.mp4` renders a video; add `--check` (and an output path in a scratch folder) to write one still per scene instead. `--theme morning|noon|night` overrides the data file's theme.
 - `data/bukhari-NNN.json`: content of each video. `videos/bukhari-NNN.mp4` + `.txt`: the video and its post caption.
 - **Background follows the publishing time** (owner's request): `morning` = 10:00 slot (dawn sky, sun rising behind the dome), `noon` (blue midday sky, sun high — not used while there are only 2 daily slots), `night` = 18:00 slot (night sky, crescent moon, lit lanterns). The mapping is in `state.json` → `slot_themes`.
+- **Telegram goes through the GitHub Actions bridge** (`telegram/README.md`) since 2026-11-09 — never use AnythingMCP's Telegram tools (the owner's AnythingMCP trial ends 2026-11-12) and never call getUpdates yourself. Anywhere this runbook says "tell the owner on Telegram", queue a `sendMessage` job to the owner's chat_id and push.
 - `state.json`: shared state between scheduled runs. Always pull before reading it, and commit + push after changing it.
 - Public video URL used for Telegram and publishing: `https://raw.githubusercontent.com/zorostf-max/hadith-reels-/main/videos/bukhari-NNN.mp4`
 
@@ -35,7 +36,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 5. Run `--check`, look at the stills (text must fit inside the arch, nothing cut off, the background matches its theme), fix the data if needed, then render the mp4. Keep files under 19 MB.
 6. Write `videos/bukhari-NNN.txt` caption (one text goes to all three platforms, and TikTok/Reels show only the first lines, so those lines must carry the post): **first line = the hook question + « 🤔»** (same wording as `hook`, without HTML), **second line = «💬 » + the closing question**, blank line, title line, hadith text, «من شرح الشيخ ابن عثيمين رحمه الله:» numbered points (the video shows one; the caption may list up to 3), then «📚 المصادر:» with exact sources (book, chapter, hadith number; the sharh book you used), then hashtags. Max 2,000 characters.
 7. Commit + push the json, mp4 and txt.
-8. Telegram (AnythingMCP connector, tool `telegram_bot_send_video`, chat_id from state): send each video by its raw URL with a short caption «(١/٢) الحديث رقم N — <موضوع قصير> — يُنشر <الوقت>». Then `telegram_bot_send_message` with:
+8. Telegram — through the GitHub bridge (see `telegram/README.md`; chat_id from state): queue a `sendVideo` job for each video by its raw URL with a short caption «(١/٢) الحديث رقم N — <موضوع قصير> — يُنشر <الوقت>», then a `sendMessage` job with the text below; commit + push once, then `python3 telegram/tg.py wait <jobs>` and store the returned message_ids in `pending_batch.preview_message_ids` (if `wait` fails, say so in the run summary). The message:
    «📋 دفعة <التاريخ>: فيديوهان جاهزة للمراجعة.
    ✅ للموافقة على الكل أرسل: ok
    ✅ لأحدهما: ok 1
@@ -47,8 +48,8 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 ## RUNBOOK B — check approval and schedule (runs ONCE on each publishing day at ~09:25 — owner's request: a single approval check)
 
 1. `git pull`. Read `state.json`. If there is no `pending_batch`, or its status is `done`, stop quietly.
-2. Read new Telegram messages with `telegram_bot_get_updates` (this consumes them). Keep only messages from the owner's chat_id sent after the batch previews. Save the raw text of any you read into `pending_batch.messages` so later runs still see them.
-3. Interpret the owner's replies. The owner's chosen reply words are English: `ok` / `yes` / `approve` alone = all approved; `ok 1` = that position; `no 2 <note>` / `reject 2 <note>` = rejected with a note (the note may be in Arabic). Also accept the Arabic equivalents (موافق، رفض) and Arabic or Western digits, case-insensitive. Numbers refer to positions 1–2 in the batch. If the meaning is unclear, ask on Telegram and stop.
+2. Read the owner's replies with `python3 telegram/tg.py inbox` (the GitHub bridge saves them to `telegram/inbox.jsonl` every 15 minutes; it already keeps only the owner's chat). Keep messages sent after the batch previews (`message_id` greater than the first of `preview_message_ids`, or `date_utc` after the previews). Save their raw text into `pending_batch.messages` so later runs still see them.
+3. Interpret the owner's replies. The owner's chosen reply words are English: `ok` / `yes` / `approve` alone = all approved; `ok 1` = that position; `no 2 <note>` / `reject 2 <note>` = rejected with a note (the note may be in Arabic). Also accept the Arabic equivalents (موافق، رفض) and Arabic or Western digits, case-insensitive. Numbers refer to positions 1–2 in the batch. If the meaning is unclear, ask on Telegram (a `sendMessage` job through the bridge) and stop.
 4. For each approved, not-yet-scheduled video, in order, take the next slot of `publish_date` (the `slots` in state.json: 10:00, 18:00 Europe/Istanbul) that is still at least 10 minutes away; if none is left today, use the next day's slots. Schedule it with Metricool `createScheduledPost`, blogId from state, ONE post with providers instagram + youtube + tiktok:
    - media: the raw GitHub URL; text: the caption file content
    - instagramData `{"type":"REEL"}`
@@ -57,7 +58,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
    **Before scheduling, match the background to the slot:** the slot's theme is `slot_themes[<HH:MM>]` in state.json. If the video's data file has a different `theme` (e.g. the owner approved late, or only some videos, so a video moved to another slot), set `theme` in `data/bukhari-NNN.json`, re-render `videos/bukhari-NNN.mp4`, commit + push, and use the commit-pinned URL `https://raw.githubusercontent.com/zorostf-max/hadith-reels-/<commit-sha>/videos/bukhari-NNN.mp4` as the media (the `main` URL is cached for minutes and could serve the old file). If re-rendering would push past the slot's 10-minute margin, take the next slot of the same theme instead. Mention any background change in the Telegram summary.
    Record the slot, theme and plannerUrl in `pending_batch.scheduled`, and add the number to `published`.
 5. Rejected videos: put `{N: "<note>"}` into `rejected_notes` so the next batch redoes them; do not publish them.
-6. Send one Telegram message summarising what was scheduled (times) and what was rejected. When every video in the batch is scheduled or rejected, set status `done`. Commit + push.
+6. Send one Telegram message (a `sendMessage` job through the bridge, then `tg.py wait`) summarising what was scheduled (times) and what was rejected. When every video in the batch is scheduled or rejected, set status `done`. Commit + push.
 7. Never publish a video the owner did not approve. Never change already scheduled posts unless the owner asks.
 
 ## Data schema (`data/bukhari-NNN.json`)
