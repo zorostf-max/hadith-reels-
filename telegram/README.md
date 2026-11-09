@@ -4,6 +4,9 @@ Replaces the AnythingMCP "Telegram Bot API" connector. The bot (`@my_cs2_monitor
 
 - **Send:** queue one JSON job per message in `telegram/outbox/`, then commit + push once. The push starts the workflow, which sends the jobs (oldest first), writes each result to `telegram/sent/<job>` (`ok`, `message_id`, `error`) and removes the job. Sending takes about 1 minute.
 - **Read replies:** every 15 minutes (and after every send) the workflow saves the owner's new private messages to `telegram/inbox.jsonl` (`date_utc`, `message_id`, `text`, `reply_to_message_id`). Only messages from `state.json → telegram_chat_id` are kept, text only, because the repo is public. To force a fresh read, queue a `getMe` job and push.
+- **GitHub's own timer is unreliable** (the */15 schedule often does not fire for hours). Never count on it. The bridge reliably runs only when something is pushed to `telegram/outbox/`. So:
+  - The hourly news run always ends by queuing a `getMe` "tick" job and pushing, and a small scheduled task does the same at 10:00 and 18:00 Istanbul. Jobs with `--not-before` are sent at the first tick after their time.
+  - Before reading the owner's replies, refresh the inbox yourself: queue a `getMe` job, push, `tg.py wait` it, then `tg.py inbox`.
 - **Never** try to call the Telegram API directly from a session (there is no token here) and never use AnythingMCP's Telegram tools any more.
 
 ## How to use it from a run

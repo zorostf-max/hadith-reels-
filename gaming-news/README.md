@@ -19,7 +19,7 @@ Files: `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an 
    - **Keep** real news in the four topics above.
    - **Skip**: walkthroughs/guides ("how to find…", "all locations…"), redeem-code lists, quizzes and NYT puzzle answers, opinion/review pieces with no news, non-gaming stories (food, animals, general politics, film/TV unless it is a game adaptation), small affiliate deals. Do not log skipped items; they age out of the 2-hour window on their own.
    - **One story = one post.** If several sources cover the same story (in this run or already in `posted.txt` from the last day), post it once and log the other links as `(same story)`.
-   - If nothing qualifies, stop without posting (log nothing, no commit needed).
+   - If nothing qualifies, post nothing, but still push the tick job of step 6.
 4. For each chosen item, if the RSS summary is too thin to write two accurate sentences, read the article with WebFetch. Write only facts the source states; never invent numbers, dates or quotes.
 5. For each item queue a `sendPhoto` job (`python3 telegram/tg.py queue sendPhoto '{"chat_id":"@LevelUpGames0","photo":"<image>","parse_mode":"HTML","caption":"…"}' --ref news-<slug> --fallback-text "<same caption>"`), then commit + push once and run `python3 telegram/tg.py wait <all job names>`. Caption (≤ 1024 chars) in this shape — own words, no copied sentences, at most one short quote under 15 words:
 
@@ -35,7 +35,8 @@ Files: `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an 
    ```
    The time is the item's `published_utc` converted to Istanbul time (GMT+3). Emoji by topic: 🎮 games · 🏆 esports · 🖥️ PC hardware · 🕹️ platforms · 💸 deals. Escape `&`, `<`, `>` in the text.
    The `--fallback-text` makes the bridge send the caption as a text message if Telegram refuses the photo. Never queue the same item twice.
-6. For each job that `wait` reports as ok, append its line to `posted.txt` (time in GMT+3, source, link). Then `git add gaming-news && git commit -m "news: N posts" && git push` (pull --rebase and retry once if the push is rejected).
+6. **Always** (even when there is no news) queue one tick job — `python3 telegram/tg.py queue getMe '{}' --ref tick` — in the same push, so the bridge runs every hour and sends any timed jobs that are due (GitHub's own timer is unreliable).
+   For each job that `wait` reports as ok, append its line to `posted.txt` (time in GMT+3, source, link). Then `git add gaming-news && git commit -m "news: N posts" && git push` (pull --rebase and retry once if the push is rejected).
 7. If a feed in `feed_errors` keeps failing, or the bot cannot post (e.g. it lost admin rights), queue one short `sendMessage` to the owner (`state.json` → `telegram_chat_id`) — at most once a day.
 
 ## Tweets for X (owner posts them by hand)
