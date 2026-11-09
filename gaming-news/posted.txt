@@ -12,3 +12,7 @@
 2026-11-09 21:00	HLTV	https://www.hltv.org/news/45952/mouz-claim-no1-in-world-rankings-after-beijing-title
 2026-11-09 20:48	Tom's Hardware	https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million
 2026-11-09 22:02	Eurogamer	https://www.eurogamer.net/god-of-war-ragnarok-highest-earning-playstation-game
+2026-11-09 22:27	IGN	https://www.ign.com/articles/world-of-warcraft-forever-is-the-biggest-wow-launch-in-history
+2026-11-09 22:32	PC Gamer	https://www.pcgamer.com/gaming-industry/a-week-after-expanding-its-publishing-division-killing-floor-studio-tripwire-interactive-lays-off-36-people/
+2026-11-09 23:09	Eurogamer	https://www.eurogamer.net/mass-effect-cast-save-bioware-n7-day
+2026-11-09 21:57	Dexerto (same story)	https://www.dexerto.com/gaming/sony-announces-new-playstation-portal-with-secret-features-coming-in-the-future-3426759/
