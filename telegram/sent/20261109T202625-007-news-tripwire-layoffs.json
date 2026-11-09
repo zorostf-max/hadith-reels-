@@ -1,0 +1,11 @@
+{
+ "job": "20261109T202625-007-news-tripwire-layoffs.json",
+ "ref": "news-tripwire-layoffs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T20:26:41Z",
+ "message_id": 36,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

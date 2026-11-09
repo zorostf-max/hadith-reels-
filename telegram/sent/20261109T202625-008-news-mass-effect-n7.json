@@ -1,0 +1,11 @@
+{
+ "job": "20261109T202625-008-news-mass-effect-n7.json",
+ "ref": "news-mass-effect-n7",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T20:26:43Z",
+ "message_id": 37,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

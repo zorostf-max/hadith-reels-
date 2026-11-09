@@ -1,0 +1,11 @@
+{
+ "job": "20261109T202625-006-news-wow-forever-launch.json",
+ "ref": "news-wow-forever-launch",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T20:26:40Z",
+ "message_id": 35,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
