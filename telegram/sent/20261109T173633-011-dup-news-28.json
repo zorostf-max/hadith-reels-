@@ -1,0 +1,11 @@
+{
+ "job": "20261109T173633-011-dup-news-28.json",
+ "ref": "dup-news-28",
+ "method": "deleteMessage",
+ "ok": true,
+ "sent_at": "2026-11-09T17:36:58Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
