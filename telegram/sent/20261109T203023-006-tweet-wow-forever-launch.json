@@ -1,0 +1,11 @@
+{
+ "job": "20261109T203023-006-tweet-wow-forever-launch.json",
+ "ref": "tweet-wow-forever-launch",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T20:30:38Z",
+ "message_id": 155,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

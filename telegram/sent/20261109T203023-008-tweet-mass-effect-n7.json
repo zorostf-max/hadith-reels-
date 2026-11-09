@@ -1,0 +1,11 @@
+{
+ "job": "20261109T203023-008-tweet-mass-effect-n7.json",
+ "ref": "tweet-mass-effect-n7",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T20:30:41Z",
+ "message_id": 157,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
