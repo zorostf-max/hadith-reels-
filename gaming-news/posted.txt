@@ -1,2 +1,9 @@
 2026-11-09 17:32	GameSpot	https://www.gamespot.com/articles/gta-6-music-festival-announced-for-miami-with-a-stacked-lineup-of-artists/
 2026-11-09 17:32	Eurogamer (same story)	https://www.eurogamer.net/rockstar-gta-6-miami-music-festival
+2026-11-09 19:00	GameSpot	https://www.gamespot.com/articles/warhammer-40000-dark-heresy-the-follow-up-to-rogue-trader-gets-early-2027-release-date/
+2026-11-09 19:50	Eurogamer (same story)	https://www.eurogamer.net/warhammer-40k-dark-heresy-owlcat-crpg
+2026-11-09 20:06	PC Gamer (same story)	https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-follow-up-dark-heresy-will-launch-at-the-end-of-january/
+2026-11-09 19:13	IGN	https://www.ign.com/articles/cyberpunk-2077-just-got-a-new-multiplayer-mod-complete-with-rp-servers
+2026-11-09 19:23	IGN	https://www.ign.com/articles/sony-launches-new-ps-portal-model-in-japan-with-internal-storage-for-future-functionality-changes-official-name
+2026-11-09 20:15	PC Gamer	https://www.pcgamer.com/hardware/graphics-cards/amd-users-are-reporting-a-misfiring-utility-is-eating-ssd-health-by-1-percent-a-month-amd-says-a-fix-is-on-the-way-for-its-gpu-drivers/
+2026-11-09 19:21	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/rockstar-spins-the-gta-6-wheel-again-and-lands-on-comically-large-music-festival-featuring-travis-scott-cardi-b-and-composer-justice/
