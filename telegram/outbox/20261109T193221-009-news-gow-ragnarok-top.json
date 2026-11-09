@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/God-of-War-Ragnar%C3%B6k---State-of-Play-Sep-2022-Story-Trailer-_-PS5-%26-PS4-Games-1-1-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>God of War Ragnarök tops PlayStation Studios' earnings this generation</b>\n\nA new report names God of War Ragnarök as the best-selling and highest-earning PlayStation Studios game of the current generation. Marvel's Spider-Man 2 sits close behind, and the full top 10 includes a few surprises.\n\n🕒 Nov 9, 2026 · 22:02 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/god-of-war-ragnarok-highest-earning-playstation-game\">Eurogamer</a>\n\n#GodOfWar #PlayStation #GamingNews"
+ },
+ "ref": "news-gow-ragnarok-top",
+ "fallback_text": "🎮 <b>God of War Ragnarök tops PlayStation Studios' earnings this generation</b>\n\nA new report names God of War Ragnarök as the best-selling and highest-earning PlayStation Studios game of the current generation. Marvel's Spider-Man 2 sits close behind, and the full top 10 includes a few surprises.\n\n🕒 Nov 9, 2026 · 22:02 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/god-of-war-ragnarok-highest-earning-playstation-game\">Eurogamer</a>\n\n#GodOfWar #PlayStation #GamingNews"
+}

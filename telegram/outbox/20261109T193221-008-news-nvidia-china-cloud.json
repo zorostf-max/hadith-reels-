@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/n3JSWEEYTE8ywDfC8rkMiS-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia tightens rules on overseas cloud GPU rentals for China</b>\n\nNvidia may limit its cloud partners so that Chinese customers make up no more than 49% of their business, according to Tom's Hardware. The report says Chinese firms have bought more than a million gaming and workstation GPUs, while black-market prices for B300 AI racks have climbed to about $2.8 million.\n\n🕒 Nov 9, 2026 · 20:48 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million\">Tom's Hardware</a>\n\n#Nvidia #GPU #GamingNews"
+ },
+ "ref": "news-nvidia-china-cloud",
+ "fallback_text": "🖥️ <b>Nvidia tightens rules on overseas cloud GPU rentals for China</b>\n\nNvidia may limit its cloud partners so that Chinese customers make up no more than 49% of their business, according to Tom's Hardware. The report says Chinese firms have bought more than a million gaming and workstation GPUs, while black-market prices for B300 AI racks have climbed to about $2.8 million.\n\n🕒 Nov 9, 2026 · 20:48 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million\">Tom's Hardware</a>\n\n#Nvidia #GPU #GamingNews"
+}
