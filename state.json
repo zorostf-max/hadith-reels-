@@ -1,5 +1,5 @@
 {
-  "next_hadith": 7,
+  "next_hadith": 9,
   "published": [
     1,
     2,
@@ -9,49 +9,24 @@
     6
   ],
   "pending_batch": {
-    "publish_date": "2026-11-09",
+    "publish_date": "2026-11-11",
     "hadiths": [
-      5,
-      6
+      7,
+      8
     ],
-    "status": "done",
-    "approved": [
-      5,
-      6
-    ],
+    "status": "awaiting",
+    "approved": [],
     "rejected": [],
-    "scheduled": {
-      "5": {
-        "slot": "2026-11-09 10:00",
-        "theme": "morning",
-        "metricool_id": 421413629,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=8963325965151389736"
-      },
-      "6": {
-        "slot": "2026-11-09 18:00",
-        "theme": "night",
-        "metricool_id": 421413787,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-3974340602790719716"
-      }
-    },
+    "scheduled": {},
     "preview_message_ids": [
-      138,
-      139,
-      140
+      144,
+      145,
+      146
     ],
     "notes": {
-      "6": "Fallback scholar: Abd al-Karim al-Khudair (Ibn Uthaymeen's sharh of this hadith was not retrievable this run)",
-      "narration": "2026-11-08 22:55: re-rendered 5 and 6 with Hijazi narration at owner's request; new previews sent (messages 138-140). Approval refers to the narrated versions."
-    },
-    "messages": [
-      {
-        "update_id": 81690006,
-        "message_id": 141,
-        "date": 1794167881,
-        "text": "Ok"
-      }
-    ],
-    "summary_message_id": 142
+      "7": "Abridged: video shows only the Prophet's letter to Heraclius; points from Ibn Uthaymeen (Tafsir al-Baqarah lesson 2, Sharh Riyad 1/302). Isnad clip trimmed to fit 55 s.",
+      "8": "Points from Ibn Uthaymeen (Sharh al-Arba'in hadith 3, Sharh Riyad 6/19, Majmu' 6/65)."
+    }
   },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",
