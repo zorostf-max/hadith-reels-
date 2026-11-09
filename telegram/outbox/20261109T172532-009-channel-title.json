@@ -1,0 +1,8 @@
+{
+ "method": "setChatTitle",
+ "params": {
+  "chat_id": "@HadithDailyAr",
+  "title": "Hadith Daily | حديث اليوم"
+ },
+ "ref": "channel-title"
+}
