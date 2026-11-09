@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/09/image-1794257178609.png",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Epic Games claims it owns Jazz Jackrabbit after Gears of War creator Cliff Bleszinski tried to win back the rights to his early character, in a legal dispute tied to Fortnite. https://www.ign.com/articles/epic-games-claims-ownership-over-jazz-jackrabbit-in-fortnite-legal-tussle-with-gears-of-war-creator #EpicGames #Fortnite</code>"
+ },
+ "ref": "tweet-epic-jazz",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Epic Games claims it owns Jazz Jackrabbit after Gears of War creator Cliff Bleszinski tried to win back the rights to his early character, in a legal dispute tied to Fortnite. https://www.ign.com/articles/epic-games-claims-ownership-over-jazz-jackrabbit-in-fortnite-legal-tussle-with-gears-of-war-creator #EpicGames #Fortnite</code>"
+}

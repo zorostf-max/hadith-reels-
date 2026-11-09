@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/ocarina-Large.jpeg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Zelda edition gives Switch 2 its best sales week of 2026</b>\n\nCircana's Mat Piscatella says Switch 2 just had its strongest week of the year in US dollar sales, driven by the $520 Zelda 40th Anniversary Edition console. The bundle launched on October 29 alongside the Ocarina of Time remake, and the tracked week ended October 31.\n\n🕒 Nov 10, 2026 · 00:47 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/switch-2-just-had-its-best-sales-week-of-2026-and-its-all-because-of-zelda/\">GameSpot</a>\n\n#Switch2 #Zelda #GamingNews"
+ },
+ "ref": "news-switch2-zelda-week",
+ "fallback_text": "🕹️ <b>Zelda edition gives Switch 2 its best sales week of 2026</b>\n\nCircana's Mat Piscatella says Switch 2 just had its strongest week of the year in US dollar sales, driven by the $520 Zelda 40th Anniversary Edition console. The bundle launched on October 29 alongside the Ocarina of Time remake, and the tracked week ended October 31.\n\n🕒 Nov 10, 2026 · 00:47 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/switch-2-just-had-its-best-sales-week-of-2026-and-its-all-because-of-zelda/\">GameSpot</a>\n\n#Switch2 #Zelda #GamingNews"
+}

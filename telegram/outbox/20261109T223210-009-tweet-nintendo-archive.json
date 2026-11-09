@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/qFVrBFZW5DWcyTgBRpz68D-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Nintendo of America is investing in game preservation and looking to hire an archivist to save its history for future generations. https://www.gamesradar.com/games/nintendo-of-america-invests-in-game-preservation-as-it-looks-to-hire-an-archivist-to-make-sure-its-history-is-preserved-for-future-generations/ #Nintendo #GamePreservation</code>"
+ },
+ "ref": "tweet-nintendo-archive",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Nintendo of America is investing in game preservation and looking to hire an archivist to save its history for future generations. https://www.gamesradar.com/games/nintendo-of-america-invests-in-game-preservation-as-it-looks-to-hire-an-archivist-to-make-sure-its-history-is-preserved-for-future-generations/ #Nintendo #GamePreservation</code>"
+}

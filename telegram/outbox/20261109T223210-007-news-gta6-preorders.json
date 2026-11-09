@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/gta-earnings.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 pre-orders are beating Take-Two's expectations</b>\n\nOn Take-Two's latest earnings call, CEO Strauss Zelnick said Grand Theft Auto 6 pre-orders are tracking far above expectations. He added that the game will \"set a new baseline\" for the company and that the numbers will soon speak for themselves.\n\n🕒 Nov 10, 2026 · 01:02 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-preorders-tracking-take-two-earnings-call\">Eurogamer</a>\n\n#GTA6 #TakeTwo #GamingNews"
+ },
+ "ref": "news-gta6-preorders",
+ "fallback_text": "🎮 <b>GTA 6 pre-orders are beating Take-Two's expectations</b>\n\nOn Take-Two's latest earnings call, CEO Strauss Zelnick said Grand Theft Auto 6 pre-orders are tracking far above expectations. He added that the game will \"set a new baseline\" for the company and that the numbers will soon speak for themselves.\n\n🕒 Nov 10, 2026 · 01:02 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-preorders-tracking-take-two-earnings-call\">Eurogamer</a>\n\n#GTA6 #TakeTwo #GamingNews"
+}
