@@ -1,0 +1,8 @@
+{
+ "method": "deleteMessage",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "message_id": 26
+ },
+ "ref": "dup-news-26"
+}
