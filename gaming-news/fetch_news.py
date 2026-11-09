@@ -60,9 +60,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--hours", type=float, default=3)
     ap.add_argument("--limit", type=int, default=15)
+    ap.add_argument("--include-posted", action="store_true",
+                    help="keep links already in posted.txt (the tweet task uses it to get their images)")
     a = ap.parse_args()
     posted = set()
-    if os.path.exists(POSTED):
+    if os.path.exists(POSTED) and not a.include_posted:
         posted = {norm(l.split("\t")[-1]) for l in open(POSTED) if l.strip()}
     cutoff = datetime.now(timezone.utc) - timedelta(hours=a.hours)
     items, errors = [], []

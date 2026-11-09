@@ -51,5 +51,5 @@ The owner has no paid X API, so he posts to X (@AbdulbariH2771) himself. **The h
 
    <code>TWEET TEXT</code>
    ```
-   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words: an emoji, the news in one or two short sentences, the source link, and 1–2 hashtags. Escape `&`, `<`, `>`. If you need the image URL, take it from the channel post (`telegram/sent` does not keep it) or from `fetch_news.py`.
+   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words: an emoji, the news in one or two short sentences, the source link, and 1–2 hashtags. Escape `&`, `<`, `>`. Get the story's image URL from `python3 gaming-news/fetch_news.py --hours 10 --limit 80 --include-posted` (match the link).
 4. Append `time GMT+3<TAB>link` to `tweets.txt`, commit + push, then `tg.py wait`.
