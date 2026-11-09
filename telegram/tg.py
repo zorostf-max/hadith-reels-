@@ -5,6 +5,8 @@ GitHub Actions bridge (no bot token needed here).
   python3 telegram/tg.py queue <method> '<params json>' [--ref R] [--fallback-text T]
         Writes telegram/outbox/<time>-<n>-<ref>.json and prints its name.
         Queue several, then commit + push ONCE (the push triggers the send).
+      --not-before 2026-11-11T07:00:00Z  holds the job until that UTC time
+        (sent by the first bridge run after it, i.e. up to ~15-20 min late).
   python3 telegram/tg.py wait <job-name> [<job-name> ...] [--timeout 600]
         git pull in a loop until telegram/sent/<job-name> exists for each,
         then prints the results (ok, message_id, error) as JSON.
@@ -35,6 +37,9 @@ def cmd_queue(a):
     job = {"method": a.method, "params": params, "ref": a.ref}
     if a.fallback_text:
         job["fallback_text"] = a.fallback_text
+    if a.not_before:
+        assert re.fullmatch(r"\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ", a.not_before), "use UTC like 2026-11-11T07:00:00Z"
+        job["not_before"] = a.not_before
     json.dump(job, open(os.path.join(TG, "outbox", name), "w"), ensure_ascii=False, indent=1)
     print(name)
 
@@ -74,6 +79,7 @@ ap = argparse.ArgumentParser()
 sub = ap.add_subparsers(dest="cmd", required=True)
 q = sub.add_parser("queue"); q.add_argument("method"); q.add_argument("params")
 q.add_argument("--ref"); q.add_argument("--fallback-text")
+q.add_argument("--not-before", help="UTC time YYYY-MM-DDTHH:MM:SSZ; the bridge sends it at its first run after this time (runs every 15 min)")
 w = sub.add_parser("wait"); w.add_argument("jobs", nargs="+"); w.add_argument("--timeout", type=int, default=600)
 i = sub.add_parser("inbox"); i.add_argument("--since")
 a = ap.parse_args()

@@ -23,7 +23,7 @@ INBOX = os.path.join(TG, "inbox.jsonl")
 CURSOR = os.path.join(TG, "cursor.json")
 ALLOWED = {"sendMessage", "sendPhoto", "sendVideo", "sendDocument",
            "sendMediaGroup", "editMessageText", "deleteMessage", "getChat",
-           "getChatMember", "getMe"}
+           "getChatMember", "getChatAdministrators", "getMe"}
 
 
 def now():
@@ -59,6 +59,9 @@ def send_outbox(token):
         path = os.path.join(OUTBOX, name)
         try:
             job = json.load(open(path))
+            # Scheduled job: leave it in the outbox until its time comes.
+            if job.get("not_before") and job["not_before"] > now():
+                continue
             method, params = job["method"], job.get("params", {})
             if method not in ALLOWED:
                 res = {"ok": False, "description": f"method {method} not allowed"}
@@ -82,6 +85,8 @@ def send_outbox(token):
                "message_ids": [m.get("message_id") for m in r] if isinstance(r, list) else None,
                "error": None if res.get("ok") else res.get("description"),
                "fallback_used": res.get("fallback_used", False)}
+        if job.get("method", "").startswith("get") and res.get("ok"):
+            out["result"] = r
         json.dump(out, open(os.path.join(SENT, name), "w"), ensure_ascii=False, indent=1)
         os.remove(path)
         n += 1

@@ -1,0 +1,7 @@
+{
+ "method": "getChatAdministrators",
+ "params": {
+  "chat_id": "@HadithDailyAr"
+ },
+ "ref": "check-hadith-channel"
+}
