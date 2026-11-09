@@ -18,6 +18,6 @@ python3 telegram/tg.py wait "$J1" "$J2"        # prints ok / message_id / error 
 python3 telegram/tg.py inbox --since 2026-11-09T15:00:00Z   # owner's replies
 ```
 
-Supported methods: sendMessage, sendPhoto, sendVideo, sendDocument, sendMediaGroup, editMessageText, deleteMessage, getChat, getChatMember, getMe. Media must be public HTTPS URLs (photo ≤ 5 MB, video ≤ 20 MB by URL). `--fallback-text` sends that text as a plain message if the media is refused.
+Supported methods: sendMessage, sendPhoto, sendVideo, sendDocument, sendMediaGroup, editMessageText, deleteMessage, getChat, getChatMember, getChatAdministrators (only bots are kept), getMe. Add `--not-before <UTC>` to hold a job until a time (checked every 15 min). `telegram/post_hadith.py` queues a hadith reel for the public channel. Media must be public HTTPS URLs (photo ≤ 5 MB, video ≤ 20 MB by URL). `--fallback-text` sends that text as a plain message if the media is refused.
 
 If `wait` times out: the secret is missing/wrong or Actions is disabled. Report it in the run summary; do not retry in a loop.

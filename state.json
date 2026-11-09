@@ -40,5 +40,6 @@
   "slot_themes": {
     "10:00": "morning",
     "18:00": "night"
-  }
+  },
+  "telegram_channel": "@HadithDailyAr"
 }

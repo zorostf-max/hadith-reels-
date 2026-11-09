@@ -86,7 +86,13 @@ def send_outbox(token):
                "error": None if res.get("ok") else res.get("description"),
                "fallback_used": res.get("fallback_used", False)}
         if job.get("method", "").startswith("get") and res.get("ok"):
-            out["result"] = r
+            # The repo is public: keep only what a run needs, no personal data.
+            if job["method"] == "getChatAdministrators":
+                out["result"] = [{"username": m["user"].get("username"), "is_bot": m["user"].get("is_bot"),
+                                  "status": m.get("status"), "can_post_messages": m.get("can_post_messages")}
+                                 for m in r if m["user"].get("is_bot")]
+            elif job["method"] in ("getMe",):
+                out["result"] = r
         json.dump(out, open(os.path.join(SENT, name), "w"), ensure_ascii=False, indent=1)
         os.remove(path)
         n += 1
