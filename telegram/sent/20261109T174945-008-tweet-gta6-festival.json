@@ -1,0 +1,11 @@
+{
+ "job": "20261109T174945-008-tweet-gta6-festival.json",
+ "ref": "tweet-gta6-festival",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-09T17:49:59Z",
+ "message_id": 150,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
