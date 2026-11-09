@@ -1,0 +1,10 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "@HadithDailyAr",
+  "text": "📌 <b>Hadith Daily | حديث اليوم</b>\n\nحديث صحيح من صحيح البخاري بالترتيب، مع شرحه، في أقل من دقيقة. تابعنا على كل المنصات:\nOne authentic hadith a day from Sahih al-Bukhari. Follow us everywhere:\n\n▶️ <a href=\"https://www.youtube.com/@HadithDailyBukhari\">YouTube</a>\n📸 <a href=\"https://www.instagram.com/963aperture_soul/\">Instagram</a>\n🎵 <a href=\"https://www.tiktok.com/@abdulbaride\">TikTok</a>\n\nشارك القناة مع من تحب، فالدال على الخير كفاعله 🤍",
+  "parse_mode": "HTML",
+  "disable_web_page_preview": true
+ },
+ "ref": "channel-links"
+}
