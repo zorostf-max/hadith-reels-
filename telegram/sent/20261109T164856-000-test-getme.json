@@ -1,0 +1,11 @@
+{
+ "job": "20261109T164856-000-test-getme.json",
+ "ref": "test-getme",
+ "method": "getMe",
+ "ok": true,
+ "sent_at": "2026-11-09T16:49:10Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

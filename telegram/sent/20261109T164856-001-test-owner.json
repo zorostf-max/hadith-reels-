@@ -1,0 +1,11 @@
+{
+ "job": "20261109T164856-001-test-owner.json",
+ "ref": "test-owner",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-09T16:49:12Z",
+ "message_id": 149,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

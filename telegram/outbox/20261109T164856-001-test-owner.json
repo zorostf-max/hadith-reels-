@@ -1,8 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "text": "✅ تجربة: البوت يعمل الآن عبر GitHub بدل AnythingMCP. لا حاجة للرد."
- },
- "ref": "test-owner"
-}
