@@ -11,7 +11,9 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 
 ---
 
-## RUNBOOK A — prepare a batch (runs on each publishing day at ~17:20, so the previews reach the owner around the time the day's last video goes out at 18:00; the batch is for the next publishing day, two days later)
+**Publishing days (owner's decision 2026-11-10): hadith videos are published on Monday, Wednesday and Friday only** (`state.json → publish_days`), 2 videos per day at 10:00 and 18:00. Tuesday and Thursday belong to the seerah series; nothing is published at the weekend. "The next publishing day" below always means the next Monday, Wednesday or Friday after today (Mon → Wed, Wed → Fri, Fri → Mon) — never "today + 2 days".
+
+## RUNBOOK A — prepare a batch (runs on each publishing day — Mon/Wed/Fri — at ~17:20, so the previews reach the owner around the time the day's last video goes out at 18:00; the batch is for the next publishing day)
 
 1. `git pull`. Read `state.json`. If `pending_batch` exists with status `awaiting` and its `publish_date` is later than today, stop (a batch is already waiting for approval). If it is still `awaiting` (or partly unanswered) and its `publish_date` is today or earlier, the owner did not reply before the single morning check: its unapproved, unrejected hadiths were NOT published, so put them first in the new batch (their data/videos already exist; re-render only if the theme for the new slot differs) and do not count them as published.
 2. Pick **2** hadith numbers — after any carried-over ones from step 1 — (owner's request since 2026-11-07: 2 videos per publishing day, at 10:00 and 18:00 — the best times on TikTok, YouTube and Instagram per Metricool): first any numbers listed in `rejected_notes` (redo them and apply the owner's note), then continue from `next_hadith`.
@@ -43,14 +45,14 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
    ❌ للرفض مع ملاحظة: no 2 <ملاحظتك>
    ⏰ تُفحص موافقتك مرة واحدة الساعة ٩:٢٥ صباح يوم النشر (<التاريخ>)، فأرسل ردّك قبلها.
    لن يُنشر شيء قبل موافقتك.»
-9. Set `pending_batch` = `{"publish_date": "<the next publishing day = today + 2 days, YYYY-MM-DD>", "hadiths": [n1,n2], "status": "awaiting", "approved": [], "rejected": [], "scheduled": {}}`, advance `next_hadith` past the new numbers (not past redone ones), clear `rejected_notes` entries you redid. Commit + push.
+9. Set `pending_batch` = `{"publish_date": "<the next publishing day = the next Monday, Wednesday or Friday after today, YYYY-MM-DD>", "hadiths": [n1,n2], "status": "awaiting", "approved": [], "rejected": [], "scheduled": {}}`, advance `next_hadith` past the new numbers (not past redone ones), clear `rejected_notes` entries you redid. Commit + push.
 
-## RUNBOOK B — check approval and schedule (runs ONCE on each publishing day at ~09:25 — owner's request: a single approval check)
+## RUNBOOK B — check approval and schedule (runs ONCE on each publishing day — Mon/Wed/Fri — at ~09:25 — owner's request: a single approval check)
 
 1. `git pull`. Read `state.json`. If there is no `pending_batch`, or its status is `done`, stop quietly.
 2. First refresh the inbox (GitHub's timer is unreliable): queue `python3 telegram/tg.py queue getMe '{}' --ref inbox-refresh`, commit + push, `tg.py wait` it. Then read the owner's replies with `python3 telegram/tg.py inbox` (the GitHub bridge saves them to `telegram/inbox.jsonl` every 15 minutes; it already keeps only the owner's chat). Keep messages sent after the batch previews (`message_id` greater than the first of `preview_message_ids`, or `date_utc` after the previews). Save their raw text into `pending_batch.messages` so later runs still see them.
 3. Interpret the owner's replies. The owner's chosen reply words are English: `ok` / `yes` / `approve` alone = all approved; `ok 1` = that position; `no 2 <note>` / `reject 2 <note>` = rejected with a note (the note may be in Arabic). Also accept the Arabic equivalents (موافق، رفض) and Arabic or Western digits, case-insensitive. Numbers refer to positions 1–2 in the batch. If the meaning is unclear, ask on Telegram (a `sendMessage` job through the bridge) and stop.
-4. For each approved, not-yet-scheduled video, in order, take the next slot of `publish_date` (the `slots` in state.json: 10:00, 18:00 Europe/Istanbul) that is still at least 10 minutes away; if none is left today, use the next day's slots. Schedule it with Metricool `createScheduledPost`, blogId from state, ONE post with providers instagram + youtube + tiktok:
+4. For each approved, not-yet-scheduled video, in order, take the next slot of `publish_date` (the `slots` in state.json: 10:00, 18:00 Europe/Istanbul) that is still at least 10 minutes away; if none is left today, use the slots of the next publishing day (Mon/Wed/Fri) — never a Tuesday, Thursday or weekend. Schedule it with Metricool `createScheduledPost`, blogId from state, ONE post with providers instagram + youtube + tiktok:
    - media: the raw GitHub URL; text: the caption file content
    - instagramData `{"type":"REEL"}`
    - youtubeData `{"title": "الحديث N | <موضوع الحديث> – صحيح البخاري" (number first so the series is easy to follow; Arabic-Indic or Western digits; ≤100 chars), "type":"short", "privacy":"public", "category":"EDUCATION", "madeForKids": false, "tags": [...]}`
