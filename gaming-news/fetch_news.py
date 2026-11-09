@@ -30,7 +30,7 @@ UA = "Mozilla/5.0 (compatible; LevelUpNewsBot/1.0)"
 
 
 def norm(url):
-    return url.split("?")[0].split("#")[0].rstrip("/").lower()
+    return url.strip().split("?")[0].split("#")[0].rstrip("/").lower()
 
 
 def entry_image(e):
