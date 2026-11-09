@@ -1,0 +1,10 @@
+{
+ "method": "setChatPhoto",
+ "params": {
+  "chat_id": "@HadithDailyAr"
+ },
+ "ref": "channel-photo",
+ "files": {
+  "photo": "telegram/assets/hadith-channel-photo.jpg"
+ }
+}

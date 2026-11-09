@@ -37,6 +37,8 @@ def cmd_queue(a):
     job = {"method": a.method, "params": params, "ref": a.ref}
     if a.fallback_text:
         job["fallback_text"] = a.fallback_text
+    if a.file:
+        job["files"] = dict(f.split("=", 1) for f in a.file)
     if a.not_before:
         assert re.fullmatch(r"\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ", a.not_before), "use UTC like 2026-11-11T07:00:00Z"
         job["not_before"] = a.not_before
@@ -79,6 +81,7 @@ ap = argparse.ArgumentParser()
 sub = ap.add_subparsers(dest="cmd", required=True)
 q = sub.add_parser("queue"); q.add_argument("method"); q.add_argument("params")
 q.add_argument("--ref"); q.add_argument("--fallback-text")
+q.add_argument("--file", action="append", default=[], help="FIELD=repo/relative/path to upload, e.g. photo=telegram/assets/x.jpg")
 q.add_argument("--not-before", help="UTC time YYYY-MM-DDTHH:MM:SSZ; the bridge sends it at its first run after this time (runs every 15 min)")
 w = sub.add_parser("wait"); w.add_argument("jobs", nargs="+"); w.add_argument("--timeout", type=int, default=600)
 i = sub.add_parser("inbox"); i.add_argument("--since")

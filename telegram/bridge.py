@@ -23,19 +23,37 @@ INBOX = os.path.join(TG, "inbox.jsonl")
 CURSOR = os.path.join(TG, "cursor.json")
 ALLOWED = {"sendMessage", "sendPhoto", "sendVideo", "sendDocument",
            "sendMediaGroup", "editMessageText", "deleteMessage", "getChat",
-           "getChatMember", "getChatAdministrators", "getMe"}
+           "getChatMember", "getChatAdministrators", "getMe",
+           "setChatPhoto", "setChatDescription", "setChatTitle",
+           "pinChatMessage"}
 
 
 def now():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def api(token, method, params):
+def api(token, method, params, files=None):
     data = {k: (json.dumps(v) if isinstance(v, (dict, list)) else str(v))
             for k, v in params.items() if v is not None}
-    req = urllib.request.Request(
-        f"https://api.telegram.org/bot{token}/{method}",
-        data=urllib.parse.urlencode(data).encode())
+    url = f"https://api.telegram.org/bot{token}/{method}"
+    if files:
+        # multipart upload of files stored in the repo, e.g. a channel photo
+        boundary = "----tgbridge" + str(int(time.time() * 1000))
+        body = b""
+        for k, v in data.items():
+            body += (f"--{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n").encode()
+        for k, rel in files.items():
+            fp = os.path.normpath(os.path.join(ROOT, rel))
+            if not fp.startswith(ROOT + os.sep):
+                return {"ok": False, "description": f"file outside repo: {rel}"}
+            body += (f"--{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"; "
+                     f"filename=\"{os.path.basename(fp)}\"\r\nContent-Type: application/octet-stream\r\n\r\n").encode()
+            body += open(fp, "rb").read() + b"\r\n"
+        body += f"--{boundary}--\r\n".encode()
+        req = urllib.request.Request(url, data=body, headers={
+            "Content-Type": f"multipart/form-data; boundary={boundary}"})
+    else:
+        req = urllib.request.Request(url, data=urllib.parse.urlencode(data).encode())
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
             return json.load(r)
@@ -66,7 +84,7 @@ def send_outbox(token):
             if method not in ALLOWED:
                 res = {"ok": False, "description": f"method {method} not allowed"}
             else:
-                res = api(token, method, params)
+                res = api(token, method, params, job.get("files"))
                 # A photo/video Telegram cannot fetch: fall back to a text
                 # message when the job asks for it.
                 if not res.get("ok") and job.get("fallback_text"):

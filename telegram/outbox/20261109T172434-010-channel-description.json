@@ -1,0 +1,8 @@
+{
+ "method": "setChatDescription",
+ "params": {
+  "chat_id": "@HadithDailyAr",
+  "description": "حديث صحيح من صحيح البخاري بالترتيب، مع شرح الشيخ ابن عثيمين رحمه الله وعلماء السنة الموثوقين، في أقل من دقيقة.\n\nOne authentic hadith from Sahih al-Bukhari, in order, with Ibn Uthaymeen's explanation.\n\n🕙 أحاديث جديدة كل يومين | New every other day"
+ },
+ "ref": "channel-description"
+}
