@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/4JzViT_aHtVgpGaiZzUdhq.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>Fluxo reportedly pausing its CS2 division</b>\n\nBrazilian organisation Fluxo is set to put its Counter-Strike division on hold, according to sources cited by HLTV. Members of the current roster will either be released or moved to the bench, leaving another Brazilian lineup without a home.\n\n🕒 Nov 10, 2026 · 17:11 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45960/sources-fluxo-to-put-cs-division-on-hold\">HLTV</a>\n\n#CS2 #Esports #GamingNews"
+ },
+ "ref": "news-fluxo",
+ "fallback_text": "🏆 <b>Fluxo reportedly pausing its CS2 division</b>\n\nBrazilian organisation Fluxo is set to put its Counter-Strike division on hold, according to sources cited by HLTV. Members of the current roster will either be released or moved to the bench, leaving another Brazilian lineup without a home.\n\n🕒 Nov 10, 2026 · 17:11 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45960/sources-fluxo-to-put-cs-division-on-hold\">HLTV</a>\n\n#CS2 #Esports #GamingNews"
+}

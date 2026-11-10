@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/4JzViT_aHtVgpGaiZzUdhq.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Fluxo is reportedly putting its CS2 division on hold, with current players set to be released or benched, per HLTV sources. https://www.hltv.org/news/45960/sources-fluxo-to-put-cs-division-on-hold #CS2 #Esports</code>"
+ },
+ "ref": "tweet-fluxo",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Fluxo is reportedly putting its CS2 division on hold, with current players set to be released or benched, per HLTV sources. https://www.hltv.org/news/45960/sources-fluxo-to-put-cs-division-on-hold #CS2 #Esports</code>"
+}

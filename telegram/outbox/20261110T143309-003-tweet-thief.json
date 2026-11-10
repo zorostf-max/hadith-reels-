@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/RDwPQiHTqMuwLwsAVsSxNV-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Stephen Russell, the original voice of Garrett, returns to the role in Thief: The Tarnished Mirror. Great news for stealth fans! https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/ #Thief #Gaming</code>"
+ },
+ "ref": "tweet-thief",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Stephen Russell, the original voice of Garrett, returns to the role in Thief: The Tarnished Mirror. Great news for stealth fans! https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/ #Thief #Gaming</code>"
+}

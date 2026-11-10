@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic30.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Rockstar confirms GTA 6 targets 30 FPS, with ray tracing exclusive to PS5 Pro, and says the game plays best on PS5. https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/ #GTA6 #PS5</code>"
+ },
+ "ref": "tweet-gta6-30fps",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Rockstar confirms GTA 6 targets 30 FPS, with ray tracing exclusive to PS5 Pro, and says the game plays best on PS5. https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/ #GTA6 #PS5</code>"
+}

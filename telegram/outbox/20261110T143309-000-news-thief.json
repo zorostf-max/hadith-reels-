@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/RDwPQiHTqMuwLwsAVsSxNV-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Stephen Russell is back as Garrett in Thief: The Tarnished Mirror</b>\n\nThe original voice of master thief Garrett, Stephen Russell, returns to the role in the upcoming Thief: The Tarnished Mirror. Russell is also known to RPG fans for his voice work in Fallout and The Elder Scrolls, and his comeback is big news for longtime fans of the stealth series.\n\n🕒 Nov 10, 2026 · 17:00 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/\">PC Gamer</a>\n\n#Thief #GamingNews"
+ },
+ "ref": "news-thief",
+ "fallback_text": "🎮 <b>Stephen Russell is back as Garrett in Thief: The Tarnished Mirror</b>\n\nThe original voice of master thief Garrett, Stephen Russell, returns to the role in the upcoming Thief: The Tarnished Mirror. Russell is also known to RPG fans for his voice work in Fallout and The Elder Scrolls, and his comeback is big news for longtime fans of the stealth series.\n\n🕒 Nov 10, 2026 · 17:00 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/\">PC Gamer</a>\n\n#Thief #GamingNews"
+}
