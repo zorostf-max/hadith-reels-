@@ -65,3 +65,15 @@
 2026-11-10 17:14	VGC	https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/
 2026-11-10 16:31	PC Gamer (same story)	https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-now-lets-you-see-exactly-what-frame-rate-you-should-get-in-games-using-a-steam-deck/
 2026-11-10 16:53	Eurogamer (same story)	https://www.eurogamer.net/steam-deck-framerate-average-data-store-widget
+2026-11-10 17:46	Eurogamer	https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation
+2026-11-10 17:51	VGC	https://www.videogameschronicle.com/news/bioware-co-founder-and-star-wars-kotor-director-say-theyre-interested-in-reuniting-to-try-and-save-biowares-ip/
+2026-11-10 18:10	Dexerto	https://www.dexerto.com/call-of-duty/warzone-players-blocked-from-multiplayer-for-using-apps-to-find-easy-lobbies-3427019/
+2026-11-10 17:16	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-preorder-numbers-are-so-good-even-take-two-is-struggling-to-believe-them/
+2026-11-10 17:25	GameSpot (same story)	https://www.gamespot.com/articles/gta-5-simply-refuses-to-stop-selling-even-with-gta-6-on-the-way/
+2026-11-10 17:27	GameSpot (same story)	https://www.gamespot.com/articles/nintendo-new-gift-giving-feature-comes-with-some-very-nintendo-restrictions/
+2026-11-10 17:35	GameSpot (same story)	https://www.gamespot.com/articles/big-walks-ai-usage-was-tiny-but-its-disclosure-has-sparked-a-bigger-debate/
+2026-11-10 17:36	PC Gamer (same story)	https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/
+2026-11-10 17:37	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-ps5-pro-features-frame-rates-and-xbox-cloud-gaming-details-confirmed-by-rockstar/
+2026-11-10 17:40	Eurogamer (same story)	https://www.eurogamer.net/gta-6-xbox-cloud-streaming-pc-xbox-one
+2026-11-10 17:43	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-wont-run-at-60fps-even-on-ps5-pro-but-sonys-console-does-have-an-exclusive-ray-traced-shadows-and-pssr/
+2026-11-10 18:01	Eurogamer (same story)	https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit
