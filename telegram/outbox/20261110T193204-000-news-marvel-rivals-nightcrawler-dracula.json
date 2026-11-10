@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/Marvel-Rivals-Dracula.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Marvel Rivals adds Nightcrawler and Dracula to its roster</b>\n\nNetEase's hero shooter has confirmed the X-Men teleporter Nightcrawler and the vampire lord Dracula as upcoming playable characters. Fans hoping for Doctor Doom will have to keep waiting, as Dracula gets the villain slot instead.\n\n🕒 Nov 10, 2026 · 21:37 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable-characters/\">VGC</a>\n\n#MarvelRivals #Nightcrawler #GamingNews"
+ },
+ "ref": "news-marvel-rivals-nightcrawler-dracula",
+ "fallback_text": "🎮 <b>Marvel Rivals adds Nightcrawler and Dracula to its roster</b>\n\nNetEase's hero shooter has confirmed the X-Men teleporter Nightcrawler and the vampire lord Dracula as upcoming playable characters. Fans hoping for Doctor Doom will have to keep waiting, as Dracula gets the villain slot instead.\n\n🕒 Nov 10, 2026 · 21:37 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable-characters/\">VGC</a>\n\n#MarvelRivals #Nightcrawler #GamingNews"
+}

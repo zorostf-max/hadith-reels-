@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2022/06/Overwatch-2-brigitte.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>Overwatch brings back 6v6 role queue</b>\n\nBlizzard is returning 6v6 role queue to Overwatch after player feedback, and says it is committing to 6v6 alongside the current 5v5 format. It is a major win for players who have asked for the classic team size since the switch to 5v5.\n\n🕒 Nov 10, 2026 · 21:39 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/overwatch-brings-back-6v6-role-queue-following-player-feedback/\">VGC</a>\n\n#Overwatch #Blizzard #GamingNews"
+ },
+ "ref": "news-overwatch-6v6-role-queue",
+ "fallback_text": "🏆 <b>Overwatch brings back 6v6 role queue</b>\n\nBlizzard is returning 6v6 role queue to Overwatch after player feedback, and says it is committing to 6v6 alongside the current 5v5 format. It is a major win for players who have asked for the classic team size since the switch to 5v5.\n\n🕒 Nov 10, 2026 · 21:39 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/overwatch-brings-back-6v6-role-queue-following-player-feedback/\">VGC</a>\n\n#Overwatch #Blizzard #GamingNews"
+}

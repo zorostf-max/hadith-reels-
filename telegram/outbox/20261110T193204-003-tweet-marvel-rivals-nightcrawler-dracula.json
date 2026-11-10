@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/Marvel-Rivals-Dracula.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Marvel Rivals confirms Nightcrawler and Dracula as new playable characters, with Dracula taking the villain spot over Doctor Doom. https://www.videogameschronicle.com/news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable-characters/ #MarvelRivals</code>"
+ },
+ "ref": "tweet-marvel-rivals-nightcrawler-dracula",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Marvel Rivals confirms Nightcrawler and Dracula as new playable characters, with Dracula taking the villain spot over Doctor Doom. https://www.videogameschronicle.com/news/marvel-rivals-confirms-nightcrawler-and-dracula-as-playable-characters/ #MarvelRivals</code>"
+}
