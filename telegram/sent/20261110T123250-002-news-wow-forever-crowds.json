@@ -1,0 +1,11 @@
+{
+ "job": "20261110T123250-002-news-wow-forever-crowds.json",
+ "ref": "news-wow-forever-crowds",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T12:33:22Z",
+ "message_id": 61,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

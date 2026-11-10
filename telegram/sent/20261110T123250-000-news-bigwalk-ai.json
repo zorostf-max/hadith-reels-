@@ -1,0 +1,11 @@
+{
+ "job": "20261110T123250-000-news-bigwalk-ai.json",
+ "ref": "news-bigwalk-ai",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T12:33:19Z",
+ "message_id": 59,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
