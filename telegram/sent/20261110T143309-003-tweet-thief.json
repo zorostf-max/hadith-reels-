@@ -1,0 +1,11 @@
+{
+ "job": "20261110T143309-003-tweet-thief.json",
+ "ref": "tweet-thief",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T14:33:33Z",
+ "message_id": 187,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

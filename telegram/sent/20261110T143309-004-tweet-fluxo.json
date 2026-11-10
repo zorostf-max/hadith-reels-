@@ -1,0 +1,11 @@
+{
+ "job": "20261110T143309-004-tweet-fluxo.json",
+ "ref": "tweet-fluxo",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T14:33:35Z",
+ "message_id": 188,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

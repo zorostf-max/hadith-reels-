@@ -1,0 +1,11 @@
+{
+ "job": "20261110T143309-001-news-fluxo.json",
+ "ref": "news-fluxo",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T14:33:30Z",
+ "message_id": 68,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
