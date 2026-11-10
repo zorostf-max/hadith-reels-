@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/10/gta-1794323594152.png",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 GTA 6 preloads have started! Rockstar's new trailer adds nearly 30 seconds of fresh footage and shows off PS5 DualSense haptics, with launch next week. https://www.ign.com/articles/gta-6-preload-now-trailer-includes-nearly-30-seconds-of-new-footage-swat-team-nightclub-dancing-and-more #GTA6</code>"
+ },
+ "ref": "tweet-gta6-preload-trailer",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 GTA 6 preloads have started! Rockstar's new trailer adds nearly 30 seconds of fresh footage and shows off PS5 DualSense haptics, with launch next week. https://www.ign.com/articles/gta-6-preload-now-trailer-includes-nearly-30-seconds-of-new-footage-swat-team-nightclub-dancing-and-more #GTA6</code>"
+}

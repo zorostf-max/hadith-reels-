@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/10/valorant-13.10-patch-notes-sentinels-buffs-cypher-nerf.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Valorant patch 13.10 is live: buffs and nerfs for Sentinel agents plus a change to how assists work. https://www.dexerto.com/valorant/valorant-13-10-update-bring-sentinel-buffs-and-big-changes-to-assists-3426986/ #Valorant #Esports</code>"
+ },
+ "ref": "tweet-valorant-13-10",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Valorant patch 13.10 is live: buffs and nerfs for Sentinel agents plus a change to how assists work. https://www.dexerto.com/valorant/valorant-13-10-update-bring-sentinel-buffs-and-big-changes-to-assists-3426986/ #Valorant #Esports</code>"
+}

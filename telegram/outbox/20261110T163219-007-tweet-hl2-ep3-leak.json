@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/5Fgc9yV49oyJYajzzRPc6X-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 A Half-Life 2: Episode 3 source code leak is revealing more of Valve's apparent sequel plans, including \"The Weaponizer\", a weapon to rival the Gravity Gun. https://www.gamesradar.com/games/fps/half-life-2-episode-3-source-code-leak-reveals-more-of-valves-apparent-plans-for-a-sequel-including-a-fabled-weapon-to-rival-the-gravity-gun/ #HalfLife #Valve</code>"
+ },
+ "ref": "tweet-hl2-ep3-leak",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 A Half-Life 2: Episode 3 source code leak is revealing more of Valve's apparent sequel plans, including \"The Weaponizer\", a weapon to rival the Gravity Gun. https://www.gamesradar.com/games/fps/half-life-2-episode-3-source-code-leak-reveals-more-of-valves-apparent-plans-for-a-sequel-including-a-fabled-weapon-to-rival-the-gravity-gun/ #HalfLife #Valve</code>"
+}

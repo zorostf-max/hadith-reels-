@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/10/valorant-13.10-patch-notes-sentinels-buffs-cypher-nerf.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>Valorant patch 13.10 shakes up Sentinels and assists</b>\n\nRiot's 13.10 update is live, bringing a mix of buffs and nerfs across the Sentinel agents. The patch also changes how in-game assists work, which could shift how support play is rewarded in ranked and pro matches.\n\n🕒 Nov 10, 2026 · 17:28 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/valorant/valorant-13-10-update-bring-sentinel-buffs-and-big-changes-to-assists-3426986/\">Dexerto</a>\n\n#Valorant #Esports #GamingNews"
+ },
+ "ref": "news-valorant-13-10",
+ "fallback_text": "🏆 <b>Valorant patch 13.10 shakes up Sentinels and assists</b>\n\nRiot's 13.10 update is live, bringing a mix of buffs and nerfs across the Sentinel agents. The patch also changes how in-game assists work, which could shift how support play is rewarded in ranked and pro matches.\n\n🕒 Nov 10, 2026 · 17:28 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/valorant/valorant-13-10-update-bring-sentinel-buffs-and-big-changes-to-assists-3426986/\">Dexerto</a>\n\n#Valorant #Esports #GamingNews"
+}
