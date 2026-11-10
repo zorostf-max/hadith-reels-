@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/switch-2-gifting.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Nintendo pushed firmware 23.5.0 to Switch and Switch 2, readying consoles for a coming update that lets Nintendo Account family members gift games to each other. https://www.eurogamer.net/switch-2-and-switch-consoles-updated-to-version-2350-as-nintendo-quietly-re-introduces-eshop-gifting #Nintendo #Switch2</code>"
+ },
+ "ref": "tweet-switch-gifting",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Nintendo pushed firmware 23.5.0 to Switch and Switch 2, readying consoles for a coming update that lets Nintendo Account family members gift games to each other. https://www.eurogamer.net/switch-2-and-switch-consoles-updated-to-version-2350-as-nintendo-quietly-re-introduces-eshop-gifting #Nintendo #Switch2</code>"
+}

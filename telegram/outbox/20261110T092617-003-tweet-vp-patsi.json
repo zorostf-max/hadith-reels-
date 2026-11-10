@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/OwQEfrvnYGNdD0IX-YxiEF.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Roster move: Virtus.pro have signed experienced rifler Patsi, who replaces F0R3VER in their CS2 lineup. https://www.hltv.org/news/45957/virtuspro-sign-patsi #CS2 #VirtusPro</code>"
+ },
+ "ref": "tweet-vp-patsi",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Roster move: Virtus.pro have signed experienced rifler Patsi, who replaces F0R3VER in their CS2 lineup. https://www.hltv.org/news/45957/virtuspro-sign-patsi #CS2 #VirtusPro</code>"
+}

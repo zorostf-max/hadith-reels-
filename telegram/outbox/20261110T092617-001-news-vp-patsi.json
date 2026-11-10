@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/OwQEfrvnYGNdD0IX-YxiEF.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>Virtus.pro bring in Patsi for their CS2 roster</b>\n\nVirtus.pro have signed the experienced rifler Patsi. He steps into the spot previously held by F0R3VER, marking a lineup change for the team.\n\n🕒 Nov 10, 2026 · 12:23 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45957/virtuspro-sign-patsi\">HLTV</a>\n\n#CS2 #VirtusPro #GamingNews"
+ },
+ "ref": "news-vp-patsi",
+ "fallback_text": "🏆 <b>Virtus.pro bring in Patsi for their CS2 roster</b>\n\nVirtus.pro have signed the experienced rifler Patsi. He steps into the spot previously held by F0R3VER, marking a lineup change for the team.\n\n🕒 Nov 10, 2026 · 12:23 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45957/virtuspro-sign-patsi\">HLTV</a>\n\n#CS2 #VirtusPro #GamingNews"
+}
