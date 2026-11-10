@@ -1,0 +1,11 @@
+{
+ "job": "20261110T033140-001-news-2game-sfl.json",
+ "ref": "news-2game-sfl",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T03:32:05Z",
+ "message_id": 49,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
