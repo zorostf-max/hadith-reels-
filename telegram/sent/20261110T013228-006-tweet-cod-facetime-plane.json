@@ -1,0 +1,11 @@
+{
+ "job": "20261110T013228-006-tweet-cod-facetime-plane.json",
+ "ref": "tweet-cod-facetime-plane",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T01:33:02Z",
+ "message_id": 168,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

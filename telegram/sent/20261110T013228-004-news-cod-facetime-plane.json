@@ -1,0 +1,11 @@
+{
+ "job": "20261110T013228-004-news-cod-facetime-plane.json",
+ "ref": "news-cod-facetime-plane",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T01:32:58Z",
+ "message_id": 48,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
