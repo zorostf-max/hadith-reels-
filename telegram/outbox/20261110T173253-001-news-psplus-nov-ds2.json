@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/original/1816/18167535/4521342-death-stranding-2-best-weapons-gear-upgrades-early-game-.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Death Stranding 2 leads November's PS Plus Game Catalog</b>\n\nSony has revealed the next batch of PlayStation Plus Game Catalog titles: 10 games in total, arriving from November 11, with some rolling out later in the month in the US and UK. Hideo Kojima's Death Stranding 2: On the Beach is the headliner. Sony is also retiring the PlayStation Plus app for PC, ending PC streaming in December.\n\n🕒 Nov 10, 2026 · 19:36 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/death-stranding-2-headlines-playstation-plus-game-catalog-for-november/\">GameSpot</a>\n\n#PSPlus #DeathStranding2 #GamingNews"
+ },
+ "ref": "news-psplus-nov-ds2",
+ "fallback_text": "🕹️ <b>Death Stranding 2 leads November's PS Plus Game Catalog</b>\n\nSony has revealed the next batch of PlayStation Plus Game Catalog titles: 10 games in total, arriving from November 11, with some rolling out later in the month in the US and UK. Hideo Kojima's Death Stranding 2: On the Beach is the headliner. Sony is also retiring the PlayStation Plus app for PC, ending PC streaming in December.\n\n🕒 Nov 10, 2026 · 19:36 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/death-stranding-2-headlines-playstation-plus-game-catalog-for-november/\">GameSpot</a>\n\n#PSPlus #DeathStranding2 #GamingNews"
+}

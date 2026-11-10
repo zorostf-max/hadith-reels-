@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Lucia_Caminos_14.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 breaks pre-order records on PlayStation and Xbox</b>\n\nSony says Grand Theft Auto 6 is now the most pre-ordered game in PlayStation Store history, and Microsoft confirmed the same record for the Microsoft Store today. Neither company shared numbers or said which game held the old record. Rockstar's game launches on November 19 for PS5 and Xbox Series X|S.\n\n🕒 Nov 10, 2026 · 19:15 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-is-the-most-preordered-game-of-all-time-for-playstation-and-xbox/\">GameSpot</a>\n\n#GTA6 #Rockstar #GamingNews"
+ },
+ "ref": "news-gta6-preorder-record",
+ "fallback_text": "🎮 <b>GTA 6 breaks pre-order records on PlayStation and Xbox</b>\n\nSony says Grand Theft Auto 6 is now the most pre-ordered game in PlayStation Store history, and Microsoft confirmed the same record for the Microsoft Store today. Neither company shared numbers or said which game held the old record. Rockstar's game launches on November 19 for PS5 and Xbox Series X|S.\n\n🕒 Nov 10, 2026 · 19:15 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-is-the-most-preordered-game-of-all-time-for-playstation-and-xbox/\">GameSpot</a>\n\n#GTA6 #Rockstar #GamingNews"
+}

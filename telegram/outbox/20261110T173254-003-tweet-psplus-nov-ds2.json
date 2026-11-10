@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/original/1816/18167535/4521342-death-stranding-2-best-weapons-gear-upgrades-early-game-.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>📦 Death Stranding 2: On the Beach headlines November's PS Plus Game Catalog — 10 games from Nov 11. Sony is also retiring the PS Plus PC app, ending PC streaming in December. https://www.gamespot.com/articles/death-stranding-2-headlines-playstation-plus-game-catalog-for-november/ #PSPlus #PlayStation</code>"
+ },
+ "ref": "tweet-psplus-nov-ds2",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>📦 Death Stranding 2: On the Beach headlines November's PS Plus Game Catalog — 10 games from Nov 11. Sony is also retiring the PS Plus PC app, ending PC streaming in December. https://www.gamespot.com/articles/death-stranding-2-headlines-playstation-plus-game-catalog-for-november/ #PSPlus #PlayStation</code>"
+}

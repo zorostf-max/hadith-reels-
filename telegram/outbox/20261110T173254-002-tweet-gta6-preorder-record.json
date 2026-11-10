@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Lucia_Caminos_14.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🔥 GTA 6 is now the most pre-ordered game in both PlayStation Store and Microsoft Store history, Sony and Microsoft confirm. It launches Nov 19 on PS5 and Xbox Series X|S. https://www.gamespot.com/articles/gta-6-is-the-most-preordered-game-of-all-time-for-playstation-and-xbox/ #GTA6 #Gaming</code>"
+ },
+ "ref": "tweet-gta6-preorder-record",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🔥 GTA 6 is now the most pre-ordered game in both PlayStation Store and Microsoft Store history, Sony and Microsoft confirm. It launches Nov 19 on PS5 and Xbox Series X|S. https://www.gamespot.com/articles/gta-6-is-the-most-preordered-game-of-all-time-for-playstation-and-xbox/ #GTA6 #Gaming</code>"
+}
