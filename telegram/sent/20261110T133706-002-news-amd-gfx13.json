@@ -1,0 +1,11 @@
+{
+ "job": "20261110T133706-002-news-amd-gfx13.json",
+ "ref": "news-amd-gfx13",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T13:37:26Z",
+ "message_id": 65,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

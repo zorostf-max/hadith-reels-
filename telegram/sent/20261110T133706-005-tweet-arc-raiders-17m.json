@@ -1,0 +1,11 @@
+{
+ "job": "20261110T133706-005-tweet-arc-raiders-17m.json",
+ "ref": "tweet-arc-raiders-17m",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T13:37:30Z",
+ "message_id": 184,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
