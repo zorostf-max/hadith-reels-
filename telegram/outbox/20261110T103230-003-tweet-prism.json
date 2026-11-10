@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Mfr6oowKTNgPJb6JfgV5nB-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ PlayStation's Prism collection of DualSense controllers and PS5 console covers is up for pre-order today. https://www.gamesradar.com/live/news/where-to-buy-ps5-prism-dualsense-console-covers/ #PS5 #PlayStation</code>"
+ },
+ "ref": "tweet-prism",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ PlayStation's Prism collection of DualSense controllers and PS5 console covers is up for pre-order today. https://www.gamesradar.com/live/news/where-to-buy-ps5-prism-dualsense-console-covers/ #PS5 #PlayStation</code>"
+}

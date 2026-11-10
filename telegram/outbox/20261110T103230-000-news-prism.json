@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Mfr6oowKTNgPJb6JfgV5nB-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>PS5 Prism DualSense and console covers open for pre-order</b>\n\nPlayStation's new Prism collection, a line of DualSense controllers and matching PS5 console covers, goes up for pre-order today. Retail stock is expected to move fast, so fans after the new look should keep an eye on listings.\n\n🕒 Nov 10, 2026 · 12:41 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/live/news/where-to-buy-ps5-prism-dualsense-console-covers/\">GamesRadar+</a>\n\n#PS5 #PlayStation #GamingNews"
+ },
+ "ref": "news-prism",
+ "fallback_text": "🕹️ <b>PS5 Prism DualSense and console covers open for pre-order</b>\n\nPlayStation's new Prism collection, a line of DualSense controllers and matching PS5 console covers, goes up for pre-order today. Retail stock is expected to move fast, so fans after the new look should keep an eye on listings.\n\n🕒 Nov 10, 2026 · 12:41 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/live/news/where-to-buy-ps5-prism-dualsense-console-covers/\">GamesRadar+</a>\n\n#PS5 #PlayStation #GamingNews"
+}

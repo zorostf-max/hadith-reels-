@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/-N1ainPdnapb4Sj1Z4k-T0.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>PGL Cluj-Napoca invites revealed</b>\n\nPGL has revealed the invited teams for its CS2 event in Cluj-Napoca, Romania. All 14 of the highest-ranked teams accepted their invitations, setting up a stacked field.\n\n🕒 Nov 10, 2026 · 13:00 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45958/pgl-cluj-napoca-invites-revealed\">HLTV</a>\n\n#CS2 #Esports #GamingNews"
+ },
+ "ref": "news-pgl-cluj",
+ "fallback_text": "🏆 <b>PGL Cluj-Napoca invites revealed</b>\n\nPGL has revealed the invited teams for its CS2 event in Cluj-Napoca, Romania. All 14 of the highest-ranked teams accepted their invitations, setting up a stacked field.\n\n🕒 Nov 10, 2026 · 13:00 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45958/pgl-cluj-napoca-invites-revealed\">HLTV</a>\n\n#CS2 #Esports #GamingNews"
+}

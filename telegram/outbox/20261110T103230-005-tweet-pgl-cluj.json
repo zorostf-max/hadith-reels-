@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/-N1ainPdnapb4Sj1Z4k-T0.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 PGL Cluj-Napoca invites are out: all 14 highest-ranked CS2 teams have accepted their spots at the Romanian event. https://www.hltv.org/news/45958/pgl-cluj-napoca-invites-revealed #CS2 #Esports</code>"
+ },
+ "ref": "tweet-pgl-cluj",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 PGL Cluj-Napoca invites are out: all 14 highest-ranked CS2 teams have accepted their spots at the Romanian event. https://www.hltv.org/news/45958/pgl-cluj-napoca-invites-revealed #CS2 #Esports</code>"
+}
