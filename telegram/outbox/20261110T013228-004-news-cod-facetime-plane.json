@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/10/cod-1794269315961.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>A Call of Duty chat got a plane evacuated in California</b>\n\nA Frontier Airlines flight and the east wing of Terminal 2 at Ontario International Airport were evacuated before departure after another passenger mistook a FaceTime call about Call of Duty multiplayer for a bomb threat, police said. The gamer was detained and released, and the flight later left without further incident.\n\n🕒 Nov 10, 2026 · 03:08 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/call-of-duty-facetime-chat-causes-plane-to-be-evacuated\">IGN</a>\n\n#CallOfDuty #GamingNews"
+ },
+ "ref": "news-cod-facetime-plane",
+ "fallback_text": "🎮 <b>A Call of Duty chat got a plane evacuated in California</b>\n\nA Frontier Airlines flight and the east wing of Terminal 2 at Ontario International Airport were evacuated before departure after another passenger mistook a FaceTime call about Call of Duty multiplayer for a bomb threat, police said. The gamer was detained and released, and the flight later left without further incident.\n\n🕒 Nov 10, 2026 · 03:08 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/call-of-duty-facetime-chat-causes-plane-to-be-evacuated\">IGN</a>\n\n#CallOfDuty #GamingNews"
+}

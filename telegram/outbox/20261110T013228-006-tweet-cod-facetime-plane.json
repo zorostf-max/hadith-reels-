@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/10/cod-1794269315961.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>✈️ A FaceTime chat about Call of Duty multiplayer was mistaken for a bomb threat, getting a Frontier flight and part of Ontario Airport's Terminal 2 evacuated. The player was detained, then released. https://www.ign.com/articles/call-of-duty-facetime-chat-causes-plane-to-be-evacuated #CallOfDuty</code>"
+ },
+ "ref": "tweet-cod-facetime-plane",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>✈️ A FaceTime chat about Call of Duty multiplayer was mistaken for a bomb threat, getting a Frontier flight and part of Ontario Airport's Terminal 2 evacuated. The player was detained, then released. https://www.ign.com/articles/call-of-duty-facetime-chat-causes-plane-to-be-evacuated #CallOfDuty</code>"
+}

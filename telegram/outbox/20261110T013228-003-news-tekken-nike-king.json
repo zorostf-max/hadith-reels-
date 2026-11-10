@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2023/03/20/tekken8kinggameplaytrailer-ign-blogroll-1679320106829.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Nike is making a Tekken shoe inspired by King</b>\n\nNike's dotswoosh division has confirmed an upcoming collaboration with Tekken. The design is an Air Max shoe built around King, the series' famous masked pro wrestler, a rare crossover between a fighting game and a major sneaker brand.\n\n🕒 Nov 10, 2026 · 03:01 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/nike-and-tekken-team-up-for-a-king-inspired-air-max-shoe\">IGN</a>\n\n#Tekken #Nike #GamingNews"
+ },
+ "ref": "news-tekken-nike-king",
+ "fallback_text": "🎮 <b>Nike is making a Tekken shoe inspired by King</b>\n\nNike's dotswoosh division has confirmed an upcoming collaboration with Tekken. The design is an Air Max shoe built around King, the series' famous masked pro wrestler, a rare crossover between a fighting game and a major sneaker brand.\n\n🕒 Nov 10, 2026 · 03:01 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/nike-and-tekken-team-up-for-a-king-inspired-air-max-shoe\">IGN</a>\n\n#Tekken #Nike #GamingNews"
+}
