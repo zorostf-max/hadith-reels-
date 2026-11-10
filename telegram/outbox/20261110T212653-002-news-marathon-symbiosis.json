@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/qsoUEKZJuZjDSsWKVnbSzh-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Marathon adds a co-op PvE roguelite mode in December</b>\n\nBungie has released a gameplay trailer for Marathon's new co-op PvE roguelite mode and a fresh social space. Both arrive with the Symbiosis update on December 8, which also starts a beta for Team Deathmatch and comes with a free-play week.\n\n🕒 Nov 11, 2026 · 00:16 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/bungie-drops-gameplay-trailer-for-marathons-co-op-pve-roguelite-mode-and-swanky-new-social-space/\">PC Gamer</a>\n\n#Marathon #Bungie #GamingNews"
+ },
+ "ref": "news-marathon-symbiosis",
+ "fallback_text": "🎮 <b>Marathon adds a co-op PvE roguelite mode in December</b>\n\nBungie has released a gameplay trailer for Marathon's new co-op PvE roguelite mode and a fresh social space. Both arrive with the Symbiosis update on December 8, which also starts a beta for Team Deathmatch and comes with a free-play week.\n\n🕒 Nov 11, 2026 · 00:16 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/bungie-drops-gameplay-trailer-for-marathons-co-op-pve-roguelite-mode-and-swanky-new-social-space/\">PC Gamer</a>\n\n#Marathon #Bungie #GamingNews"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Lucia_Caminos_07.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>💰 Take-Two CEO Strauss Zelnick says GTA 6 at $80 is a \"bargain\" given how many hours players will get, even as inflation squeezes consumers. https://www.gamespot.com/articles/amid-higher-gas-and-grocery-prices-gta-6-is-a-bargain-at-80-take-two-ceo-says/ #GTA6</code>"
+ },
+ "ref": "tweet-gta6-bargain",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>💰 Take-Two CEO Strauss Zelnick says GTA 6 at $80 is a \"bargain\" given how many hours players will get, even as inflation squeezes consumers. https://www.gamespot.com/articles/amid-higher-gas-and-grocery-prices-gta-6-is-a-bargain-at-80-take-two-ceo-says/ #GTA6</code>"
+}

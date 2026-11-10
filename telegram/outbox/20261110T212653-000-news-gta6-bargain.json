@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Lucia_Caminos_07.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Take-Two CEO calls $80 GTA 6 a \"bargain\"</b>\n\nSpeaking to CNBC, Strauss Zelnick admitted consumers are under pressure from inflation, with food and gas prices way up. Still, he argues GTA 6 at $80 is good value because of the sheer number of hours players will get out of it, a week before its November 19 launch.\n\n🕒 Nov 10, 2026 · 23:14 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/amid-higher-gas-and-grocery-prices-gta-6-is-a-bargain-at-80-take-two-ceo-says/\">GameSpot</a>\n\n#GTA6 #TakeTwo #GamingNews"
+ },
+ "ref": "news-gta6-bargain",
+ "fallback_text": "🎮 <b>Take-Two CEO calls $80 GTA 6 a \"bargain\"</b>\n\nSpeaking to CNBC, Strauss Zelnick admitted consumers are under pressure from inflation, with food and gas prices way up. Still, he argues GTA 6 at $80 is good value because of the sheer number of hours players will get out of it, a week before its November 19 launch.\n\n🕒 Nov 10, 2026 · 23:14 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/amid-higher-gas-and-grocery-prices-gta-6-is-a-bargain-at-80-take-two-ceo-says/\">GameSpot</a>\n\n#GTA6 #TakeTwo #GamingNews"
+}
