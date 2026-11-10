@@ -53,3 +53,10 @@
 2026-11-10 14:47	GamesRadar+	https://www.gamesradar.com/games/world-of-warcraft/blizzard-admits-some-zones-had-become-too-crowded-in-wow-forever-lowers-population-in-the-mmos-areas-with-the-most-significant-congestion/
 2026-11-10 14:53	Tom's Hardware	https://www.tomshardware.com/video-games/pc-gaming/steam-store-adds-average-fps-data-so-you-can-see-game-performance-before-making-a-purchase-steam-deck-only-for-now-with-desktop-pc-support-planned
 2026-11-10 15:14	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/rockstar-is-putting-on-a-last-minute-live-music-festival-featuring-travis-scott-and-cardi-b-to-celebrate-gta-6s-launch/
+2026-11-10 16:40	GamesRadar+	https://www.gamesradar.com/hardware/as-zelda-ocarina-of-time-remake-appears-on-pc-nintendo-tries-to-stop-the-cause-dead-in-its-tracks-with-switch-2-jailbreak-patch-popular-dataminer-says-makes-mods-and-game-dumping-impossible-again/
+2026-11-10 16:40	Eurogamer	https://www.eurogamer.net/arc-raiders-17-million-sales-nexon-decline
+2026-11-10 16:40	PC Gamer	https://www.pcgamer.com/hardware/graphics-cards/amds-next-gen-gpu-architecture-has-appeared-in-new-linux-kernel-patches-as-gfx13-updates-roll-out/
+2026-11-10 16:40	GamesRadar+	https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-being-off-to-a-great-start-proves-switch-2-price-hike-isnt-slowing-momentum-nintendo-president-says/
+2026-11-10 16:40	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-ceo-says-this-business-has-been-largely-immune-to-piracy-concerns-but-ai-generated-recomps-are-making-it-more-of-a-challenge/
+2026-11-10 16:40	Dexerto (same story)	https://www.dexerto.com/gaming/nintendo-is-hiring-someone-to-preserve-old-consoles-games-3426892/
+2026-11-10 16:40	VGC (same story)	https://www.videogameschronicle.com/news/skydance-games-has-been-laying-off-some-of-its-staff-a-month-after-merging-with-warner-bros/
