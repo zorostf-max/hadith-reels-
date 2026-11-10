@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/SjXLPquNhBisCmqpHuepoj-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Monster Hunter Wilds Steam beta listing quietly updated</b>\n\nCapcom has updated the Monster Hunter Wilds beta page on Steam without an announcement. PC Gamer reads it as a sign that a playtest for the Ascendance expansion could arrive soon; Capcom has not confirmed anything yet.\n\n🕒 Nov 11, 2026 · 01:22 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/action/capcom-quietly-updates-the-monster-hunter-wilds-beta-listing-on-steam-indicating-a-possible-expansion-playtest/\">PC Gamer</a>\n\n#MonsterHunterWilds #Capcom #GamingNews"
+ },
+ "ref": "news-mh-wilds-beta-listing",
+ "fallback_text": "🎮 <b>Monster Hunter Wilds Steam beta listing quietly updated</b>\n\nCapcom has updated the Monster Hunter Wilds beta page on Steam without an announcement. PC Gamer reads it as a sign that a playtest for the Ascendance expansion could arrive soon; Capcom has not confirmed anything yet.\n\n🕒 Nov 11, 2026 · 01:22 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/action/capcom-quietly-updates-the-monster-hunter-wilds-beta-listing-on-steam-indicating-a-possible-expansion-playtest/\">PC Gamer</a>\n\n#MonsterHunterWilds #Capcom #GamingNews"
+}
