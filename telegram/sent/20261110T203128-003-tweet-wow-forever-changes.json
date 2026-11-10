@@ -1,0 +1,11 @@
+{
+ "job": "20261110T203128-003-tweet-wow-forever-changes.json",
+ "ref": "tweet-wow-forever-changes",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T20:31:48Z",
+ "message_id": 206,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

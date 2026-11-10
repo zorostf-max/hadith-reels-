@@ -1,0 +1,11 @@
+{
+ "job": "20261110T203128-004-tweet-steam-deck-fps-data.json",
+ "ref": "tweet-steam-deck-fps-data",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T20:31:50Z",
+ "message_id": 207,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261110T203127-002-news-bandai-closes-reflector.json",
+ "ref": "news-bandai-closes-reflector",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T20:31:47Z",
+ "message_id": 88,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261110T203127-001-news-steam-deck-fps-data.json",
+ "ref": "news-steam-deck-fps-data",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T20:31:45Z",
+ "message_id": 87,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

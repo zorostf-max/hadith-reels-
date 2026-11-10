@@ -1,0 +1,11 @@
+{
+ "job": "20261110T203128-005-tweet-bandai-closes-reflector.json",
+ "ref": "tweet-bandai-closes-reflector",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T20:31:52Z",
+ "message_id": 208,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
