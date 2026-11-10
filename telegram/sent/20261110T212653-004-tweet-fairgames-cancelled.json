@@ -1,0 +1,11 @@
+{
+ "job": "20261110T212653-004-tweet-fairgames-cancelled.json",
+ "ref": "tweet-fairgames-cancelled",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T21:27:17Z",
+ "message_id": 210,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
