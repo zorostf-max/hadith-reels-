@@ -63,7 +63,9 @@ No tweet is sent for a story that was not posted to the channel, and never two t
 
 Every story posted to the channel is **also published on the owner's blog** `byte-beyondtech.blogspot.com`, in the same hourly run, through Blogger's "post by email" (published immediately). The secret posting address is **only in the scheduled task's prompt — never write it in this public repo** (anyone who knows it can post to the blog).
 
-For each story whose channel job `wait` reports as ok:
+**At most ONE blog post per hourly run** (2026-11-10: Blogger accepted the first email of each run and blocked the rest with 5.7.0, so it rate-limits post-by-email). Pick the single most important story of the run that is not yet in `blogged.txt`; if the run posted nothing new, take the newest channel story of the last 6 hours missing from `blogged.txt`.
+
+For that story:
 
 1. Send ONE email with the Gmail tool `send_message`, from the owner's Gmail, to the posting address in the task prompt:
    - `subject` = the headline (plain text, no emoji, no HTML) — it becomes the post title.
