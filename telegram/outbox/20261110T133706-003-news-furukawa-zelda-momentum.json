@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/LcbRtpfz3wvri99bCnG7VH-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Nintendo boss: Zelda remake shows Switch 2 price hike isn't hurting momentum</b>\n\nNintendo president Shuntaro Furukawa says the Zelda: Ocarina of Time remake is \"off to a great start.\" He points to its strong launch as proof that the Switch 2 price increase hasn't slowed the console's momentum.\n\n🕒 Nov 10, 2026 · 16:14 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-being-off-to-a-great-start-proves-switch-2-price-hike-isnt-slowing-momentum-nintendo-president-says/\">GamesRadar+</a>\n\n#Nintendo #NintendoSwitch2 #GamingNews"
+ },
+ "ref": "news-furukawa-zelda-momentum",
+ "fallback_text": "🕹️ <b>Nintendo boss: Zelda remake shows Switch 2 price hike isn't hurting momentum</b>\n\nNintendo president Shuntaro Furukawa says the Zelda: Ocarina of Time remake is \"off to a great start.\" He points to its strong launch as proof that the Switch 2 price increase hasn't slowed the console's momentum.\n\n🕒 Nov 10, 2026 · 16:14 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-being-off-to-a-great-start-proves-switch-2-price-hike-isnt-slowing-momentum-nintendo-president-says/\">GamesRadar+</a>\n\n#Nintendo #NintendoSwitch2 #GamingNews"
+}

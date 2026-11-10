@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/nArC34Ecvopyb2Nkcd6a4C-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>AMD's next-gen GPU architecture shows up in Linux kernel patches</b>\n\nA batch of GFX13 patches for AMD's next graphics architecture has started landing in the Linux kernel. The changes themselves are low-level, but they hint that new AMD GPUs could arrive next year.\n\n🕒 Nov 10, 2026 · 16:06 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amds-next-gen-gpu-architecture-has-appeared-in-new-linux-kernel-patches-as-gfx13-updates-roll-out/\">PC Gamer</a>\n\n#AMD #GPU #GamingNews"
+ },
+ "ref": "news-amd-gfx13",
+ "fallback_text": "🖥️ <b>AMD's next-gen GPU architecture shows up in Linux kernel patches</b>\n\nA batch of GFX13 patches for AMD's next graphics architecture has started landing in the Linux kernel. The changes themselves are low-level, but they hint that new AMD GPUs could arrive next year.\n\n🕒 Nov 10, 2026 · 16:06 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amds-next-gen-gpu-architecture-has-appeared-in-new-linux-kernel-patches-as-gfx13-updates-roll-out/\">PC Gamer</a>\n\n#AMD #GPU #GamingNews"
+}
