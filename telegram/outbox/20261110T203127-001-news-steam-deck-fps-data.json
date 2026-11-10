@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/2e7f9079b6be9a3c99c5014fc1ee0eaede8d5edb.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Steam store pages will now show real Steam Deck frame rates</b>\n\nValve is adding average frame-rate data from players to store pages, shown next to the Deck verification badge once enough data is collected. The goal is a clearer picture, since some \"Verified\" games have not performed as well as players expected.\n\n🕒 Nov 10, 2026 · 22:07 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/valve-is-giving-you-more-ways-to-know-if-a-game-runs-well-on-steam-deck/\">GameSpot</a>\n\n#SteamDeck #Valve #GamingNews"
+ },
+ "ref": "news-steam-deck-fps-data",
+ "fallback_text": "🕹️ <b>Steam store pages will now show real Steam Deck frame rates</b>\n\nValve is adding average frame-rate data from players to store pages, shown next to the Deck verification badge once enough data is collected. The goal is a clearer picture, since some \"Verified\" games have not performed as well as players expected.\n\n🕒 Nov 10, 2026 · 22:07 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/valve-is-giving-you-more-ways-to-know-if-a-game-runs-well-on-steam-deck/\">GameSpot</a>\n\n#SteamDeck #Valve #GamingNews"
+}

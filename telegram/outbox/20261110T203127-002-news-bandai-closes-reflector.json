@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/WTrJjDChn3v8ozas2KjHmf-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Bandai Namco is closing Unknown 9 studio Reflector Entertainment</b>\n\nTwo years after Unknown 9: Awakening flopped, Bandai Namco is shutting down the team behind it. Reflector had a new game in pre-production, but the publisher decided it was not worth the time or money to continue.\n\n🕒 Nov 10, 2026 · 22:55 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/2-years-after-unknown-9-awakening-bombed-bandai-namco-is-closing-the-studio-that-made-it/\">PC Gamer</a>\n\n#BandaiNamco #GameIndustry #GamingNews"
+ },
+ "ref": "news-bandai-closes-reflector",
+ "fallback_text": "🎮 <b>Bandai Namco is closing Unknown 9 studio Reflector Entertainment</b>\n\nTwo years after Unknown 9: Awakening flopped, Bandai Namco is shutting down the team behind it. Reflector had a new game in pre-production, but the publisher decided it was not worth the time or money to continue.\n\n🕒 Nov 10, 2026 · 22:55 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/2-years-after-unknown-9-awakening-bombed-bandai-namco-is-closing-the-studio-that-made-it/\">PC Gamer</a>\n\n#BandaiNamco #GameIndustry #GamingNews"
+}

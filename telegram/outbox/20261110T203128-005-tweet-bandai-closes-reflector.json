@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/WTrJjDChn3v8ozas2KjHmf-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Bandai Namco is closing Reflector Entertainment, maker of Unknown 9: Awakening, and dropping its new game that was in pre-production. https://www.pcgamer.com/gaming-industry/2-years-after-unknown-9-awakening-bombed-bandai-namco-is-closing-the-studio-that-made-it/ #BandaiNamco #GameIndustry</code>"
+ },
+ "ref": "tweet-bandai-closes-reflector",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Bandai Namco is closing Reflector Entertainment, maker of Unknown 9: Awakening, and dropping its new game that was in pre-production. https://www.pcgamer.com/gaming-industry/2-years-after-unknown-9-awakening-bombed-bandai-namco-is-closing-the-studio-that-made-it/ #BandaiNamco #GameIndustry</code>"
+}
