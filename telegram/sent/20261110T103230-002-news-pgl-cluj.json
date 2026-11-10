@@ -1,0 +1,11 @@
+{
+ "job": "20261110T103230-002-news-pgl-cluj.json",
+ "ref": "news-pgl-cluj",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T10:32:49Z",
+ "message_id": 54,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

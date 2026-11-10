@@ -1,0 +1,11 @@
+{
+ "job": "20261110T103230-005-tweet-pgl-cluj.json",
+ "ref": "tweet-pgl-cluj",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T10:32:54Z",
+ "message_id": 174,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

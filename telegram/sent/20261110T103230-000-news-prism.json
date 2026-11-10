@@ -1,0 +1,11 @@
+{
+ "job": "20261110T103230-000-news-prism.json",
+ "ref": "news-prism",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T10:32:45Z",
+ "message_id": 52,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

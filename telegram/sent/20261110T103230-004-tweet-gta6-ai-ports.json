@@ -1,0 +1,11 @@
+{
+ "job": "20261110T103230-004-tweet-gta6-ai-ports.json",
+ "ref": "tweet-gta6-ai-ports",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T10:32:52Z",
+ "message_id": 173,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

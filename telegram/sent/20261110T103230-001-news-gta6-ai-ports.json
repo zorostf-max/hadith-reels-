@@ -1,0 +1,11 @@
+{
+ "job": "20261110T103230-001-news-gta6-ai-ports.json",
+ "ref": "news-gta6-ai-ports",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T10:32:47Z",
+ "message_id": 53,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
