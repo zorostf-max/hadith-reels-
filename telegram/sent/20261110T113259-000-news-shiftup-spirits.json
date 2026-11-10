@@ -1,0 +1,11 @@
+{
+ "job": "20261110T113259-000-news-shiftup-spirits.json",
+ "ref": "news-shiftup-spirits",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T11:33:18Z",
+ "message_id": 55,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

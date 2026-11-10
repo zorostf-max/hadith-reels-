@@ -1,0 +1,11 @@
+{
+ "job": "20261110T113259-004-tweet-shiftup-spirits.json",
+ "ref": "tweet-shiftup-spirits",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T11:33:25Z",
+ "message_id": 175,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

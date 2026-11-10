@@ -1,0 +1,11 @@
+{
+ "job": "20261110T113259-003-news-switch2-costs.json",
+ "ref": "news-switch2-costs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T11:33:24Z",
+ "message_id": 58,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

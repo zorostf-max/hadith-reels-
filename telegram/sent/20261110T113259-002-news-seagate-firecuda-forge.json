@@ -1,0 +1,11 @@
+{
+ "job": "20261110T113259-002-news-seagate-firecuda-forge.json",
+ "ref": "news-seagate-firecuda-forge",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T11:33:22Z",
+ "message_id": 57,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

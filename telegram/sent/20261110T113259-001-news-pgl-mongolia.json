@@ -1,0 +1,11 @@
+{
+ "job": "20261110T113259-001-news-pgl-mongolia.json",
+ "ref": "news-pgl-mongolia",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T11:33:20Z",
+ "message_id": 56,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

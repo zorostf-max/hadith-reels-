@@ -1,0 +1,11 @@
+{
+ "job": "20261110T113259-005-tweet-pgl-mongolia.json",
+ "ref": "tweet-pgl-mongolia",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T11:33:27Z",
+ "message_id": 176,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
