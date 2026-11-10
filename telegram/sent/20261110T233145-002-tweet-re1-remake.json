@@ -1,0 +1,11 @@
+{
+ "job": "20261110T233145-002-tweet-re1-remake.json",
+ "ref": "tweet-re1-remake",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T23:31:59Z",
+ "message_id": 214,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
