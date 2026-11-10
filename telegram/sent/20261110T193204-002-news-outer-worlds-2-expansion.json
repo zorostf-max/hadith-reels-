@@ -1,0 +1,11 @@
+{
+ "job": "20261110T193204-002-news-outer-worlds-2-expansion.json",
+ "ref": "news-outer-worlds-2-expansion",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T19:32:22Z",
+ "message_id": 85,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

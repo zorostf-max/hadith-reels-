@@ -1,0 +1,11 @@
+{
+ "job": "20261110T193204-004-tweet-overwatch-6v6-role-queue.json",
+ "ref": "tweet-overwatch-6v6-role-queue",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T19:32:25Z",
+ "message_id": 204,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261110T193204-001-news-overwatch-6v6-role-queue.json",
+ "ref": "news-overwatch-6v6-role-queue",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T19:32:20Z",
+ "message_id": 84,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

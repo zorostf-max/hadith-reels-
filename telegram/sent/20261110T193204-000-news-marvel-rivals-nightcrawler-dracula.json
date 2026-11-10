@@ -1,0 +1,11 @@
+{
+ "job": "20261110T193204-000-news-marvel-rivals-nightcrawler-dracula.json",
+ "ref": "news-marvel-rivals-nightcrawler-dracula",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T19:32:19Z",
+ "message_id": 83,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261110T193204-005-tweet-outer-worlds-2-expansion.json",
+ "ref": "tweet-outer-worlds-2-expansion",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T19:32:27Z",
+ "message_id": 205,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
