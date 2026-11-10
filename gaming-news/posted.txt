@@ -105,3 +105,7 @@
 2026-11-10 22:33	VGC	https://www.videogameschronicle.com/news/the-outer-worlds-2s-first-story-expansion-announced/
 2026-11-10 22:33	PC Gamer (same story)	https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/
 2026-11-10 22:33	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/a-week-before-gta-6-take-two-ceo-is-already-teasing-what-comes-next-from-rockstar/
+2026-11-10 23:33	GameSpot	https://www.gamespot.com/articles/wow-forever-just-received-its-first-big-post-launch-changes/
+2026-11-10 23:33	GameSpot	https://www.gamespot.com/articles/valve-is-giving-you-more-ways-to-know-if-a-game-runs-well-on-steam-deck/
+2026-11-10 23:33	PC Gamer	https://www.pcgamer.com/gaming-industry/2-years-after-unknown-9-awakening-bombed-bandai-namco-is-closing-the-studio-that-made-it/
+2026-11-10 23:33	GamesRadar+ (same story)	https://www.gamesradar.com/games/sonys-pc-presence-shrinks-again-as-playstation-plus-app-shuts-down-in-december/
