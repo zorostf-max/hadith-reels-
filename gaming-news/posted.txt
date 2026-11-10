@@ -47,3 +47,9 @@
 2026-11-10 14:34	HLTV	https://www.hltv.org/news/45959/pgl-moves-2027-event-from-china-to-mongolia
 2026-11-10 14:34	Tom's Hardware	https://www.tomshardware.com/pc-components/external-ssds/seagate-resurrects-hybrid-storage-hands-on-with-the-firecuda-forge-8-or-20tb-external-hard-drive-requires-you-to-bring-your-own-nvme-ssd
 2026-11-10 14:34	GamesRadar+	https://www.gamesradar.com/hardware/tech/nintendo-bearing-switch-2-manufacturing-costs-to-avoid-price-hikes-but-that-may-have-to-change-if-we-cannot-absorb-the-costs-through-our-own-efforts/
+2026-11-10 13:51	Eurogamer	https://www.eurogamer.net/house-house-big-walk-generative-ai-development
+2026-11-10 13:51	VGC (same story)	https://www.videogameschronicle.com/news/big-walk-studio-says-it-used-ai-sparingly-in-response-to-indie-award-jury-statement-against-its-use/
+2026-11-10 14:17	PC Gamer	https://www.pcgamer.com/games/horror/phasmophobia-raises-over-usd200-000-for-charity-in-the-annual-ghost-hunts-for-hearts-collaboration-with-the-american-heart-association/
+2026-11-10 14:47	GamesRadar+	https://www.gamesradar.com/games/world-of-warcraft/blizzard-admits-some-zones-had-become-too-crowded-in-wow-forever-lowers-population-in-the-mmos-areas-with-the-most-significant-congestion/
+2026-11-10 14:53	Tom's Hardware	https://www.tomshardware.com/video-games/pc-gaming/steam-store-adds-average-fps-data-so-you-can-see-game-performance-before-making-a-purchase-steam-deck-only-for-now-with-desktop-pc-support-planned
+2026-11-10 15:14	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/rockstar-is-putting-on-a-last-minute-live-music-festival-featuring-travis-scott-and-cardi-b-to-celebrate-gta-6s-launch/
