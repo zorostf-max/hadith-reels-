@@ -1,0 +1,11 @@
+{
+ "job": "20261110T183220-004-tweet-zelnick-ocarina.json",
+ "ref": "tweet-zelnick-ocarina",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T18:32:43Z",
+ "message_id": 199,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261110T183220-000-news-zelnick-ocarina.json",
+ "ref": "news-zelnick-ocarina",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T18:32:36Z",
+ "message_id": 79,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

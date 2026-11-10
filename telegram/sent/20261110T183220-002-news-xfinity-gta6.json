@@ -1,0 +1,11 @@
+{
+ "job": "20261110T183220-002-news-xfinity-gta6.json",
+ "ref": "news-xfinity-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T18:32:39Z",
+ "message_id": 81,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

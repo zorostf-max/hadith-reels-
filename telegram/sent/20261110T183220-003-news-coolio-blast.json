@@ -1,0 +1,11 @@
+{
+ "job": "20261110T183220-003-news-coolio-blast.json",
+ "ref": "news-coolio-blast",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T18:32:41Z",
+ "message_id": 82,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

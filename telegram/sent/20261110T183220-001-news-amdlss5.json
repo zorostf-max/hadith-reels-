@@ -1,0 +1,11 @@
+{
+ "job": "20261110T183220-001-news-amdlss5.json",
+ "ref": "news-amdlss5",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T18:32:37Z",
+ "message_id": 80,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
