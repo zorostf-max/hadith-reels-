@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/07/27/warzone-assault-rifle-low-recoil.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Activision has blocked Warzone Agent, an app players used to find easy lobbies, from multiplayer in Season 1. Trying to bypass the block risks a hardware ban. https://www.dexerto.com/call-of-duty/warzone-players-blocked-from-multiplayer-for-using-apps-to-find-easy-lobbies-3427019/ #Warzone #CallOfDuty</code>"
+ },
+ "ref": "tweet-warzone-agent-block",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Activision has blocked Warzone Agent, an app players used to find easy lobbies, from multiplayer in Season 1. Trying to bypass the block risks a hardware ban. https://www.dexerto.com/call-of-duty/warzone-players-blocked-from-multiplayer-for-using-apps-to-find-easy-lobbies-3427019/ #Warzone #CallOfDuty</code>"
+}

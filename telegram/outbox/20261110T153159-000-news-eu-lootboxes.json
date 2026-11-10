@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/evil_lootbox.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Leaked EU draft points to a loot box crackdown</b>\n\nA draft of the EU's Digital Fairness Act has reportedly leaked a day before its planned publication on November 11. According to Eurogamer, it contains proposals that could sharply change how games are run and monetised across the European Union, with loot boxes a major target.\n\n🕒 Nov 10, 2026 · 17:46 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation\">Eurogamer</a>\n\n#LootBoxes #EU #GamingNews"
+ },
+ "ref": "news-eu-lootboxes",
+ "fallback_text": "🎮 <b>Leaked EU draft points to a loot box crackdown</b>\n\nA draft of the EU's Digital Fairness Act has reportedly leaked a day before its planned publication on November 11. According to Eurogamer, it contains proposals that could sharply change how games are run and monetised across the European Union, with loot boxes a major target.\n\n🕒 Nov 10, 2026 · 17:46 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/digital-fairness-act-eu-europe-loot-boxes-regulation\">Eurogamer</a>\n\n#LootBoxes #EU #GamingNews"
+}

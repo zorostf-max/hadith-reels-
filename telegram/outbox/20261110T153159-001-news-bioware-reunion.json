@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2021/06/Mass-Effect-Legendary-Edition-art.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>BioWare veterans open to reuniting to rescue Mass Effect and Dragon Age</b>\n\nBioWare co-founder Trent Oster says he wants to save the Mass Effect and Dragon Age series. Star Wars: Knights of the Old Republic director James Ohlen has said he is up for joining him, raising hopes among fans worried about the future of BioWare's worlds.\n\n🕒 Nov 10, 2026 · 17:51 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/bioware-co-founder-and-star-wars-kotor-director-say-theyre-interested-in-reuniting-to-try-and-save-biowares-ip/\">VGC</a>\n\n#MassEffect #DragonAge #GamingNews"
+ },
+ "ref": "news-bioware-reunion",
+ "fallback_text": "🎮 <b>BioWare veterans open to reuniting to rescue Mass Effect and Dragon Age</b>\n\nBioWare co-founder Trent Oster says he wants to save the Mass Effect and Dragon Age series. Star Wars: Knights of the Old Republic director James Ohlen has said he is up for joining him, raising hopes among fans worried about the future of BioWare's worlds.\n\n🕒 Nov 10, 2026 · 17:51 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/bioware-co-founder-and-star-wars-kotor-director-say-theyre-interested-in-reuniting-to-try-and-save-biowares-ip/\">VGC</a>\n\n#MassEffect #DragonAge #GamingNews"
+}
