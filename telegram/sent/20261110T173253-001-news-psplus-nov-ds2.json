@@ -1,0 +1,11 @@
+{
+ "job": "20261110T173253-001-news-psplus-nov-ds2.json",
+ "ref": "news-psplus-nov-ds2",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T17:33:09Z",
+ "message_id": 78,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
