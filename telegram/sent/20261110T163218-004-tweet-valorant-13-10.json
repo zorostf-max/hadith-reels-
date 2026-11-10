@@ -1,0 +1,11 @@
+{
+ "job": "20261110T163218-004-tweet-valorant-13-10.json",
+ "ref": "tweet-valorant-13-10",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T16:32:49Z",
+ "message_id": 193,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

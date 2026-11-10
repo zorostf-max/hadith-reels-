@@ -1,0 +1,11 @@
+{
+ "job": "20261110T163219-007-tweet-hl2-ep3-leak.json",
+ "ref": "tweet-hl2-ep3-leak",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T16:32:53Z",
+ "message_id": 196,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

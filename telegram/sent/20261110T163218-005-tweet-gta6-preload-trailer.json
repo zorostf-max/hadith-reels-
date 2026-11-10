@@ -1,0 +1,11 @@
+{
+ "job": "20261110T163218-005-tweet-gta6-preload-trailer.json",
+ "ref": "tweet-gta6-preload-trailer",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T16:32:50Z",
+ "message_id": 194,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
