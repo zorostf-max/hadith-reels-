@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/B3ULyP68EiAPD55fRNR8S7-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ New \"AMDLSS5\" mod gets Nvidia's neural rendering running on AMD graphics cards, claiming 64% better performance than other mods. https://www.pcgamer.com/hardware/graphics-cards/amdlss5-gets-nvidias-neural-rendering-running-on-amd-graphics-cards-and-claims-64-percent-better-performance-than-other-mods/ #AMD #PCGaming</code>"
+ },
+ "ref": "tweet-amdlss5",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ New \"AMDLSS5\" mod gets Nvidia's neural rendering running on AMD graphics cards, claiming 64% better performance than other mods. https://www.pcgamer.com/hardware/graphics-cards/amdlss5-gets-nvidias-neural-rendering-running-on-amd-graphics-cards-and-claims-64-percent-better-performance-than-other-mods/ #AMD #PCGaming</code>"
+}

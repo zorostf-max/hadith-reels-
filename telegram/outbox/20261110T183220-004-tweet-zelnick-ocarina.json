@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/ocarinaoftimeremake-1.png",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Take-Two CEO Strauss Zelnick calls Nintendo's Switch 2 Ocarina of Time remake \"terrific\" — and says when it comes to GTA 6, games compete \"against everything and nothing.\" https://www.gamespot.com/articles/take-two-boss-says-ocarina-of-time-is-terrific-but-is-it-competing-with-gta-6/ #Zelda #GTA6</code>"
+ },
+ "ref": "tweet-zelnick-ocarina",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Take-Two CEO Strauss Zelnick calls Nintendo's Switch 2 Ocarina of Time remake \"terrific\" — and says when it comes to GTA 6, games compete \"against everything and nothing.\" https://www.gamespot.com/articles/take-two-boss-says-ocarina-of-time-is-terrific-but-is-it-competing-with-gta-6/ #Zelda #GTA6</code>"
+}
