@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/2MqpAehysptss8xczWtoUP-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Nintendo absorbs Switch 2 costs to hold prices — for now</b>\n\nNintendo says it is bearing higher Switch 2 manufacturing costs itself to avoid a price increase. That may have to change if it cannot absorb the costs through its own efforts, and it noted conditions for software are not necessarily favorable either.\n\n🕒 Nov 10, 2026 · 14:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/hardware/tech/nintendo-bearing-switch-2-manufacturing-costs-to-avoid-price-hikes-but-that-may-have-to-change-if-we-cannot-absorb-the-costs-through-our-own-efforts/\">GamesRadar+</a>\n\n#NintendoSwitch2 #Nintendo #GamingNews"
+ },
+ "ref": "news-switch2-costs",
+ "fallback_text": "🕹️ <b>Nintendo absorbs Switch 2 costs to hold prices — for now</b>\n\nNintendo says it is bearing higher Switch 2 manufacturing costs itself to avoid a price increase. That may have to change if it cannot absorb the costs through its own efforts, and it noted conditions for software are not necessarily favorable either.\n\n🕒 Nov 10, 2026 · 14:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/hardware/tech/nintendo-bearing-switch-2-manufacturing-costs-to-avoid-price-hikes-but-that-may-have-to-change-if-we-cannot-absorb-the-costs-through-our-own-efforts/\">GamesRadar+</a>\n\n#NintendoSwitch2 #Nintendo #GamingNews"
+}

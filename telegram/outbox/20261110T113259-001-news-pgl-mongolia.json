@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/DU-HesO34RLVwbIvVWhOdC.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>PGL moves its 2027 CS2 stop from China to Mongolia</b>\n\nPGL has relocated one of its 2027 Counter-Strike events: instead of China, the circuit will now stop in Ulaanbaatar, Mongolia, in April.\n\n🕒 Nov 10, 2026 · 14:00 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45959/pgl-moves-2027-event-from-china-to-mongolia\">HLTV</a>\n\n#CS2 #PGL #GamingNews"
+ },
+ "ref": "news-pgl-mongolia",
+ "fallback_text": "🏆 <b>PGL moves its 2027 CS2 stop from China to Mongolia</b>\n\nPGL has relocated one of its 2027 Counter-Strike events: instead of China, the circuit will now stop in Ulaanbaatar, Mongolia, in April.\n\n🕒 Nov 10, 2026 · 14:00 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45959/pgl-moves-2027-event-from-china-to-mongolia\">HLTV</a>\n\n#CS2 #PGL #GamingNews"
+}

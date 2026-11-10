@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/KykW5PeFgLoa2oSEYqtRs5-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ Seagate's FireCuda Forge revives hybrid storage: an 8TB or 20TB external HDD where you add your own M.2 NVMe SSD. https://www.tomshardware.com/pc-components/external-ssds/seagate-resurrects-hybrid-storage-hands-on-with-the-firecuda-forge-8-or-20tb-external-hard-drive-requires-you-to-bring-your-own-nvme-ssd #Seagate #PCHardware</code>"
+ },
+ "ref": "tweet-seagate-firecuda-forge",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ Seagate's FireCuda Forge revives hybrid storage: an 8TB or 20TB external HDD where you add your own M.2 NVMe SSD. https://www.tomshardware.com/pc-components/external-ssds/seagate-resurrects-hybrid-storage-hands-on-with-the-firecuda-forge-8-or-20tb-external-hard-drive-requires-you-to-bring-your-own-nvme-ssd #Seagate #PCHardware</code>"
+}

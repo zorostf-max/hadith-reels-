@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2025/11/Project-Spirits.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Shift Up pushes the Project Spirits reveal to next year</b>\n\nThe Stellar Blade studio says it will not unveil its next game, Project Spirits, until next year. The reveal had been planned for 2026, but Shift Up moved it so it doesn't clash with this season's big releases.\n\n🕒 Nov 10, 2026 · 13:33 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/stellar-blade-studio-shift-up-says-it-wont-be-revealing-project-spirits-until-next-year/\">VGC</a>\n\n#ShiftUp #StellarBlade #GamingNews"
+ },
+ "ref": "news-shiftup-spirits",
+ "fallback_text": "🎮 <b>Shift Up pushes the Project Spirits reveal to next year</b>\n\nThe Stellar Blade studio says it will not unveil its next game, Project Spirits, until next year. The reveal had been planned for 2026, but Shift Up moved it so it doesn't clash with this season's big releases.\n\n🕒 Nov 10, 2026 · 13:33 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/stellar-blade-studio-shift-up-says-it-wont-be-revealing-project-spirits-until-next-year/\">VGC</a>\n\n#ShiftUp #StellarBlade #GamingNews"
+}
