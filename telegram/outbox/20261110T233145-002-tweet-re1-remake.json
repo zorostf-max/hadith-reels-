@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/yePWuVddFMMjRNobBpztda-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🧟 Capcom skipped the original Resident Evil in its modern remake series, worried it might not resonate — RE2's opening is essentially the starting point anyway. https://www.gamesradar.com/games/resident-evil/resident-evil-remakes-skipped-the-first-game-because-capcom-worried-it-might-not-resonate-and-re2s-opening-is-essentially-the-starting-point-anyway/ #ResidentEvil #Capcom</code>"
+ },
+ "ref": "tweet-re1-remake",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🧟 Capcom skipped the original Resident Evil in its modern remake series, worried it might not resonate — RE2's opening is essentially the starting point anyway. https://www.gamesradar.com/games/resident-evil/resident-evil-remakes-skipped-the-first-game-because-capcom-worried-it-might-not-resonate-and-re2s-opening-is-essentially-the-starting-point-anyway/ #ResidentEvil #Capcom</code>"
+}

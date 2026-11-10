@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/yePWuVddFMMjRNobBpztda-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Why Capcom's modern Resident Evil remakes skipped the first game</b>\n\nCapcom passed over the original Resident Evil when it started its modern remake series, worried a remake of the first game might not resonate with players. According to the team, the opening of Resident Evil 2 essentially works as the starting point for the story anyway.\n\n🕒 Nov 11, 2026 · 01:01 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-remakes-skipped-the-first-game-because-capcom-worried-it-might-not-resonate-and-re2s-opening-is-essentially-the-starting-point-anyway/\">GamesRadar+</a>\n\n#ResidentEvil #Capcom #GamingNews"
+ },
+ "ref": "news-re1-remake",
+ "fallback_text": "🎮 <b>Why Capcom's modern Resident Evil remakes skipped the first game</b>\n\nCapcom passed over the original Resident Evil when it started its modern remake series, worried a remake of the first game might not resonate with players. According to the team, the opening of Resident Evil 2 essentially works as the starting point for the story anyway.\n\n🕒 Nov 11, 2026 · 01:01 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-remakes-skipped-the-first-game-because-capcom-worried-it-might-not-resonate-and-re2s-opening-is-essentially-the-starting-point-anyway/\">GamesRadar+</a>\n\n#ResidentEvil #Capcom #GamingNews"
+}
