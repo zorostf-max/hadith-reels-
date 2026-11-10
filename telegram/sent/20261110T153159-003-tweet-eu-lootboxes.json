@@ -1,0 +1,11 @@
+{
+ "job": "20261110T153159-003-tweet-eu-lootboxes.json",
+ "ref": "tweet-eu-lootboxes",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T15:32:18Z",
+ "message_id": 190,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
