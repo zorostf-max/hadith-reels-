@@ -1,0 +1,11 @@
+{
+ "job": "20261110T223204-003-tweet-mh-wilds-beta-listing.json",
+ "ref": "tweet-mh-wilds-beta-listing",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T22:32:29Z",
+ "message_id": 213,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
