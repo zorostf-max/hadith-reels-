@@ -1,0 +1,11 @@
+{
+ "job": "20261110T092617-001-news-vp-patsi.json",
+ "ref": "news-vp-patsi",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T09:26:35Z",
+ "message_id": 51,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

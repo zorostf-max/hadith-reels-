@@ -1,0 +1,11 @@
+{
+ "job": "20261110T092617-000-news-switch-gifting.json",
+ "ref": "news-switch-gifting",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-10T09:26:33Z",
+ "message_id": 50,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
