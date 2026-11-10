@@ -58,3 +58,22 @@ In the hourly run, for each story chosen in step 3:
 4. Catch-up: before choosing news, any link in `posted.txt` from the last 24 hours (not a `(same story)` line) that is missing from `tweets.txt` also gets its tweet in this run (image from `fetch_news.py --hours 24 --limit 80 --include-posted`, or a plain `sendMessage` if there is no image).
 
 No tweet is sent for a story that was not posted to the channel, and never two tweets for the same story.
+
+## Blogger — byte-beyondtech.blogspot.com (owner's request 2026-11-10)
+
+Every story posted to the channel is **also published on the owner's blog** `byte-beyondtech.blogspot.com`, in the same hourly run, through Blogger's "post by email" (published immediately). The secret posting address is **only in the scheduled task's prompt — never write it in this public repo** (anyone who knows it can post to the blog).
+
+For each story whose channel job `wait` reports as ok:
+
+1. Send ONE email with the Gmail tool `send_message`, from the owner's Gmail, to the posting address in the task prompt:
+   - `subject` = the headline (plain text, no emoji, no HTML) — it becomes the post title.
+   - `htmlBody`, English, own words, only facts the source states:
+     ```
+     <p>Lead paragraph: what happened (2–3 sentences).</p>
+     <p>Second paragraph: the key details and why it matters (2–4 sentences). Read the article with WebFetch if the RSS summary is thin.</p>
+     <p>🕒 Nov 10, 2026 · 13:32 (GMT+3)<br>📰 Source: <a href="LINK">Source name</a></p>
+     <p>Follow Level Up on Telegram: <a href="https://t.me/LevelUpGames0">@LevelUpGames0</a></p>
+     ```
+   - No images (Gmail strips external images from the body), no signature.
+2. After it sends, append `time GMT+3<TAB>link` to `gaming-news/blogged.txt` and commit it with `posted.txt`.
+3. Never two blog posts for one story; no blog post for a story that was not posted to the channel. If Gmail refuses, skip the blog for this run (no retry loop) and mention it in the run summary.
