@@ -77,3 +77,13 @@
 2026-11-10 17:40	Eurogamer (same story)	https://www.eurogamer.net/gta-6-xbox-cloud-streaming-pc-xbox-one
 2026-11-10 17:43	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-wont-run-at-60fps-even-on-ps5-pro-but-sonys-console-does-have-an-exclusive-ray-traced-shadows-and-pssr/
 2026-11-10 18:01	Eurogamer (same story)	https://www.eurogamer.net/gta-6-30-fps-platforms-absolute-limit
+2026-11-10 17:28	Dexerto	https://www.dexerto.com/valorant/valorant-13-10-update-bring-sentinel-buffs-and-big-changes-to-assists-3426986/
+2026-11-10 18:15	IGN	https://www.ign.com/articles/gta-6-preload-now-trailer-includes-nearly-30-seconds-of-new-footage-swat-team-nightclub-dancing-and-more
+2026-11-10 19:19	VGC (same story)	https://www.videogameschronicle.com/news/new-gta-6-trailer-showcases-ps5-exclusive-dualsense-features/
+2026-11-10 19:18	VGC	https://www.videogameschronicle.com/news/nintendo-is-hiring-someone-to-document-the-history-of-its-games/
+2026-11-10 19:19	GamesRadar+	https://www.gamesradar.com/games/fps/half-life-2-episode-3-source-code-leak-reveals-more-of-valves-apparent-plans-for-a-sequel-including-a-fabled-weapon-to-rival-the-gravity-gun/
+2026-11-10 18:02	GameSpot (same story)	https://www.gamespot.com/articles/heres-how-your-xbox-one-can-play-gta-6/
+2026-11-10 18:11	IGN (same story)	https://www.ign.com/articles/you-dont-need-a-current-gen-console-if-youre-happy-to-play-gta-6-at-xbox-series-s-settings
+2026-11-10 18:24	Dexerto (same story)	https://www.dexerto.com/gta/gta-6-confirms-xbox-cloud-gaming-support-but-pc-players-face-a-catch-3427015/
+2026-11-10 18:39	GameSpot (same story)	https://www.gamespot.com/articles/gta-releases-could-speed-up-take-two-boss-says/
+2026-11-10 19:12	GamesRadar+ (same story)	https://www.gamesradar.com/games/co-op/big-walk-devs-admit-to-gen-ai-use-worry-that-theyre-part-of-the-problem-as-refunds-and-negative-steam-reviews-pour-in/
