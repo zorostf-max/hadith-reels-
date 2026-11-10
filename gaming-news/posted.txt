@@ -114,3 +114,8 @@
 2026-11-11 00:27	VGC (same story)	https://www.videogameschronicle.com/news/playstation-reportedly-cancels-fairgames-after-recent-playtests/
 2026-11-11 00:27	PC Gamer	https://www.pcgamer.com/games/fps/bungie-drops-gameplay-trailer-for-marathons-co-op-pve-roguelite-mode-and-swanky-new-social-space/
 2026-11-11 00:27	Dexerto (same story)	https://www.dexerto.com/gears-of-war/epic-responds-after-gears-of-war-creator-claims-it-wont-give-back-the-first-character-he-created-3427120/
+2026-11-11 01:42	VGC	https://www.videogameschronicle.com/news/baldurs-gate-3-approves-new-wave-of-console-mods/
+2026-11-11 01:42	PC Gamer	https://www.pcgamer.com/games/action/capcom-quietly-updates-the-monster-hunter-wilds-beta-listing-on-steam-indicating-a-possible-expansion-playtest/
+2026-11-11 01:42	IGN (same story)	https://www.ign.com/articles/playstation-cancels-live-service-heist-shooter-fairgames
+2026-11-11 01:42	IGN (same story)	https://www.ign.com/articles/world-of-warcraft-forever-hotfix-will-thin-out-overcrowded-zones-and-help-faction-balance
+2026-11-11 01:42	GamesRadar+ (same story)	https://www.gamesradar.com/games/rpg/amid-bethesda-takeover-and-pivot-to-fallout-obsidians-finally-making-good-on-its-year-old-promise-of-the-outer-worlds-2-dlc/
