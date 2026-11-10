@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/ezvx5AHi3zwTuCHc9VihpB-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Steam store now shows average FPS before you buy</b>\n\nValve is adding average FPS data to the Steam store, built from anonymous performance data and shown to players with matching hardware. It works for Steam Deck only for now, with desktop PC support planned — a handy way to check performance before buying.\n\n🕒 Nov 10, 2026 · 14:53 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/video-games/pc-gaming/steam-store-adds-average-fps-data-so-you-can-see-game-performance-before-making-a-purchase-steam-deck-only-for-now-with-desktop-pc-support-planned\">Tom&#x27;s Hardware</a>\n\n#Steam #PCGaming #GamingNews"
+ },
+ "ref": "news-steam-fps-data",
+ "fallback_text": "🕹️ <b>Steam store now shows average FPS before you buy</b>\n\nValve is adding average FPS data to the Steam store, built from anonymous performance data and shown to players with matching hardware. It works for Steam Deck only for now, with desktop PC support planned — a handy way to check performance before buying.\n\n🕒 Nov 10, 2026 · 14:53 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/video-games/pc-gaming/steam-store-adds-average-fps-data-so-you-can-see-game-performance-before-making-a-purchase-steam-deck-only-for-now-with-desktop-pc-support-planned\">Tom&#x27;s Hardware</a>\n\n#Steam #PCGaming #GamingNews"
+}

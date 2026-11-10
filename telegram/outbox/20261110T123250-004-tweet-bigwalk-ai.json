@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/big-walk-house-house.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 House House says it used generative AI \"sparingly\" while making its hit multiplayer puzzle game Big Walk, after an indie award jury spoke out against AI use. https://www.eurogamer.net/house-house-big-walk-generative-ai-development #BigWalk #IndieGames</code>"
+ },
+ "ref": "tweet-bigwalk-ai",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 House House says it used generative AI \"sparingly\" while making its hit multiplayer puzzle game Big Walk, after an indie award jury spoke out against AI use. https://www.eurogamer.net/house-house-big-walk-generative-ai-development #BigWalk #IndieGames</code>"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/hChzep2aj6GMtNkdsbzoaW-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Blizzard says some World of Warcraft: Forever zones got too crowded, so it has lowered the population in the most congested areas and will keep monitoring them. https://www.gamesradar.com/games/world-of-warcraft/blizzard-admits-some-zones-had-become-too-crowded-in-wow-forever-lowers-population-in-the-mmos-areas-with-the-most-significant-congestion/ #WorldOfWarcraft #WoWForever</code>"
+ },
+ "ref": "tweet-wow-forever-crowds",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Blizzard says some World of Warcraft: Forever zones got too crowded, so it has lowered the population in the most congested areas and will keep monitoring them. https://www.gamesradar.com/games/world-of-warcraft/blizzard-admits-some-zones-had-become-too-crowded-in-wow-forever-lowers-population-in-the-mmos-areas-with-the-most-significant-congestion/ #WorldOfWarcraft #WoWForever</code>"
+}

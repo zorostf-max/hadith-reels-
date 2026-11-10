@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Du7wdZLvxPiyAwoZqvRpqN-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>👻 Phasmophobia's annual Ghost Hunts for Hearts event with the American Heart Association raised over $200,000 for charity, doubling last year's donations. https://www.pcgamer.com/games/horror/phasmophobia-raises-over-usd200-000-for-charity-in-the-annual-ghost-hunts-for-hearts-collaboration-with-the-american-heart-association/ #Phasmophobia #GamesForGood</code>"
+ },
+ "ref": "tweet-phasmo-charity",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>👻 Phasmophobia's annual Ghost Hunts for Hearts event with the American Heart Association raised over $200,000 for charity, doubling last year's donations. https://www.pcgamer.com/games/horror/phasmophobia-raises-over-usd200-000-for-charity-in-the-annual-ghost-hunts-for-hearts-collaboration-with-the-american-heart-association/ #Phasmophobia #GamesForGood</code>"
+}
