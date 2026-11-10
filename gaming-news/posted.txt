@@ -60,3 +60,8 @@
 2026-11-10 16:40	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-ceo-says-this-business-has-been-largely-immune-to-piracy-concerns-but-ai-generated-recomps-are-making-it-more-of-a-challenge/
 2026-11-10 16:40	Dexerto (same story)	https://www.dexerto.com/gaming/nintendo-is-hiring-someone-to-preserve-old-consoles-games-3426892/
 2026-11-10 16:40	VGC (same story)	https://www.videogameschronicle.com/news/skydance-games-has-been-laying-off-some-of-its-staff-a-month-after-merging-with-warner-bros/
+2026-11-10 17:00	PC Gamer	https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/
+2026-11-10 17:11	HLTV	https://www.hltv.org/news/45960/sources-fluxo-to-put-cs-division-on-hold
+2026-11-10 17:14	VGC	https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/
+2026-11-10 16:31	PC Gamer (same story)	https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-now-lets-you-see-exactly-what-frame-rate-you-should-get-in-games-using-a-steam-deck/
+2026-11-10 16:53	Eurogamer (same story)	https://www.eurogamer.net/steam-deck-framerate-average-data-store-widget

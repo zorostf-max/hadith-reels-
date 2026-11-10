@@ -11,3 +11,6 @@
 2026-11-10 16:40	https://www.eurogamer.net/arc-raiders-17-million-sales-nexon-decline
 2026-11-10 16:40	https://www.pcgamer.com/hardware/graphics-cards/amds-next-gen-gpu-architecture-has-appeared-in-new-linux-kernel-patches-as-gfx13-updates-roll-out/
 2026-11-10 16:40	https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-being-off-to-a-great-start-proves-switch-2-price-hike-isnt-slowing-momentum-nintendo-president-says/
+2026-11-10 17:00	https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/
+2026-11-10 17:11	https://www.hltv.org/news/45960/sources-fluxo-to-put-cs-division-on-hold
+2026-11-10 17:14	https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/
