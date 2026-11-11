@@ -1,0 +1,11 @@
+{
+ "job": "20261111T164313-013-tweetlink-logitech-gta6.json",
+ "ref": "tweetlink-logitech-gta6",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T16:43:41Z",
+ "message_id": 257,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
