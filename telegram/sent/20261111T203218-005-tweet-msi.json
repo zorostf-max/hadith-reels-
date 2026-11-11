@@ -1,0 +1,11 @@
+{
+ "job": "20261111T203218-005-tweet-msi.json",
+ "ref": "tweet-msi",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T21:38:17Z",
+ "message_id": 280,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261111T213736-017-tweet-nintendo-dmca.json",
+ "ref": "tweet-nintendo-dmca",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T21:38:39Z",
+ "message_id": 288,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

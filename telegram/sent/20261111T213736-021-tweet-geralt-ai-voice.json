@@ -1,0 +1,11 @@
+{
+ "job": "20261111T213736-021-tweet-geralt-ai-voice.json",
+ "ref": "tweet-geralt-ai-voice",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T21:38:46Z",
+ "message_id": 292,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

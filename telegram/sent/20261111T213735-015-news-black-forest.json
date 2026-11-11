@@ -1,0 +1,11 @@
+{
+ "job": "20261111T213735-015-news-black-forest.json",
+ "ref": "news-black-forest",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T21:38:36Z",
+ "message_id": 143,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

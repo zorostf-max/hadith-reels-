@@ -1,0 +1,11 @@
+{
+ "job": "20261111T203218-008-tweetlink-sentinel.json",
+ "ref": "tweetlink-sentinel",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T21:38:22Z",
+ "message_id": 283,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
