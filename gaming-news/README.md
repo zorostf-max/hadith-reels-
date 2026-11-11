@@ -13,7 +13,7 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
 
 ## RUNBOOK — hourly run
 
-1. `cd` into the repo, `git pull`. `pip install --break-system-packages -q feedparser` if it is missing.
+1. `cd` into the repo, `git pull`. If `gaming-news/pending.txt` exists, first reconcile it (instructions inside) — never re-queue its stories. `pip install --break-system-packages -q feedparser` if it is missing.
 2. `python3 gaming-news/fetch_news.py --hours 2 --limit 30`. It already drops links in `posted.txt`.
 3. Choose what to post (**at most 4 posts per run**, oldest first):
    - **Keep** real news in the four topics above.

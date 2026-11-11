@@ -1,0 +1,15 @@
+# Jobs queued 2026-11-11 23:32 GMT+3 whose bridge run (Actions run 83) was still stuck in "queued" when the run ended.
+# Next run: check telegram/sent/<job> for each; log the ok ones in posted.txt / tweets.txt, then delete this file. Do NOT re-queue these stories.
+20261111T203218-001-news-msi.json	IGN	https://www.ign.com/articles/msi-raising-graphics-cards-prices-again-in-china-according-to-leak
+20261111T203218-002-news-sentinel.json	Eurogamer	https://www.eurogamer.net/dont-expect-elder-scrolls-6-sentinel-for-some-time-bethesda
+20261111T203218-003-news-hiddenhorses.json	PC Gamer	https://www.pcgamer.com/gaming-industry/former-id-software-developers-form-their-own-employee-owned-shooter-studio-in-the-wake-of-microsofts-mass-layoffs/
+20261111T203218-004-news-requiem-gjas.json	GamesRadar+	https://www.gamesradar.com/games/resident-evil/resident-evil-requiem-wins-ultimate-game-of-the-year-at-the-golden-joystick-awards-2026/
+# tweet + tweetlink jobs 005-012 cover the same 4 stories (msi, sentinel, hiddenhorses, requiem-gjas).
+# Same-story links to log once the channel posts are ok:
+(same story of sentinel)	PC Gamer	https://www.pcgamer.com/games/the-elder-scrolls/bethesda-shoots-down-elder-scrolls-6-sentinel-announcement-rumor-on-skyrims-15th-anniversary/
+(same story of hiddenhorses)	GamesRadar+	https://www.gamesradar.com/games/id-software-devs-laid-off-by-microsoft-form-their-own-studio-and-dont-hold-back-in-their-announcement-it-really-felt-like-an-attack/
+(same story of requiem-gjas)	GamesRadar+	https://www.gamesradar.com/games/all-the-golden-joystick-awards-2026-winners-revealed/
+(same story of requiem-gjas)	GamesRadar+	https://www.gamesradar.com/games/the-witcher-4-and-the-witcher-3-remastered-secure-wins-for-cd-projekt-red-at-the-golden-joystick-awards/
+(same story of requiem-gjas)	GamesRadar+	https://www.gamesradar.com/games/the-witcher/the-witcher-3-already-had-the-most-golden-joysticks-and-it-just-won-another-extending-its-lead-over-rpg-rivals-baldurs-gate-3-and-clair-obscur-expedition-33/
+(same story of requiem-gjas)	GamesRadar+	https://www.gamesradar.com/games/resident-evil-requiem-ties-with-meccha-chameleon-as-the-biggest-winner-at-the-golden-joystick-awards/
+(same story of requiem-gjas)	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/why-wasnt-gta-6-at-the-golden-joystick-awards/
