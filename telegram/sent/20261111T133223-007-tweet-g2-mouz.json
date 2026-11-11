@@ -1,0 +1,11 @@
+{
+ "job": "20261111T133223-007-tweet-g2-mouz.json",
+ "ref": "tweet-g2-mouz",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T13:32:44Z",
+ "message_id": 232,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

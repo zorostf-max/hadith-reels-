@@ -1,0 +1,11 @@
+{
+ "job": "20261111T133223-005-news-rtx5080-24gb.json",
+ "ref": "news-rtx5080-24gb",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T13:32:40Z",
+ "message_id": 114,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261111T133223-008-tweet-square-enix-sales.json",
+ "ref": "tweet-square-enix-sales",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T13:32:45Z",
+ "message_id": 233,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

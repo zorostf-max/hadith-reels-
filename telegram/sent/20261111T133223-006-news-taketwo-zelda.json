@@ -1,0 +1,11 @@
+{
+ "job": "20261111T133223-006-news-taketwo-zelda.json",
+ "ref": "news-taketwo-zelda",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T13:32:42Z",
+ "message_id": 115,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

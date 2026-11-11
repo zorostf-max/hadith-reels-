@@ -1,0 +1,11 @@
+{
+ "job": "20261111T133223-009-tweet-rtx5080-24gb.json",
+ "ref": "tweet-rtx5080-24gb",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T13:32:47Z",
+ "message_id": 234,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
