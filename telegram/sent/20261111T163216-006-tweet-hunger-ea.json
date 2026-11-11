@@ -1,0 +1,11 @@
+{
+ "job": "20261111T163216-006-tweet-hunger-ea.json",
+ "ref": "tweet-hunger-ea",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T16:42:53Z",
+ "message_id": 247,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

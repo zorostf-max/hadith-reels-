@@ -1,0 +1,11 @@
+{
+ "job": "20261111T163216-002-news-hunger-ea.json",
+ "ref": "news-hunger-ea",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T16:42:47Z",
+ "message_id": 124,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

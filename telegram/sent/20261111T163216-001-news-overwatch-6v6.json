@@ -1,0 +1,11 @@
+{
+ "job": "20261111T163216-001-news-overwatch-6v6.json",
+ "ref": "news-overwatch-6v6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T16:42:45Z",
+ "message_id": 123,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

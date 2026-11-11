@@ -1,0 +1,11 @@
+{
+ "job": "20261111T163216-004-news-logitech-gta6.json",
+ "ref": "news-logitech-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T16:42:50Z",
+ "message_id": 126,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

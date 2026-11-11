@@ -1,0 +1,11 @@
+{
+ "job": "20261111T163216-003-news-shrek2-steam.json",
+ "ref": "news-shrek2-steam",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T16:42:48Z",
+ "message_id": 125,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
