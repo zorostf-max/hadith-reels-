@@ -1,0 +1,11 @@
+{
+ "job": "20261111T233202-001-news-ffxiv-primals.json",
+ "ref": "news-ffxiv-primals",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T23:32:19Z",
+ "message_id": 148,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

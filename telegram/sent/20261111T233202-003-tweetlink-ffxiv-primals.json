@@ -1,0 +1,11 @@
+{
+ "job": "20261111T233202-003-tweetlink-ffxiv-primals.json",
+ "ref": "tweetlink-ffxiv-primals",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T23:32:22Z",
+ "message_id": 301,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
