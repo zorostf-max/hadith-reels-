@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/7mW-zskQpseFZ_clVvBpOu.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Spirit just lost a CS2 map 13-0 for the first time ever (a first for donk too), but still beat a Krabeni-less FUT 2-1. https://www.hltv.org/news/45968/spirit-handed-first-ever-13-0-defeat-in-cs2-but-recover-to-beat-krabeni-less-fut-2-1 #CS2 #Esports</code>"
+ },
+ "ref": "tweet-spirit-13-0",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Spirit just lost a CS2 map 13-0 for the first time ever (a first for donk too), but still beat a Krabeni-less FUT 2-1. https://www.hltv.org/news/45968/spirit-handed-first-ever-13-0-defeat-in-cs2-but-recover-to-beat-krabeni-less-fut-2-1 #CS2 #Esports</code>"
+}

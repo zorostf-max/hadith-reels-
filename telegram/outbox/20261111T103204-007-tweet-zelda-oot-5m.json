@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/NS2_TheLegendofZeldaOcarinaofTime_scrn_13.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 The Zelda: Ocarina of Time remake sold 5.2M+ copies in 4 days — the fastest-selling Switch 2 game ever, per Nintendo. It already beat A Link Between Worlds and Echoes of Wisdom. https://www.videogameschronicle.com/news/the-legend-of-zelda-ocarina-of-time-remake-sold-5-2-million-in-its-first-four-days-nintendo-says/ #Zelda #NintendoSwitch2</code>"
+ },
+ "ref": "tweet-zelda-oot-5m",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 The Zelda: Ocarina of Time remake sold 5.2M+ copies in 4 days — the fastest-selling Switch 2 game ever, per Nintendo. It already beat A Link Between Worlds and Echoes of Wisdom. https://www.videogameschronicle.com/news/the-legend-of-zelda-ocarina-of-time-remake-sold-5-2-million-in-its-first-four-days-nintendo-says/ #Zelda #NintendoSwitch2</code>"
+}

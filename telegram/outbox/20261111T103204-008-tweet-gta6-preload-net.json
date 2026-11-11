@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/07/lucia-in-car-gta-6.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 GTA 6 preloads are hitting the internet hard: one UK provider reports widespread issues as players rush to download the game before launch. https://www.dexerto.com/gta/gta-6-is-causing-internet-issues-as-players-rush-to-preload-3427231/ #GTA6</code>"
+ },
+ "ref": "tweet-gta6-preload-net",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 GTA 6 preloads are hitting the internet hard: one UK provider reports widespread issues as players rush to download the game before launch. https://www.dexerto.com/gta/gta-6-is-causing-internet-issues-as-players-rush-to-preload-3427231/ #GTA6</code>"
+}
