@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/aUeWUCPMkaib7UMDrpTLJ5-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Logitech's new \"Logi Game Day\" gives all 7,000 employees a day off within the next year to play any game they want, GTA 6 included. https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games #Logitech #GTA6</code>"
+ },
+ "ref": "tweet-logitech-gta6",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Logitech's new \"Logi Game Day\" gives all 7,000 employees a day off within the next year to play any game they want, GTA 6 included. https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games #Logitech #GTA6</code>"
+}

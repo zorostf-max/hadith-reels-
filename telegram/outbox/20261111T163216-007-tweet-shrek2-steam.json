@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/BExZoS8SarNNjtMSybKkGA-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Shrek 2 Remastered is getting hammered in Steam reviews over a required Epic Games account and suspected AI textures. https://www.gamesradar.com/games/co-op/is-nothing-sacred-shrek-2-remastered-pummeled-on-steam-over-epic-games-account-requirement-and-suspected-ai-textures/ #Shrek2 #Steam</code>"
+ },
+ "ref": "tweet-shrek2-steam",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Shrek 2 Remastered is getting hammered in Steam reviews over a required Epic Games account and suspected AI textures. https://www.gamesradar.com/games/co-op/is-nothing-sacred-shrek-2-remastered-pummeled-on-steam-over-epic-games-account-requirement-and-suspected-ai-textures/ #Shrek2 #Steam</code>"
+}

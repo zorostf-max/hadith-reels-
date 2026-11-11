@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/aUeWUCPMkaib7UMDrpTLJ5-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Logitech gives all 7,000 staff a day off to play games — GTA 6 included</b>\n\nThe peripheral maker has launched a \"Logi Game Day\" initiative: every employee gets one dedicated day off, usable any time over the next year, to play a game of their choice. That includes GTA 6, the game everyone is talking about.\n\n🕒 Nov 11, 2026 · 18:55 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games\">Tom's Hardware</a>\n\n#Logitech #GTA6 #GamingNews"
+ },
+ "ref": "news-logitech-gta6",
+ "fallback_text": "🎮 <b>Logitech gives all 7,000 staff a day off to play games — GTA 6 included</b>\n\nThe peripheral maker has launched a \"Logi Game Day\" initiative: every employee gets one dedicated day off, usable any time over the next year, to play a game of their choice. That includes GTA 6, the game everyone is talking about.\n\n🕒 Nov 11, 2026 · 18:55 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games\">Tom's Hardware</a>\n\n#Logitech #GTA6 #GamingNews"
+}
