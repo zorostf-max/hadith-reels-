@@ -1,0 +1,11 @@
+{
+ "job": "20261111T173236-007-tweet-gta6-japan.json",
+ "ref": "tweet-gta6-japan",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T17:33:12Z",
+ "message_id": 260,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

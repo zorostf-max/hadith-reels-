@@ -1,0 +1,11 @@
+{
+ "job": "20261111T173236-011-tweet-eu-dfa.json",
+ "ref": "tweet-eu-dfa",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T17:33:18Z",
+ "message_id": 264,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

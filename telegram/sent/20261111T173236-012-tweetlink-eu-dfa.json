@@ -1,0 +1,11 @@
+{
+ "job": "20261111T173236-012-tweetlink-eu-dfa.json",
+ "ref": "tweetlink-eu-dfa",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T17:33:20Z",
+ "message_id": 265,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

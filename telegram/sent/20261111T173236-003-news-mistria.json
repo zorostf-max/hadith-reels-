@@ -1,0 +1,11 @@
+{
+ "job": "20261111T173236-003-news-mistria.json",
+ "ref": "news-mistria",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T17:33:06Z",
+ "message_id": 129,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.gamesradar.com/games/simulation/ive-wanted-to-play-this-anime-inspired-farming-rpg-for-years-and-i-might-finally-get-my-chance-porting-work-is-actively-happening-behind-the-scenes/</code>"
- },
- "ref": "tweetlink-mistria"
-}

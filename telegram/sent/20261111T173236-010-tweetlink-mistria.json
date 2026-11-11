@@ -1,0 +1,11 @@
+{
+ "job": "20261111T173236-010-tweetlink-mistria.json",
+ "ref": "tweetlink-mistria",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T17:33:17Z",
+ "message_id": 263,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

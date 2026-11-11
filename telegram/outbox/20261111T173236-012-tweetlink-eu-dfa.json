@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.eurogamer.net/eu-digital-fairness-act-what-is-it-video-games</code>"
- },
- "ref": "tweetlink-eu-dfa"
-}

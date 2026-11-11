@@ -1,0 +1,11 @@
+{
+ "job": "20261111T173236-008-tweetlink-gta6-japan.json",
+ "ref": "tweetlink-gta6-japan",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T17:33:13Z",
+ "message_id": 261,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
