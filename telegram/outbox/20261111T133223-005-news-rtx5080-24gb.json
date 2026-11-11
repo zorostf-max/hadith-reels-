@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/PAyH44t76kADMXqtedRwtk-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Report: a 24 GB RTX 5080 is apparently off the table</b>\n\nThe latest word is that Nvidia will not release a 24 GB version of the RTX 5080 after all. PC Gamer notes that, given how expensive the RTX 5080 already is, the news may not matter much to most gamers. This is not confirmed by Nvidia.\n\n🕒 Nov 11, 2026 · 16:09 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/graphics-cards/apparently-now-we-wont-see-a-24-gb-rtx-5080-which-is-probably-actually-good-for-our-wallets/\">PC Gamer</a>\n\n#Nvidia #RTX5080 #GamingNews"
+ },
+ "ref": "news-rtx5080-24gb",
+ "fallback_text": "🖥️ <b>Report: a 24 GB RTX 5080 is apparently off the table</b>\n\nThe latest word is that Nvidia will not release a 24 GB version of the RTX 5080 after all. PC Gamer notes that, given how expensive the RTX 5080 already is, the news may not matter much to most gamers. This is not confirmed by Nvidia.\n\n🕒 Nov 11, 2026 · 16:09 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/graphics-cards/apparently-now-we-wont-see-a-24-gb-rtx-5080-which-is-probably-actually-good-for-our-wallets/\">PC Gamer</a>\n\n#Nvidia #RTX5080 #GamingNews"
+}

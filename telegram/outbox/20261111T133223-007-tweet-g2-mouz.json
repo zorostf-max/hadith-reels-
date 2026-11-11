@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/3BVKmQwyIcRxe4aCtoSBF0.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 G2 snap their losing streak by beating world No. 1 MOUZ in CS2 and book a playoff spot in Hong Kong. https://www.hltv.org/news/45971/g2-snap-loss-streak-with-win-over-mouz #CS2 #G2</code>"
+ },
+ "ref": "tweet-g2-mouz",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 G2 snap their losing streak by beating world No. 1 MOUZ in CS2 and book a playoff spot in Hong Kong. https://www.hltv.org/news/45971/g2-snap-loss-streak-with-win-over-mouz #CS2 #G2</code>"
+}

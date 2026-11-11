@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/MTGPEVamkoccencbddzeyY-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Square Enix sales jump 21.9% as its multi-platform push pays off</b>\n\nSquare Enix reported a 21.9% sales boost, helped by Final Fantasy 7 Rebirth and other JRPG hits. The growth comes as the publisher brings more of its games to Switch 2 and Xbox instead of keeping them on one platform.\n\n🕒 Nov 11, 2026 · 16:03 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-rebirth-and-other-jrpg-hits-help-square-enix-to-a-21-9-percent-sales-boost-as-multi-platform-pivot-to-switch-2-and-xbox-pays-off/\">GamesRadar+</a>\n\n#SquareEnix #FinalFantasy #GamingNews"
+ },
+ "ref": "news-square-enix-sales",
+ "fallback_text": "🎮 <b>Square Enix sales jump 21.9% as its multi-platform push pays off</b>\n\nSquare Enix reported a 21.9% sales boost, helped by Final Fantasy 7 Rebirth and other JRPG hits. The growth comes as the publisher brings more of its games to Switch 2 and Xbox instead of keeping them on one platform.\n\n🕒 Nov 11, 2026 · 16:03 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-rebirth-and-other-jrpg-hits-help-square-enix-to-a-21-9-percent-sales-boost-as-multi-platform-pivot-to-switch-2-and-xbox-pays-off/\">GamesRadar+</a>\n\n#SquareEnix #FinalFantasy #GamingNews"
+}

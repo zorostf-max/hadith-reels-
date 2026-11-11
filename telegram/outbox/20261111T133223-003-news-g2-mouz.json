@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/3BVKmQwyIcRxe4aCtoSBF0.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>G2 end their losing run by beating world No. 1 MOUZ</b>\n\nG2 snapped their loss streak with a win over MOUZ, currently ranked first in the world. The result sends G2 into the playoffs in Hong Kong.\n\n🕒 Nov 11, 2026 · 15:54 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45971/g2-snap-loss-streak-with-win-over-mouz\">HLTV</a>\n\n#CS2 #G2 #GamingNews"
+ },
+ "ref": "news-g2-mouz",
+ "fallback_text": "🏆 <b>G2 end their losing run by beating world No. 1 MOUZ</b>\n\nG2 snapped their loss streak with a win over MOUZ, currently ranked first in the world. The result sends G2 into the playoffs in Hong Kong.\n\n🕒 Nov 11, 2026 · 15:54 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45971/g2-snap-loss-streak-with-win-over-mouz\">HLTV</a>\n\n#CS2 #G2 #GamingNews"
+}
