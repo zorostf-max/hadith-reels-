@@ -152,3 +152,8 @@
 2026-11-11 16:33	GamesRadar+	https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-rebirth-and-other-jrpg-hits-help-square-enix-to-a-21-9-percent-sales-boost-as-multi-platform-pivot-to-switch-2-and-xbox-pays-off/
 2026-11-11 16:33	PC Gamer	https://www.pcgamer.com/hardware/graphics-cards/apparently-now-we-wont-see-a-24-gb-rtx-5080-which-is-probably-actually-good-for-our-wallets/
 2026-11-11 16:33	GamesRadar+	https://www.gamesradar.com/games/the-legend-of-zelda/despite-gta-6-being-pitted-against-zelda-ocarina-of-time-take-two-boss-has-nothing-but-praise-nintendo-should-be-proud-as-the-game-is-terrific/
+2026-11-11 17:33	VGC	https://www.videogameschronicle.com/news/nintendo-absolutely-hated-this-two-unrelated-games-called-piece-by-piece-are-launching-together-in-a-switch-bundle/
+2026-11-11 17:33	GamesRadar+	https://www.gamesradar.com/games/final-fantasy/the-snowboarding-minigame-is-just-essential-says-ff7-revelation-director-and-queens-blood-also-returns-due-to-fan-demand-there-really-was-no-other-option-for-us/
+2026-11-11 17:33	Eurogamer	https://www.eurogamer.net/katsuhiro-harada-xbox-series-s-wish-it-wouldnt-release
+2026-11-11 17:33	Tom's Hardware	https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards
+2026-11-11 17:33	Tom's Hardware (same story)	https://www.tomshardware.com/video-games/nintendo/nintendo-unleashes-dmca-takedown-wave-against-open-source-switch-modchip-firmware-144-tools-disabled-picofly-sx-core-and-hwfly-among-casualties-following-criminal-trial-victory
