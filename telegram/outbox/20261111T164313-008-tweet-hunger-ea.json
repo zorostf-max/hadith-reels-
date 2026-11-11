@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/hunger-early-access-screen-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 Dec 3: the Hell Let Loose creators' new game hits Steam\nHunger, a Napoleonic-era extraction shooter-slasher, enters Early Access, with an open beta later this month.\n#Hunger #Steam</code>"
+ },
+ "ref": "tweet-hunger-ea",
+ "fallback_text": "<code>🎮 Dec 3: the Hell Let Loose creators' new game hits Steam\nHunger, a Napoleonic-era extraction shooter-slasher, enters Early Access, with an open beta later this month.\n#Hunger #Steam</code>"
+}

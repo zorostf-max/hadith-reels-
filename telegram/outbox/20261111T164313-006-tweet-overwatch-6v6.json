@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/iRQu3XQsfD9ZZQhW2k88gC-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🔥 6v6 is coming to Overwatch Competitive\nBlizzard is adding a 6v6 Role Queue to ranked, so 5v5 and 6v6 can live side by side.\nWhich one are you queuing?\n#Overwatch #FPS</code>"
+ },
+ "ref": "tweet-overwatch-6v6",
+ "fallback_text": "<code>🔥 6v6 is coming to Overwatch Competitive\nBlizzard is adding a 6v6 Role Queue to ranked, so 5v5 and 6v6 can live side by side.\nWhich one are you queuing?\n#Overwatch #FPS</code>"
+}

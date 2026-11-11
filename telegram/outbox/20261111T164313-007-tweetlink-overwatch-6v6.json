@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.pcgamer.com/games/fps/overwatch-is-adding-6v6-role-queue-to-its-competitive-play-weve-realised-that-there-doesnt-have-to-be-a-winner-between-5v5-and-6v6/</code>"
+ },
+ "ref": "tweetlink-overwatch-6v6"
+}

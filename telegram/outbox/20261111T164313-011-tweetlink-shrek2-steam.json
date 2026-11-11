@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.gamesradar.com/games/co-op/is-nothing-sacred-shrek-2-remastered-pummeled-on-steam-over-epic-games-account-requirement-and-suspected-ai-textures/</code>"
+ },
+ "ref": "tweetlink-shrek2-steam"
+}
