@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/bm3-4w9Amyf19J50vA4moU.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>FURIA open BLAST Rivals Hong Kong with a win over Legacy</b>\n\nFURIA got their BLAST Rivals campaign underway by beating fellow Brazilians Legacy in the opening match. The Hong Kong event is set to be FalleN's last ride, and the veteran's farewell run is off to a strong start.\n\n🕒 Nov 11, 2026 · 07:16 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45964/furia-beat-legacy-in-blast-rivals-opener\">HLTV</a>\n\n#CS2 #FURIA #GamingNews"
+ },
+ "ref": "news-furia-legacy",
+ "fallback_text": "🏆 <b>FURIA open BLAST Rivals Hong Kong with a win over Legacy</b>\n\nFURIA got their BLAST Rivals campaign underway by beating fellow Brazilians Legacy in the opening match. The Hong Kong event is set to be FalleN's last ride, and the veteran's farewell run is off to a strong start.\n\n🕒 Nov 11, 2026 · 07:16 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45964/furia-beat-legacy-in-blast-rivals-opener\">HLTV</a>\n\n#CS2 #FURIA #GamingNews"
+}

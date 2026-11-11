@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/bm3-4w9Amyf19J50vA4moU.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 FURIA kick off BLAST Rivals Hong Kong with a win over Legacy, and FalleN's farewell run starts strong. https://www.hltv.org/news/45964/furia-beat-legacy-in-blast-rivals-opener #CS2 #FURIA</code>"
+ },
+ "ref": "tweet-furia-legacy",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 FURIA kick off BLAST Rivals Hong Kong with a win over Legacy, and FalleN's farewell run starts strong. https://www.hltv.org/news/45964/furia-beat-legacy-in-blast-rivals-opener #CS2 #FURIA</code>"
+}
