@@ -1,0 +1,11 @@
+{
+ "job": "20261111T043122-001-tweet-furia-legacy.json",
+ "ref": "tweet-furia-legacy",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T04:31:34Z",
+ "message_id": 219,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

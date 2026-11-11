@@ -1,0 +1,11 @@
+{
+ "job": "20261111T043122-000-news-furia-legacy.json",
+ "ref": "news-furia-legacy",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T04:31:32Z",
+ "message_id": 99,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
