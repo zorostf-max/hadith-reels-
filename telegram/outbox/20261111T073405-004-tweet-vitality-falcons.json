@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/6y56nJgYuGCgSDPIjqXLlB.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Vitality sweep Falcons 2-0 to book a BLAST Rivals playoff spot, repeating their ESL Pro League win over them with apEX back in the lineup. https://www.hltv.org/news/45966/vitality-sweep-falcons-to-make-rivals-playoffs-on-apexs-return #CS2 #Esports</code>"
+ },
+ "ref": "tweet-vitality-falcons",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🏆 Vitality sweep Falcons 2-0 to book a BLAST Rivals playoff spot, repeating their ESL Pro League win over them with apEX back in the lineup. https://www.hltv.org/news/45966/vitality-sweep-falcons-to-make-rivals-playoffs-on-apexs-return #CS2 #Esports</code>"
+}
