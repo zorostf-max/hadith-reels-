@@ -128,3 +128,8 @@
 2026-11-11 05:32	PC Gamer	https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/
 2026-11-11 07:31	HLTV	https://www.hltv.org/news/45964/furia-beat-legacy-in-blast-rivals-opener
 2026-11-11 10:34	HLTV	https://www.hltv.org/news/45966/vitality-sweep-falcons-to-make-rivals-playoffs-on-apexs-return
+2026-11-11 13:32	HLTV	https://www.hltv.org/news/45968/spirit-handed-first-ever-13-0-defeat-in-cs2-but-recover-to-beat-krabeni-less-fut-2-1
+2026-11-11 13:32	VGC	https://www.videogameschronicle.com/news/the-legend-of-zelda-ocarina-of-time-remake-sold-5-2-million-in-its-first-four-days-nintendo-says/
+2026-11-11 13:32	Eurogamer (same story)	https://www.eurogamer.net/zelda-ocarina-of-time-switch-2-sales-nintendo
+2026-11-11 13:32	Dexerto	https://www.dexerto.com/gta/gta-6-is-causing-internet-issues-as-players-rush-to-preload-3427231/
+2026-11-11 13:32	Eurogamer (same story)	https://www.eurogamer.net/fairgames-playstation-heist-shooter-live-service-cancelled-haven
