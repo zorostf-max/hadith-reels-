@@ -117,3 +117,6 @@
 2026-11-12 00:37	https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep
 2026-11-12 00:37	https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer
 2026-11-12 00:37	https://www.gamesradar.com/games/the-witcher/cd-projekt-red-worked-with-an-ai-company-on-geralts-polish-voice-in-the-witcher-3-songs-of-the-past-with-the-original-actors-approval-after-health-concerns/
+2026-11-12 01:32	https://www.ign.com/articles/new-gta-6-surprise-gameplay-seemingly-released-in-yet-another-viral-marketing-stunt
+2026-11-12 01:32	https://www.dexerto.com/gaming/henry-cavills-ai-built-mustache-game-launches-to-surprisingly-warm-reviews-3427544/
+2026-11-12 01:32	https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth
