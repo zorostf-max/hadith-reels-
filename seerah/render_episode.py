@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 W, H, FPS = 1080, 1920, 30
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = os.path.join(HERE, "assets", "Baloo.ttf")
-LEAD, GAP, TAIL, XF = 0.45, 0.45, 0.7, 0.45   # seconds
+LEAD, GAP, TAIL, XF = 0.45, 0.35, 0.55, 0.45   # seconds
 _fonts = {}
 
 
@@ -206,8 +206,8 @@ class Episode:
                 lines.append(dict(ln, t0=lt, t1=lt + d))
                 self.clips.append((t + lt, a))
                 lt += d + GAP
-            extra = 1.8 if sc.get("title_card") else 0
-            extra += 2.2 if sc.get("end_card") else 0
+            extra = 1.4 if sc.get("title_card") else 0
+            extra += 1.5 if sc.get("end_card") else 0
             length = lt - GAP + TAIL + extra
             self.scenes.append(dict(sc, start=t, length=length, lines=lines))
             t += length
@@ -282,7 +282,7 @@ def main():
     out = os.path.join(ep, "episode.mp4"); tmp = out + ".part.mp4"
     p = subprocess.Popen(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
                           "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", wav,
-                          "-c:v", "libx264", "-crf", "23", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+                          "-c:v", "libx264", "-crf", "28", "-preset", "veryfast", "-pix_fmt", "yuv420p",
                           "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", tmp],
                          stdin=subprocess.PIPE)
     n = int(e.total * FPS)
