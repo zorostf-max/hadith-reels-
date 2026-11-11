@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/ruwTABdYAKNih34QkCHxsf-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Marvel Rivals director responds to hate speech row</b>\n\nMarvel Rivals' creative director has addressed the controversy that followed a September incident, when hate speech was removed from the game's reporting system. He says the team has \"ramped up our disciplinary measures\" against offenders, aiming to win back trust from a community that reacted strongly.\n\n🕒 Nov 11, 2026 · 20:34 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-creative-director-addresses-hate-speech-controversy-and-promises-weve-ramped-up-our-disciplinary-measures/\">PC Gamer</a>\n\n🛡️ Like if you want stricter bans · 💬 Is it enough? Tell us below\n\n#MarvelRivals #GamingNews"
+ },
+ "ref": "news-marvel-rivals",
+ "fallback_text": "🎮 <b>Marvel Rivals director responds to hate speech row</b>\n\nMarvel Rivals' creative director has addressed the controversy that followed a September incident, when hate speech was removed from the game's reporting system. He says the team has \"ramped up our disciplinary measures\" against offenders, aiming to win back trust from a community that reacted strongly.\n\n🕒 Nov 11, 2026 · 20:34 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-creative-director-addresses-hate-speech-controversy-and-promises-weve-ramped-up-our-disciplinary-measures/\">PC Gamer</a>\n\n🛡️ Like if you want stricter bans · 💬 Is it enough? Tell us below\n\n#MarvelRivals #GamingNews"
+}

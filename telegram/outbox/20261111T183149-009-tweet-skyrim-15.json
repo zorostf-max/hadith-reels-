@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/xB7NJokr2e56d9jtsPxCfc-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🐉 Skyrim is 15 years old today\nBethesda marked the Nov 11, 2011 classic's anniversary with new art from a \"legendary artist\".\nHow many times have you bought it?\n#Skyrim #ElderScrolls</code>"
+ },
+ "ref": "tweet-skyrim-15",
+ "fallback_text": "<code>🐉 Skyrim is 15 years old today\nBethesda marked the Nov 11, 2011 classic's anniversary with new art from a \"legendary artist\".\nHow many times have you bought it?\n#Skyrim #ElderScrolls</code>"
+}

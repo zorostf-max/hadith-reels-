@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.gamesradar.com/games/the-elder-scrolls/bethesda-celebrates-skyrims-15th-anniversary-with-new-artwork-from-a-legendary-artist-and-oh-my-god-skyrim-is-15-years-old/</code>"
+ },
+ "ref": "tweetlink-skyrim-15"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Australia-Did-It.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>⏳ A game missed its launch day because Steam hasn't approved it yet\nAustralia Did It was due Nov 10 but its build is still stuck in Steam's QA review queue after weeks.\nIs Valve's backlog getting out of hand?\n#Steam #IndieDev</code>"
+ },
+ "ref": "tweet-steam-backlog",
+ "fallback_text": "<code>⏳ A game missed its launch day because Steam hasn't approved it yet\nAustralia Did It was due Nov 10 but its build is still stuck in Steam's QA review queue after weeks.\nIs Valve's backlog getting out of hand?\n#Steam #IndieDev</code>"
+}
