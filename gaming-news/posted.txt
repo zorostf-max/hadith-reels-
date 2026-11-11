@@ -204,3 +204,6 @@
 2026-11-12 01:32	PC Gamer (same story)	https://www.pcgamer.com/games/crimson-desert-wins-pc-game-of-the-year-at-the-2026-golden-joystick-awards/
 2026-11-12 01:32	GamesRadar+ (same story)	https://www.gamesradar.com/games/the-witcher/the-witcher-4-production-director-feels-a-great-responsibility-after-winning-the-golden-joystick-for-most-wanted-game/
 2026-11-12 01:32	VGC (same story)	https://www.videogameschronicle.com/news/the-witcher-3-expansion-uses-ai-to-adjust-geralts-polish-voiceover-because-the-actor-suffered-a-stroke/
+2026-11-12 02:32	IGN	https://www.ign.com/articles/final-fantasy-xiv-players-mourn-the-primals-bassist-with-in-game-funerals-and-gatherings
+2026-11-12 02:32	IGN (same story)	https://www.ign.com/articles/cd-projekt-red-used-ai-to-alter-geralts-voice-due-to-polish-actors-health-issues
+2026-11-12 02:32	PC Gamer (same story)	https://www.pcgamer.com/gaming-industry/giana-sisters-developer-black-forest-games-buys-itself-out-of-embracer-some-of-the-best-games-of-the-last-decade-came-from-teams-of-fifty-not-five-hundred/
