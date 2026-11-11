@@ -1,5 +1,5 @@
 {
-  "next_hadith": 9,
+  "next_hadith": 11,
   "published": [
     1,
     2,
@@ -11,57 +11,24 @@
     8
   ],
   "pending_batch": {
-    "publish_date": "2026-11-11",
+    "publish_date": "2026-11-13",
     "hadiths": [
-      7,
-      8
+      9,
+      10
     ],
-    "status": "done",
-    "approved": [
-      7,
-      8
-    ],
+    "status": "awaiting",
+    "approved": [],
     "rejected": [],
-    "scheduled": {
-      "7": {
-        "slot": "2026-11-11 10:00",
-        "theme": "morning",
-        "metricool_id": 424055451,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=3682136225068827018",
-        "telegram_jobs": [
-          "20261111T062853-001-channel-bukhari-007.json",
-          "20261111T062853-002-channel-bukhari-007-text.json"
-        ]
-      },
-      "8": {
-        "slot": "2026-11-11 18:00",
-        "theme": "night",
-        "metricool_id": 424055463,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-3672803389410555938",
-        "telegram_jobs": [
-          "20261111T062853-003-channel-bukhari-008.json",
-          "20261111T062853-004-channel-bukhari-008-text.json"
-        ]
-      }
-    },
+    "scheduled": {},
     "preview_message_ids": [
-      144,
-      145,
-      146
+      240,
+      241,
+      242
     ],
     "notes": {
-      "7": "Abridged: video shows only the Prophet's letter to Heraclius; points from Ibn Uthaymeen (Tafsir al-Baqarah lesson 2, Sharh Riyad 1/302). Isnad clip trimmed to fit 55 s.",
-      "8": "Points from Ibn Uthaymeen (Sharh al-Arba'in hadith 3, Sharh Riyad 6/19, Majmu' 6/65)."
-    },
-    "messages": [
-      {
-        "update_id": 81690007,
-        "message_id": 148,
-        "date_utc": "2026-11-09T15:45:43Z",
-        "text": "Ok"
-      }
-    ],
-    "summary_message_id": 220
+      "9": "Points from Ibn Uthaymeen, Sharh Riyad al-Salihin 4/24-30 (باب الحياء). Narrated, 42.1 s, morning theme.",
+      "10": "Points from Ibn Uthaymeen, Sharh Riyad al-Salihin 2/511-513 and 6/232-234. Narrated, 45.9 s, night theme."
+    }
   },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",
