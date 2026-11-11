@@ -1,60 +1,231 @@
 {
-  "episode": 1,
-  "title": "عام الفيل",
-  "series_label": "السيرة النبوية · الحلقة ١",
-  "approved_text": "2026-11-09 23:59 (owner approved the full storytelling version in chat)",
-  "sources": ["سورة الفيل", "الرحيق المختوم للمباركفوري — وقعة الفيل"],
-  "voices": {
-    "father": {"voice_id": "YKGG8oefXIWbncG7wgoX", "name": "احمد النبرة العميقة الدافئة"},
-    "maryam": {"voice_id": "NQyF5U0t336unYhQXcuv", "name": "Mimi"},
-    "omar":   {"voice_id": "0pDT8WvJXiBq0hxYB2Cp", "name": "Salama"}
+ "episode": 1,
+ "title": "عام الفيل",
+ "series_label": "السيرة النبوية · الحلقة ١",
+ "approved_text": "2026-11-09 23:59 (owner approved the full storytelling version in chat)",
+ "sources": [
+  "سورة الفيل",
+  "الرحيق المختوم للمباركفوري — وقعة الفيل"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "احمد النبرة العميقة الدافئة"
   },
-  "tts_model": "eleven_v4",
-  "images": {
-    "majlis": {"file": "../assets/majlis.png", "reuse": true},
-    "church": {"prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A grand ancient church building in Sana'a, Yemen, in late afternoon golden light: tall stone walls with ornate carved patterns, a large decorated doorway, traditional Yemeni tower houses in the background, a few tiny distant faceless figures in robes walking toward it, seen from far away. Deep blue sky with soft clouds. Rich palette of amber, sand, teal and navy. No crosses in close-up, no text, no letters, no watermark."},
-    "church_night": {"prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The same grand ancient stone church in Sana'a at night under a dark blue starry sky, moonlight on its carved walls, the courtyard empty and silent, a single small lantern glow near the doorway, a mysterious mood. No people visible. No text, no letters, no watermark."},
-    "army": {"prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A huge ancient army marching across a vast golden desert toward distant mountains, seen from far away and slightly above: rows of tiny faceless soldiers with spears and shields, several large war elephants with decorated saddle cloths, the biggest elephant leading in front, dust rising in the warm sunlight. The upper part of the frame is open sky. Palette of sand, ochre, amber and dusty blue. No text, no letters, no watermark."},
-    "elephant": {"prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A rocky desert valley between low mountains near Mecca. In the centre a huge decorated war elephant has knelt down on the ground and refuses to move, calm and still. Small faceless soldiers around it pull at ropes and gesture in frustration, seen from a distance. Warm late-day light, long shadows. Palette of sand, ochre, amber and dusty blue. No text, no letters, no watermark."},
-    "birds": {"prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A dramatic sky over a desert valley filled with countless small dark birds flying in great flocks like swallows, each carrying tiny pebbles, sunlight breaking through clouds behind them. Far below, a tiny scattered army with elephants is fleeing in disarray, seen only as small distant silhouettes. No blood, no injuries, no gore. Palette of deep blue, gold, amber and sand. No text, no letters, no watermark."},
-    "kaaba": {"prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The Kaaba in ancient Mecca standing peacefully in a quiet valley surrounded by bare rocky mountains, a simple square building covered in a dark cloth, soft dawn light rising behind the mountains, a calm sky with a few birds flying away in the distance. No people. Palette of soft gold, rose, navy and sand. No text, no letters, no calligraphy, no watermark."}
+  "maryam": {
+   "voice_id": "NQyF5U0t336unYhQXcuv",
+   "name": "Mimi"
   },
-  "scenes": [
-    {"id": 1, "image": "majlis", "cam": "children", "lines": [
-      {"who": "maryam", "tts": "يا أبي، لماذا سُمِّيَ عامُ الفيلِ بهذا الاسم؟", "bubble": ["يا أبي، لماذا سُمّي", "عامُ الفيل بهذا الاسم؟"]},
-      {"who": "father", "tts": "تلكَ يا مريم حكايةُ جيشٍ جاءَ ليهدمَ الكعبة، فلم يرجعْ منه إلا القليل. اجلسوا يا أولادي، أحكي لكم.", "bubble": ["حكايةُ جيشٍ جاء", "ليهدم الكعبة…"]}
-    ], "title_card": true},
-    {"id": 2, "image": "church", "cam": "slow_push", "lines": [
-      {"who": "father", "tts": "قبلَ مولدِ نبيِّنا صلّى اللهُ عليهِ وسلَّم بقليل، كان يحكمُ اليمنَ رجلٌ من الحبشةِ اسمُه أبرهة. رأى العربَ يأتونَ من كلِّ مكانٍ يحجّونَ إلى الكعبة، فأرادَ أن يصرفَ حجَّهم إلى بلده، فبنى في صنعاءَ كنيسةً كبيرة.", "caption": "أبرهة يبني كنيسةً في صنعاء"}
-    ]},
-    {"id": 3, "image": "church_night", "cam": "slow_pull", "lines": [
-      {"who": "father", "tts": "لكنَّ العربَ لم يتركوا بيتَ الله. وسمعَ بذلك رجلٌ من بني كِنانة، فدخلَ الكنيسةَ ليلًا وأهانها. فلمّا علمَ أبرهةُ ثارَ غضبُه، وعزمَ على أن يهدمَ الكعبة.", "caption": "غضب أبرهة… وعزم على هدم الكعبة"}
-    ]},
-    {"id": 4, "image": "army", "cam": "pan_right", "lines": [
-      {"who": "father", "tts": "فجمعَ جيشًا عظيمًا، ستّينَ ألفَ جندي، ومعهم الفيلة، واختارَ لنفسِه فيلًا من أكبرِها، وسارَ نحوَ مكة.", "caption": "ستون ألف جندي… ومعهم الفيلة"}
-    ]},
-    {"id": 5, "image": "majlis", "cam": "children_then_father", "lines": [
-      {"who": "omar", "tts": "وأهلُ مكةَ يا أبي؟ هل قاتلوه؟", "bubble": ["وأهلُ مكة يا أبي؟", "هل قاتلوه؟"]},
-      {"who": "father", "tts": "لم تكنْ لهم طاقةٌ بذلك الجيشِ يا عمر، فتفرَّقوا في الشِّعابِ وعلى رؤوسِ الجبالِ خوفًا منه.", "bubble": ["تفرّقوا في الشِّعاب", "وعلى رؤوس الجبال"]}
-    ]},
-    {"id": 6, "image": "elephant", "cam": "slow_push", "lines": [
-      {"who": "father", "tts": "ووصلَ أبرهةُ إلى مكانٍ يُقالُ له المُغَمَّس، فهيّأَ جيشَه وفيلَه لدخولِ مكة. حتى إذا بلغَ وادي مُحَسِّر، بينَ مزدلفةَ ومِنى… حدثَ العجب! بركَ الفيلُ وأبى أن يتحرّك. وجَّهوه نحوَ الجنوبِ فقامَ يُهرول، ونحوَ الشمالِ فهرول، ونحوَ الشرقِ فهرول، فإذا وجَّهوه نحوَ الكعبة… برك!", "caption": "وادي مُحَسِّر… الفيل يأبى أن يتقدّم"}
-    ]},
-    {"id": 7, "image": "majlis", "cam": "children", "lines": [
-      {"who": "maryam", "tts": "سبحانَ الله! وماذا حدثَ بعدَ ذلك؟", "bubble": ["سبحان الله!", "وماذا حدث بعد ذلك؟"]}
-    ]},
-    {"id": 8, "image": "birds", "cam": "tilt_down", "lines": [
-      {"who": "father", "tts": "وبينما هم كذلك، أرسلَ اللهُ عليهم طيرًا أبابيل، طيرًا صغيرة، مع كلِّ طائرٍ ثلاثةُ أحجار: حجرٌ في منقارِه وحجرانِ في رجليه، كلُّ حجرٍ مثلُ حبّةِ الحِمَّص. فما أصابتْ أحدًا منهم إلا هلك، وفرَّ الباقونَ يتساقطونَ في كلِّ طريق. وأبرهةُ نفسُه أصابه داءٌ، فما بلغَ صنعاءَ إلا وهو في أسوأِ حال، ثم مات.", "caption": "طيرًا أبابيل… ترميهم بحجارة من سجّيل"}
-    ]},
-    {"id": 9, "image": "kaaba", "cam": "slow_pull", "lines": [
-      {"who": "father", "tts": "ورجعتْ قريشٌ إلى بيوتِها آمنة، والكعبةُ قائمةٌ كما هي. وأنزلَ اللهُ في ذلك سورةً نقرؤها إلى اليوم: أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ.", "caption": "﴿أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ﴾"}
-    ]},
-    {"id": 10, "image": "majlis", "cam": "wide", "lines": [
-      {"who": "omar", "tts": "ومتى كانَ ذلك يا أبي؟", "bubble": ["ومتى كان ذلك يا أبي؟"]},
-      {"who": "father", "tts": "في شهرِ المحرَّمِ يا بُنيّ. وبعدَه بنحوِ خمسينَ يومًا… وُلِدَ في مكةَ مولودٌ غيَّرَ الدنيا كلَّها.", "bubble": ["وبعده بنحو خمسين يومًا…", "وُلد في مكة مولودٌ", "غيّر الدنيا كلّها"]},
-      {"who": "maryam", "tts": "مَن هو؟!", "bubble": ["مَن هو؟!"]},
-      {"who": "father", "tts": "هذه حكايةُ الغدِ إن شاءَ الله.", "bubble": ["هذه حكايةُ الغد", "إن شاء الله"]}
-    ], "end_card": "تابعنا لتسمع البقية"}
-  ],
-  "publish": {"first_episode_slot": "2026-11-10 10:00 Europe/Istanbul (one-time exception, owner's request)", "regular_slot": "Tue/Thu 08:00 Europe/Istanbul", "needs_owner_approval": true}
+  "omar": {
+   "voice_id": "0pDT8WvJXiBq0hxYB2Cp",
+   "name": "Salama"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "majlis": {
+   "file": "../assets/majlis.png",
+   "reuse": true
+  },
+  "church": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A grand ancient church building in Sana'a, Yemen, in late afternoon golden light: tall stone walls with ornate carved patterns, a large decorated doorway, traditional Yemeni tower houses in the background, a few tiny distant faceless figures in robes walking toward it, seen from far away. Deep blue sky with soft clouds. Rich palette of amber, sand, teal and navy. No crosses in close-up, no text, no letters, no watermark."
+  },
+  "church_night": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The same grand ancient stone church in Sana'a at night under a dark blue starry sky, moonlight on its carved walls, the courtyard empty and silent, a single small lantern glow near the doorway, a mysterious mood. No people visible. No text, no letters, no watermark."
+  },
+  "army": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A huge ancient army marching across a vast golden desert toward distant mountains, seen from far away and slightly above: rows of tiny faceless soldiers with spears and shields, several large war elephants with decorated saddle cloths, the biggest elephant leading in front, dust rising in the warm sunlight. The upper part of the frame is open sky. Palette of sand, ochre, amber and dusty blue. No text, no letters, no watermark."
+  },
+  "elephant": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A rocky desert valley between low mountains near Mecca. In the centre a huge decorated war elephant has knelt down on the ground and refuses to move, calm and still. Small faceless soldiers around it pull at ropes and gesture in frustration, seen from a distance. Warm late-day light, long shadows. Palette of sand, ochre, amber and dusty blue. No text, no letters, no watermark."
+  },
+  "birds": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A dramatic sky over a desert valley filled with countless small dark birds flying in great flocks like swallows, each carrying tiny pebbles, sunlight breaking through clouds behind them. Far below, a tiny scattered army with elephants is fleeing in disarray, seen only as small distant silhouettes. No blood, no injuries, no gore. Palette of deep blue, gold, amber and sand. No text, no letters, no watermark."
+  },
+  "kaaba": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The Kaaba in ancient Mecca standing peacefully in a quiet valley surrounded by bare rocky mountains, a simple square building covered in a dark cloth, soft dawn light rising behind the mountains, a calm sky with a few birds flying away in the distance. No people. Palette of soft gold, rose, navy and sand. No text, no letters, no calligraphy, no watermark."
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "majlis",
+   "cam": "children",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "يا أبي، لماذا سُمِّيَ عامُ الفيلِ بهذا الاسم؟",
+     "bubble": [
+      "يا أبي، لماذا سُمّي",
+      "عامُ الفيل بهذا الاسم؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "تلكَ يا مريم حكايةُ جيشٍ جاءَ ليهدمَ الكعبة، فلم يرجعْ منه إلا القليل. اجلسوا يا أولادي، أحكي لكم.",
+     "bubble": [
+      "حكايةُ جيشٍ جاء",
+      "ليهدم الكعبة…"
+     ]
+    }
+   ],
+   "title_card": true
+  },
+  {
+   "id": 2,
+   "image": "church",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "قبلَ مولدِ نبيِّنا صلّى اللهُ عليهِ وسلَّم بقليل، كان يحكمُ اليمنَ رجلٌ من الحبشةِ اسمُه أبرهة. رأى العربَ يأتونَ من كلِّ مكانٍ يحجّونَ إلى الكعبة، فأرادَ أن يصرفَ حجَّهم إلى بلده، فبنى في صنعاءَ كنيسةً كبيرة.",
+     "caption": "أبرهة يبني كنيسةً في صنعاء"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "church_night",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "لكنَّ العربَ لم يتركوا بيتَ الله. وسمعَ بذلك رجلٌ من بني كِنانة، فدخلَ الكنيسةَ ليلًا وأهانها. فلمّا علمَ أبرهةُ ثارَ غضبُه، وعزمَ على أن يهدمَ الكعبة.",
+     "caption": "غضب أبرهة… وعزم على هدم الكعبة"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "army",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فجمعَ جيشًا عظيمًا، ستّينَ ألفَ جندي، ومعهم الفيلة، واختارَ لنفسِه فيلًا من أكبرِها، وسارَ نحوَ مكة.",
+     "caption": "ستون ألف جندي… ومعهم الفيلة"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "وأهلُ مكةَ يا أبي؟ هل قاتلوه؟",
+     "bubble": [
+      "وأهلُ مكة يا أبي؟",
+      "هل قاتلوه؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "لم تكنْ لهم طاقةٌ بذلك الجيشِ يا عمر، فتفرَّقوا في الشِّعابِ وعلى رؤوسِ الجبالِ خوفًا منه.",
+     "bubble": [
+      "تفرّقوا في الشِّعاب",
+      "وعلى رؤوس الجبال"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "elephant",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ووصلَ أبرهةُ إلى مكانٍ يُقالُ له المُغَمَّس، فهيّأَ جيشَه وفيلَه لدخولِ مكة. حتى إذا بلغَ وادي مُحَسِّر، بينَ مزدلفةَ ومِنى… حدثَ العجب! بركَ الفيلُ وأبى أن يتحرّك. وجَّهوه نحوَ الجنوبِ فقامَ يُهرول، ونحوَ الشمالِ فهرول، ونحوَ الشرقِ فهرول، فإذا وجَّهوه نحوَ الكعبة… برك!",
+     "caption": "وادي مُحَسِّر… الفيل يأبى أن يتقدّم"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "majlis",
+   "cam": "children",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "سبحانَ الله! وماذا حدثَ بعدَ ذلك؟",
+     "bubble": [
+      "سبحان الله!",
+      "وماذا حدث بعد ذلك؟"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "birds",
+   "cam": "tilt_down",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وبينما هم كذلك، أرسلَ اللهُ عليهم طيرًا أبابيل، طيرًا صغيرة، مع كلِّ طائرٍ ثلاثةُ أحجار: حجرٌ في منقارِه وحجرانِ في رجليه، كلُّ حجرٍ مثلُ حبّةِ الحِمَّص. فما أصابتْ أحدًا منهم إلا هلك، وفرَّ الباقونَ يتساقطونَ في كلِّ طريق. وأبرهةُ نفسُه أصابه داءٌ، فما بلغَ صنعاءَ إلا وهو في أسوأِ حال، ثم مات.",
+     "caption": "طيرًا أبابيل… ترميهم بحجارة من سجّيل"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "image": "kaaba",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ورجعتْ قريشٌ إلى بيوتِها آمنة، والكعبةُ قائمةٌ كما هي. وأنزلَ اللهُ في ذلك سورةً نقرؤها إلى اليوم: أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ.",
+     "caption": "﴿أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ﴾"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "image": "majlis",
+   "cam": "wide",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "ومتى كانَ ذلك يا أبي؟",
+     "bubble": [
+      "ومتى كان ذلك يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "في شهرِ المحرَّمِ يا بُنيّ. وبعدَه بنحوِ خمسينَ يومًا… وُلِدَ في مكةَ مولودٌ غيَّرَ الدنيا كلَّها.",
+     "bubble": [
+      "وبعده بنحو خمسين يومًا…",
+      "وُلد في مكة مولودٌ",
+      "غيّر الدنيا كلّها"
+     ]
+    },
+    {
+     "who": "maryam",
+     "tts": "مَن هو؟!",
+     "bubble": [
+      "مَن هو؟!"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله.",
+     "bubble": [
+      "هذه حكايةُ الثلاثاء",
+      "إن شاء الله"
+     ]
+    }
+   ],
+   "end_card": "تابعنا لتسمع البقية"
+  }
+ ],
+ "publish": {
+  "first_episode_slot": "2026-11-10 10:00 Europe/Istanbul (one-time exception, owner's request)",
+  "regular_slot": "Tue/Thu 08:00 Europe/Istanbul",
+  "needs_owner_approval": true,
+  "planned_slot": "2026-11-13 (Thursday) — so the closing line points to Tuesday"
+ },
+ "closing_line_rule": "Last line names the next episode's day: an episode aired on Tuesday ends «هذه حكايةُ يومِ الخميسِ إن شاءَ الله», one aired on Thursday ends «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله» (owner's request 2026-11-11)."
 }
