@@ -1,0 +1,11 @@
+{
+ "job": "20261111T164417-003-deldup-shrek2-steam.json",
+ "ref": "deldup-shrek2-steam",
+ "method": "deleteMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T16:44:41Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
