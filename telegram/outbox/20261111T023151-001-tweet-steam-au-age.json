@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/UoEzWoavREo9zwpFLKCqC-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Steam's age verification in Australia now considers your account's age: accounts at least nine years old should pass the check, as an alternative to linking a credit card. https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/ #Steam #Australia</code>"
+ },
+ "ref": "tweet-steam-au-age",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Steam's age verification in Australia now considers your account's age: accounts at least nine years old should pass the check, as an alternative to linking a credit card. https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/ #Steam #Australia</code>"
+}
