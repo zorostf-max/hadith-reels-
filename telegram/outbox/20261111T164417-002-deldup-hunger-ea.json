@@ -1,0 +1,8 @@
+{
+ "method": "deleteMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "message_id": 247
+ },
+ "ref": "deldup-hunger-ea"
+}

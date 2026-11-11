@@ -161,3 +161,8 @@
 2026-11-11 18:32	VGC	https://www.videogameschronicle.com/news/former-bioware-lead-says-new-mass-effect-could-be-made-for-well-under-200-million/
 2026-11-11 18:32	GamesRadar+	https://www.gamesradar.com/games/dark-souls/praise-the-sun-dark-souls-2-and-3-are-back-online-after-2-weeks-as-fromsoftware-finishes-its-investigation-into-vulnerabilities/
 2026-11-11 18:32	VGC (same story)	https://www.videogameschronicle.com/news/katsuhiro-harada-says-he-wishes-xbox-series-s-didnt-exist-because-its-like-doing-extra-work-for-a-slightly-weaker-child/
+2026-11-11 18:31	PC Gamer	https://www.pcgamer.com/games/fps/overwatch-is-adding-6v6-role-queue-to-its-competitive-play-weve-realised-that-there-doesnt-have-to-be-a-winner-between-5v5-and-6v6/
+2026-11-11 18:41	Eurogamer	https://www.eurogamer.net/hunger-extraction-napoleonic-era-early-access-date
+2026-11-11 18:51	GamesRadar+	https://www.gamesradar.com/games/co-op/is-nothing-sacred-shrek-2-remastered-pummeled-on-steam-over-epic-games-account-requirement-and-suspected-ai-textures/
+2026-11-11 18:55	Tom's Hardware	https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games
+2026-11-11 18:14	IGN (same story)	https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-xbox-series-s-wouldnt-be-released
