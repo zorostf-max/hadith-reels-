@@ -166,3 +166,10 @@
 2026-11-11 18:51	GamesRadar+	https://www.gamesradar.com/games/co-op/is-nothing-sacred-shrek-2-remastered-pummeled-on-steam-over-epic-games-account-requirement-and-suspected-ai-textures/
 2026-11-11 18:55	Tom's Hardware	https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games
 2026-11-11 18:14	IGN (same story)	https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-xbox-series-s-wouldnt-be-released
+2026-11-11 20:33	VGC	https://www.videogameschronicle.com/news/fan-mod-beyond-skyrim-bruma-gets-huge-update-and-playstation-port/
+2026-11-11 20:33	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/gta-6-censorship-worries-bubble-up-in-japan-the-install-size-is-different-to-everywhere-else-and-the-age-rating-drops-sex-and-drugs/
+2026-11-11 20:33	GamesRadar+	https://www.gamesradar.com/games/simulation/ive-wanted-to-play-this-anime-inspired-farming-rpg-for-years-and-i-might-finally-get-my-chance-porting-work-is-actively-happening-behind-the-scenes/
+2026-11-11 20:33	Eurogamer	https://www.eurogamer.net/eu-digital-fairness-act-what-is-it-video-games
+2026-11-11 20:33	PC Gamer (same story)	https://www.pcgamer.com/games/dark-souls/dark-souls-2-and-3-multiplayer-is-back-we-still-dont-know-what-went-wrong-but-at-least-it-didnt-take-almost-a-year-to-fix-it/
+2026-11-11 20:33	GamesRadar+ (same story)	https://www.gamesradar.com/games/in-front-of-xbox-staff-ex-tekken-boss-says-developing-for-xbox-series-s-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/
+2026-11-11 20:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/ex-tekken-director-savages-xbox-series-s-in-front-of-senior-xbox-staff-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/
