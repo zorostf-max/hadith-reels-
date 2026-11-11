@@ -1,0 +1,11 @@
+{
+ "job": "20261111T112726-007-tweet-switch-dmca-picofly.json",
+ "ref": "tweet-switch-dmca-picofly",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T11:27:46Z",
+ "message_id": 226,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

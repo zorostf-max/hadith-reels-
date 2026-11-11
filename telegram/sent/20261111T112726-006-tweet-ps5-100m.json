@@ -1,0 +1,11 @@
+{
+ "job": "20261111T112726-006-tweet-ps5-100m.json",
+ "ref": "tweet-ps5-100m",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T11:27:45Z",
+ "message_id": 225,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261111T112726-008-tweet-mhwilds-ascendance-beta.json",
+ "ref": "tweet-mhwilds-ascendance-beta",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T11:27:48Z",
+ "message_id": 227,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

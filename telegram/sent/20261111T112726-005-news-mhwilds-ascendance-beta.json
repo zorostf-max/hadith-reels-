@@ -1,0 +1,11 @@
+{
+ "job": "20261111T112726-005-news-mhwilds-ascendance-beta.json",
+ "ref": "news-mhwilds-ascendance-beta",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T11:27:43Z",
+ "message_id": 107,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
