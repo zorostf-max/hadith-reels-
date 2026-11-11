@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/vYFmafSqNeAuDCoRgWnUha-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>ASRock ships new VBIOS after update bricked RX 7900 cards</b>\n\nASRock has quietly released VBIOS 1.0.6 for its Radeon RX 7000 graphics cards. It follows reports that RX 7900 XT and XTX cards failed to boot after installing the previous firmware, and the company has not explained what went wrong.\n\n🕒 Nov 11, 2026 · 17:20 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards\">Tom's Hardware</a>\n\n#AMD #Radeon #GamingNews"
+ },
+ "ref": "news-asrock-rx7900",
+ "fallback_text": "🖥️ <b>ASRock ships new VBIOS after update bricked RX 7900 cards</b>\n\nASRock has quietly released VBIOS 1.0.6 for its Radeon RX 7000 graphics cards. It follows reports that RX 7900 XT and XTX cards failed to boot after installing the previous firmware, and the company has not explained what went wrong.\n\n🕒 Nov 11, 2026 · 17:20 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards\">Tom's Hardware</a>\n\n#AMD #Radeon #GamingNews"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/vYFmafSqNeAuDCoRgWnUha-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ ASRock released VBIOS 1.0.6 for Radeon RX 7000 cards after its previous firmware left some RX 7900 XT/XTX GPUs unable to boot. https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards #AMD #Radeon</code>"
+ },
+ "ref": "tweet-asrock-rx7900",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🖥️ ASRock released VBIOS 1.0.6 for Radeon RX 7000 cards after its previous firmware left some RX 7900 XT/XTX GPUs unable to boot. https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards #AMD #Radeon</code>"
+}

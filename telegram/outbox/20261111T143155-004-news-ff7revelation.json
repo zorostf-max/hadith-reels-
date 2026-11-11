@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/3GGZRiKLM6p6VVoSCxx2kn-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>FF7 Revelation brings back snowboarding and Queen's Blood</b>\n\nDirector Naoki Hamaguchi says the snowboarding minigame returns in Final Fantasy 7 Revelation, the last chapter of the remake trilogy, calling it essential. The Queen's Blood card game is also coming back because fans asked for it.\n\n🕒 Nov 11, 2026 · 17:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/final-fantasy/the-snowboarding-minigame-is-just-essential-says-ff7-revelation-director-and-queens-blood-also-returns-due-to-fan-demand-there-really-was-no-other-option-for-us/\">GamesRadar+</a>\n\n#FinalFantasy #FF7 #GamingNews"
+ },
+ "ref": "news-ff7revelation",
+ "fallback_text": "🎮 <b>FF7 Revelation brings back snowboarding and Queen's Blood</b>\n\nDirector Naoki Hamaguchi says the snowboarding minigame returns in Final Fantasy 7 Revelation, the last chapter of the remake trilogy, calling it essential. The Queen's Blood card game is also coming back because fans asked for it.\n\n🕒 Nov 11, 2026 · 17:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/final-fantasy/the-snowboarding-minigame-is-just-essential-says-ff7-revelation-director-and-queens-blood-also-returns-due-to-fan-demand-there-really-was-no-other-option-for-us/\">GamesRadar+</a>\n\n#FinalFantasy #FF7 #GamingNews"
+}
