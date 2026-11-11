@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-former-gta-6-and-red-dead-redemption-2-artist-sony-and-microsoft-cant-compete-with-rockstar-because-they-do-not-care-about-making-game-products/</code>"
- },
- "ref": "tweetlink-rockstar-quote"
-}

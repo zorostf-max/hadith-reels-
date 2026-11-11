@@ -1,0 +1,11 @@
+{
+ "job": "20261111T193207-004-tweet-ff14-funeral.json",
+ "ref": "tweet-ff14-funeral",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T19:32:28Z",
+ "message_id": 274,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

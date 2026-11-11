@@ -1,0 +1,11 @@
+{
+ "job": "20261111T193207-003-news-exterminauts.json",
+ "ref": "news-exterminauts",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T19:32:27Z",
+ "message_id": 137,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

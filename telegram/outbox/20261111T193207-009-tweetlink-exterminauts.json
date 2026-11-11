@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.pcgamer.com/games/third-person-shooter/exterminauts-looks-like-another-helldivers-2-but-its-really-the-deep-rock-galactic-sickos-who-should-take-notice/</code>"
- },
- "ref": "tweetlink-exterminauts"
-}

@@ -1,0 +1,11 @@
+{
+ "job": "20261111T193207-006-tweet-rockstar-quote.json",
+ "ref": "tweet-rockstar-quote",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T19:32:32Z",
+ "message_id": 276,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
