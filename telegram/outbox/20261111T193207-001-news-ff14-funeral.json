@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/11/Funeral-FF14.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>FFXIV players hold in-game funerals for The Primals bassist</b>\n\nFinal Fantasy XIV players gathered across servers to pay tribute to Eikichi Iwai, bassist of The Primals, the game's official band. Fans lit campfires in Limsa Lominsa to honor him, turning the city into a memorial.\n\n🕒 Nov 11, 2026 · 21:26 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/final-fantasy-14-players-hold-in-game-funerals-across-servers-after-official-band-bassist-dies-3427485/\">Dexerto</a>\n\n🕯️ Leave a reaction to pay respect · 💬 What's your favorite Primals track?\n\n#FFXIV #FinalFantasy #GamingNews"
+ },
+ "ref": "news-ff14-funeral",
+ "fallback_text": "🎮 <b>FFXIV players hold in-game funerals for The Primals bassist</b>\n\nFinal Fantasy XIV players gathered across servers to pay tribute to Eikichi Iwai, bassist of The Primals, the game's official band. Fans lit campfires in Limsa Lominsa to honor him, turning the city into a memorial.\n\n🕒 Nov 11, 2026 · 21:26 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/final-fantasy-14-players-hold-in-game-funerals-across-servers-after-official-band-bassist-dies-3427485/\">Dexerto</a>\n\n🕯️ Leave a reaction to pay respect · 💬 What's your favorite Primals track?\n\n#FFXIV #FinalFantasy #GamingNews"
+}

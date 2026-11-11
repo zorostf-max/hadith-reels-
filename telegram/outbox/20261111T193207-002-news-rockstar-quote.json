@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/q9VEvTmjqXdkuDN5ZDPPxh-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Ex-GTA 6 artist: Sony and Microsoft can't match Rockstar</b>\n\nA former artist on GTA 6 and Red Dead Redemption 2 says Sony and Microsoft can't compete with Rockstar, arguing the platform giants \"do not care about making game products\". The artist also called Rockstar's institutional knowledge \"absolutely priceless\".\n\n🕒 Nov 11, 2026 · 21:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-former-gta-6-and-red-dead-redemption-2-artist-sony-and-microsoft-cant-compete-with-rockstar-because-they-do-not-care-about-making-game-products/\">GamesRadar+</a>\n\n👍 Agree or 👎 disagree? · 💬 Can anyone rival Rockstar?\n\n#GTA6 #Rockstar #GamingNews"
+ },
+ "ref": "news-rockstar-quote",
+ "fallback_text": "🎮 <b>Ex-GTA 6 artist: Sony and Microsoft can't match Rockstar</b>\n\nA former artist on GTA 6 and Red Dead Redemption 2 says Sony and Microsoft can't compete with Rockstar, arguing the platform giants \"do not care about making game products\". The artist also called Rockstar's institutional knowledge \"absolutely priceless\".\n\n🕒 Nov 11, 2026 · 21:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-former-gta-6-and-red-dead-redemption-2-artist-sony-and-microsoft-cant-compete-with-rockstar-because-they-do-not-care-about-making-game-products/\">GamesRadar+</a>\n\n👍 Agree or 👎 disagree? · 💬 Can anyone rival Rockstar?\n\n#GTA6 #Rockstar #GamingNews"
+}

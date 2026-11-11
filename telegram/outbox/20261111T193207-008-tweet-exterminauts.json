@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/hcfJYVuA8JFu3U4R9UyZKQ-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 The Dead by Daylight studio is making a co-op shooter\nExterminauts looks like Helldivers 2, but PC Gamer says Deep Rock Galactic fans should take notice.\n\n#Exterminauts #DeepRockGalactic</code>"
+ },
+ "ref": "tweet-exterminauts",
+ "fallback_text": "<code>🎮 The Dead by Daylight studio is making a co-op shooter\nExterminauts looks like Helldivers 2, but PC Gamer says Deep Rock Galactic fans should take notice.\n\n#Exterminauts #DeepRockGalactic</code>"
+}

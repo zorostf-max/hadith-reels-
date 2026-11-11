@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.dexerto.com/gaming/final-fantasy-14-players-hold-in-game-funerals-across-servers-after-official-band-bassist-dies-3427485/</code>"
+ },
+ "ref": "tweetlink-ff14-funeral"
+}
