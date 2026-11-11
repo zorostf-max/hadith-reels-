@@ -1,0 +1,10 @@
+{
+ "method": "setChatPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0"
+ },
+ "ref": "levelup-photo",
+ "files": {
+  "photo": "telegram/assets/levelup-channel-photo.jpg"
+ }
+}
