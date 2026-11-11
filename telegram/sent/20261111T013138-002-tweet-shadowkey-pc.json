@@ -1,0 +1,11 @@
+{
+ "job": "20261111T013138-002-tweet-shadowkey-pc.json",
+ "ref": "tweet-shadowkey-pc",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T01:31:51Z",
+ "message_id": 216,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

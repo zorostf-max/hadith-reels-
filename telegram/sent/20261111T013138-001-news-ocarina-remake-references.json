@@ -1,0 +1,11 @@
+{
+ "job": "20261111T013138-001-news-ocarina-remake-references.json",
+ "ref": "news-ocarina-remake-references",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T01:31:50Z",
+ "message_id": 97,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
