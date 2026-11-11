@@ -48,11 +48,16 @@ In the hourly run, for each story chosen in step 3:
 1. Together with the channel job, queue a second `sendPhoto` job to the owner's private chat (`state.json → telegram_chat_id`) with the same image, `--ref tweet-<slug>`, a `--fallback-text` with the same caption, and this caption (`parse_mode` HTML):
 
    ```
-   🐦 تغريدة جاهزة — اضغط على النص لنسخه:
-
    <code>TWEET TEXT</code>
    ```
-   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words: an emoji, the news in one or two short sentences, the source link, and 1–2 hashtags. Escape `&`, `<`, `>`. Only facts the source states.
+   The caption is **only** the `<code>` block — no header or "tap to copy" line before or after it (owner's request 2026-11-11).
+
+   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words, only facts the source states. Escape `&`, `<`, `>`. Write it to win views and follows (owner's request 2026-11-11):
+   - **Line 1 = the hook**, under ~70 characters: start with an emoji that fits (🚨 big/breaking, 🎮 game, 🔥 hype, 💰 price/deal, 🖥️ hardware, 🏆 esports) and lead with the most surprising fact — a number, a date, a price, a big name. Never a vague opener like "News:" or "Check this out".
+   - Line 2 (after a line break): one short sentence with the key detail (what / when / how much).
+   - Line 3, about every other tweet: a short question that invites replies ("Day-one buy or wait?", "Worth $70?").
+   - Then the source link, then 1–2 relevant hashtags (game name or platform, e.g. #GTA6 #PS5) — never more than 2.
+   - Vary the openers and questions; never the same pattern twice in a row.
 2. Queue the tweet jobs **after** all the channel jobs, in the same push, and `tg.py wait` them too.
 3. For each tweet job that `wait` reports as ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`).
 4. Catch-up: before choosing news, any link in `posted.txt` from the last 24 hours (not a `(same story)` line) that is missing from `tweets.txt` also gets its tweet in this run (image from `fetch_news.py --hours 24 --limit 80 --include-posted`, or a plain `sendMessage` if there is no image).
