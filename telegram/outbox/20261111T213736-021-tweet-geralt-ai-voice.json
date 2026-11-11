@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/CrMRUM5bPeKSHZydSaiaGV-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 Geralt's Polish voice in Songs of the Past got AI help, with the actor's OK\nJacek Rozenek's voice changed after a stroke, so CD Projekt Red worked with an AI company.\nRight call?\n#TheWitcher3</code>"
+ },
+ "ref": "tweet-geralt-ai-voice",
+ "fallback_text": "<code>🎮 Geralt's Polish voice in Songs of the Past got AI help, with the actor's OK\nJacek Rozenek's voice changed after a stroke, so CD Projekt Red worked with an AI company.\nRight call?\n#TheWitcher3</code>"
+}

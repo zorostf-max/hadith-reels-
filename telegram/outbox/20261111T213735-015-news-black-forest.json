@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/Destroy-All-Humans_TIiH50c.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Destroy All Humans remake studio breaks away from Embracer</b>\n\nBlack Forest Games, the team behind the remakes of the first two Destroy All Humans games, has spun out from THQ Nordic and its parent company Embracer Group. The studio now operates as an independent developer.\n\n🕒 Nov 11, 2026 · 23:37 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer\">Eurogamer</a>\n\n👽 React if you want a Destroy All Humans 3 · 💬 What should they make next?\n\n#DestroyAllHumans #Embracer #GamingNews"
+ },
+ "ref": "news-black-forest",
+ "fallback_text": "🎮 <b>Destroy All Humans remake studio breaks away from Embracer</b>\n\nBlack Forest Games, the team behind the remakes of the first two Destroy All Humans games, has spun out from THQ Nordic and its parent company Embracer Group. The studio now operates as an independent developer.\n\n🕒 Nov 11, 2026 · 23:37 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/destroy-all-humans-independent-thq-embracer\">Eurogamer</a>\n\n👽 React if you want a Destroy All Humans 3 · 💬 What should they make next?\n\n#DestroyAllHumans #Embracer #GamingNews"
+}
