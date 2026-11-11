@@ -1,0 +1,11 @@
+{
+ "job": "20261111T183149-002-news-marvel-rivals.json",
+ "ref": "news-marvel-rivals",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T18:32:11Z",
+ "message_id": 132,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

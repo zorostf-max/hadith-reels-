@@ -1,0 +1,11 @@
+{
+ "job": "20261111T183149-010-tweetlink-skyrim-15.json",
+ "ref": "tweetlink-skyrim-15",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T18:32:24Z",
+ "message_id": 271,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

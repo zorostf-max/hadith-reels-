@@ -1,0 +1,11 @@
+{
+ "job": "20261111T183149-001-news-steam-backlog.json",
+ "ref": "news-steam-backlog",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T18:32:09Z",
+ "message_id": 131,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
