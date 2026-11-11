@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2025/02/26/ps5console-1740609475402.jpeg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ PS5 has officially passed 100 million consoles shipped, Sony confirms, about six years after launch. https://www.ign.com/articles/ps5-hits-100-million-units-sold-mark-6-years-after-launch-heres-how-it-compares-to-other-playstation-consoles #PS5 #PlayStation</code>"
+ },
+ "ref": "tweet-ps5-100m",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ PS5 has officially passed 100 million consoles shipped, Sony confirms, about six years after launch. https://www.ign.com/articles/ps5-hits-100-million-units-sold-mark-6-years-after-launch-heres-how-it-compares-to-other-playstation-consoles #PS5 #PlayStation</code>"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.videogameschronicle.com/files/2021/07/oled-model-photo-03.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Nintendo strikes again: GitHub has removed 144 repositories hosting firmware for the Picofly Switch mod chip and similar chips after a DMCA takedown. https://www.videogameschronicle.com/news/nintendos-battle-against-piracy-continues-with-a-dmca-takedown-on-switch-mod-chip-firmware/ #Nintendo #Switch</code>"
+ },
+ "ref": "tweet-switch-dmca-picofly",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🕹️ Nintendo strikes again: GitHub has removed 144 repositories hosting firmware for the Picofly Switch mod chip and similar chips after a DMCA takedown. https://www.videogameschronicle.com/news/nintendos-battle-against-piracy-continues-with-a-dmca-takedown-on-switch-mod-chip-firmware/ #Nintendo #Switch</code>"
+}

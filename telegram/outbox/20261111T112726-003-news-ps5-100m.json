@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2025/02/26/ps5console-1740609475402.jpeg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>PS5 passes 100 million consoles shipped</b>\n\nSony has confirmed that PlayStation 5 shipments have reached 100 million units, roughly six years after launch. The milestone puts PS5 in the same club as PS4 and PS2, though it got there a little slower than both, despite supply shortages and price hikes along the way.\n\n🕒 Nov 11, 2026 · 12:45 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/ps5-hits-100-million-units-sold-mark-6-years-after-launch-heres-how-it-compares-to-other-playstation-consoles\">IGN</a>\n\n#PS5 #PlayStation #GamingNews"
+ },
+ "ref": "news-ps5-100m",
+ "fallback_text": "🕹️ <b>PS5 passes 100 million consoles shipped</b>\n\nSony has confirmed that PlayStation 5 shipments have reached 100 million units, roughly six years after launch. The milestone puts PS5 in the same club as PS4 and PS2, though it got there a little slower than both, despite supply shortages and price hikes along the way.\n\n🕒 Nov 11, 2026 · 12:45 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/ps5-hits-100-million-units-sold-mark-6-years-after-launch-heres-how-it-compares-to-other-playstation-consoles\">IGN</a>\n\n#PS5 #PlayStation #GamingNews"
+}

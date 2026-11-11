@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2021/07/oled-model-photo-03.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Nintendo DMCA takes down Switch mod chip firmware on GitHub</b>\n\nNintendo's fight against piracy has hit GitHub: 144 repositories hosting firmware for the Picofly mod chip and similar chips have been shut down after a DMCA takedown. Mod chips are used to run unofficial software on Switch hardware.\n\n🕒 Nov 11, 2026 · 13:44 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/nintendos-battle-against-piracy-continues-with-a-dmca-takedown-on-switch-mod-chip-firmware/\">VGC</a>\n\n#Nintendo #Switch #GamingNews"
+ },
+ "ref": "news-switch-dmca-picofly",
+ "fallback_text": "🕹️ <b>Nintendo DMCA takes down Switch mod chip firmware on GitHub</b>\n\nNintendo's fight against piracy has hit GitHub: 144 repositories hosting firmware for the Picofly mod chip and similar chips have been shut down after a DMCA takedown. Mod chips are used to run unofficial software on Switch hardware.\n\n🕒 Nov 11, 2026 · 13:44 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/nintendos-battle-against-piracy-continues-with-a-dmca-takedown-on-switch-mod-chip-firmware/\">VGC</a>\n\n#Nintendo #Switch #GamingNews"
+}
