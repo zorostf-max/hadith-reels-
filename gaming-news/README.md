@@ -31,8 +31,11 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
    🕒 Nov 9, 2026 · 17:32 (GMT+3)
    📰 Source: <a href="LINK">Source name</a>
 
+   CALL TO ACTION
+
    #Tag1 #Tag2 #GamingNews
    ```
+   CALL TO ACTION (owner's request 2026-11-11) is one short English line asking for a reaction and a comment, tied to the story and varied every post, e.g. "🔥 React if you're hyped · 💬 Will you play it day one?", "👍 Like if you want this on PC · 💬 Tell us below", "💰 Worth it? React 👍 or 👎 and comment your take".
    The time is the item's `published_utc` converted to Istanbul time (GMT+3). Emoji by topic: 🎮 games · 🏆 esports · 🖥️ PC hardware · 🕹️ platforms · 💸 deals. Escape `&`, `<`, `>` in the text.
    The `--fallback-text` makes the bridge send the caption as a text message if Telegram refuses the photo. Never queue the same item twice.
 6. **Always** (even when there is no news) queue one tick job — `python3 telegram/tg.py queue getMe '{}' --ref tick` — in the same push, so the bridge runs every hour and sends any timed jobs that are due (GitHub's own timer is unreliable).
