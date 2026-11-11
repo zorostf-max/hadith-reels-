@@ -1,0 +1,11 @@
+{
+ "job": "20261111T143602-005-preview-msg-0913.json",
+ "ref": "preview-msg-0913",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T14:36:33Z",
+ "message_id": 242,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

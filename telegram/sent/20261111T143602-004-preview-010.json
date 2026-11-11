@@ -1,0 +1,11 @@
+{
+ "job": "20261111T143602-004-preview-010.json",
+ "ref": "preview-010",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-11T14:36:31Z",
+ "message_id": 241,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

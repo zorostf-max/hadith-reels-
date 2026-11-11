@@ -1,9 +1,0 @@
-{
- "method": "sendVideo",
- "params": {
-  "chat_id": "6875821347",
-  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/9eaea7e/videos/bukhari-009.mp4",
-  "caption": "(١/٢) الحديث رقم 9 — الحياء شعبة من الإيمان — يُنشر الجمعة ١٠:٠٠ صباحًا"
- },
- "ref": "preview-009"
-}
