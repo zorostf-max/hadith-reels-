@@ -1,0 +1,11 @@
+{
+ "job": "20261111T143155-006-news-asrock-rx7900.json",
+ "ref": "news-asrock-rx7900",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T14:32:16Z",
+ "message_id": 119,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

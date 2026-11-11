@@ -1,0 +1,11 @@
+{
+ "job": "20261111T143155-004-news-ff7revelation.json",
+ "ref": "news-ff7revelation",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T14:32:13Z",
+ "message_id": 117,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

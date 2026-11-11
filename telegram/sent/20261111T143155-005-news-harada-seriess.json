@@ -1,0 +1,11 @@
+{
+ "job": "20261111T143155-005-news-harada-seriess.json",
+ "ref": "news-harada-seriess",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T14:32:15Z",
+ "message_id": 118,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
