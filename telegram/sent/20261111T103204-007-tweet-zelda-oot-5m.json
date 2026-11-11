@@ -1,0 +1,11 @@
+{
+ "job": "20261111T103204-007-tweet-zelda-oot-5m.json",
+ "ref": "tweet-zelda-oot-5m",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T10:32:33Z",
+ "message_id": 223,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

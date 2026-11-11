@@ -1,0 +1,11 @@
+{
+ "job": "20261111T103204-005-news-gta6-preload-net.json",
+ "ref": "news-gta6-preload-net",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T10:32:29Z",
+ "message_id": 103,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
