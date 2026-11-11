@@ -1,0 +1,11 @@
+{
+ "job": "20261111T123228-008-tweet-tes6-no-news.json",
+ "ref": "tweet-tes6-no-news",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T12:32:52Z",
+ "message_id": 229,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
