@@ -1,0 +1,11 @@
+{
+ "job": "20261111T153151-002-news-masseffect.json",
+ "ref": "news-masseffect",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T15:32:17Z",
+ "message_id": 121,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

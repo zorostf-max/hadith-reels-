@@ -1,0 +1,11 @@
+{
+ "job": "20261111T153151-001-news-stellarblade.json",
+ "ref": "news-stellarblade",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T15:32:15Z",
+ "message_id": 120,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

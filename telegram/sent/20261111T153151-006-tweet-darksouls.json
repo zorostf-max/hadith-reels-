@@ -1,0 +1,11 @@
+{
+ "job": "20261111T153151-006-tweet-darksouls.json",
+ "ref": "tweet-darksouls",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T15:32:24Z",
+ "message_id": 245,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
