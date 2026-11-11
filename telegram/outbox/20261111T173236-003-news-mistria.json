@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/NhqhWYnJD3QwDMjeaGFr6a-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Fields of Mistria could be leaving PC exclusivity behind</b>\n\nPorting work on the anime-inspired farming RPG Fields of Mistria is actively happening behind the scenes. That means the cozy hit, so far only playable on PC, may finally make its way to other platforms.\n\n🕒 Nov 11, 2026 · 20:18 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/simulation/ive-wanted-to-play-this-anime-inspired-farming-rpg-for-years-and-i-might-finally-get-my-chance-porting-work-is-actively-happening-behind-the-scenes/\">GamesRadar+</a>\n\n🌾 React 👍 if you want it on Switch · 💬 Which console would you play it on?\n\n#FieldsOfMistria #CozyGames #GamingNews"
+ },
+ "ref": "news-mistria",
+ "fallback_text": "🕹️ <b>Fields of Mistria could be leaving PC exclusivity behind</b>\n\nPorting work on the anime-inspired farming RPG Fields of Mistria is actively happening behind the scenes. That means the cozy hit, so far only playable on PC, may finally make its way to other platforms.\n\n🕒 Nov 11, 2026 · 20:18 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/simulation/ive-wanted-to-play-this-anime-inspired-farming-rpg-for-years-and-i-might-finally-get-my-chance-porting-work-is-actively-happening-behind-the-scenes/\">GamesRadar+</a>\n\n🌾 React 👍 if you want it on Switch · 💬 Which console would you play it on?\n\n#FieldsOfMistria #CozyGames #GamingNews"
+}

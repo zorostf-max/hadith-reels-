@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/mei-overwatch-loot-box-cs-go.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>EU's Digital Fairness Act could reshape how games make money</b>\n\nThe European Commission has published its proposed Digital Fairness Act, a day after a draft of it leaked. The rules could change how video games are monetised, and not only in Europe but worldwide. A new mini-site explains the Act in plainer language.\n\n🕒 Nov 11, 2026 · 20:25 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/eu-digital-fairness-act-what-is-it-video-games\">Eurogamer</a>\n\n💰 Good news for players? React 👍 or 👎 · 💬 Tell us your take below\n\n#DigitalFairnessAct #GamingNews #EU"
+ },
+ "ref": "news-eu-dfa",
+ "fallback_text": "🎮 <b>EU's Digital Fairness Act could reshape how games make money</b>\n\nThe European Commission has published its proposed Digital Fairness Act, a day after a draft of it leaked. The rules could change how video games are monetised, and not only in Europe but worldwide. A new mini-site explains the Act in plainer language.\n\n🕒 Nov 11, 2026 · 20:25 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/eu-digital-fairness-act-what-is-it-video-games\">Eurogamer</a>\n\n💰 Good news for players? React 👍 or 👎 · 💬 Tell us your take below\n\n#DigitalFairnessAct #GamingNews #EU"
+}
