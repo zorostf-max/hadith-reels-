@@ -133,3 +133,11 @@
 2026-11-11 13:32	Eurogamer (same story)	https://www.eurogamer.net/zelda-ocarina-of-time-switch-2-sales-nintendo
 2026-11-11 13:32	Dexerto	https://www.dexerto.com/gta/gta-6-is-causing-internet-issues-as-players-rush-to-preload-3427231/
 2026-11-11 13:32	Eurogamer (same story)	https://www.eurogamer.net/fairgames-playstation-heist-shooter-live-service-cancelled-haven
+2026-11-11 14:27	IGN	https://www.ign.com/articles/ps5-hits-100-million-units-sold-mark-6-years-after-launch-heres-how-it-compares-to-other-playstation-consoles
+2026-11-11 14:27	VGC (same story)	https://www.videogameschronicle.com/news/playstation-5-officially-clears-100-million-consoles-shipped/
+2026-11-11 14:27	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/sony-confirms-the-ps5-is-closing-in-on-the-ps4-with-100-million-consoles-shipped-and-thats-despite-the-shortages-and-price-hikes/
+2026-11-11 14:27	VGC	https://www.videogameschronicle.com/news/nintendos-battle-against-piracy-continues-with-a-dmca-takedown-on-switch-mod-chip-firmware/
+2026-11-11 14:27	Eurogamer	https://www.eurogamer.net/monster-hunter-wilds-ascendance-beta-steam-backend
+2026-11-11 14:27	IGN (same story)	https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-is-a-huge-success-for-nintendo-and-just-broke-a-switch-2-sales-record
+2026-11-11 14:27	Dexerto (same story)	https://www.dexerto.com/gaming/zelda-ocarina-of-time-remake-sells-5-2-million-copies-in-four-days-to-break-switch-2-record-3427243/
+2026-11-11 14:27	GamesRadar+ (same story)	https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-sets-a-nintendo-record-for-the-switch-2-with-5-2-million-sales-in-4-days-not-even-pokemon-pokopia-comes-close/
