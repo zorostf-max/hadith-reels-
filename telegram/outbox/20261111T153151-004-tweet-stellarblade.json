@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/DidcHpaRRhoubAGiyGxR6C-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 The Weeknd turned up to play Stellar Blade: Blood Rain, and Shift Up says it shows the series now reaches \"beyond gaming\". https://www.gamesradar.com/games/action-rpg/the-weeknd-turning-up-to-play-stellar-blade-blood-rain-shows-the-action-rpgs-appeal-goes-beyond-gaming-into-the-wider-cultural-sphere-shift-up-says/ #StellarBlade #GamingNews</code>"
+ },
+ "ref": "tweet-stellarblade",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 The Weeknd turned up to play Stellar Blade: Blood Rain, and Shift Up says it shows the series now reaches \"beyond gaming\". https://www.gamesradar.com/games/action-rpg/the-weeknd-turning-up-to-play-stellar-blade-blood-rain-shows-the-action-rpgs-appeal-goes-beyond-gaming-into-the-wider-cultural-sphere-shift-up-says/ #StellarBlade #GamingNews</code>"
+}

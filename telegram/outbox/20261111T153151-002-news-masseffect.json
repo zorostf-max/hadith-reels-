@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2023/11/mass-effect-n7-day.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Ex-BioWare lead: a new Mass Effect wouldn't need $200 million</b>\n\nA former lead developer at BioWare says the next Mass Effect could be made for well under $200 million. In his view, that budget would be \"more than enough\" for the sci-fi RPG series, at a time when big-budget game costs keep climbing.\n\n🕒 Nov 11, 2026 · 18:07 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/former-bioware-lead-says-new-mass-effect-could-be-made-for-well-under-200-million/\">VGC</a>\n\n#MassEffect #BioWare #GamingNews"
+ },
+ "ref": "news-masseffect",
+ "fallback_text": "🎮 <b>Ex-BioWare lead: a new Mass Effect wouldn't need $200 million</b>\n\nA former lead developer at BioWare says the next Mass Effect could be made for well under $200 million. In his view, that budget would be \"more than enough\" for the sci-fi RPG series, at a time when big-budget game costs keep climbing.\n\n🕒 Nov 11, 2026 · 18:07 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/former-bioware-lead-says-new-mass-effect-could-be-made-for-well-under-200-million/\">VGC</a>\n\n#MassEffect #BioWare #GamingNews"
+}

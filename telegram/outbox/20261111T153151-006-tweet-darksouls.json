@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/ecVG5p7JBY539xcJUF2EGm-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Dark Souls 2 and 3 are back online after two weeks, as FromSoftware wraps up its investigation into security vulnerabilities. Praise the sun! https://www.gamesradar.com/games/dark-souls/praise-the-sun-dark-souls-2-and-3-are-back-online-after-2-weeks-as-fromsoftware-finishes-its-investigation-into-vulnerabilities/ #DarkSouls #FromSoftware</code>"
+ },
+ "ref": "tweet-darksouls",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 Dark Souls 2 and 3 are back online after two weeks, as FromSoftware wraps up its investigation into security vulnerabilities. Praise the sun! https://www.gamesradar.com/games/dark-souls/praise-the-sun-dark-souls-2-and-3-are-back-online-after-2-weeks-as-fromsoftware-finishes-its-investigation-into-vulnerabilities/ #DarkSouls #FromSoftware</code>"
+}

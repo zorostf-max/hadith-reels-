@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/DidcHpaRRhoubAGiyGxR6C-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>The Weeknd plays Stellar Blade: Blood Rain, and Shift Up takes note</b>\n\nPop star The Weeknd showed up to play Stellar Blade: Blood Rain, the next game in Shift Up's action series. The studio says this proves the series now reaches \"beyond gaming\" into wider culture, and promised to do its utmost to live up to the interest.\n\n🕒 Nov 11, 2026 · 17:44 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/action-rpg/the-weeknd-turning-up-to-play-stellar-blade-blood-rain-shows-the-action-rpgs-appeal-goes-beyond-gaming-into-the-wider-cultural-sphere-shift-up-says/\">GamesRadar+</a>\n\n#StellarBlade #ShiftUp #GamingNews"
+ },
+ "ref": "news-stellarblade",
+ "fallback_text": "🎮 <b>The Weeknd plays Stellar Blade: Blood Rain, and Shift Up takes note</b>\n\nPop star The Weeknd showed up to play Stellar Blade: Blood Rain, the next game in Shift Up's action series. The studio says this proves the series now reaches \"beyond gaming\" into wider culture, and promised to do its utmost to live up to the interest.\n\n🕒 Nov 11, 2026 · 17:44 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/action-rpg/the-weeknd-turning-up-to-play-stellar-blade-blood-rain-shows-the-action-rpgs-appeal-goes-beyond-gaming-into-the-wider-cultural-sphere-shift-up-says/\">GamesRadar+</a>\n\n#StellarBlade #ShiftUp #GamingNews"
+}
