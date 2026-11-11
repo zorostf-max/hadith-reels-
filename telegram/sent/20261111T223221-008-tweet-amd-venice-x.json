@@ -1,0 +1,11 @@
+{
+ "job": "20261111T223221-008-tweet-amd-venice-x.json",
+ "ref": "tweet-amd-venice-x",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T22:32:50Z",
+ "message_id": 298,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

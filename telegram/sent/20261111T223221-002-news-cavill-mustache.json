@@ -1,0 +1,11 @@
+{
+ "job": "20261111T223221-002-news-cavill-mustache.json",
+ "ref": "news-cavill-mustache",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T22:32:41Z",
+ "message_id": 146,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

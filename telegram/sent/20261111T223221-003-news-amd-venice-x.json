@@ -1,0 +1,11 @@
+{
+ "job": "20261111T223221-003-news-amd-venice-x.json",
+ "ref": "news-amd-venice-x",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T22:32:43Z",
+ "message_id": 147,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

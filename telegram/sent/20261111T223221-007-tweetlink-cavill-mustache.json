@@ -1,0 +1,11 @@
+{
+ "job": "20261111T223221-007-tweetlink-cavill-mustache.json",
+ "ref": "tweetlink-cavill-mustache",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T22:32:49Z",
+ "message_id": 297,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

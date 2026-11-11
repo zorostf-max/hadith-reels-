@@ -1,0 +1,11 @@
+{
+ "job": "20261111T223221-005-tweetlink-gta6.json",
+ "ref": "tweetlink-gta6",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-11T22:32:46Z",
+ "message_id": 295,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
