@@ -1,0 +1,11 @@
+{
+ "job": "20261111T023151-000-news-steam-au-age.json",
+ "ref": "news-steam-au-age",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T02:32:08Z",
+ "message_id": 98,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
