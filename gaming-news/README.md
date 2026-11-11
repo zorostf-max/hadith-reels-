@@ -52,15 +52,16 @@ In the hourly run, for each story chosen in step 3:
    ```
    The caption is **only** the `<code>` block — no header or "tap to copy" line before or after it (owner's request 2026-11-11).
 
-   TWEET TEXT is English, **≤ 270 characters including the link** (X counts any link as 23), in your own words, only facts the source states. Escape `&`, `<`, `>`. Write it to win views and follows (owner's request 2026-11-11):
+   TWEET TEXT is English, **≤ 270 characters**, and contains **no link** (X shows link posts to fewer people; the owner puts the link in the first reply — owner's request 2026-11-11 19:32), in your own words, only facts the source states. Escape `&`, `<`, `>`. Write it to win views and follows (owner's request 2026-11-11):
    - **Line 1 = the hook**, under ~70 characters: start with an emoji that fits (🚨 big/breaking, 🎮 game, 🔥 hype, 💰 price/deal, 🖥️ hardware, 🏆 esports) and lead with the most surprising fact — a number, a date, a price, a big name. Never a vague opener like "News:" or "Check this out".
    - Line 2 (after a line break): one short sentence with the key detail (what / when / how much).
    - Line 3, about every other tweet: a short question that invites replies ("Day-one buy or wait?", "Worth $70?").
-   - Then the source link, then 1–2 relevant hashtags (game name or platform, e.g. #GTA6 #PS5) — never more than 2.
+   - Then 1–2 relevant hashtags (game name or platform, e.g. #GTA6 #PS5) — never more than 2.
    - Vary the openers and questions; never the same pattern twice in a row.
-2. Queue the tweet jobs **after** all the channel jobs, in the same push, and `tg.py wait` them too.
-3. For each tweet job that `wait` reports as ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`).
-4. Catch-up: before choosing news, any link in `posted.txt` from the last 24 hours (not a `(same story)` line) that is missing from `tweets.txt` also gets its tweet in this run (image from `fetch_news.py --hours 24 --limit 80 --include-posted`, or a plain `sendMessage` if there is no image).
+   Right after it, queue a `sendMessage` job to the same private chat, `--ref tweetlink-<slug>`, `parse_mode` HTML, whose text is **only** `<code>SOURCE LINK</code>` (no label) — the owner copies it into the first reply under his tweet.
+2. Queue the tweet jobs (photo + link message) **after** all the channel jobs, in the same push, and `tg.py wait` them too.
+3. For each story whose tweet job **and** link job `wait` reports as ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`).
+4. Catch-up: before choosing news, any link in `posted.txt` from the last 24 hours (not a `(same story)` line) that is missing from `tweets.txt` also gets its tweet in this run (image from `fetch_news.py --hours 24 --limit 80 --include-posted`, or a plain `sendMessage` if there is no image), followed by its link message.
 
 No tweet is sent for a story that was not posted to the channel, and never two tweets for the same story.
 
