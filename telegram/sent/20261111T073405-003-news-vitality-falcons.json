@@ -1,0 +1,11 @@
+{
+ "job": "20261111T073405-003-news-vitality-falcons.json",
+ "ref": "news-vitality-falcons",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-11T07:34:21Z",
+ "message_id": 100,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
