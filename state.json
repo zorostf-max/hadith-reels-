@@ -6,7 +6,9 @@
     3,
     4,
     5,
-    6
+    6,
+    7,
+    8
   ],
   "pending_batch": {
     "publish_date": "2026-11-11",
@@ -20,7 +22,28 @@
       8
     ],
     "rejected": [],
-    "scheduled": {},
+    "scheduled": {
+      "7": {
+        "slot": "2026-11-11 10:00",
+        "theme": "morning",
+        "metricool_id": 424055451,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=3682136225068827018",
+        "telegram_jobs": [
+          "20261111T062853-001-channel-bukhari-007.json",
+          "20261111T062853-002-channel-bukhari-007-text.json"
+        ]
+      },
+      "8": {
+        "slot": "2026-11-11 18:00",
+        "theme": "night",
+        "metricool_id": 424055463,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-3672803389410555938",
+        "telegram_jobs": [
+          "20261111T062853-003-channel-bukhari-008.json",
+          "20261111T062853-004-channel-bukhari-008-text.json"
+        ]
+      }
+    },
     "preview_message_ids": [
       144,
       145,
