@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/11/Mustache-Protocol-.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 Henry Cavill made a game with AI, and people like it\nMustache Protocol is out now, free in your browser, with warm early reviews.\n#HenryCavill #MustacheProtocol</code>"
+ },
+ "ref": "tweet-cavill-mustache",
+ "fallback_text": "<code>🎮 Henry Cavill made a game with AI, and people like it\nMustache Protocol is out now, free in your browser, with warm early reviews.\n#HenryCavill #MustacheProtocol</code>"
+}

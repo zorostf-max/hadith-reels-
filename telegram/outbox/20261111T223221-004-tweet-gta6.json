@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2026/10/29/gta-6-jason-and-lucia-drive-by-1793234705694.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 Rockstar just dropped surprise GTA 6 gameplay\nThe new footage even recreates Rockstar's real-life viral marketing inside the game.\nDid you catch the hidden details?\n#GTA6</code>"
+ },
+ "ref": "tweet-gta6",
+ "fallback_text": "<code>🚨 Rockstar just dropped surprise GTA 6 gameplay\nThe new footage even recreates Rockstar's real-life viral marketing inside the game.\nDid you catch the hidden details?\n#GTA6</code>"
+}

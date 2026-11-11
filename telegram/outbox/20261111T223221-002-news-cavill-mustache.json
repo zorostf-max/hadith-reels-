@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/11/Mustache-Protocol-.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Henry Cavill's AI-built game Mustache Protocol is out now</b>\n\nThe actor's AI-built browser game, Mustache Protocol, has launched and is free to play. Early reviews are surprisingly positive.\n\n🕒 Nov 11, 2026 · 23:51 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/henry-cavills-ai-built-mustache-game-launches-to-surprisingly-warm-reviews-3427544/\">Dexerto</a>\n\n👍 React if you'll try it · 💬 Would you play a game made with AI?\n\n#HenryCavill #BrowserGames #GamingNews"
+ },
+ "ref": "news-cavill-mustache",
+ "fallback_text": "🎮 <b>Henry Cavill's AI-built game Mustache Protocol is out now</b>\n\nThe actor's AI-built browser game, Mustache Protocol, has launched and is free to play. Early reviews are surprisingly positive.\n\n🕒 Nov 11, 2026 · 23:51 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/henry-cavills-ai-built-mustache-game-launches-to-surprisingly-warm-reviews-3427544/\">Dexerto</a>\n\n👍 React if you'll try it · 💬 Would you play a game made with AI?\n\n#HenryCavill #BrowserGames #GamingNews"
+}
