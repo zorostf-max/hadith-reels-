@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2025/01/30/untitled-design-75-1738236972823.png",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>MSI reportedly hiking GPU prices in China again</b>\n\nA leak says MSI is preparing another round of graphics card price increases in China. It comes as the RAM crisis that began in November 2025 keeps pushing up the cost of almost every gaming PC part, and less than a month after the RTX 5080 reached $2,000 in the US.\n\n🕒 Nov 11, 2026 · 22:12 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/msi-raising-graphics-cards-prices-again-in-china-according-to-leak\">IGN</a>\n\n💸 Still planning a GPU upgrade? React 👍 or 👎 · 💬 Tell us your budget\n\n#MSI #GPU #GamingNews"
+ },
+ "ref": "news-msi",
+ "fallback_text": "🖥️ <b>MSI reportedly hiking GPU prices in China again</b>\n\nA leak says MSI is preparing another round of graphics card price increases in China. It comes as the RAM crisis that began in November 2025 keeps pushing up the cost of almost every gaming PC part, and less than a month after the RTX 5080 reached $2,000 in the US.\n\n🕒 Nov 11, 2026 · 22:12 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/msi-raising-graphics-cards-prices-again-in-china-according-to-leak\">IGN</a>\n\n💸 Still planning a GPU upgrade? React 👍 or 👎 · 💬 Tell us your budget\n\n#MSI #GPU #GamingNews"
+}

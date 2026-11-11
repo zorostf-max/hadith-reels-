@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/ZB9C6R9UGBnJmJaF72xjE4-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🏆 Resident Evil Requiem just won Ultimate Game of the Year at the Golden Joysticks 2026\nIt tied with Meccha Chameleon as the biggest winner of the night.\nDid it deserve the top prize?\n#ResidentEvilRequiem #GoldenJoysticks</code>"
+ },
+ "ref": "tweet-requiem-gjas",
+ "fallback_text": "<code>🏆 Resident Evil Requiem just won Ultimate Game of the Year at the Golden Joysticks 2026\nIt tied with Meccha Chameleon as the biggest winner of the night.\nDid it deserve the top prize?\n#ResidentEvilRequiem #GoldenJoysticks</code>"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/3JdTywSbDrvngvG3ycgJm7-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Laid-off id Software devs launch their own shooter studio</b>\n\nAround 20 former id Software developers, let go in Microsoft's mass layoffs, have co-founded Hidden Horses, a new employee-owned studio focused on shooters. The team plans a Kickstarter campaign to help fund its first game.\n\n🕒 Nov 11, 2026 · 23:09 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/former-id-software-developers-form-their-own-employee-owned-shooter-studio-in-the-wake-of-microsofts-mass-layoffs/\">PC Gamer</a>\n\n🔥 React if you'd back their Kickstarter · 💬 What shooter should they make?\n\n#idSoftware #HiddenHorses #GamingNews"
+ },
+ "ref": "news-hiddenhorses",
+ "fallback_text": "🎮 <b>Laid-off id Software devs launch their own shooter studio</b>\n\nAround 20 former id Software developers, let go in Microsoft's mass layoffs, have co-founded Hidden Horses, a new employee-owned studio focused on shooters. The team plans a Kickstarter campaign to help fund its first game.\n\n🕒 Nov 11, 2026 · 23:09 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/former-id-software-developers-form-their-own-employee-owned-shooter-studio-in-the-wake-of-microsofts-mass-layoffs/\">PC Gamer</a>\n\n🔥 React if you'd back their Kickstarter · 💬 What shooter should they make?\n\n#idSoftware #HiddenHorses #GamingNews"
+}
