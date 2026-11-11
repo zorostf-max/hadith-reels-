@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/DP2mw6vvTkZZmAaw6KvgKJ-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Zelda: Ocarina of Time remake cut its Mario and Skyward Sword nods</b>\n\nThe new Ocarina of Time remake dropped references to Mario and to Skyward Sword so they would not \"interrupt\" the player's experience. Skyward Sword's director has responded that there are \"no hard feelings\", GamesRadar+ reports.\n\n🕒 Nov 11, 2026 · 03:45 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-removed-mario-and-skyward-sword-references-because-you-dont-want-to-interrupt-the-players-experience/\">GamesRadar+</a>\n\n#Zelda #Nintendo #GamingNews"
+ },
+ "ref": "news-ocarina-remake-references",
+ "fallback_text": "🎮 <b>Zelda: Ocarina of Time remake cut its Mario and Skyward Sword nods</b>\n\nThe new Ocarina of Time remake dropped references to Mario and to Skyward Sword so they would not \"interrupt\" the player's experience. Skyward Sword's director has responded that there are \"no hard feelings\", GamesRadar+ reports.\n\n🕒 Nov 11, 2026 · 03:45 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-removed-mario-and-skyward-sword-references-because-you-dont-want-to-interrupt-the-players-experience/\">GamesRadar+</a>\n\n#Zelda #Nintendo #GamingNews"
+}

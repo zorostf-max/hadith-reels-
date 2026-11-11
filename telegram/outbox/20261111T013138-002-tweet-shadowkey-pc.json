@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/nag2arKf76CYq2aNFJVzpd-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 A fan is reviving Shadowkey, the lost Elder Scrolls spin-off for Nokia's N-Gage, upgrading it with the help of AI and porting it to PC. https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/ #ElderScrolls #PCGaming</code>"
+ },
+ "ref": "tweet-shadowkey-pc",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🎮 A fan is reviving Shadowkey, the lost Elder Scrolls spin-off for Nokia's N-Gage, upgrading it with the help of AI and porting it to PC. https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/ #ElderScrolls #PCGaming</code>"
+}

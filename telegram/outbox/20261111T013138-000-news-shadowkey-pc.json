@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/nag2arKf76CYq2aNFJVzpd-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Fan project brings lost Elder Scrolls spin-off Shadowkey to PC</b>\n\nAn Elder Scrolls fan is reviving Shadowkey, the long-forgotten spin-off made for Nokia's N-Gage phone, and porting it to PC. The project also upgrades the game, with AI used as part of the work, as PC Gamer reports.\n\n🕒 Nov 11, 2026 · 03:00 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/\">PC Gamer</a>\n\n#ElderScrolls #PCGaming #GamingNews"
+ },
+ "ref": "news-shadowkey-pc",
+ "fallback_text": "🎮 <b>Fan project brings lost Elder Scrolls spin-off Shadowkey to PC</b>\n\nAn Elder Scrolls fan is reviving Shadowkey, the long-forgotten spin-off made for Nokia's N-Gage phone, and porting it to PC. The project also upgrades the game, with AI used as part of the work, as PC Gamer reports.\n\n🕒 Nov 11, 2026 · 03:00 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/\">PC Gamer</a>\n\n#ElderScrolls #PCGaming #GamingNews"
+}
