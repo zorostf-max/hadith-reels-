@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/11/Tencent-reveals-AI-gaming-companion-that-watches-your-screen-and-talks-to-you.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🤖 Tencent has revealed an AI gaming companion that watches your screen while you play and talks with you in real time, reacting to the action and giving advice. https://www.dexerto.com/gaming/tencent-launches-ai-gaming-companion-that-watches-your-screen-and-gives-advice-3427298/ #Tencent #AI</code>"
+ },
+ "ref": "tweet-tencent-ai-companion",
+ "fallback_text": "🐦 تغريدة جاهزة — اضغط على النص لنسخه:\n\n<code>🤖 Tencent has revealed an AI gaming companion that watches your screen while you play and talks with you in real time, reacting to the action and giving advice. https://www.dexerto.com/gaming/tencent-launches-ai-gaming-companion-that-watches-your-screen-and-gives-advice-3427298/ #Tencent #AI</code>"
+}

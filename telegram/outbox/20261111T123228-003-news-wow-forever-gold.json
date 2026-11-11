@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/8aFJkNpnCky3pWYeEqNyH8-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>WoW: Forever is getting more quest gold after players hit a cash wall</b>\n\nBlizzard plans to add extra gold rewards to high-level quests in World of Warcraft: Forever, since players at level 60 don't get the extra money they expected. Instead of bringing back the old XP-to-gold conversion, the developers are leaning on buffs to fix the economy.\n\n🕒 Nov 11, 2026 · 14:41 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/\">PC Gamer</a>\n\n#WorldOfWarcraft #Blizzard #GamingNews"
+ },
+ "ref": "news-wow-forever-gold",
+ "fallback_text": "🎮 <b>WoW: Forever is getting more quest gold after players hit a cash wall</b>\n\nBlizzard plans to add extra gold rewards to high-level quests in World of Warcraft: Forever, since players at level 60 don't get the extra money they expected. Instead of bringing back the old XP-to-gold conversion, the developers are leaning on buffs to fix the economy.\n\n🕒 Nov 11, 2026 · 14:41 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/\">PC Gamer</a>\n\n#WorldOfWarcraft #Blizzard #GamingNews"
+}

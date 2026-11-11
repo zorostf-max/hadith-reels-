@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/11/Tencent-reveals-AI-gaming-companion-that-watches-your-screen-and-talks-to-you.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Tencent unveils an AI companion that watches you play</b>\n\nTencent has revealed an AI gaming companion that follows your gameplay on screen and chats with you in real time about what is happening. It can react to the action and give players advice as they go, another sign of big publishers pushing AI into the play experience.\n\n🕒 Nov 11, 2026 · 15:03 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/tencent-launches-ai-gaming-companion-that-watches-your-screen-and-gives-advice-3427298/\">Dexerto</a>\n\n#Tencent #AI #GamingNews"
+ },
+ "ref": "news-tencent-ai-companion",
+ "fallback_text": "🎮 <b>Tencent unveils an AI companion that watches you play</b>\n\nTencent has revealed an AI gaming companion that follows your gameplay on screen and chats with you in real time about what is happening. It can react to the action and give players advice as they go, another sign of big publishers pushing AI into the play experience.\n\n🕒 Nov 11, 2026 · 15:03 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/tencent-launches-ai-gaming-companion-that-watches-your-screen-and-gives-advice-3427298/\">Dexerto</a>\n\n#Tencent #AI #GamingNews"
+}

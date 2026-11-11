@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/YP43KX8Ttr8qaaXDtVVoU8-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Microsoft's own upscaler arrives on the Xbox Ally X</b>\n\nMicrosoft's in-house upscaling tech, an alternative to AMD's FSR, is now available on Xbox Ally X handhelds. It runs on the device's NPU, giving that AI chip a real gaming job, though FSR is still the better pick where a game supports it well.\n\n🕒 Nov 11, 2026 · 15:11 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-own-upscaler-and-alternative-to-fsr-just-landed-on-xbox-ally-x-handhelds-actually-uses-an-npu-for-something-useful/\">PC Gamer</a>\n\n#Xbox #PCGaming #GamingNews"
+ },
+ "ref": "news-xbox-ally-upscaler",
+ "fallback_text": "🖥️ <b>Microsoft's own upscaler arrives on the Xbox Ally X</b>\n\nMicrosoft's in-house upscaling tech, an alternative to AMD's FSR, is now available on Xbox Ally X handhelds. It runs on the device's NPU, giving that AI chip a real gaming job, though FSR is still the better pick where a game supports it well.\n\n🕒 Nov 11, 2026 · 15:11 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-own-upscaler-and-alternative-to-fsr-just-landed-on-xbox-ally-x-handhelds-actually-uses-an-npu-for-something-useful/\">PC Gamer</a>\n\n#Xbox #PCGaming #GamingNews"
+}
