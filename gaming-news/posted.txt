@@ -141,3 +141,9 @@
 2026-11-11 14:27	IGN (same story)	https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-is-a-huge-success-for-nintendo-and-just-broke-a-switch-2-sales-record
 2026-11-11 14:27	Dexerto (same story)	https://www.dexerto.com/gaming/zelda-ocarina-of-time-remake-sells-5-2-million-copies-in-four-days-to-break-switch-2-record-3427243/
 2026-11-11 14:27	GamesRadar+ (same story)	https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-sets-a-nintendo-record-for-the-switch-2-with-5-2-million-sales-in-4-days-not-even-pokemon-pokopia-comes-close/
+2026-11-11 15:33	PC Gamer	https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/
+2026-11-11 15:33	GamesRadar+ (same story)	https://www.gamesradar.com/games/world-of-warcraft/blizzard-knows-world-of-warcraft-forever-has-a-gold-problem-but-that-doesnt-mean-a-feature-everyone-used-to-grind-it-in-the-og-mmo-is-coming-back/
+2026-11-11 15:33	GamesRadar+	https://www.gamesradar.com/games/the-elder-scrolls/bethesda-says-sorry-therell-be-no-elder-scrolls-6-sentinel-news-for-skyrims-anniversary-and-none-for-some-time-for-that-matter/
+2026-11-11 15:33	Dexerto	https://www.dexerto.com/gaming/tencent-launches-ai-gaming-companion-that-watches-your-screen-and-gives-advice-3427298/
+2026-11-11 15:33	PC Gamer	https://www.pcgamer.com/hardware/handheld-gaming-pcs/microsofts-own-upscaler-and-alternative-to-fsr-just-landed-on-xbox-ally-x-handhelds-actually-uses-an-npu-for-something-useful/
+2026-11-11 15:33	IGN (same story)	https://www.ign.com/articles/nintendo-defends-decision-to-cut-mario-and-yoshi-easter-eggs-from-the-legend-of-zelda-ocarina-of-time-remake
