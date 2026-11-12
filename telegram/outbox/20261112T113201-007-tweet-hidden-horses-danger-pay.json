@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/hidden-horses.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 Ex-id Software devs just formed a new studio: Hidden Horses\nLaid off from the Doom studio, they're now Kickstarting their first FPS, Danger Pay.\n#DangerPay #FPS</code>"
+ },
+ "ref": "tweet-hidden-horses-danger-pay",
+ "fallback_text": "<code>🎮 Ex-id Software devs just formed a new studio: Hidden Horses\nLaid off from the Doom studio, they're now Kickstarting their first FPS, Danger Pay.\n#DangerPay #FPS</code>"
+}

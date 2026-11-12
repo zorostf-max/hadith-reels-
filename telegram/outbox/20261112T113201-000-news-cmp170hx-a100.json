@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/QaaiweaJKxjDDJTGrtCSU5-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Hacker turns an 8GB Nvidia mining card into a full 80GB A100</b>\n\nA modder took a $2,500 Nvidia CMP-170HX 8GB cryptomining GPU and used voltage glitching to unlock it as a full A100 80GB, a card worth around $20,000. The trick involved carefully blowing fuses on the board to open up the entire VRAM and all shader modules.\n\n🕒 Nov 12, 2026 · 13:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules\">Tom's Hardware</a>\n\n🤯 React if this blew your mind · 💬 Would you risk your GPU for this?\n\n#Nvidia #GPU #GamingNews"
+ },
+ "ref": "news-cmp170hx-a100",
+ "fallback_text": "🖥️ <b>Hacker turns an 8GB Nvidia mining card into a full 80GB A100</b>\n\nA modder took a $2,500 Nvidia CMP-170HX 8GB cryptomining GPU and used voltage glitching to unlock it as a full A100 80GB, a card worth around $20,000. The trick involved carefully blowing fuses on the board to open up the entire VRAM and all shader modules.\n\n🕒 Nov 12, 2026 · 13:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules\">Tom's Hardware</a>\n\n🤯 React if this blew your mind · 💬 Would you risk your GPU for this?\n\n#Nvidia #GPU #GamingNews"
+}

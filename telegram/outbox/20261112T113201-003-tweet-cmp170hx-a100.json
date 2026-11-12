@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/QaaiweaJKxjDDJTGrtCSU5-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🤯 A $2,500 mining GPU just became a $20,000 Nvidia A100\nA modder used voltage glitching and blown fuses to unlock 80GB of VRAM on a CMP-170HX.\n#Nvidia #GPU</code>"
+ },
+ "ref": "tweet-cmp170hx-a100",
+ "fallback_text": "<code>🤯 A $2,500 mining GPU just became a $20,000 Nvidia A100\nA modder used voltage glitching and blown fuses to unlock 80GB of VRAM on a CMP-170HX.\n#Nvidia #GPU</code>"
+}
