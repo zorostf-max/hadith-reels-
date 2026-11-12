@@ -1,0 +1,11 @@
+{
+ "job": "20261112T233158-000-news-fable-quest-gameplay.json",
+ "ref": "news-fable-quest-gameplay",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T23:32:11Z",
+ "message_id": 202,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
