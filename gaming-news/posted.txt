@@ -301,3 +301,8 @@
 2026-11-13 00:28	PC Gamer	https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/
 2026-11-13 00:28	GameSpot (same story)	https://www.gamespot.com/articles/new-doom-game-seemingly-announced-in-the-weirdest-way-after-half-the-studio-was-laid-off/
 2026-11-13 00:28	GamesRadar+	https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/
+2026-11-13 01:28	GameSpot	https://www.gamespot.com/articles/candy-crush-is-celebrating-xboxs-25th-anniversary-with-halo-fallout-and-doom-crossovers-including-remixed-music/
+2026-11-13 01:28	VGC	https://www.videogameschronicle.com/uncategorised/21-original-xbox-games-are-now-on-pc-via-backward-compatibility/
+2026-11-13 01:28	GamesRadar+ (same story)	https://www.gamesradar.com/games/microsoft-brings-21-more-original-xbox-games-to-pc-including-goldeneye-successor-timesplitters-2-and-a-version-of-the-elder-scrolls-3-morrowind-you-absolutely-do-not-want-to-play-today/
+2026-11-13 01:28	PC Gamer	https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/
+2026-11-13 01:28	VGC (same story)	https://www.videogameschronicle.com/news/id-software-confirms-its-working-on-a-new-game-after-layoffs/
