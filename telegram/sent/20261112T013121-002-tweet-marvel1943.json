@@ -1,0 +1,11 @@
+{
+ "job": "20261112T013121-002-tweet-marvel1943.json",
+ "ref": "tweet-marvel1943",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T01:31:34Z",
+ "message_id": 306,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

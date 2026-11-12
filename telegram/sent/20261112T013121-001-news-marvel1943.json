@@ -1,0 +1,11 @@
+{
+ "job": "20261112T013121-001-news-marvel1943.json",
+ "ref": "news-marvel1943",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T01:31:33Z",
+ "message_id": 151,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

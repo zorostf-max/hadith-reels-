@@ -1,0 +1,11 @@
+{
+ "job": "20261112T013121-003-tweetlink-marvel1943.json",
+ "ref": "tweetlink-marvel1943",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T01:31:36Z",
+ "message_id": 307,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
