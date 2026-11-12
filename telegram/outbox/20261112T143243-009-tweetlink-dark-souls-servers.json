@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.eurogamer.net/dark-souls-2-3-servers-back-online</code>"
+ },
+ "ref": "tweetlink-dark-souls-servers"
+}
