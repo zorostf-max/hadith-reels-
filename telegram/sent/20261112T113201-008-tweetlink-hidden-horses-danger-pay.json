@@ -1,0 +1,11 @@
+{
+ "job": "20261112T113201-008-tweetlink-hidden-horses-danger-pay.json",
+ "ref": "tweetlink-hidden-horses-danger-pay",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T11:32:31Z",
+ "message_id": 317,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

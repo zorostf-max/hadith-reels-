@@ -1,0 +1,11 @@
+{
+ "job": "20261112T113201-002-news-hidden-horses-danger-pay.json",
+ "ref": "news-hidden-horses-danger-pay",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T11:32:22Z",
+ "message_id": 156,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

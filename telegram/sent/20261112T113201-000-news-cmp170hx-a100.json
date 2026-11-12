@@ -1,0 +1,11 @@
+{
+ "job": "20261112T113201-000-news-cmp170hx-a100.json",
+ "ref": "news-cmp170hx-a100",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T11:32:18Z",
+ "message_id": 154,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

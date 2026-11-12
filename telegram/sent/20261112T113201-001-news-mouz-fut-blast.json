@@ -1,0 +1,11 @@
+{
+ "job": "20261112T113201-001-news-mouz-fut-blast.json",
+ "ref": "news-mouz-fut-blast",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T11:32:20Z",
+ "message_id": 155,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261112T113201-004-tweetlink-cmp170hx-a100.json",
+ "ref": "tweetlink-cmp170hx-a100",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T11:32:25Z",
+ "message_id": 313,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
