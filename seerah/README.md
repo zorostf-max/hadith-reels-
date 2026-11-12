@@ -11,6 +11,8 @@ Owner's series «السيرة النبوية»: a father tells the Prophet's ﷺ
 | S1 script | Tue + Thu ~19:47 | writes the script of the next episode and sends it for review |
 | S2 production | Mon + Wed ~19:13 | if the script is approved: images, voices, render, caption, sends the preview video |
 | S3 approval | Tue + Thu ~09:23 | if the video is approved: schedules it for 10:00 the same day |
+| C1 compilation | Fri ~19:37 | joins the week's Tuesday + Thursday episodes into one video and sends it for approval |
+| C2 compilation approval | Sat ~09:27 | if approved: schedules it on **YouTube only** (normal video, not a Short) at 10:00 |
 
 Thursday's S1 prepares Tuesday's episode; Tuesday's S1 prepares Thursday's.
 
@@ -68,3 +70,27 @@ Telegram goes ONLY through the GitHub bridge (`telegram/README.md`): queue jobs 
 4. `no <note>` → status `skipped`, keep the note in `pending.notes` (the next S1 redoes the episode with it); tell the owner it will move to the next slot.
 5. No reply → nothing is published; status `skipped` (reason: no approval); tell the owner the episode moves to the next Tuesday/Thursday.
 6. Never publish an episode the owner did not approve. Never change posts already scheduled unless the owner asks.
+
+---
+
+## Saturday compilation (owner's decision 2026-11-12): the week's two episodes in one video, on YouTube only
+
+`state.json → seerah.compilation` = `{"week_of": "YYYY-MM-DD (Saturday)", "episodes": [N1, N2], "status": "sent" | "scheduled" | "skipped", "preview_message_ids": [], "messages": []}`.
+
+### C1 — build (Friday)
+1. `git pull`. Find the episodes of this week whose `seerah.epNN.publish_at` is this Tuesday and this Thursday (they must have been scheduled/published). If fewer than 2, stop quietly (no compilation this week).
+2. Join them with ffmpeg into `seerah/compilations/<saturday-date>.mp4` (1080x1920, H.264 `-preset veryfast -crf 23`, AAC; re-encode with the concat filter so audio stays in sync; a 0.5 s fade between the two). No music.
+3. Write `seerah/compilations/<saturday-date>.txt` (YouTube description): first line «السيرة النبوية · الحلقتان N1 و N2: <العنوان١> و<العنوان٢>», a short summary of each, «📅 حلقة جديدة كل ثلاثاء وخميس، ومجموع الأسبوع كل سبت», the combined «📚 المصادر:» of both episodes, a like/subscribe call to action, 4–5 hashtags.
+4. Commit + push. Telegram (bridge): the file is over Telegram's 20 MB URL limit, so send a `sendMessage` with the commit-pinned raw link and:
+   «🎞 مجموع الأسبوع (الحلقتان N1 و N2) جاهز للمراجعة — يُنشر على يوتيوب فقط السبت ١٠:٠٠.
+   <الرابط>
+   ✅ للموافقة أرسل: ok
+   ❌ للرفض: no <ملاحظتك>
+   ⏰ تُفحص موافقتك الساعة ٩:٢٥ صباح السبت.»
+   Push, wait, store message_ids; set `seerah.compilation` with status `sent`. Commit + push.
+
+### C2 — approve and schedule (Saturday)
+1. `git pull`. If `seerah.compilation.week_of` is not today or status is not `sent`, stop quietly.
+2. Refresh the inbox, read replies after `preview_message_ids[0]`, save them.
+3. `ok` → Metricool `createScheduledPost`, providers **youtube only**, today 10:00 Europe/Istanbul, media = commit-pinned raw URL, text = the .txt, youtubeData `{"title":"السيرة النبوية | الحلقتان N1 و N2: <العنوان١> و<العنوان٢>" (≤100 chars),"type":"video","privacy":"public","category":"EDUCATION","madeForKids":false,"tags":[...]}`. Not on Instagram, TikTok or Telegram. Status `scheduled`, record the plannerUrl, tell the owner.
+4. `no` or no reply → nothing is published; status `skipped`; tell the owner.
