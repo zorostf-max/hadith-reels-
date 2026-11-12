@@ -1,0 +1,11 @@
+{
+ "job": "20261112T002714-003-tweet-helldivers2-mods.json",
+ "ref": "tweet-helldivers2-mods",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T00:27:35Z",
+ "message_id": 302,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

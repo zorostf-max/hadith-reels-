@@ -1,0 +1,11 @@
+{
+ "job": "20261112T002714-002-news-nvidia-huang-board.json",
+ "ref": "news-nvidia-huang-board",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T00:27:33Z",
+ "message_id": 150,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

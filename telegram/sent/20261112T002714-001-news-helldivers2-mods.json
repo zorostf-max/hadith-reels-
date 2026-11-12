@@ -1,0 +1,11 @@
+{
+ "job": "20261112T002714-001-news-helldivers2-mods.json",
+ "ref": "news-helldivers2-mods",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T00:27:32Z",
+ "message_id": 149,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

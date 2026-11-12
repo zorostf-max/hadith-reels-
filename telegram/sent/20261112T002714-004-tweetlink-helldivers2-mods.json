@@ -1,0 +1,11 @@
+{
+ "job": "20261112T002714-004-tweetlink-helldivers2-mods.json",
+ "ref": "tweetlink-helldivers2-mods",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T00:27:36Z",
+ "message_id": 303,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
