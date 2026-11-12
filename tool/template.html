@@ -36,7 +36,7 @@
   <svg id="bg" width="1080" height="1920"></svg>
   <div id="hdr"></div>
   <div id="scenes"></div>
-  <div id="ftr">@963aperture_soul</div>
+  <div id="ftr">@hadithdaily.bukhari</div>
 </div>
 <script src="data.js"></script>
 <script>
@@ -219,7 +219,7 @@ D.points.forEach((p,i)=>{
   const n=String(i+1).split('').map(c=>AR[+c]).join('');
   addScene('pt'+i,`<div class="badge"><svg viewBox="-75 -75 150 150" width="150" height="150" class="star"></svg><b>${n}</b></div><div class="ptitle">${p.title}</div><div class="pbody">${p.body}</div>`,Math.max(7.5,3.5+wc(p.title+' '+p.body)*0.32));
 });
-addScene('outro',`<div class="big" style="font-size:84px">${D.outro_big}</div><div class="mid" style="margin-top:26px">${D.outro_mid}</div><div class="rule"></div>${D.question?`<div class="mid" style="font-size:46px;color:#f6e2a8;margin-bottom:22px">${D.question}</div>`:''}<div class="small" style="font-size:38px">المصادر في الوصف ⬇</div><div class="small" style="font-size:36px;direction:ltr;color:#e3c27a">@963aperture_soul</div>`,D.question?8.5:6);
+addScene('outro',`<div class="big" style="font-size:84px">${D.outro_big}</div><div class="mid" style="margin-top:26px">${D.outro_mid}</div><div class="rule"></div>${D.question?`<div class="mid" style="font-size:46px;color:#f6e2a8;margin-bottom:22px">${D.question}</div>`:''}<div class="small" style="font-size:38px">المصادر في الوصف ⬇</div><div class="small" style="font-size:36px;direction:ltr;color:#e3c27a">@hadithdaily.bukhari</div>`,D.question?8.5:6);
 const DUR=cur;
 // badge stars
 document.querySelectorAll('svg.star').forEach(s=>{
