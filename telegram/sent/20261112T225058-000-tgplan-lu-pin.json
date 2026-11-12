@@ -1,0 +1,11 @@
+{
+ "job": "20261112T225058-000-tgplan-lu-pin.json",
+ "ref": "tgplan-lu-pin",
+ "method": "pinChatMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T22:51:15Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
