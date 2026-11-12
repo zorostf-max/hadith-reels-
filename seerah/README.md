@@ -78,6 +78,7 @@ Telegram goes ONLY through the GitHub bridge (`telegram/README.md`): queue jobs 
 `state.json → seerah.compilation` = `{"week_of": "YYYY-MM-DD (Saturday)", "episodes": [N1, N2], "status": "sent" | "scheduled" | "skipped", "preview_message_ids": [], "messages": []}`.
 
 ### C1 — build (Friday)
+0. **One-time exception (owner's request 2026-11-12):** the compilation of **Saturday 2026-11-21** joins **episodes 1, 2 and 3** (ep01 aired Thu 2026-11-12, ep02 Tue 11-17, ep03 Thu 11-19), in that order — see `state.json → seerah.compilation_overrides`. Build it only if all three were scheduled/published; if one is missing, join the ones that were and say so in the Telegram message. The title then reads «الحلقات ١ و٢ و٣», and so do the description and the Telegram text. From 2026-11-28 on, back to the normal rule below.
 1. `git pull`. Find the episodes of this week whose `seerah.epNN.publish_at` is this Tuesday and this Thursday (they must have been scheduled/published). If fewer than 2, stop quietly (no compilation this week).
 2. Join them with ffmpeg into `seerah/compilations/<saturday-date>.mp4` (1080x1920, H.264 `-preset veryfast -crf 23`, AAC; re-encode with the concat filter so audio stays in sync; a 0.5 s fade between the two). No music.
 3. Write `seerah/compilations/<saturday-date>.txt` (YouTube description): first line «السيرة النبوية · الحلقتان N1 و N2: <العنوان١> و<العنوان٢>», a short summary of each, «📅 حلقة جديدة كل ثلاثاء وخميس، ومجموع الأسبوع كل سبت», the combined «📚 المصادر:» of both episodes, a like/subscribe call to action, 4–5 hashtags.

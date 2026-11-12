@@ -64,6 +64,13 @@
       "Thu"
     ],
     "slot": "10:00",
-    "pending": null
+    "pending": null,
+    "compilation_overrides": {
+      "2026-11-21": [
+        1,
+        2,
+        3
+      ]
+    }
   }
 }
