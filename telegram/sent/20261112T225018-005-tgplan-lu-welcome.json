@@ -1,0 +1,11 @@
+{
+ "job": "20261112T225018-005-tgplan-lu-welcome.json",
+ "ref": "tgplan-lu-welcome",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T22:50:41Z",
+ "message_id": 200,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

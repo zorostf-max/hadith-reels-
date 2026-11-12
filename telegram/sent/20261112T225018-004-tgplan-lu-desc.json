@@ -1,0 +1,11 @@
+{
+ "job": "20261112T225018-004-tgplan-lu-desc.json",
+ "ref": "tgplan-lu-desc",
+ "method": "setChatDescription",
+ "ok": true,
+ "sent_at": "2026-11-12T22:50:39Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,8 +1,0 @@
-{
- "method": "setChatDescription",
- "params": {
-  "chat_id": "@LevelUpGames0",
-  "description": "Daily gaming news: GTA 6, PlayStation, Xbox, Nintendo, Steam, esports & more. Short, with an image and the source.\n🔔 Only big stories send a notification.\n𝕏 x.com/AbdulbariH2771"
- },
- "ref": "tgplan-lu-desc"
-}

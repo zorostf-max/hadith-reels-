@@ -1,8 +1,0 @@
-{
- "method": "deleteMessage",
- "params": {
-  "chat_id": "@HadithDailyAr",
-  "message_id": 18
- },
- "ref": "tgplan-del18"
-}

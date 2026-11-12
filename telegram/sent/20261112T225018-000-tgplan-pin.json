@@ -1,0 +1,11 @@
+{
+ "job": "20261112T225018-000-tgplan-pin.json",
+ "ref": "tgplan-pin",
+ "method": "editMessageText",
+ "ok": true,
+ "sent_at": "2026-11-12T22:50:32Z",
+ "message_id": 4,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,8 +1,0 @@
-{
- "method": "setChatTitle",
- "params": {
-  "chat_id": "@LevelUpGames0",
-  "title": "Level Up | Gaming News 🎮"
- },
- "ref": "tgplan-lu-title"
-}

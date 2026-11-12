@@ -1,0 +1,11 @@
+{
+ "job": "20261112T225018-002-tgplan-del18.json",
+ "ref": "tgplan-del18",
+ "method": "deleteMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T22:50:36Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

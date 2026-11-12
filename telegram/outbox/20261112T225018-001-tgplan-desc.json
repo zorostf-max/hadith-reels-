@@ -1,8 +1,0 @@
-{
- "method": "setChatDescription",
- "params": {
-  "chat_id": "@HadithDailyAr",
-  "description": "حديث صحيح من صحيح البخاري بالترتيب مع شرحه، وسيرة نبوية وقصص للأطفال.\n🗓 إثنين/أربعاء/جمعة: حديث · ثلاثاء/خميس: السيرة · سبت/أحد: قصة\n▶️ youtube.com/@HadithDailyBukhari\n📸 instagram.com/hadithdaily.bukhari"
- },
- "ref": "tgplan-desc"
-}
