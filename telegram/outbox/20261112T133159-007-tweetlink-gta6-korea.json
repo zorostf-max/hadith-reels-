@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.dexerto.com/gta/gta-6-almost-banned-in-korea-after-government-officials-got-to-play-it-early-3427658/</code>"
- },
- "ref": "tweetlink-gta6-korea"
-}

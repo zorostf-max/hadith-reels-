@@ -1,0 +1,11 @@
+{
+ "job": "20261112T133159-005-tweetlink-humble-2fa.json",
+ "ref": "tweetlink-humble-2fa",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T13:32:20Z",
+ "message_id": 325,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

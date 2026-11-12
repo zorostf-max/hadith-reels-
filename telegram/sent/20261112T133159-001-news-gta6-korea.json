@@ -1,0 +1,11 @@
+{
+ "job": "20261112T133159-001-news-gta6-korea.json",
+ "ref": "news-gta6-korea",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T13:32:14Z",
+ "message_id": 161,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

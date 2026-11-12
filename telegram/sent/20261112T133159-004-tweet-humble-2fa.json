@@ -1,0 +1,11 @@
+{
+ "job": "20261112T133159-004-tweet-humble-2fa.json",
+ "ref": "tweet-humble-2fa",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T13:32:19Z",
+ "message_id": 324,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

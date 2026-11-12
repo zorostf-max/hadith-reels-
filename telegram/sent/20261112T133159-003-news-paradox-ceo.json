@@ -1,0 +1,11 @@
+{
+ "job": "20261112T133159-003-news-paradox-ceo.json",
+ "ref": "news-paradox-ceo",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T13:32:17Z",
+ "message_id": 163,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

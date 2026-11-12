@@ -1,0 +1,11 @@
+{
+ "job": "20261112T133159-007-tweetlink-gta6-korea.json",
+ "ref": "tweetlink-gta6-korea",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T13:32:23Z",
+ "message_id": 327,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

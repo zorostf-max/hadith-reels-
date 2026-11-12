@@ -1,0 +1,11 @@
+{
+ "job": "20261112T133159-010-tweet-paradox-ceo.json",
+ "ref": "tweet-paradox-ceo",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T13:32:28Z",
+ "message_id": 330,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

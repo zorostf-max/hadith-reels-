@@ -1,0 +1,11 @@
+{
+ "job": "20261112T133159-008-tweet-noctua-ntcp1.json",
+ "ref": "tweet-noctua-ntcp1",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T13:32:25Z",
+ "message_id": 328,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
