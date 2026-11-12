@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/qssUN2VdpiBrvmcfvqWGdK-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Palworld studio gives staff a \"business trip to Vice City\" for GTA 6 launch</b>\n\nPocketpair says all employees who plan to play GTA 6 get special leave from November 19 to 23, which includes a weekend. The studio says Palworld and Craftopia updates will still arrive on schedule. Logitech, Burger Motorsports and Edison Motors are also giving staff time off for the launch.\n\n🕒 Nov 13, 2026 · 01:08 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Palworld_EN\">@Palworld_EN</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🌴 React if your boss should do this too · 💬 Taking time off for GTA 6?\n\n#GTA6 #Palworld #Pocketpair #GamingNews"
+ },
+ "ref": "news-pocketpair-gta6-leave",
+ "fallback_text": "🎮 <b>Palworld studio gives staff a \"business trip to Vice City\" for GTA 6 launch</b>\n\nPocketpair says all employees who plan to play GTA 6 get special leave from November 19 to 23, which includes a weekend. The studio says Palworld and Craftopia updates will still arrive on schedule. Logitech, Burger Motorsports and Edison Motors are also giving staff time off for the launch.\n\n🕒 Nov 13, 2026 · 01:08 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Palworld_EN\">@Palworld_EN</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🌴 React if your boss should do this too · 💬 Taking time off for GTA 6?\n\n#GTA6 #Palworld #Pocketpair #GamingNews"
+}
