@@ -1,0 +1,11 @@
+{
+ "method": "editMessageText",
+ "params": {
+  "chat_id": "@HadithDailyAr",
+  "message_id": 4,
+  "text": "📌 <b>Hadith Daily | حديث اليوم</b>\n\nحديث صحيح من صحيح البخاري بالترتيب مع شرحه، وسيرة نبوية وقصص من البخاري تناسب الأطفال والكبار.\nOne authentic hadith from Sahih al-Bukhari, in order, with its explanation.\n\n🗓 <b>جدول النشر:</b>\n• الإثنين والأربعاء والجمعة: حديثان من صحيح البخاري\n• الثلاثاء والخميس: السيرة النبوية للأطفال\n• السبت والأحد: قصص من صحيح البخاري\n\nتابعنا على كل المنصات:\n▶️ <a href=\"https://www.youtube.com/@HadithDailyBukhari\">YouTube</a>\n📸 <a href=\"https://www.instagram.com/hadithdaily.bukhari/\">Instagram</a>\n🎵 <a href=\"https://www.tiktok.com/@hadithdaily.bukhari\">TikTok</a>\n\n📢 شارك القناة مع من تحب: t.me/HadithDailyAr\nفالدال على الخير كفاعله 🤍",
+  "parse_mode": "HTML",
+  "disable_web_page_preview": true
+ },
+ "ref": "tgplan-pin"
+}

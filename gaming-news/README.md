@@ -42,6 +42,10 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
    CALL TO ACTION (owner's request 2026-11-11) is one short English line asking for a reaction and a comment, tied to the story and varied every post, e.g. "🔥 React if you're hyped · 💬 Will you play it day one?", "👍 Like if you want this on PC · 💬 Tell us below", "💰 Worth it? React 👍 or 👎 and comment your take".
    The time is the item's `published_utc` converted to Istanbul time (GMT+3). Emoji by topic: 🎮 games · 🏆 esports · 🖥️ PC hardware · 🕹️ platforms · 💸 deals. Escape `&`, `<`, `>` in the text.
    The `--fallback-text` makes the bridge send the caption as a text message if Telegram refuses the photo. Never queue the same item twice.
+
+**Channel growth rules (owner's Telegram plan 2026-11-13):**
+- **Notifications only for big stories:** add `"disable_notification": true` to every channel `sendPhoto` job, EXCEPT the one story picked for X in this run (the "big" test below) — that one notifies. Five pings an hour make people mute or leave.
+- **Last line of every channel caption:** `🔔 <a href="https://t.me/LevelUpGames0">@LevelUpGames0</a>` so a forwarded post leads back to the channel. Keep the whole caption ≤ 1024 characters.
 6. **Always** (even when there is no news) queue one tick job — `python3 telegram/tg.py queue getMe '{}' --ref tick` — in the same push, so the bridge runs every hour and sends any timed jobs that are due (GitHub's own timer is unreliable).
    For each job that `wait` reports as ok, append its line to `posted.txt` (time in GMT+3, source, link). Then `git add gaming-news && git commit -m "news: N posts" && git push` (pull --rebase and retry once if the push is rejected).
 7. If a feed in `feed_errors` keeps failing, or the bot cannot post (e.g. it lost admin rights), queue one short `sendMessage` to the owner (`state.json` → `telegram_chat_id`) — at most once a day.

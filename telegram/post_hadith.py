@@ -16,6 +16,7 @@ import argparse, json, os, subprocess
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIMIT = 1024
+FOOTER = "📢 شارك القناة: t.me/HadithDailyAr\nفالدال على الخير كفاعله 🤍"
 
 
 def split_caption(text):
@@ -56,6 +57,12 @@ state = json.load(open(os.path.join(ROOT, "state.json")))
 chan = state.get("telegram_channel", "@HadithDailyAr")
 url = a.video_url or f"https://raw.githubusercontent.com/zorostf-max/hadith-reels-/main/videos/bukhari-{n}.mp4"
 cap = open(os.path.join(ROOT, "videos", f"bukhari-{n}.txt")).read()
+# Telegram channel version (owner's Telegram plan 2026-11-13): hashtags do
+# nothing on Telegram, so drop hashtag-only lines, and end with a share line
+# so forwarded posts lead back to the channel.
+cap = "\n".join(l for l in cap.splitlines()
+                if not (l.strip().startswith("#") and all(w.startswith("#") for w in l.split())))
+cap = cap.rstrip() + "\n\n" + FOOTER
 head, rest = split_caption(cap)
 jobs = [queue("sendVideo", {"chat_id": chan, "video": url, "caption": head,
                             "supports_streaming": True}, f"channel-bukhari-{n}", a.at)]
