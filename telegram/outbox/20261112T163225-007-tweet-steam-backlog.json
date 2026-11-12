@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/australia-did-it-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "<code>😤 AI slop is now delaying real indie games on Steam\nMore devs say Valve's growing approval backlog forced them to push back their launches.\nShould Valve crack down?\n#Steam #IndieDev</code>"
+ },
+ "ref": "tweet-steam-backlog",
+ "fallback_text": "<code>😤 AI slop is now delaying real indie games on Steam\nMore devs say Valve's growing approval backlog forced them to push back their launches.\nShould Valve crack down?\n#Steam #IndieDev</code>"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic01.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 A GTA 6 map may have leaked… at Selfridges\nAn apparent map spotted at a UK merch drop is now spreading online.\nPeek or stay spoiler-free?\n#GTA6</code>"
+ },
+ "ref": "tweet-gta6-map-leak",
+ "fallback_text": "<code>🚨 A GTA 6 map may have leaked… at Selfridges\nAn apparent map spotted at a UK merch drop is now spreading online.\nPeek or stay spoiler-free?\n#GTA6</code>"
+}

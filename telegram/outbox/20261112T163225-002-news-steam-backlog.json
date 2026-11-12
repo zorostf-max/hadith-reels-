@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/australia-did-it-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Steam's approval backlog is forcing more indie games to delay</b>\n\nMore indie developers say they've had to push back their release dates because Valve's queue for approving new games keeps growing. The backlog is a fairly new problem, believed to be driven by a flood of low-effort AI-made games on Steam.\n\n🕒 Nov 12, 2026 · 19:06 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays\">Eurogamer</a>\n\n😤 React if this annoys you · 💬 Should Valve crack down on AI slop?\n\n#Steam #IndieGames #GamingNews"
+ },
+ "ref": "news-steam-backlog",
+ "fallback_text": "🕹️ <b>Steam's approval backlog is forcing more indie games to delay</b>\n\nMore indie developers say they've had to push back their release dates because Valve's queue for approving new games keeps growing. The backlog is a fairly new problem, believed to be driven by a flood of low-effort AI-made games on Steam.\n\n🕒 Nov 12, 2026 · 19:06 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays\">Eurogamer</a>\n\n😤 React if this annoys you · 💬 Should Valve crack down on AI slop?\n\n#Steam #IndieGames #GamingNews"
+}

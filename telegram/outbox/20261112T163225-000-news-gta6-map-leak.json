@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic01.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Did the GTA 6 map just leak at a London store?</b>\n\nAn image that appears to show the GTA 6 map is spreading online after it was spotted at a GTA 6 merchandise drop at Selfridges in the UK. Nothing is confirmed yet, but fans are already picking it apart ahead of launch.\n\n🕒 Nov 12, 2026 · 18:40 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/\">VGC</a>\n\n🗺️ React if you'd peek at the map · 💬 Or are you staying spoiler-free?\n\n#GTA6 #Rockstar #GamingNews"
+ },
+ "ref": "news-gta6-map-leak",
+ "fallback_text": "🎮 <b>Did the GTA 6 map just leak at a London store?</b>\n\nAn image that appears to show the GTA 6 map is spreading online after it was spotted at a GTA 6 merchandise drop at Selfridges in the UK. Nothing is confirmed yet, but fans are already picking it apart ahead of launch.\n\n🕒 Nov 12, 2026 · 18:40 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/\">VGC</a>\n\n🗺️ React if you'd peek at the map · 💬 Or are you staying spoiler-free?\n\n#GTA6 #Rockstar #GamingNews"
+}

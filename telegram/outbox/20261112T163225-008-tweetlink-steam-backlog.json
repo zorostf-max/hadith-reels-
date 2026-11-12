@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays</code>"
+ },
+ "ref": "tweetlink-steam-backlog"
+}

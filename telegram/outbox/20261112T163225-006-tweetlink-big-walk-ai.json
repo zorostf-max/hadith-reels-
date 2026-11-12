@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.gamesradar.com/games/co-op/ex-gears-of-war-lead-says-big-walk-ai-critics-need-to-get-over-themselves-as-the-co-op-games-steam-reviews-bounce-back/</code>"
+ },
+ "ref": "tweetlink-big-walk-ai"
+}
