@@ -1,0 +1,11 @@
+{
+ "job": "20261112T143243-004-tweet-nvidia-huang.json",
+ "ref": "tweet-nvidia-huang",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T14:33:04Z",
+ "message_id": 332,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

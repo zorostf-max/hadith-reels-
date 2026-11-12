@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.hltv.org/news/45978/spirit-through-to-hong-kong-semis-as-blast-rivals-bracket-is-set</code>"
- },
- "ref": "tweetlink-spirit-blast-rivals"
-}

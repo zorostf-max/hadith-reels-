@@ -1,0 +1,11 @@
+{
+ "job": "20261112T143243-002-news-dark-souls-servers.json",
+ "ref": "news-dark-souls-servers",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T14:33:01Z",
+ "message_id": 166,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

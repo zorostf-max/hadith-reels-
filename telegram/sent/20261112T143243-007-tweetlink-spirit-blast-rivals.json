@@ -1,0 +1,11 @@
+{
+ "job": "20261112T143243-007-tweetlink-spirit-blast-rivals.json",
+ "ref": "tweetlink-spirit-blast-rivals",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T14:33:10Z",
+ "message_id": 335,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

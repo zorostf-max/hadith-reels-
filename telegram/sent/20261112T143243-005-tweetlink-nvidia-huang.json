@@ -1,0 +1,11 @@
+{
+ "job": "20261112T143243-005-tweetlink-nvidia-huang.json",
+ "ref": "tweetlink-nvidia-huang",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T14:33:06Z",
+ "message_id": 333,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

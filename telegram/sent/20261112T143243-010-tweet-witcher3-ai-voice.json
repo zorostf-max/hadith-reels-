@@ -1,0 +1,11 @@
+{
+ "job": "20261112T143243-010-tweet-witcher3-ai-voice.json",
+ "ref": "tweet-witcher3-ai-voice",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T14:33:15Z",
+ "message_id": 338,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
