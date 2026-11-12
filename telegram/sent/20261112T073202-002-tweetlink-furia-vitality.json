@@ -1,0 +1,11 @@
+{
+ "job": "20261112T073202-002-tweetlink-furia-vitality.json",
+ "ref": "tweetlink-furia-vitality",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T07:32:20Z",
+ "message_id": 311,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
