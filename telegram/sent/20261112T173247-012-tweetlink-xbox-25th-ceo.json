@@ -1,0 +1,11 @@
+{
+ "job": "20261112T173247-012-tweetlink-xbox-25th-ceo.json",
+ "ref": "tweetlink-xbox-25th-ceo",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T17:33:27Z",
+ "message_id": 361,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261112T173247-010-tweetlink-gdc-layoffs.json",
+ "ref": "tweetlink-gdc-layoffs",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T17:33:24Z",
+ "message_id": 359,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

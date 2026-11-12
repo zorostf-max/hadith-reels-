@@ -1,0 +1,11 @@
+{
+ "job": "20261112T173247-013-tweet-genshin-cheater-arrest.json",
+ "ref": "tweet-genshin-cheater-arrest",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T17:33:28Z",
+ "message_id": 362,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

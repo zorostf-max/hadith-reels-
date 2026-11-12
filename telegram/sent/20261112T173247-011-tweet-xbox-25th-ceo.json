@@ -1,0 +1,11 @@
+{
+ "job": "20261112T173247-011-tweet-xbox-25th-ceo.json",
+ "ref": "tweet-xbox-25th-ceo",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T17:33:25Z",
+ "message_id": 360,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

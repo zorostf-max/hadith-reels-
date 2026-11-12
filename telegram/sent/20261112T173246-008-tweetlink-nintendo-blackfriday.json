@@ -1,0 +1,11 @@
+{
+ "job": "20261112T173246-008-tweetlink-nintendo-blackfriday.json",
+ "ref": "tweetlink-nintendo-blackfriday",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T17:33:20Z",
+ "message_id": 357,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

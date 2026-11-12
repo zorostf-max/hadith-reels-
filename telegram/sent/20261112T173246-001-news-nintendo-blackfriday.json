@@ -1,0 +1,11 @@
+{
+ "job": "20261112T173246-001-news-nintendo-blackfriday.json",
+ "ref": "news-nintendo-blackfriday",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T17:33:10Z",
+ "message_id": 175,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
