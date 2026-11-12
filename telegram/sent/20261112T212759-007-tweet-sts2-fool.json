@@ -1,0 +1,11 @@
+{
+ "job": "20261112T212759-007-tweet-sts2-fool.json",
+ "ref": "tweet-sts2-fool",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T21:28:23Z",
+ "message_id": 397,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

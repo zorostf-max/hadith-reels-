@@ -1,0 +1,11 @@
+{
+ "job": "20261112T212759-004-tweetlink-gta-research.json",
+ "ref": "tweetlink-gta-research",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T21:28:18Z",
+ "message_id": 394,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

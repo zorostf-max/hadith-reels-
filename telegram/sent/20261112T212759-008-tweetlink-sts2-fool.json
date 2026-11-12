@@ -1,0 +1,11 @@
+{
+ "job": "20261112T212759-008-tweetlink-sts2-fool.json",
+ "ref": "tweetlink-sts2-fool",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T21:28:24Z",
+ "message_id": 398,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

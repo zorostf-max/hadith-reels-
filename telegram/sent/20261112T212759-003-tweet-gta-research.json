@@ -1,0 +1,11 @@
+{
+ "job": "20261112T212759-003-tweet-gta-research.json",
+ "ref": "tweet-gta-research",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T21:28:17Z",
+ "message_id": 393,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

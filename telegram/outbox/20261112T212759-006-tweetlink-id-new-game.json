@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/</code>"
- },
- "ref": "tweetlink-id-new-game"
-}
