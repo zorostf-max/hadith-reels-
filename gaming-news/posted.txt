@@ -246,3 +246,11 @@
 2026-11-12 17:33	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/nvidia-ceo-jensen-huang-resigns-effective-immediately-amid-cheating-scandal-as-company-begins-search-for-a-replacement/
 2026-11-12 17:33	VGC (same story)	https://www.videogameschronicle.com/news/nvidia-ceo-jensen-huang-resigns-following-multiple-cheating-scandals/
 2026-11-12 17:33	GameSpot (same story)	https://www.gamespot.com/articles/intergalactic-the-heretic-prophet-is-entering-its-final-stage-of-development-with-more-to-come-in-2027/
+2026-11-12 18:33	GamesRadar+	https://www.gamesradar.com/hardware/peripherals/elgato-corsair-and-twitch-team-up-with-a-bundle-to-help-you-stream-gta-6-console-gameplay-but-the-cheapest-option-costs-almost-as-much-as-a-ps5/
+2026-11-12 18:33	PC Gamer	https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/
+2026-11-12 18:33	GameSpot	https://www.gamespot.com/articles/mario-kart-world-switch-2-bundle-black-friday-deal-brings-the-price-back-to-2025-levels/
+2026-11-12 18:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/
+2026-11-12 18:33	Dexerto (same story)	https://www.dexerto.com/gaming/nvidia-ceo-jensen-huang-resigns-amid-spy-controversy-3427694/
+2026-11-12 18:33	Eurogamer (same story)	https://www.eurogamer.net/nvidia-ceo-jensen-huang-resigns
+2026-11-12 18:33	VGC (same story)	https://www.videogameschronicle.com/news/intergalactic-is-in-the-last-stage-of-production-where-its-playable-and-being-refined-neil-druckmann-says/
+2026-11-12 18:33	GameSpot (same story)	https://www.gamespot.com/articles/intergalactic-the-heretic-prophet-has-some-unexpected-anime-influences/
