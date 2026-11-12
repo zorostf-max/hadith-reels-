@@ -1,0 +1,11 @@
+{
+ "job": "20261112T222721-000-news-candycrush-xbox25.json",
+ "ref": "news-candycrush-xbox25",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T22:27:42Z",
+ "message_id": 195,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261112T222729-002-news-xbox-og-pc.json",
+ "ref": "news-xbox-og-pc",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T22:27:46Z",
+ "message_id": 197,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
