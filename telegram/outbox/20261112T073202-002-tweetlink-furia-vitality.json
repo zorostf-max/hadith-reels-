@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.hltv.org/news/45975/furia-hand-vitality-first-ever-13-0-defeat-to-make-rivals-semi-finals</code>"
+ },
+ "ref": "tweetlink-furia-vitality"
+}
