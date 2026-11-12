@@ -83,5 +83,15 @@
         3
       ]
     }
+  },
+  "stories": {
+    "days": [
+      "Sat",
+      "Sun"
+    ],
+    "slot": "14:00",
+    "next_story": 1,
+    "pending": null,
+    "published": {}
   }
 }
