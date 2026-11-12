@@ -238,3 +238,11 @@
 2026-11-12 16:32	Eurogamer (same story)	https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar
 2026-11-12 16:32	VGC (same story)	https://www.videogameschronicle.com/news/marvel-1943-rise-of-hydra-staff-were-reportedly-told-the-game-hasnt-been-cancelled-despite-online-rumour/
 2026-11-12 16:32	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/nvidia-firing-ceo-jensen-huang-would-be-an-apple-firing-steve-jobs-level-of-idiocy-epic-games-boss-tim-sweeney-says/
+2026-11-12 17:33	Tom's Hardware	https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo
+2026-11-12 17:33	HLTV	https://www.hltv.org/news/45978/spirit-through-to-hong-kong-semis-as-blast-rivals-bracket-is-set
+2026-11-12 17:33	Eurogamer	https://www.eurogamer.net/dark-souls-2-3-servers-back-online
+2026-11-12 17:33	Eurogamer	https://www.eurogamer.net/cd-projekt-red-geralt-gen-ai-voice-polish-jacek-rozenek
+2026-11-12 17:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/
+2026-11-12 17:33	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/nvidia-ceo-jensen-huang-resigns-effective-immediately-amid-cheating-scandal-as-company-begins-search-for-a-replacement/
+2026-11-12 17:33	VGC (same story)	https://www.videogameschronicle.com/news/nvidia-ceo-jensen-huang-resigns-following-multiple-cheating-scandals/
+2026-11-12 17:33	GameSpot (same story)	https://www.gamespot.com/articles/intergalactic-the-heretic-prophet-is-entering-its-final-stage-of-development-with-more-to-come-in-2027/
