@@ -1,0 +1,11 @@
+{
+ "job": "20261112T193254-008-tweetlink-disney-tga.json",
+ "ref": "tweetlink-disney-tga",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T19:33:24Z",
+ "message_id": 383,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

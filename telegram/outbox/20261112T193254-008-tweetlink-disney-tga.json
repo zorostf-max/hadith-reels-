@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.gamespot.com/articles/disney-teases-major-announcements-for-the-game-awards/</code>"
- },
- "ref": "tweetlink-disney-tga"
-}

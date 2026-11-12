@@ -1,0 +1,11 @@
+{
+ "job": "20261112T193254-001-news-xbox-playback.json",
+ "ref": "news-xbox-playback",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T19:33:12Z",
+ "message_id": 186,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

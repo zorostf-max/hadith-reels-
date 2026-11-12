@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.gamespot.com/articles/xbox-has-spent-25-years-tracking-your-gaming-habits-now-you-can-see-the-damage/</code>"
- },
- "ref": "tweetlink-xbox-playback"
-}

@@ -1,0 +1,11 @@
+{
+ "job": "20261112T193254-002-news-disney-tga.json",
+ "ref": "news-disney-tga",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T19:33:14Z",
+ "message_id": 187,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261112T193254-000-news-halo-firefight.json",
+ "ref": "news-halo-firefight",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T19:33:11Z",
+ "message_id": 185,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
