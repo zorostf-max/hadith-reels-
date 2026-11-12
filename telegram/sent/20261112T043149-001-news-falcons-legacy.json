@@ -1,0 +1,11 @@
+{
+ "job": "20261112T043149-001-news-falcons-legacy.json",
+ "ref": "news-falcons-legacy",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T04:32:01Z",
+ "message_id": 152,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

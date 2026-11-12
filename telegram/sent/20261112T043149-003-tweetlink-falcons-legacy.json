@@ -1,0 +1,11 @@
+{
+ "job": "20261112T043149-003-tweetlink-falcons-legacy.json",
+ "ref": "tweetlink-falcons-legacy",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T04:32:04Z",
+ "message_id": 309,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

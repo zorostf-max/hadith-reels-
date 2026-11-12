@@ -1,0 +1,11 @@
+{
+ "job": "20261112T043149-002-tweet-falcons-legacy.json",
+ "ref": "tweet-falcons-legacy",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T04:32:03Z",
+ "message_id": 308,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
