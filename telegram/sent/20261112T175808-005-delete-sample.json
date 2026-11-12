@@ -1,0 +1,11 @@
+{
+ "job": "20261112T175808-005-delete-sample.json",
+ "ref": "delete-sample",
+ "method": "deleteMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T17:58:31Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

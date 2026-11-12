@@ -1,0 +1,11 @@
+{
+ "job": "20261112T175808-000-retweet-354.json",
+ "ref": "retweet-354",
+ "method": "editMessageCaption",
+ "ok": true,
+ "sent_at": "2026-11-12T17:58:23Z",
+ "message_id": 354,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
