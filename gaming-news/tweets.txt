@@ -164,3 +164,6 @@
 2026-11-12 23:33	https://www.videogameschronicle.com/news/jeff-kaplan-says-there-was-constant-fighting-between-him-and-blizzard-years-before-he-left/
 2026-11-12 23:33	https://www.pcgamer.com/gaming-industry/paradox-interactive-is-getting-a-new-boss-as-fredrik-wester-steps-down-for-the-second-time/
 2026-11-12 23:33	https://www.gamespot.com/articles/games-will-have-a-physical-footprint-forever-take-two-boss-says-but-itll-be-very-small/
+2026-11-13 00:28	https://www.dexerto.com/gta/grand-theft-auto-is-being-used-to-make-real-roads-safer-and-potentially-save-lives-3427936/
+2026-11-13 00:28	https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/
+2026-11-13 00:28	https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/

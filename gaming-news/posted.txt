@@ -297,3 +297,7 @@
 2026-11-12 23:33	VGC	https://www.videogameschronicle.com/news/jeff-kaplan-says-there-was-constant-fighting-between-him-and-blizzard-years-before-he-left/
 2026-11-12 23:33	PC Gamer	https://www.pcgamer.com/gaming-industry/paradox-interactive-is-getting-a-new-boss-as-fredrik-wester-steps-down-for-the-second-time/
 2026-11-12 23:33	GameSpot	https://www.gamespot.com/articles/games-will-have-a-physical-footprint-forever-take-two-boss-says-but-itll-be-very-small/
+2026-11-13 00:28	Dexerto	https://www.dexerto.com/gta/grand-theft-auto-is-being-used-to-make-real-roads-safer-and-potentially-save-lives-3427936/
+2026-11-13 00:28	PC Gamer	https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/
+2026-11-13 00:28	GameSpot (same story)	https://www.gamespot.com/articles/new-doom-game-seemingly-announced-in-the-weirdest-way-after-half-the-studio-was-laid-off/
+2026-11-13 00:28	GamesRadar+	https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/
