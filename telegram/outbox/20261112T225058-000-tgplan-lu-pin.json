@@ -1,0 +1,9 @@
+{
+ "method": "pinChatMessage",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "message_id": 200,
+  "disable_notification": true
+ },
+ "ref": "tgplan-lu-pin"
+}
