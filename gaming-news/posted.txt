@@ -257,3 +257,15 @@
 2026-11-12 19:33	VGC	https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/
 2026-11-12 19:33	GamesRadar+	https://www.gamesradar.com/games/co-op/ex-gears-of-war-lead-says-big-walk-ai-critics-need-to-get-over-themselves-as-the-co-op-games-steam-reviews-bounce-back/
 2026-11-12 19:33	Eurogamer	https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays
+2026-11-12 20:33	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/gta-6-was-almost-refused-classification-in-south-korea-due-to-the-sheer-amount-of-genitals-shown/
+2026-11-12 20:33	GamesRadar+	https://www.gamesradar.com/hardware/nintendo-announces-its-2026-black-friday-offers-with-a-free-game-and-usd20-discounts/
+2026-11-12 20:33	VGC (same story)	https://www.videogameschronicle.com/news/nintendos-black-friday-deals-include-switch-2-and-mario-kart-world-bundle/
+2026-11-12 20:33	VGC	https://www.videogameschronicle.com/news/one-in-three-games-industry-professionals-surveyed-by-gdc-were-laid-off-in-the-past-two-years-more-than-in-its-last-report/
+2026-11-12 20:33	GameSpot	https://www.gamespot.com/articles/xbox-ceos-25th-anniversary-message-is-about-ai-even-if-she-wont-say-it/
+2026-11-12 20:33	Dexerto	https://www.dexerto.com/genshin-impact/genshin-impact-cheater-offering-paid-carry-services-reportedly-arrested-while-meeting-with-customers-3427749/
+2026-11-12 20:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/graphics-cards/how-nvidia-got-into-this-mess-timeline-of-jensen-huang-scandal-and-geopolitics-leading-up-to-it/
+2026-11-12 20:33	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators
+2026-11-12 20:33	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/president-trump-says-apples-tim-cook-is-the-only-man-to-replace-jensen-huang-as-nvidia-ceo-proposes-a-legend-replaces-a-legend-in-call-for-apples-executive-chairman-of-its-board
+2026-11-12 20:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/
+2026-11-12 20:33	GameSpot (same story)	https://www.gamespot.com/articles/the-internet-reacts-to-jensen-huang-resignation-from-nvidia/
+2026-11-12 20:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/who-is-colette-kress-nvidias-new-interim-ceo/
