@@ -254,3 +254,6 @@
 2026-11-12 18:33	Eurogamer (same story)	https://www.eurogamer.net/nvidia-ceo-jensen-huang-resigns
 2026-11-12 18:33	VGC (same story)	https://www.videogameschronicle.com/news/intergalactic-is-in-the-last-stage-of-production-where-its-playable-and-being-refined-neil-druckmann-says/
 2026-11-12 18:33	GameSpot (same story)	https://www.gamespot.com/articles/intergalactic-the-heretic-prophet-has-some-unexpected-anime-influences/
+2026-11-12 19:33	VGC	https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/
+2026-11-12 19:33	GamesRadar+	https://www.gamesradar.com/games/co-op/ex-gears-of-war-lead-says-big-walk-ai-critics-need-to-get-over-themselves-as-the-co-op-games-steam-reviews-bounce-back/
+2026-11-12 19:33	Eurogamer	https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays
