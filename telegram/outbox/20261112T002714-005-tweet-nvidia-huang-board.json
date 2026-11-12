@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/e4nHqRWu6AkHKhFz9QVnLZ-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 Nvidia's board is reportedly preparing to oust Jensen Huang\nHis 33-year run as CEO is in doubt after a second alleged affair surfaced, with the stock down about 20% since the scandals began.\n#Nvidia</code>"
+ },
+ "ref": "tweet-nvidia-huang-board",
+ "fallback_text": "<code>🚨 Nvidia's board is reportedly preparing to oust Jensen Huang\nHis 33-year run as CEO is in doubt after a second alleged affair surfaced, with the stock down about 20% since the scandals began.\n#Nvidia</code>"
+}
