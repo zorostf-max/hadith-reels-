@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/Pokemon-Shiny-Xerneas.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Free shiny Xerneas and Yveltal in Pokémon Legends: Z-A</b>\n\nPokémon Legends: Z-A players can now pick up two free shiny legendaries. The latest Mystery Gift hands out shiny forms of Xerneas and Yveltal.\n\n🕒 Nov 12, 2026 · 21:01 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/pokemon-legends-z-a-players-can-claim-2-free-shiny-legendaries/\">VGC</a>\n👥 <a href=\"https://x.com/Pokemon\">@Pokemon</a> · <a href=\"https://x.com/NintendoAmerica\">@NintendoAmerica</a>\n\n✨ React if you're claiming them now · 💬 Xerneas or Yveltal?\n\n#PokemonLegendsZA #Pokemon #Nintendo #GamingNews"
+ },
+ "ref": "news-pokemon-za-shiny-xerneas-yveltal",
+ "fallback_text": "🕹️ <b>Free shiny Xerneas and Yveltal in Pokémon Legends: Z-A</b>\n\nPokémon Legends: Z-A players can now pick up two free shiny legendaries. The latest Mystery Gift hands out shiny forms of Xerneas and Yveltal.\n\n🕒 Nov 12, 2026 · 21:01 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/pokemon-legends-z-a-players-can-claim-2-free-shiny-legendaries/\">VGC</a>\n👥 <a href=\"https://x.com/Pokemon\">@Pokemon</a> · <a href=\"https://x.com/NintendoAmerica\">@NintendoAmerica</a>\n\n✨ React if you're claiming them now · 💬 Xerneas or Yveltal?\n\n#PokemonLegendsZA #Pokemon #Nintendo #GamingNews"
+}

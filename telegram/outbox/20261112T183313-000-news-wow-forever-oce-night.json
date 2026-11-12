@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/WoW_Camelot_Announce_Zones_Riverglades_040.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>WoW: Forever has a night problem in Oceania</b>\n\nWorld of Warcraft: Forever is off to a strong start, but players in Australia, New Zealand and the rest of Oceania are stuck in what feels like perpetual in-game night, rarely seeing the sun. The developers say they are considering a fix.\n\n🕒 Nov 12, 2026 · 19:30 (GMT+3)\n📰 Sources: <a href=\"https://www.eurogamer.net/world-of-warcraft-forever-oceania-sunlight\">Eurogamer</a> · <a href=\"https://www.pcgamer.com/games/world-of-warcraft/oce-players-are-stuck-in-perpetual-night-on-wow-forever-but-its-devs-are-considering-a-fix/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a>\n\n🌙 React if you play at night anyway · 💬 Should Blizzard change the cycle for OCE?\n\n#WoWForever #WorldOfWarcraft #Blizzard #GamingNews"
+ },
+ "ref": "news-wow-forever-oce-night",
+ "fallback_text": "🎮 <b>WoW: Forever has a night problem in Oceania</b>\n\nWorld of Warcraft: Forever is off to a strong start, but players in Australia, New Zealand and the rest of Oceania are stuck in what feels like perpetual in-game night, rarely seeing the sun. The developers say they are considering a fix.\n\n🕒 Nov 12, 2026 · 19:30 (GMT+3)\n📰 Sources: <a href=\"https://www.eurogamer.net/world-of-warcraft-forever-oceania-sunlight\">Eurogamer</a> · <a href=\"https://www.pcgamer.com/games/world-of-warcraft/oce-players-are-stuck-in-perpetual-night-on-wow-forever-but-its-devs-are-considering-a-fix/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a>\n\n🌙 React if you play at night anyway · 💬 Should Blizzard change the cycle for OCE?\n\n#WoWForever #WorldOfWarcraft #Blizzard #GamingNews"
+}

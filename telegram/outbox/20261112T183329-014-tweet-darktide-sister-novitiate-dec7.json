@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/cvmrgLjkh6gyJZdQQeodfS-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>⚔️ Darktide's Sisters of Battle class arrives December 7\nTechnically a Sister Novitiate, but the Sororitas are finally joining the fight.\nvia @pcgamer\n#Darktide #Warhammer40k #GamingNews</code>"
+ },
+ "ref": "tweet-darktide-sister-novitiate-dec7",
+ "fallback_text": "<code>⚔️ Darktide's Sisters of Battle class arrives December 7\nTechnically a Sister Novitiate, but the Sororitas are finally joining the fight.\nvia @pcgamer\n#Darktide #Warhammer40k #GamingNews</code>"
+}

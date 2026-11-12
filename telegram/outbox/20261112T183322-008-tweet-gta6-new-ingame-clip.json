@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/10/gta-6-pre-load-art-1794330386826.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🔥 Rockstar just dropped ANOTHER GTA 6 in-game clip\nAnd fans can't believe the graphics are real.\nBest-looking open world ever?\nvia @IGN · @RockstarGames\n#GTA6 #GamingNews</code>"
+ },
+ "ref": "tweet-gta6-new-ingame-clip",
+ "fallback_text": "<code>🔥 Rockstar just dropped ANOTHER GTA 6 in-game clip\nAnd fans can't believe the graphics are real.\nBest-looking open world ever?\nvia @IGN · @RockstarGames\n#GTA6 #GamingNews</code>"
+}

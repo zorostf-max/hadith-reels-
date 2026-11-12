@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.gamesradar.com/games/survival/palworld-devs-get-5-days-off-to-play-gta-6-and-after-pocketpairs-ceo-vanished-to-play-slay-the-spire-2-id-say-thats-probably-wise/</code>"
+ },
+ "ref": "tweetlink-palworld-devs-gta6-days-off"
+}

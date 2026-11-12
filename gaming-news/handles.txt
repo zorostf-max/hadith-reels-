@@ -45,3 +45,6 @@ VGC	VGC_News
 GamesRadar+	gamesradar
 Dexerto	Dexerto
 Tom's Hardware	tomshardware
+Pokémon	Pokemon
+World of Warcraft	Warcraft
+Palworld	Palworld_EN

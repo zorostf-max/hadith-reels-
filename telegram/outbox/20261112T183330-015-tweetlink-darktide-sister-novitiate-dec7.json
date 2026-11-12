@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.pcgamer.com/games/fps/darktides-getting-a-sisters-of-battle-class-on-december-7/</code>"
+ },
+ "ref": "tweetlink-darktide-sister-novitiate-dec7"
+}

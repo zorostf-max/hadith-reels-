@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.gamesradar.com/games/the-legend-of-zelda/the-legend-of-zelda-ocarina-of-time-remake-is-selling-way-more-physical-copies-than-digital-in-japan/</code>"
+ },
+ "ref": "tweetlink-zelda-oot-remake-japan-physical"
+}
