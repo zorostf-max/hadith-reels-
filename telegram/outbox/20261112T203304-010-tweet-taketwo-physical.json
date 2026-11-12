@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>💿 Physical games are here forever, says Take-Two's boss — just \"very small\", like vinyl.\nIt comes as Sony plans to drop PlayStation discs in 2028.\nDisc or digital?\nvia @GameSpot @PlayStation @RockstarGames\n#GTA6 #GamingNews</code>"
+ },
+ "ref": "tweet-taketwo-physical",
+ "fallback_text": "<code>💿 Physical games are here forever, says Take-Two's boss — just \"very small\", like vinyl.\nIt comes as Sony plans to drop PlayStation discs in 2028.\nDisc or digital?\nvia @GameSpot @PlayStation @RockstarGames\n#GTA6 #GamingNews</code>"
+}

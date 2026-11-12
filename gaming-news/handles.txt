@@ -36,6 +36,7 @@ ESL Counter-Strike	ESLCS
 Twitch	Twitch
 Elgato	elgato
 CORSAIR	CORSAIR
+Blizzard Entertainment	Blizzard_Ent
 # News sources (for "via @Source" in tweets)
 GameSpot	GameSpot
 IGN	IGN

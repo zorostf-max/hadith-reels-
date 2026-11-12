@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/cDgAxkrVVPG3amZjs53R5N-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Paradox Interactive changes CEO again as Fredrik Wester steps down</b>\n\nFredrik Wester is leaving the CEO job at Paradox Interactive, the publisher behind Stellaris, Crusader Kings and Cities: Skylines, for the second time. Deputy CEO Mattias Lilja will take over in January.\n\n🕒 Nov 12, 2026 · 22:52 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/paradox-interactive-is-getting-a-new-boss-as-fredrik-wester-steps-down-for-the-second-time/\">PC Gamer</a>\n\n👍 Good move or bad sign? React and comment below 💬\n\n#Paradox #ParadoxInteractive #PCGaming #GamingNews"
+ },
+ "ref": "news-paradox-ceo",
+ "fallback_text": "🎮 <b>Paradox Interactive changes CEO again as Fredrik Wester steps down</b>\n\nFredrik Wester is leaving the CEO job at Paradox Interactive, the publisher behind Stellaris, Crusader Kings and Cities: Skylines, for the second time. Deputy CEO Mattias Lilja will take over in January.\n\n🕒 Nov 12, 2026 · 22:52 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/paradox-interactive-is-getting-a-new-boss-as-fredrik-wester-steps-down-for-the-second-time/\">PC Gamer</a>\n\n👍 Good move or bad sign? React and comment below 💬\n\n#Paradox #ParadoxInteractive #PCGaming #GamingNews"
+}

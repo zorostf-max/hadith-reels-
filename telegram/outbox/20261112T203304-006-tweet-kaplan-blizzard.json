@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/Jeff-Kaplan.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 Overwatch's ex-director Jeff Kaplan says he was in \"constant fighting\" with Blizzard for years before quitting.\nExec interference and paywalled heroes were among his reasons.\nvia @VGC_News @Blizzard_Ent\n#Overwatch #Blizzard #GamingNews</code>"
+ },
+ "ref": "tweet-kaplan-blizzard",
+ "fallback_text": "<code>🚨 Overwatch's ex-director Jeff Kaplan says he was in \"constant fighting\" with Blizzard for years before quitting.\nExec interference and paywalled heroes were among his reasons.\nvia @VGC_News @Blizzard_Ent\n#Overwatch #Blizzard #GamingNews</code>"
+}

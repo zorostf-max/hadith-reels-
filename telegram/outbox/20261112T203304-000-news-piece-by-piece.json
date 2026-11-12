@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/PieceByPiece.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Two different games called Piece by Piece hit Switch on the same day</b>\n\nTwo unrelated indie games, both named Piece by Piece, launch on Nintendo Switch on November 25. One is a cozy animal sim from publisher No More Robots; the other is a puzzle-platformer from Neon Polygons. They first launched on Steam just two days apart in March, and instead of a name fight, the teams turned it into a friendly joint release.\n\n🕒 Nov 12, 2026 · 22:17 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/this-happy-ending-for-two-games-with-identical-names-was-a-headache-for-nintendo/\">GameSpot</a>\n👥 <a href=\"https://x.com/NintendoAmerica\">@NintendoAmerica</a>\n\n🧩 Which one are you grabbing? React 👍 and tell us in the comments\n\n#PieceByPiece #NintendoSwitch #IndieGames #GamingNews"
+ },
+ "ref": "news-piece-by-piece",
+ "fallback_text": "🎮 <b>Two different games called Piece by Piece hit Switch on the same day</b>\n\nTwo unrelated indie games, both named Piece by Piece, launch on Nintendo Switch on November 25. One is a cozy animal sim from publisher No More Robots; the other is a puzzle-platformer from Neon Polygons. They first launched on Steam just two days apart in March, and instead of a name fight, the teams turned it into a friendly joint release.\n\n🕒 Nov 12, 2026 · 22:17 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/this-happy-ending-for-two-games-with-identical-names-was-a-headache-for-nintendo/\">GameSpot</a>\n👥 <a href=\"https://x.com/NintendoAmerica\">@NintendoAmerica</a>\n\n🧩 Which one are you grabbing? React 👍 and tell us in the comments\n\n#PieceByPiece #NintendoSwitch #IndieGames #GamingNews"
+}

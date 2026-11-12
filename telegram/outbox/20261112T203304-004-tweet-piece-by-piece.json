@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/PieceByPiece.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🧩 Two different games. Same name. Same Switch launch day: Nov 25.\nPiece by Piece the cozy sim and Piece by Piece the puzzle-platformer turned a name clash into a team-up.\nWhich one are you playing?\nvia @GameSpot @NintendoAmerica\n#NintendoSwitch #IndieGames</code>"
+ },
+ "ref": "tweet-piece-by-piece",
+ "fallback_text": "<code>🧩 Two different games. Same name. Same Switch launch day: Nov 25.\nPiece by Piece the cozy sim and Piece by Piece the puzzle-platformer turned a name clash into a team-up.\nWhich one are you playing?\nvia @GameSpot @NintendoAmerica\n#NintendoSwitch #IndieGames</code>"
+}

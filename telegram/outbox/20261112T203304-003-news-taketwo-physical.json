@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Take-Two boss: physical games will never fully vanish, but will be tiny</b>\n\nTake-Two CEO Strauss Zelnick told The Game Business there will \"always be some physical business\" in games, but only as a very small part of the market. He compared it to vinyl in music, as streaming dominates. The comments land as Sony plans to end PlayStation discs in 2028.\n\n🕒 Nov 12, 2026 · 23:12 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/games-will-have-a-physical-footprint-forever-take-two-boss-says-but-itll-be-very-small/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/PlayStation\">@PlayStation</a>\n\n💿 Team disc or team digital? React and tell us why 💬\n\n#TakeTwo #GTA6 #PhysicalGames #GamingNews"
+ },
+ "ref": "news-taketwo-physical",
+ "fallback_text": "🕹️ <b>Take-Two boss: physical games will never fully vanish, but will be tiny</b>\n\nTake-Two CEO Strauss Zelnick told The Game Business there will \"always be some physical business\" in games, but only as a very small part of the market. He compared it to vinyl in music, as streaming dominates. The comments land as Sony plans to end PlayStation discs in 2028.\n\n🕒 Nov 12, 2026 · 23:12 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/games-will-have-a-physical-footprint-forever-take-two-boss-says-but-itll-be-very-small/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/PlayStation\">@PlayStation</a>\n\n💿 Team disc or team digital? React and tell us why 💬\n\n#TakeTwo #GTA6 #PhysicalGames #GamingNews"
+}
