@@ -1,0 +1,11 @@
+{
+ "job": "20261112T123222-002-news-gta6-paid-job.json",
+ "ref": "news-gta6-paid-job",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T12:32:43Z",
+ "message_id": 159,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

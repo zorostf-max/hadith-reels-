@@ -1,0 +1,11 @@
+{
+ "job": "20261112T123223-004-tweetlink-gta-outside-us.json",
+ "ref": "tweetlink-gta-outside-us",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T12:32:46Z",
+ "message_id": 319,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

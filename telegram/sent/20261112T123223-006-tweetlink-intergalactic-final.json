@@ -1,0 +1,11 @@
+{
+ "job": "20261112T123223-006-tweetlink-intergalactic-final.json",
+ "ref": "tweetlink-intergalactic-final",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T12:32:49Z",
+ "message_id": 321,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

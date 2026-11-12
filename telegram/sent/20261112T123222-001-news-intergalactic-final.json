@@ -1,0 +1,11 @@
+{
+ "job": "20261112T123222-001-news-intergalactic-final.json",
+ "ref": "news-intergalactic-final",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T12:32:41Z",
+ "message_id": 158,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

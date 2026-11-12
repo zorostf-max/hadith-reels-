@@ -1,0 +1,11 @@
+{
+ "job": "20261112T123223-003-tweet-gta-outside-us.json",
+ "ref": "tweet-gta-outside-us",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T12:32:44Z",
+ "message_id": 318,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

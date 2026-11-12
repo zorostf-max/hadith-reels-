@@ -1,0 +1,11 @@
+{
+ "job": "20261112T123222-000-news-gta-outside-us.json",
+ "ref": "news-gta-outside-us",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T12:32:39Z",
+ "message_id": 157,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

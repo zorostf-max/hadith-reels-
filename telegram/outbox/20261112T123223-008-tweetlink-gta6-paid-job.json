@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.dexerto.com/gta/this-company-wants-to-pay-you-over-100000-to-play-gta-6-3427629/</code>"
- },
- "ref": "tweetlink-gta6-paid-job"
-}
