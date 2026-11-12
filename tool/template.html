@@ -198,7 +198,7 @@ const T={}; let cur=0; const order=[];
 function addScene(id,html,dur){if(D.durations&&D.durations[id])dur=Math.max(dur*0.5,D.durations[id]);const d=document.createElement('div');d.className='scene';d.id=id;d.innerHTML=html;scenesEl.appendChild(d);T[id]=[cur,cur+dur];cur+=dur;order.push(id);return d;}
 const wc=s=>s.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length;
 if(D.hook)addScene('hook',`<div class="big st" data-a="0.15" data-zoom="1" style="font-size:76px;line-height:1.5">${D.hook}</div>`,3.4);
-addScene('intro',`<div class="small st" data-a="0.6">بسم الله الرحمن الرحيم</div><div class="rule"></div><div class="big st" data-a="1.5" data-zoom="1">${D.title}</div><div class="mid st" data-a="2.5" style="margin-top:26px;color:#f6e2a8">${D.subtitle||'من صحيح الإمام البخاري'}</div>`,5.2);
+addScene('intro',`<div class="small st" data-a="0.2">بسم الله الرحمن الرحيم</div><div class="rule"></div><div class="big st" data-a="0.6" data-zoom="1">${D.title}</div><div class="mid st" data-a="1.2" style="margin-top:26px;color:#f6e2a8">${D.subtitle||'من صحيح الإمام البخاري'}</div>`,D.hook?2.6:5.2);
 const isn=D.isnad.map((b,i)=>`<div class="mid st" data-a="${0.3+i*2.2}">${b}</div>`).join('<div class="rule"></div>');
 addScene('isnad',isn,Math.max(5.5,3+D.isnad.length*2.4));
 const wordSets=[];
@@ -257,10 +257,13 @@ window.render=function(t){
     p.c.setAttribute('opacity',(THEME.parts*(0.15+0.55*Math.sin((y/1900)*Math.PI))).toFixed(3));});
   document.getElementById('hdr').style.opacity=(ramp(t,3,4)*(1-ramp(t,DUR-1.5,DUR-0.5))).toFixed(3);
   document.getElementById('ftr').style.opacity=(0.85*ramp(t,2,3.5)*(1-ramp(t,T.outro[0]-0.5,T.outro[0]+0.2))).toFixed(3);
-  for(const id in T){const s=document.getElementById(id);const env=sceneEnv(t,T[id]);const k=ramp(t,T[id][0],T[id][0]+0.9);
+  for(const id in T){const s=document.getElementById(id);const first=T[id][0]===0;
+    // the opening scene (the hook) is fully visible from frame 0: no fade-in, blur or slide, so the cover and the first second show the question
+    const env=first?(1-ramp(t,T[id][1]-0.6,T[id][1])):sceneEnv(t,T[id]);const k=first?1:ramp(t,T[id][0],T[id][0]+0.9);
     s.style.opacity=env.toFixed(3);s.style.transform=`translateY(${((1-k)*40).toFixed(1)}px) scale(${(0.97+0.03*k).toFixed(4)})`;
     s.style.filter=`blur(${((1-k)*6).toFixed(2)}px)`;}
-  staged.forEach(({e,sc,a,zoom})=>{const t0=T[sc][0]+a;e.style.opacity=ramp(t,t0,t0+0.9);if(zoom)e.style.transform=`scale(${0.85+0.15*ramp(t,t0,t0+1.1)})`;});
+  staged.forEach(({e,sc,a,zoom})=>{if(T[sc][0]===0){e.style.opacity=1;if(zoom)e.style.transform=`scale(${1+0.04*ramp(t,0,T[sc][1])})`;return;}
+    const t0=T[sc][0]+a;e.style.opacity=ramp(t,t0,t0+0.9);if(zoom)e.style.transform=`scale(${0.85+0.15*ramp(t,t0,t0+1.1)})`;});
   wordSets.forEach(({id,spans,per})=>{const w0=T[id][0]+0.6;spans.forEach((w,i)=>{const a=w0+i*per;const k=ramp(t,a,a+0.5);
     w.style.opacity=k.toFixed(3);w.style.transform=`translateY(${((1-k)*24).toFixed(1)}px)`;
     w.style.textShadow=k>0?`0 0 ${(18*(1-ramp(t,a+0.3,a+1.4))+6).toFixed(1)}px rgba(255,220,140,${(0.9*(1-ramp(t,a+0.4,a+1.6))+0.15).toFixed(2)})`:'none';});});

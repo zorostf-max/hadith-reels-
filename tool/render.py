@@ -1,4 +1,4 @@
-"""Render a hadith reel from a data JSON file.
+"""Render a hadith reel from a data JSON file (also writes <output>.cover.jpg, the thumbnail with the hook question).
 
 Usage:  python3 render.py path/to/data.json path/to/output.mp4 [--theme morning|noon|night] [--check]
 Background follows the publishing time: "theme" in the data file (morning = 08:00, noon = 13:00,
@@ -65,6 +65,19 @@ async def stills(work, times, outdir):
         await b.close()
 
 
+async def cover_still(work, t, out):
+    async with async_playwright() as p:
+        kw = {"args": ["--no-sandbox"]}
+        if CHROME:
+            kw["executable_path"] = CHROME
+        b = await p.chromium.launch(**kw)
+        pg = await b.new_page(viewport={"width": 1080, "height": 1920})
+        await pg.goto("file://" + os.path.join(work, "index.html"))
+        await pg.evaluate(f"render({t})")
+        await pg.screenshot(path=out, type="jpeg", quality=90)
+        await b.close()
+
+
 def main():
     data_path, out_path = sys.argv[1], os.path.abspath(sys.argv[2])
     check_only = "--check" in sys.argv
@@ -86,7 +99,8 @@ def main():
         d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
                                  capture_output=True, text=True, check=True).stdout.strip())
         clips[sid] = (p, d)
-        need = round(d + 0.35 + 0.6, 2)
+        lead = 0.05 if sid == "hook" else 0.35
+        need = round(d + lead + 0.6, 2)
         data.setdefault("durations", {})
         data["durations"][sid] = max(data["durations"].get(sid, 0), need)
     with open(os.path.join(work, "data.js"), "w", encoding="utf-8") as f:
@@ -97,6 +111,10 @@ def main():
         print("stills written to", outdir)
         return
     dur, timeline = asyncio.run(duration(work))
+    # Cover image for the reel (the hook question on the full background), used as the Instagram/YouTube thumbnail
+    cover = os.path.splitext(out_path)[0] + ".cover.jpg"
+    asyncio.run(cover_still(work, max(0.5, min(4.0, timeline[next(iter(timeline))][1] - 0.8)), cover))
+    print("cover:", cover)
     with open(os.path.splitext(out_path)[0] + ".timeline.json", "w") as f:
         json.dump({"duration": dur, "scenes": timeline}, f, ensure_ascii=False, indent=1)
     n = 4
@@ -120,7 +138,7 @@ def main():
         audio_in, parts_f = [], []
         for k, (sid, (p, d)) in enumerate(clips.items()):
             audio_in += ["-i", p]
-            ms = int((timeline[sid][0] + 0.35) * 1000)
+            ms = int((timeline[sid][0] + (0.05 if sid == "hook" else 0.35)) * 1000)
             parts_f.append(f"[{k + 1}:a]aresample=44100,aformat=channel_layouts=stereo,adelay={ms}|{ms}[a{k}]")
         mix = "".join(f"[a{k}]" for k in range(len(clips)))
         fc = ";".join(parts_f) + f";{mix}amix=inputs={len(clips)}:normalize=0,apad=whole_dur={dur:.2f}[aout]"
