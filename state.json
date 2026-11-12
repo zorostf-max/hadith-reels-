@@ -51,12 +51,19 @@
   ],
   "seerah": {
     "ep01": {
-      "publish_at": "2026-11-13T08:00:00+03:00",
-      "metricool_post_id": 424036935,
+      "publish_at": "2026-11-12T10:00:00+03:00",
+      "metricool_post_id": 425281380,
       "telegram_job": "20261111T055221-000-seerah-ep01.json",
-      "approved": "2026-11-11"
+      "approved": "2026-11-11",
+      "metricool_uuid": "-1903460450320038547"
     },
     "next_episode": 2,
-    "next_slot": "2026-11-17 (Tue) 08:00"
+    "next_topic": "مولد النبي ﷺ (ختام الحلقة ١ يمهّد له: «مَن هو؟!»)",
+    "days": [
+      "Tue",
+      "Thu"
+    ],
+    "slot": "10:00",
+    "pending": null
   }
 }
