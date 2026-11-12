@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/starwars.png",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 Disney promises \"major announcements\" at The Game Awards\nThe show streams on Disney+ this year (plus YouTube &amp; Twitch), with surprises from Disney's biggest upcoming games.\nvia @GameSpot\n#TheGameAwards #Disney #GamingNews</code>"
+ },
+ "ref": "tweet-disney-tga",
+ "fallback_text": "<code>🚨 Disney promises \"major announcements\" at The Game Awards\nThe show streams on Disney+ this year (plus YouTube &amp; Twitch), with surprises from Disney's biggest upcoming games.\nvia @GameSpot\n#TheGameAwards #Disney #GamingNews</code>"
+}

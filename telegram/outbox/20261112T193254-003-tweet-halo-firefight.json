@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/12/halo-1794505816407.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 Halo: Campaign Evolved is getting Firefight — for free\nThe 4-player PvE mode lands in a free update this winter, after the July remake shipped with no multiplayer.\nSquad up or solo?\nvia @IGN @VGC_News @Xbox\n#Halo #GamingNews</code>"
+ },
+ "ref": "tweet-halo-firefight",
+ "fallback_text": "<code>🎮 Halo: Campaign Evolved is getting Firefight — for free\nThe 4-player PvE mode lands in a free update this winter, after the July remake shipped with no multiplayer.\nSquad up or solo?\nvia @IGN @VGC_News @Xbox\n#Halo #GamingNews</code>"
+}
