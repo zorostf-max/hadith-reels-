@@ -1,0 +1,11 @@
+{
+ "job": "20261112T153243-006-tweetlink-marvel-rivals-mods.json",
+ "ref": "tweetlink-marvel-rivals-mods",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T15:33:12Z",
+ "message_id": 343,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

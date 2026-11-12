@@ -1,0 +1,11 @@
+{
+ "job": "20261112T153243-001-news-marvel-rivals-mods.json",
+ "ref": "news-marvel-rivals-mods",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T15:33:04Z",
+ "message_id": 169,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

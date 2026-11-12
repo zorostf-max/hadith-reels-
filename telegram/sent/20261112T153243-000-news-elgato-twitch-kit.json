@@ -1,0 +1,11 @@
+{
+ "job": "20261112T153243-000-news-elgato-twitch-kit.json",
+ "ref": "news-elgato-twitch-kit",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T15:33:02Z",
+ "message_id": 168,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

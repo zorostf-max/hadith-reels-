@@ -1,0 +1,11 @@
+{
+ "job": "20261112T153243-008-tweetlink-switch2-mkw-bundle-bf.json",
+ "ref": "tweetlink-switch2-mkw-bundle-bf",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T15:33:16Z",
+ "message_id": 345,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
