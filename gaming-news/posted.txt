@@ -231,17 +231,10 @@
 2026-11-12 15:33	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/nvidia-reportedly-considers-ousting-ceo-jensen-huang-after-33-years-as-reports-of-a-second-affair-surface/
 2026-11-12 15:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/nvidia-stock-price-plunges-amid-second-jensen-huang-affair-allegation-the-ai-company-could-be-set-to-lose-hundreds-of-billions-in-value/
 2026-11-12 15:33	PC Gamer (same story)	https://www.pcgamer.com/hardware/if-jensen-huang-goes-who-could-replace-him-heres-who-the-board-might-pick-if-the-nvidia-ceo-is-ousted-in-the-wake-of-affair-scandals/
-2026-11-12	PC Gamer	https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/
-16:32	Dexerto	https://www.dexerto.com/gta/gta-6-almost-banned-in-korea-after-government-officials-got-to-play-it-early-3427658/
-2026-11-12	Tom's Hardware	https://www.tomshardware.com/pc-components/thermal-paste/noctua-brings-space-grade-carbon-nanotube-thermal-pad-to-amd-am5-and-am4-processors-promises-years-of-maintenance-free-performance-for-usd24-95
-16:32	Eurogamer	https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down
-2026-11-12	Eurogamer (same story)	https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar
-16:32	VGC (same story)	https://www.videogameschronicle.com/news/marvel-1943-rise-of-hydra-staff-were-reportedly-told-the-game-hasnt-been-cancelled-despite-online-rumour/
-2026-11-12	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/nvidia-firing-ceo-jensen-huang-would-be-an-apple-firing-steve-jobs-level-of-idiocy-epic-games-boss-tim-sweeney-says/
-16:32	PC Gamer	https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/
-2026-11-12	Dexerto	https://www.dexerto.com/gta/gta-6-almost-banned-in-korea-after-government-officials-got-to-play-it-early-3427658/
-16:32	Tom's Hardware	https://www.tomshardware.com/pc-components/thermal-paste/noctua-brings-space-grade-carbon-nanotube-thermal-pad-to-amd-am5-and-am4-processors-promises-years-of-maintenance-free-performance-for-usd24-95
-2026-11-12	Eurogamer	https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down
-16:32	Eurogamer (same story)	https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar
-2026-11-12	VGC (same story)	https://www.videogameschronicle.com/news/marvel-1943-rise-of-hydra-staff-were-reportedly-told-the-game-hasnt-been-cancelled-despite-online-rumour/
-16:32	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/nvidia-firing-ceo-jensen-huang-would-be-an-apple-firing-steve-jobs-level-of-idiocy-epic-games-boss-tim-sweeney-says/
+2026-11-12 16:32	PC Gamer	https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/
+2026-11-12 16:32	Dexerto	https://www.dexerto.com/gta/gta-6-almost-banned-in-korea-after-government-officials-got-to-play-it-early-3427658/
+2026-11-12 16:32	Tom's Hardware	https://www.tomshardware.com/pc-components/thermal-paste/noctua-brings-space-grade-carbon-nanotube-thermal-pad-to-amd-am5-and-am4-processors-promises-years-of-maintenance-free-performance-for-usd24-95
+2026-11-12 16:32	Eurogamer	https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down
+2026-11-12 16:32	Eurogamer (same story)	https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar
+2026-11-12 16:32	VGC (same story)	https://www.videogameschronicle.com/news/marvel-1943-rise-of-hydra-staff-were-reportedly-told-the-game-hasnt-been-cancelled-despite-online-rumour/
+2026-11-12 16:32	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/nvidia-firing-ceo-jensen-huang-would-be-an-apple-firing-steve-jobs-level-of-idiocy-epic-games-boss-tim-sweeney-says/
