@@ -48,30 +48,37 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
 
 ## Tweets for X (owner posts them by hand)
 
-The owner has no paid X API, so he copies each tweet into X (@AbdulbariH2771) himself and schedules it there. **Every story posted to the channel also gets one ready-to-copy tweet, sent to the owner's private chat in the same hourly run** (owner's request 2026-11-09 23:29; this replaces the earlier "one tweet at 10:15 / 13:15 / 16:15 / 20:00" tasks, which are disabled).
+The owner has no paid X API, so he copies each tweet into X (@AbdulbariH2771) himself and schedules it there. The best stories posted to the channel also get one ready-to-copy tweet, sent to the owner's private chat in the same hourly run (rules below; earlier rule of one tweet per story replaced 2026-11-13).
 
-In the hourly run, for each story chosen in step 3:
+**Growth pattern (owner's request 2026-11-13, after comparing the account with Genki_JPN, NikTek, Pirat_Nation, Wario64 and Dexerto):** fewer, stronger tweets, each with an image. The channel still gets every story; X only gets the best ones.
+
+**Which stories get a tweet** — in each hourly run, after the channel jobs, pick **at most ONE** story for X, and only if all of these hold:
+- it is 09:00–23:59 Istanbul time;
+- fewer than **6** tweets are logged in `tweets.txt` for today (Istanbul date);
+- the last line of `tweets.txt` is at least **2 hours** old;
+- the story has a usable image (a real article image, not a logo or a tiny thumbnail) — no image, no tweet;
+- it is a **big** story: GTA 6 / Rockstar, Nintendo / PlayStation / Xbox / Steam platform news, a major release, reveal, trailer or delay, a big studio or industry move (CEO change, layoffs, acquisition, closure), a striking number (sales, price, players), a big deal or price change on consoles or GPUs, or a major esports result (Major / final). Small patches, minor indie news, minor sales and routine esports matches stay channel-only.
+If several stories qualify, take the biggest (the one most people will talk about). Stories that do not get a tweet are **not** caught up later.
+
+For the chosen story:
 
 1. Together with the channel job, queue a second `sendPhoto` job to the owner's private chat (`state.json → telegram_chat_id`) with the same image, `--ref tweet-<slug>`, a `--fallback-text` with the same caption, and this caption (`parse_mode` HTML):
 
    ```
    <code>TWEET TEXT</code>
    ```
-   The caption is **only** the `<code>` block — no header or "tap to copy" line before or after it (owner's request 2026-11-11).
+   The caption is **only** the `<code>` block — no header or "tap to copy" line before or after it (owner's request 2026-11-11). The owner posts the tweet **with this image attached**.
 
-   TWEET TEXT is English, **≤ 270 characters**, and contains **no link** (X shows link posts to fewer people; the owner puts the link in the first reply — owner's request 2026-11-11 19:32), in your own words, only facts the source states. Escape `&`, `<`, `>`. Write it to win views and follows (owner's request 2026-11-11):
-   - **Line 1 = the hook**, under ~70 characters: start with an emoji that fits (🚨 big/breaking, 🎮 game, 🔥 hype, 💰 price/deal, 🖥️ hardware, 🏆 esports) and lead with the most surprising fact — a number, a date, a price, a big name. Never a vague opener like "News:" or "Check this out".
-   - Line 2 (after a line break): one short sentence with the key detail (what / when / how much).
-   - Line 3, about every other tweet: a short question that invites replies ("Day-one buy or wait?", "Worth $70?").
-   - Then the **source**: `via @Source` — the source site's X account from `handles.txt` (e.g. `via @GameSpot`); with several sources, name the main one, or two if they fit (owner's request 2026-11-12).
-   - Then **1–2 mentions** of the official X accounts the story is about, written as plain `@Handle` (real mentions on X — owner's request 2026-11-12). Only handles from `handles.txt` or confirmed by a web search, never guessed; none if no official account fits. Put them in the sentence where natural or on the same line as the source.
-   - Then **2–3 hashtags** (the game, the company or platform, and `#GamingNews` when it fits).
-   - The whole tweet stays **≤ 270 characters** — shorten line 2 rather than drop the source, mentions or hashtags.
-   - Vary the openers and questions; never the same pattern twice in a row.
+   TWEET TEXT is English, ideally **≤ 220 characters** (hard limit 270), and contains **no link** (the owner puts the link in the first reply — owner's request 2026-11-11 19:32), in your own words, only facts the source states. Escape `&`, `<`, `>`. Style = short, fact-first news (like Genki_JPN / Pirat_Nation):
+   - **Line 1 = the fact itself**, under ~80 characters, with the number, price, date or big name up front, e.g. "🚨 Ocarina of Time remake: 2 in 3 copies sold in Japan are physical". One emoji at the start (🚨 big/breaking, 🎮 game, 🔥 hype, 💰 price/deal, 🖥️ hardware, 🏆 esports). No vague openers ("News:", "Check this out", "Yes, really").
+   - Line 2: one short sentence with the key detail that makes it interesting.
+   - A short question only on about **one tweet in three**, and only when it invites real opinions ("Day-one buy or wait?").
+   - Then `via @Source` (from `handles.txt`; one source, two only if they fit) and **0–2 mentions** of the official accounts the story is about, as plain `@Handle` — only handles from `handles.txt` or confirmed by a web search, never guessed (owner's request 2026-11-12).
+   - Then **2 hashtags** at most (the game or company + `#GamingNews` when it fits).
+   - Shorten line 2 rather than drop the source or mentions. Vary openers; never the same pattern twice in a row.
    Right after it, queue a `sendMessage` job to the same private chat, `--ref tweetlink-<slug>`, `parse_mode` HTML, whose text is **only** `<code>SOURCE LINK</code>` (no label) — the owner copies it into the first reply under his tweet.
 2. Queue the tweet jobs (photo + link message) **after** all the channel jobs, in the same push, and `tg.py wait` them too.
-3. For each story whose tweet job **and** link job `wait` reports as ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`).
-4. Catch-up: before choosing news, any link in `posted.txt` from the last 24 hours (not a `(same story)` line) that is missing from `tweets.txt` also gets its tweet in this run (image from `fetch_news.py --hours 24 --limit 80 --include-posted`, or a plain `sendMessage` if there is no image), followed by its link message.
+3. If the tweet job **and** the link job `wait` report ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`). If either failed, retry that story's tweet in the next run (it still counts against the limits above).
 
 No tweet is sent for a story that was not posted to the channel, and never two tweets for the same story.
 
