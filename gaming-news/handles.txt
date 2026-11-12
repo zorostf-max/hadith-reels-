@@ -36,3 +36,12 @@ ESL Counter-Strike	ESLCS
 Twitch	Twitch
 Elgato	elgato
 CORSAIR	CORSAIR
+# News sources (for "via @Source" in tweets)
+GameSpot	GameSpot
+IGN	IGN
+PC Gamer	pcgamer
+Eurogamer	eurogamer
+VGC	VGC_News
+GamesRadar+	gamesradar
+Dexerto	Dexerto
+Tom's Hardware	tomshardware
