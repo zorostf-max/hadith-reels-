@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/2uVBNRGA5eKLmnRvIDQSoY.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🏆 Falcons crush Legacy and lock in a Rivals playoff spot\n\nLegacy exit in last place for the second straight tournament.\nCan Falcons lift the trophy?\n#CS2 #Falcons</code>"
+ },
+ "ref": "tweet-falcons-legacy",
+ "fallback_text": "<code>🏆 Falcons crush Legacy and lock in a Rivals playoff spot\n\nLegacy exit in last place for the second straight tournament.\nCan Falcons lift the trophy?\n#CS2 #Falcons</code>"
+}
