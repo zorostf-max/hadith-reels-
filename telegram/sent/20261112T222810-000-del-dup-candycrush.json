@@ -1,0 +1,11 @@
+{
+ "job": "20261112T222810-000-del-dup-candycrush.json",
+ "ref": "del-dup-candycrush",
+ "method": "deleteMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T22:28:24Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

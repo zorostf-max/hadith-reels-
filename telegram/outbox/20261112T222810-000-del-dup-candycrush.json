@@ -1,8 +1,0 @@
-{
- "method": "deleteMessage",
- "params": {
-  "chat_id": "@LevelUpGames0",
-  "message_id": 195
- },
- "ref": "del-dup-candycrush"
-}
