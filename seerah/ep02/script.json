@@ -1,0 +1,257 @@
+{
+ "episode": 2,
+ "title": "مولد النبي ﷺ",
+ "series_label": "السيرة النبوية · الحلقة ٢",
+ "sources": [
+  "الرحيق المختوم للمباركفوري — «المولد وأربعون عامًا قبل النبوة»: المولد، الرضاعة",
+  "الرحيق المختوم — «أسرة النبي ﷺ»: عبد الله والد رسول الله ﷺ",
+  "سيرة ابن هشام ١/١٥٩–١٦٠ (بشارة عبد المطلب وتسميته محمدًا)",
+  "طبقات ابن سعد ١/٦٣، ومسند أحمد عن العرباض بن سارية (نور المولد)",
+  "صحيح مسلم، كتاب الصيام، حديث أبي قتادة: «ذاك يوم ولدت فيه، ويوم بعثت»"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "احمد النبرة العميقة الدافئة"
+  },
+  "maryam": {
+   "voice_id": "NQyF5U0t336unYhQXcuv",
+   "name": "Mimi"
+  },
+  "omar": {
+   "voice_id": "0pDT8WvJXiBq0hxYB2Cp",
+   "name": "Salama"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "majlis": {
+   "file": "../assets/majlis.png",
+   "reuse": true
+  },
+  "madinah_palms": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. The ancient oasis of Yathrib (Madinah) at sunset: tall date palm groves, simple mud-brick houses, black volcanic hills on the horizon, a quiet and gentle sad mood, long soft shadows, a few birds in the sky. No people. Palette of amber, dusty rose, olive green and navy. No text, no letters, no calligraphy, no watermark."
+  },
+  "mecca_dawn": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. Ancient Mecca at dawn seen from slightly above: a narrow valley between rocky mountains, clusters of simple flat-roofed stone and mud houses nestled in a mountain pass (a shi'b), soft pink and gold light rising behind the peaks, a calm sky with the fading morning star. No people. Palette of soft gold, rose, sand and navy. No text, no letters, no calligraphy, no watermark."
+  },
+  "light": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A vast desert landscape at night: a soft warm beam of golden light rising from a small valley town among dark mountains and stretching far across the land toward the north, where the faint silhouettes of distant palaces with domes and columns glow softly on the horizon. Starry deep-blue sky, peaceful and wondrous mood. No people. Palette of gold, deep blue, amber and sand. No text, no letters, no calligraphy, no watermark."
+  },
+  "kaaba": {
+   "file": "../ep01/img/kaaba.png",
+   "reuse": true
+  },
+  "monday": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A quiet courtyard of a simple ancient Arabian house just before sunset: a low wooden tray with a few dates and a clay water jug on a woven mat, a palm tree, warm golden light and long shadows, a thin crescent moon appearing in the soft sky. No people. Palette of amber, sand, olive and soft blue. No text, no letters, no calligraphy, no watermark."
+  },
+  "cradle": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. Inside a simple ancient Meccan house: a small wooden cradle with a soft woven blanket, a glowing clay oil lamp on a shelf, a patterned rug, warm gentle light coming through a small window. Calm and tender mood. No people, no baby visible. Palette of warm amber, cream, teal and terracotta. No text, no letters, no calligraphy, no watermark."
+  },
+  "badia": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. The open Arabian desert (badia) of the Banu Sa'd lands: rolling sand hills, a few black Bedouin tents, a small flock of sheep and a camel grazing, a donkey, clean bright air and a wide blue sky, seen from far away. No people visible. Palette of sand, ochre, sky blue and soft green. No text, no letters, no calligraphy, no watermark."
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "majlis",
+   "cam": "children",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "يا أبي، قلتَ إنّه وُلِدَ في مكّةَ مولودٌ غيَّرَ الدُّنيا كلَّها… مَن هو؟",
+     "bubble": [
+      "يا أبي، مَن هو المولود",
+      "الذي غيّر الدنيا كلّها؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "إنّه نبيُّنا مُحَمَّدٌ صلّى اللهُ عليهِ وسلَّم يا عُمَر. اقتربوا يا أولادي، أحكي لكم حكايةَ مولدِه.",
+     "bubble": [
+      "إنّه نبيُّنا محمّد ﷺ",
+      "اقتربوا… أحكي لكم"
+     ]
+    }
+   ],
+   "title_card": true
+  },
+  {
+   "id": 2,
+   "image": "madinah_palms",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "أبوهُ هو عبدُ اللهِ بنُ عبدِ المُطَّلِب، وأمُّه آمِنَةُ بنتُ وَهْب. وقبلَ أن يُولَد، ماتَ أبوه عبدُ اللهِ في المدينة، وهو شابٌّ في الخامسةِ والعشرين، ودُفِنَ هناك.",
+     "caption": "عبد الله بن عبد المطلب… توفّي في المدينة"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "يعني وُلِدَ يتيمًا يا أبي؟",
+     "bubble": [
+      "يعني وُلد يتيمًا",
+      "يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "نعم يا مريم، وُلِدَ يتيمًا، لكنَّ اللهَ كانَ يرعاه.",
+     "bubble": [
+      "وُلد يتيمًا…",
+      "لكنّ الله كان يرعاه"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "mecca_dawn",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وفي صَبيحةِ يومِ الاثنين، من شهرِ ربيعٍ الأوَّل، في عامِ الفيلِ نفسِه، وُلِدَ في شِعْبِ بني هاشمٍ بمكّة. ورجَّحَ صاحبُ الرَّحيقِ المختومِ أنّه التاسعُ من ربيعٍ الأوَّل، سنةَ خمسِمئةٍ وواحدٍ وسبعينَ للميلاد.",
+     "caption": "صبيحة يوم الاثنين · ربيع الأول · عام الفيل"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "light",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وقالت أمُّه آمِنَة: لمّا ولدتُه، خرجَ منّي نورٌ أضاءتْ له قصورُ الشّام.",
+     "caption": "«خرج منّي نورٌ أضاءت له قصور الشام»"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "kaaba",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وأرسلتْ آمنةُ إلى جدِّه عبدِ المطَّلِبِ تُبشِّرُه، فجاءَ فرحًا مسرورًا، وحملَه ودخلَ به الكعبة، فدعا اللهَ وشكرَه.",
+     "caption": "عبد المطلب يدخل بحفيده الكعبة شاكرًا"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "ومَن سمَّاه مُحَمَّدًا يا أبي؟",
+     "bubble": [
+      "ومَن سمّاه محمّدًا",
+      "يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "جدُّه عبدُ المطَّلِب يا عمر، اختارَ له هذا الاسم، ولم يكن اسمُ مُحَمَّدٍ معروفًا عند العربِ يومئذ.",
+     "bubble": [
+      "اختاره جدّه عبد المطلب",
+      "ولم يكن معروفًا عند العرب"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "monday",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ولمّا كَبِرَ وصارَ نبيًّا، سُئِلَ صلّى اللهُ عليهِ وسلَّم عن صيامِ يومِ الاثنين، فقال: ذاكَ يومٌ وُلِدتُ فيه، ويومٌ بُعِثتُ فيه.",
+     "caption": "«ذاك يومٌ وُلدتُ فيه، ويومٌ بُعثتُ فيه» — رواه مسلم"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "image": "cradle",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وأوَّلُ مَن أرضعَه بعدَ أمِّه: ثُوَيْبَة، مولاةُ أبي لَهَب.",
+     "caption": "أوّل من أرضعه بعد أمّه: ثُويبة"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "image": "badia",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وكانت عادةُ العربِ أن يُرسِلوا أطفالَهم إلى الباديةِ يَرضَعونَ هناك، فتقوى أجسامُهم، ويتعلَّموا العربيّةَ الفصيحة. فجاءت إلى مكّةَ نساءٌ من بني سَعْدٍ يطلبْنَ الرُّضَعاء.",
+     "caption": "نساءٌ من بني سعد يطلبن الرُّضعاء"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "image": "majlis",
+   "cam": "wide",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "ومَن أخذتْه يا أبي؟",
+     "bubble": [
+      "ومَن أخذتْه يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "امرأةٌ فقيرة، كادت أن ترجعَ بلا رضيع… فأخذتْه، فتغيَّرتْ حياتُها كلُّها.",
+     "bubble": [
+      "امرأةٌ فقيرة…",
+      "فتغيّرت حياتُها كلّها"
+     ]
+    },
+    {
+     "who": "omar",
+     "tts": "كيفَ يا أبي؟!",
+     "bubble": [
+      "كيف يا أبي؟!"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "هذه حكايةُ يومِ الخميسِ إن شاءَ الله.",
+     "bubble": [
+      "هذه حكايةُ الخميس",
+      "إن شاء الله"
+     ]
+    }
+   ],
+   "end_card": "تابعنا لتسمع البقية"
+  }
+ ],
+ "publish": {
+  "planned_slot": "2026-11-17 (Tuesday) 10:00 Europe/Istanbul — so the closing line points to Thursday",
+  "needs_owner_approval": true
+ },
+ "closing_line_rule": "Last line names the next episode's day: an episode aired on Tuesday ends «هذه حكايةُ يومِ الخميسِ إن شاءَ الله», one aired on Thursday ends «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله» (owner's request 2026-11-11).",
+ "notes": [
+  "Left out on purpose: the reported signs at the birth (إيوان كسرى، نار المجوس، بحيرة ساوة) — الرحيق المختوم reports them with «قد روي» and notes they are not accepted (الغزالي، فقه السيرة)."
+ ]
+}
