@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2024/01/game-developer-1-768x433-1.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GDC survey: 1 in 3 game devs laid off in two years</b>\n\nA new GDC survey found that one in three games industry professionals were laid off in the past two years — more than in its previous report. Over half of those are still unemployed, and a quarter have applied for at least 100 jobs.\n\n🕒 Nov 12, 2026 · 20:04 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/one-in-three-games-industry-professionals-surveyed-by-gdc-were-laid-off-in-the-past-two-years-more-than-in-its-last-report/\">VGC</a>\n\n💔 React if this worries you · 💬 What should studios change?\n\n#GDC #GameDev #Layoffs #GamingNews"
+ },
+ "ref": "news-gdc-layoffs",
+ "fallback_text": "🎮 <b>GDC survey: 1 in 3 game devs laid off in two years</b>\n\nA new GDC survey found that one in three games industry professionals were laid off in the past two years — more than in its previous report. Over half of those are still unemployed, and a quarter have applied for at least 100 jobs.\n\n🕒 Nov 12, 2026 · 20:04 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/one-in-three-games-industry-professionals-surveyed-by-gdc-were-laid-off-in-the-past-two-years-more-than-in-its-last-report/\">VGC</a>\n\n💔 React if this worries you · 💬 What should studios change?\n\n#GDC #GameDev #Layoffs #GamingNews"
+}

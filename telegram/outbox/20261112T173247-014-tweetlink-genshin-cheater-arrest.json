@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.dexerto.com/genshin-impact/genshin-impact-cheater-offering-paid-carry-services-reportedly-arrested-while-meeting-with-customers-3427749/</code>"
+ },
+ "ref": "tweetlink-genshin-cheater-arrest"
+}

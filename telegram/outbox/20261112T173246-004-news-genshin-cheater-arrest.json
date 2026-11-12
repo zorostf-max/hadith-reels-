@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2025/07/24/Genshin-Impact-player-clears-5-8-Abyss-on-Apple-Watch.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Genshin Impact cheater reportedly arrested in China</b>\n\nA Genshin Impact player in China who allegedly used cheats to sell paid carry services has reportedly been arrested. According to the report, the arrest happened while he was meeting with customers to help them clear difficult in-game challenges.\n\n🕒 Nov 12, 2026 · 20:23 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/genshin-impact/genshin-impact-cheater-offering-paid-carry-services-reportedly-arrested-while-meeting-with-customers-3427749/\">Dexerto</a>\n\n⚖️ Fair punishment or too far? React and drop your take 💬\n\n#GenshinImpact #HoYoverse #AntiCheat #GamingNews"
+ },
+ "ref": "news-genshin-cheater-arrest",
+ "fallback_text": "🎮 <b>Genshin Impact cheater reportedly arrested in China</b>\n\nA Genshin Impact player in China who allegedly used cheats to sell paid carry services has reportedly been arrested. According to the report, the arrest happened while he was meeting with customers to help them clear difficult in-game challenges.\n\n🕒 Nov 12, 2026 · 20:23 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/genshin-impact/genshin-impact-cheater-offering-paid-carry-services-reportedly-arrested-while-meeting-with-customers-3427749/\">Dexerto</a>\n\n⚖️ Fair punishment or too far? React and drop your take 💬\n\n#GenshinImpact #HoYoverse #AntiCheat #GamingNews"
+}

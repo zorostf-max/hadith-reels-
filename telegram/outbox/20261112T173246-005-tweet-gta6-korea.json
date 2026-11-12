@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/7GMWduYvHNCyQpEDcNjMch-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 GTA 6 almost got REFUSED a rating in South Korea\nThe reason: the sheer amount of nudity. And the naked Jason from the leaks reportedly isn't in the final game. @RockstarGames\n#GTA6</code>"
+ },
+ "ref": "tweet-gta6-korea",
+ "fallback_text": "<code>🚨 GTA 6 almost got REFUSED a rating in South Korea\nThe reason: the sheer amount of nudity. And the naked Jason from the leaks reportedly isn't in the final game. @RockstarGames\n#GTA6</code>"
+}

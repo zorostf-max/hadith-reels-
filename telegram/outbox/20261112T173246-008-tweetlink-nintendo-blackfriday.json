@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.gamesradar.com/hardware/nintendo-announces-its-2026-black-friday-offers-with-a-free-game-and-usd20-discounts/</code>"
+ },
+ "ref": "tweetlink-nintendo-blackfriday"
+}
