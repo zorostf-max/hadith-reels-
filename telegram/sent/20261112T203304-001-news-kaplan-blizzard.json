@@ -1,0 +1,11 @@
+{
+ "job": "20261112T203304-001-news-kaplan-blizzard.json",
+ "ref": "news-kaplan-blizzard",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T20:33:18Z",
+ "message_id": 189,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

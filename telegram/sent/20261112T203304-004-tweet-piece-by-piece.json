@@ -1,0 +1,11 @@
+{
+ "job": "20261112T203304-004-tweet-piece-by-piece.json",
+ "ref": "tweet-piece-by-piece",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T20:33:23Z",
+ "message_id": 385,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

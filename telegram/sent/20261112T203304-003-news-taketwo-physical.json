@@ -1,0 +1,11 @@
+{
+ "job": "20261112T203304-003-news-taketwo-physical.json",
+ "ref": "news-taketwo-physical",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T20:33:22Z",
+ "message_id": 191,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

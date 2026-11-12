@@ -1,0 +1,11 @@
+{
+ "job": "20261112T203304-011-tweetlink-taketwo-physical.json",
+ "ref": "tweetlink-taketwo-physical",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T20:33:34Z",
+ "message_id": 392,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

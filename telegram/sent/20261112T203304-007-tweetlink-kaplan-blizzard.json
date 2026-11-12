@@ -1,0 +1,11 @@
+{
+ "job": "20261112T203304-007-tweetlink-kaplan-blizzard.json",
+ "ref": "tweetlink-kaplan-blizzard",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T20:33:28Z",
+ "message_id": 388,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

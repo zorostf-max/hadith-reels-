@@ -1,0 +1,11 @@
+{
+ "job": "20261112T203304-009-tweetlink-paradox-ceo.json",
+ "ref": "tweetlink-paradox-ceo",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T20:33:31Z",
+ "message_id": 390,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
