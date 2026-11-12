@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183318-004-news-darktide-sister-novitiate-dec7.json",
+ "ref": "news-darktide-sister-novitiate-dec7",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T18:34:00Z",
+ "message_id": 183,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

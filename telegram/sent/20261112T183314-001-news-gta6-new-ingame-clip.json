@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183314-001-news-gta6-new-ingame-clip.json",
+ "ref": "news-gta6-new-ingame-clip",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T18:33:55Z",
+ "message_id": 180,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

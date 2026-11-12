@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183332-017-tweetlink-pokemon-za-shiny-xerneas-yvelt.json",
+ "ref": "tweetlink-pokemon-za-shiny-xerneas-yveltal",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T18:34:21Z",
+ "message_id": 377,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183319-005-news-pokemon-za-shiny-xerneas-yveltal.json",
+ "ref": "news-pokemon-za-shiny-xerneas-yveltal",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T18:34:01Z",
+ "message_id": 184,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

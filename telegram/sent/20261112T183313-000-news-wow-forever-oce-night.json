@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183313-000-news-wow-forever-oce-night.json",
+ "ref": "news-wow-forever-oce-night",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T18:33:53Z",
+ "message_id": 179,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

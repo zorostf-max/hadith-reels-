@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "6875821347",
-  "parse_mode": "HTML",
-  "text": "<code>https://www.eurogamer.net/world-of-warcraft-forever-oceania-sunlight</code>"
- },
- "ref": "tweetlink-wow-forever-oce-night"
-}

@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183326-011-tweetlink-zelda-oot-remake-japan-physica.json",
+ "ref": "tweetlink-zelda-oot-remake-japan-physical",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T18:34:11Z",
+ "message_id": 371,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

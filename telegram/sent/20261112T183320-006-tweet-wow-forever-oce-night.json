@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183320-006-tweet-wow-forever-oce-night.json",
+ "ref": "tweet-wow-forever-oce-night",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T18:34:03Z",
+ "message_id": 366,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

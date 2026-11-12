@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183316-003-news-palworld-devs-gta6-days-off.json",
+ "ref": "news-palworld-devs-gta6-days-off",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T18:33:58Z",
+ "message_id": 182,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

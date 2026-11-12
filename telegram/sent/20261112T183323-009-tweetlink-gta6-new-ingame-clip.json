@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183323-009-tweetlink-gta6-new-ingame-clip.json",
+ "ref": "tweetlink-gta6-new-ingame-clip",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T18:34:08Z",
+ "message_id": 369,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

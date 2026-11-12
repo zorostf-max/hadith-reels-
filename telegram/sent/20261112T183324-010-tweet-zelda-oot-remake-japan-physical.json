@@ -1,0 +1,11 @@
+{
+ "job": "20261112T183324-010-tweet-zelda-oot-remake-japan-physical.json",
+ "ref": "tweet-zelda-oot-remake-japan-physical",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T18:34:10Z",
+ "message_id": 370,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
