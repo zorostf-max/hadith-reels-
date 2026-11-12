@@ -216,3 +216,10 @@
 2026-11-12 07:32	HLTV	https://www.hltv.org/news/45974/falcons-crush-legacy-to-make-rivals-playoffs
 2026-11-12 10:32	HLTV	https://www.hltv.org/news/45975/furia-hand-vitality-first-ever-13-0-defeat-to-make-rivals-semi-finals
 2026-11-12 13:27	VGC (same story)	https://www.videogameschronicle.com/news/destroy-all-humans-remake-dev-black-forest-has-bought-itself-out-from-thq-nordic-and-formed-a-new-group-of-indie-studios/
+2026-11-12 14:32	Tom's Hardware	https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules
+2026-11-12 14:32	HLTV	https://www.hltv.org/news/45977/mouz-narrowly-escape-last-place-elimination-at-blast-against-fut
+2026-11-12 14:32	VGC	https://www.videogameschronicle.com/news/a-group-of-developers-laid-off-from-id-software-have-formed-new-studio-hidden-horses/
+2026-11-12 14:32	GameSpot (same story)	https://www.gamespot.com/articles/nvidias-board-is-weighing-jensen-huangs-future-after-second-affair-revelation/
+2026-11-12 14:32	PC Gamer (same story)	https://www.pcgamer.com/hardware/this-would-be-an-apple-firing-steve-jobs-level-of-idiocy-says-tim-sweeney-at-the-idea-of-ousting-jensen-huang-while-elon-musk-says-it-would-be-an-honor-to-hire-the-nvidia-chief/
+2026-11-12 14:32	Dexerto (same story)	https://www.dexerto.com/gaming/witcher-3-geralt-actor-approves-ai-use-for-his-return-after-stroke-changed-his-voice-3427613/
+2026-11-12 14:32	Eurogamer (same story)	https://www.eurogamer.net/marvel-1943-rise-of-hydra-not-cancelled-skydance-says

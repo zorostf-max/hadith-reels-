@@ -126,3 +126,6 @@
 2026-11-12 04:31	https://www.ign.com/articles/marvel-1943-rise-of-hydra-is-reportedly-close-to-done-though-at-the-cost-of-cutting-back-on-content-and-length
 2026-11-12 07:32	https://www.hltv.org/news/45974/falcons-crush-legacy-to-make-rivals-playoffs
 2026-11-12 10:32	https://www.hltv.org/news/45975/furia-hand-vitality-first-ever-13-0-defeat-to-make-rivals-semi-finals
+2026-11-12 14:32	https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules
+2026-11-12 14:32	https://www.hltv.org/news/45977/mouz-narrowly-escape-last-place-elimination-at-blast-against-fut
+2026-11-12 14:32	https://www.videogameschronicle.com/news/a-group-of-developers-laid-off-from-id-software-have-formed-new-studio-hidden-horses/
