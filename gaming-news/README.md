@@ -63,6 +63,7 @@ In the hourly run, for each story chosen in step 3:
    - **Line 1 = the hook**, under ~70 characters: start with an emoji that fits (🚨 big/breaking, 🎮 game, 🔥 hype, 💰 price/deal, 🖥️ hardware, 🏆 esports) and lead with the most surprising fact — a number, a date, a price, a big name. Never a vague opener like "News:" or "Check this out".
    - Line 2 (after a line break): one short sentence with the key detail (what / when / how much).
    - Line 3, about every other tweet: a short question that invites replies ("Day-one buy or wait?", "Worth $70?").
+   - Then **1–2 mentions** of the official X accounts the story is about, written as plain `@Handle` (on X they are real mentions and notify the account — owner's request 2026-11-12). Use the same rules as the channel's 👥 line: only handles from `handles.txt` or confirmed by a web search, never guessed; none if no official account fits. Put them in the sentence where natural ("…says @RockstarGames") or on their own line before the hashtags.
    - Then 1–2 relevant hashtags (game name or platform, e.g. #GTA6 #PS5) — never more than 2.
    - Vary the openers and questions; never the same pattern twice in a row.
    Right after it, queue a `sendMessage` job to the same private chat, `--ref tweetlink-<slug>`, `parse_mode` HTML, whose text is **only** `<code>SOURCE LINK</code>` (no label) — the owner copies it into the first reply under his tweet.
