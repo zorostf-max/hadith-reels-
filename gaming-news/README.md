@@ -48,7 +48,7 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
 
 ## Tweets for X (owner posts them by hand)
 
-The owner has no paid X API, so he copies each tweet into X (@AbdulbariH2771) himself and schedules it there. **Tweets are written in Arabic since 2026-11-13** (channel posts stay English). The best stories posted to the channel also get one ready-to-copy tweet, sent to the owner's private chat in the same hourly run (rules below; earlier rule of one tweet per story replaced 2026-11-13).
+The owner has no paid X API, so he copies each tweet into X (@AbdulbariH2771) himself and schedules it there. The best stories posted to the channel also get one ready-to-copy tweet, sent to the owner's private chat in the same hourly run (rules below; earlier rule of one tweet per story replaced 2026-11-13).
 
 **Growth pattern (owner's request 2026-11-13, after comparing the account with Genki_JPN, NikTek, Pirat_Nation, Wario64 and Dexerto):** fewer, stronger tweets, each with an image. The channel still gets every story; X only gets the best ones.
 
@@ -69,14 +69,13 @@ For the chosen story:
    ```
    The caption is **only** the `<code>` block — no header or "tap to copy" line before or after it (owner's request 2026-11-11). The owner posts the tweet **with this image attached**.
 
-   TWEET TEXT is **Arabic** (owner's request 2026-11-13: the X account switches from English to Arabic; the Telegram channel stays English), clear Modern Standard Arabic that any Arab gamer understands, ideally **≤ 220 characters** (hard limit 270), and contains **no link** (the owner puts the link in the first reply — owner's request 2026-11-11 19:32), in your own words (translate the facts, never copy sentences), only facts the source states. Escape `&`, `<`, `>`. Style = short, fact-first news (like Genki_JPN / Pirat_Nation, but in Arabic):
-   - Keep game, company, console and product names in their official Latin spelling (GTA 6, PlayStation 5, Nintendo Switch 2, RTX 5080); write numbers as Western digits (2, 5.2, $70).
-   - **Line 1 = the fact itself**, under ~80 characters, with the number, price, date or big name up front, e.g. "🚨 ثلثا مبيعات Ocarina of Time في اليابان نسخ ورقية". One emoji at the start (🚨 big/breaking, 🎮 game, 🔥 hype, 💰 price/deal, 🖥️ hardware, 🏆 esports). No vague openers ("خبر:", "شاهد هذا").
+   TWEET TEXT is English, ideally **≤ 220 characters** (hard limit 270), and contains **no link** (the owner puts the link in the first reply — owner's request 2026-11-11 19:32), in your own words, only facts the source states. Escape `&`, `<`, `>`. Style = short, fact-first news (like Genki_JPN / Pirat_Nation):
+   - **Line 1 = the fact itself**, under ~80 characters, with the number, price, date or big name up front, e.g. "🚨 Ocarina of Time remake: 2 in 3 copies sold in Japan are physical". One emoji at the start (🚨 big/breaking, 🎮 game, 🔥 hype, 💰 price/deal, 🖥️ hardware, 🏆 esports). No vague openers ("News:", "Check this out", "Yes, really").
    - Line 2: one short sentence with the key detail that makes it interesting.
-   - A short Arabic question only on about **one tweet in three**, and only when it invites real opinions ("تشتريها يوم الإصدار أم تنتظر؟").
-   - Then `المصدر: @Source` (from `handles.txt`; one source, two only if they fit) and **0–2 mentions** of the official accounts the story is about, as plain `@Handle` — only handles from `handles.txt` or confirmed by a web search, never guessed (owner's request 2026-11-12).
-   - Then **2 hashtags** at most: `#أخبار_الألعاب` plus one for the game or company (Arabic if it is commonly used, e.g. `#نينتندو`, `#بلايستيشن`, otherwise the Latin name, e.g. `#GTA6`).
-   - Shorten line 2 rather than drop the source or mentions. Vary openers; never the same pattern twice in a row. Read the tweet once more before sending: correct Arabic, right-to-left order not broken by the Latin names.
+   - A short question only on about **one tweet in three**, and only when it invites real opinions ("Day-one buy or wait?").
+   - Then `via @Source` (from `handles.txt`; one source, two only if they fit) and **0–2 mentions** of the official accounts the story is about, as plain `@Handle` — only handles from `handles.txt` or confirmed by a web search, never guessed (owner's request 2026-11-12).
+   - Then **2 hashtags** at most (the game or company + `#GamingNews` when it fits).
+   - Shorten line 2 rather than drop the source or mentions. Vary openers; never the same pattern twice in a row.
    Right after it, queue a `sendMessage` job to the same private chat, `--ref tweetlink-<slug>`, `parse_mode` HTML, whose text is **only** `<code>SOURCE LINK</code>` (no label) — the owner copies it into the first reply under his tweet.
 2. Queue the tweet jobs (photo + link message) **after** all the channel jobs, in the same push, and `tg.py wait` them too.
 3. If the tweet job **and** the link job `wait` report ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`). If either failed, retry that story's tweet in the next run (it still counts against the limits above).
