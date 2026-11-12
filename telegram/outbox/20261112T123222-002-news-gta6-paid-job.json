@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/10/29/jason-and-lucia-smg-pistol-in-car-gta-6.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Get paid up to $120,000 to play GTA 6</b>\n\nA company is offering a job that pays up to $120,000 for playing GTA 6. Whoever takes it can also earn an extra $15,000 for completing the job, just days before the game's launch.\n\n🕒 Nov 12, 2026 · 15:10 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/this-company-wants-to-pay-you-over-100000-to-play-gta-6-3427629/\">Dexerto</a>\n\n💰 Dream job? React 👍 or 👎 · 💬 Would you apply?\n\n#GTA6 #GamingNews"
+ },
+ "ref": "news-gta6-paid-job",
+ "fallback_text": "🎮 <b>Get paid up to $120,000 to play GTA 6</b>\n\nA company is offering a job that pays up to $120,000 for playing GTA 6. Whoever takes it can also earn an extra $15,000 for completing the job, just days before the game's launch.\n\n🕒 Nov 12, 2026 · 15:10 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/this-company-wants-to-pay-you-over-100000-to-play-gta-6-3427629/\">Dexerto</a>\n\n💰 Dream job? React 👍 or 👎 · 💬 Would you apply?\n\n#GTA6 #GamingNews"
+}

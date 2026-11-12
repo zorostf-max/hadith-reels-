@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/CASjrTLAa874jWbGPpVv6E-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Intergalactic is in its final stretch, says Druckmann</b>\n\nNaughty Dog's Neil Druckmann says Intergalactic: The Heretic Prophet is in \"the last stages of production,\" and the team can already play it. He describes the game as a mix of Uncharted, The Last of Us and Jak and Daxter.\n\n🕒 Nov 12, 2026 · 14:45 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/adventure/intergalactic-the-heretic-prophet-is-in-the-last-stages-of-production-says-naughty-dogs-neil-druckmann-and-it-combines-uncharted-the-last-of-us-and-jak-and-daxter/\">GamesRadar+</a>\n\n🚀 React if you're hyped · 💬 Which Naughty Dog series is your favorite?\n\n#Intergalactic #NaughtyDog #GamingNews"
+ },
+ "ref": "news-intergalactic-final",
+ "fallback_text": "🎮 <b>Intergalactic is in its final stretch, says Druckmann</b>\n\nNaughty Dog's Neil Druckmann says Intergalactic: The Heretic Prophet is in \"the last stages of production,\" and the team can already play it. He describes the game as a mix of Uncharted, The Last of Us and Jak and Daxter.\n\n🕒 Nov 12, 2026 · 14:45 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/adventure/intergalactic-the-heretic-prophet-is-in-the-last-stages-of-production-says-naughty-dogs-neil-druckmann-and-it-combines-uncharted-the-last-of-us-and-jak-and-daxter/\">GamesRadar+</a>\n\n🚀 React if you're hyped · 💬 Which Naughty Dog series is your favorite?\n\n#Intergalactic #NaughtyDog #GamingNews"
+}

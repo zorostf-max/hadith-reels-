@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/CASjrTLAa874jWbGPpVv6E-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚀 Naughty Dog's next game is almost done.\nNeil Druckmann says Intergalactic: The Heretic Prophet is in \"the last stages of production\", mixing Uncharted, The Last of Us and Jak and Daxter.\n#Intergalactic #PS5</code>"
+ },
+ "ref": "tweet-intergalactic-final",
+ "fallback_text": "<code>🚀 Naughty Dog's next game is almost done.\nNeil Druckmann says Intergalactic: The Heretic Prophet is in \"the last stages of production\", mixing Uncharted, The Last of Us and Jak and Daxter.\n#Intergalactic #PS5</code>"
+}
