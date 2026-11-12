@@ -4,9 +4,9 @@ Automatic gaming news for the owner's Telegram channel **Level up** (`@LevelUpGa
 This folder is separate from the hadith reels project in the rest of the repo — never touch the hadith files, `state.json` or the hadith Telegram approval flow from here.
 
 Owner's rules (2026-11-09):
-- Post **each news item on its own, soon after it comes out** (a scheduled run every hour).
+- Post **each news item on its own, as soon as it comes out**: a run every 30 minutes (:25 and :55), posting every qualifying new story (owner's request 2026-11-12).
 - Post **directly** to the channel, no approval step.
-- Write in **English**, always with the **source** linked and the item's **publish time**.
+- Write in **English**, always with the item's **publish time**, **all the sources** that cover the story, **hashtags** and **mentions** of the official accounts involved (owner's request 2026-11-12).
 - Topics: game news and releases · esports and tournaments (CS2, Valorant, LoL…) · PC hardware and graphics cards · platforms and deals (PlayStation, Xbox, Nintendo, Steam, free games, big discounts).
 
 Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an image URL) · `posted.txt` (log of every link already posted or skipped as a duplicate — one line per link: `time<TAB>source<TAB>url`).
@@ -15,10 +15,10 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
 
 1. `cd` into the repo, `git pull`. If `gaming-news/pending.txt` exists, first reconcile it (instructions inside) — never re-queue its stories. `pip install --break-system-packages -q feedparser` if it is missing.
 2. `python3 gaming-news/fetch_news.py --hours 2 --limit 30`. It already drops links in `posted.txt`.
-3. Choose what to post (**at most 4 posts per run**, oldest first):
+3. Choose what to post (**every qualifying new story, up to 6 per run**, oldest first — a run every 30 minutes keeps posts close to their publish time):
    - **Keep** real news in the four topics above.
    - **Skip**: walkthroughs/guides ("how to find…", "all locations…"), redeem-code lists, quizzes and NYT puzzle answers, opinion/review pieces with no news, non-gaming stories (food, animals, general politics, film/TV unless it is a game adaptation), small affiliate deals. Do not log skipped items; they age out of the 2-hour window on their own.
-   - **One story = one post.** If several sources cover the same story (in this run or already in `posted.txt` from the last day), post it once and log the other links as `(same story)`.
+   - **One story = one post, built from all its sources.** Group the items in this run's list that cover the same story: write ONE post that combines the facts from all of them (read each with WebFetch if the summaries are thin) and list every one of them under 📰 Sources. Log the first link normally and the others as `(same story)`. If the story was already posted in the last day (check `posted.txt`), do not post again — just log the new links as `(same story)`.
    - If nothing qualifies, post nothing, but still push the tick job of step 6.
 4. For each chosen item, if the RSS summary is too thin to write two accurate sentences, read the article with WebFetch. Write only facts the source states; never invent numbers, dates or quotes.
 5. For each item queue a `sendPhoto` job (`python3 telegram/tg.py queue sendPhoto '{"chat_id":"@LevelUpGames0","photo":"<image>","parse_mode":"HTML","caption":"…"}' --ref news-<slug> --fallback-text "<same caption>"`), then commit + push once and run `python3 telegram/tg.py wait <all job names>`. Caption (≤ 1024 chars) in this shape — own words, no copied sentences, at most one short quote under 15 words:
@@ -26,15 +26,19 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
    ```
    <emoji> <b>Headline in my own words</b>
 
-   2–3 short sentences: what happened, the key detail, why it matters.
+   2–4 short sentences combining the facts from all sources: what happened, the key details, why it matters.
 
-   🕒 Nov 9, 2026 · 17:32 (GMT+3)
-   📰 Source: <a href="LINK">Source name</a>
+   🕒 Nov 12, 2026 · 19:32 (GMT+3)
+   📰 Sources: <a href="LINK1">GameSpot</a> · <a href="LINK2">IGN</a> · <a href="LINK3">PC Gamer</a>
+   👥 <a href="https://x.com/RockstarGames">@RockstarGames</a> · <a href="https://x.com/PlayStation">@PlayStation</a>
 
    CALL TO ACTION
 
-   #Tag1 #Tag2 #GamingNews
+   #GTA6 #Rockstar #PS5 #GamingNews
    ```
+   - 🕒 = the **earliest** `published_utc` of the story's items, converted to Istanbul time (GMT+3). With a single source write `📰 Source:`.
+   - **👥 Mentions** (owner's request 2026-11-12): 1–3 **official X accounts** of the studios, publishers, platforms, teams, tournaments or people the story is about. Take them from `gaming-news/handles.txt` (verified list); for a name not in it, confirm the official handle with one WebSearch and, if confirmed, add it to `handles.txt`; if you cannot confirm it, leave it out — never guess. Always write a mention as a link `<a href="https://x.com/HANDLE">@HANDLE</a>`: a bare `@name` in Telegram points to a Telegram user, who may be someone else. Omit the 👥 line if no official account fits.
+   - **Hashtags**: 3–5 — the game or product, the company or team, the platform or event, then always `#GamingNews` last. CamelCase, no spaces or punctuation inside a tag.
    CALL TO ACTION (owner's request 2026-11-11) is one short English line asking for a reaction and a comment, tied to the story and varied every post, e.g. "🔥 React if you're hyped · 💬 Will you play it day one?", "👍 Like if you want this on PC · 💬 Tell us below", "💰 Worth it? React 👍 or 👎 and comment your take".
    The time is the item's `published_utc` converted to Istanbul time (GMT+3). Emoji by topic: 🎮 games · 🏆 esports · 🖥️ PC hardware · 🕹️ platforms · 💸 deals. Escape `&`, `<`, `>` in the text.
    The `--fallback-text` makes the bridge send the caption as a text message if Telegram refuses the photo. Never queue the same item twice.
@@ -68,23 +72,6 @@ In the hourly run, for each story chosen in step 3:
 
 No tweet is sent for a story that was not posted to the channel, and never two tweets for the same story.
 
-## Blogger — byte-beyondtech.blogspot.com (owner's request 2026-11-10)
+## Blogger — STOPPED
 
-Every story posted to the channel is **also published on the owner's blog** `byte-beyondtech.blogspot.com`, in the same hourly run, through Blogger's "post by email" (published immediately). The secret posting address is **only in the scheduled task's prompt — never write it in this public repo** (anyone who knows it can post to the blog).
-
-**At most ONE blog post per hourly run** (2026-11-10: Blogger accepted the first email of each run and blocked the rest with 5.7.0, so it rate-limits post-by-email). Pick the single most important story of the run that is not yet in `blogged.txt`; if the run posted nothing new, take the newest channel story of the last 6 hours missing from `blogged.txt`.
-
-For that story:
-
-1. Send ONE email with the Gmail tool `send_message`, from the owner's Gmail, to the posting address in the task prompt:
-   - `subject` = the headline (plain text, no emoji, no HTML) — it becomes the post title.
-   - `htmlBody`, English, own words, only facts the source states:
-     ```
-     <p>Lead paragraph: what happened (2–3 sentences).</p>
-     <p>Second paragraph: the key details and why it matters (2–4 sentences). Read the article with WebFetch if the RSS summary is thin.</p>
-     <p>🕒 Nov 10, 2026 · 13:32 (GMT+3)<br>📰 Source: <a href="LINK">Source name</a></p>
-     <p>Follow Level Up on Telegram: <a href="https://t.me/LevelUpGames0">@LevelUpGames0</a></p>
-     ```
-   - No images (Gmail strips external images from the body), no signature.
-2. After it sends, append `time GMT+3<TAB>link` to `gaming-news/blogged.txt` and commit it with `posted.txt`.
-3. Never two blog posts for one story; no blog post for a story that was not posted to the channel. If Gmail refuses, skip the blog for this run (no retry loop) and mention it in the run summary.
+The owner asked on 2026-11-11 to stop posting to his blog (the emails were treated as spam). Do not send any email and do not use the Gmail tools. `blogged.txt` is kept only as history.

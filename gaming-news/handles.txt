@@ -1,0 +1,38 @@
+# Verified official X (Twitter) accounts for the 👥 mentions line.
+# One per line: name<TAB>handle (without @). Add a new one only after confirming it is official.
+Rockstar Games	RockstarGames
+PlayStation	PlayStation
+Xbox	Xbox
+Nintendo (US)	NintendoAmerica
+Steam	Steam
+Valve	valvesoftware
+Counter-Strike 2	CounterStrike
+NVIDIA	nvidia
+NVIDIA GeForce	NVIDIAGeForce
+AMD	AMD
+Intel	intel
+Microsoft	Microsoft
+Ubisoft	Ubisoft
+Electronic Arts	EA
+Activision	Activision
+Call of Duty	CallofDuty
+Bethesda	bethesda
+Epic Games	EpicGames
+Fortnite	FortniteGame
+CD PROJEKT RED	CDPROJEKTRED
+Cyberpunk 2077	CyberpunkGame
+Riot Games	riotgames
+VALORANT	PlayVALORANT
+League of Legends	LeagueOfLegends
+Naughty Dog	Naughty_Dog
+Insomniac Games	insomniacgames
+Square Enix	SquareEnix
+SEGA	SEGA
+Capcom (US)	CapcomUSA_
+Marvel Rivals	MarvelRivals
+HLTV	HLTVorg
+BLAST	BLASTPremier
+ESL Counter-Strike	ESLCS
+Twitch	Twitch
+Elgato	elgato
+CORSAIR	CORSAIR
