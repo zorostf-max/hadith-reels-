@@ -4,7 +4,7 @@ Automatic gaming news for the owner's Telegram channel **Level up** (`@LevelUpGa
 This folder is separate from the hadith reels project in the rest of the repo — never touch the hadith files, `state.json` or the hadith Telegram approval flow from here.
 
 Owner's rules (2026-11-09):
-- Post **each news item on its own, as soon as it comes out**: a run every 30 minutes (:25 and :55), posting every qualifying new story (owner's request 2026-11-12).
+- Post **each news item on its own, as soon as it comes out**: a run every hour (:25, the shortest interval scheduled tasks allow), posting **every** qualifying new story, not just a few (owner's request 2026-11-12).
 - Post **directly** to the channel, no approval step.
 - Write in **English**, always with the item's **publish time**, **all the sources** that cover the story, **hashtags** and **mentions** of the official accounts involved (owner's request 2026-11-12).
 - Topics: game news and releases · esports and tournaments (CS2, Valorant, LoL…) · PC hardware and graphics cards · platforms and deals (PlayStation, Xbox, Nintendo, Steam, free games, big discounts).
@@ -15,7 +15,7 @@ Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_n
 
 1. `cd` into the repo, `git pull`. If `gaming-news/pending.txt` exists, first reconcile it (instructions inside) — never re-queue its stories. `pip install --break-system-packages -q feedparser` if it is missing.
 2. `python3 gaming-news/fetch_news.py --hours 2 --limit 30`. It already drops links in `posted.txt`.
-3. Choose what to post (**every qualifying new story, up to 6 per run**, oldest first — a run every 30 minutes keeps posts close to their publish time):
+3. Choose what to post (**every qualifying new story, up to 6 per run**, oldest first, so nothing waits for a later run):
    - **Keep** real news in the four topics above.
    - **Skip**: walkthroughs/guides ("how to find…", "all locations…"), redeem-code lists, quizzes and NYT puzzle answers, opinion/review pieces with no news, non-gaming stories (food, animals, general politics, film/TV unless it is a game adaptation), small affiliate deals. Do not log skipped items; they age out of the 2-hour window on their own.
    - **One story = one post, built from all its sources.** Group the items in this run's list that cover the same story: write ONE post that combines the facts from all of them (read each with WebFetch if the summaries are thin) and list every one of them under 📰 Sources. Log the first link normally and the others as `(same story)`. If the story was already posted in the last day (check `posted.txt`), do not post again — just log the new links as `(same story)`.
