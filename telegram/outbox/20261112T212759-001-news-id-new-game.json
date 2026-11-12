@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/SV4EqmWFf4gJaw5ie5QeYJ-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>id Software confirms its next game is in the works</b>\n\nXbox CEO Asha Sharma revealed the Doom studio's new project in her Xbox 25th anniversary posts on X, and id followed up: teams in Texas and Frankfurt are on it, with Hugo Martin directing again. Details are far off – \"It'll be some time\" before more is shared. The news lands months after id lost over 130 staff in Xbox layoffs, while Slaughter Mode hits Doom: The Dark Ages on Nov 16.\n\n🕒 Nov 13, 2026 · 00:07 (GMT+3)\n📰 Sources: <a href=\"https://www.gamespot.com/articles/new-doom-game-seemingly-announced-in-the-weirdest-way-after-half-the-studio-was-laid-off/\">GameSpot</a> · <a href=\"https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a> · <a href=\"https://x.com/bethesda\">@bethesda</a>\n\n🔥 React if you want a new Doom · 💬 Or is it Quake's turn?\n\n#Doom #idSoftware #Xbox #GamingNews"
+ },
+ "ref": "news-id-new-game",
+ "fallback_text": "🎮 <b>id Software confirms its next game is in the works</b>\n\nXbox CEO Asha Sharma revealed the Doom studio's new project in her Xbox 25th anniversary posts on X, and id followed up: teams in Texas and Frankfurt are on it, with Hugo Martin directing again. Details are far off – \"It'll be some time\" before more is shared. The news lands months after id lost over 130 staff in Xbox layoffs, while Slaughter Mode hits Doom: The Dark Ages on Nov 16.\n\n🕒 Nov 13, 2026 · 00:07 (GMT+3)\n📰 Sources: <a href=\"https://www.gamespot.com/articles/new-doom-game-seemingly-announced-in-the-weirdest-way-after-half-the-studio-was-laid-off/\">GameSpot</a> · <a href=\"https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a> · <a href=\"https://x.com/bethesda\">@bethesda</a>\n\n🔥 React if you want a new Doom · 💬 Or is it Quake's turn?\n\n#Doom #idSoftware #Xbox #GamingNews"
+}

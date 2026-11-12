@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/SV4EqmWFf4gJaw5ie5QeYJ-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 id Software is officially making a new game\nXbox boss Asha Sharma revealed it for Xbox's 25th; Hugo Martin directs again, teams in Texas and Frankfurt.\nNew Doom or something else?\nvia @GameSpot @pcgamer @Xbox @bethesda\n#Doom #GamingNews</code>"
+ },
+ "ref": "tweet-id-new-game",
+ "fallback_text": "<code>🚨 id Software is officially making a new game\nXbox boss Asha Sharma revealed it for Xbox's 25th; Hugo Martin directs again, teams in Texas and Frankfurt.\nNew Doom or something else?\nvia @GameSpot @pcgamer @Xbox @bethesda\n#Doom #GamingNews</code>"
+}

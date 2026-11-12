@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.dexerto.com/gta/grand-theft-auto-is-being-used-to-make-real-roads-safer-and-potentially-save-lives-3427936/</code>"
+ },
+ "ref": "tweetlink-gta-research"
+}

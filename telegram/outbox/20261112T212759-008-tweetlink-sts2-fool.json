@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/</code>"
+ },
+ "ref": "tweetlink-sts2-fool"
+}

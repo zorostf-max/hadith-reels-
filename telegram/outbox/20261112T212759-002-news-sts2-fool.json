@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/dbwXY4rU5fcyhE375gAEY9-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Slay the Spire 2 adds its first new character: The Fool</b>\n\nMega Crit's v0.113.0 beta brings The Fool, a bow-wielding musician and the first new hero of Early Access, plus two modes: Blitz, a fast map-free run where Gold doesn't matter, and Dread, a brutal challenge that demands Ascension on every character. The studio expects many changes before The Fool reaches the main branch. Opt in via Steam's \"public-beta\" branch.\n\n🕒 Nov 13, 2026 · 00:08 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/\">GamesRadar+</a>\n\n🃏 React if you're jumping into the beta · 💬 Blitz or Dread first?\n\n#SlayTheSpire2 #MegaCrit #Roguelike #GamingNews"
+ },
+ "ref": "news-sts2-fool",
+ "fallback_text": "🎮 <b>Slay the Spire 2 adds its first new character: The Fool</b>\n\nMega Crit's v0.113.0 beta brings The Fool, a bow-wielding musician and the first new hero of Early Access, plus two modes: Blitz, a fast map-free run where Gold doesn't matter, and Dread, a brutal challenge that demands Ascension on every character. The studio expects many changes before The Fool reaches the main branch. Opt in via Steam's \"public-beta\" branch.\n\n🕒 Nov 13, 2026 · 00:08 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/\">GamesRadar+</a>\n\n🃏 React if you're jumping into the beta · 💬 Blitz or Dread first?\n\n#SlayTheSpire2 #MegaCrit #Roguelike #GamingNews"
+}
