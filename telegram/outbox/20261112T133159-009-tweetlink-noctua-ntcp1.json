@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.tomshardware.com/pc-components/thermal-paste/noctua-brings-space-grade-carbon-nanotube-thermal-pad-to-amd-am5-and-am4-processors-promises-years-of-maintenance-free-performance-for-usd24-95</code>"
+ },
+ "ref": "tweetlink-noctua-ntcp1"
+}

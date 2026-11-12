@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/h5FQugqRYn3eeekkWheUzT-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 Humble Bundle just removed 2FA from accounts\nIts site redesign leaves your account behind a password only, so consider removing saved payment details for now.\n#HumbleBundle #PCGaming</code>"
+ },
+ "ref": "tweet-humble-2fa",
+ "fallback_text": "<code>🚨 Humble Bundle just removed 2FA from accounts\nIts site redesign leaves your account behind a password only, so consider removing saved payment details for now.\n#HumbleBundle #PCGaming</code>"
+}

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/fred_wester_header.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Paradox CEO Frederik Wester is stepping down</b>\n\nFrederik Wester has announced he is leaving the CEO role at Paradox Interactive after a combined decade and a half leading the company. The change comes after several rocky years for the publisher behind Stellaris, Europa Universalis, Crusader Kings 3 and Cities: Skylines.\n\n🕒 Nov 12, 2026 · 16:22 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down\">Eurogamer</a>\n\n🗺️ React if you play Paradox games · 💬 What should the next CEO fix first?\n\n#Paradox #Stellaris #GamingNews"
+ },
+ "ref": "news-paradox-ceo",
+ "fallback_text": "🎮 <b>Paradox CEO Frederik Wester is stepping down</b>\n\nFrederik Wester has announced he is leaving the CEO role at Paradox Interactive after a combined decade and a half leading the company. The change comes after several rocky years for the publisher behind Stellaris, Europa Universalis, Crusader Kings 3 and Cities: Skylines.\n\n🕒 Nov 12, 2026 · 16:22 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down\">Eurogamer</a>\n\n🗺️ React if you play Paradox games · 💬 What should the next CEO fix first?\n\n#Paradox #Stellaris #GamingNews"
+}
