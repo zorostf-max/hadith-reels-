@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/4GnaUAfUTuf6fDyBYhF97H-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>💸 A GTA 6 streaming kit that costs almost as much as a PS5\nElgato, Corsair and Twitch just launched the Elgato X Twitch Streaming Kit for console streamers.\nWould you pay that?\n#GTA6 #Twitch</code>"
+ },
+ "ref": "tweet-elgato-twitch-kit",
+ "fallback_text": "<code>💸 A GTA 6 streaming kit that costs almost as much as a PS5\nElgato, Corsair and Twitch just launched the Elgato X Twitch Streaming Kit for console streamers.\nWould you pay that?\n#GTA6 #Twitch</code>"
+}

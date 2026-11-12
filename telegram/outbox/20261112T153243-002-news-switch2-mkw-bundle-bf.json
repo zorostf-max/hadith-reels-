@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Switch-2-Mario-Kart-bundle.jpg",
+  "parse_mode": "HTML",
+  "caption": "💸 <b>Nintendo's Black Friday deal: Switch 2 + Mario Kart World back to $500</b>\n\nNintendo's 2026 Black Friday headliner is the Mario Kart World Switch 2 bundle at $500, down from the $550 it returned at after the original was discontinued. That's the same price as at launch in 2025, and it includes a digital copy of the game plus three months of Nintendo Switch Online.\n\n🕒 Nov 12, 2026 · 17:55 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/mario-kart-world-switch-2-bundle-black-friday-deal-brings-the-price-back-to-2025-levels/\">GameSpot</a>\n\n🏁 React if you're finally grabbing a Switch 2 · 💬 Real deal or just the old price?\n\n#NintendoSwitch2 #BlackFriday #GamingNews"
+ },
+ "ref": "news-switch2-mkw-bundle-bf",
+ "fallback_text": "💸 <b>Nintendo's Black Friday deal: Switch 2 + Mario Kart World back to $500</b>\n\nNintendo's 2026 Black Friday headliner is the Mario Kart World Switch 2 bundle at $500, down from the $550 it returned at after the original was discontinued. That's the same price as at launch in 2025, and it includes a digital copy of the game plus three months of Nintendo Switch Online.\n\n🕒 Nov 12, 2026 · 17:55 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/mario-kart-world-switch-2-bundle-black-friday-deal-brings-the-price-back-to-2025-levels/\">GameSpot</a>\n\n🏁 React if you're finally grabbing a Switch 2 · 💬 Real deal or just the old price?\n\n#NintendoSwitch2 #BlackFriday #GamingNews"
+}

@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "<code>https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/</code>"
+ },
+ "ref": "tweetlink-marvel-rivals-mods"
+}

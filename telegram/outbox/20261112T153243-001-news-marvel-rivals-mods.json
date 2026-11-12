@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Ntjboe9mjYCJ7PqcNitNF7-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Marvel Rivals cracks down on mods and configs that give a combat edge</b>\n\nThe Marvel Rivals team has made clear that using mods or config files to gain an unfair advantage in fights is off-limits. That leaves players who tweak files to fix stuttering in a tough spot, but Guangyun Chen promises an \"optimised client\" to reduce stutter and performance issues.\n\n🕒 Nov 12, 2026 · 17:26 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/\">PC Gamer</a>\n\n👍 Like if stutter is ruining your matches · 💬 Fair rule or too strict?\n\n#MarvelRivals #PCGaming #GamingNews"
+ },
+ "ref": "news-marvel-rivals-mods",
+ "fallback_text": "🎮 <b>Marvel Rivals cracks down on mods and configs that give a combat edge</b>\n\nThe Marvel Rivals team has made clear that using mods or config files to gain an unfair advantage in fights is off-limits. That leaves players who tweak files to fix stuttering in a tough spot, but Guangyun Chen promises an \"optimised client\" to reduce stutter and performance issues.\n\n🕒 Nov 12, 2026 · 17:26 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/\">PC Gamer</a>\n\n👍 Like if stutter is ruining your matches · 💬 Fair rule or too strict?\n\n#MarvelRivals #PCGaming #GamingNews"
+}

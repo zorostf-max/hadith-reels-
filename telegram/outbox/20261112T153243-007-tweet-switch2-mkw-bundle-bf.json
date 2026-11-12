@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Switch-2-Mario-Kart-bundle.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>💰 Switch 2 + Mario Kart World drops back to $500 for Black Friday\nThat's $50 off the $550 price and the same as the 2025 launch bundle, with 3 months of Switch Online included.\nReal deal or just the old price?\n#NintendoSwitch2 #BlackFriday</code>"
+ },
+ "ref": "tweet-switch2-mkw-bundle-bf",
+ "fallback_text": "<code>💰 Switch 2 + Mario Kart World drops back to $500 for Black Friday\nThat's $50 off the $550 price and the same as the 2025 launch bundle, with 3 months of Switch Online included.\nReal deal or just the old price?\n#NintendoSwitch2 #BlackFriday</code>"
+}
