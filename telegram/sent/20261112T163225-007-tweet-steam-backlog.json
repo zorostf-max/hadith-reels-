@@ -1,0 +1,11 @@
+{
+ "job": "20261112T163225-007-tweet-steam-backlog.json",
+ "ref": "tweet-steam-backlog",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T16:32:50Z",
+ "message_id": 350,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

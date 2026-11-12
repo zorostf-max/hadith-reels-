@@ -1,0 +1,11 @@
+{
+ "job": "20261112T163225-004-tweetlink-gta6-map-leak.json",
+ "ref": "tweetlink-gta6-map-leak",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T16:32:45Z",
+ "message_id": 347,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

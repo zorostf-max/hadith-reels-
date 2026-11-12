@@ -1,0 +1,11 @@
+{
+ "job": "20261112T163225-000-news-gta6-map-leak.json",
+ "ref": "news-gta6-map-leak",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T16:32:39Z",
+ "message_id": 171,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

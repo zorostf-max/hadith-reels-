@@ -1,0 +1,11 @@
+{
+ "job": "20261112T163225-001-news-big-walk-ai.json",
+ "ref": "news-big-walk-ai",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-12T16:32:40Z",
+ "message_id": 172,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

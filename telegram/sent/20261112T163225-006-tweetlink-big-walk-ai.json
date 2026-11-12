@@ -1,0 +1,11 @@
+{
+ "job": "20261112T163225-006-tweetlink-big-walk-ai.json",
+ "ref": "tweetlink-big-walk-ai",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-12T16:32:48Z",
+ "message_id": 349,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
