@@ -60,11 +60,18 @@ Telegram goes ONLY through the GitHub bridge (`telegram/README.md`): queue jobs 
 
 1. `git pull`. If `seerah.pending` is missing, its `publish_date` is not today, or status is not `video_sent`, stop quietly.
 2. Refresh the inbox; read replies after `preview_message_ids[0]`; save them in `pending.messages`.
-3. `ok` / `yes` / `موافق` → schedule with Metricool `createScheduledPost` (blogId `state.json → metricool_blog_id`), ONE post, providers instagram + youtube + tiktok, at **today 10:00 Europe/Istanbul**:
+3. `ok` / `yes` / `موافق` → schedule with Metricool `createScheduledPost` (blogId `state.json → metricool_blog_id`), ONE post, providers instagram + youtube (TikTok gets its own post, see below), at **today 10:00 Europe/Istanbul**:
    - media: the commit-pinned raw URL of `episode.mp4`; text: `caption.txt` as-is
    - instagramData `{"type":"REEL","showReelOnFeed":true}`
    - youtubeData `{"title":"<curiosity hook from the episode> | السيرة النبوية للأطفال – الحلقة N"` (owner's request 2026-11-13: a question or striking moment first, e.g. «الفيل الذي رفض أن يتقدّم نحو الكعبة… ماذا حدث لجيش أبرهة؟ | السيرة النبوية للأطفال – الحلقة 1»; only what the sources say; ≤100 chars),"type":"short","privacy":"public","category":"EDUCATION","madeForKids":false,"tags":[...]}`
    - tiktokData `{"title":"السيرة النبوية · الحلقة N: <العنوان>","privacyOption":"PUBLIC_TO_EVERYONE","autoAddMusic":false}`
+   **TikTok gets its own post and its own caption (owner's request 2026-11-13, TikTok plan):** do NOT put tiktok in the same Metricool post. Schedule a SECOND `createScheduledPost` at the same time with providers **tiktok only**, the same media (and `videoThumbnailUrl` if used above), and as `text` the TikTok caption below; the first post keeps the other providers. TikTok caption (≤ 600 characters — TikTok search reads the first line and the hashtags, people do not read long text):
+   - line 1: the hook question or striking moment + one emoji, with the words people search for (e.g. «حديث نبوي», «قصة من صحيح البخاري», «السيرة النبوية», the topic word);
+   - line 2: «💬 » + the engagement question;
+   - line 3: the series line («📖 الحديث N من صحيح البخاري بالترتيب» / «🎬 السيرة النبوية للأطفال · الحلقة N» / «🕌 قصص من صحيح البخاري · القصة N») + «تابعنا للحلقة القادمة 🤍»;
+   - line 4: «📚 » + the short source (book + number), no long text;
+   - line 5: 4–5 hashtags only, relevant ones (e.g. #حديث_نبوي #صحيح_البخاري #قصص_اسلامية #السيرة_النبوية #اسلام), never a long tag list.
+   Save it next to the main caption as `<name>.tiktok.txt` and commit it. tiktokData stays as below (no added music).
    In the confirmation to the owner add: «📂 أضف الحلقة N إلى قائمة التشغيل "السيرة النبوية للأطفال | الحلقات بالترتيب" في يوتيوب» (Metricool cannot set playlists).
    Then queue the same video + caption for the Telegram channel `state.json → telegram_channel`: `tg.py queue sendVideo '{"chat_id":"@HadithDailyAr","video":"<url>","caption":"<caption>","supports_streaming":true}' --ref seerah-epNN --not-before <today>T06:55:00Z` (if the caption is over 1024 characters, put the first part in the video caption and queue the rest as a `sendMessage` with the same `--not-before`). Commit + push.
    Record in `seerah.epNN` (`publish_at`, `metricool_post_id`, `telegram_job`, `approved`), set status `scheduled`, `next_episode` = N+1, `next_topic` = the topic that follows in الرحيق المختوم, and send the owner «✅ جُدولت الحلقة N لليوم الساعة ١٠:٠٠ على إنستغرام ويوتيوب وتيك توك وقناة تيليغرام.».

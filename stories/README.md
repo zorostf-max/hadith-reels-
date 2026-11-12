@@ -49,6 +49,7 @@ When the list runs out, propose the next 12 to the owner on Telegram (story hadi
    - Images: `prompt`s with ep01's style text (vertical 9:16, warm soft flat storybook, faceless distant figures, no text). **Never depict the Prophet ﷺ, any prophet, the Companions' faces or angels**; for stories about prophets (e.g. موسى والخضر) show places, objects, light, landscapes, distant faceless figures from behind.
    - `sources`: «صحيح البخاري، كتاب …، باب …، ح (رقم)» + the explanation used.
    - **Length:** spoken text for a finished video of **1:30–2:30** (YouTube Shorts allow 3:00).
+   - **Two-part stories (TikTok plan, 2026-11-13):** if a story cannot be told well in 2:30 (e.g. موسى والخضر, أصحاب الغار with all three prayers in full), split it into «الجزء الأول» (Saturday) and «الجزء الثاني» (Sunday): Part 1 stops at the moment of highest tension and its last line is «وماذا حدث بعد ذلك؟ نكملها غدًا إن شاء الله»; Part 2 opens with a one-sentence recap. Each part is a full episode in this pipeline (its own script, approval and video); both scripts may be sent in Thursday's T1 run. Titles say «(الجزء 1)» / «(الجزء 2)».
 4. Commit + push. Send the script for review: one `sendMessage` (split if over 3,500 characters) with the title, each scene as «🖼 <المشهد>» + «🎙 الراوي: <النص>», «📚 المصادر», then:
    «📝 سكربت القصة N (<العنوان>) — تُنشر <اليوم والتاريخ> الساعة ١٤:٠٠.
    ✅ للموافقة أرسل: ok
@@ -76,11 +77,18 @@ When the list runs out, propose the next 12 to the owner on Telegram (story hadi
 
 1. `git pull`. If `stories.pending` is missing, its `publish_date` is not today, or status is not `video_sent`, stop quietly.
 2. Refresh the inbox; read replies after `preview_message_ids[0]`; save them.
-3. `ok` → Metricool `createScheduledPost` (blogId `state.json → metricool_blog_id`), ONE post, providers instagram + youtube + tiktok, **today 14:00 Europe/Istanbul**:
+3. `ok` → Metricool `createScheduledPost` (blogId `state.json → metricool_blog_id`), ONE post, providers instagram + youtube (TikTok gets its own post, see below), **today 14:00 Europe/Istanbul**:
    - media: commit-pinned raw URL of `episode.mp4`; text: `caption.txt` as-is; `videoThumbnailUrl`: commit-pinned raw URL of `cover.jpg` (only if the file exists)
    - instagramData `{"type":"REEL","showReelOnFeed":true}`
    - youtubeData `{"title":"<curiosity hook> | قصة من صحيح البخاري" (≤100 chars; a striking moment then a question or a surprise, like «ثلاثة رجال سدّت عليهم صخرةٌ باب الغار… فكيف نجوا؟ 😳 | قصة من صحيح البخاري»; only what the hadith says),"type":"short","privacy":"public","category":"EDUCATION","madeForKids":false,"tags":[...]}`
    - tiktokData `{"title":"<same hook, shorter>","privacyOption":"PUBLIC_TO_EVERYONE","autoAddMusic":false}`
+   **TikTok gets its own post and its own caption (owner's request 2026-11-13, TikTok plan):** do NOT put tiktok in the same Metricool post. Schedule a SECOND `createScheduledPost` at the same time with providers **tiktok only**, the same media (and `videoThumbnailUrl` if used above), and as `text` the TikTok caption below; the first post keeps the other providers. TikTok caption (≤ 600 characters — TikTok search reads the first line and the hashtags, people do not read long text):
+   - line 1: the hook question or striking moment + one emoji, with the words people search for (e.g. «حديث نبوي», «قصة من صحيح البخاري», «السيرة النبوية», the topic word);
+   - line 2: «💬 » + the engagement question;
+   - line 3: the series line («📖 الحديث N من صحيح البخاري بالترتيب» / «🎬 السيرة النبوية للأطفال · الحلقة N» / «🕌 قصص من صحيح البخاري · القصة N») + «تابعنا للحلقة القادمة 🤍»;
+   - line 4: «📚 » + the short source (book + number), no long text;
+   - line 5: 4–5 hashtags only, relevant ones (e.g. #حديث_نبوي #صحيح_البخاري #قصص_اسلامية #السيرة_النبوية #اسلام), never a long tag list.
+   Save it next to the main caption as `<name>.tiktok.txt` and commit it. tiktokData stays as below (no added music).
    Then queue the same video + caption for @HadithDailyAr: `tg.py queue sendVideo '{"chat_id":"@HadithDailyAr","video":"<url>","caption":"<caption>","supports_streaming":true}' --ref story-stNN --not-before <today>T10:55:00Z` (split as in seerah if the caption is over 1024 characters). The bridge sends due jobs on its own 15-minute schedule and on the hourly tick pushed by the Level Up task (:25), so the channel post goes out between 14:00 and ~14:25; that is fine.
    Record `stories.published.stNN` (`publish_at`, `metricool_post_id`, `telegram_job`, `approved`), status `scheduled`, `next_story` = N+1, and tell the owner «✅ جُدولت القصة N لليوم الساعة ١٤:٠٠ على إنستغرام ويوتيوب وتيك توك وقناة تيليغرام.» + «📂 أضف القصة إلى قائمة التشغيل "قصص من صحيح البخاري" في يوتيوب (أنشئها عند أول قصة إن لم تكن موجودة).»
 4. `no <note>` → status `skipped`, keep the note; the next T1 redoes the story with it; tell the owner.
