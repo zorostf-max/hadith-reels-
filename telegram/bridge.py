@@ -22,7 +22,7 @@ OUTBOX, SENT = os.path.join(TG, "outbox"), os.path.join(TG, "sent")
 INBOX = os.path.join(TG, "inbox.jsonl")
 CURSOR = os.path.join(TG, "cursor.json")
 ALLOWED = {"sendMessage", "sendPhoto", "sendVideo", "sendDocument",
-           "sendMediaGroup", "editMessageText", "deleteMessage", "getChat",
+           "sendMediaGroup", "editMessageText", "editMessageCaption", "deleteMessage", "getChat",
            "getChatMember", "getChatAdministrators", "getMe",
            "setChatPhoto", "setChatDescription", "setChatTitle",
            "pinChatMessage"}

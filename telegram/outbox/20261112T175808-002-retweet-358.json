@@ -1,0 +1,10 @@
+{
+ "method": "editMessageCaption",
+ "params": {
+  "chat_id": "6875821347",
+  "message_id": 358,
+  "caption": "<code>🚨 1 in 3 game developers were laid off in the past two years\nA new GDC survey: over half are still out of work, and a quarter have sent 100+ job applications.\nvia @VGC_News · @Official_GDC\n#GameDev #GDC #GamingNews</code>",
+  "parse_mode": "HTML"
+ },
+ "ref": "retweet-358"
+}
