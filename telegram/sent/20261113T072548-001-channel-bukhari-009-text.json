@@ -1,0 +1,11 @@
+{
+ "job": "20261113T072548-001-channel-bukhari-009-text.json",
+ "ref": "channel-bukhari-009-text",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-13T07:26:06Z",
+ "message_id": 21,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
