@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/WoW-Forever-Launch-Stats-Undead-Paladin.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>WoW: Forever's first-week stats reveal the most popular races and classes</b>\n\nOne week after its November 4 launch, World of Warcraft: Forever has its first player stats. Blizzard says it was the biggest launch in WoW history by concurrent and returning players, but has not shared class or race numbers, so the breakdown comes from tracking site Raider.IO.\n\n🕒 Nov 13, 2026 · 22:15 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/you-can-probably-guess-wow-forevers-most-popular-race-class-and-faction/\">GameSpot</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a> · <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n⚔️ React if you're playing Forever · 💬 Horde or Alliance?\n\n#WorldOfWarcraft #WoWForever #Blizzard #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-wow-forever-stats",
+ "fallback_text": "🎮 <b>WoW: Forever's first-week stats reveal the most popular races and classes</b>\n\nOne week after its November 4 launch, World of Warcraft: Forever has its first player stats. Blizzard says it was the biggest launch in WoW history by concurrent and returning players, but has not shared class or race numbers, so the breakdown comes from tracking site Raider.IO.\n\n🕒 Nov 13, 2026 · 22:15 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/you-can-probably-guess-wow-forevers-most-popular-race-class-and-faction/\">GameSpot</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a> · <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n⚔️ React if you're playing Forever · 💬 Horde or Alliance?\n\n#WorldOfWarcraft #WoWForever #Blizzard #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
