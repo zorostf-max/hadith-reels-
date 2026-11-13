@@ -1,0 +1,11 @@
+{
+ "job": "20261113T113222-004-news-nvidia-smuggling.json",
+ "ref": "news-nvidia-smuggling",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T11:32:45Z",
+ "message_id": 206,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
