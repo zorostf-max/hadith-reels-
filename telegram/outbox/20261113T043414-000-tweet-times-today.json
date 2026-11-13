@@ -1,0 +1,8 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "text": "⏰ مواعيد تغريدات اليوم (كل ساعتين):\n08:00 — Wolfenstein 3\n10:00 — GTA 6 Burger Shot\n12:00 — Fable"
+ },
+ "ref": "tweet-times-today"
+}
