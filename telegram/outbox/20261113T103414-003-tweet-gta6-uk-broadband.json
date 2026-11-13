@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/gta-6-no-internet.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 GTA 6 is breaking pre-order records on PlayStation and Xbox stores\nA UK broadband operator says it's bracing for the launch-week download spike.\nvia @eurogamer @RockstarGames\n#GTA6 #GamingNews</code>"
+ },
+ "ref": "tweet-gta6-uk-broadband",
+ "fallback_text": "<code>🚨 GTA 6 is breaking pre-order records on PlayStation and Xbox stores\nA UK broadband operator says it's bracing for the launch-week download spike.\nvia @eurogamer @RockstarGames\n#GTA6 #GamingNews</code>",
+ "not_before": "2026-11-13T18:00:00Z"
+}

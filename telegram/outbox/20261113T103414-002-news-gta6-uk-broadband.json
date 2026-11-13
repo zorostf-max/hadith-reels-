@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/gta-6-no-internet.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 launch: UK broadband operator braces for the download rush</b>\n\nGTA 6 is breaking pre-order records on the PlayStation and Xbox stores, with launch now just a week away. A UK broadband operator says the game \"has been on our radar for a long time\" and is preparing for a spike in network load around release.\n\n🕒 Nov 13, 2026 · 12:42 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-internet-uk-broadband-ofcom-openreach\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n📥 Pre-loading for day one? React 🔥 and tell us your plan 💬\n\n#GTA6 #RockstarGames #PS5 #XboxSeriesX #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-gta6-uk-broadband",
+ "fallback_text": "🎮 <b>GTA 6 launch: UK broadband operator braces for the download rush</b>\n\nGTA 6 is breaking pre-order records on the PlayStation and Xbox stores, with launch now just a week away. A UK broadband operator says the game \"has been on our radar for a long time\" and is preparing for a spike in network load around release.\n\n🕒 Nov 13, 2026 · 12:42 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-internet-uk-broadband-ofcom-openreach\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n📥 Pre-loading for day one? React 🔥 and tell us your plan 💬\n\n#GTA6 #RockstarGames #PS5 #XboxSeriesX #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
