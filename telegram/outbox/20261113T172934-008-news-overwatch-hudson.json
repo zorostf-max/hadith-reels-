@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/3Gjr7LFEeaPTb7rKe6a2xh-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Overwatch's next hero leaks: Hudson, an omnic detective, joins DPS in Season 6</b>\n\nAssociate game director Alec Dawson let slip on a stream that the hero was first planned as a support before moving to DPS, and game director Aaron Keller then named him: Hudson. Keller says Hudson scored by far the highest of any hero Blizzard has playtested, ahead of Juno. He is the last of the 10 heroes teased in this year's Spotlight.\n\n🕒 Nov 13, 2026 · 20:15 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/overwatchs-creative-director-accidentally-leaks-the-name-of-season-6s-upcoming-hero-and-reveals-that-he-got-the-highest-scores-of-any-hero-that-weve-tested/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n🕵️ React if you'll main Hudson · 💬 Another DPS — good or bad?\n\n#Overwatch #Blizzard #Season6 #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-overwatch-hudson",
+ "fallback_text": "🎮 <b>Overwatch's next hero leaks: Hudson, an omnic detective, joins DPS in Season 6</b>\n\nAssociate game director Alec Dawson let slip on a stream that the hero was first planned as a support before moving to DPS, and game director Aaron Keller then named him: Hudson. Keller says Hudson scored by far the highest of any hero Blizzard has playtested, ahead of Juno. He is the last of the 10 heroes teased in this year's Spotlight.\n\n🕒 Nov 13, 2026 · 20:15 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/overwatchs-creative-director-accidentally-leaks-the-name-of-season-6s-upcoming-hero-and-reveals-that-he-got-the-highest-scores-of-any-hero-that-weve-tested/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n🕵️ React if you'll main Hudson · 💬 Another DPS — good or bad?\n\n#Overwatch #Blizzard #Season6 #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
