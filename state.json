@@ -124,7 +124,17 @@
   ],
   "slot": "14:00",
   "next_story": 1,
-  "pending": null,
+  "pending": {
+   "story": 1,
+   "publish_date": "2026-11-15",
+   "status": "script_sent",
+   "script_message_ids": [
+    407
+   ],
+   "preview_message_ids": [],
+   "notes": [],
+   "messages": []
+  },
   "published": {}
  }
 }
