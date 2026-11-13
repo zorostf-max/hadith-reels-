@@ -315,3 +315,4 @@
 2026-11-13 13:34	Eurogamer (same story)	https://www.eurogamer.net/halo-campaign-evovled-firefight-mode
 2026-11-13 13:34	VGC (same story)	https://www.videogameschronicle.com/news/machinegames-has-finally-officially-confirmed-that-wolfenstein-3-is-in-development/
 2026-11-13 13:34	GameSpot (same story)	https://www.gamespot.com/articles/wolfenstein-3-is-officially-in-production-at-machinegames/
+2026-11-13 13:34	Eurogamer	https://www.eurogamer.net/gta-6-internet-uk-broadband-ofcom-openreach
