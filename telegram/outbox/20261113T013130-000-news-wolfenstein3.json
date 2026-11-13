@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/szFJTTSq3qHNtEsKWovxej-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Wolfenstein 3 is officially in the works at MachineGames</b>\n\nXbox CEO Asha Sharma has confirmed that MachineGames is developing the next Wolfenstein, calling the series one of gaming's most important franchises. She said the studio \"has done remarkable work\" on the game. It is the first official word on a third mainline entry since Wolfenstein II: The New Colossus, and follows MachineGames' work on Indiana Jones and the Great Circle.\n\n🕒 Nov 13, 2026 · 03:37 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/fps/wolfenstein-3-is-in-the-works-at-machinegames-xbox-ceo-announces-one-of-gamings-most-important-franchises/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a> · <a href=\"https://x.com/bethesda\">@bethesda</a>\n\n🔥 React if you're ready to fight back as B.J. again · 💬 What do you want from Wolfenstein 3?\n\n#Wolfenstein3 #MachineGames #Xbox #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-wolfenstein3",
+ "fallback_text": "🎮 <b>Wolfenstein 3 is officially in the works at MachineGames</b>\n\nXbox CEO Asha Sharma has confirmed that MachineGames is developing the next Wolfenstein, calling the series one of gaming's most important franchises. She said the studio \"has done remarkable work\" on the game. It is the first official word on a third mainline entry since Wolfenstein II: The New Colossus, and follows MachineGames' work on Indiana Jones and the Great Circle.\n\n🕒 Nov 13, 2026 · 03:37 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/fps/wolfenstein-3-is-in-the-works-at-machinegames-xbox-ceo-announces-one-of-gamings-most-important-franchises/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a> · <a href=\"https://x.com/bethesda\">@bethesda</a>\n\n🔥 React if you're ready to fight back as B.J. again · 💬 What do you want from Wolfenstein 3?\n\n#Wolfenstein3 #MachineGames #Xbox #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
