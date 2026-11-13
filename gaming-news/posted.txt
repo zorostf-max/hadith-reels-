@@ -337,3 +337,11 @@
 2026-11-13 17:26	GameSpot	https://www.gamespot.com/articles/xbox-says-putting-ads-in-games-something-no-one-likes-could-help-save-gaming/
 2026-11-13 17:55	PC Gamer (same story)	https://www.pcgamer.com/hardware/graphics-cards/clear-national-security-concerns-that-need-to-be-addressed-immediately-new-letters-to-jensen-huang-from-congress-strike-a-tougher-tone-for-the-ex-nvidia-ceo/
 2026-11-13 17:55	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum
+2026-11-13 17:47	GameSpot	https://www.gamespot.com/articles/the-ps5s-new-graphics-upscaling-trick-is-spreading-to-more-games/
+2026-11-13 18:13	GameSpot	https://www.gamespot.com/articles/gta-6-in-game-tv-show-macca-friends-looks-ridiculous-in-the-best-way/
+2026-11-13 18:23	PC Gamer	https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/
+2026-11-13 18:48	PC Gamer	https://www.pcgamer.com/hardware/chipmaking-giant-tsmc-discovers-major-employee-data-leak-reports-say-info-was-up-for-sale-for-three-bitcoin-on-shady-forums/
+2026-11-13 19:03	IGN (same story)	https://www.ign.com/articles/the-legend-of-zelda-series-was-in-dire-straights-before-breath-of-the-wild-former-nintendo-marketing-leads-say
+2026-11-13 19:03	Eurogamer (same story)	https://www.eurogamer.net/gta-6-map-leak-online-collectors-edition
+2026-11-13 19:03	Eurogamer (same story)	https://www.eurogamer.net/slay-the-spire-2-biggest-update-new-character-the-fool
+2026-11-13 19:03	Eurogamer (same story)	https://www.eurogamer.net/gdc-report-40-percent-developers-generative-ai
