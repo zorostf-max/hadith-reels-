@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/nLRUSe282Y7dBidATad2pm-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Crimson Desert studio Pearl Abyss is doubling down on AI</b>\n\nPearl Abyss says it will expand its use of AI \"throughout our entire development pipeline\". That comes after the studio apologized earlier this year when AI-generated art was found in Crimson Desert, so the backlash has not slowed its plans.\n\n🕒 Nov 14, 2026 · 01:17 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/\">PC Gamer</a>\n\n🤖 Good move or red flag? React 👍 or 👎 · 💬 Tell us your take\n\n#CrimsonDesert #PearlAbyss #AIinGames #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-pearl-abyss-ai",
+ "fallback_text": "🎮 <b>Crimson Desert studio Pearl Abyss is doubling down on AI</b>\n\nPearl Abyss says it will expand its use of AI \"throughout our entire development pipeline\". That comes after the studio apologized earlier this year when AI-generated art was found in Crimson Desert, so the backlash has not slowed its plans.\n\n🕒 Nov 14, 2026 · 01:17 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/\">PC Gamer</a>\n\n🤖 Good move or red flag? React 👍 or 👎 · 💬 Tell us your take\n\n#CrimsonDesert #PearlAbyss #AIinGames #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
