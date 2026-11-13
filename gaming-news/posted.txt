@@ -354,3 +354,8 @@
 2026-11-13 19:33	GamesRadar+	https://www.gamesradar.com/games/open-world/despite-crimson-deserts-ai-backlash-pearl-abyss-is-now-implementing-the-tech-throughout-our-entire-development-pipeline-including-for-upcoming-pokemon-like-dokev/
 2026-11-13 19:45	IGN (same story)	https://www.ign.com/articles/gta-6-has-a-whole-animated-tv-series-you-can-watch-in-game
 2026-11-13 19:45	VGC (same story)	https://www.videogameschronicle.com/news/6-more-games-receive-ps5-performance-updates-via-qssr-including-arc-raiders-and-control-resonant/
+2026-11-13 20:12	PC Gamer	https://www.pcgamer.com/games/grand-theft-auto/22-years-after-the-hot-coffee-controversy-uk-politician-says-grand-theft-auto-6-is-something-that-we-can-be-really-proud-of/
+2026-11-13 20:12	GamesRadar+	https://www.gamesradar.com/games/rpg/the-blood-of-dawnwalker-is-getting-new-game-next-week-with-patch-bringing-the-level-cap-for-the-ex-witcher-devs-vampire-rpg-up-to-100/
+2026-11-13 20:15	PC Gamer	https://www.pcgamer.com/games/fps/overwatchs-creative-director-accidentally-leaks-the-name-of-season-6s-upcoming-hero-and-reveals-that-he-got-the-highest-scores-of-any-hero-that-weve-tested/
+2026-11-13 20:30	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/sonys-base-ps5-ai-upscaling-tech-is-making-that-usd900-ps5-pro-price-look-worse-as-marvels-spider-man-2-no-mans-sky-and-more-get-visual-updates/
+2026-11-13 20:30	GameSpot (same story)	https://www.gamespot.com/articles/official-zelda-website-raises-eyebrows-by-labeling-3ds-game-as-playable-on-switch/
