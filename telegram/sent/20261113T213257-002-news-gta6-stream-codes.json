@@ -1,0 +1,11 @@
+{
+ "job": "20261113T213257-002-news-gta6-stream-codes.json",
+ "ref": "news-gta6-stream-codes",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T21:33:25Z",
+ "message_id": 238,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261113T213257-004-news-r6-vegas.json",
+ "ref": "news-r6-vegas",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T21:33:29Z",
+ "message_id": 240,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261113T213258-006-news-nvidia-arm-ceo.json",
+ "ref": "news-nvidia-arm-ceo",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T21:33:32Z",
+ "message_id": 242,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
