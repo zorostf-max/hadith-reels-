@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Vice_City_03.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Can GTA 6 justify an $80 price tag? An expert thinks so</b>\n\nGTA 6 launches November 19 at a minimum of $80, which is $20 more than GTA 5 cost in 2013 and $10 above many current AAA releases. GameSpot asked an industry expert whether $80 is becoming the new standard, and the answer is that GTA 6 and a few other blockbusters can justify it.\n\n🕒 Nov 13, 2026 · 19:37 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-and-these-other-games-can-justify-an-80-price-expert-says/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n💰 Is $80 fair for GTA 6? React 👍 or 👎 and tell us why\n\n#GTA6 #Rockstar #GamePrices #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-80-price",
+ "fallback_text": "🎮 <b>Can GTA 6 justify an $80 price tag? An expert thinks so</b>\n\nGTA 6 launches November 19 at a minimum of $80, which is $20 more than GTA 5 cost in 2013 and $10 above many current AAA releases. GameSpot asked an industry expert whether $80 is becoming the new standard, and the answer is that GTA 6 and a few other blockbusters can justify it.\n\n🕒 Nov 13, 2026 · 19:37 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-and-these-other-games-can-justify-an-80-price-expert-says/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n💰 Is $80 fair for GTA 6? React 👍 or 👎 and tell us why\n\n#GTA6 #Rockstar #GamePrices #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

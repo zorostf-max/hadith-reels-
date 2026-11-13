@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/HT41EXunMqRpZvDZDsbfd7.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>Hype Tech enters Counter-Strike with the ex-Zero Tenacity roster</b>\n\nHype Tech has picked up the former Zero Tenacity lineup, marking the organisation's entry into Counter-Strike. HLTV describes the squad as the region's best team, and it now has organisational backing once again.\n\n🕒 Nov 13, 2026 · 21:15 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45985/hype-tech-enters-counter-strike-with-ex-zero-tenacity-roster\">HLTV</a>\n\n💪 Good move for the scene? React 👍 and drop your prediction below\n\n#CS2 #HypeTech #Esports #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-hypetech-cs2",
+ "fallback_text": "🏆 <b>Hype Tech enters Counter-Strike with the ex-Zero Tenacity roster</b>\n\nHype Tech has picked up the former Zero Tenacity lineup, marking the organisation's entry into Counter-Strike. HLTV describes the squad as the region's best team, and it now has organisational backing once again.\n\n🕒 Nov 13, 2026 · 21:15 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45985/hype-tech-enters-counter-strike-with-ex-zero-tenacity-roster\">HLTV</a>\n\n💪 Good move for the scene? React 👍 and drop your prediction below\n\n#CS2 #HypeTech #Esports #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
