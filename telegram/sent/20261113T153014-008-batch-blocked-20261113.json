@@ -1,0 +1,11 @@
+{
+ "job": "20261113T153014-008-batch-blocked-20261113.json",
+ "ref": "batch-blocked-20261113",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-13T15:30:40Z",
+ "message_id": 406,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
