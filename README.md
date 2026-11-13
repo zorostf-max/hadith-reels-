@@ -9,6 +9,22 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 - `state.json`: shared state between scheduled runs. Always pull before reading it, and commit + push after changing it.
 - Public video URL used for Telegram and publishing: `https://raw.githubusercontent.com/zorostf-max/hadith-reels-/main/videos/bukhari-NNN.mp4`
 
+
+## Links block (owner's request 2026-11-13, after YouTube enabled advanced features: links in descriptions are now clickable)
+
+Every caption/description of every series (hadith, seerah episodes and compilations, stories) puts this block **right before the hashtags** (TikTok-only captions excepted — they stay short):
+
+```
+━━━━━━━━━━
+📲 تابعنا:
+▶️ يوتيوب: https://www.youtube.com/@hadithdailybukhari
+📸 إنستغرام: https://www.instagram.com/hadithdaily.bukhari
+🎵 تيك توك: https://www.tiktok.com/@hadithdaily.bukhari
+✈️ تيليغرام: https://t.me/HadithDailyAr
+🔔 <series line>
+```
+`<series line>`: hadith «اشترك ليصلك حديث جديد كل اثنين وأربعاء وجمعة» · seerah «اشترك ليصلك كل جديد: حلقة سيرة كل ثلاثاء وخميس» · stories «اشترك ليصلك كل جديد: قصة كل سبت وأحد». The channel is connected to vidIQ (channelId `UCJJ_4UdsjkE92RvBUEbnjrA`), so `vidiq_update_video` can fix a published video's title/description if needed.
+
 ---
 
 **Publishing days (owner's decision 2026-11-10): hadith videos are published on Monday, Wednesday and Friday only** (`state.json → publish_days`), 2 videos per day at 10:00 and 18:00. Tuesday and Thursday belong to the seerah series; nothing is published at the weekend. "The next publishing day" below always means the next Monday, Wednesday or Friday after today (Mon → Wed, Wed → Fri, Fri → Mon) — never "today + 2 days".
@@ -37,7 +53,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
    - **If the download is refused** (HTTP 403 from the sandbox proxy — the host `elevenlabsusercontent.com` must be allowed in the account's network settings), do not retry: render the video silent as before, and say in the Telegram preview message «⚠️ لم يُضف التعليق الصوتي: تحميل الصوت محجوب في إعدادات الشبكة».
    - The narrated video must still be ≤ 55 s: if it is longer, shorten the point or keep only the Prophet's words of the matn, regenerate only the changed clip, and render again.
 5. Run `--check`, look at the stills (text must fit inside the arch, nothing cut off, the background matches its theme), fix the data if needed, then render the mp4. Keep files under 19 MB.
-6. Write `videos/bukhari-NNN.txt` caption (one text goes to all three platforms, and TikTok/Reels show only the first lines, so those lines must carry the post): **first line = the hook question + « 🤔»** (same wording as `hook`, without HTML), **second line = «💬 » + the closing question**, blank line, title line, hadith text, «من شرح الشيخ ابن عثيمين رحمه الله:» numbered points (the video shows one; the caption may list up to 3), then «📚 المصادر:» with exact sources (book, chapter, hadith number; the sharh book you used), then one call-to-action line (owner's request 2026-11-11), varied from video to video, e.g. «❤️ إن نفعك الحديث فاضغط إعجاب وشاركه، واكتب جوابك في التعليقات 👇» or «🤍 شارك الأجر: أعجب بالمنشور وانشره، وأخبرنا في التعليقات 👇», then 3–5 hashtags (topic first, e.g. #صحيح_البخاري #حديث_نبوي + 1–3 topic tags). **Instagram allows at most 5 hashtags per post (enforced since Dec 2025; more = reduced reach), so use 3–5 relevant hashtags, never more.** Max 2,000 characters.
+6. Write `videos/bukhari-NNN.txt` caption (one text goes to all three platforms, and TikTok/Reels show only the first lines, so those lines must carry the post): **first line = the hook question + « 🤔»** (same wording as `hook`, without HTML), **second line = «💬 » + the closing question**, blank line, title line, hadith text, «من شرح الشيخ ابن عثيمين رحمه الله:» numbered points (the video shows one; the caption may list up to 3), then «📚 المصادر:» with exact sources (book, chapter, hadith number; the sharh book you used), then one call-to-action line (owner's request 2026-11-11), varied from video to video, e.g. «❤️ إن نفعك الحديث فاضغط إعجاب وشاركه، واكتب جوابك في التعليقات 👇» or «🤍 شارك الأجر: أعجب بالمنشور وانشره، وأخبرنا في التعليقات 👇», then the links block (see «Links block» below), then 3–5 hashtags (topic first, e.g. #صحيح_البخاري #حديث_نبوي + 1–3 topic tags). **Instagram allows at most 5 hashtags per post (enforced since Dec 2025; more = reduced reach), so use 3–5 relevant hashtags, never more.** Max 2,000 characters.
 7. Commit + push the json, mp4 and txt.
 8. Telegram — through the GitHub bridge (see `telegram/README.md`; chat_id from state): queue a `sendVideo` job for each video by its raw URL with a short caption «(١/٢) الحديث رقم N — <موضوع قصير> — يُنشر <الوقت>», then a `sendMessage` job with the text below; commit + push once, then `python3 telegram/tg.py wait <jobs>` and store the returned message_ids in `pending_batch.preview_message_ids` (if `wait` fails, say so in the run summary). The message:
    «📋 دفعة <التاريخ>: فيديوهان جاهزة للمراجعة.
