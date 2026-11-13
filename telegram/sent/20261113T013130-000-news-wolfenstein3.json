@@ -1,0 +1,11 @@
+{
+ "job": "20261113T013130-000-news-wolfenstein3.json",
+ "ref": "news-wolfenstein3",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T01:31:44Z",
+ "message_id": 203,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
