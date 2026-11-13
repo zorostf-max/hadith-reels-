@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/szFJTTSq3qHNtEsKWovxej-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🚨 Wolfenstein 3 is officially in development at MachineGames\nXbox CEO Asha Sharma confirmed it, calling the series one of gaming's most important franchises.\nvia @gamesradar\n@Xbox @bethesda\n#Wolfenstein3 #GamingNews</code>"
+ },
+ "ref": "tweet-wolfenstein3",
+ "fallback_text": "<code>🚨 Wolfenstein 3 is officially in development at MachineGames\nXbox CEO Asha Sharma confirmed it, calling the series one of gaming's most important franchises.\nvia @gamesradar\n@Xbox @bethesda\n#Wolfenstein3 #GamingNews</code>"
+}

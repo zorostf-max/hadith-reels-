@@ -56,13 +56,13 @@ The owner has no paid X API, so he copies each tweet into X (@AbdulbariH2771) hi
 
 **Growth pattern (owner's request 2026-11-13, after comparing the account with Genki_JPN, NikTek, Pirat_Nation, Wario64 and Dexerto):** fewer, stronger tweets, each with an image. The channel still gets every story; X only gets the best ones.
 
-**Which stories get a tweet** — in each hourly run, after the channel jobs, pick **at most ONE** story for X, and only if all of these hold:
-- it is 09:00–23:59 Istanbul time;
-- fewer than **6** tweets are logged in `tweets.txt` for today (Istanbul date);
-- the last line of `tweets.txt` is at least **2 hours** old;
+**Delivery times (owner's request 2026-11-13): he is at work during the day and posts on X only at about 06:00 and 22:00 Istanbul.** So tweets are not sent the moment the story is posted: each tweet's jobs (photo + link) are queued with `--not-before` set to the next delivery time — **05:00 Istanbul (02:00 UTC)** or **21:00 Istanbul (18:00 UTC)**, whichever comes first after now — so the hourly :25 tick sends them in one batch at about 05:25 / 21:25 and they are waiting for him before 06:00 / 22:00.
+
+**Which stories get a tweet** — in each hourly run (any hour), after the channel jobs, pick **at most ONE** story for X, and only if all of these hold:
+- fewer than **3** tweets are already waiting for the same delivery time (count tweet jobs still in `telegram/outbox/` with that `not_before`), so each batch is at most 3 tweets (≤ 6 a day);
 - the story has a usable image (a real article image, not a logo or a tiny thumbnail) — no image, no tweet;
 - it is a **big** story: GTA 6 / Rockstar, Nintendo / PlayStation / Xbox / Steam platform news, a major release, reveal, trailer or delay, a big studio or industry move (CEO change, layoffs, acquisition, closure), a striking number (sales, price, players), a big deal or price change on consoles or GPUs, or a major esports result (Major / final). Small patches, minor indie news, minor sales and routine esports matches stay channel-only.
-If several stories qualify, take the biggest (the one most people will talk about). Stories that do not get a tweet are **not** caught up later.
+If several stories qualify, take the biggest (the one most people will talk about). If a batch is already full, a bigger new story may replace the smallest waiting one (delete that job file from `telegram/outbox/` before the push). Stories that do not get a tweet are **not** caught up later.
 
 For the chosen story:
 
@@ -81,8 +81,8 @@ For the chosen story:
    - Then **2 hashtags** at most (the game or company + `#GamingNews` when it fits).
    - Shorten line 2 rather than drop the source or mentions. Vary openers; never the same pattern twice in a row.
    Right after it, queue a `sendMessage` job to the same private chat, `--ref tweetlink-<slug>`, `parse_mode` HTML, whose text is **only** `<code>SOURCE LINK</code>` (no label) — the owner copies it into the first reply under his tweet.
-2. Queue the tweet jobs (photo + link message) **after** all the channel jobs, in the same push, and `tg.py wait` them too.
-3. If the tweet job **and** the link job `wait` report ok, append `time GMT+3<TAB>link` to `tweets.txt` (commit it with `posted.txt`). If either failed, retry that story's tweet in the next run (it still counts against the limits above).
+2. Queue the tweet jobs (photo first, then the link message) **after** all the channel jobs, in the same push, both with `--not-before <next delivery time in UTC, e.g. 2026-11-13T18:00:00Z>`. Do not `tg.py wait` them (they are held); right after the push append `time GMT+3<TAB>link` to `tweets.txt` so the story is never tweeted twice.
+3. At the start of each run, check `telegram/sent/` for the tweet jobs of the last delivery time; if one failed, queue that story's tweet again for the next delivery time (once).
 
 No tweet is sent for a story that was not posted to the channel, and never two tweets for the same story.
 

@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/GpPMsnyd8DyET82KmYH9oY-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 Fable gets 4 minutes of new quest gameplay for Xbox's 25th anniversary\nFans think the mischievous evil fairies from the original games are back.\nvia @gamesradar @Xbox\n#Fable #GamingNews</code>"
+ },
+ "ref": "tweet-fable-quest-gameplay",
+ "fallback_text": "<code>🎮 Fable gets 4 minutes of new quest gameplay for Xbox's 25th anniversary\nFans think the mischievous evil fairies from the original games are back.\nvia @gamesradar @Xbox\n#Fable #GamingNews</code>"
+}
