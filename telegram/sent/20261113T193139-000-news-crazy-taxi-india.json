@@ -1,0 +1,11 @@
+{
+ "job": "20261113T193139-000-news-crazy-taxi-india.json",
+ "ref": "news-crazy-taxi-india",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T19:32:17Z",
+ "message_id": 232,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

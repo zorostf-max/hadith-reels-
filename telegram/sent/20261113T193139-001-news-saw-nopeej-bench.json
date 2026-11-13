@@ -1,0 +1,11 @@
+{
+ "job": "20261113T193139-001-news-saw-nopeej-bench.json",
+ "ref": "news-saw-nopeej-bench",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T19:32:21Z",
+ "message_id": 233,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
