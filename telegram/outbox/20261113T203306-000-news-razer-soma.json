@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/13/razersoma3.jpg?width=1080",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Razer's new Soma chairs let you feel explosions in-game</b>\n\nRazer has revealed two new Soma gaming chairs with built-in haptic motors. The idea: you physically feel what happens on screen, from explosions and impacts to enemies closing in. It is Razer's latest push to bring haptics beyond controllers and headsets.\n\n🕒 Nov 13, 2026 · 22:19 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/razer-reveals-new-soma-gaming-chairs-that-let-you-feel-explosions-and-other-in-game-action-3428135/\">Dexerto</a>\n\n🪑 Gimmick or game changer? React 👍 or 👎 and tell us below\n\n#Razer #GamingChair #PCGaming #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-razer-soma",
+ "fallback_text": "🖥️ <b>Razer's new Soma chairs let you feel explosions in-game</b>\n\nRazer has revealed two new Soma gaming chairs with built-in haptic motors. The idea: you physically feel what happens on screen, from explosions and impacts to enemies closing in. It is Razer's latest push to bring haptics beyond controllers and headsets.\n\n🕒 Nov 13, 2026 · 22:19 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/razer-reveals-new-soma-gaming-chairs-that-let-you-feel-explosions-and-other-in-game-action-3428135/\">Dexerto</a>\n\n🪑 Gimmick or game changer? React 👍 or 👎 and tell us below\n\n#Razer #GamingChair #PCGaming #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

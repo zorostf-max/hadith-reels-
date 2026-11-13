@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/13/gta-6-ps5-box.jpg?width=1080",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Viral warning: can GTA 6 codes be read through sealed boxes?</b>\n\nDays before launch, GTA 6 players are sharing concerns about a possible flaw that could let people see download codes through sealed physical copies. If you are buying a boxed copy, check the packaging when you pick it up.\n\n🕒 Nov 13, 2026 · 22:51 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/can-gta-6-download-codes-be-seen-through-sealed-boxes-warning-goes-viral-days-before-launch-3428147/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n📦 Physical or digital for GTA 6? React and comment your pick\n\n#GTA6 #Rockstar #PS5 #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-box-codes",
+ "fallback_text": "🎮 <b>Viral warning: can GTA 6 codes be read through sealed boxes?</b>\n\nDays before launch, GTA 6 players are sharing concerns about a possible flaw that could let people see download codes through sealed physical copies. If you are buying a boxed copy, check the packaging when you pick it up.\n\n🕒 Nov 13, 2026 · 22:51 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/can-gta-6-download-codes-be-seen-through-sealed-boxes-warning-goes-viral-days-before-launch-3428147/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n📦 Physical or digital for GTA 6? React and comment your pick\n\n#GTA6 #Rockstar #PS5 #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

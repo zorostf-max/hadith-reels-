@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Ambrosia_06_6fdec7.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 could hit 55 million sales by March, analysts say</b>\n\nInvestor's Business Daily gathered analyst reports on GTA 6 and Take-Two ahead of the November 19 launch. BMO Capital Markets' Brian Pitz expects 55 million copies sold in Take-Two's fiscal 2027 (ending March 31, 2027), with 45 million in the launch quarter alone. The report also suggests an average selling price of around $90.\n\n🕒 Nov 13, 2026 · 22:36 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-could-sell-55-million-copies-by-early-next-year-report-says-and-average-selling-price-could-be-90/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if you think it breaks every record · 💬 How many millions in week one?\n\n#GTA6 #Rockstar #TakeTwo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-gta6-55m-forecast",
+ "fallback_text": "🎮 <b>GTA 6 could hit 55 million sales by March, analysts say</b>\n\nInvestor's Business Daily gathered analyst reports on GTA 6 and Take-Two ahead of the November 19 launch. BMO Capital Markets' Brian Pitz expects 55 million copies sold in Take-Two's fiscal 2027 (ending March 31, 2027), with 45 million in the launch quarter alone. The report also suggests an average selling price of around $90.\n\n🕒 Nov 13, 2026 · 22:36 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-could-sell-55-million-copies-by-early-next-year-report-says-and-average-selling-price-could-be-90/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if you think it breaks every record · 💬 How many millions in week one?\n\n#GTA6 #Rockstar #TakeTwo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

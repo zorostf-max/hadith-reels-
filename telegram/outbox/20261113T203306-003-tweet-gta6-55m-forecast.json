@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Ambrosia_06_6fdec7.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>💰 GTA 6 tipped for 55 million sales by March 2027\nAnalysts see 45M in the launch quarter alone and an average price of up to $90.\nvia @GameSpot @RockstarGames\n#GTA6 #GamingNews</code>"
+ },
+ "ref": "tweet-gta6-55m-forecast",
+ "fallback_text": "<code>💰 GTA 6 tipped for 55 million sales by March 2027\nAnalysts see 45M in the launch quarter alone and an average price of up to $90.\nvia @GameSpot @RockstarGames\n#GTA6 #GamingNews</code>",
+ "not_before": "2026-11-14T02:00:00Z"
+}
