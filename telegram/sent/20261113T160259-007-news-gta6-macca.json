@@ -1,0 +1,11 @@
+{
+ "job": "20261113T160259-007-news-gta6-macca.json",
+ "ref": "news-gta6-macca",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T16:03:22Z",
+ "message_id": 217,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
