@@ -1,0 +1,11 @@
+{
+ "job": "20261113T203306-001-news-gta6-55m-forecast.json",
+ "ref": "news-gta6-55m-forecast",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T20:33:30Z",
+ "message_id": 236,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
