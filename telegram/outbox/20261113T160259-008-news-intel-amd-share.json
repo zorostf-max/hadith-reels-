@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/xNPHqUrH9cAL7uimaVYGoG-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Intel claws back desktop CPU market share from AMD</b>\n\nIn an unexpected turnaround, Intel has taken a large chunk of AMD's desktop CPU market share, PC Gamer reports. The odd twist: it may be because AMD dominates gaming chips, and demand for gaming CPUs is weak right now.\n\n🕒 Nov 13, 2026 · 18:23 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/\">PC Gamer</a>\n👥 <a href=\"https://x.com/intel\">@intel</a> · <a href=\"https://x.com/AMD\">@AMD</a>\n\n🔵🔴 Team Blue or Team Red? React and tell us your CPU below 💬\n\n#Intel #AMD #CPU #PCHardware #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-intel-amd-share",
+ "fallback_text": "🖥️ <b>Intel claws back desktop CPU market share from AMD</b>\n\nIn an unexpected turnaround, Intel has taken a large chunk of AMD's desktop CPU market share, PC Gamer reports. The odd twist: it may be because AMD dominates gaming chips, and demand for gaming CPUs is weak right now.\n\n🕒 Nov 13, 2026 · 18:23 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/\">PC Gamer</a>\n👥 <a href=\"https://x.com/intel\">@intel</a> · <a href=\"https://x.com/AMD\">@AMD</a>\n\n🔵🔴 Team Blue or Team Red? React and tell us your CPU below 💬\n\n#Intel #AMD #CPU #PCHardware #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
