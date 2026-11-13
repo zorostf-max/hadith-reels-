@@ -1,0 +1,11 @@
+{
+ "job": "20261113T172934-008-news-overwatch-hudson.json",
+ "ref": "news-overwatch-hudson",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T17:29:58Z",
+ "message_id": 228,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

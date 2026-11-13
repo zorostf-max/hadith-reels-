@@ -1,0 +1,11 @@
+{
+ "job": "20261113T172934-006-news-gta6-nandy-proud.json",
+ "ref": "news-gta6-nandy-proud",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T17:29:54Z",
+ "message_id": 226,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
