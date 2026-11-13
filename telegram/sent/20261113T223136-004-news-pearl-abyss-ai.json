@@ -1,0 +1,11 @@
+{
+ "job": "20261113T223136-004-news-pearl-abyss-ai.json",
+ "ref": "news-pearl-abyss-ai",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T22:31:52Z",
+ "message_id": 244,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
