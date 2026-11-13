@@ -1,0 +1,192 @@
+{
+ "story": 1,
+ "title": "أصحاب الغار الثلاثة",
+ "series_label": "قصص من صحيح البخاري · القصة ١",
+ "hadith_ref": "صحيح البخاري ٢٢٧٢ (عن عبد الله بن عمر رضي الله عنهما)",
+ "sources": [
+  "صحيح البخاري، كتاب الإجارة، باب من استأجر أجيرًا فترك أجره فعمل فيه المستأجر فزاد، أو من عمل في مال غيره فاستفضل، ح (٢٢٧٢)",
+  "فتح الباري شرح صحيح البخاري لابن حجر العسقلاني — شرح الحديث (٢٢٧٢)"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "الراوي"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "cave_rock": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A rocky mountainside at dusk: the mouth of a cave completely sealed by a huge round boulder that has just rolled down, small stones and dust still falling, deep blue evening sky with the first stars, dramatic and mysterious mood. No people visible. Palette of amber, sand, teal and navy. No text, no letters, no watermark."
+  },
+  "mountain_path": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. Three tiny distant faceless travellers in simple robes walking on a narrow mountain path toward a dark cave opening in the rocks, seen from far away and from behind, late evening golden light, long shadows, vast rocky mountains around. Palette of amber, sand, teal and navy. No text, no letters, no watermark."
+  },
+  "cave_dark": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. Inside a dark cave: three small faceless figures in robes seen from behind, sitting before a giant boulder that blocks the entrance, only a faint thin line of light around the edge of the rock, soft blue darkness, quiet worried mood. No facial features. No text, no letters, no watermark."
+  },
+  "milk_cup": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A humble old house at night lit by a small oil lamp: in the foreground a wooden bowl of fresh milk held carefully in two hands seen from behind the shoulder, in the soft background two elderly figures sleeping peacefully under blankets, faceless and distant, a window showing the night sky beginning to turn pale with dawn. Warm amber and deep blue palette. No faces, no text, no letters, no watermark."
+  },
+  "rock_crack1": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The giant boulder at a cave entrance seen from inside the cave, shifted a little so a narrow sliver of bright light shines into the darkness, the opening still far too small to pass through, dust floating in the light beam. No people. Palette of deep blue, gold and sand. No text, no letters, no watermark."
+  },
+  "gold_left": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A small pouch of old gold coins left behind on a simple wooden table in a modest room, a few coins spilled out shining softly, an open wooden door beyond it showing a dusty street in daylight, a single distant faceless male figure in a robe walking away through the door, seen from behind. Warm amber, sand and teal palette. No women, no faces, no text, no letters, no watermark."
+  },
+  "rock_crack2": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The same giant boulder at a cave entrance seen from inside, now moved further so a wider band of bright daylight pours into the cave, but the gap is still too narrow for a person to pass, three small faceless figures seen from behind looking toward the light. No facial features. Palette of deep blue, gold and sand. No text, no letters, no watermark."
+  },
+  "workers": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. An ancient farm at sunset: a few tiny faceless labourers in simple robes resting after work in a field, and one lone faceless worker walking away down a long dusty road toward the horizon, seen from behind and far away. Palette of ochre, amber, sand and dusty blue. No text, no letters, no watermark."
+  },
+  "herds": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A wide valley filled with a great many animals — camels, cows and sheep — moving together in a long line toward distant hills, raising soft golden dust, one tiny faceless figure in a robe guiding them from behind, seen from far away. Warm late-afternoon light. Palette of sand, ochre, amber and dusty blue. No text, no letters, no watermark."
+  },
+  "cave_open": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The cave entrance fully open, the giant boulder rolled aside, bright morning sunlight flooding out over the rocks, three small faceless figures in robes walking out into the light, seen from behind and far away, a calm blue sky with a few birds. Palette of soft gold, rose, navy and sand. No facial features, no text, no letters, no watermark."
+  },
+  "sunrise": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A peaceful wide mountain valley at sunrise, golden light spreading over the rocks, a winding path leading into the distance, soft clouds, a hopeful serene mood. No people. Palette of soft gold, rose, navy and sand. No text, no letters, no calligraphy, no watermark."
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "cave_rock",
+   "cam": "slow_push",
+   "title_card": true,
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ثلاثةُ رِجال… وصخرةٌ عظيمةٌ سدَّتْ عليهم بابَ الغار. لا أحدَ يسمعُهم، ولا طريقَ للخروج… فكيفَ نَجَوْا؟",
+     "caption": "صخرةٌ سدّت عليهم باب الغار… فكيف نجوا؟"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "image": "mountain_path",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "قالَ رسولُ اللهِ صلّى اللهُ عليهِ وسلَّم: انطلقَ ثلاثةُ رَهْطٍ ممّن كانَ قبلَكم، حتى أَوَوُا المَبيتَ إلى غارٍ فدخلوه، فانحدرتْ صخرةٌ من الجبل، فسدَّتْ عليهمُ الغار.",
+     "caption": "ثلاثة رجال يبيتون في غار"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "cave_dark",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فقالوا: إنّه لا يُنجيكم من هذه الصخرة، إلّا أن تَدْعوا اللهَ بصالحِ أعمالِكم.",
+     "caption": "ادعوا الله بصالح أعمالكم"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "milk_cup",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فقالَ رجلٌ منهم: اللهمَّ كانَ لي أبَوانِ شيخانِ كبيران، وكنتُ لا أُقدِّمُ عليهما في شرابِ المساءِ أهلًا ولا مالًا. فتأخّرتُ يومًا، فلم أرجعْ حتى ناما. فحلبتُ لهما، فوجدتُهما نائمَيْن، وكرهتُ أن أسقيَ أحدًا قبلَهما، فبقيتُ والقَدَحُ على يدي، أنتظرُ استيقاظَهما… حتى بَرَقَ الفجر، فاستيقظا فشرِبا.",
+     "caption": "القدح على يده… حتى برق الفجر"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "rock_crack1",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "اللهمَّ إن كنتُ فعلتُ ذلك ابتغاءَ وجهِك، ففرِّجْ عنّا ما نحنُ فيه. فانفرجتِ الصخرةُ شيئًا… لا يستطيعونَ الخروج.",
+     "caption": "انفرجت الصخرة شيئًا…"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "gold_left",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وقالَ الآخر: اللهمَّ كانتْ لي ابنةُ عَمّ، كانتْ أحبَّ الناسِ إليّ، فأردتُها على ما لا يَحِلّ، فامتنعتْ منّي. حتى أصابتْها سنةٌ من سِنينِ القَحْط، فجاءتْني، فأعطيتُها عشرينَ ومئةَ دينار، على أن تُطيعَني فيما أريد. فلمّا قَدَرْتُ عليها قالت: لا أُحِلُّ لكَ أن تَفُضَّ الخاتمَ إلّا بحقِّه. فتحرّجتُ من ذلك، فانصرفتُ عنها وهي أحبُّ الناسِ إليّ، وتركتُ الذهبَ الذي أعطيتُها.",
+     "caption": "ترك الحرام… وترك الذهب"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "rock_crack2",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "اللهمَّ إن كنتُ فعلتُ ذلك ابتغاءَ وجهِك، فافرُجْ عنّا. فانفرجتِ الصخرة… غيرَ أنّهم لا يستطيعونَ الخروجَ منها.",
+     "caption": "اتسعت الفتحة… لكن لا خروج بعد"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "workers",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وقالَ الثالث: اللهمَّ إنّي استأجرتُ أُجَراء، فأعطيتُهم أجرَهم، غيرَ رجلٍ واحد، تركَ الذي له وذهب. فثمَّرْتُ أجرَه، حتى كثُرتْ منه الأموال.",
+     "caption": "أجيرٌ ترك أجره وذهب"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "image": "herds",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فجاءني بعدَ حين فقال: يا عبدَ الله، أدِّ إليَّ أجري. فقلتُ له: كلُّ ما ترى من أجرِك؛ من الإبلِ والبقرِ والغنمِ والرقيق. فأخذَه كلَّه فاستاقَه، فلم يتركْ منه شيئًا.",
+     "caption": "«كلّ ما ترى من أجرك»"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "image": "cave_open",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "اللهمَّ فإن كنتُ فعلتُ ذلك ابتغاءَ وجهِك، فافرُجْ عنّا ما نحنُ فيه. فانفرجتِ الصخرة… فخرجوا يمشون.",
+     "caption": "فانفرجت الصخرة… فخرجوا يمشون"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "image": "sunrise",
+   "cam": "wide",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "بِرٌّ بالوالدَيْن، وعِفّةٌ عن الحرام، وأمانةٌ في الحقوق… أعمالٌ خالصةٌ لله، نجّتْ أصحابَها ساعةَ الشدّة. أيُّ الثلاثةِ أثّرَ فيكَ أكثر؟ اكتبْه في التعليقات.",
+     "caption": "أيّ الثلاثة أثّر فيك أكثر؟"
+    }
+   ],
+   "end_card": "تابعنا لقصة جديدة كل سبت وأحد"
+  }
+ ],
+ "publish": {
+  "publish_date": "2026-11-15 (Sunday) 14:00 Europe/Istanbul",
+  "needs_owner_approval": true
+ }
+}
