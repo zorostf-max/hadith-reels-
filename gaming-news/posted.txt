@@ -316,3 +316,7 @@
 2026-11-13 13:34	VGC (same story)	https://www.videogameschronicle.com/news/machinegames-has-finally-officially-confirmed-that-wolfenstein-3-is-in-development/
 2026-11-13 13:34	GameSpot (same story)	https://www.gamespot.com/articles/wolfenstein-3-is-officially-in-production-at-machinegames/
 2026-11-13 13:34	Eurogamer	https://www.eurogamer.net/gta-6-internet-uk-broadband-ofcom-openreach
+2026-11-13 14:32	Tom's Hardware	https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls
+2026-11-13 14:32	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/how-shanghai-fund-manager-kang-wei-introduced-his-wife-alice-huang-to-jensen-and-built-usd7-5-billion-nvidia-ai-gpu-smuggling-operation-mistresss-husband-joked-she-was-the-ceos-personal-assistant
+2026-11-13 14:32	GameSpot (same story)	https://www.gamespot.com/articles/fable-is-looking-a-lot-darker-than-we-expected/
+2026-11-13 14:32	Dexerto (same story)	https://www.dexerto.com/gta/gta-6-boss-says-physical-discs-will-be-the-vinyl-records-of-gaming-eventually-3427979/
