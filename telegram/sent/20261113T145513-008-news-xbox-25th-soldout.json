@@ -1,0 +1,11 @@
+{
+ "job": "20261113T145513-008-news-xbox-25th-soldout.json",
+ "ref": "news-xbox-25th-soldout",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T14:55:37Z",
+ "message_id": 213,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

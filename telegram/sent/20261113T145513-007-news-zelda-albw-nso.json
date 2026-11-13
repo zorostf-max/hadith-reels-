@@ -1,0 +1,11 @@
+{
+ "job": "20261113T145513-007-news-zelda-albw-nso.json",
+ "ref": "news-zelda-albw-nso",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T14:55:35Z",
+ "message_id": 212,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

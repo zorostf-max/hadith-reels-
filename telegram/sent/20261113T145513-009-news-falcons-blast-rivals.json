@@ -1,0 +1,11 @@
+{
+ "job": "20261113T145513-009-news-falcons-blast-rivals.json",
+ "ref": "news-falcons-blast-rivals",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T14:55:40Z",
+ "message_id": 214,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
