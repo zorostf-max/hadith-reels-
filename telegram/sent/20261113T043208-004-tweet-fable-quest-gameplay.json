@@ -1,0 +1,11 @@
+{
+ "job": "20261113T043208-004-tweet-fable-quest-gameplay.json",
+ "ref": "tweet-fable-quest-gameplay",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T04:32:30Z",
+ "message_id": 403,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

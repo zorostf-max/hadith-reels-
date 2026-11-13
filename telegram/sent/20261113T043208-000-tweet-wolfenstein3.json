@@ -1,0 +1,11 @@
+{
+ "job": "20261113T043208-000-tweet-wolfenstein3.json",
+ "ref": "tweet-wolfenstein3",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T04:32:23Z",
+ "message_id": 399,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

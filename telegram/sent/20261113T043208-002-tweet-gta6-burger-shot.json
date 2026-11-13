@@ -1,0 +1,11 @@
+{
+ "job": "20261113T043208-002-tweet-gta6-burger-shot.json",
+ "ref": "tweet-gta6-burger-shot",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T04:32:27Z",
+ "message_id": 401,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
