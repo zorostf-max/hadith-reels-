@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/13/images-1-1794566948475.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Fortnite will unmask Captain X at its December 5 live event</b>\n\nEpic is building up to a big reveal: the identity of Captain X, the masked treasure character who has been handing out thousands of dollars' worth of cosmetics, will be revealed at the December 5 live event. Fan guesses range from MrBeast to Obama.\n\n🕒 Nov 13, 2026 · 14:06 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/after-giving-away-thousands-of-dollars-in-cosmetics-fortnite-is-teasing-a-big-reveal-for-captain-x-its-mysterious-masked-treasure-man-with-fan-guesses-ranging-from-mr-beast-to-obama\">IGN</a>\n👥 <a href=\"https://x.com/FortniteGame\">@FortniteGame</a> · <a href=\"https://x.com/EpicGames\">@EpicGames</a>\n\n🕵️ Who do you think Captain X is? React 🔥 and drop your guess below\n\n#Fortnite #EpicGames #CaptainX #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-fortnite-captain-x",
+ "fallback_text": "🎮 <b>Fortnite will unmask Captain X at its December 5 live event</b>\n\nEpic is building up to a big reveal: the identity of Captain X, the masked treasure character who has been handing out thousands of dollars' worth of cosmetics, will be revealed at the December 5 live event. Fan guesses range from MrBeast to Obama.\n\n🕒 Nov 13, 2026 · 14:06 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/after-giving-away-thousands-of-dollars-in-cosmetics-fortnite-is-teasing-a-big-reveal-for-captain-x-its-mysterious-masked-treasure-man-with-fan-guesses-ranging-from-mr-beast-to-obama\">IGN</a>\n👥 <a href=\"https://x.com/FortniteGame\">@FortniteGame</a> · <a href=\"https://x.com/EpicGames\">@EpicGames</a>\n\n🕵️ Who do you think Captain X is? React 🔥 and drop your guess below\n\n#Fortnite #EpicGames #CaptainX #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
