@@ -345,3 +345,12 @@
 2026-11-13 19:03	Eurogamer (same story)	https://www.eurogamer.net/gta-6-map-leak-online-collectors-edition
 2026-11-13 19:03	Eurogamer (same story)	https://www.eurogamer.net/slay-the-spire-2-biggest-update-new-character-the-fool
 2026-11-13 19:03	Eurogamer (same story)	https://www.eurogamer.net/gdc-report-40-percent-developers-generative-ai
+2026-11-13 19:00	GamesRadar+	https://www.gamesradar.com/hardware/chairs/youll-finally-be-able-to-try-secretlab-chairs-before-you-buy-one-as-the-company-shifts-toward-physical-retail-theres-a-difference-between-seeing-our-products-online-and-trying-them-out/
+2026-11-13 19:00	Tom's Hardware (same story)	https://www.tomshardware.com/peripherals/popular-gaming-chair-and-desk-maker-secretlab-launches-dedicated-us-brick-and-mortar-locations-new-shop-in-la-spaces-in-best-buy
+2026-11-13 19:15	Tom's Hardware	https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus
+2026-11-13 19:17	VGC	https://www.videogameschronicle.com/news/playstations-god-of-war-spin-off-is-coming-to-ps4-and-getting-new-modes/
+2026-11-13 19:28	PC Gamer	https://www.pcgamer.com/games/third-person-shooter/season-10-has-been-a-challenging-one-for-us-marvel-rivals-is-upgrading-storms-summer-skin-after-favouritism-complaints/
+2026-11-13 19:30	Tom's Hardware	https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip
+2026-11-13 19:33	GamesRadar+	https://www.gamesradar.com/games/open-world/despite-crimson-deserts-ai-backlash-pearl-abyss-is-now-implementing-the-tech-throughout-our-entire-development-pipeline-including-for-upcoming-pokemon-like-dokev/
+2026-11-13 19:45	IGN (same story)	https://www.ign.com/articles/gta-6-has-a-whole-animated-tv-series-you-can-watch-in-game
+2026-11-13 19:45	VGC (same story)	https://www.videogameschronicle.com/news/6-more-games-receive-ps5-performance-updates-via-qssr-including-arc-raiders-and-control-resonant/
