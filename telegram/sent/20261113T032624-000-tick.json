@@ -1,0 +1,27 @@
+{
+ "job": "20261113T032624-000-tick.json",
+ "ref": "tick",
+ "method": "getMe",
+ "ok": true,
+ "sent_at": "2026-11-13T03:26:39Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false,
+ "result": {
+  "id": 8394893609,
+  "is_bot": true,
+  "first_name": "cs2 pro player sitting",
+  "username": "my_cs2_monitor_bot",
+  "can_join_groups": true,
+  "can_read_all_group_messages": false,
+  "supports_inline_queries": false,
+  "supports_guest_queries": false,
+  "can_connect_to_business": false,
+  "has_main_web_app": false,
+  "has_topics_enabled": false,
+  "allows_users_to_create_topics": false,
+  "can_manage_bots": false,
+  "supports_join_request_queries": false
+ }
+}
