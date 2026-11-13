@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/13/gta-kick-twitch-promo-free-codes.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Kick and Twitch are handing out GTA 6 codes before launch</b>\n\nBoth streaming platforms are running GTA 6 giveaways for viewers ahead of release. On Kick, watching any stream for three hours unlocks a chance at a copy, while Twitch says it will drop game codes every day through November.\n\n🕒 Nov 13, 2026 · 22:57 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/kick-and-twitch-are-giving-away-thousands-of-gta-6-codes-to-viewers-before-launch-3428151/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/Twitch\">@Twitch</a>\n\n🍀 React if you're entering · 💬 Kick or Twitch, where are you watching?\n\n#GTA6 #Twitch #Kick #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-stream-codes",
+ "fallback_text": "🎮 <b>Kick and Twitch are handing out GTA 6 codes before launch</b>\n\nBoth streaming platforms are running GTA 6 giveaways for viewers ahead of release. On Kick, watching any stream for three hours unlocks a chance at a copy, while Twitch says it will drop game codes every day through November.\n\n🕒 Nov 13, 2026 · 22:57 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/kick-and-twitch-are-giving-away-thousands-of-gta-6-codes-to-viewers-before-launch-3428151/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/Twitch\">@Twitch</a>\n\n🍀 React if you're entering · 💬 Kick or Twitch, where are you watching?\n\n#GTA6 #Twitch #Kick #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

@@ -49,3 +49,5 @@ Tom's Hardware	tomshardware
 Pokémon	Pokemon
 World of Warcraft	Warcraft
 Palworld	Palworld_EN
+The Game Awards	thegameawards
+Roblox	Roblox

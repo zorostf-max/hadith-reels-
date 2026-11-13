@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/7R4ugXpP3JfGrwnJ2xc72K-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>💯 PS5 passes 100 million sold, and never got a price cut\n\nFirst Sony console to do it, despite several price hikes along the way.\n\nvia @gamesradar @PlayStation\n#PS5 #GamingNews</code>"
+ },
+ "ref": "tweet-ps5-100m",
+ "fallback_text": "<code>💯 PS5 passes 100 million sold, and never got a price cut\n\nFirst Sony console to do it, despite several price hikes along the way.\n\nvia @gamesradar @PlayStation\n#PS5 #GamingNews</code>",
+ "not_before": "2026-11-14T02:00:00Z"
+}

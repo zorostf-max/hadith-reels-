@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/qBiTnikCtK5QZ46zhHfiXm-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia board reportedly approached Arm CEO Rene Haas</b>\n\nAs Nvidia hunts for a new chief executive after Jensen Huang's exit, its board reportedly reached out to Rene Haas, who runs Arm and spent years at Nvidia before that. No appointment has been announced.\n\n🕒 Nov 14, 2026 · 00:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n🤔 React if you'd back him · 💬 Who should lead Nvidia next?\n\n#Nvidia #Arm #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-nvidia-arm-ceo",
+ "fallback_text": "🖥️ <b>Nvidia board reportedly approached Arm CEO Rene Haas</b>\n\nAs Nvidia hunts for a new chief executive after Jensen Huang's exit, its board reportedly reached out to Rene Haas, who runs Arm and spent years at Nvidia before that. No appointment has been announced.\n\n🕒 Nov 14, 2026 · 00:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n🤔 React if you'd back him · 💬 Who should lead Nvidia next?\n\n#Nvidia #Arm #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

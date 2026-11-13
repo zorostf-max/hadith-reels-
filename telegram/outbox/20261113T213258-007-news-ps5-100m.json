@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/7R4ugXpP3JfGrwnJ2xc72K-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>PS5 reaches 100 million sold, with no price cut</b>\n\nThe PlayStation 5 is the first Sony console to pass 100 million units without ever getting a price cut. In fact, it got several price increases along the way, yet sales kept going.\n\n🕒 Nov 14, 2026 · 00:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/ps5-is-the-first-sony-console-to-hit-100-million-units-sold-without-a-price-cut/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/PlayStation\">@PlayStation</a>\n\n🎉 React if you own one · 💬 Did you buy at launch or later?\n\n#PS5 #PlayStation #Sony #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-ps5-100m",
+ "fallback_text": "🕹️ <b>PS5 reaches 100 million sold, with no price cut</b>\n\nThe PlayStation 5 is the first Sony console to pass 100 million units without ever getting a price cut. In fact, it got several price increases along the way, yet sales kept going.\n\n🕒 Nov 14, 2026 · 00:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/ps5-is-the-first-sony-console-to-hit-100-million-units-sold-without-a-price-cut/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/PlayStation\">@PlayStation</a>\n\n🎉 React if you own one · 💬 Did you buy at launch or later?\n\n#PS5 #PlayStation #Sony #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
