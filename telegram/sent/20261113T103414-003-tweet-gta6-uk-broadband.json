@@ -1,0 +1,11 @@
+{
+ "job": "20261113T103414-003-tweet-gta6-uk-broadband.json",
+ "ref": "tweet-gta6-uk-broadband",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T18:32:17Z",
+ "message_id": 409,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

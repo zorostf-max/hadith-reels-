@@ -1,0 +1,11 @@
+{
+ "job": "20261113T183153-007-news-skyrim-level-cap.json",
+ "ref": "news-skyrim-level-cap",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T18:32:28Z",
+ "message_id": 230,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

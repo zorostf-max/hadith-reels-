@@ -1,0 +1,11 @@
+{
+ "job": "20261113T123216-009-tweetlink-taketwo-no-buyout.json",
+ "ref": "tweetlink-taketwo-no-buyout",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-13T18:32:22Z",
+ "message_id": 412,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

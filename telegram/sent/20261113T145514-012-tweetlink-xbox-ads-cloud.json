@@ -1,0 +1,11 @@
+{
+ "job": "20261113T145514-012-tweetlink-xbox-ads-cloud.json",
+ "ref": "tweetlink-xbox-ads-cloud",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-13T18:32:25Z",
+ "message_id": 414,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261113T145514-011-tweet-xbox-ads-cloud.json",
+ "ref": "tweet-xbox-ads-cloud",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T18:32:23Z",
+ "message_id": 413,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

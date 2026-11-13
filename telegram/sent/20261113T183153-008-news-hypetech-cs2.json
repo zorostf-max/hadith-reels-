@@ -1,0 +1,11 @@
+{
+ "job": "20261113T183153-008-news-hypetech-cs2.json",
+ "ref": "news-hypetech-cs2",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T18:32:30Z",
+ "message_id": 231,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261113T183153-006-news-gta6-80-price.json",
+ "ref": "news-gta6-80-price",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T18:32:26Z",
+ "message_id": 229,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
