@@ -1,0 +1,11 @@
+{
+ "job": "20261113T164453-007-news-nvidia-malaysia-probe.json",
+ "ref": "news-nvidia-malaysia-probe",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T16:45:24Z",
+ "message_id": 221,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
