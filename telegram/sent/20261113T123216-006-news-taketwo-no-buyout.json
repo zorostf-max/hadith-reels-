@@ -1,0 +1,11 @@
+{
+ "job": "20261113T123216-006-news-taketwo-no-buyout.json",
+ "ref": "news-taketwo-no-buyout",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T12:32:46Z",
+ "message_id": 209,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

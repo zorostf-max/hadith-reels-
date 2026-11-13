@@ -1,0 +1,11 @@
+{
+ "job": "20261113T123216-005-news-apex-vitality-hk.json",
+ "ref": "news-apex-vitality-hk",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T12:32:45Z",
+ "message_id": 208,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

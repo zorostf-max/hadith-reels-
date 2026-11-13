@@ -1,0 +1,11 @@
+{
+ "job": "20261113T123216-004-news-fortnite-captain-x.json",
+ "ref": "news-fortnite-captain-x",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-13T12:32:43Z",
+ "message_id": 207,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
