@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Diz9EunMknKCPcmYpyFJcC-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Crimson Desert studio Pearl Abyss goes all-in on AI</b>\n\nPearl Abyss says it is now using AI \"throughout our entire development pipeline,\" including on its upcoming monster-collecting game DokeV. The move comes after gen-AI assets were pulled from Crimson Desert in March following player backlash.\n\n🕒 Nov 13, 2026 · 19:33 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/open-world/despite-crimson-deserts-ai-backlash-pearl-abyss-is-now-implementing-the-tech-throughout-our-entire-development-pipeline-including-for-upcoming-pokemon-like-dokev/\">GamesRadar+</a>\n\n🤖 Good or bad sign? React 👍 or 👎 · 💬 Would AI change whether you buy DokeV?\n\n#PearlAbyss #CrimsonDesert #DokeV #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-pearl-abyss-ai",
+ "fallback_text": "🎮 <b>Crimson Desert studio Pearl Abyss goes all-in on AI</b>\n\nPearl Abyss says it is now using AI \"throughout our entire development pipeline,\" including on its upcoming monster-collecting game DokeV. The move comes after gen-AI assets were pulled from Crimson Desert in March following player backlash.\n\n🕒 Nov 13, 2026 · 19:33 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/open-world/despite-crimson-deserts-ai-backlash-pearl-abyss-is-now-implementing-the-tech-throughout-our-entire-development-pipeline-including-for-upcoming-pokemon-like-dokev/\">GamesRadar+</a>\n\n🤖 Good or bad sign? React 👍 or 👎 · 💬 Would AI change whether you buy DokeV?\n\n#PearlAbyss #CrimsonDesert #DokeV #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
