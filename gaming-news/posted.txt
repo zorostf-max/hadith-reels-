@@ -393,3 +393,5 @@
 2026-11-14 14:26	PC Gamer	https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/
 2026-11-14 15:15	GamesRadar+	https://www.gamesradar.com/games/the-legend-of-zelda/the-legend-of-zelda-majoras-mask-remake-is-a-foregone-conclusion-after-ocarina-of-time-ex-nintendo-marketing-leads-say/
 2026-11-14 15:19	Eurogamer	https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report
+2026-11-14 15:53	PC Gamer	https://www.pcgamer.com/software/ai/40-percent-of-game-developers-use-generative-ai-according-to-a-new-report-but-more-than-half-reckon-the-technology-has-a-negative-impact-on-the-games-industry/
+2026-11-14 16:10	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-openai-over-ai-game-clones-as-its-ironic-to-stomp-on-someone-elses-ip/
