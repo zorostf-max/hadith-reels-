@@ -12,7 +12,7 @@ Each episode tells ONE story that the Prophet ﷺ told or that is narrated in **
 |---|---|---|
 | T1 script | Thu + Fri ~20:17 | writes the script of the next story and sends it for review (Thu → Saturday's story, Fri → Sunday's) |
 | T2 production | Fri + Sat ~19:53 | if the script is approved: images, voice, render, caption, sends the preview video |
-| T3 approval | Sat + Sun ~13:23 | if the video is approved: schedules it for 14:00 the same day |
+| T3 approval | Fri + Sat ~23:23 (the evening before) | if the video is approved: schedules it for 11:00 the next day (the publishing day) |
 
 `state.json → stories` = `{"days": ["Sat","Sun"], "slot": "14:00", "next_story": 1, "pending": {...} | null, "published": {}}`; `pending` = `{"story": N, "publish_date": "YYYY-MM-DD", "status": "script_sent" | "video_sent" | "scheduled" | "skipped", "script_message_ids": [], "preview_message_ids": [], "notes": [], "messages": []}`.
 
@@ -75,9 +75,11 @@ When the list runs out, propose the next 12 to the owner on Telegram (story hadi
 
 ## T3 — check approval and schedule
 
-1. `git pull`. If `stories.pending` is missing, its `publish_date` is not today, or status is not `video_sent`, stop quietly.
+Runs **the evening before** the publishing day (Fri + Sat ~23:23 Istanbul). "The publishing day" = the next calendar day in Istanbul (if the run starts after midnight but before 11:00, it is today). Publish time is **11:00 Europe/Istanbul**.
+
+1. `git pull`. If `stories.pending` is missing, its `publish_date` is not the publishing day, or status is not `video_sent`, stop quietly.
 2. Refresh the inbox; read replies after `preview_message_ids[0]`; save them.
-3. `ok` → Metricool `createScheduledPost` (blogId `state.json → metricool_blog_id`), ONE post, providers instagram + youtube (TikTok gets its own post, see below), **today 14:00 Europe/Istanbul**:
+3. `ok` → Metricool `createScheduledPost` (blogId `state.json → metricool_blog_id`), ONE post, providers instagram + youtube (TikTok gets its own post, see below), **the publishing day 11:00 Europe/Istanbul**:
    - media: commit-pinned raw URL of `episode.mp4`; text: `caption.txt` as-is; `videoThumbnailUrl`: commit-pinned raw URL of `cover.jpg` (only if the file exists)
    - instagramData `{"type":"REEL","showReelOnFeed":true}`
    - youtubeData `{"title":"<curiosity hook> | قصة من صحيح البخاري" (≤100 chars; a striking moment then a question or a surprise, like «ثلاثة رجال سدّت عليهم صخرةٌ باب الغار… فكيف نجوا؟ 😳 | قصة من صحيح البخاري»; only what the hadith says),"type":"short","privacy":"public","category":"EDUCATION","madeForKids":false,"tags":[...]}`
@@ -89,8 +91,8 @@ When the list runs out, propose the next 12 to the owner on Telegram (story hadi
    - line 4: «📚 » + the short source (book + number), no long text;
    - line 5: 4–5 hashtags only, relevant ones (e.g. #حديث_نبوي #صحيح_البخاري #قصص_اسلامية #السيرة_النبوية #اسلام), never a long tag list.
    Save it next to the main caption as `<name>.tiktok.txt` and commit it. tiktokData stays as below (no added music).
-   Then queue the same video + caption for @HadithDailyAr: `tg.py queue sendVideo '{"chat_id":"@HadithDailyAr","video":"<url>","caption":"<caption>","supports_streaming":true}' --ref story-stNN --not-before <today>T10:55:00Z` (split as in seerah if the caption is over 1024 characters). The bridge sends due jobs on its own 15-minute schedule and on the hourly tick pushed by the Level Up task (:25), so the channel post goes out between 14:00 and ~14:25; that is fine. **Telegram channel version (owner's Telegram plan 2026-11-13):** remove the hashtag line(s) from the caption and end it with «📢 شارك القناة: t.me/HadithDailyAr» + newline + «فالدال على الخير كفاعله 🤍».
-   Record `stories.published.stNN` (`publish_at`, `metricool_post_id`, `telegram_job`, `approved`), status `scheduled`, `next_story` = N+1, and tell the owner «✅ جُدولت القصة N لليوم الساعة ١٤:٠٠ على إنستغرام ويوتيوب وتيك توك وقناة تيليغرام.» + «📂 أضف القصة إلى قائمة التشغيل "قصص من صحيح البخاري" في يوتيوب (أنشئها عند أول قصة إن لم تكن موجودة).»
+   Then queue the same video + caption for @HadithDailyAr: `tg.py queue sendVideo '{"chat_id":"@HadithDailyAr","video":"<url>","caption":"<caption>","supports_streaming":true}' --ref story-stNN --not-before <publishing day>T07:55:00Z` (split as in seerah if the caption is over 1024 characters). The bridge sends due jobs on its own 15-minute schedule and on the hourly tick pushed by the Level Up task (:25), so the channel post goes out between 11:00 and ~11:25; that is fine. **Telegram channel version (owner's Telegram plan 2026-11-13):** remove the hashtag line(s) from the caption and end it with «📢 شارك القناة: t.me/HadithDailyAr» + newline + «فالدال على الخير كفاعله 🤍».
+   Record `stories.published.stNN` (`publish_at`, `metricool_post_id`, `telegram_job`, `approved`), status `scheduled`, `next_story` = N+1, and tell the owner «✅ جُدولت القصة N ليوم <اليوم> الساعة ١١:٠٠ على إنستغرام ويوتيوب وتيك توك وقناة تيليغرام.» + «📂 أضف القصة إلى قائمة التشغيل "قصص من صحيح البخاري" في يوتيوب (أنشئها عند أول قصة إن لم تكن موجودة).»
 4. `no <note>` → status `skipped`, keep the note; the next T1 redoes the story with it; tell the owner.
-5. No reply → nothing is published; status `skipped`; tell the owner the story moves to the next Saturday/Sunday.
+5. No reply → nothing is published; do not mark it skipped; send the owner one short reminder that the story will not be published at 11:00 unless he replies ok, and stop.
 6. Never publish a story the owner did not approve.

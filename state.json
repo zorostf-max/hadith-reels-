@@ -90,12 +90,12 @@
    "Sat",
    "Sun"
   ],
-  "slot": "14:00",
-  "next_story": 1,
+  "slot": "11:00",
+  "next_story": 2,
   "pending": {
    "story": 1,
    "publish_date": "2026-11-15",
-   "status": "video_sent",
+   "status": "scheduled",
    "script_message_ids": [
     407
    ],
@@ -110,10 +110,26 @@
      "date_utc": "2026-11-13T17:42:56Z",
      "text": "Ok",
      "meaning": "script approved"
+    },
+    {
+     "message_id": 434,
+     "date_utc": "2026-11-14T20:34:56Z",
+     "text": "Ok",
+     "reply_to_message_id": 431,
+     "meaning": "video approved"
     }
    ],
    "video_commit": "c74bb8cf2f34ae76e88fc67d96ca3ad8d8a72535"
   },
-  "published": {}
+  "published": {
+   "st01": {
+    "publish_at": "2026-11-15T11:00:00+03:00",
+    "metricool_post_id": 428335861,
+    "metricool_tiktok_post_id": 428335877,
+    "telegram_job": "20261114T204103-000-story-st01.json",
+    "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
+    "approved": "2026-11-14T20:34:56Z (msg 434)"
+   }
+  }
  }
 }

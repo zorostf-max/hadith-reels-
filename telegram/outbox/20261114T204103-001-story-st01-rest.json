@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "@HadithDailyAr",
+  "text": "📢 شارك القناة: t.me/HadithDailyAr\nفالدال على الخير كفاعله 🤍"
+ },
+ "ref": "story-st01-rest",
+ "not_before": "2026-11-15T07:56:00Z"
+}
