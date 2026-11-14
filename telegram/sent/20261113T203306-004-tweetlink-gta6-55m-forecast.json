@@ -1,0 +1,11 @@
+{
+ "job": "20261113T203306-004-tweetlink-gta6-55m-forecast.json",
+ "ref": "tweetlink-gta6-55m-forecast",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-14T02:27:16Z",
+ "message_id": 416,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

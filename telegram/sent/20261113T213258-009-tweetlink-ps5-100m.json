@@ -1,0 +1,11 @@
+{
+ "job": "20261113T213258-009-tweetlink-ps5-100m.json",
+ "ref": "tweetlink-ps5-100m",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-14T02:27:20Z",
+ "message_id": 418,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

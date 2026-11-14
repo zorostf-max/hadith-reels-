@@ -1,0 +1,11 @@
+{
+ "job": "20261113T203306-003-tweet-gta6-55m-forecast.json",
+ "ref": "tweet-gta6-55m-forecast",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T02:27:15Z",
+ "message_id": 415,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
