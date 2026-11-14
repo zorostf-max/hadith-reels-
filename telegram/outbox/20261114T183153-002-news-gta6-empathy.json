@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/05/jason-and-lucia-14-1793891731334.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 will push players toward empathy — a series first</b>\n\nRockstar has confirmed that GTA 6 includes mechanisms designed to encourage empathy, something no Grand Theft Auto game has had before. The studio acknowledges many fans come for the chaos, but says this time the game will also give players reasons to care.\n\n🕒 Nov 14, 2026 · 20:19 (GMT+3)\n📰 Sources: <a href=\"https://www.ign.com/articles/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy\">IGN</a> · <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-knows-people-want-to-play-gta-6-for-the-chaos-but-the-studio-will-also-provide-mechanisms-that-encourage-empathy-for-the-first-time-in-a-gta/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n❤️ React if you like the idea · 💬 Chaos or empathy — how will you play?\n\n#GTA6 #RockstarGames #GrandTheftAuto #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-empathy",
+ "fallback_text": "🎮 <b>GTA 6 will push players toward empathy — a series first</b>\n\nRockstar has confirmed that GTA 6 includes mechanisms designed to encourage empathy, something no Grand Theft Auto game has had before. The studio acknowledges many fans come for the chaos, but says this time the game will also give players reasons to care.\n\n🕒 Nov 14, 2026 · 20:19 (GMT+3)\n📰 Sources: <a href=\"https://www.ign.com/articles/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy\">IGN</a> · <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-knows-people-want-to-play-gta-6-for-the-chaos-but-the-studio-will-also-provide-mechanisms-that-encourage-empathy-for-the-first-time-in-a-gta/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n❤️ React if you like the idea · 💬 Chaos or empathy — how will you play?\n\n#GTA6 #RockstarGames #GrandTheftAuto #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
