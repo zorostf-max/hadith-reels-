@@ -1,0 +1,11 @@
+{
+ "job": "20261114T123213-002-news-r6-vegas-new-game.json",
+ "ref": "news-r6-vegas-new-game",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T12:32:51Z",
+ "message_id": 253,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

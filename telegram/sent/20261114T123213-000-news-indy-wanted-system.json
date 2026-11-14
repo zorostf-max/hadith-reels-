@@ -1,0 +1,11 @@
+{
+ "job": "20261114T123213-000-news-indy-wanted-system.json",
+ "ref": "news-indy-wanted-system",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T12:32:48Z",
+ "message_id": 251,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
