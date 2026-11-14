@@ -1,0 +1,11 @@
+{
+ "job": "20261114T133208-003-news-taketwo-ai-clones.json",
+ "ref": "news-taketwo-ai-clones",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T13:32:31Z",
+ "message_id": 255,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
