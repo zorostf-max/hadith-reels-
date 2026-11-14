@@ -95,11 +95,14 @@
   "pending": {
    "story": 1,
    "publish_date": "2026-11-15",
-   "status": "script_sent",
+   "status": "video_sent",
    "script_message_ids": [
     407
    ],
-   "preview_message_ids": [],
+   "preview_message_ids": [
+    430,
+    431
+   ],
    "notes": [],
    "messages": [
     {
@@ -108,7 +111,8 @@
      "text": "Ok",
      "meaning": "script approved"
     }
-   ]
+   ],
+   "video_commit": "c74bb8cf2f34ae76e88fc67d96ca3ad8d8a72535"
   },
   "published": {}
  }
