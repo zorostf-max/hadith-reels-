@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/yn667374DegfCJkCaiBeUC-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Gears of War: E-Day streams up to 3.7 GB/s from your SSD to save RAM</b>\n\nTom's Hardware tested the storage tech behind Gears of War: E-Day and found it streams assets from the SSD at up to 3.7 GB/s. That saves several gigabytes of system RAM, helping the game's dense, detailed world run on PCs with more limited hardware.\n\n🕒 Nov 14, 2026 · 18:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/ssds/we-tested-the-ram-saving-storage-tech-in-gears-of-war-e-day-up-to-3-7-gb-s-of-ssd-streaming-speed-saves-several-gigabytes-of-system-ram-usage\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a>\n\n💾 Running it off an NVMe? 👍 if yes · 💬 share your specs\n\n#GearsOfWar #EDay #SSD #PCGaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gears-eday-storage-test",
+ "fallback_text": "🖥️ <b>Gears of War: E-Day streams up to 3.7 GB/s from your SSD to save RAM</b>\n\nTom's Hardware tested the storage tech behind Gears of War: E-Day and found it streams assets from the SSD at up to 3.7 GB/s. That saves several gigabytes of system RAM, helping the game's dense, detailed world run on PCs with more limited hardware.\n\n🕒 Nov 14, 2026 · 18:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/ssds/we-tested-the-ram-saving-storage-tech-in-gears-of-war-e-day-up-to-3-7-gb-s-of-ssd-streaming-speed-saves-several-gigabytes-of-system-ram-usage\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a>\n\n💾 Running it off an NVMe? 👍 if yes · 💬 share your specs\n\n#GearsOfWar #EDay #SSD #PCGaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

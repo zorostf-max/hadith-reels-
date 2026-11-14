@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/14/pokemon-fishing-game-psa-slab.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Lost PokéPark DS game resurfaces after 20 years, then gets sealed in a PSA slab</b>\n\nA playable copy of a 20-year-old PokéPark game for the Nintendo DS, long considered lost, has finally turned up. Instead of being preserved and shared online, it was graded and sealed in a PSA slab, leaving Pokémon fans and preservationists furious that the game may stay out of reach.\n\n🕒 Nov 14, 2026 · 18:06 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/pokemon/pokemon-fans-furious-after-lost-pokepark-ds-game-found-after-20-years-is-sealed-in-psa-slab-3428188/\">Dexerto</a>\n👥 <a href=\"https://x.com/Pokemon\">@Pokemon</a>\n\n😤 Preserve it or keep it sealed? React and tell us below 💬\n\n#Pokemon #PokePark #NintendoDS #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-pokepark-ds-psa-slab",
+ "fallback_text": "🎮 <b>Lost PokéPark DS game resurfaces after 20 years, then gets sealed in a PSA slab</b>\n\nA playable copy of a 20-year-old PokéPark game for the Nintendo DS, long considered lost, has finally turned up. Instead of being preserved and shared online, it was graded and sealed in a PSA slab, leaving Pokémon fans and preservationists furious that the game may stay out of reach.\n\n🕒 Nov 14, 2026 · 18:06 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/pokemon/pokemon-fans-furious-after-lost-pokepark-ds-game-found-after-20-years-is-sealed-in-psa-slab-3428188/\">Dexerto</a>\n👥 <a href=\"https://x.com/Pokemon\">@Pokemon</a>\n\n😤 Preserve it or keep it sealed? React and tell us below 💬\n\n#Pokemon #PokePark #NintendoDS #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
