@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "⏰ 00:00\n<code>https://www.hltv.org/news/45989/spirit-defeat-mouz-to-make-blast-rivals-final</code>"
+ },
+ "ref": "tweetlink-spirit-mouz-blast-final"
+}

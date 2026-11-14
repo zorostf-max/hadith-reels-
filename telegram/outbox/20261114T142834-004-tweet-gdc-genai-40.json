@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Kig4bpRgMrvxFJcjUprT4Y-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 40% of game developers now use generative AI, GDC survey finds\nYet 55% say it's hurting the industry, and only 8% call it positive.\nWould you play a game made with AI?\nvia @pcgamer @Official_GDC\n#GenAI #GamingNews</code>"
+ },
+ "ref": "tweet-gdc-genai-40",
+ "fallback_text": "<code>🎮 40% of game developers now use generative AI, GDC survey finds\nYet 55% say it's hurting the industry, and only 8% call it positive.\nWould you play a game made with AI?\nvia @pcgamer @Official_GDC\n#GenAI #GamingNews</code>"
+}
