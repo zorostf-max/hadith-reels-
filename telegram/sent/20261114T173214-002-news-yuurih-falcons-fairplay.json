@@ -1,0 +1,11 @@
+{
+ "job": "20261114T173214-002-news-yuurih-falcons-fairplay.json",
+ "ref": "news-yuurih-falcons-fairplay",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T17:32:28Z",
+ "message_id": 261,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

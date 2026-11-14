@@ -1,0 +1,11 @@
+{
+ "job": "20261114T173214-004-news-samsung-990-ssd-deal.json",
+ "ref": "news-samsung-990-ssd-deal",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T17:32:32Z",
+ "message_id": 263,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

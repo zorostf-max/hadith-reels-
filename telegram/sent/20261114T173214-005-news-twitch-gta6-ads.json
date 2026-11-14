@@ -1,0 +1,11 @@
+{
+ "job": "20261114T173214-005-news-twitch-gta6-ads.json",
+ "ref": "news-twitch-gta6-ads",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T17:32:33Z",
+ "message_id": 264,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
