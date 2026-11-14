@@ -51,3 +51,6 @@ World of Warcraft	Warcraft
 Palworld	Palworld_EN
 The Game Awards	thegameawards
 Roblox	Roblox
+GDC	Official_GDC
+Anthropic	AnthropicAI
+OpenAI	OpenAI

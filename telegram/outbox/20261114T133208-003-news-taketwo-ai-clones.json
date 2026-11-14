@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/q9VEvTmjqXdkuDN5ZDPPxh-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Take-Two CEO calls out Anthropic and OpenAI over AI game clones</b>\n\nWith GTA 6 on the way, Take-Two's CEO has criticised AI companies Anthropic and OpenAI over AI tools being used to clone existing games. The comments follow Anthropic's Claude starting to block users from recreating someone else's specific game.\n\n🕒 Nov 14, 2026 · 16:10 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-openai-over-ai-game-clones-as-its-ironic-to-stomp-on-someone-elses-ip/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/AnthropicAI\">@AnthropicAI</a> · <a href=\"https://x.com/OpenAI\">@OpenAI</a>\n\n⚖️ Should AI firms block game clones? React 👍 or 👎 and comment your take 💬\n\n#GTA6 #TakeTwo #AI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-taketwo-ai-clones",
+ "fallback_text": "🎮 <b>Take-Two CEO calls out Anthropic and OpenAI over AI game clones</b>\n\nWith GTA 6 on the way, Take-Two's CEO has criticised AI companies Anthropic and OpenAI over AI tools being used to clone existing games. The comments follow Anthropic's Claude starting to block users from recreating someone else's specific game.\n\n🕒 Nov 14, 2026 · 16:10 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-openai-over-ai-game-clones-as-its-ironic-to-stomp-on-someone-elses-ip/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/AnthropicAI\">@AnthropicAI</a> · <a href=\"https://x.com/OpenAI\">@OpenAI</a>\n\n⚖️ Should AI firms block game clones? React 👍 or 👎 and comment your take 💬\n\n#GTA6 #TakeTwo #AI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
