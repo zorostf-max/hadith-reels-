@@ -1,0 +1,11 @@
+{
+ "job": "20261114T212738-002-news-steam-review-backlog-12-days.json",
+ "ref": "news-steam-review-backlog-12-days",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T21:27:57Z",
+ "message_id": 267,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
