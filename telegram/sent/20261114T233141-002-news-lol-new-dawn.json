@@ -1,0 +1,11 @@
+{
+ "job": "20261114T233141-002-news-lol-new-dawn.json",
+ "ref": "news-lol-new-dawn",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T23:32:01Z",
+ "message_id": 270,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
