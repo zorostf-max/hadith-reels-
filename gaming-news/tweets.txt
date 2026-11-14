@@ -177,3 +177,6 @@
 2026-11-14 00:33	https://www.gamesradar.com/games/ps5-is-the-first-sony-console-to-hit-100-million-units-sold-without-a-price-cut/
 2026-11-14 04:32	https://www.ign.com/articles/blade-runner-2099-executive-producers-confirm-franchise-owners-are-in-talks-for-aaa-video-game-adaptation
 2026-11-14 15:32	https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report
+2026-11-14 17:28	https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-openai-over-ai-game-clones-as-its-ironic-to-stomp-on-someone-elses-ip/
+2026-11-14 17:28	https://www.pcgamer.com/software/ai/40-percent-of-game-developers-use-generative-ai-according-to-a-new-report-but-more-than-half-reckon-the-technology-has-a-negative-impact-on-the-games-industry/
+2026-11-14 17:28	https://www.hltv.org/news/45989/spirit-defeat-mouz-to-make-blast-rivals-final
