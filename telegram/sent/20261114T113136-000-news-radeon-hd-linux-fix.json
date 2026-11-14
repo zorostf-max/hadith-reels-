@@ -1,0 +1,11 @@
+{
+ "job": "20261114T113136-000-news-radeon-hd-linux-fix.json",
+ "ref": "news-radeon-hd-linux-fix",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T11:31:52Z",
+ "message_id": 249,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

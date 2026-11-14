@@ -1,0 +1,11 @@
+{
+ "job": "20261114T113136-001-news-cod-endowment-valor-pack.json",
+ "ref": "news-cod-endowment-valor-pack",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T11:31:54Z",
+ "message_id": 250,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
