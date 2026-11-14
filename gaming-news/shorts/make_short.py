@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Level Up daily gaming-news Short renderer (1080x1920, 30 fps).
+"""Level Up daily gaming-news Short renderer — TECH style v2 (1080x1920, 30 fps).
+
+Look (owner's request 2026-11-15): full-screen tech HUD. Every story is its own
+"page" with its own accent colour (Nintendo red, PlayStation blue, Xbox green…),
+over an animated solar-panel / photovoltaic grid background, HUD corner
+brackets, monospace data readouts, typewriter headline and a glitch-scan
+transition between pages.
 
 Usage:
   python3 make_short.py <episode_dir> --check     # writes check_*.png stills, no video
@@ -9,7 +15,7 @@ Usage:
 {
   "date_label": "nov 15",
   "stories": [                      # 2-4 stories, biggest first
-    {"tag": "GTA 6",                 # chip label, <= 9 chars
+    {"tag": "GTA 6",                 # page label, <= 9 chars
      "cat": "games",                 # games | nintendo | playstation | xbox | pc | hardware | esports | deals | tech
      "head": "Headline in my own words (<= 90 chars)",
      "src": "source: IGN",
@@ -19,7 +25,7 @@ Usage:
   "outro": {"head": "Which one surprised you most?", "audio": "audio/outro.mp3"}
 }
 ART TYPES (all text in English, short):
-  {"type":"image","file":"img/s0.jpg","label":"optional chip"}           article image, slow push-in
+  {"type":"image","file":"img/s0.jpg","label":"optional chip"}           article image, scan overlay, slow push-in
   {"type":"progress","label":"PRE-LOADING","title":"GTA 6","badge":"NOV 19"}
   {"type":"counter","from":1999,"to":9400,"prefix":"$","suffix":"","title":"RTX 5090","sub":"cheapest in the US","badge":"+262% MSRP"}
   {"type":"bars","title":"GPU units on Amazon US","items":[["AMD",9200],["NVIDIA",8900]],"badge":"FIRST TIME EVER"}
@@ -29,200 +35,293 @@ ART TYPES (all text in English, short):
 """
 import sys, os, math, json, subprocess, wave
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps, ImageChops
 
 W, H, FPS = 1080, 1920, 30
-PW, PH = 1080, 608
-PY = 520                       # panel top (kept inside the Shorts/Reels safe zone)
-FD = "/usr/share/fonts/opentype/inter/"
+HERE = os.path.dirname(os.path.abspath(__file__))
+FDIR = os.path.join(HERE, "fonts")
+# layout (Shorts safe zone: keep key text between y≈230 and y≈1480)
+CX0, CY0, CX1, CY1 = 60, 500, 1020, 1040          # the "monitor" card
+CW, CHH = CX1 - CX0, CY1 - CY0
 _fc = {}
-def font(name, size):
-    k = (name, size)
-    if k not in _fc: _fc[k] = ImageFont.truetype(FD + name, size)
+def _font(file, size, wght=None):
+    k = (file, size, wght)
+    if k not in _fc:
+        f = ImageFont.truetype(os.path.join(FDIR, file), size)
+        if wght: f.set_variation_by_axes([wght])
+        _fc[k] = f
     return _fc[k]
-fB = lambda s: font("Inter-Bold.otf", s)
-fXB = lambda s: font("Inter-ExtraBold.otf", s)
-fSB = lambda s: font("Inter-SemiBold.otf", s)
-fM = lambda s: font("Inter-Medium.otf", s)
-ORANGE = (255, 150, 40)
-HUES = {"games": (255, 120, 40), "nintendo": (255, 70, 70), "playstation": (60, 120, 255), "xbox": (90, 200, 80),
-        "pc": (120, 220, 60), "hardware": (120, 220, 60), "esports": (200, 90, 255), "deals": (255, 200, 40),
-        "tech": (90, 200, 255)}
-T_TR = 0.42
+fOrb = lambda s, w=800: _font("Orbitron-VF.ttf", s, w)          # big numbers / titles
+fMono = lambda s, w=500: _font("JetBrainsMono-VF.ttf", s, w)     # HUD readouts
+fRaj = lambda s: _font("Rajdhani-Bold.ttf", s)                    # headline
+fRajS = lambda s: _font("Rajdhani-SemiBold.ttf", s)
+
+CYAN = (0, 225, 255)
+WHITE = (240, 248, 255)
+DIM = (120, 150, 175)
+ACC = {"games": (255, 150, 30), "nintendo": (255, 40, 50), "playstation": (40, 130, 255), "xbox": (60, 220, 70),
+       "pc": (150, 255, 60), "hardware": (150, 255, 60), "esports": (190, 90, 255), "deals": (255, 205, 40),
+       "tech": (0, 225, 255)}
+CATNAME = {"games": "GAMES", "nintendo": "NINTENDO", "playstation": "PLAYSTATION", "xbox": "XBOX", "pc": "PC",
+           "hardware": "HARDWARE", "esports": "ESPORTS", "deals": "DEALS", "tech": "TECH"}
+T_TR = 0.45
 
 def ease(x): x = max(0.0, min(1.0, x)); return 1 - (1 - x) ** 3
 def ease_io(x): x = max(0.0, min(1.0, x)); return x * x * (3 - 2 * x)
-def rr(d, box, r, **k): d.rounded_rectangle(box, r, **k)
+def acc_of(cat): return ACC.get(cat, CYAN)
 
-def ctext(d, cx, y, txt, f, fill, anchor="ma"):
-    """Text that respects alpha on RGB images."""
-    if len(fill) == 4 and fill[3] < 255:
-        if fill[3] <= 0: return
-        im = d._image
-        m = Image.new("L", im.size, 0)
-        ImageDraw.Draw(m).text((cx, y), txt, font=f, fill=fill[3], anchor=anchor)
-        im.paste(Image.new(im.mode, im.size, fill[:3]), (0, 0), m)
-        return
-    d.text((cx, y), txt, font=f, fill=fill, anchor=anchor)
+def text_a(im, xy, txt, f, fill, anchor="la"):
+    """Text with real alpha on an RGB image."""
+    a = fill[3] if len(fill) == 4 else 255
+    if a <= 0: return
+    if a >= 255: ImageDraw.Draw(im).text(xy, txt, font=f, fill=fill[:3], anchor=anchor); return
+    m = Image.new("L", im.size, 0); ImageDraw.Draw(m).text(xy, txt, font=f, fill=a, anchor=anchor)
+    im.paste(Image.new("RGB", im.size, fill[:3]), (0, 0), m)
 
-def fit(d, txt, size, maxw, fn=fXB):
-    while size > 20 and d.textlength(txt, font=fn(size)) > maxw: size -= 2
-    return fn(size)
+def glow_text(im, xy, txt, f, col, alpha=1.0, blur=18, anchor="ma"):
+    if alpha <= 0: return
+    m = Image.new("L", im.size, 0); ImageDraw.Draw(m).text(xy, txt, font=f, fill=int(255 * alpha), anchor=anchor)
+    g = m.filter(ImageFilter.GaussianBlur(blur))
+    im.paste(Image.new("RGB", im.size, col), (0, 0), g)
+    im.paste(Image.new("RGB", im.size, WHITE), (0, 0), m)
 
-# ---------------- backgrounds ----------------
-def sunset_bg(hue, seed):
-    w, h = 1200, 676
-    rng = np.random.default_rng(seed)
-    y = np.linspace(0, 1, h)[:, None]; x = np.linspace(0, 1, w)[None, :]
-    top = np.array([18, 16, 30]); mid = np.array(hue) * 0.9; low = np.array([20, 12, 10])
-    hz = 0.55
-    a = np.clip(y / hz, 0, 1)
-    sky = top * (1 - a[..., None] ** 2) + mid * (a[..., None] ** 2)
-    ground = low + (mid * 0.25 - low) * np.clip(1 - (y - hz) / (1 - hz), 0, 1)[..., None] ** 3
-    img = np.where((y < hz)[..., None], sky, ground) * np.ones((1, w, 1))
-    dd = np.sqrt(((x - 0.62) * 1.8) ** 2 + ((y - hz) * 3.2) ** 2)
-    img = img + np.exp(-dd * 3.2)[..., None] * np.array([255, 200, 140]) * 0.85
-    v = np.sqrt((x - 0.5) ** 2 + (y - 0.5) ** 2)
-    img *= (1 - 0.75 * v ** 2)[..., None]
-    img += rng.normal(0, 4, (h, w, 1))
-    im = Image.fromarray(np.clip(img, 0, 255).astype(np.uint8))
-    d = ImageDraw.Draw(im, "RGBA")
-    hy = int(h * hz); vx = int(w * 0.62)
-    for k in range(-9, 10): d.line([(vx, hy), (vx + k * 260, h)], fill=(255, 210, 160, 34), width=2)
-    for j in range(1, 9):
-        yy = hy + (h - hy) * (j / 9) ** 2
-        d.line([(0, yy), (w, yy)], fill=(255, 210, 160, 22), width=2)
+def fit(d, txt, f_of, size, maxw):
+    while size > 20 and d.textlength(txt, font=f_of(size)) > maxw: size -= 2
+    return f_of(size)
+
+def brackets(d, box, col, L=46, w=5):
+    x0, y0, x1, y1 = box
+    for (x, y, sx, sy) in ((x0, y0, 1, 1), (x1, y0, -1, 1), (x0, y1, 1, -1), (x1, y1, -1, -1)):
+        d.line([(x, y + sy * L), (x, y), (x + sx * L, y)], fill=col, width=w)
+
+def chip(d, x1, y, txt, col, q, right=True):
+    if q <= 0: return
+    f = fMono(28, 700); tw = d.textlength(txt, font=f)
+    x0 = x1 - tw - 40 if right else x1; xa = x0 + tw + 40
+    yy = y + (1 - q) * 24
+    d.polygon([(x0 + 12, yy), (xa, yy), (xa, yy + 50 - 12), (xa - 12, yy + 50), (x0, yy + 50), (x0, yy + 12)],
+              fill=col + (int(235 * q),))
+    d.text(((x0 + xa) / 2, yy + 25), txt, font=f, fill=(5, 10, 20, int(255 * q)), anchor="mm")
+
+# ---------------- solar-panel background ----------------
+def _persp_coeffs(dst, src):
+    A = []; B = []
+    for (x, y), (u, v) in zip(dst, src):
+        A += [[x, y, 1, 0, 0, 0, -u * x, -u * y], [0, 0, 0, x, y, 1, -v * x, -v * y]]; B += [u, v]
+    return np.linalg.solve(np.array(A, float), np.array(B, float)).tolist()
+
+_pv = {}
+def pv_texture():
+    """Flat photovoltaic array: panels of 6x10 mono cells, silver frames, busbars."""
+    if "t" in _pv: return _pv["t"]
+    TW, TH = 4200, 5200
+    rng = np.random.default_rng(7)
+    im = Image.new("RGB", (TW, TH), (55, 62, 72)); d = ImageDraw.Draw(im)
+    cell = 40; gap = 2; pcols, prows = 6, 10; frame = 8; pgap = 26
+    pw = pcols * cell + frame * 2; ph = prows * cell + frame * 2
+    y = 0
+    while y < TH:
+        x = 0
+        while x < TW:
+            d.rectangle([x, y, x + pw, y + ph], fill=(150, 160, 172))           # aluminium frame
+            d.rectangle([x + frame - 2, y + frame - 2, x + pw - frame + 2, y + ph - frame + 2], fill=(18, 26, 44))
+            tone = rng.uniform(0.85, 1.15)
+            for r in range(prows):
+                for c in range(pcols):
+                    cx = x + frame + c * cell; cy = y + frame + r * cell
+                    b = tone * rng.uniform(0.9, 1.1)
+                    d.rectangle([cx + gap, cy + gap, cx + cell - gap, cy + cell - gap],
+                                fill=(int(16 * b), int(42 * b), int(92 * b)))
+                    # cut corners of mono cells
+                    k = 7
+                    for (px, py) in ((cx + gap, cy + gap), (cx + cell - gap, cy + gap), (cx + gap, cy + cell - gap), (cx + cell - gap, cy + cell - gap)):
+                        d.polygon([(px, py), (px + (k if px < cx + cell / 2 else -k), py), (px, py + (k if py < cy + cell / 2 else -k))], fill=(18, 26, 44))
+                    # busbars + fingers
+                    for bx in (0.33, 0.66):
+                        d.line([(cx + cell * bx, cy + gap), (cx + cell * bx, cy + cell - gap)], fill=(110, 125, 150), width=1)
+            x += pw + pgap
+        y += ph + pgap
+    _pv["t"] = im
     return im
 
-def image_bg(path):
-    im = Image.open(path).convert("RGB")
-    im = ImageOps.fit(im, (1200, 676), Image.LANCZOS)
-    # warm cinematic grade + vignette, like the reference reel
-    a = np.asarray(im).astype(np.float32)
-    a = a * np.array([1.06, 1.0, 0.9]) + np.array([8, 2, -6])
-    y = np.linspace(0, 1, 676)[:, None]; x = np.linspace(0, 1, 1200)[None, :]
-    v = np.sqrt((x - 0.5) ** 2 + (y - 0.5) ** 2)
-    a *= (1 - 0.6 * v ** 2)[..., None]
-    a[int(676 * 0.62):] *= np.linspace(1, 0.55, 676 - int(676 * 0.62))[:, None, None]
-    return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
-
-# ---------------- art types (drawn on the 1080x608 panel) ----------------
-def badge(d, x1, y, txt, q, col=ORANGE, tcol=(30, 15, 0)):
-    f = fB(28); tw = d.textlength(txt, font=f)
-    rr(d, [x1 - tw - 44, y - (1 - q) * 30, x1, y + 58 - (1 - q) * 30], 29, fill=col + (int(240 * q),))
-    ctext(d, x1 - tw / 2 - 22, y + 13 - (1 - q) * 30, txt, f, tcol + (int(255 * q),))
-
-def art_image(im, t, a):
+_bgc = {}
+def page_bg(cat, seed):
+    """Perspective solar field, tinted with the page accent, dark enough for text."""
+    k = (cat, seed % 2)
+    if k in _bgc: return _bgc[k]
+    acc = np.array(acc_of(cat), float)
+    tex = pv_texture()
+    TW, TH = tex.size
+    hz = 360                                      # horizon line
+    off = 260 * (seed % 2)
+    dst = [(-900, hz), (W + 900, hz), (W + 260, H), (-260, H)]
+    src = [(0 + off, 0), (TW - 400 + off, 0), (TW - 400 + off, TH), (0 + off, TH)]
+    field = tex.transform((W, H), Image.PERSPECTIVE, _persp_coeffs(dst, src), Image.BILINEAR)
+    a = np.asarray(field).astype(np.float32)
+    yy = np.arange(H)[:, None].astype(np.float32); xx = np.arange(W)[None, :].astype(np.float32)
+    # depth fog toward the horizon + global dim
+    depth = np.clip((yy - hz) / (H - hz), 0, 1)
+    a = a * (0.25 + 0.55 * depth[..., None] ** 0.7)
+    fog = np.exp(-np.clip(yy - hz, 0, None) / 260)[..., None]
+    a = a * (1 - fog) + (acc * 0.35 + np.array([10, 20, 40])) * fog
+    sky = (yy < hz)[..., None]
+    skyc = np.array([4, 8, 18]) + (acc * 0.45) * np.exp(-(hz - yy) / 120)[..., None]
+    a = np.where(sky, skyc * np.ones((1, W, 1)), a)
+    # horizon glow
+    a += acc * 0.9 * np.exp(-np.abs(yy - hz) / 26)[..., None] * np.exp(-((xx - W / 2) / 700) ** 2)[..., None]
+    # vignette
+    v = np.sqrt(((xx - W / 2) / W) ** 2 + ((yy - H / 2) / H) ** 2)
+    a *= (1 - 0.9 * v ** 2)[..., None]
+    im = Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
+    # faint HUD grid + scanlines
     d = ImageDraw.Draw(im, "RGBA")
-    if a.get("label"):
-        q = ease((t - 0.5) / 0.4)
-        badge(d, 1000, 470, a["label"], q)
+    for x in range(0, W, 60): d.line([(x, 0), (x, hz)], fill=tuple(int(c) for c in acc) + (14,), width=1)
+    for y in range(0, hz, 60): d.line([(0, y), (W, y)], fill=tuple(int(c) for c in acc) + (14,), width=1)
+    sl = Image.new("L", (W, H), 0); sd = ImageDraw.Draw(sl)
+    for y in range(0, H, 4): sd.line([(0, y), (W, y)], fill=26)
+    im.paste((0, 0, 0), (0, 0), sl)
+    _bgc[k] = im
+    return im
 
-def art_progress(im, t, a):
+_sheen = {}
+def sheen_mask():
+    """Diagonal light band that sweeps across the panels (reflection)."""
+    if "m" in _sheen: return _sheen["m"]
+    bw = 700; m = np.zeros((H, bw), np.float32)
+    x = np.arange(bw)[None, :]; y = np.arange(H)[:, None]
+    m = np.exp(-((x - bw / 2 - (y - H) * 0.35) / 90) ** 2) * np.clip((y - 380) / 900, 0, 1)
+    _sheen["m"] = Image.fromarray((m * 70).astype(np.uint8))
+    return _sheen["m"]
+
+def sheen_band():
+    if "b" in _sheen: return _sheen["b"]
+    bw = 2 * W
+    x = np.arange(bw)[None, :].astype(np.float32); y = np.arange(H)[:, None].astype(np.float32)
+    c = bw / 2 + (y - H / 2) * 0.45
+    m = np.exp(-((x - c) / 110) ** 2) * np.clip((y - 380) / 700, 0, 1)
+    _sheen["b"] = Image.fromarray((m * 60).astype(np.uint8))
+    return _sheen["b"]
+
+# ---------------- art types (drawn on the CW x CHH card) ----------------
+def card_base(acc):
+    im = Image.new("RGB", (CW, CHH), (4, 10, 22))
+    a = np.asarray(im).astype(np.float32)
+    yy = np.linspace(0, 1, CHH)[:, None]
+    a = a + np.array(acc, float) * 0.10 * (1 - yy)[..., None]
+    im = Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
+    d = ImageDraw.Draw(im, "RGBA")
+    for x in range(0, CW, 40): d.line([(x, 0), (x, CHH)], fill=acc + (20,), width=1)
+    for y in range(0, CHH, 40): d.line([(0, y), (CW, y)], fill=acc + (20,), width=1)
+    return im
+
+def art_image(im, t, a, acc, ctx):
+    src = ctx["img"]
+    z = 1 + 0.06 * (t / 7)
+    sw, sh = int(src.width / z), int(src.height / z)
+    ox, oy = (src.width - sw) // 2, (src.height - sh) // 2
+    pic = src.crop((ox, oy, ox + sw, oy + sh)).resize((CW, CHH), Image.BILINEAR)
+    im.paste(pic, (0, 0))
+    d = ImageDraw.Draw(im, "RGBA")
+    # scan line sweeping down + light scanlines
+    sy = int((t * 260) % (CHH + 200)) - 100
+    d.rectangle([0, sy, CW, sy + 3], fill=acc + (150,))
+    d.rectangle([0, sy - 40, CW, sy], fill=acc + (22,))
+    if a.get("label"): chip(d, CW - 24, CHH - 76, a["label"], acc, ease((t - 2.0) / 0.4))
+
+def art_progress(im, t, a, acc, ctx):
     d = ImageDraw.Draw(im, "RGBA")
     p = ease((t - 0.3) / 3.0)
-    rr(d, [190, 150, 890, 450], 34, fill=(10, 10, 14, 170), outline=(255, 255, 255, 70), width=2)
-    d.text((240, 190), a.get("label", "LOADING"), font=fSB(30), fill=(255, 220, 190))
-    d.text((240, 232), a["title"], font=fit(d, a["title"], 96, 430), fill=(255, 255, 255))
-    d.text((840, 200), f"{int(p*100)}%", font=fXB(60), fill=ORANGE, anchor="ra")
-    rr(d, [240, 370, 840, 396], 13, fill=(255, 255, 255, 40))
-    if p > 0.01: rr(d, [240, 370, 240 + int(600 * p), 396], 13, fill=ORANGE)
-    if a.get("badge"): badge(d, 900, 100, a["badge"], ease((t - 3.2) / 0.5))
+    d.text((60, 90), "> " + a.get("label", "LOADING"), font=fMono(34, 600), fill=acc)
+    d.text((60, 150), a["title"], font=fit(d, a["title"], fOrb, 92, 620), fill=WHITE)
+    d.text((CW - 60, 165), f"{int(p*100):3d}%", font=fOrb(70), fill=acc, anchor="ra")
+    n = 24; sx = 60; segw = (CW - 120) / n
+    for i in range(n):
+        on = i < int(p * n)
+        d.rectangle([sx + i * segw + 3, 330, sx + (i + 1) * segw - 3, 390], fill=acc + (230,) if on else (255, 255, 255, 26))
+    d.text((60, 420), f"[{'#' * int(p * 20):<20}] {int(p*48.2*10)/10:.1f} GB/s", font=fMono(26), fill=DIM)
+    if a.get("badge"): chip(d, CW - 30, 40, a["badge"], acc, ease((t - 3.2) / 0.5))
 
-def art_counter(im, t, a):
+def art_counter(im, t, a, acc, ctx):
     d = ImageDraw.Draw(im, "RGBA")
-    x0, y0 = 118, 220
-    rr(d, [x0, y0, x0 + 470, y0 + 200], 24, fill=(22, 22, 26), outline=(140, 220, 80, 160), width=3)
-    for i in range(3):
-        cx, cy, r = x0 + 85 + i * 150, y0 + 100, 66
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(35, 35, 40), outline=(90, 90, 100), width=3)
-        for b in range(7):
-            ang = t * 9 + b * 2 * math.pi / 7 + i
-            d.line([(cx, cy), (cx + 56 * math.cos(ang), cy + 56 * math.sin(ang))], fill=(120, 120, 130), width=8)
-        d.ellipse([cx - 16, cy - 16, cx + 16, cy + 16], fill=(140, 220, 80))
-    d.text((x0, y0 + 215), a.get("title", ""), font=fB(34), fill=(255, 255, 255))
     p = ease((t - 0.4) / 2.4)
     v = a["from"] + (a["to"] - a["from"]) * p
     s = f"{a.get('prefix','')}{int(v):,}{a.get('suffix','')}" if abs(a["to"]) >= 100 else f"{a.get('prefix','')}{v:.1f}{a.get('suffix','')}"
-    d.text((950, 190), s, font=fit(d, s, 76, 330), fill=ORANGE, anchor="ra")
-    if a.get("sub"): d.text((950, 286), a["sub"], font=fB(30), fill=(255, 255, 255), anchor="ra")
-    if a.get("badge"): badge(d, 950, 350, a["badge"], ease((t - 2.8) / 0.4), col=(230, 50, 50), tcol=(255, 255, 255))
+    d.text((60, 70), "> " + a.get("title", "").upper(), font=fMono(36, 700), fill=acc)
+    glow_text(im, (CW // 2, 170), s, fit(d, s, fOrb, 150, CW - 100), acc)
+    if a.get("sub"): d.text((CW // 2, 370), a["sub"], font=fRajS(40), fill=WHITE, anchor="ma")
+    # sparkline
+    pts = [(60 + i * (CW - 120) / 40, 470 - 40 * (i / 40) ** 2 * p - 8 * math.sin(i * 1.7 + t * 3)) for i in range(41)]
+    d.line(pts, fill=acc + (200,), width=3)
+    if a.get("badge"): chip(d, CW - 30, 40, a["badge"], (255, 70, 70), ease((t - 2.8) / 0.4))
 
-def art_bars(im, t, a):
+def art_bars(im, t, a, acc, ctx):
     d = ImageDraw.Draw(im, "RGBA")
-    ctext(d, 540, 100, a.get("title", ""), fSB(30), (255, 235, 215))
-    items = a["items"][:3]; mx = max(v for _, v in items); base = 500
-    cols = [(235, 50, 45), (118, 185, 0), (60, 140, 255)]
-    n = len(items); xs = [(460 if a.get("badge") else 540) + (i - (n - 1) / 2) * 280 for i in range(n)]
+    d.text((60, 50), "> " + a.get("title", "").upper(), font=fit(d, "> " + a.get("title", "").upper(), lambda s: fMono(s, 700), 34, CW - 120), fill=acc)
+    items = a["items"][:4]; mx = max(v for _, v in items); base = 450
+    cols = [acc, (255, 255, 255), (255, 70, 70), (255, 205, 40)]
+    n = len(items); bw = min(170, (CW - 160) // n - 40)
+    xs = [CW / 2 + (i - (n - 1) / 2) * (bw + 70) for i in range(n)]
+    for y in range(base, 120, -60): d.line([(40, y), (CW - 40, y)], fill=(255, 255, 255, 22))
     for i, (lab, v) in enumerate(items):
-        p = ease((t - 0.4 - i * 0.25) / 2.0)
-        h = 250 * v / mx * p; x = xs[i]
-        rr(d, [x - 80, base - h, x + 80, base], 14, fill=cols[i % 3] + (235,))
-        d.text((x, base - h - 56), f"{int(v*p):,}", font=fXB(42), fill=(255, 255, 255), anchor="ma")
-        d.text((x, base + 16), lab, font=fB(30), fill=(255, 255, 255), anchor="ma")
-    if a.get("badge"): badge(d, 1000, 500, a["badge"], ease((t - 2.6) / 0.4))
+        p = ease((t - 0.4 - i * 0.25) / 2.0); h = 260 * v / mx * p; x = xs[i]; c = cols[i % 4]
+        d.rectangle([x - bw / 2, base - h, x + bw / 2, base], fill=c + (60,), outline=c + (255,), width=3)
+        for yy in range(int(base - h) + 8, base, 14): d.line([(x - bw / 2 + 6, yy), (x + bw / 2 - 6, yy)], fill=c + (70,))
+        d.text((x, base - h - 52), f"{int(v*p):,}", font=fOrb(36), fill=WHITE, anchor="ma")
+        d.text((x, base + 18), lab.upper(), font=fMono(28, 700), fill=WHITE, anchor="ma")
+    if a.get("badge"): chip(d, CW - 30, 110, a["badge"], acc, ease((t - 2.6) / 0.4))
 
-def art_pills(im, t, a):
+def art_pills(im, t, a, acc, ctx):
     d = ImageDraw.Draw(im, "RGBA")
-    cx, cy = 540, 240; s = 1 + 0.02 * math.sin(t * 2); bw, bh = 520 * s, 230 * s
-    rr(d, [cx - bw/2 - 70, cy - bh/2, cx - bw/2 + 10, cy + bh/2], 40, fill=(230, 60, 60))
-    rr(d, [cx + bw/2 - 10, cy - bh/2, cx + bw/2 + 70, cy + bh/2], 40, fill=(60, 140, 255))
-    rr(d, [cx - bw/2, cy - bh/2, cx + bw/2, cy + bh/2], 22, fill=(25, 25, 30), outline=(255, 255, 255, 60), width=2)
-    rr(d, [cx - bw/2 + 26, cy - bh/2 + 22, cx + bw/2 - 26, cy + bh/2 - 22], 10, fill=(255, 190, 120))
-    ctext(d, cx, cy - 30, a.get("title", ""), fit(d, a.get("title", ""), 60, 420), (40, 20, 10))
-    items = a["items"][:3]; f = fB(28)
-    widths = [d.textlength(x, font=f) + 44 for x in items]; gap = 24
-    x = 540 - (sum(widths) + gap * (len(items) - 1)) / 2
-    for i, lab in enumerate(items):
-        q = ease((t - 0.6 - i * 0.45) / 0.4); y = 430 + (1 - q) * 30
-        rr(d, [x, y, x + widths[i], y + 56], 28, fill=(255, 255, 255, int(45 * q)), outline=(255, 255, 255, int(120 * q)), width=2)
-        ctext(d, x + widths[i] / 2, y + 13, lab, f, (255, 255, 255, int(255 * q)))
-        x += widths[i] + gap
+    title = a.get("title", "")
+    glow_text(im, (CW // 2, 70), title, fit(d, title, fOrb, 72, CW - 100), acc, ease(t / 0.4), blur=14)
+    d.line([(80, 180), (CW - 80, 180)], fill=acc + (160,), width=2)
+    for i, lab in enumerate(a["items"][:4]):
+        q = ease((t - 0.6 - i * 0.45) / 0.35)
+        if q <= 0: continue
+        y = 220 + i * 76; x = 110 + (1 - q) * 40
+        d.rectangle([x - 30, y + 6, x - 8, y + 28], outline=acc + (int(255 * q),), width=3)
+        if q > 0.6: d.line([(x - 26, y + 18), (x - 20, y + 25), (x - 10, y + 9)], fill=acc, width=4)
+        text_a(im, (x + 14, y), f"{lab}", fRaj(52), WHITE + (int(255 * q),))
+        text_a(im, (CW - 90, y + 12), "OK", fMono(28, 700), acc + (int(255 * q),), anchor="ra")
 
-def art_stat(im, t, a):
+def art_stat(im, t, a, acc, ctx):
     d = ImageDraw.Draw(im, "RGBA")
-    p = ease((t - 0.2) / 0.6); s = 0.8 + 0.2 * p
-    f = fit(d, a["value"], int(190 * s), 900)
-    glow = Image.new("L", im.size, 0)
-    ImageDraw.Draw(glow).text((540, 120), a["value"], font=f, fill=int(255 * p), anchor="ma")
-    glow = glow.filter(ImageFilter.GaussianBlur(24))
-    im.paste(Image.new("RGB", im.size, ORANGE), (0, 0), glow)
-    ctext(d, 540, 120, a["value"], f, (255, 255, 255, int(255 * p)))
+    p = ease((t - 0.15) / 0.6)
+    # rotating HUD ring behind the number
+    cx, cy, r = CW // 2, 225, 190
+    for k in range(36):
+        ang = math.radians(k * 10 + t * 30)
+        if k % 3 == 0: continue
+        d.arc([cx - r, cy - r, cx + r, cy + r], math.degrees(ang), math.degrees(ang) + 6, fill=acc + (int(120 * p),), width=6)
+    d.arc([cx - r + 24, cy - r + 24, cx + r - 24, cy + r - 24], -t * 60, -t * 60 + 120, fill=acc + (int(200 * p),), width=3)
+    val = a["value"]
+    # digit roll-in: characters appear left->right
+    shown = val[:max(1, int(len(val) * ease((t - 0.1) / 0.5)))]
+    glow_text(im, (cx, 150), shown, fit(d, val, fOrb, int(170 * (0.85 + 0.15 * p)), CW - 80), acc, p)
     q = ease((t - 0.6) / 0.5)
-    ctext(d, 540, 390, a.get("label", ""), fSB(40), (255, 230, 210, int(255 * q)))
-    if a.get("badge"): badge(d, 1000, 500, a["badge"], ease((t - 1.2) / 0.4))
+    text_a(im, (cx, 430), a.get("label", ""), fit(d, a.get("label", ""), fRajS, 46, CW - 80), WHITE + (int(255 * q),), anchor="ma")
+    if a.get("badge"): chip(d, CW - 30, 40, a["badge"], acc, ease((t - 1.0) / 0.4))
 
 _split = {}
-def art_split(im, t, a):
+def art_split(im, t, a, acc, ctx):
     if "sharp" not in _split:
-        b = Image.new("RGB", (PW, PH)); bd = ImageDraw.Draw(b)
-        for yy in range(PH):
-            c = int(40 + 140 * yy / PH); bd.line([(0, yy), (PW, yy)], fill=(20, c // 2, c))
-        rng = np.random.default_rng(3)
-        for k in range(14):
-            x = rng.integers(0, PW); w = rng.integers(60, 180); h = rng.integers(120, 380)
-            bd.polygon([(x - w, PH), (x, PH - h), (x + w, PH)], fill=(15, 20 + k * 4, 50 + k * 6))
-        for k in range(60):
-            x, y = rng.integers(0, PW), rng.integers(0, PH // 2); bd.ellipse([x, y, x + 4, y + 4], fill=(220, 240, 255))
-        bd.ellipse([700, 90, 860, 250], fill=(160, 220, 255))
+        b = pv_texture().crop((0, 0, 1300, 730)).resize((CW, CHH), Image.LANCZOS)
         _split["sharp"] = b
-        _split["px"] = b.resize((PW // 18, PH // 18), Image.BILINEAR).resize((PW, PH), Image.NEAREST)
-    p = 0.25 + 0.5 * ease_io((math.sin(t * 1.3 - 1.6) + 1) / 2); sx = int(PW * p)
-    im.paste(_split["px"].crop((0, 0, sx, PH)), (0, 0)); im.paste(_split["sharp"].crop((sx, 0, PW, PH)), (sx, 0))
+        _split["px"] = b.resize((CW // 18, CHH // 18), Image.BILINEAR).resize((CW, CHH), Image.NEAREST)
+    p = 0.25 + 0.5 * ease_io((math.sin(t * 1.3 - 1.6) + 1) / 2); sx = int(CW * p)
+    im.paste(_split["px"].crop((0, 0, sx, CHH)), (0, 0)); im.paste(_split["sharp"].crop((sx, 0, CW, CHH)), (sx, 0))
     d = ImageDraw.Draw(im, "RGBA")
-    d.rectangle([sx - 3, 0, sx + 3, PH], fill=(255, 255, 255))
-    d.ellipse([sx - 30, PH // 2 - 30, sx + 30, PH // 2 + 30], fill=(255, 255, 255))
-    rr(d, [40, 470, 220, 526], 28, fill=(0, 0, 0, 140)); ctext(d, 130, 482, a.get("left", "OFF"), fB(28), (255, 255, 255))
-    rr(d, [830, 470, 1040, 526], 28, fill=(90, 200, 255, 220)); ctext(d, 935, 482, a.get("right", "ON"), fB(28), (5, 20, 35))
+    d.rectangle([sx - 2, 0, sx + 2, CHH], fill=acc)
+    chip(d, 30, CHH - 80, a.get("left", "OFF"), (200, 210, 220), 1, right=False)
+    chip(d, CW - 30, CHH - 80, a.get("right", "ON"), acc, 1)
 
-def art_outro(im, t, a):
+def art_outro(im, t, a, acc, ctx):
     d = ImageDraw.Draw(im, "RGBA")
     p = ease(t / 0.6)
-    ctext(d, 540, 150, "FOLLOW", fSB(44), (255, 220, 180, int(255 * p)))
-    ctext(d, 540, 230 + (1 - p) * 30, "@LevelUpGamesNews", fXB(int(76 * (1 + 0.04 * math.sin(t * 5) * (t > 0.8)))), (255, 255, 255, int(255 * p)))
+    text_a(im, (CW // 2, 110), "> SUBSCRIBE_", fMono(40, 700), acc + (int(255 * p),), anchor="ma")
+    glow_text(im, (CW // 2, 200 + (1 - p) * 30), "@LevelUpGamesNews", fit(d, "@LevelUpGamesNews", fOrb, 64, CW - 80), acc, p, blur=14)
     q = ease((t - 0.7) / 0.5)
-    rr(d, [350, 380, 730, 450], 35, fill=(255, 150, 40, int(240 * q)))
-    ctext(d, 540, 394, "DAILY GAMING NEWS", fB(30), (30, 15, 0, int(255 * q)))
+    chip(d, CW // 2 + 210, 360, "DAILY GAMING NEWS", acc, q)
 
 ARTS = dict(image=art_image, progress=art_progress, counter=art_counter, bars=art_bars, pills=art_pills,
             stat=art_stat, split=art_split, outro=art_outro)
@@ -236,21 +335,24 @@ class Ep:
         self.scenes = []
         for i, s in enumerate(st):
             dur = self.adur(s.get("audio")) + 0.35 if s.get("audio") else 5.0
-            self.scenes.append(dict(key=f"s{i}", idx=i, data=s, dur=max(dur, 4.0),
-                                    kicker=f"{i+1} of {n} · {s.get('cat','games')}"))
+            self.scenes.append(dict(key=f"s{i}", idx=i, data=s, dur=max(dur, 4.0)))
         o = self.cfg.get("outro", {})
         self.scenes.append(dict(key="outro", idx=-1, dur=max(3.0, (self.adur(o.get("audio")) + 0.5) if o.get("audio") else 3.0),
-                                data=dict(head=o.get("head", "Which one surprised you most?"),
-                                          src="follow for daily gaming news", art={"type": "outro"}, cat="games"),
-                                kicker="that's today"))
+                                data=dict(head=o.get("head", "Which one surprised you most?"), tag="END",
+                                          src="follow for daily gaming news", art={"type": "outro"}, cat="tech")))
         self.total = sum(s["dur"] for s in self.scenes)
-        self.bgs = []
-        for i, sc in enumerate(self.scenes):
-            a = sc["data"]["art"]
-            if a["type"] == "image": self.bgs.append(image_bg(os.path.join(d, a["file"])))
-            else: self.bgs.append(sunset_bg(HUES.get(sc["data"].get("cat"), (255, 150, 40)), i))
-        self.chips = [self.chips_overlay(i) for i in range(n)] + [self.chips_overlay(-1)]
-        self.tcache = {}
+        self.ctx = []
+        for sc in self.scenes:
+            a = sc["data"]["art"]; c = {}
+            if a["type"] == "image":
+                im = Image.open(os.path.join(d, a["file"])).convert("RGB")
+                im = ImageOps.fit(im, (int(CW * 1.12), int(CHH * 1.12)), Image.LANCZOS)
+                ar = np.asarray(im).astype(np.float32)
+                ar = ar * np.array([0.92, 1.0, 1.08]) + np.array([-6, 0, 8])      # cool tech grade
+                im = Image.fromarray(np.clip(ar, 0, 255).astype(np.uint8))
+                c["img"] = im
+            self.ctx.append(c)
+        self.lines = {}
 
     def adur(self, rel):
         if not rel: return 0
@@ -260,106 +362,111 @@ class Ep:
 
     def start(self, si): return sum(s["dur"] for s in self.scenes[:si])
 
-    def chips_overlay(self, active):
-        st = self.cfg["stories"]; n = len(st)
-        im = Image.new("RGBA", (PW, PH), (0, 0, 0, 0)); d = ImageDraw.Draw(im, "RGBA")
-        gap = 12; cw = min(240, (PW - 60 - gap * (n - 1)) // n)
-        x = (PW - (n * cw + (n - 1) * gap)) // 2
-        for i, s in enumerate(st):
-            on = i == active
-            rr(d, [x, 22, x + cw, 78], 16, fill=(255, 150, 40, 235) if on else (255, 255, 255, 34),
-               outline=(255, 255, 255, 0 if on else 80), width=2)
-            lab = f"{i+1:02d} {s['tag']}"
-            d.text((x + cw / 2, 50), lab, font=fit(d, lab, 26, cw - 20, fSB),
-                   fill=(25, 12, 0) if on else (255, 255, 255, 210), anchor="mm")
-            x += cw + gap
-        return im
+    def wrap(self, si):
+        if si in self.lines: return self.lines[si]
+        head = self.scenes[si]["data"]["head"]; d = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+        size = 80
+        while True:
+            f = fRaj(size); lines, cur = [], ""
+            for w in head.split():
+                tst = (cur + " " + w).strip()
+                if d.textlength(tst, font=f) > 920 and cur: lines.append(cur); cur = w
+                else: cur = tst
+            lines.append(cur)
+            if len(lines) <= 4 or size <= 56: break
+            size -= 4
+        self.lines[si] = (lines[:4], f, int(size * 1.02))
+        return self.lines[si]
 
-    def panel(self, si, t):
-        sc = self.scenes[si]; bg = self.bgs[si]
-        z = 1 + 0.07 * (t / 7)
-        cw, ch = int(1200 / z / 1.111), int(676 / z / 1.111)
-        im = bg.crop((600 - cw // 2, 338 - ch // 2, 600 + cw // 2, 338 + ch // 2)).resize((PW, PH), Image.BILINEAR)
-        a = sc["data"]["art"]
-        ARTS[a["type"]](im, t, a)
-        return im
-
-    def text_layer(self, si):
-        if si in self.tcache: return self.tcache[si]
-        data = self.scenes[si]["data"]
-        im = Image.new("RGBA", (W, 460), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-        f = fB(62); lines, cur = [], ""
-        for w in data["head"].split():
-            tst = (cur + " " + w).strip()
-            if d.textlength(tst, font=f) > 880 and cur: lines.append(cur); cur = w
-            else: cur = tst
-        lines.append(cur)
-        y = 0
-        for ln in lines[:4]:
-            d.text((W // 2, y), ln, font=f, fill=(255, 255, 255), anchor="ma"); y += 78
-        d.text((W // 2, y + 30), data.get("src", ""), font=fM(32), fill=(170, 170, 175), anchor="ma")
-        self.tcache[si] = im
-        return im
+    def page(self, si, t):
+        """One full-screen page (no transition)."""
+        sc = self.scenes[si]; data = sc["data"]; cat = data.get("cat", "games"); acc = acc_of(cat)
+        gt = self.start(si) + t; n = len(self.cfg["stories"]); last = sc["idx"] < 0
+        cv = page_bg(cat, si).copy()
+        # sheen sweeping across the solar panels
+        sb = sheen_band(); ox = int(-W * 1.6 + ((gt * 0.22) % 1.0) * W * 2.6)
+        tint = Image.new("RGB", (W, H), tuple(min(255, int(c * 0.5 + 120)) for c in acc))
+        m = Image.new("L", (W, H), 0); m.paste(sb, (ox, 0)); cv.paste(tint, (0, 0), m)
+        d = ImageDraw.Draw(cv, "RGBA")
+        # ---- top HUD
+        live = int(gt * 2) % 2 == 0
+        d.ellipse([60, 252, 80, 272], fill=(255, 50, 50) if live else (90, 20, 20))
+        d.text((96, 262), "LEVEL UP // NEWS FEED", font=fMono(28, 700), fill=WHITE, anchor="lm")
+        d.text((W - 60, 262), self.cfg.get("date_label", "today").upper() + f"  T+{gt:04.1f}s", font=fMono(26, 500), fill=DIM, anchor="rm")
+        # segmented progress (one segment per page, each in its page colour)
+        segs = self.scenes; gap = 10; x = 60; sw = (W - 120 - gap * (len(segs) - 1)) / len(segs)
+        for k, s2 in enumerate(segs):
+            c2 = acc_of(s2["data"].get("cat", "games"))
+            st0 = self.start(k); pr = max(0.0, min(1.0, (gt - st0) / s2["dur"]))
+            d.rectangle([x, 300, x + sw, 308], fill=(255, 255, 255, 36))
+            if pr > 0: d.rectangle([x, 300, x + sw * pr, 308], fill=c2 + (255,))
+            x += sw + gap
+        # ---- page header
+        e = ease(t / 0.35)
+        hx = 60 - (1 - e) * 60
+        d.polygon([(hx, 372), (hx + 150, 372), (hx + 168, 390), (hx + 168, 452), (hx, 452)], fill=acc + (255,))
+        lab = "END" if last else f"{sc['idx']+1:02d}/{n:02d}"
+        d.text((hx + 84, 412), lab, font=fOrb(40, 900), fill=(5, 10, 20), anchor="mm")
+        name = "LEVEL UP" if last else CATNAME.get(cat, cat.upper())
+        text_a(cv, (hx + 196, 412), name, fOrb(54, 800), WHITE + (int(255 * e),), anchor="lm")
+        if not last:
+            tg = data.get("tag", "").upper()
+            tw = d.textlength(tg, font=fMono(30, 700))
+            d.rectangle([W - 60 - tw - 36, 386, W - 60, 438], outline=acc + (int(255 * e),), width=3)
+            d.text((W - 60 - tw / 2 - 18, 412), tg, font=fMono(30, 700), fill=acc + (int(255 * e),), anchor="mm")
+        # ---- monitor card
+        card = card_base(acc)
+        ARTS[data["art"]["type"]](card, t, data["art"], acc, self.ctx[si])
+        cv.paste(card, (CX0, CY0))
+        d = ImageDraw.Draw(cv, "RGBA")
+        d.rectangle([CX0, CY0, CX1, CY1], outline=acc + (90,), width=2)
+        brackets(d, (CX0 - 14, CY0 - 14, CX1 + 14, CY1 + 14), acc + (255,))
+        d.text((CX0 + 4, CY1 + 26), f"FEED_{sc['idx']+1 if not last else 0:02d} · {data['art']['type'].upper()}", font=fMono(22, 500), fill=acc + (170,), anchor="lm")
+        d.text((CX1 - 4, CY1 + 26), "● REC", font=fMono(22, 700), fill=(255, 60, 60, 220 if live else 90), anchor="rm")
+        # hook banner (first story, first ~1.8 s)
+        if si == 0:
+            q = 1 - ease((t - 1.7) / 0.3)
+            if q > 0:
+                ban = f"{n} GAMING STORIES // {int(round(self.total))} SEC"
+                f = fOrb(44, 900); tw = d.textlength(ban, font=f); y = CY1 - 110 + (1 - ease(t / 0.25)) * 40
+                d.rectangle([W / 2 - tw / 2 - 36, y, W / 2 + tw / 2 + 36, y + 84], fill=acc + (int(245 * q),))
+                text_a(cv, (W / 2, y + 42), ban, f, (5, 10, 20, int(255 * q)), anchor="mm")
+        # ---- headline: typewriter + block cursor
+        lines, f, lh = self.wrap(si)
+        total_chars = sum(len(l) for l in lines)
+        shown = int(total_chars * ease_io((t - 0.25) / 0.9))
+        y = 1110; left = shown; cur_xy = None
+        for ln in lines:
+            part = ln[:max(0, left)]
+            if part: d.text((60, y), part, font=f, fill=WHITE)
+            if cur_xy is None and left <= len(ln): cur_xy = (60 + d.textlength(part, font=f), y)
+            left -= len(ln); y += lh
+        if cur_xy and (shown < total_chars or int(gt * 2.5) % 2 == 0):
+            d.rectangle([cur_xy[0] + 8, cur_xy[1] + 12, cur_xy[0] + 28, cur_xy[1] + lh - 16], fill=acc)
+        q = ease((t - 0.9) / 0.4)
+        text_a(cv, (60, y + 22), "> " + data.get("src", "").upper(), fMono(30, 600), DIM + (int(255 * q),))
+        return cv
 
     def frame(self, si, t):
-        sc = self.scenes[si]; dur = sc["dur"]; gt = self.start(si) + t; last = si == len(self.scenes) - 1
-        cv = Image.new("RGB", (W, H), (0, 0, 0)); d = ImageDraw.Draw(cv, "RGBA")
-        # brand row
-        rr(d, [W // 2 - 170, 330, W // 2 + 170, 386], 28, outline=(255, 255, 255, 70), width=2)
-        d.ellipse([W // 2 - 142, 350, W // 2 - 126, 366], fill=(255, 60, 50) if int(gt * 2) % 2 == 0 else (120, 30, 25))
-        d.text((W // 2 + 12, 358), f"LEVEL UP · {self.cfg.get('date_label','today').upper()}", font=fSB(26), fill=(255, 255, 255, 220), anchor="mm")
-        # panel + swap transition
-        p_tr = ease_io(t / T_TR) if si > 0 else 1.0
-        cur = self.panel(si, t)
-        if p_tr < 1:
-            prev = self.panel(si - 1, self.scenes[si - 1]["dur"] + t)
-            off = int(PW * p_tr); pan = Image.new("RGB", (PW, PH))
-            if off < PW: pan.paste(prev.crop((off, 0, PW, PH)), (0, 0))
-            if off > 0: pan.paste(cur.crop((0, 0, off, PH)), (PW - off, 0))
-            fl = int(110 * math.sin(math.pi * p_tr))
-            pan = Image.blend(pan, Image.new("RGB", (PW, PH), (255, 255, 255)), fl / 255)
-            cur = pan
-        n = len(self.cfg["stories"])
-        if sc["idx"] >= 0:
-            idx = sc["idx"] - (1 if (si > 0 and p_tr < 0.5) else 0)
-        else:
-            idx = n - 1 if p_tr < 0.5 else -1
-        ch = self.chips[idx]
-        cur.paste(ch, (0, 0), ch)
-        cv.paste(cur, (0, PY))
-        # hook banner on the first second of the first story
-        if si == 0:
-            q = 1 - ease((t - 1.6) / 0.3)
-            if q > 0:
-                ban = f"{n} GAMING STORIES · {int(round(self.total))} SEC"
-                f = fXB(44); tw = d.textlength(ban, font=f)
-                y = PY + PH - 125 + (1 - ease(t / 0.25)) * 40
-                rr(d, [W / 2 - tw / 2 - 36, y, W / 2 + tw / 2 + 36, y + 84], 42, fill=(255, 150, 40, int(245 * q)))
-                ctext(d, W / 2, y + 18, ban, f, (25, 12, 0, int(255 * q)))
-        # timeline
-        d.rectangle([0, PY + PH, W, PY + PH + 6], fill=(255, 255, 255, 40))
-        d.rectangle([0, PY + PH, int(W * gt / self.total), PY + PH + 6], fill=ORANGE)
-        # arrows (right one "pressed" before each swap)
-        pr = 0.0
-        if not last: pr = max(0, 1 - abs(t - (dur - 0.08)) / 0.18)
-        if si > 0 and t < 0.12: pr = max(pr, 1 - t / 0.12)
-        for side in ("l", "r"):
-            prs = pr if side == "r" else 0
-            cx = 64 if side == "l" else PW - 64; cy = PY + PH // 2 + 20
-            r = 40 * (1 - 0.18 * prs)
-            d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 255, 255, int(40 + 160 * prs)), outline=(255, 255, 255, 110), width=2)
-            k = 12 * (1 - 0.18 * prs); sg = -1 if side == "l" else 1
-            d.line([(cx - sg * k * 0.5, cy - k), (cx + sg * k * 0.6, cy), (cx - sg * k * 0.5, cy + k)],
-                   fill=(20, 20, 20) if prs > 0.5 else (255, 255, 255), width=5, joint="curve")
-        # kicker
-        a_in = ease((t - (0.15 if si else 0)) / 0.35); a_out = 1 if last else 1 - ease((t - (dur - 0.15)) / 0.15)
-        ctext(d, W // 2, PY - 86, sc["kicker"], fM(40), (255, 255, 255, int(255 * a_in * a_out)))
-        # headline + source
-        tl = self.text_layer(si); e = ease((t - 0.2) / 0.4); al = e * a_out
-        if al > 0:
-            m = tl.getchannel("A").point(lambda v: int(v * al))
-            cv.paste(tl.convert("RGB"), (0, PY + PH + 62 + int((1 - e) * 40)), m)
-        return cv
+        cur = self.page(si, t)
+        if si == 0 or t >= T_TR: return cur
+        prev = self.page(si - 1, self.scenes[si - 1]["dur"] + t)
+        p = ease_io(t / T_TR); by = int(H * p)
+        out = prev.copy(); out.paste(cur.crop((0, 0, W, by)), (0, 0))
+        rng = np.random.default_rng(int(t * 1000) + si)
+        acc = acc_of(self.scenes[si]["data"].get("cat", "games"))
+        # glitch slices around the scan bar
+        for _ in range(7):
+            y0 = int(by + rng.integers(-260, 260)); hh = int(rng.integers(8, 46)); dx = int(rng.integers(-70, 70))
+            y0 = max(0, min(H - hh, y0))
+            sl = out.crop((0, y0, W, y0 + hh)); out.paste(sl, (dx, y0))
+        # RGB split near the bar
+        r, g, b = out.split()
+        out = Image.merge("RGB", (ImageChops.offset(r, 8, 0), g, ImageChops.offset(b, -8, 0))) if 0.1 < p < 0.9 else out
+        d = ImageDraw.Draw(out, "RGBA")
+        d.rectangle([0, by - 4, W, by + 4], fill=acc + (255,))
+        d.rectangle([0, by - 60, W, by - 4], fill=acc + (40,))
+        return out
 
     def render(self, out):
         files = []

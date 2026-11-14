@@ -7,7 +7,8 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 
 ## Format (owner-approved 2026-11-14, based on the niche research)
 - **Hook in the first second:** the video opens directly on story #1 with the banner "N GAMING STORIES · NN SEC" — no logo intro.
-- **3 stories** (2 on a slow day, 4 max), biggest first. One chip per story on the configurator bar; the right arrow "clicks" and the panel slides to the next story (style of @dmytro.edits' car-configurator reel).
+- **3 stories** (2 on a slow day, 4 max), biggest first.
+- **Look = TECH style v2 (owner's request 2026-11-15, replaces the orange car-configurator look):** full-screen HUD over an animated **solar-panel grid** background. Every story is its own page with its own colour from `cat` (Nintendo red, PlayStation blue, Xbox green, hardware/PC lime, esports purple, deals yellow, games orange, tech cyan) — so always set `cat` correctly. Page header `01/03 NINTENDO` + tag, a "monitor" card with corner brackets for the art, typewriter headline, `> SOURCE:` line, glitch-scan transition between pages. Fonts are in `shorts/fonts/` (Orbitron, JetBrains Mono, Rajdhani).
 - **AI voiceover** (ElevenLabs, voice **Alex** `6sWNMlBf4TdebygSxQGj`, model `eleven_v4`, `generations_count: 1`, never retry a generation): one clip per story + one outro clip. Story #1's clip starts with the hook line.
 - Headline on screen = the same fact the voice says, in my own words, ≤ 90 characters. Source line under it.
 - Outro (~4 s): "Which one surprised you most? Comment below" + follow @LevelUpGamesNews. The CTA changes a little every day.
