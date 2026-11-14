@@ -1,0 +1,11 @@
+{
+ "job": "20261114T152616-002-news-amd-9800x3d-pc-deal.json",
+ "ref": "news-amd-9800x3d-pc-deal",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T15:26:44Z",
+ "message_id": 257,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
