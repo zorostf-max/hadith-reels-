@@ -1,0 +1,11 @@
+{
+ "job": "20261114T223155-002-news-tekken-13yo-beats-pinya.json",
+ "ref": "news-tekken-13yo-beats-pinya",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T22:32:08Z",
+ "message_id": 268,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
