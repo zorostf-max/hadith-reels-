@@ -1,0 +1,11 @@
+{
+ "job": "20261114T142834-004-tweet-gdc-genai-40.json",
+ "ref": "tweet-gdc-genai-40",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T14:28:54Z",
+ "message_id": 426,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

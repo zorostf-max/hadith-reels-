@@ -1,0 +1,11 @@
+{
+ "job": "20261114T142834-003-tweetlink-take-two-ai-clones.json",
+ "ref": "tweetlink-take-two-ai-clones",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-14T14:28:52Z",
+ "message_id": 425,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261114T142834-002-tweet-take-two-ai-clones.json",
+ "ref": "tweet-take-two-ai-clones",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T14:28:51Z",
+ "message_id": 424,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

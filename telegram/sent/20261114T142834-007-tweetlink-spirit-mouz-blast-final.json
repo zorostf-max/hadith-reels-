@@ -1,0 +1,11 @@
+{
+ "job": "20261114T142834-007-tweetlink-spirit-mouz-blast-final.json",
+ "ref": "tweetlink-spirit-mouz-blast-final",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-14T14:28:59Z",
+ "message_id": 429,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
