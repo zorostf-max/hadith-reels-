@@ -1,0 +1,11 @@
+{
+ "job": "20261114T163229-004-news-gears-eday-storage-test.json",
+ "ref": "news-gears-eday-storage-test",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T16:32:55Z",
+ "message_id": 260,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

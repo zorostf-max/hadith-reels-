@@ -1,0 +1,11 @@
+{
+ "job": "20261114T163229-002-news-nvidia-smuggling-pressure.json",
+ "ref": "news-nvidia-smuggling-pressure",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T16:32:52Z",
+ "message_id": 258,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

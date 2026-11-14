@@ -1,0 +1,11 @@
+{
+ "job": "20261114T163229-003-news-pokepark-ds-psa-slab.json",
+ "ref": "news-pokepark-ds-psa-slab",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T16:32:54Z",
+ "message_id": 259,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
