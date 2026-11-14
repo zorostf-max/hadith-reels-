@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/c74bb8cf2f34ae76e88fc67d96ca3ad8d8a72535/stories/st01/episode.mp4",
+  "caption": "🎬 القصة ١ — أصحاب الغار الثلاثة — تُنشر الأحد ١٤:٠٠",
+  "supports_streaming": true
+ },
+ "ref": "story-st01-preview",
+ "fallback_text": "🎬 القصة ١ — أصحاب الغار الثلاثة — تُنشر الأحد ١٤:٠٠\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/c74bb8cf2f34ae76e88fc67d96ca3ad8d8a72535/stories/st01/episode.mp4"
+}
