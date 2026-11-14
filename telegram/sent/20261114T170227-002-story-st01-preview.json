@@ -1,0 +1,11 @@
+{
+ "job": "20261114T170227-002-story-st01-preview.json",
+ "ref": "story-st01-preview",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-14T17:02:50Z",
+ "message_id": 430,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
