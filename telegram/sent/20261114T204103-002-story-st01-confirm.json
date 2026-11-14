@@ -1,0 +1,11 @@
+{
+ "job": "20261114T204103-002-story-st01-confirm.json",
+ "ref": "story-st01-confirm",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-14T20:41:37Z",
+ "message_id": 435,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
