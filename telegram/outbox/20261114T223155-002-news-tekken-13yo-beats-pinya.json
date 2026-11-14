@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/14/Martinski-Tekken.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>13-year-old Filipino player knocks out Japanese pro PINYA</b>\n\nA 13-year-old Tekken 8 competitor from the Philippines has beaten Japanese pro PINYA at Thaiger Uppercut 2026, a stop on the Tekken World Tour. Upsets of established pros by players this young are rare on the TWT circuit, and the win has the fighting game scene talking about a new name to watch.\n\n🕒 Nov 15, 2026 · 00:03 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/tekken/13-year-old-tekken-player-beats-pro-pinya-at-tekken-world-tour-event-3428240/\">Dexerto</a>\n\n🔥 React if you love a big upset · 💬 Future world champion?\n\n#Tekken8 #TekkenWorldTour #ThaigerUppercut #FGC #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-tekken-13yo-beats-pinya",
+ "fallback_text": "🏆 <b>13-year-old Filipino player knocks out Japanese pro PINYA</b>\n\nA 13-year-old Tekken 8 competitor from the Philippines has beaten Japanese pro PINYA at Thaiger Uppercut 2026, a stop on the Tekken World Tour. Upsets of established pros by players this young are rare on the TWT circuit, and the win has the fighting game scene talking about a new name to watch.\n\n🕒 Nov 15, 2026 · 00:03 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/tekken/13-year-old-tekken-player-beats-pro-pinya-at-tekken-world-tour-event-3428240/\">Dexerto</a>\n\n🔥 React if you love a big upset · 💬 Future world champion?\n\n#Tekken8 #TekkenWorldTour #ThaigerUppercut #FGC #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
