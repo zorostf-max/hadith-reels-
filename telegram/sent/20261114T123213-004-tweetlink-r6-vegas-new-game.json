@@ -1,0 +1,11 @@
+{
+ "job": "20261114T123213-004-tweetlink-r6-vegas-new-game.json",
+ "ref": "tweetlink-r6-vegas-new-game",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-14T18:32:06Z",
+ "message_id": 433,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
