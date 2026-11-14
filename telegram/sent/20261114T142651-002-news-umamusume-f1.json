@@ -1,0 +1,11 @@
+{
+ "job": "20261114T142651-002-news-umamusume-f1.json",
+ "ref": "news-umamusume-f1",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T14:27:07Z",
+ "message_id": 256,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
