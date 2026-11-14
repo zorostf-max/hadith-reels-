@@ -1,0 +1,11 @@
+{
+ "job": "20261114T013207-004-news-zelda-timeline-shift.json",
+ "ref": "news-zelda-timeline-shift",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T01:32:31Z",
+ "message_id": 245,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

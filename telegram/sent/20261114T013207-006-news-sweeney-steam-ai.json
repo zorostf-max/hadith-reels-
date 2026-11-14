@@ -1,0 +1,11 @@
+{
+ "job": "20261114T013207-006-news-sweeney-steam-ai.json",
+ "ref": "news-sweeney-steam-ai",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T01:32:34Z",
+ "message_id": 247,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261114T013207-005-news-bladerunner-aaa-game.json",
+ "ref": "news-bladerunner-aaa-game",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T01:32:32Z",
+ "message_id": 246,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
