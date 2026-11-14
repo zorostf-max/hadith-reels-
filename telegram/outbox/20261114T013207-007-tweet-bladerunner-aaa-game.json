@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assets-prd.ignimgs.com/2022/09/15/blade-runner-2099-1663254300147.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 A AAA Blade Runner game is in talks\nAlcon Entertainment's co-CEOs, producers of Blade Runner 2099, confirmed discussions for a big-budget game. No studio named yet.\n\nvia @IGN\n#BladeRunner #GamingNews</code>"
+ },
+ "ref": "tweet-bladerunner-aaa-game",
+ "fallback_text": "<code>🎮 A AAA Blade Runner game is in talks\nAlcon Entertainment's co-CEOs, producers of Blade Runner 2099, confirmed discussions for a big-budget game. No studio named yet.\n\nvia @IGN\n#BladeRunner #GamingNews</code>",
+ "not_before": "2026-11-14T02:00:00Z"
+}

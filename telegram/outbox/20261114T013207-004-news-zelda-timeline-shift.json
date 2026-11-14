@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/FZ4RbQpnaUP5QTnVuno82k-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Nintendo shifts the Zelda timeline by 10,000 years</b>\n\nNintendo's latest official Zelda lore has moved the Great Calamity by about 10,000 years, shaking up how fans place the series' history. The same update backs the much-debated \"refounding\" theory around Tears of the Kingdom, the idea that Hyrule was founded more than once.\n\n🕒 Nov 14, 2026 · 02:30 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/nintendo-just-broke-the-zelda-timeline-by-10-000-years-as-it-reconfirms-a-contentious-tears-of-the-kingdom-theory/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/NintendoAmerica\">@NintendoAmerica</a>\n\n🧩 React if lore is your thing · 💬 Does the timeline still make sense to you?\n\n#Zelda #TearsOfTheKingdom #Nintendo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-zelda-timeline-shift",
+ "fallback_text": "🎮 <b>Nintendo shifts the Zelda timeline by 10,000 years</b>\n\nNintendo's latest official Zelda lore has moved the Great Calamity by about 10,000 years, shaking up how fans place the series' history. The same update backs the much-debated \"refounding\" theory around Tears of the Kingdom, the idea that Hyrule was founded more than once.\n\n🕒 Nov 14, 2026 · 02:30 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/nintendo-just-broke-the-zelda-timeline-by-10-000-years-as-it-reconfirms-a-contentious-tears-of-the-kingdom-theory/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/NintendoAmerica\">@NintendoAmerica</a>\n\n🧩 React if lore is your thing · 💬 Does the timeline still make sense to you?\n\n#Zelda #TearsOfTheKingdom #Nintendo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

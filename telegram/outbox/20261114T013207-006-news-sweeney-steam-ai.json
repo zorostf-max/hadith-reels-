@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/umZkVR6nq6NmtKLHanmrFU-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Tim Sweeney slams Steam's AI disclosure rule again</b>\n\nEpic Games CEO Tim Sweeney says Steam's requirement for developers to disclose AI use is \"unfair to developers who use AI to make good games\", arguing the label ties AI to low-quality titles. He called it a guilt-by-association pattern that every developer should push back on.\n\n🕒 Nov 14, 2026 · 03:39 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/epic-games-tim-sweeney-says-steams-ai-disclosure-is-unfair-to-developers-who-use-ai-to-make-good-games-because-it-associates-ai-with-bad-games/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/EpicGames\">@EpicGames</a> · <a href=\"https://x.com/Steam\">@Steam</a>\n\n🤖 Agree or not? React 👍 or 👎 · 💬 Should stores label AI games?\n\n#TimSweeney #Steam #EpicGames #AI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-sweeney-steam-ai",
+ "fallback_text": "🕹️ <b>Tim Sweeney slams Steam's AI disclosure rule again</b>\n\nEpic Games CEO Tim Sweeney says Steam's requirement for developers to disclose AI use is \"unfair to developers who use AI to make good games\", arguing the label ties AI to low-quality titles. He called it a guilt-by-association pattern that every developer should push back on.\n\n🕒 Nov 14, 2026 · 03:39 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/epic-games-tim-sweeney-says-steams-ai-disclosure-is-unfair-to-developers-who-use-ai-to-make-good-games-because-it-associates-ai-with-bad-games/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/EpicGames\">@EpicGames</a> · <a href=\"https://x.com/Steam\">@Steam</a>\n\n🤖 Agree or not? React 👍 or 👎 · 💬 Should stores label AI games?\n\n#TimSweeney #Steam #EpicGames #AI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

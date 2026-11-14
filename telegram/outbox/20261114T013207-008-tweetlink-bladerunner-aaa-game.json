@@ -1,0 +1,10 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "⏰ 10:00\n<code>https://www.ign.com/articles/blade-runner-2099-executive-producers-confirm-franchise-owners-are-in-talks-for-aaa-video-game-adaptation</code>"
+ },
+ "ref": "tweetlink-bladerunner-aaa-game",
+ "not_before": "2026-11-14T02:00:00Z"
+}
