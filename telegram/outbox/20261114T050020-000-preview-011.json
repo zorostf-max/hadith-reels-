@@ -1,0 +1,9 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/11590e7c693aa20f8c89835709adab4d7647d266/videos/bukhari-011.mp4",
+  "caption": "الحديث رقم 11 — أفضل المسلمين: مَن سَلِمَ المسلمون من لسانه ويده — يُنشر اليوم السبت 13:00 (خلفية الظهر)"
+ },
+ "ref": "preview-011"
+}
