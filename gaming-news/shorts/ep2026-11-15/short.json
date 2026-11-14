@@ -1,0 +1,18 @@
+{
+  "date_label": "nov 15",
+  "stories": [
+    {"tag": "GTA 6", "cat": "games",
+     "head": "GTA 6 album tracklist leaks: 34 songs with Travis Scott, Dua Lipa and Morgan Wallen",
+     "src": "source: Dexerto", "audio": "audio/s0.mp3",
+     "art": {"type": "stat", "value": "34 SONGS", "label": "GTA VI: The Album · out Nov 19", "badge": "LEAK"}},
+    {"tag": "PS5", "cat": "playstation",
+     "head": "PS5 hits 100 million units sold, with no permanent price cut",
+     "src": "source: Sony via GamesRadar+", "audio": "audio/s1.mp3",
+     "art": {"type": "stat", "value": "100M", "label": "PS5 units sold in six years", "badge": "NO PRICE CUT"}},
+    {"tag": "TWITCH", "cat": "tech",
+     "head": "Twitch builds new ad tech for GTA 6 so streamers can earn more at launch",
+     "src": "source: Dexerto (Bloomberg interview)", "audio": "audio/s2.mp3",
+     "art": {"type": "pills", "title": "TWITCH x GTA 6", "items": ["NEW AD TECH", "BRAND SAFE", "NOV 19"]}}
+  ],
+  "outro": {"head": "Which story surprised you most? Comment below", "audio": "audio/outro.mp3"}
+}

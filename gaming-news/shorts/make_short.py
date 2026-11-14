@@ -190,7 +190,7 @@ def art_stat(im, t, a):
     ctext(d, 540, 120, a["value"], f, (255, 255, 255, int(255 * p)))
     q = ease((t - 0.6) / 0.5)
     ctext(d, 540, 390, a.get("label", ""), fSB(40), (255, 230, 210, int(255 * q)))
-    if a.get("badge"): badge(d, 990, 40, a["badge"], ease((t - 1.2) / 0.4))
+    if a.get("badge"): badge(d, 1000, 500, a["badge"], ease((t - 1.2) / 0.4))
 
 _split = {}
 def art_split(im, t, a):
