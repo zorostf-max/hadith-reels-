@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/e71ad1743fe5759d92e5ed5d8734599d064871f1/gaming-news/shorts/ep2026-11-15/short.mp4",
+  "caption": "🎬 <b>Today in gaming: 3 stories in 33 seconds</b>\n\n🎮 GTA 6 album tracklist reportedly leaks: 34 songs with Travis Scott, Dua Lipa and Morgan Wallen\n🕹️ PS5 hits 100 million units sold, with no permanent price cut\n📺 Twitch builds new ad tech for GTA 6 so streamers can earn more at launch\n\n💬 Which one surprised you most?\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews #GTA6 #PS5",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-15"
+}
