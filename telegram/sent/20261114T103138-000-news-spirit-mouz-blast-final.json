@@ -1,0 +1,11 @@
+{
+ "job": "20261114T103138-000-news-spirit-mouz-blast-final.json",
+ "ref": "news-spirit-mouz-blast-final",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-14T10:31:55Z",
+ "message_id": 248,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
