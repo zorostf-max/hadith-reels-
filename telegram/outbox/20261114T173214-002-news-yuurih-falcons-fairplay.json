@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/QwiBZaqYaojF7Gb3DE_vDp.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>yuurih praises Falcons for offering to replay a disputed round</b>\n\nFURIA's Brazilian star yuurih publicly thanked Falcons after they asked for a controversial round to be replayed. A technical issue had hit FURIA during that round, and Falcons chose not to profit from it.\n\n🕒 Nov 14, 2026 · 18:53 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45992/yuurih-i-really-want-to-thank-falcons-for-their-fair-play\">HLTV</a>\n👥 <a href=\"https://x.com/HLTVorg\">@HLTVorg</a> · <a href=\"https://x.com/CounterStrike\">@CounterStrike</a>\n\n🤝 React 👍 for fair play · 💬 Would your team have offered the replay?\n\n#CS2 #FURIA #Falcons #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-yuurih-falcons-fairplay",
+ "fallback_text": "🏆 <b>yuurih praises Falcons for offering to replay a disputed round</b>\n\nFURIA's Brazilian star yuurih publicly thanked Falcons after they asked for a controversial round to be replayed. A technical issue had hit FURIA during that round, and Falcons chose not to profit from it.\n\n🕒 Nov 14, 2026 · 18:53 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45992/yuurih-i-really-want-to-thank-falcons-for-their-fair-play\">HLTV</a>\n👥 <a href=\"https://x.com/HLTVorg\">@HLTVorg</a> · <a href=\"https://x.com/CounterStrike\">@CounterStrike</a>\n\n🤝 React 👍 for fair play · 💬 Would your team have offered the replay?\n\n#CS2 #FURIA #Falcons #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
