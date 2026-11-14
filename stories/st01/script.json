@@ -182,11 +182,17 @@
      "caption": "أيّ الثلاثة أثّر فيك أكثر؟"
     }
    ],
-   "end_card": "تابعنا لقصة جديدة كل سبت وأحد"
+   "end_card": "قصة جديدة كل سبت وأحد"
   }
  ],
  "publish": {
   "publish_date": "2026-11-15 (Sunday) 14:00 Europe/Istanbul",
   "needs_owner_approval": true
- }
+ },
+ "approved_text": "2026-11-13 17:42 UTC (owner replied \"Ok\", Telegram msg 408, to script msg 407)",
+ "production_notes": [
+  "end_card shortened from «تابعنا لقصة جديدة كل سبت وأحد» because it did not fit the 1080px frame",
+  "audio: long pauses shortened to 0.32s and tempo x1.04 to keep the video under 2:58",
+  "image workers regenerated once (a profile face was visible)"
+ ]
 }
