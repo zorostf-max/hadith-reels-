@@ -390,3 +390,6 @@
 2026-11-14 13:31	HLTV	https://www.hltv.org/news/45989/spirit-defeat-mouz-to-make-blast-rivals-final
 2026-11-14 14:31	Tom's Hardware	https://www.tomshardware.com/software/linux/nearly-20-years-after-launch-ancient-radeon-hd-2000-and-3000-gpus-finally-get-a-linux-fix-for-corrupted-video-playback-ai-helps-squash-a-decades-old-uvd-bug
 2026-11-14 14:31	Eurogamer	https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans
+2026-11-14 14:26	PC Gamer	https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/
+2026-11-14 15:15	GamesRadar+	https://www.gamesradar.com/games/the-legend-of-zelda/the-legend-of-zelda-majoras-mask-remake-is-a-foregone-conclusion-after-ocarina-of-time-ex-nintendo-marketing-leads-say/
+2026-11-14 15:19	Eurogamer	https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report
