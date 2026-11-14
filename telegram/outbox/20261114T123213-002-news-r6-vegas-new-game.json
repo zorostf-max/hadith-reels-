@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/0000003726.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Ubisoft is reportedly making a new Rainbow Six Vegas</b>\n\nAccording to a new report, Ubisoft is working on a fresh entry in the Rainbow Six Vegas series. It would be the first Vegas game in 18 years, since Rainbow Six Vegas 2. Ubisoft has not officially announced it.\n\n🕒 Nov 14, 2026 · 15:19 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report\">Eurogamer</a>\n👥 <a href=\"https://x.com/Ubisoft\">@Ubisoft</a>\n\n🎰 Hyped for a Vegas return? React 🔥 · 💬 Best Rainbow Six ever?\n\n#RainbowSix #RainbowSixVegas #Ubisoft #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-r6-vegas-new-game",
+ "fallback_text": "🎮 <b>Ubisoft is reportedly making a new Rainbow Six Vegas</b>\n\nAccording to a new report, Ubisoft is working on a fresh entry in the Rainbow Six Vegas series. It would be the first Vegas game in 18 years, since Rainbow Six Vegas 2. Ubisoft has not officially announced it.\n\n🕒 Nov 14, 2026 · 15:19 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report\">Eurogamer</a>\n👥 <a href=\"https://x.com/Ubisoft\">@Ubisoft</a>\n\n🎰 Hyped for a Vegas return? React 🔥 · 💬 Best Rainbow Six ever?\n\n#RainbowSix #RainbowSixVegas #Ubisoft #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://assetsio.gnwcdn.com/0000003726.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "<code>🎮 A new Rainbow Six Vegas is reportedly in the works at Ubisoft\nIt would be the series' first Vegas game in 18 years, since Vegas 2.\nvia @eurogamer @Ubisoft\n#RainbowSix #GamingNews</code>"
+ },
+ "ref": "tweet-r6-vegas-new-game",
+ "fallback_text": "<code>🎮 A new Rainbow Six Vegas is reportedly in the works at Ubisoft\nIt would be the series' first Vegas game in 18 years, since Vegas 2.\nvia @eurogamer @Ubisoft\n#RainbowSix #GamingNews</code>",
+ "not_before": "2026-11-14T18:00:00Z"
+}

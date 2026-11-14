@@ -1,0 +1,10 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "⏰ 22:00\n<code>https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report</code>"
+ },
+ "ref": "tweetlink-r6-vegas-new-game",
+ "not_before": "2026-11-14T18:00:00Z"
+}
