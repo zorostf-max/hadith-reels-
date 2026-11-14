@@ -13,7 +13,7 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 - Outro (~4 s): "Which one surprised you most? Comment below" + follow @LevelUpGamesNews. The CTA changes a little every day.
 - Length 25–40 s. Text stays in the safe zone (the renderer handles it).
 
-## RUNBOOK — daily run (20:00 Istanbul)
+## RUNBOOK — daily run (21:24 Istanbul, published at about 21:45)
 1. `cd` into the repo, `git pull`. If `gaming-news/shorts/done.txt` already has today's date, stop.
 2. **Pick the stories:** read `gaming-news/posted.txt`, take the links posted in the last 24 h (skip `(same story)` lines). Choose the 3 **biggest** (same "big story" test as the X tweets in `gaming-news/README.md`: GTA 6/Rockstar, platform news, major release/reveal/delay, big industry move, striking number, big GPU/console price change, major esports result). Prefer stories with a striking number or a clear image. Never a story already used in an earlier Short (check `done.txt`).
 3. Re-read each chosen article with WebFetch and write only facts the source states. Never invent numbers, dates or quotes.
@@ -39,13 +39,26 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
    ```
 8. Commit + push (`git add gaming-news/shorts && git commit -m "short: YYYY-MM-DD" && git push`, pull --rebase and retry once if rejected). Use the commit-pinned raw URL `https://raw.githubusercontent.com/zorostf-max/hadith-reels-/<sha>/gaming-news/shorts/epYYYY-MM-DD/short.mp4`.
 9. Telegram (bridge, `telegram/README.md`):
-   - Channel: `sendVideo` to `@LevelUpGames0` with caption (HTML): `🎬 <b>Today in gaming: N stories in NN seconds</b>` + one line per story + `🔔 <a href="https://t.me/LevelUpGames0">@LevelUpGames0</a>` + `#GamingNews`; `--not-before` today 18:00Z (21:00 Istanbul).
-   - Owner (`state.json → telegram_chat_id`): `sendVideo` with the same URL and caption `📺 Short لليوتيوب — جاهز للرفع الساعة 22:00`, then a `sendMessage` with `youtube.txt` inside `<code>…</code>` (title, description, tags), both `--not-before` today 18:00Z.
-   - Push, then `tg.py wait` only the jobs without `--not-before` (the held ones go out with the 21:25 tick of the hourly news run).
+   - Channel: `sendVideo` to `@LevelUpGames0` with caption (HTML): `🎬 <b>Today in gaming: N stories in NN seconds</b>` + one line per story + `🔔 <a href="https://t.me/LevelUpGames0">@LevelUpGames0</a>` + `#GamingNews`; no `--not-before` (posted as soon as the Short is ready).
+   - Owner: only the YouTube result line (section YouTube) — or the fallback message with the video + `youtube.txt`.
+   - Push, then `tg.py wait` the jobs.
 10. Append `YYYY-MM-DD<TAB>title<TAB>tags of the stories` to `done.txt`, commit + push.
 
-## YouTube
-The owner chose (2026-11-14) to connect **@LevelUpGamesNews** to vidIQ so the Short is published automatically. In step 9, first run `vidiq_social_account_list` (free):
-- **If a YOUTUBE row for Level Up / @LevelUpGamesNews has `canPublish: true`:** import the video with `vidiq_video_upload` (url = the commit-pinned raw URL), then create and publish/schedule a YouTube Short post for **22:00 Istanbul today** on that account with the title, description and tags from `youtube.txt`, following the vidIQ social-post tools' own descriptions (never post to the hadith channel `UCJJ_4UdsjkE92RvBUEbnjrA`). Then send the owner a one-line Arabic confirmation instead of the upload message. If vidIQ refuses (credits, permission), fall back to the manual way below and say why in the owner message.
-- **Otherwise (not connected yet):** the manual way — the owner gets the video + `youtube.txt` in his private chat at 21:00 and uploads it himself at ~22:00 (step 9). Add one line reminding him to connect the channel in vidIQ (once a week at most).
-The Telegram channel post happens in both cases.
+## YouTube — published through Claude in Chrome (tested 2026-11-14)
+The owner chose (2026-11-14) to publish the Short on **Level Up | Gaming News** (channel id `UCwRDrrCzN-3L2WWp23F163Q`) through his own Chrome with the Claude in Chrome extension (a test upload worked). vidIQ/Metricool are not connected for this channel.
+
+In step 9, after the Telegram jobs are queued:
+1. Make the upload copy (Claude in Chrome's file upload takes at most 3.8 MB): `ffmpeg -y -i short.mp4 -vf scale=720:1280 -c:v libx264 -preset veryfast -b:v 650k -maxrate 750k -bufsize 1500k -c:a aac -b:a 96k -movflags +faststart short_720.mp4` → must be < 3.6 MB (lower `-b:v` if not). Do not commit it.
+2. Load the chrome-browser skill, then `tabs_context_mcp` (createIfEmpty) → if the extension is not connected or does not answer, skip to the fallback.
+3. Navigate a new tab to `https://studio.youtube.com`. Check the top-right account button says **Level Up | Gaming News** (never upload to the hadith channel; if it is another channel, stop and use the fallback).
+4. Click the "تحميل فيديوهات" / upload button, `find` the hidden file input and `file_upload` the absolute path of `short_720.mp4` (origin `https://studio.youtube.com`).
+5. Set the texts with javascript_tool (typing into these boxes is unreliable):
+   ```js
+   function setBox(id, text){const b=document.querySelector(`ytcp-uploads-dialog #${id} #textbox[contenteditable]`); b.focus(); document.execCommand('selectAll'); document.execCommand('insertText', false, text); b.blur(); return b.innerText;}
+   [setBox('title-textarea', TITLE), setBox('description-textarea', DESCRIPTION)]
+   ```
+   TITLE/DESCRIPTION from `youtube.txt` (title ≤ 100 chars). Then click `tp-yt-paper-radio-button[name="VIDEO_MADE_FOR_KIDS_NOT_MFK"]`.
+6. Click `#next-button` three times (1.5 s apart), click `tp-yt-paper-radio-button[name="PUBLIC"]`, take a screenshot to check title, preview and "Public", then click `#done-button`. Wait for the confirmation, then read the short link (`https://youtube.com/shorts/<id>`) from the dialog or from Studio → Content.
+7. Close the tab. Send the owner one Arabic line through the bridge: «✅ نُشر شورت اليوم على يوتيوب: <link>» + the pinned-comment text from the channel doc to paste (comments cannot be pinned reliably by the run).
+- **Fallback** (extension not connected, wrong channel, upload or save fails after 2 tries): send the owner the video + `youtube.txt` in his private chat for a manual upload, and say in one line why the automatic upload did not happen. Never leave a half-finished upload: if the dialog is open, close it (a draft may stay — mention it).
+The Telegram channel post happens in every case.
