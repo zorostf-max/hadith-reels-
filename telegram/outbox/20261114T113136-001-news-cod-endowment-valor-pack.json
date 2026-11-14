@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/Screenshot-2026-11-14-at-11.11.15.png?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Call of Duty Valor Pack returns to help veterans find jobs</b>\n\nThe Call of Duty Endowment is marking Remembrance Day and its 17th anniversary by pushing its Valor Pack in Modern Warfare 4 and Warzone. Activision says all of its net proceeds from the pack go toward helping military veterans get jobs.\n\n🕒 Nov 14, 2026 · 14:15 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans\">Eurogamer</a>\n👥 <a href=\"https://x.com/CallofDuty\">@CallofDuty</a> · <a href=\"https://x.com/Activision\">@Activision</a>\n\n❤️ React if you'd grab it for a good cause · 💬 Have you bought a charity pack before?\n\n#CallOfDuty #ModernWarfare4 #Warzone #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-cod-endowment-valor-pack",
+ "fallback_text": "🎮 <b>Call of Duty Valor Pack returns to help veterans find jobs</b>\n\nThe Call of Duty Endowment is marking Remembrance Day and its 17th anniversary by pushing its Valor Pack in Modern Warfare 4 and Warzone. Activision says all of its net proceeds from the pack go toward helping military veterans get jobs.\n\n🕒 Nov 14, 2026 · 14:15 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans\">Eurogamer</a>\n👥 <a href=\"https://x.com/CallofDuty\">@CallofDuty</a> · <a href=\"https://x.com/Activision\">@Activision</a>\n\n❤️ React if you'd grab it for a good cause · 💬 Have you bought a charity pack before?\n\n#CallOfDuty #ModernWarfare4 #Warzone #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
