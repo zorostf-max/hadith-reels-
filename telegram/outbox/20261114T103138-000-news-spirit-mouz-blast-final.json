@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/4C3iJcglPh1AgkZCRiG_bE.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>Spirit knock out MOUZ, reach the BLAST Rivals Hong Kong final</b>\n\nTeam Spirit beat MOUZ in the BLAST Rivals Hong Kong semi-final to book a place in the grand final. HLTV credits a team-wide effort rather than one star carrying the series, and Spirit now get their shot at the trophy in Hong Kong.\n\n🕒 Nov 14, 2026 · 13:04 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45989/spirit-defeat-mouz-to-make-blast-rivals-final\">HLTV</a>\n👥 <a href=\"https://x.com/BLASTPremier\">@BLASTPremier</a>\n\n🔥 React if you're backing Spirit · 💬 Who takes the trophy?\n\n#CS2 #TeamSpirit #BLASTRivals #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-spirit-mouz-blast-final",
+ "fallback_text": "🏆 <b>Spirit knock out MOUZ, reach the BLAST Rivals Hong Kong final</b>\n\nTeam Spirit beat MOUZ in the BLAST Rivals Hong Kong semi-final to book a place in the grand final. HLTV credits a team-wide effort rather than one star carrying the series, and Spirit now get their shot at the trophy in Hong Kong.\n\n🕒 Nov 14, 2026 · 13:04 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/45989/spirit-defeat-mouz-to-make-blast-rivals-final\">HLTV</a>\n👥 <a href=\"https://x.com/BLASTPremier\">@BLASTPremier</a>\n\n🔥 React if you're backing Spirit · 💬 Who takes the trophy?\n\n#CS2 #TeamSpirit #BLASTRivals #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
