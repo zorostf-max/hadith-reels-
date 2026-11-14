@@ -9,6 +9,8 @@ Owner's rules (2026-11-09):
 - Write in **English**, always with the item's **publish time**, **all the sources** that cover the story, **hashtags** and **mentions** of the official accounts involved (owner's request 2026-11-12).
 - Topics: game news and releases · esports and tournaments (CS2, Valorant, LoL…) · PC hardware and graphics cards · platforms and deals (PlayStation, Xbox, Nintendo, Steam, free games, big discounts).
 
+Daily Short (video): see `gaming-news/shorts/README.md` — separate daily run.
+
 Files: `tweets.txt` (log of links whose tweet was sent to the owner) · `fetch_news.py` (reads the RSS feeds, prints fresh items as JSON with an image URL) · `posted.txt` (log of every link already posted or skipped as a duplicate — one line per link: `time<TAB>source<TAB>url`).
 
 ## RUNBOOK — hourly run
