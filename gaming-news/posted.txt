@@ -383,3 +383,7 @@
 2026-11-14 01:31	PC Gamer	https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/
 2026-11-14 01:31	Eurogamer (same story)	https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus
 2026-11-14 02:31	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/we-tried-stealing-our-own-gta-6-physical-edition-codes-and-you-probably-shouldnt-worry-about-someone-getting-to-yours-first/
+2026-11-14 04:32	GamesRadar+	https://www.gamesradar.com/games/the-legend-of-zelda/nintendo-just-broke-the-zelda-timeline-by-10-000-years-as-it-reconfirms-a-contentious-tears-of-the-kingdom-theory/
+2026-11-14 04:32	IGN	https://www.ign.com/articles/blade-runner-2099-executive-producers-confirm-franchise-owners-are-in-talks-for-aaa-video-game-adaptation
+2026-11-14 04:32	GamesRadar+	https://www.gamesradar.com/games/epic-games-tim-sweeney-says-steams-ai-disclosure-is-unfair-to-developers-who-use-ai-to-make-good-games-because-it-associates-ai-with-bad-games/
+2026-11-14 04:32	IGN (same story)	https://www.ign.com/articles/ps5-qssr-updates-revealed-for-marvels-spider-man-2-arc-raiders-and-more
