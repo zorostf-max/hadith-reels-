@@ -1,0 +1,11 @@
+{
+ "job": "20261115T150911-002-tick.json",
+ "ref": "tick",
+ "method": "getMe",
+ "ok": false,
+ "sent_at": "2026-11-15T15:09:29Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": "<urlopen error [Errno 104] Connection reset by peer>",
+ "fallback_used": false
+}
