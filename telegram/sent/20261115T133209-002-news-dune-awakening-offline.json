@@ -1,0 +1,11 @@
+{
+ "job": "20261115T133209-002-news-dune-awakening-offline.json",
+ "ref": "news-dune-awakening-offline",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T13:32:25Z",
+ "message_id": 280,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
