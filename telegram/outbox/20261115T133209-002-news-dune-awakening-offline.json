@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/BZPSyzyi8PwUy6nwAn4z6Y-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Dune: Awakening now runs fully offline</b>\n\nFuncom's former survival MMO has added its much-requested offline mode, so the game can now be played without an internet connection at any point. Even creating and deleting single-player characters no longer needs the web. It's the latest step in the game's shift away from MMO, after the single-player mode arrived earlier this year.\n\n🕒 Nov 15, 2026 · 15:33 (GMT+3)\n📰 Sources: <a href=\"https://www.pcgamer.com/games/survival-crafting/former-survival-mmo-dune-awakening-can-now-be-played-without-requiring-an-internet-connection-at-any-point-as-its-much-requested-offline-mode-arrives/\">PC Gamer</a> · <a href=\"https://www.gamingonlinux.com/2026/11/dune-awakening-gets-fully-offline-single-player-in-the-latest-update/\">GamingOnLinux</a>\n\n🏜️ Back to Arrakis now? React 👍 and tell us in the comments 💬\n\n#DuneAwakening #Funcom #Offline #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-dune-awakening-offline",
+ "fallback_text": "🎮 <b>Dune: Awakening now runs fully offline</b>\n\nFuncom's former survival MMO has added its much-requested offline mode, so the game can now be played without an internet connection at any point. Even creating and deleting single-player characters no longer needs the web. It's the latest step in the game's shift away from MMO, after the single-player mode arrived earlier this year.\n\n🕒 Nov 15, 2026 · 15:33 (GMT+3)\n📰 Sources: <a href=\"https://www.pcgamer.com/games/survival-crafting/former-survival-mmo-dune-awakening-can-now-be-played-without-requiring-an-internet-connection-at-any-point-as-its-much-requested-offline-mode-arrives/\">PC Gamer</a> · <a href=\"https://www.gamingonlinux.com/2026/11/dune-awakening-gets-fully-offline-single-player-in-the-latest-update/\">GamingOnLinux</a>\n\n🏜️ Back to Arrakis now? React 👍 and tell us in the comments 💬\n\n#DuneAwakening #Funcom #Offline #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
