@@ -433,3 +433,8 @@
 2026-11-15 16:30	Tom's Hardware	https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth
 2026-11-15 17:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan
 2026-11-15 17:03	Eurogamer (same story)	https://www.eurogamer.net/gta-6-tracklist-leak
+2026-11-15 18:32	GamesRadar+	https://www.gamesradar.com/games/platformer/super-meat-boy-again-plus-remakes-the-legendary-platformer-with-a-fresh-coat-of-bloody-paint-and-new-music-cutscenes-levels-secrets/
+2026-11-15 18:32	PC Gamer	https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/
+2026-11-15 18:32	GamesRadar+	https://www.gamesradar.com/games/fps/as-overwatch-players-groan-over-yet-another-new-dps-hero-director-says-the-decision-came-to-whether-we-release-a-great-character-or-one-we-didnt-believe-in/
+2026-11-15 18:32	Tom's Hardware	https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
+2026-11-15 18:32	Eurogamer	https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs
