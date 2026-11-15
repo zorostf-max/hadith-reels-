@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/rJxxS7q3AYGHBSBZtSxtvS-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Intel takes back the overall CPU market share lead</b>\n\nIntel has reclaimed overall CPU market share for the first time since 2025, according to Mercury Research's Q3 figures. Big gains on desktop offset AMD's record growth in servers and laptops, while overall client CPU sales dropped in the quarter as data center shipments soared.\n\n🕒 Nov 15, 2026 · 16:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n🔵 Team Blue or 🔴 Team Red? React and tell us what's in your rig 💬\n\n#Intel #AMD #CPU #PCHardware #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-intel-cpu-share",
+ "fallback_text": "🖥️ <b>Intel takes back the overall CPU market share lead</b>\n\nIntel has reclaimed overall CPU market share for the first time since 2025, according to Mercury Research's Q3 figures. Big gains on desktop offset AMD's record growth in servers and laptops, while overall client CPU sales dropped in the quarter as data center shipments soared.\n\n🕒 Nov 15, 2026 · 16:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n🔵 Team Blue or 🔴 Team Red? React and tell us what's in your rig 💬\n\n#Intel #AMD #CPU #PCHardware #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
