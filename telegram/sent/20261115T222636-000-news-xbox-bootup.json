@@ -1,0 +1,11 @@
+{
+ "job": "20261115T222636-000-news-xbox-bootup.json",
+ "ref": "news-xbox-bootup",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T22:26:51Z",
+ "message_id": 299,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
