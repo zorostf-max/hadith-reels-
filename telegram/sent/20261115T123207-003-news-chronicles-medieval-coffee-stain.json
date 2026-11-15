@@ -1,0 +1,11 @@
+{
+ "job": "20261115T123207-003-news-chronicles-medieval-coffee-stain.json",
+ "ref": "news-chronicles-medieval-coffee-stain",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T12:32:29Z",
+ "message_id": 276,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

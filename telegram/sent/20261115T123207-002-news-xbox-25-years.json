@@ -1,0 +1,11 @@
+{
+ "job": "20261115T123207-002-news-xbox-25-years.json",
+ "ref": "news-xbox-25-years",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T12:32:27Z",
+ "message_id": 275,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
