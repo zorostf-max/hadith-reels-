@@ -1,0 +1,11 @@
+{
+ "job": "20261115T184051-000-short-yt-fallback-text.json",
+ "ref": "short-yt-fallback-text",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-15T18:41:06Z",
+ "message_id": 447,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
