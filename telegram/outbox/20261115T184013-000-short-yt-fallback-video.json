@@ -1,0 +1,9 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/875370e24301f83d8d9e7eb89f57c585677913cb/gaming-news/shorts/ep2026-11-15b/short.mp4",
+  "caption": "🎬 شورت Level Up لليوم نُشر على قناة تيليغرام ✅\nيوتيوب: لم أستطع الرفع تلقائياً لأن Chrome غير متصل بهذه الجلسة، فالرجاء رفعه يدوياً على Level Up | Gaming News. العنوان والوصف والوسوم في الملف التالي."
+ },
+ "ref": "short-yt-fallback-video"
+}
