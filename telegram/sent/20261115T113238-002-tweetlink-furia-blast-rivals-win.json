@@ -1,0 +1,11 @@
+{
+ "job": "20261115T113238-002-tweetlink-furia-blast-rivals-win.json",
+ "ref": "tweetlink-furia-blast-rivals-win",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-15T18:30:43Z",
+ "message_id": 442,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

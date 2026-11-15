@@ -1,0 +1,11 @@
+{
+ "job": "20261115T173238-005-tweet-gta6-physical-codes.json",
+ "ref": "tweet-gta6-physical-codes",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T18:30:44Z",
+ "message_id": 443,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

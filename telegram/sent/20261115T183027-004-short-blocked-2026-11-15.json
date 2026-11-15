@@ -1,0 +1,11 @@
+{
+ "job": "20261115T183027-004-short-blocked-2026-11-15.json",
+ "ref": "short-blocked-2026-11-15",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-15T18:30:47Z",
+ "message_id": 445,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

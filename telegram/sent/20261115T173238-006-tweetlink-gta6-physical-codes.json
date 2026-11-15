@@ -1,0 +1,11 @@
+{
+ "job": "20261115T173238-006-tweetlink-gta6-physical-codes.json",
+ "ref": "tweetlink-gta6-physical-codes",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-15T18:30:46Z",
+ "message_id": 444,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
