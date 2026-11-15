@@ -1,0 +1,11 @@
+{
+ "job": "20261114T233141-004-tweetlink-lol-new-dawn.json",
+ "ref": "tweetlink-lol-new-dawn",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-15T02:26:38Z",
+ "message_id": 439,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
