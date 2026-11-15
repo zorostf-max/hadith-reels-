@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/15/Macca-and-friends-gta6.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 will have its own in-game cartoon show: Macca &amp; Friends</b>\n\nGTA 6 is launching with a full Saturday-morning-style animated series that players can watch on in-game TV. The show is called Macca &amp; Friends, and a teaser trailer for it is already out. It's another sign of how much side content Rockstar is packing into Leonida.\n\n🕒 Nov 15, 2026 · 19:39 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/gta-6-is-launching-with-a-full-saturday-morning-cartoon-series-players-can-watch-in-game-3428321/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n📺 React if you'd actually sit and watch it · 💬 Best GTA TV show ever?\n\n#GTA6 #RockstarGames #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-macca-friends",
+ "fallback_text": "🎮 <b>GTA 6 will have its own in-game cartoon show: Macca &amp; Friends</b>\n\nGTA 6 is launching with a full Saturday-morning-style animated series that players can watch on in-game TV. The show is called Macca &amp; Friends, and a teaser trailer for it is already out. It's another sign of how much side content Rockstar is packing into Leonida.\n\n🕒 Nov 15, 2026 · 19:39 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/gta-6-is-launching-with-a-full-saturday-morning-cartoon-series-players-can-watch-in-game-3428321/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n📺 React if you'd actually sit and watch it · 💬 Best GTA TV show ever?\n\n#GTA6 #RockstarGames #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

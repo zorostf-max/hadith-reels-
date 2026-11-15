@@ -1,0 +1,10 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "⏰ 00:00\n<code>https://www.dexerto.com/gaming/gta-6-players-furious-as-physical-copies-reportedly-arrive-with-missing-or-already-used-codes-3428334/</code>"
+ },
+ "ref": "tweetlink-gta6-physical-codes",
+ "not_before": "2026-11-15T18:00:00Z"
+}
