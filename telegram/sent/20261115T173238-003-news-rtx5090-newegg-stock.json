@@ -1,0 +1,11 @@
+{
+ "job": "20261115T173238-003-news-rtx5090-newegg-stock.json",
+ "ref": "news-rtx5090-newegg-stock",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T17:33:00Z",
+ "message_id": 290,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
