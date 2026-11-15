@@ -1,0 +1,11 @@
+{
+ "job": "20261115T183150-005-news-inxile-tustin-shooting.json",
+ "ref": "news-inxile-tustin-shooting",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T18:32:11Z",
+ "message_id": 293,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

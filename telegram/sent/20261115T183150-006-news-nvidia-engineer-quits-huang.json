@@ -1,0 +1,11 @@
+{
+ "job": "20261115T183150-006-news-nvidia-engineer-quits-huang.json",
+ "ref": "news-nvidia-engineer-quits-huang",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T18:32:13Z",
+ "message_id": 294,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

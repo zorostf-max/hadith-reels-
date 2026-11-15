@@ -1,0 +1,11 @@
+{
+ "job": "20261115T183150-007-news-hltv-hall-of-fame-2026.json",
+ "ref": "news-hltv-hall-of-fame-2026",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T18:32:15Z",
+ "message_id": 295,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
