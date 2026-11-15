@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Jason_and_Lucia_17_338c4e.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 is being called a \"rare cultural moment\" days before launch</b>\n\nGrand Theft Auto 6 finally arrives on November 19 after years of development and several delays, and GameSpot reports its release is so big that other companies have moved their own launch dates out of its way. Even Hunger Games: Sunrise on the Reaping director Francis Lawrence, whose film opens a day later, says he hopes fans make time for both.\n\n🕒 Nov 15, 2026 · 06:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-is-like-the-olympics-a-rare-cultural-moment-with-massive-ripple-effects/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🗓️ Four days to go · 🔥 React if you've cleared your schedule · 💬 Day one or waiting?\n\n#GTA6 #RockstarGames #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-cultural-moment",
+ "fallback_text": "🎮 <b>GTA 6 is being called a \"rare cultural moment\" days before launch</b>\n\nGrand Theft Auto 6 finally arrives on November 19 after years of development and several delays, and GameSpot reports its release is so big that other companies have moved their own launch dates out of its way. Even Hunger Games: Sunrise on the Reaping director Francis Lawrence, whose film opens a day later, says he hopes fans make time for both.\n\n🕒 Nov 15, 2026 · 06:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-is-like-the-olympics-a-rare-cultural-moment-with-massive-ripple-effects/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🗓️ Four days to go · 🔥 React if you've cleared your schedule · 💬 Day one or waiting?\n\n#GTA6 #RockstarGames #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
