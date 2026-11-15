@@ -1,0 +1,11 @@
+{
+ "job": "20261115T113238-000-news-furia-blast-rivals-win.json",
+ "ref": "news-furia-blast-rivals-win",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T11:32:58Z",
+ "message_id": 274,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
