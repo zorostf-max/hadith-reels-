@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Z93tKco3tkC3tuWgoLcxY7-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>AMD CEO Lisa Su shows up at Micro Center's new Austin store</b>\n\nDr. Lisa Su joined the opening of Micro Center's new store in Austin, meeting gamers on site. AMD handed out 300 swag bags and raffled AMD gear, including a Radeon RX 9070 XT signed by Su herself.\n\n🕒 Nov 15, 2026 · 14:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/desktops/pc-building/dr-lisa-su-graces-the-opening-of-micro-centers-new-austin-store-amd-ceo-meets-with-gamers-autographs-a-9070-xt-gpu-and-hands-out-300-swag-bags\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/AMD\">@AMD</a>\n\n✍️ React if you'd want that signed GPU · 💬 Would you frame it or game on it?\n\n#AMD #Radeon #MicroCenter #PCGaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-lisa-su-micro-center-austin",
+ "fallback_text": "🖥️ <b>AMD CEO Lisa Su shows up at Micro Center's new Austin store</b>\n\nDr. Lisa Su joined the opening of Micro Center's new store in Austin, meeting gamers on site. AMD handed out 300 swag bags and raffled AMD gear, including a Radeon RX 9070 XT signed by Su herself.\n\n🕒 Nov 15, 2026 · 14:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/desktops/pc-building/dr-lisa-su-graces-the-opening-of-micro-centers-new-austin-store-amd-ceo-meets-with-gamers-autographs-a-9070-xt-gpu-and-hands-out-300-swag-bags\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/AMD\">@AMD</a>\n\n✍️ React if you'd want that signed GPU · 💬 Would you frame it or game on it?\n\n#AMD #Radeon #MicroCenter #PCGaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
