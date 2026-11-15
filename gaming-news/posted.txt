@@ -424,3 +424,9 @@
 2026-11-15 14:27	HLTV	https://www.hltv.org/news/45996/kscerato-dominates-to-claim-blast-rivals-s2-mvp
 2026-11-15 14:30	Tom's Hardware	https://www.tomshardware.com/desktops/pc-building/dr-lisa-su-graces-the-opening-of-micro-centers-new-austin-store-amd-ceo-meets-with-gamers-autographs-a-9070-xt-gpu-and-hands-out-300-swag-bags
 2026-11-15 15:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return
+2026-11-15 15:33	PC Gamer	https://www.pcgamer.com/games/survival-crafting/former-survival-mmo-dune-awakening-can-now-be-played-without-requiring-an-internet-connection-at-any-point-as-its-much-requested-offline-mode-arrives/
+2026-11-15 15:33	GamingOnLinux (same story)	https://www.gamingonlinux.com/2026/11/dune-awakening-gets-fully-offline-single-player-in-the-latest-update/
+2026-11-15 15:39	GamesRadar+	https://www.gamesradar.com/games/rpg/star-wars-fate-of-the-old-republic-director-casey-hudson-says-therell-be-new-announcements-about-the-kotor-successor-next-year/
+2026-11-15 15:33	HLTV (same story)	https://www.hltv.org/news/45993/the-blast-rivals-grand-final-as-it-happened
+2026-11-15 16:00	HLTV (same story)	https://www.hltv.org/news/45997/kscerato-we-need-to-be-humble-and-go-to-the-major-with-the-mentality-that-we-need-to-show-our-best
+2026-11-15 16:14	GamesRadar+ (same story)	https://www.gamesradar.com/games/league-of-legends/after-17-years-league-of-legends-new-dawn-is-the-riot-mobas-next-era-we-want-league-to-stand-the-test-of-time/
