@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/CoD-WoW_header.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Treyarch lays off senior lead writer Craig Houston after ~20 years</b>\n\nThe Call of Duty writer and Zombies veteran confirmed on X and LinkedIn that he was affected by a recent reorganisation at the studio. He thanked fans for their support over his two decades at Treyarch.\n\n🕒 Nov 15, 2026 · 18:14 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs\">Eurogamer</a>\n👥 <a href=\"https://x.com/CallofDuty\">@CallofDuty</a> · <a href=\"https://x.com/Activision\">@Activision</a>\n\n🧟 React to send respect · 💬 What's your favourite Zombies story moment?\n\n#CallOfDuty #Treyarch #Zombies #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-treyarch-houston-layoff",
+ "fallback_text": "🎮 <b>Treyarch lays off senior lead writer Craig Houston after ~20 years</b>\n\nThe Call of Duty writer and Zombies veteran confirmed on X and LinkedIn that he was affected by a recent reorganisation at the studio. He thanked fans for their support over his two decades at Treyarch.\n\n🕒 Nov 15, 2026 · 18:14 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs\">Eurogamer</a>\n👥 <a href=\"https://x.com/CallofDuty\">@CallofDuty</a> · <a href=\"https://x.com/Activision\">@Activision</a>\n\n🧟 React to send respect · 💬 What's your favourite Zombies story moment?\n\n#CallOfDuty #Treyarch #Zombies #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
