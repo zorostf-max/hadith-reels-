@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/10/28/jason-and-lucia-01-1793212840753.jpg",
+  "parse_mode": "HTML",
+  "disable_notification": true,
+  "caption": "🎮 <b>GTA 6: Jason and Lucia start small before the big scores</b>\n\nRockstar Games says GTA 6 will let Jason and Lucia pull off high-value jobs, but not right away. Players will first have to work their way up from small-time crime before the big-money work opens up, giving the duo a rise-through-the-ranks arc.\n\n🕒 Nov 15, 2026 · 22:41 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/gta-6s-jason-and-lucia-will-start-as-small-time-criminals-who-have-to-work-up-to-high-value-jobs\">IGN</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if you like the slow climb · 💬 Petty crime first or straight to heists?\n\n#GTA6 #RockstarGames #Heists #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-gta6-small-time",
+ "fallback_text": "🎮 <b>GTA 6: Jason and Lucia start small before the big scores</b>\n\nRockstar Games says GTA 6 will let Jason and Lucia pull off high-value jobs, but not right away. Players will first have to work their way up from small-time crime before the big-money work opens up, giving the duo a rise-through-the-ranks arc.\n\n🕒 Nov 15, 2026 · 22:41 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/gta-6s-jason-and-lucia-will-start-as-small-time-criminals-who-have-to-work-up-to-high-value-jobs\">IGN</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if you like the slow climb · 💬 Petty crime first or straight to heists?\n\n#GTA6 #RockstarGames #Heists #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
