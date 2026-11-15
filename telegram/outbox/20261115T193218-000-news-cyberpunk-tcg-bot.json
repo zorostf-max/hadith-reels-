@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2025/11/03/Cyberpunk-creator-teases-way-to-bring-back-Keanu-Reeves-in-Cyberpunk-2.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Unbeatable Cyberpunk TCG bot becomes the final boss</b>\n\nA self-taught bot playing the Cyberpunk trading card game climbed all the way to the number one spot on a fan-made simulator. Instead of banning it, the site's developers turned it into a boss for players to take on, giving the community a fresh challenge.\n\n🕒 Nov 15, 2026 · 21:57 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/cyberpunk-2077/cyberpunk-tcg-bot-kept-winning-so-devs-made-it-the-final-boss-instead-of-banning-it-3428350/\">Dexerto</a>\n👥 <a href=\"https://x.com/CyberpunkGame\">@CyberpunkGame</a>\n\n🤖 Could you beat it? React 🔥 and tell us in the comments\n\n#Cyberpunk2077 #CyberpunkTCG #CardGames #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-cyberpunk-tcg-bot",
+ "fallback_text": "🎮 <b>Unbeatable Cyberpunk TCG bot becomes the final boss</b>\n\nA self-taught bot playing the Cyberpunk trading card game climbed all the way to the number one spot on a fan-made simulator. Instead of banning it, the site's developers turned it into a boss for players to take on, giving the community a fresh challenge.\n\n🕒 Nov 15, 2026 · 21:57 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/cyberpunk-2077/cyberpunk-tcg-bot-kept-winning-so-devs-made-it-the-final-boss-instead-of-banning-it-3428350/\">Dexerto</a>\n👥 <a href=\"https://x.com/CyberpunkGame\">@CyberpunkGame</a>\n\n🤖 Could you beat it? React 🔥 and tell us in the comments\n\n#Cyberpunk2077 #CyberpunkTCG #CardGames #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
