@@ -419,3 +419,8 @@
 2026-11-15 09:30	HLTV	https://www.hltv.org/news/45993/live-updates-from-blast-rivals-grand-final
 2026-11-15 13:21	HLTV	https://www.hltv.org/news/45994/blast-to-return-to-hong-kong-in-2027
 2026-11-15 14:11	HLTV	https://www.hltv.org/news/45995/furia-rout-spirit-in-hong-kong-final-to-win-third-trophy-in-four-events
+2026-11-15 14:00	Tom's Hardware	https://www.tomshardware.com/video-games/xbox/the-original-xbox-was-released-25-years-ago-today-microsofts-pentium-iii-and-nvidia-gpu-powered-console-did-surprisingly-well-in-a-ps2-dominated-era
+2026-11-15 14:27	PC Gamer	https://www.pcgamer.com/games/strategy/chronicles-medieval-developer-declared-bankruptcy-on-the-day-it-announced-it-was-in-trouble-but-development-will-continue-after-a-usd5-million-reprieve-from-coffee-stain/
+2026-11-15 14:27	HLTV	https://www.hltv.org/news/45996/kscerato-dominates-to-claim-blast-rivals-s2-mvp
+2026-11-15 14:30	Tom's Hardware	https://www.tomshardware.com/desktops/pc-building/dr-lisa-su-graces-the-opening-of-micro-centers-new-austin-store-amd-ceo-meets-with-gamers-autographs-a-9070-xt-gpu-and-hands-out-300-swag-bags
+2026-11-15 15:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return
