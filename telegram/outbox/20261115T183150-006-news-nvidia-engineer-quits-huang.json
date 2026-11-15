@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/V58pCYCTU9ChhLRLiLHMe5-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia engineer quits over secrecy around Jensen Huang's exit</b>\n\nA robotics engineer at Nvidia has left the company, saying there was a lack of transparency about how former CEO Jensen Huang departed. He joins a growing group of unhappy staff, while the online petition to bring Huang back has now passed 150,000 signatures.\n\n🕒 Nov 15, 2026 · 20:56 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 React if you're following this saga · 💬 Should Huang come back?\n\n#NVIDIA #JensenHuang #TechNews #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-nvidia-engineer-quits-huang",
+ "fallback_text": "🖥️ <b>Nvidia engineer quits over secrecy around Jensen Huang's exit</b>\n\nA robotics engineer at Nvidia has left the company, saying there was a lack of transparency about how former CEO Jensen Huang departed. He joins a growing group of unhappy staff, while the online petition to bring Huang back has now passed 150,000 signatures.\n\n🕒 Nov 15, 2026 · 20:56 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 React if you're following this saga · 💬 Should Huang come back?\n\n#NVIDIA #JensenHuang #TechNews #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
