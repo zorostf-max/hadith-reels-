@@ -430,3 +430,6 @@
 2026-11-15 15:33	HLTV (same story)	https://www.hltv.org/news/45993/the-blast-rivals-grand-final-as-it-happened
 2026-11-15 16:00	HLTV (same story)	https://www.hltv.org/news/45997/kscerato-we-need-to-be-humble-and-go-to-the-major-with-the-mentality-that-we-need-to-show-our-best
 2026-11-15 16:14	GamesRadar+ (same story)	https://www.gamesradar.com/games/league-of-legends/after-17-years-league-of-legends-new-dawn-is-the-riot-mobas-next-era-we-want-league-to-stand-the-test-of-time/
+2026-11-15 16:30	Tom's Hardware	https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth
+2026-11-15 17:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan
+2026-11-15 17:03	Eurogamer (same story)	https://www.eurogamer.net/gta-6-tracklist-leak
