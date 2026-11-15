@@ -1,0 +1,11 @@
+{
+ "job": "20261115T143215-003-news-nvidia-director-stock.json",
+ "ref": "news-nvidia-director-stock",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T14:32:31Z",
+ "message_id": 283,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
