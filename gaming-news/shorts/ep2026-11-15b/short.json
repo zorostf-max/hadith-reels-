@@ -1,0 +1,18 @@
+{
+  "date_label": "nov 15",
+  "stories": [
+    {"tag": "GTA 6", "cat": "games",
+     "head": "GTA 6 gets an in-game cartoon: Macca & Friends airs Nov 19 on Weazel",
+     "src": "source: Dexerto", "audio": "audio/s0.mp3",
+     "art": {"type": "image", "file": "img/s0.jpg", "label": "MACCA & FRIENDS"}},
+    {"tag": "LOL", "cat": "games",
+     "head": "Riot reveals League of Legends: New Dawn, a huge overhaul with a new client in 2027",
+     "src": "source: GamesRadar+", "audio": "audio/s1.mp3",
+     "art": {"type": "pills", "title": "LOL: NEW DAWN", "items": ["NEW CLIENT", "SUMMONER'S RIFT", "FULL REVEAL JAN"]}},
+    {"tag": "RTX 5090", "cat": "hardware",
+     "head": "RTX 5090 is back on Newegg with 21 models, but from $6,599, over 3x MSRP",
+     "src": "source: Tom's Hardware", "audio": "audio/s2.mp3",
+     "art": {"type": "counter", "from": 0, "to": 6599, "prefix": "$", "suffix": "", "title": "RTX 5090", "sub": "cheapest at Newegg", "badge": "3x MSRP+"}}
+  ],
+  "outro": {"head": "Would you watch a GTA cartoon? Comment below", "audio": "audio/outro.mp3"}
+}
