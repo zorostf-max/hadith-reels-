@@ -1,0 +1,11 @@
+{
+ "job": "20261115T213212-000-news-gta6-small-time.json",
+ "ref": "news-gta6-small-time",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T21:32:32Z",
+ "message_id": 298,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
