@@ -1,0 +1,11 @@
+{
+ "job": "20261115T184013-000-short-yt-fallback-video.json",
+ "ref": "short-yt-fallback-video",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-15T18:40:27Z",
+ "message_id": 446,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
