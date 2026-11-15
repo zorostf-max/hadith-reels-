@@ -1,0 +1,11 @@
+{
+ "job": "20261115T153226-002-news-smb-again-plus.json",
+ "ref": "news-smb-again-plus",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T15:32:41Z",
+ "message_id": 284,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

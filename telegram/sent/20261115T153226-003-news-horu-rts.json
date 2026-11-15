@@ -1,0 +1,11 @@
+{
+ "job": "20261115T153226-003-news-horu-rts.json",
+ "ref": "news-horu-rts",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-15T15:32:43Z",
+ "message_id": 285,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
