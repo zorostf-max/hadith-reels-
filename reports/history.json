@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "date": "2026-11-15",
+    "period": "2026-11-09/2026-11-15",
+    "instagram": {
+      "followers": null,
+      "views": 1806,
+      "reels": 8,
+      "avg_skip_rate_pct": 71.5
+    },
+    "youtube": {
+      "subscribers": null,
+      "views": null,
+      "note": "Metricool returned no videos published in range"
+    },
+    "tiktok": {
+      "followers": null,
+      "total_likes": null,
+      "views": null,
+      "note": "vidIQ out of credits"
+    },
+    "telegram_message_id": 440
+  }
+]
