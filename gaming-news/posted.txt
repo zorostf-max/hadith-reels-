@@ -416,3 +416,4 @@
 2026-11-15 01:05	IGN	https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027
 2026-11-15 06:00	GameSpot	https://www.gamespot.com/articles/gta-6-is-like-the-olympics-a-rare-cultural-moment-with-massive-ripple-effects/
 2026-11-15 07:52	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-from-lana-del-rey-playboi-carti-and-keith-richards/
+2026-11-15 09:30	HLTV	https://www.hltv.org/news/45993/live-updates-from-blast-rivals-grand-final
