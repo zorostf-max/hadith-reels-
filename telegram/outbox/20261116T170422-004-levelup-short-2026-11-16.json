@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/d44b4d53d3d0b4e5a346b000da71530e4ecf05c0/gaming-news/shorts/ep2026-11-16/short.mp4",
+  "caption": "🎬 <b>Today in gaming: 3 stories in 37 seconds</b>\n\n🎮 GTA 6 leak hacker pleads guilty; Rockstar says the 2022 hack cost it $5M\n🕹️ Xbox: Project Helix is a console that can play your PC games, not a PC\n🖥️ Jensen Huang reportedly eyeing a Nvidia return as 175,000+ sign a petition\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "levelup-short-2026-11-16"
+}
