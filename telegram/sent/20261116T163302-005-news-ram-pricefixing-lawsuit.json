@@ -1,0 +1,11 @@
+{
+ "job": "20261116T163302-005-news-ram-pricefixing-lawsuit.json",
+ "ref": "news-ram-pricefixing-lawsuit",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T16:33:32Z",
+ "message_id": 324,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

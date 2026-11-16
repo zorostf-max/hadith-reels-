@@ -1,0 +1,11 @@
+{
+ "job": "20261116T163302-007-news-biostar-panther-lake-board.json",
+ "ref": "news-biostar-panther-lake-board",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T16:33:35Z",
+ "message_id": 326,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
