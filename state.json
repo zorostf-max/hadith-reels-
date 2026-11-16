@@ -26,7 +26,11 @@
     "special_slot": "2026-11-16T10:15",
     "notes": {
       "12": "Owner asked in Claude chat 2026-11-16 09:45 to publish hadith 12 at 10:15 today. Explanation by Ibn Baz (Ibn Uthaymeen's not found online): binbaz.org.sa audios/2816 (Riyad al-Salihin 2nd sharh, kitab al-salam 282)."
-    }
+    },
+    "preview_message_ids": [
+      449,
+      450
+    ]
   },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",
