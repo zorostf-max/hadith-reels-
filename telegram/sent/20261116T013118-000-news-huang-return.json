@@ -1,0 +1,11 @@
+{
+ "job": "20261116T013118-000-news-huang-return.json",
+ "ref": "news-huang-return",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T01:31:40Z",
+ "message_id": 300,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
