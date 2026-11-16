@@ -484,3 +484,10 @@
 2026-11-16 17:57	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/gta-6-wont-make-kids-violent-uk-conservative-party-leader-thinks-mortal-kombat-and-street-fighter-i-didnt-hit-anybody-after-playing-those/
 2026-11-16 18:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat
 2026-11-16 17:13	Dexerto (same story)	https://www.dexerto.com/gta/kfc-is-hosting-a-fake-funeral-so-gta-6-fans-can-take-the-day-off-3428598/
+2026-11-16 18:30	Dexerto	https://www.dexerto.com/gta/dj-khaled-is-giving-xbox-players-doctors-notes-so-they-can-skip-work-for-gta-6-3428616/
+2026-11-16 18:39	GamesRadar+	https://www.gamesradar.com/hardware/desktop-pc/judge-essentially-says-no-i-dont-think-i-will-after-ram-manufacturers-file-a-motion-to-dismiss-the-price-fixing-lawsuit-against-them/
+2026-11-16 19:20	VGC (same story)	https://www.videogameschronicle.com/news/judge-throws-out-ram-makers-attempt-to-dismiss-lawsuit-accusing-them-of-fixing-prices-and-supply/
+2026-11-16 18:52	GameSpot	https://www.gamespot.com/articles/shooting-suspect-in-custody-after-opening-fire-near-xbox-devs-studio/
+2026-11-16 19:08	PC Gamer	https://www.pcgamer.com/hardware/motherboards/biostar-announces-the-first-intel-panther-lake-motherboard-and-its-tiny-but-dont-get-your-hopes-up-for-cramming-it-into-a-mini-gaming-pc/
+2026-11-16 19:15	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/gta-6-hacker-who-reportedly-cost-rockstar-usd5-million-pleads-guilty-to-everything/
+2026-11-16 18:53	PC Gamer (same story)	https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-really-wants-evercold-to-be-the-expansion-everyone-comes-back-to-so-much-so-its-giving-you-30-days-free-gametime-if-youve-been-gone-long-enough/
