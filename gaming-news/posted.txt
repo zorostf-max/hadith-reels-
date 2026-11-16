@@ -514,3 +514,6 @@
 2026-11-16 22:38	Eurogamer	https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer
 2026-11-16 22:40	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/
 2026-11-16 22:59	GamesRadar+	https://www.gamesradar.com/games/resident-evil-creator-shinji-mikami-says-his-new-game-is-coming-out-in-2027/
+2026-11-16 23:27	GameSpot	https://www.gamespot.com/articles/delete-gta-6-for-a-chance-to-win-another-game/
+2026-11-17 00:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-department-of-energy-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus
+2026-11-17 00:13	PC Gamer (same story)	https://www.pcgamer.com/software/ai/trump-supports-jensen-huangs-return-as-nvidia-ceo-but-it-doesnt-sound-like-the-board-is-interested/
