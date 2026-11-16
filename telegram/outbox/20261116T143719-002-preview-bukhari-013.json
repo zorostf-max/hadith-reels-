@@ -1,0 +1,9 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/ca6a93d/videos/bukhari-013.mp4",
+  "caption": "(١/١) الحديث رقم 13 — «حتى يحب لأخيه ما يحب لنفسه» — يُنشر الأربعاء ١٠:٠٠ صباحًا"
+ },
+ "ref": "preview-bukhari-013"
+}
