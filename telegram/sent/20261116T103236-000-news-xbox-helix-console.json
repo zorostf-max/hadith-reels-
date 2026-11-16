@@ -1,0 +1,11 @@
+{
+ "job": "20261116T103236-000-news-xbox-helix-console.json",
+ "ref": "news-xbox-helix-console",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T10:32:54Z",
+ "message_id": 302,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
