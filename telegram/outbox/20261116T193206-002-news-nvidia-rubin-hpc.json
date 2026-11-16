@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/wJ2qnaAhPDGJQVsKBgLAri-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia reveals Rubin HPC GPU with over 50,000 CUDA cores</b>\n\nNvidia unveiled its Rubin HPC GPU at Supercomputing 2026, promising what it calls a record number of CUDA cores – more than 50,000. The chip targets scientists, engineers and analysts running agentic HPC workloads, and it is not due until 2028.\n\n🕒 Nov 16, 2026 · 22:05 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n🤯 React if 50K CUDA cores blows your mind · 💬 When will gaming GPUs get this tech?\n\n#Nvidia #Rubin #GPU #SC26 #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-nvidia-rubin-hpc",
+ "fallback_text": "🖥️ <b>Nvidia reveals Rubin HPC GPU with over 50,000 CUDA cores</b>\n\nNvidia unveiled its Rubin HPC GPU at Supercomputing 2026, promising what it calls a record number of CUDA cores – more than 50,000. The chip targets scientists, engineers and analysts running agentic HPC workloads, and it is not due until 2028.\n\n🕒 Nov 16, 2026 · 22:05 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n🤯 React if 50K CUDA cores blows your mind · 💬 When will gaming GPUs get this tech?\n\n#Nvidia #Rubin #GPU #SC26 #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

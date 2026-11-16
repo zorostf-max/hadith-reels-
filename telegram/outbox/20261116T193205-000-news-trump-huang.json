@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/AcvQdNE4MvE4MZ6pKF6f9Y-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Trump wants Jensen Huang back as Nvidia CEO, but the board reportedly says no</b>\n\nPresident Trump has publicly called for Jensen Huang to be reinstated as Nvidia's CEO. A new report says Nvidia's board is not considering it, reportedly because of an ongoing national security investigation into Huang. It is the latest twist in the saga that has followed his exit from the GPU giant.\n\n🕒 Nov 16, 2026 · 21:24 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/trump-calls-for-jensen-huang-reinstatement-as-nvidia-ceo-nvidia-board-reportedly-refuses-to-reinstate-disgraced-ceo-due-to-ongoing-national-security-investigation-into-jensen\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 Should he return? React 👍 or 👎 and tell us why below\n\n#Nvidia #JensenHuang #GPU #TechNews #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-trump-huang",
+ "fallback_text": "🖥️ <b>Trump wants Jensen Huang back as Nvidia CEO, but the board reportedly says no</b>\n\nPresident Trump has publicly called for Jensen Huang to be reinstated as Nvidia's CEO. A new report says Nvidia's board is not considering it, reportedly because of an ongoing national security investigation into Huang. It is the latest twist in the saga that has followed his exit from the GPU giant.\n\n🕒 Nov 16, 2026 · 21:24 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/trump-calls-for-jensen-huang-reinstatement-as-nvidia-ceo-nvidia-board-reportedly-refuses-to-reinstate-disgraced-ceo-due-to-ongoing-national-security-investigation-into-jensen\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 Should he return? React 👍 or 👎 and tell us why below\n\n#Nvidia #JensenHuang #GPU #TechNews #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
