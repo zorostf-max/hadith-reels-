@@ -1,0 +1,11 @@
+{
+ "job": "20261116T133658-005-news-gta6-2-billion-opening.json",
+ "ref": "news-gta6-2-billion-opening",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T13:37:30Z",
+ "message_id": 315,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

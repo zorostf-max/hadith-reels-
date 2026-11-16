@@ -1,0 +1,11 @@
+{
+ "job": "20261116T133658-004-news-ps4-runs-9b-ai-model.json",
+ "ref": "news-ps4-runs-9b-ai-model",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T13:37:29Z",
+ "message_id": 314,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
