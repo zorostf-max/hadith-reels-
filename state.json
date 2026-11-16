@@ -70,12 +70,15 @@
   "pending": {
    "episode": 2,
    "publish_date": "2026-11-17",
-   "status": "script_approved",
+   "status": "video_sent",
    "script_message_ids": [
     352,
     353
    ],
-   "preview_message_ids": [],
+   "preview_message_ids": [
+    456,
+    457
+   ],
    "notes": [],
    "messages": [
     {
@@ -85,7 +88,8 @@
      "reply_to_message_id": 353
     }
    ],
-   "elevenlabs_flow": "KeKKBMkpydCuFwjGPnQY"
+   "elevenlabs_flow": "KeKKBMkpydCuFwjGPnQY",
+   "video_commit": "a307c3cadbf74378a629487205e614c5d9174956"
   },
   "compilation_overrides": {
    "2026-11-21": [
