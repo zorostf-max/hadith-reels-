@@ -1,0 +1,9 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/53e945c658720c1ca9e71bc6c1edcd1590e21fc3/seerah/ep02/episode.mp4",
+  "caption": "🎬 الحلقة 2 — مولد النبي صلى الله عليه وسلم (نسخة مصحّحة النطق) — تُنشر الثلاثاء ١٠:٠٠"
+ },
+ "ref": "seerah-ep02-fixed"
+}
