@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/uApsAyeVZ7UzBF3CSkzzb8-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>The Weather Channel is now sharing GTA 6 screenshots</b>\n\nRockstar is leaning hard on GTA 6's weather system: The Weather Channel itself has posted new screenshots from the game showing off its skies and storms. It is an unusual crossover that puts the game's dynamic weather front and center during launch week.\n\n🕒 Nov 17, 2026 · 01:04 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-is-so-confident-in-gta-6s-weather-system-that-it-has-the-weather-channel-itself-sharing-new-screenshots/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🌩️ React if those storms look real · 💬 Best weather in a game ever?\n\n#GTA6 #RockstarGames #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-weather-channel",
+ "fallback_text": "🎮 <b>The Weather Channel is now sharing GTA 6 screenshots</b>\n\nRockstar is leaning hard on GTA 6's weather system: The Weather Channel itself has posted new screenshots from the game showing off its skies and storms. It is an unusual crossover that puts the game's dynamic weather front and center during launch week.\n\n🕒 Nov 17, 2026 · 01:04 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-is-so-confident-in-gta-6s-weather-system-that-it-has-the-weather-channel-itself-sharing-new-screenshots/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🌩️ React if those storms look real · 💬 Best weather in a game ever?\n\n#GTA6 #RockstarGames #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

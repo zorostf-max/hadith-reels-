@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/16/subway-gta-6-sub.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Subway drops a \"Vice City\" sub for GTA 6, but you can't eat it</b>\n\nSubway is marking the GTA 6 launch with a new Vice City Cubano sandwich. The catch: it only exists inside the game, so fans have to head to Vice City to grab one. It is the latest brand tie-in riding the launch-week hype around Rockstar's game.\n\n🕒 Nov 17, 2026 · 00:01 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/food/subway-reveals-vice-city-sub-for-gta-6-but-theres-only-one-way-to-get-it-3428783/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🥪 Would you order this in-game? React 👍 or 👎 and tell us below\n\n#GTA6 #ViceCity #Subway #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-subway",
+ "fallback_text": "🎮 <b>Subway drops a \"Vice City\" sub for GTA 6, but you can't eat it</b>\n\nSubway is marking the GTA 6 launch with a new Vice City Cubano sandwich. The catch: it only exists inside the game, so fans have to head to Vice City to grab one. It is the latest brand tie-in riding the launch-week hype around Rockstar's game.\n\n🕒 Nov 17, 2026 · 00:01 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/food/subway-reveals-vice-city-sub-for-gta-6-but-theres-only-one-way-to-get-it-3428783/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🥪 Would you order this in-game? React 👍 or 👎 and tell us below\n\n#GTA6 #ViceCity #Subway #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
