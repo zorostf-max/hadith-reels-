@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "6875821347",
+  "photo": "https://cdn.mos.cms.futurecdn.net/RZ8a3C2bRtPfEBwCrN9W9j-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "<code>🖥️ SteamOS just got better on Nvidia-powered PCs\nValve's latest update makes moving your own gaming rig over to SteamOS a lot less painful.\nvia @pcgamer @Steam @NVIDIAGeForce\n#SteamOS #GamingNews</code>"
+ },
+ "ref": "tweet-steamos-nvidia-update",
+ "fallback_text": "<code>🖥️ SteamOS just got better on Nvidia-powered PCs\nValve's latest update makes moving your own gaming rig over to SteamOS a lot less painful.\nvia @pcgamer @Steam @NVIDIAGeForce\n#SteamOS #GamingNews</code>",
+ "not_before": "2026-11-16T18:00:00Z"
+}

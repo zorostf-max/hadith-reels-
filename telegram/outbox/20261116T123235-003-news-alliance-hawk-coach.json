@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/no8OtSP2x52XhVtZCfSyHR.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>Alliance part ways with head coach Hawk</b>\n\nCS2 team Alliance have parted ways with head coach Hawk. The change follows a poor run of form that saw the team miss out on a Major spot.\n\n🕒 Nov 16, 2026 · 15:09 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/46002/alliance-part-ways-with-head-coach-hawk\">HLTV</a>\n👥 <a href=\"https://x.com/HLTVorg\">@HLTVorg</a> · <a href=\"https://x.com/CounterStrike\">@CounterStrike</a>\n\n🤔 Right call or too late? React and drop your take below\n\n#CS2 #Alliance #Esports #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-alliance-hawk-coach",
+ "fallback_text": "🏆 <b>Alliance part ways with head coach Hawk</b>\n\nCS2 team Alliance have parted ways with head coach Hawk. The change follows a poor run of form that saw the team miss out on a Major spot.\n\n🕒 Nov 16, 2026 · 15:09 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/46002/alliance-part-ways-with-head-coach-hawk\">HLTV</a>\n👥 <a href=\"https://x.com/HLTVorg\">@HLTVorg</a> · <a href=\"https://x.com/CounterStrike\">@CounterStrike</a>\n\n🤔 Right call or too late? React and drop your take below\n\n#CS2 #Alliance #Esports #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

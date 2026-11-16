@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/veVq8zm7Xna5Pv9VaorMH4-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Doom now runs on a USB flash drive's tiny screen</b>\n\nHacker Aaron Christophel ported Doom to the built-in LCD of a MOVESPEED MSSU10 flash drive. He dumped the firmware from a chip with scrubbed markings through an open debug port, got the game running with AI help, and you play it by copying files to the drive.\n\n🕒 Nov 16, 2026 · 13:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/bethesda\">@bethesda</a>\n\n🤯 React if this is peak Doom · 💬 What device should run it next?\n\n#Doom #RetroGaming #Hardware #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-doom-usb-lcd",
+ "fallback_text": "🖥️ <b>Doom now runs on a USB flash drive's tiny screen</b>\n\nHacker Aaron Christophel ported Doom to the built-in LCD of a MOVESPEED MSSU10 flash drive. He dumped the firmware from a chip with scrubbed markings through an open debug port, got the game running with AI help, and you play it by copying files to the drive.\n\n🕒 Nov 16, 2026 · 13:30 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/bethesda\">@bethesda</a>\n\n🤯 React if this is peak Doom · 💬 What device should run it next?\n\n#Doom #RetroGaming #Hardware #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
