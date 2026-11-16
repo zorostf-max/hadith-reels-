@@ -479,3 +479,8 @@
 2026-11-16 17:19	Eurogamer	https://www.eurogamer.net/cyberpunk-2077-multiplayer-mod-open-beta
 2026-11-16 16:40	GameSpot (same story)	https://www.gamespot.com/articles/xbox-is-hoping-ai-can-stop-its-next-console-from-costing-a-fortune/
 2026-11-16 16:35	PC Gamer (same story)	https://www.pcgamer.com/games/fps/game-dev-isnt-always-straightforward-overwatchs-director-responds-to-players-upset-about-season-6s-hero-being-a-dps/
+2026-11-16 17:33	GameSpot	https://www.gamespot.com/articles/xbox-game-pass-gets-even-more-games-in-november/
+2026-11-16 17:54	Tom's Hardware	https://www.tomshardware.com/pc-components/cpus/overlocker-uses-vibecoded-bios-modification-to-target-intels-non-k-overclocking-restrictions-attempts-to-revive-asrocks-discontinued-skyoc-technology
+2026-11-16 17:57	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/gta-6-wont-make-kids-violent-uk-conservative-party-leader-thinks-mortal-kombat-and-street-fighter-i-didnt-hit-anybody-after-playing-those/
+2026-11-16 18:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat
+2026-11-16 17:13	Dexerto (same story)	https://www.dexerto.com/gta/kfc-is-hosting-a-fake-funeral-so-gta-6-fans-can-take-the-day-off-3428598/
