@@ -1,0 +1,11 @@
+{
+ "job": "20261116T193206-002-news-nvidia-rubin-hpc.json",
+ "ref": "news-nvidia-rubin-hpc",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T19:33:46Z",
+ "message_id": 339,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

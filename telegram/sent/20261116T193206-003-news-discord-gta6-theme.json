@@ -1,0 +1,11 @@
+{
+ "job": "20261116T193206-003-news-discord-gta6-theme.json",
+ "ref": "news-discord-gta6-theme",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T19:33:48Z",
+ "message_id": 340,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
