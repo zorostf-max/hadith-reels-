@@ -1,9 +1,0 @@
-{
- "method": "sendVideo",
- "params": {
-  "chat_id": "6875821347",
-  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/c0f02da/videos/bukhari-014.mp4",
-  "caption": "(٢/٢) الحديث رقم 14 — «حتى أكون أحبَّ إليه من والده وولده» — يُنشر الأربعاء ٦:٠٠ مساءً"
- },
- "ref": "preview-bukhari-014"
-}
