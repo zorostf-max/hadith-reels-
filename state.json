@@ -79,10 +79,12 @@
     353
    ],
    "preview_message_ids": [
-    456,
-    457
+    461,
+    462
    ],
-   "notes": [],
+   "notes": [
+    "2026-11-16: re-voiced s06, s07b, s11a after owner's pronunciation note; new preview 461/462 — use this commit's episode.mp4."
+   ],
    "messages": [
     {
      "message_id": 384,
@@ -92,7 +94,11 @@
     }
    ],
    "elevenlabs_flow": "KeKKBMkpydCuFwjGPnQY",
-   "video_commit": "a307c3cadbf74378a629487205e614c5d9174956"
+   "video_commit": "53e945c658720c1ca9e71bc6c1edcd1590e21fc3",
+   "old_preview_message_ids": [
+    456,
+    457
+   ]
   },
   "compilation_overrides": {
    "2026-11-21": [
