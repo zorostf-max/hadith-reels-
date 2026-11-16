@@ -1,5 +1,5 @@
 {
- "next_hadith": 14,
+ "next_hadith": 15,
  "published": [
   1,
   2,
@@ -17,7 +17,8 @@
  "pending_batch": {
   "publish_date": "2026-11-18",
   "hadiths": [
-   13
+   13,
+   14
   ],
   "status": "awaiting",
   "approved": [],
@@ -26,11 +27,13 @@
   "messages": [],
   "preview_message_ids": [
    453,
-   454
+   454,
+   458,
+   459
   ],
   "notes": {
    "13": "Ibn Uthaymeen, Sharh al-Arba'in al-Nawawiyya, hadith 13 (shamela.ws/book/21812/158 and /161, printed pp.160,163).",
-   "14": "Not prepared 2026-11-16: shamela.ws pages of al-Qawl al-Mufid (book 7339, ~pp.626-637, chapter ومن الناس من يتخذ من دون الله أندادا) were refused by the fetch tool. Do hadith 14 first in the next batch (next_hadith stays 14)."
+   "14": "Ibn Uthaymeen, al-Qawl al-Mufid ala Kitab al-Tawhid, ج2 ص62-63 (shamela.ws/book/7339/634-635), commentary on Anas's wording (Bukhari 15) of the same hadith. Added to batch 2026-11-16 after owner asked to retry."
   }
  },
  "rejected_notes": {},
