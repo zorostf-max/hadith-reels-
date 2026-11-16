@@ -1,5 +1,5 @@
 {
-  "next_hadith": 12,
+  "next_hadith": 13,
   "published": [
     1,
     2,
@@ -14,47 +14,19 @@
     11
   ],
   "pending_batch": {
-    "publish_date": "2026-11-14",
+    "publish_date": "2026-11-16",
     "hadiths": [
-      11
+      12
     ],
-    "status": "done",
-    "approved": [
-      11
-    ],
+    "status": "awaiting",
+    "approved": [],
     "rejected": [],
-    "scheduled": {
-      "11": {
-        "slot": "2026-11-14T15:20+03:00",
-        "theme": "noon",
-        "metricool_post_ids": [
-          427949666,
-          427949676
-        ],
-        "status": "published (IG reel DfuMXUXD8YI, YT HTsk9drA39Y, TikTok 7708000994382187794) — scheduled outside this runbook, found in Metricool on 2026-11-16",
-        "telegram_jobs": [
-          "20261116T062728-000-channel-bukhari-011.json",
-          "20261116T062728-001-channel-bukhari-011-text.json"
-        ],
-        "telegram_channel_at": "2026-11-16T10:00+03:00"
-      }
-    },
-    "preview_message_ids": [
-      421,
-      422
-    ],
+    "scheduled": {},
+    "messages": [],
+    "special_slot": "2026-11-16T10:15",
     "notes": {
-      "11": "Extra Saturday reel requested by the owner in Claude chat 2026-11-14 07:53 ('today at noon'). Point from Ibn Uthaymeen, Liqa' al-Bab al-Maftuh 126 (Riyad al-Salihin, hifz al-lisan). Narrated, 45.6 s, noon theme, planned 13:00."
-    },
-    "messages": [
-      {
-        "message_id": 423,
-        "date_utc": "2026-11-14T05:01:05Z",
-        "text": "Ok",
-        "meaning": "batch approved (hadith 11)"
-      }
-    ],
-    "special_slot": "2026-11-14T13:00"
+      "12": "Owner asked in Claude chat 2026-11-16 09:45 to publish hadith 12 at 10:15 today. Explanation by Ibn Baz (Ibn Uthaymeen's not found online): binbaz.org.sa audios/2816 (Riyad al-Salihin 2nd sharh, kitab al-salam 282)."
+    }
   },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",

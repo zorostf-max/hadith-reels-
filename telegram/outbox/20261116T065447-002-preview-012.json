@@ -1,0 +1,9 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/f15605575b67bfad705ce7aaab77c0d41c894e74/videos/bukhari-012.mp4",
+  "caption": "(١/١) الحديث رقم 12 — إطعام الطعام وإفشاء السلام — يُنشر اليوم 10:15 بعد موافقتك"
+ },
+ "ref": "preview-012"
+}
