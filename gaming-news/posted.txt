@@ -460,3 +460,9 @@
 2026-11-16 14:32	Dexerto	https://www.dexerto.com/gaming/indie-game-will-pay-5000-towards-your-wedding-or-divorce-if-you-finish-it-fastest-3428400/
 2026-11-16 14:32	GameSpot (same story)	https://www.gamespot.com/articles/xbox-project-helix-is-a-console-that-plays-pc-games-not-the-other-way-around/
 2026-11-16 14:32	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/xbox-project-helix-is-a-console-that-is-also-capable-of-playing-games-from-your-pc-lead-dev-says-its-really-designed-to-be-the-ultimate-gaming-machine/
+2026-11-16 15:32	Tom's Hardware	https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help
+2026-11-16 15:32	PC Gamer	https://www.pcgamer.com/hardware/steam-machines/the-latest-steamos-update-improves-support-on-nvidia-powered-pcs-makes-swapping-your-rig-to-the-os-less-painful/
+2026-11-16 15:32	PC Gamer	https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-continued-to-wrestle-with-dungeons-as-blizzard-admits-it-briefly-missed-the-mark-on-hotfixes-over-the-weekend/
+2026-11-16 15:32	HLTV	https://www.hltv.org/news/46002/alliance-part-ways-with-head-coach-hawk
+2026-11-16 15:32	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/xbox-project-helix-lead-says-its-one-of-the-most-exciting-times-to-be-making-a-new-console-because-the-challenging-component-crisis-means-finding-new-ways-to-balance-innovation-and-accessibility/
+2026-11-16 15:32	Eurogamer (same story)	https://www.eurogamer.net/microsoft-project-helix-interview-details
