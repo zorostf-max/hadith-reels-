@@ -1,0 +1,11 @@
+{
+ "job": "20261116T143358-003-news-kfc-gta6-fake-funeral.json",
+ "ref": "news-kfc-gta6-fake-funeral",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T14:34:23Z",
+ "message_id": 317,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

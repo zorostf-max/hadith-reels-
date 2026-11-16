@@ -1,0 +1,11 @@
+{
+ "job": "20261116T143358-002-news-grammy-game-scores.json",
+ "ref": "news-grammy-game-scores",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T14:34:21Z",
+ "message_id": 316,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

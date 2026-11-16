@@ -1,0 +1,11 @@
+{
+ "job": "20261116T143358-004-news-cybermp-open-beta.json",
+ "ref": "news-cybermp-open-beta",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T14:34:25Z",
+ "message_id": 318,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
