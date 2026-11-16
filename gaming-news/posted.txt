@@ -523,3 +523,5 @@
 2026-11-17 00:14	IGN (same story)	https://www.ign.com/articles/nvidia-reportedly-uninterested-in-bringing-jensen-huang-back-as-ceo
 2026-11-17 00:43	IGN (same story)	https://www.ign.com/articles/blizzard-tries-two-world-of-warcraft-dungeon-fixes-over-the-weekend-to-stop-boosting-services
 2026-11-17 01:17	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/supercomputers/china-retains-fastest-supercomputer-in-the-world-crown-as-ai-data-centers-soak-up-new-hardware-top500-records-fewest-new-systems-in-33-years
+2026-11-17 01:29	GamesRadar+	https://www.gamesradar.com/games/sony-patents-a-collar-that-blows-air-on-your-neck-to-increase-the-sense-of-immersion/
+2026-11-17 01:34	PC Gamer	https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/
