@@ -1,0 +1,59 @@
+{
+ "date_label": "nov 16",
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "GTA 6 leak hacker pleads guilty; Rockstar says the 2022 hack cost it $5 million",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "counter",
+    "from": 0,
+    "to": 5000000,
+    "prefix": "$",
+    "suffix": "",
+    "title": "GTA 6 HACK",
+    "sub": "cost to Rockstar",
+    "badge": "GUILTY PLEA"
+   }
+  },
+  {
+   "tag": "HELIX",
+   "cat": "xbox",
+   "head": "Xbox: Project Helix is a console that can play your PC games, not a PC",
+   "src": "source: VGC",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "pills",
+    "title": "PROJECT HELIX",
+    "items": [
+     "CONSOLE FIRST",
+     "PLAYS PC GAMES",
+     "NEURAL RENDERING"
+    ]
+   }
+  },
+  {
+   "tag": "NVIDIA",
+   "cat": "tech",
+   "head": "Jensen Huang reportedly eyeing a return to Nvidia as 175,000+ sign a petition",
+   "src": "source: PC Gamer",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "counter",
+    "from": 0,
+    "to": 175000,
+    "prefix": "",
+    "suffix": "+",
+    "title": "#BRINGJENSENBACK",
+    "sub": "petition signatures",
+    "badge": "LEFT NOV 12"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Should Jensen come back? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
