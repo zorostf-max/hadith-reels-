@@ -1,0 +1,11 @@
+{
+ "job": "20261116T170549-004-levelup-yt-fallback-video-2026-11-16.json",
+ "ref": "levelup-yt-fallback-video-2026-11-16",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-16T17:06:17Z",
+ "message_id": 465,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

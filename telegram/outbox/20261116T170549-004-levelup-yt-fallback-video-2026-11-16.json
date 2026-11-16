@@ -1,9 +1,0 @@
-{
- "method": "sendVideo",
- "params": {
-  "chat_id": "6875821347",
-  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/d44b4d53d3d0b4e5a346b000da71530e4ecf05c0/gaming-news/shorts/ep2026-11-16/short.mp4",
-  "caption": "🎬 شورت Level Up لليوم (16 نوفمبر) — نُشر على قناة تيليغرام ✅\nيوتيوب: لم يُرفع تلقائياً لأن إضافة Claude in Chrome غير متصلة بهذه الجلسة، فأرجو رفعه يدوياً على قناة Level Up | Gaming News. العنوان والوصف والوسوم في الرسالة التالية 👇"
- },
- "ref": "levelup-yt-fallback-video-2026-11-16"
-}
