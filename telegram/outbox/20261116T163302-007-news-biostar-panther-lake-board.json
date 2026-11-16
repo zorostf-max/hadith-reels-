@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/5be5HLmVwPazqsCpNu9FVH-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Biostar reveals the first Intel Panther Lake motherboard</b>\n\nBiostar has announced a tiny board built around Intel's new Panther Lake chips, the first of its kind. Don't expect a pocket gaming PC though: the chip it uses has just four Xe3 graphics cores rather than the stronger integrated GPU.\n\n🕒 Nov 16, 2026 · 19:08 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/motherboards/biostar-announces-the-first-intel-panther-lake-motherboard-and-its-tiny-but-dont-get-your-hopes-up-for-cramming-it-into-a-mini-gaming-pc/\">PC Gamer</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n👍 Like if you want a Panther Lake mini PC · 💬 Would you build one?\n\n#Biostar #Intel #PantherLake #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-biostar-panther-lake-board",
+ "fallback_text": "🖥️ <b>Biostar reveals the first Intel Panther Lake motherboard</b>\n\nBiostar has announced a tiny board built around Intel's new Panther Lake chips, the first of its kind. Don't expect a pocket gaming PC though: the chip it uses has just four Xe3 graphics cores rather than the stronger integrated GPU.\n\n🕒 Nov 16, 2026 · 19:08 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/motherboards/biostar-announces-the-first-intel-panther-lake-motherboard-and-its-tiny-but-dont-get-your-hopes-up-for-cramming-it-into-a-mini-gaming-pc/\">PC Gamer</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n👍 Like if you want a Panther Lake mini PC · 💬 Would you build one?\n\n#Biostar #Intel #PantherLake #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
