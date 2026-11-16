@@ -1,0 +1,11 @@
+{
+ "job": "20261116T153256-006-tweet-gta6-badenoch-violence.json",
+ "ref": "tweet-gta6-badenoch-violence",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T18:33:45Z",
+ "message_id": 469,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

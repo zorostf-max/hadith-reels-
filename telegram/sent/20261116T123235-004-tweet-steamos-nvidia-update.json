@@ -1,0 +1,11 @@
+{
+ "job": "20261116T123235-004-tweet-steamos-nvidia-update.json",
+ "ref": "tweet-steamos-nvidia-update",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T18:33:41Z",
+ "message_id": 467,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261116T183304-004-news-shadow-recompiled.json",
+ "ref": "news-shadow-recompiled",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T18:33:48Z",
+ "message_id": 334,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
