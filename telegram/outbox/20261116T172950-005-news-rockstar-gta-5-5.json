@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Vice_City_13_3d2957.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Rockstar: we could have shipped \"GTA 5.5\" faster</b>\n\nWith GTA 6 finally launching on November 19 after multiple delays, Rockstar publishing exec Jennifer Kolbe says the studio could have made a quicker \"GTA 5.5\" – but chose to \"take big swings\" with a true sequel instead.\n\n🕒 Nov 16, 2026 · 19:29 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/rockstar-could-have-released-gta-6-sooner-as-gta-5-5-but-you-have-to-take-big-swings/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if the wait was worth it · 💬 Would you have taken GTA 5.5 sooner?\n\n#GTA6 #Rockstar #TakeTwo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-rockstar-gta-5-5",
+ "fallback_text": "🎮 <b>Rockstar: we could have shipped \"GTA 5.5\" faster</b>\n\nWith GTA 6 finally launching on November 19 after multiple delays, Rockstar publishing exec Jennifer Kolbe says the studio could have made a quicker \"GTA 5.5\" – but chose to \"take big swings\" with a true sequel instead.\n\n🕒 Nov 16, 2026 · 19:29 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/rockstar-could-have-released-gta-6-sooner-as-gta-5-5-but-you-have-to-take-big-swings/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if the wait was worth it · 💬 Would you have taken GTA 5.5 sooner?\n\n#GTA6 #Rockstar #TakeTwo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

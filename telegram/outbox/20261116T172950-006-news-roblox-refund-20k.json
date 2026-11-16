@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/16/Roblox-dad.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Roblox refuses to refund $20K a 9-year-old spent</b>\n\nA Halifax child ran up about $28,000 CAD in in-game purchases on a shared Apple Pay account. Most companies reversed their charges, but Roblox – roughly $20,000 of the total – declined, saying the purchases were made via a third party and pointing the family to the merchant.\n\n🕒 Nov 16, 2026 · 19:34 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/roblox/roblox-refuses-to-refund-20000-after-nine-year-old-maxes-out-parents-credit-card-3428644/\">Dexerto</a>\n👥 <a href=\"https://x.com/Roblox\">@Roblox</a>\n\n👍 or 👎 – should Roblox refund it? · 💬 Comment your take\n\n#Roblox #ParentalControls #ApplePay #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-roblox-refund-20k",
+ "fallback_text": "🕹️ <b>Roblox refuses to refund $20K a 9-year-old spent</b>\n\nA Halifax child ran up about $28,000 CAD in in-game purchases on a shared Apple Pay account. Most companies reversed their charges, but Roblox – roughly $20,000 of the total – declined, saying the purchases were made via a third party and pointing the family to the merchant.\n\n🕒 Nov 16, 2026 · 19:34 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/roblox/roblox-refuses-to-refund-20000-after-nine-year-old-maxes-out-parents-credit-card-3428644/\">Dexerto</a>\n👥 <a href=\"https://x.com/Roblox\">@Roblox</a>\n\n👍 or 👎 – should Roblox refund it? · 💬 Comment your take\n\n#Roblox #ParentalControls #ApplePay #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
