@@ -1,0 +1,11 @@
+{
+ "job": "20261116T164551-004-seerah-ep02-fixed.json",
+ "ref": "seerah-ep02-fixed",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-16T16:46:18Z",
+ "message_id": 461,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
