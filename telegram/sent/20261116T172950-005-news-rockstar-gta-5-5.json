@@ -1,0 +1,11 @@
+{
+ "job": "20261116T172950-005-news-rockstar-gta-5-5.json",
+ "ref": "news-rockstar-gta-5-5",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T17:30:34Z",
+ "message_id": 330,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

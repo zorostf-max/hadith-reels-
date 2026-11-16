@@ -1,0 +1,11 @@
+{
+ "job": "20261116T172950-006-news-roblox-refund-20k.json",
+ "ref": "news-roblox-refund-20k",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T17:30:35Z",
+ "message_id": 331,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

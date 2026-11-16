@@ -1,0 +1,11 @@
+{
+ "job": "20261116T172950-007-news-blast-rivals-evps.json",
+ "ref": "news-blast-rivals-evps",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T17:30:38Z",
+ "message_id": 332,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

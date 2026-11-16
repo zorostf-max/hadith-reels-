@@ -1,0 +1,11 @@
+{
+ "job": "20261116T172950-004-news-nba2k27-vice-city.json",
+ "ref": "news-nba2k27-vice-city",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T17:30:32Z",
+ "message_id": 329,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
