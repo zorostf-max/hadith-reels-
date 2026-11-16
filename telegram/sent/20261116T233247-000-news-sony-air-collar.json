@@ -1,0 +1,11 @@
+{
+ "job": "20261116T233247-000-news-sony-air-collar.json",
+ "ref": "news-sony-air-collar",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T23:33:13Z",
+ "message_id": 349,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
