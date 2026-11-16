@@ -1,0 +1,11 @@
+{
+ "job": "20261116T170422-004-levelup-short-2026-11-16.json",
+ "ref": "levelup-short-2026-11-16",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-16T17:05:09Z",
+ "message_id": 328,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
