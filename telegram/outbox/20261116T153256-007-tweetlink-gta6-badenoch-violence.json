@@ -1,0 +1,10 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "parse_mode": "HTML",
+  "text": "⏰ 00:00\n<code>https://www.gamesradar.com/games/grand-theft-auto/gta-6-wont-make-kids-violent-uk-conservative-party-leader-thinks-mortal-kombat-and-street-fighter-i-didnt-hit-anybody-after-playing-those/</code>"
+ },
+ "ref": "tweetlink-gta6-badenoch-violence",
+ "not_before": "2026-11-16T18:00:00Z"
+}

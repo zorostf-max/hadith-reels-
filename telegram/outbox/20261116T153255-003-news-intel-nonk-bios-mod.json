@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/upv5CLs6eZgME2q4v4v9MX-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Overclocker uses AI-written BIOS mod to beat Intel's non-K lock</b>\n\nASRock dropped its SkyOC feature after Intel moved to block overclocking on non-K CPUs. Now an enthusiast is using a \"vibecoded\" BIOS modification, built with AI help, to test whether that old workaround can be revived on newer Intel platforms.\n\n🕒 Nov 16, 2026 · 17:54 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/cpus/overlocker-uses-vibecoded-bios-modification-to-target-intels-non-k-overclocking-restrictions-attempts-to-revive-asrocks-discontinued-skyoc-technology\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n⚡ Would you flash a modded BIOS for free performance? React 👍 or 👎 · 💬 Tell us why\n\n#Intel #Overclocking #ASRock #PCHardware #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-intel-nonk-bios-mod",
+ "fallback_text": "🖥️ <b>Overclocker uses AI-written BIOS mod to beat Intel's non-K lock</b>\n\nASRock dropped its SkyOC feature after Intel moved to block overclocking on non-K CPUs. Now an enthusiast is using a \"vibecoded\" BIOS modification, built with AI help, to test whether that old workaround can be revived on newer Intel platforms.\n\n🕒 Nov 16, 2026 · 17:54 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/cpus/overlocker-uses-vibecoded-bios-modification-to-target-intels-non-k-overclocking-restrictions-attempts-to-revive-asrocks-discontinued-skyoc-technology\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n⚡ Would you flash a modded BIOS for free performance? React 👍 or 👎 · 💬 Tell us why\n\n#Intel #Overclocking #ASRock #PCHardware #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
