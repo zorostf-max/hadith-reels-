@@ -504,3 +504,9 @@
 2026-11-16 19:49	IGN (same story)	https://www.ign.com/articles/the-gta-leaker-who-revealed-lucia-after-hacking-rockstar-through-his-hotel-tv-pleads-guilty
 2026-11-16 20:26	GamesRadar+ (same story)	https://www.gamesradar.com/games/world-of-warcraft/blizzard-takes-another-swing-at-world-of-warcraft-forevers-dungeon-grind-after-changes-made-just-24-hours-earlier-missed-the-mark/
 2026-11-16 20:48	Eurogamer (same story)	https://www.eurogamer.net/uk-conservative-kemi-badenoch-gta-6
+2026-11-16 21:24	Tom's Hardware	https://www.tomshardware.com/tech-industry/trump-calls-for-jensen-huang-reinstatement-as-nvidia-ceo-nvidia-board-reportedly-refuses-to-reinstate-disgraced-ceo-due-to-ongoing-national-security-investigation-into-jensen
+2026-11-16 21:52	Dexerto	https://www.dexerto.com/gta/professor-cancels-homework-and-exams-during-gta-6-launch-week-3428746/
+2026-11-16 22:05	Tom's Hardware	https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028
+2026-11-16 22:17	Dexerto	https://www.dexerto.com/gta/discord-teams-up-with-rockstar-for-vice-city-theme-to-celebrate-gta-6-launch-3428758/
+2026-11-16 21:51	Eurogamer (same story)	https://www.eurogamer.net/gta-6-leaker-pleads-guilty
+2026-11-16 21:56	GameSpot (same story)	https://www.gamespot.com/articles/wow-forevers-dungeons-have-gotten-yet-another-big-change/
