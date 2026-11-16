@@ -1,0 +1,11 @@
+{
+ "job": "20261116T123235-003-news-alliance-hawk-coach.json",
+ "ref": "news-alliance-hawk-coach",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T12:33:05Z",
+ "message_id": 311,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

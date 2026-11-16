@@ -1,0 +1,11 @@
+{
+ "job": "20261116T123235-002-news-wow-forever-hotfix-dungeons.json",
+ "ref": "news-wow-forever-hotfix-dungeons",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T12:33:02Z",
+ "message_id": 310,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
