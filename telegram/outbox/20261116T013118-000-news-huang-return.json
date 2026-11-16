@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/15/jensen-huang-1794786327545.png",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Jensen Huang reportedly weighing a return as Nvidia CEO</b>\n\nJensen Huang has reportedly talked with his allies about coming back as Nvidia's CEO. It comes just days after he resigned following reports of affairs with an alleged Chinese spy and with multiple employees. Nothing is confirmed yet, but the leadership saga at the world's top GPU maker is far from over.\n\n🕒 Nov 16, 2026 · 02:53 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/jensen-huang-reportedly-weighing-return-as-nvidia-ceo-with-allies\">IGN</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a> · <a href=\"https://x.com/NVIDIAGeForce\">@NVIDIAGeForce</a>\n\n🤔 Should he come back? React 👍 or 👎 · 💬 Comment your take\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-huang-return",
+ "fallback_text": "🖥️ <b>Jensen Huang reportedly weighing a return as Nvidia CEO</b>\n\nJensen Huang has reportedly talked with his allies about coming back as Nvidia's CEO. It comes just days after he resigned following reports of affairs with an alleged Chinese spy and with multiple employees. Nothing is confirmed yet, but the leadership saga at the world's top GPU maker is far from over.\n\n🕒 Nov 16, 2026 · 02:53 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/jensen-huang-reportedly-weighing-return-as-nvidia-ceo-with-allies\">IGN</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a> · <a href=\"https://x.com/NVIDIAGeForce\">@NVIDIAGeForce</a>\n\n🤔 Should he come back? React 👍 or 👎 · 💬 Comment your take\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
