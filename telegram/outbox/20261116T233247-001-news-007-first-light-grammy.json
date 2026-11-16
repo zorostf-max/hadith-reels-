@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/DwMWqRuA5anYcmyMwmLGtT-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>007 First Light's theme song is up for a Grammy</b>\n\n\"First Light\", the Bond theme Lana Del Rey recorded for IO Interactive's 007 First Light, has picked up a Grammy Award nomination. It's a rare spotlight for a video game song at music's biggest awards — even if PC Gamer's writer admits they weren't a fan of the track.\n\n🕒 Nov 17, 2026 · 01:34 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/\">PC Gamer</a>\n\n🎵 Deserves the win? React 🔥 or 💤 and drop your verdict below\n\n#007FirstLight #JamesBond #LanaDelRey #Grammys #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-007-first-light-grammy",
+ "fallback_text": "🎮 <b>007 First Light's theme song is up for a Grammy</b>\n\n\"First Light\", the Bond theme Lana Del Rey recorded for IO Interactive's 007 First Light, has picked up a Grammy Award nomination. It's a rare spotlight for a video game song at music's biggest awards — even if PC Gamer's writer admits they weren't a fan of the track.\n\n🕒 Nov 17, 2026 · 01:34 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/\">PC Gamer</a>\n\n🎵 Deserves the win? React 🔥 or 💤 and drop your verdict below\n\n#007FirstLight #JamesBond #LanaDelRey #Grammys #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
