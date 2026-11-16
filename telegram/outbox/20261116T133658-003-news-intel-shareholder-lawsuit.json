@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/npZsVaRxf6Yq9ExTgeCwM6-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Intel hit with shareholder class action after 29% stock plunge</b>\n\nA US police and fire pension fund is suing Intel, accusing it of misleading investors and withholding key business information. The suit says Intel downplayed the PC market slump, partly driven by today's high PC prices, before its stock fell sharply last week.\n\n🕒 Nov 16, 2026 · 15:50 (GMT+3)\n📰 Sources: <a href=\"https://www.tomshardware.com/pc-components/cpus/intel-sued-by-shareholders-for-misleading-investors-after-stock-plunges-29-percent-class-action-claims-the-company-downplayed-the-severity-of-pc-market-headwinds\">Tom's Hardware</a> · <a href=\"https://www.pcgamer.com/hardware/processors/intel-hit-with-class-action-alleging-it-misled-investors-companys-recent-downturn-due-in-part-to-how-darn-expensive-pcs-are-right-now/\">PC Gamer</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n📉 Bad news for Team Blue? React 👍 or 👎 · 💬 Would you buy Intel right now?\n\n#Intel #CPU #PCHardware #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-intel-shareholder-lawsuit",
+ "fallback_text": "🖥️ <b>Intel hit with shareholder class action after 29% stock plunge</b>\n\nA US police and fire pension fund is suing Intel, accusing it of misleading investors and withholding key business information. The suit says Intel downplayed the PC market slump, partly driven by today's high PC prices, before its stock fell sharply last week.\n\n🕒 Nov 16, 2026 · 15:50 (GMT+3)\n📰 Sources: <a href=\"https://www.tomshardware.com/pc-components/cpus/intel-sued-by-shareholders-for-misleading-investors-after-stock-plunges-29-percent-class-action-claims-the-company-downplayed-the-severity-of-pc-market-headwinds\">Tom's Hardware</a> · <a href=\"https://www.pcgamer.com/hardware/processors/intel-hit-with-class-action-alleging-it-misled-investors-companys-recent-downturn-due-in-part-to-how-darn-expensive-pcs-are-right-now/\">PC Gamer</a>\n👥 <a href=\"https://x.com/intel\">@intel</a>\n\n📉 Bad news for Team Blue? React 👍 or 👎 · 💬 Would you buy Intel right now?\n\n#Intel #CPU #PCHardware #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/riddick_vin_cover.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Riddick: Escape from Butcher Bay was quietly cancelled once</b>\n\nThe 2004 Xbox cult classic was almost scrapped: publisher Vivendi wanted to kill the project. Developer Starbreeze was never clearly told, and only believed the PS2 version had been cut, so the team kept working on the game that became one of Xbox's hidden gems.\n\n🕒 Nov 16, 2026 · 15:31 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/xbox-gem-the-chronicles-of-riddick-escape-from-butcher-bay-was-briefly-cancelled-but-nobody-told-its-developer/\">VGC</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a>\n\n🎮 React if you played it back then · 💬 Which Xbox classic deserves a remake?\n\n#Riddick #ButcherBay #Xbox #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-riddick-butcher-bay-cancelled",
+ "fallback_text": "🎮 <b>Riddick: Escape from Butcher Bay was quietly cancelled once</b>\n\nThe 2004 Xbox cult classic was almost scrapped: publisher Vivendi wanted to kill the project. Developer Starbreeze was never clearly told, and only believed the PS2 version had been cut, so the team kept working on the game that became one of Xbox's hidden gems.\n\n🕒 Nov 16, 2026 · 15:31 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/xbox-gem-the-chronicles-of-riddick-escape-from-butcher-bay-was-briefly-cancelled-but-nobody-told-its-developer/\">VGC</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a>\n\n🎮 React if you played it back then · 💬 Which Xbox classic deserves a remake?\n\n#Riddick #ButcherBay #Xbox #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
