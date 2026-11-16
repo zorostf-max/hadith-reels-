@@ -1,0 +1,11 @@
+{
+ "job": "20261116T113258-002-news-ff14-free-login-evercold.json",
+ "ref": "news-ff14-free-login-evercold",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T11:33:23Z",
+ "message_id": 305,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

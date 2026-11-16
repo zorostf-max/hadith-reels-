@@ -1,0 +1,11 @@
+{
+ "job": "20261116T113258-000-news-nvidia-530b-guarantees.json",
+ "ref": "news-nvidia-530b-guarantees",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T11:33:20Z",
+ "message_id": 303,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

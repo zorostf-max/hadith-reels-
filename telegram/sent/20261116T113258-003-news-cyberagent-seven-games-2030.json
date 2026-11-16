@@ -1,0 +1,11 @@
+{
+ "job": "20261116T113258-003-news-cyberagent-seven-games-2030.json",
+ "ref": "news-cyberagent-seven-games-2030",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T11:33:25Z",
+ "message_id": 306,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

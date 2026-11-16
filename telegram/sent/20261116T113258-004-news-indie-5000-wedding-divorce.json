@@ -1,0 +1,11 @@
+{
+ "job": "20261116T113258-004-news-indie-5000-wedding-divorce.json",
+ "ref": "news-indie-5000-wedding-divorce",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T11:33:26Z",
+ "message_id": 307,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
