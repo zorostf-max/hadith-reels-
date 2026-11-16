@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2022/06/grammys-scaled.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Grammys 2027: five game soundtracks nominated, from Bond to Star Wars</b>\n\nThe nominations for the Grammy for Best Score Soundtrack for Video Games are in, with five games in the running this year. The shortlist includes scores from a James Bond game, a Star Wars game and a Wolverine game, putting some of 2026's biggest licensed releases in contention for music's top award.\n\n🕒 Nov 16, 2026 · 16:40 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/this-years-video-game-soundtrack-grammy-nominations-include-bond-star-wars-and-wolverine/\">VGC</a>\n\n🎵 Which score deserves the win? React 🔥 and drop your pick below 💬\n\n#Grammys #VideoGameMusic #Soundtrack #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-grammy-game-scores",
+ "fallback_text": "🎮 <b>Grammys 2027: five game soundtracks nominated, from Bond to Star Wars</b>\n\nThe nominations for the Grammy for Best Score Soundtrack for Video Games are in, with five games in the running this year. The shortlist includes scores from a James Bond game, a Star Wars game and a Wolverine game, putting some of 2026's biggest licensed releases in contention for music's top award.\n\n🕒 Nov 16, 2026 · 16:40 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/this-years-video-game-soundtrack-grammy-nominations-include-bond-star-wars-and-wolverine/\">VGC</a>\n\n🎵 Which score deserves the win? React 🔥 and drop your pick below 💬\n\n#Grammys #VideoGameMusic #Soundtrack #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
