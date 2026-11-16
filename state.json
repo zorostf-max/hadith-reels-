@@ -1,145 +1,145 @@
 {
-  "next_hadith": 14,
-  "published": [
+ "next_hadith": 14,
+ "published": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "pending_batch": {
+  "publish_date": "2026-11-18",
+  "hadiths": [
+   13
+  ],
+  "status": "awaiting",
+  "approved": [],
+  "rejected": [],
+  "scheduled": {},
+  "messages": [],
+  "preview_message_ids": [
+   453,
+   454
+  ],
+  "notes": {
+   "13": "Ibn Uthaymeen, Sharh al-Arba'in al-Nawawiyya, hadith 13 (shamela.ws/book/21812/158 and /161, printed pp.160,163).",
+   "14": "Not prepared 2026-11-16: shamela.ws pages of al-Qawl al-Mufid (book 7339, ~pp.626-637, chapter ومن الناس من يتخذ من دون الله أندادا) were refused by the fetch tool. Do hadith 14 first in the next batch (next_hadith stays 14)."
+  }
+ },
+ "rejected_notes": {},
+ "telegram_chat_id": "6875821347",
+ "metricool_blog_id": "7884161",
+ "slots": [
+  "10:00",
+  "18:00"
+ ],
+ "timezone": "Europe/Istanbul",
+ "telegram_last_update_id": 81690007,
+ "slot_themes": {
+  "10:00": "morning",
+  "18:00": "night"
+ },
+ "telegram_channel": "@HadithDailyAr",
+ "publish_days": [
+  "Mon",
+  "Wed",
+  "Fri"
+ ],
+ "seerah": {
+  "ep01": {
+   "publish_at": "2026-11-12T10:00:00+03:00",
+   "metricool_post_id": 425281380,
+   "telegram_job": "20261111T055221-000-seerah-ep01.json",
+   "approved": "2026-11-11",
+   "metricool_uuid": "-1903460450320038547"
+  },
+  "next_episode": 2,
+  "next_topic": "مولد النبي ﷺ (ختام الحلقة ١ يمهّد له: «مَن هو؟!»)",
+  "days": [
+   "Tue",
+   "Thu"
+  ],
+  "slot": "10:00",
+  "pending": {
+   "episode": 2,
+   "publish_date": "2026-11-17",
+   "status": "script_approved",
+   "script_message_ids": [
+    352,
+    353
+   ],
+   "preview_message_ids": [],
+   "notes": [],
+   "messages": [
+    {
+     "message_id": 384,
+     "date_utc": "2026-11-12T20:17:35Z",
+     "text": "Ok",
+     "reply_to_message_id": 353
+    }
+   ],
+   "elevenlabs_flow": "KeKKBMkpydCuFwjGPnQY"
+  },
+  "compilation_overrides": {
+   "2026-11-21": [
     1,
     2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12
-  ],
-  "pending_batch": {
-    "publish_date": "2026-11-18",
-    "hadiths": [
-      13
-    ],
-    "status": "awaiting",
-    "approved": [],
-    "rejected": [],
-    "scheduled": {},
-    "messages": [],
-    "preview_message_ids": [
-      453,
-      454
-    ],
-    "notes": {
-      "13": "Ibn Uthaymeen, Sharh al-Arba'in al-Nawawiyya, hadith 13 (shamela.ws/book/21812/158 and /161, printed pp.160,163).",
-      "14": "Not prepared 2026-11-16: shamela.ws pages of al-Qawl al-Mufid (book 7339, ~pp.626-637, chapter ومن الناس من يتخذ من دون الله أندادا) were refused by the fetch tool. Do hadith 14 first in the next batch (next_hadith stays 14)."
-    }
-  },
-  "rejected_notes": {},
-  "telegram_chat_id": "6875821347",
-  "metricool_blog_id": "7884161",
-  "slots": [
-    "10:00",
-    "18:00"
-  ],
-  "timezone": "Europe/Istanbul",
-  "telegram_last_update_id": 81690007,
-  "slot_themes": {
-    "10:00": "morning",
-    "18:00": "night"
-  },
-  "telegram_channel": "@HadithDailyAr",
-  "publish_days": [
-    "Mon",
-    "Wed",
-    "Fri"
-  ],
-  "seerah": {
-    "ep01": {
-      "publish_at": "2026-11-12T10:00:00+03:00",
-      "metricool_post_id": 425281380,
-      "telegram_job": "20261111T055221-000-seerah-ep01.json",
-      "approved": "2026-11-11",
-      "metricool_uuid": "-1903460450320038547"
-    },
-    "next_episode": 2,
-    "next_topic": "مولد النبي ﷺ (ختام الحلقة ١ يمهّد له: «مَن هو؟!»)",
-    "days": [
-      "Tue",
-      "Thu"
-    ],
-    "slot": "10:00",
-    "pending": {
-      "episode": 2,
-      "publish_date": "2026-11-17",
-      "status": "script_approved",
-      "script_message_ids": [
-        352,
-        353
-      ],
-      "preview_message_ids": [],
-      "notes": [],
-      "messages": [
-        {
-          "message_id": 384,
-          "date_utc": "2026-11-12T20:17:35Z",
-          "text": "Ok",
-          "reply_to_message_id": 353
-        }
-      ],
-      "elevenlabs_flow": "KeKKBMkpydCuFwjGPnQY"
-    },
-    "compilation_overrides": {
-      "2026-11-21": [
-        1,
-        2,
-        3
-      ]
-    }
-  },
-  "stories": {
-    "days": [
-      "Sat",
-      "Sun"
-    ],
-    "slot": "11:00",
-    "next_story": 2,
-    "pending": {
-      "story": 1,
-      "publish_date": "2026-11-15",
-      "status": "scheduled",
-      "script_message_ids": [
-        407
-      ],
-      "preview_message_ids": [
-        430,
-        431
-      ],
-      "notes": [],
-      "messages": [
-        {
-          "message_id": 408,
-          "date_utc": "2026-11-13T17:42:56Z",
-          "text": "Ok",
-          "meaning": "script approved"
-        },
-        {
-          "message_id": 434,
-          "date_utc": "2026-11-14T20:34:56Z",
-          "text": "Ok",
-          "reply_to_message_id": 431,
-          "meaning": "video approved"
-        }
-      ],
-      "video_commit": "c74bb8cf2f34ae76e88fc67d96ca3ad8d8a72535"
-    },
-    "published": {
-      "st01": {
-        "publish_at": "2026-11-15T11:00:00+03:00",
-        "metricool_post_id": 428335861,
-        "metricool_tiktok_post_id": 428335877,
-        "telegram_job": "20261114T204103-000-story-st01.json",
-        "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
-        "approved": "2026-11-14T20:34:56Z (msg 434)"
-      }
-    }
+    3
+   ]
   }
+ },
+ "stories": {
+  "days": [
+   "Sat",
+   "Sun"
+  ],
+  "slot": "11:00",
+  "next_story": 2,
+  "pending": {
+   "story": 1,
+   "publish_date": "2026-11-15",
+   "status": "scheduled",
+   "script_message_ids": [
+    407
+   ],
+   "preview_message_ids": [
+    430,
+    431
+   ],
+   "notes": [],
+   "messages": [
+    {
+     "message_id": 408,
+     "date_utc": "2026-11-13T17:42:56Z",
+     "text": "Ok",
+     "meaning": "script approved"
+    },
+    {
+     "message_id": 434,
+     "date_utc": "2026-11-14T20:34:56Z",
+     "text": "Ok",
+     "reply_to_message_id": 431,
+     "meaning": "video approved"
+    }
+   ],
+   "video_commit": "c74bb8cf2f34ae76e88fc67d96ca3ad8d8a72535"
+  },
+  "published": {
+   "st01": {
+    "publish_at": "2026-11-15T11:00:00+03:00",
+    "metricool_post_id": 428335861,
+    "metricool_tiktok_post_id": 428335877,
+    "telegram_job": "20261114T204103-000-story-st01.json",
+    "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
+    "approved": "2026-11-14T20:34:56Z (msg 434)"
+   }
+  }
+ }
 }
