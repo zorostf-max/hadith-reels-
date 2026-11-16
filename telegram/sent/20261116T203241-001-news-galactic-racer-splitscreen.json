@@ -1,0 +1,11 @@
+{
+ "job": "20261116T203241-001-news-galactic-racer-splitscreen.json",
+ "ref": "news-galactic-racer-splitscreen",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T20:33:30Z",
+ "message_id": 342,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

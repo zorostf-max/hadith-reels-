@@ -1,0 +1,11 @@
+{
+ "job": "20261116T203241-002-news-mikami-unbound-2027.json",
+ "ref": "news-mikami-unbound-2027",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T20:33:32Z",
+ "message_id": 343,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

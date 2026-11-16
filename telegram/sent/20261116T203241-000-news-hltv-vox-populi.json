@@ -1,0 +1,11 @@
+{
+ "job": "20261116T203241-000-news-hltv-vox-populi.json",
+ "ref": "news-hltv-vox-populi",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T20:33:27Z",
+ "message_id": 341,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
