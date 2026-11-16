@@ -1,0 +1,11 @@
+{
+ "job": "20261116T212713-001-news-amd-top500.json",
+ "ref": "news-amd-top500",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T21:27:48Z",
+ "message_id": 345,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

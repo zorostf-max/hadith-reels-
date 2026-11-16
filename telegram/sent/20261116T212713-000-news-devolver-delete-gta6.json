@@ -1,0 +1,11 @@
+{
+ "job": "20261116T212713-000-news-devolver-delete-gta6.json",
+ "ref": "news-devolver-delete-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T21:27:46Z",
+ "message_id": 344,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
