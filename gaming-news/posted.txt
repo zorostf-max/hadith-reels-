@@ -474,3 +474,8 @@
 2026-11-16 16:00	Tom's Hardware	https://www.tomshardware.com/video-games/playstation/jailbroken-ps4-runs-9-billion-parameter-ai-model-at-up-to-43-tokens-per-second-open-source-garlic-llm-bypasses-drivers-to-talk-directly-to-the-2013-era-gpu
 2026-11-16 16:14	PC Gamer (same story)	https://www.pcgamer.com/software/ai/jensen-huang-reportedly-eyeing-up-return-to-nvidia-as-friendly-tech-execs-form-war-room-to-fight-for-him-and-over-175-000-people-sign-bringjensenback-petition/
 2026-11-16 16:20	Eurogamer	https://www.eurogamer.net/can-gta-6-make-2-billion-in-its-opening-weekend-one-industry-analyst-has-run-the-numbers-and-seems-to-think-so
+2026-11-16 16:40	VGC	https://www.videogameschronicle.com/news/this-years-video-game-soundtrack-grammy-nominations-include-bond-star-wars-and-wolverine/
+2026-11-16 16:42	GameSpot	https://www.gamespot.com/articles/gta-6-promo-at-kfc-is-a-fake-funeral-so-you-can-take-the-day-off-to-play/
+2026-11-16 17:19	Eurogamer	https://www.eurogamer.net/cyberpunk-2077-multiplayer-mod-open-beta
+2026-11-16 16:40	GameSpot (same story)	https://www.gamespot.com/articles/xbox-is-hoping-ai-can-stop-its-next-console-from-costing-a-fortune/
+2026-11-16 16:35	PC Gamer (same story)	https://www.pcgamer.com/games/fps/game-dev-isnt-always-straightforward-overwatchs-director-responds-to-players-upset-about-season-6s-hero-being-a-dps/
