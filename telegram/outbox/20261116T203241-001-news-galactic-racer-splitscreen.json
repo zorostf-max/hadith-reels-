@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/Star-Wars-Galactic-Racer-ship-getting-ready-for-a-race.jpg?width=1200&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Star Wars: Galactic Racer is adding split-screen in 2027</b>\n\nDeveloper Fuse Games says its arcade podracing game will get local split-screen multiplayer next year, answering one of the loudest requests from players. A new game mode is also on the way in the same 2027 update.\n\n🕒 Nov 16, 2026 · 22:38 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer\">Eurogamer</a>\n👥 <a href=\"https://x.com/starwars\">@starwars</a>\n\n🛋️ Couch racing is back! React 👍 if you'll play with a friend · 💬 Who's your podracing partner?\n\n#StarWarsGalacticRacer #StarWars #SplitScreen #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-galactic-racer-splitscreen",
+ "fallback_text": "🎮 <b>Star Wars: Galactic Racer is adding split-screen in 2027</b>\n\nDeveloper Fuse Games says its arcade podracing game will get local split-screen multiplayer next year, answering one of the loudest requests from players. A new game mode is also on the way in the same 2027 update.\n\n🕒 Nov 16, 2026 · 22:38 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer\">Eurogamer</a>\n👥 <a href=\"https://x.com/starwars\">@starwars</a>\n\n🛋️ Couch racing is back! React 👍 if you'll play with a friend · 💬 Who's your podracing partner?\n\n#StarWarsGalacticRacer #StarWars #SplitScreen #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

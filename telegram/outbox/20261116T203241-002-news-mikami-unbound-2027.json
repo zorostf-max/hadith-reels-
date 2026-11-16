@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/qxUL8dabSuhEAeyk8rZmUc-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Shinji Mikami's next game is coming in 2027</b>\n\nResident Evil creator Shinji Mikami says the first game from his new studio Unbound will release in 2027. He describes the debut project as smaller in scale, rather than a huge blockbuster.\n\n🕒 Nov 16, 2026 · 22:59 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/resident-evil-creator-shinji-mikami-says-his-new-game-is-coming-out-in-2027/\">GamesRadar+</a>\n\n😱 Hyped for a new Mikami game? React 🔥 · 💬 Horror or action — what do you want from him?\n\n#ShinjiMikami #Unbound #ResidentEvil #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-mikami-unbound-2027",
+ "fallback_text": "🎮 <b>Shinji Mikami's next game is coming in 2027</b>\n\nResident Evil creator Shinji Mikami says the first game from his new studio Unbound will release in 2027. He describes the debut project as smaller in scale, rather than a huge blockbuster.\n\n🕒 Nov 16, 2026 · 22:59 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/resident-evil-creator-shinji-mikami-says-his-new-game-is-coming-out-in-2027/\">GamesRadar+</a>\n\n😱 Hyped for a new Mikami game? React 🔥 · 💬 Horror or action — what do you want from him?\n\n#ShinjiMikami #Unbound #ResidentEvil #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

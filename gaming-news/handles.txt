@@ -55,3 +55,4 @@ GDC	Official_GDC
 Anthropic	AnthropicAI
 OpenAI	OpenAI
 Astralis (CS)	AstralisCS
+Star Wars	starwars
