@@ -517,3 +517,9 @@
 2026-11-16 23:27	GameSpot	https://www.gamespot.com/articles/delete-gta-6-for-a-chance-to-win-another-game/
 2026-11-17 00:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-department-of-energy-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus
 2026-11-17 00:13	PC Gamer (same story)	https://www.pcgamer.com/software/ai/trump-supports-jensen-huangs-return-as-nvidia-ceo-but-it-doesnt-sound-like-the-board-is-interested/
+2026-11-17 00:01	Dexerto	https://www.dexerto.com/food/subway-reveals-vice-city-sub-for-gta-6-but-theres-only-one-way-to-get-it-3428783/
+2026-11-17 00:50	Tom's Hardware	https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls
+2026-11-17 01:04	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/rockstar-is-so-confident-in-gta-6s-weather-system-that-it-has-the-weather-channel-itself-sharing-new-screenshots/
+2026-11-17 00:14	IGN (same story)	https://www.ign.com/articles/nvidia-reportedly-uninterested-in-bringing-jensen-huang-back-as-ceo
+2026-11-17 00:43	IGN (same story)	https://www.ign.com/articles/blizzard-tries-two-world-of-warcraft-dungeon-fixes-over-the-weekend-to-stop-boosting-services
+2026-11-17 01:17	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/supercomputers/china-retains-fastest-supercomputer-in-the-world-crown-as-ai-data-centers-soak-up-new-hardware-top500-records-fewest-new-systems-in-33-years
