@@ -54,3 +54,4 @@ Roblox	Roblox
 GDC	Official_GDC
 Anthropic	AnthropicAI
 OpenAI	OpenAI
+Astralis (CS)	AstralisCS

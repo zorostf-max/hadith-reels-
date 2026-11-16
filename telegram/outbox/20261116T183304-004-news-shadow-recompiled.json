@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2024/05/30/shadow-the-hedgehog-1717103493834.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Shadow the Hedgehog gets a fan-made PC port</b>\n\nShadow Recompiled is an unofficial PC port of SEGA's 2005 Sonic spin-off Shadow the Hedgehog, and it adds extras like achievements. IGN notes the project is not \"vibecoded\".\n\n🕒 Nov 16, 2026 · 20:29 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/shadow-the-hedgehog-gets-an-unofficial-pc-port-and-it-isnt-vibecoded\">IGN</a>\n👥 <a href=\"https://x.com/SEGA\">@SEGA</a>\n\n🦔 React if you'd replay it · 💬 Which classic should get a PC port next?\n\n#ShadowTheHedgehog #Sonic #SEGA #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-shadow-recompiled",
+ "fallback_text": "🎮 <b>Shadow the Hedgehog gets a fan-made PC port</b>\n\nShadow Recompiled is an unofficial PC port of SEGA's 2005 Sonic spin-off Shadow the Hedgehog, and it adds extras like achievements. IGN notes the project is not \"vibecoded\".\n\n🕒 Nov 16, 2026 · 20:29 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/shadow-the-hedgehog-gets-an-unofficial-pc-port-and-it-isnt-vibecoded\">IGN</a>\n👥 <a href=\"https://x.com/SEGA\">@SEGA</a>\n\n🦔 React if you'd replay it · 💬 Which classic should get a PC port next?\n\n#ShadowTheHedgehog #Sonic #SEGA #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
