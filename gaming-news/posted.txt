@@ -453,3 +453,10 @@
 2026-11-16 12:24	Eurogamer	https://www.eurogamer.net/battlefield-call-of-duty-sam-cooper-byron-beede-live-service
 2026-11-16 13:32	VGC	https://www.videogameschronicle.com/news/xbox-says-project-helix-is-a-console-that-can-play-pc-games-not-a-pc-that-can-play-console-games/
 2026-11-16 13:32	Pure Xbox (same story)	https://www.purexbox.com/news/2026/11/the-ultimate-gaming-machine-xbox-reveals-tons-of-new-project-helix-information
+2026-11-16 14:32	Tom's Hardware	https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter
+2026-11-16 14:32	VGC	https://www.videogameschronicle.com/news/crimson-desert-studio-pearl-abyss-says-it-now-uses-ai-across-various-stages-of-development/
+2026-11-16 14:32	GamesRadar+	https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-gets-longest-free-login-period-ahead-of-evercold-and-lets-you-pay-to-skip-its-worst-expansion-as-yoshi-p-hopes-to-avoid-heavy-handed-attempts-to-secure-player-retention/
+2026-11-16 14:32	Eurogamer	https://www.eurogamer.net/umamusume-dev-seven-new-games-2030
+2026-11-16 14:32	Dexerto	https://www.dexerto.com/gaming/indie-game-will-pay-5000-towards-your-wedding-or-divorce-if-you-finish-it-fastest-3428400/
+2026-11-16 14:32	GameSpot (same story)	https://www.gamespot.com/articles/xbox-project-helix-is-a-console-that-plays-pc-games-not-the-other-way-around/
+2026-11-16 14:32	GamesRadar+ (same story)	https://www.gamesradar.com/hardware/xbox-project-helix-is-a-console-that-is-also-capable-of-playing-games-from-your-pc-lead-dev-says-its-really-designed-to-be-the-ultimate-gaming-machine/
