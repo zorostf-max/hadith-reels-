@@ -1,0 +1,11 @@
+{
+ "job": "20261116T153256-005-news-mythos-amd-mi355x.json",
+ "ref": "news-mythos-amd-mi355x",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T15:33:33Z",
+ "message_id": 322,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

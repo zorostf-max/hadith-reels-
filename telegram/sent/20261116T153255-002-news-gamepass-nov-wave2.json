@@ -1,0 +1,11 @@
+{
+ "job": "20261116T153255-002-news-gamepass-nov-wave2.json",
+ "ref": "news-gamepass-nov-wave2",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T15:33:28Z",
+ "message_id": 319,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

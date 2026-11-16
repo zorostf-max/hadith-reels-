@@ -1,0 +1,11 @@
+{
+ "job": "20261116T153255-003-news-intel-nonk-bios-mod.json",
+ "ref": "news-intel-nonk-bios-mod",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T15:33:30Z",
+ "message_id": 320,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
