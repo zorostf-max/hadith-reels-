@@ -497,3 +497,10 @@
 2026-11-16 19:34	Dexerto	https://www.dexerto.com/roblox/roblox-refuses-to-refund-20000-after-nine-year-old-maxes-out-parents-credit-card-3428644/
 2026-11-16 20:15	HLTV	https://www.hltv.org/news/45998/the-evps-and-all-stars-of-blast-rivals-2026-season-2
 2026-11-16 20:20	GamesRadar+	https://www.gamesradar.com/hardware/gaming-controllers/the-dualsense-edge-is-taking-a-very-rare-discount-as-gta-6-downloads-onto-your-console/
+2026-11-16 20:29	IGN	https://www.ign.com/articles/shadow-the-hedgehog-gets-an-unofficial-pc-port-and-it-isnt-vibecoded
+2026-11-16 20:36	VGC	https://www.videogameschronicle.com/news/shigeru-miyamoto-to-be-honored-with-first-aias-legend-award-in-las-vegas/
+2026-11-16 20:50	HLTV	https://www.hltv.org/news/46003/astralis-announce-jabbi-departure
+2026-11-16 19:45	IGN (same story)	https://www.ign.com/articles/nba-2k27-is-adding-vice-city-gta-6-themed-cosmetics-and-much-more-as-part-of-massive-rockstar-games-collaboration
+2026-11-16 19:49	IGN (same story)	https://www.ign.com/articles/the-gta-leaker-who-revealed-lucia-after-hacking-rockstar-through-his-hotel-tv-pleads-guilty
+2026-11-16 20:26	GamesRadar+ (same story)	https://www.gamesradar.com/games/world-of-warcraft/blizzard-takes-another-swing-at-world-of-warcraft-forevers-dungeon-grind-after-changes-made-just-24-hours-earlier-missed-the-mark/
+2026-11-16 20:48	Eurogamer (same story)	https://www.eurogamer.net/uk-conservative-kemi-badenoch-gta-6
