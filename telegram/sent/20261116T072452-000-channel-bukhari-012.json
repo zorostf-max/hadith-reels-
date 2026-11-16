@@ -1,0 +1,11 @@
+{
+ "job": "20261116T072452-000-channel-bukhari-012.json",
+ "ref": "channel-bukhari-012",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-16T07:25:22Z",
+ "message_id": 28,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
