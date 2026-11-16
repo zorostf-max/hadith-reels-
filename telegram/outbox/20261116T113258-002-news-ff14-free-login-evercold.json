@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/UqdcnZhjr9UAr5ern62dbM-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Final Fantasy 14 opens its longest free login period before Evercold</b>\n\nThe Road to Evercold has begun: FF14 is running what is described as its \"longest\" free login campaign ahead of the next expansion, and lapsed players can also pay $10 to skip the Dawntrail story. Director Yoshi-P says he hopes to avoid heavy-handed tactics to keep players around.\n\n🕒 Nov 16, 2026 · 14:20 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-gets-longest-free-login-period-ahead-of-evercold-and-lets-you-pay-to-skip-its-worst-expansion-as-yoshi-p-hopes-to-avoid-heavy-handed-attempts-to-secure-player-retention/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/SquareEnix\">@SquareEnix</a>\n\n⚔️ Coming back to Eorzea? React 🔥 · 💬 Would you pay to skip Dawntrail?\n\n#FFXIV #Evercold #SquareEnix #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-ff14-free-login-evercold",
+ "fallback_text": "🎮 <b>Final Fantasy 14 opens its longest free login period before Evercold</b>\n\nThe Road to Evercold has begun: FF14 is running what is described as its \"longest\" free login campaign ahead of the next expansion, and lapsed players can also pay $10 to skip the Dawntrail story. Director Yoshi-P says he hopes to avoid heavy-handed tactics to keep players around.\n\n🕒 Nov 16, 2026 · 14:20 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-gets-longest-free-login-period-ahead-of-evercold-and-lets-you-pay-to-skip-its-worst-expansion-as-yoshi-p-hopes-to-avoid-heavy-handed-attempts-to-secure-player-retention/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/SquareEnix\">@SquareEnix</a>\n\n⚔️ Coming back to Eorzea? React 🔥 · 💬 Would you pay to skip Dawntrail?\n\n#FFXIV #Evercold #SquareEnix #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

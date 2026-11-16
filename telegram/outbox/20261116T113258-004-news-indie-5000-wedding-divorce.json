@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/16/Indie-game-will-pay-5000-towards-your-wedding-or-divorce-if-you-finish-it-fastest.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Indie game offers $5,000 for your wedding — or divorce — if you finish fastest</b>\n\nAn upcoming Steam game will put up to $5,000 towards a wedding or a divorce for the player who removes 100,000 padlocks from a bridge faster than anyone else. Speedrunners, start your bolt cutters.\n\n🕒 Nov 16, 2026 · 14:20 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/indie-game-will-pay-5000-towards-your-wedding-or-divorce-if-you-finish-it-fastest-3428400/\">Dexerto</a>\n\n💍 Wedding or divorce? React 😂 and tell us what you'd spend it on 💬\n\n#IndieGames #Steam #Speedrun #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-indie-5000-wedding-divorce",
+ "fallback_text": "🎮 <b>Indie game offers $5,000 for your wedding — or divorce — if you finish fastest</b>\n\nAn upcoming Steam game will put up to $5,000 towards a wedding or a divorce for the player who removes 100,000 padlocks from a bridge faster than anyone else. Speedrunners, start your bolt cutters.\n\n🕒 Nov 16, 2026 · 14:20 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/indie-game-will-pay-5000-towards-your-wedding-or-divorce-if-you-finish-it-fastest-3428400/\">Dexerto</a>\n\n💍 Wedding or divorce? React 😂 and tell us what you'd spend it on 💬\n\n#IndieGames #Steam #Speedrun #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

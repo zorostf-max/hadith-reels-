@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/02/ss_322285fcb1937f1acbe1fb349c019d7e68d91017.1920x1080.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Crimson Desert studio Pearl Abyss now uses AI across development</b>\n\nPearl Abyss says it now uses AI \"across various stages of development\". It is a notable shift: the studio previously apologised after generative AI artwork was spotted in Crimson Desert.\n\n🕒 Nov 16, 2026 · 14:17 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/crimson-desert-studio-pearl-abyss-says-it-now-uses-ai-across-various-stages-of-development/\">VGC</a>\n\n🤖 Fine with AI in game dev or not? React and tell us why 💬\n\n#CrimsonDesert #PearlAbyss #AI #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-pearl-abyss-ai",
+ "fallback_text": "🎮 <b>Crimson Desert studio Pearl Abyss now uses AI across development</b>\n\nPearl Abyss says it now uses AI \"across various stages of development\". It is a notable shift: the studio previously apologised after generative AI artwork was spotted in Crimson Desert.\n\n🕒 Nov 16, 2026 · 14:17 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/crimson-desert-studio-pearl-abyss-says-it-now-uses-ai-across-various-stages-of-development/\">VGC</a>\n\n🤖 Fine with AI in game dev or not? React and tell us why 💬\n\n#CrimsonDesert #PearlAbyss #AI #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

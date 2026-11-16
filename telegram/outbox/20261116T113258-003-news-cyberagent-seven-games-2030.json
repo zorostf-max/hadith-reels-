@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/umamusume-pretty-derby-running.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Umamusume owner CyberAgent plans seven new games by 2030</b>\n\nCyberAgent, parent company of Umamusume: Pretty Derby developer Cygames, used its latest quarterly earnings presentation to celebrate its mobile success, claiming an \"88 percent hit rate\" on its mobile titles. It now plans to release seven new games by 2030.\n\n🕒 Nov 16, 2026 · 14:20 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/umamusume-dev-seven-new-games-2030\">Eurogamer</a>\n\n📱 Which Cygames hit do you want next? React 👍 and comment 💬\n\n#Umamusume #Cygames #MobileGaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-cyberagent-seven-games-2030",
+ "fallback_text": "🎮 <b>Umamusume owner CyberAgent plans seven new games by 2030</b>\n\nCyberAgent, parent company of Umamusume: Pretty Derby developer Cygames, used its latest quarterly earnings presentation to celebrate its mobile success, claiming an \"88 percent hit rate\" on its mobile titles. It now plans to release seven new games by 2030.\n\n🕒 Nov 16, 2026 · 14:20 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/umamusume-dev-seven-new-games-2030\">Eurogamer</a>\n\n📱 Which Cygames hit do you want next? React 👍 and comment 💬\n\n#Umamusume #Cygames #MobileGaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

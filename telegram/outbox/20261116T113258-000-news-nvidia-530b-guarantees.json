@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/xvsSkBmSjmjPCPZkKa3aUi-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia locks in $530 billion in guarantees to dominate AI</b>\n\nNvidia has built up $530 billion in financial guarantees as it moves to corner the AI hardware market. Its supply commitments jumped by nearly a quarter of a trillion dollars in a single quarter — a sign of how much capacity the GPU giant is reserving, which also shapes what is left for gaming cards.\n\n🕒 Nov 16, 2026 · 14:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n💸 Is AI eating your next GPU? React 👍 or 👎 and comment below\n\n#Nvidia #AI #GPU #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-nvidia-530b-guarantees",
+ "fallback_text": "🖥️ <b>Nvidia locks in $530 billion in guarantees to dominate AI</b>\n\nNvidia has built up $530 billion in financial guarantees as it moves to corner the AI hardware market. Its supply commitments jumped by nearly a quarter of a trillion dollars in a single quarter — a sign of how much capacity the GPU giant is reserving, which also shapes what is left for gaming cards.\n\n🕒 Nov 16, 2026 · 14:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n💸 Is AI eating your next GPU? React 👍 or 👎 and comment below\n\n#Nvidia #AI #GPU #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
