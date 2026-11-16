@@ -1,0 +1,11 @@
+{
+ "job": "20261116T223211-001-news-us-ai-remote-rule.json",
+ "ref": "news-us-ai-remote-rule",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T22:32:37Z",
+ "message_id": 347,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

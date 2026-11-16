@@ -1,0 +1,11 @@
+{
+ "job": "20261116T223211-002-news-gta6-weather-channel.json",
+ "ref": "news-gta6-weather-channel",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T22:32:39Z",
+ "message_id": 348,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
