@@ -1,0 +1,11 @@
+{
+ "job": "20261116T093207-000-news-ea-battlefield-leadership.json",
+ "ref": "news-ea-battlefield-leadership",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T09:32:33Z",
+ "message_id": 301,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

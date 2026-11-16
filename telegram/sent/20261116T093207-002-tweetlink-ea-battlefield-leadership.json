@@ -1,0 +1,11 @@
+{
+ "job": "20261116T093207-002-tweetlink-ea-battlefield-leadership.json",
+ "ref": "tweetlink-ea-battlefield-leadership",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-16T09:32:36Z",
+ "message_id": 452,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

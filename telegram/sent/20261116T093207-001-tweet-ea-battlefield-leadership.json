@@ -1,0 +1,11 @@
+{
+ "job": "20261116T093207-001-tweet-ea-battlefield-leadership.json",
+ "ref": "tweet-ea-battlefield-leadership",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-16T09:32:34Z",
+ "message_id": 451,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
