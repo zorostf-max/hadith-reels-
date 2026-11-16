@@ -171,6 +171,9 @@ def draw_caption(layer, text, k):
 def draw_card(layer, top, main, k, y=205):
     f1, f2 = font(46, 600), font(84, 800)
     tile = Image.new("RGBA", (W, H), (0, 0, 0, 0)); td = ImageDraw.Draw(tile)
+    size = 84
+    while size > 48 and td.textlength(main, font=f2, direction="rtl", language="ar") > W - 200:
+        size -= 4; f2 = font(size, 800)
     w = max(td.textlength(top, font=f1, direction="rtl", language="ar"),
             td.textlength(main, font=f2, direction="rtl", language="ar"))
     bw = int(w + 120); x0 = (W - bw) // 2; y0 = y - int(30 * (1 - ease(k)))
@@ -190,7 +193,8 @@ def draw_label(layer, text):
 class Episode:
     def __init__(self, ep):
         self.ep = ep
-        self.s = json.load(open(os.path.join(ep, "script.json")))
+        # Baloo.ttf has no glyph for U+FDFA (ﷺ): write the salutation out in full on screen
+        self.s = json.loads(open(os.path.join(ep, "script.json")).read().replace("ﷺ", "صلّى الله عليه وسلّم"))
         self.imgs = {}
         for name, spec in self.s["images"].items():
             p = os.path.join(ep, spec["file"]) if "file" in spec else os.path.join(ep, "img", name + ".png")
