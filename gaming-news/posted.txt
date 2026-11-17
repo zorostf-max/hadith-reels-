@@ -598,3 +598,11 @@
 2026-11-17 21:11	GamesRadar+	https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-fans-celebrate-new-mass-production-limsa-e-girl-outfit-as-square-enix-finally-turns-a-datamine-into-an-usd18-reality/
 2026-11-17 21:13	Eurogamer (same story)	https://www.eurogamer.net/firaxis-layoffs-civilization-xcom-heather-hazen
 2026-11-17 21:24	GamesRadar+	https://www.gamesradar.com/games/tomb-raider/tomb-raider-studio-lays-off-employees-for-the-sixth-time-since-its-last-game/
+2026-11-17 20:30	Tom's Hardware	https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores
+2026-11-17 21:28	Dexerto	https://www.dexerto.com/world-of-warcraft/wow-forever-players-say-twitch-streamers-are-getting-away-with-the-same-gold-trick-that-got-them-banned-3429090/
+2026-11-17 21:30	HLTV	https://www.hltv.org/news/46008/cmtry-out-of-astralis-after-one-month
+2026-11-17 22:17	VGC	https://www.videogameschronicle.com/news/for-the-first-time-in-11-years-sony-doesnt-have-a-goty-nomination-at-the-game-awards/
+2026-11-17 21:22	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-leads-tga-nominations-and-reviews-arent-even-live-yet/
+2026-11-17 21:35	PC Gamer (same story)	https://www.pcgamer.com/gaming-industry/events-conferences/we-got-8-game-awards-nominations-for-gta-6-before-gta-6/
+2026-11-17 22:01	Eurogamer (same story)	https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6
+2026-11-17 21:55	PC Gamer (same story)	https://www.pcgamer.com/games/rpg/sci-fi-rpg-exodus-gets-even-more-mass-effect-like-with-its-female-lead-who-they-are-calling-femjun/
