@@ -547,3 +547,14 @@
 2026-11-17 14:53	GamesRadar+	https://www.gamesradar.com/games/survival/palworld-1-1-and-palfarm-updates-are-on-hold-and-gta-6-is-to-blame-because-pocketpair-knows-saying-anything-around-the-launch-of-rockstars-new-epic-is-not-the-best-idea/
 2026-11-17 14:56	PC Gamer (same story)	https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-economy-has-a-problem-as-a-now-hotfixed-grind-rakes-in-thousands-of-gold-for-the-people-who-got-in-early/
 2026-11-17 15:04	Dexerto (same story)	https://www.dexerto.com/pokemon/pokemon-go-rewards-your-duolingo-lessons-with-a-chance-at-shiny-lucario-3428914/
+2026-11-17 15:35	Dexerto	https://www.dexerto.com/gta/gta-6-running-at-30-fps-makes-sense-experts-say-after-rockstars-confirmation-3428936/
+2026-11-17 15:49	Eurogamer	https://www.eurogamer.net/call-of-duty-medieval-prototype-infinity-ward
+2026-11-17 15:59	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-nears-release-analysts-estimate-rockstar-has-already-made-usd1-45-billion-helped-by-nearly-90-percent-of-fans-buying-the-controversial-usd100-ultimate-edition/
+2026-11-17 16:12	PC Gamer	https://www.pcgamer.com/hardware/processors/amd-introduces-capacity-aware-scheduling-to-the-linux-kernel-which-sure-is-the-thing-id-do-if-i-were-introducing-zen-6-lp-cores-next-year/
+2026-11-17 14:47	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/they-would-never-stop-working-on-this-game-gta-6s-development-couldve-gone-on-for-longer-just-because-its-really-hard-to-close-it-down/
+2026-11-17 15:59	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-could-have-released-sooner-rockstar-leads-admit-but-theres-no-point-rushing-out-gta-5-5-because-you-have-to-take-big-swings/
+2026-11-17 15:06	Dexerto (same story)	https://www.dexerto.com/gta/devolver-digital-is-giving-away-a-free-game-if-you-delete-gta-6-3428903/
+2026-11-17 15:24	GamesRadar+ (same story)	https://www.gamesradar.com/games/super-mario/mario-and-zelda-creator-shigeru-miyamoto-to-receive-once-per-decade-legend-award-for-creators-whose-groundbreaking-achievements-have-already-earned-lasting-universal-acclaim/
+2026-11-17 15:27	Eurogamer (same story)	https://www.eurogamer.net/dragon-quest-series-composer-akira-toriyama
+2026-11-17 15:55	PC Gamer (same story)	https://www.pcgamer.com/hardware/graphics-cards/nvidia-tightens-up-control-of-its-own-national-security-policies-as-it-cozies-up-to-us-government-with-new-board-controlled-committee/
+2026-11-17 16:01	GameSpot (same story)	https://www.gamespot.com/articles/sony-is-updating-the-ps5-again-and-it-might-have-gta-6-pirates-in-mind/
