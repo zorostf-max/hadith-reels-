@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-8.55.38-AM.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Ubisoft's new Creative House 2 chief wants to be \"the A24 of video games\"</b>\n\nIndustry veteran Christoph Hartmann, now general manager of Ubisoft's Creative House 2, told Variety his dream is to turn the unit into a games version of the film studio A24. He means titles that land with both critics and buyers, the way A24's Backrooms earned over $400 million on a reported $10 million budget this year.\n\n🕒 Nov 17, 2026 · 17:28 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/new-ubisoft-boss-wants-studio-to-become-a24-of-video-games/\">GameSpot</a>\n👥 <a href=\"https://x.com/Ubisoft\">@Ubisoft</a>\n\n🎬 Can Ubisoft pull it off? React 👍 or 👎 and tell us why 💬\n\n#Ubisoft #CreativeHouse2 #GameIndustry #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-ubisoft-a24",
+ "fallback_text": "🎮 <b>Ubisoft's new Creative House 2 chief wants to be \"the A24 of video games\"</b>\n\nIndustry veteran Christoph Hartmann, now general manager of Ubisoft's Creative House 2, told Variety his dream is to turn the unit into a games version of the film studio A24. He means titles that land with both critics and buyers, the way A24's Backrooms earned over $400 million on a reported $10 million budget this year.\n\n🕒 Nov 17, 2026 · 17:28 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/new-ubisoft-boss-wants-studio-to-become-a24-of-video-games/\">GameSpot</a>\n👥 <a href=\"https://x.com/Ubisoft\">@Ubisoft</a>\n\n🎬 Can Ubisoft pull it off? React 👍 or 👎 and tell us why 💬\n\n#Ubisoft #CreativeHouse2 #GameIndustry #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
