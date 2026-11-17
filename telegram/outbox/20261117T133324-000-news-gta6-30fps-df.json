@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/09/30/Rockstar-says-GTA-6-wont-include-Disney-World-or-Universal-Studios.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Digital Foundry backs GTA 6's 30 FPS target</b>\n\nAfter Rockstar confirmed GTA 6 targets 30 FPS on consoles, Digital Foundry says the choice makes sense. The tech analysts argue Rockstar would be \"asking for trouble\" trying to run the game at any other frame rate.\n\n🕒 Nov 17, 2026 · 15:35 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/gta-6-running-at-30-fps-makes-sense-experts-say-after-rockstars-confirmation-3428936/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎯 Can you live with 30 FPS? React 👍 or 👎 · 💬 Tell us why\n\n#GTA6 #RockstarGames #DigitalFoundry #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-30fps-df",
+ "fallback_text": "🎮 <b>Digital Foundry backs GTA 6's 30 FPS target</b>\n\nAfter Rockstar confirmed GTA 6 targets 30 FPS on consoles, Digital Foundry says the choice makes sense. The tech analysts argue Rockstar would be \"asking for trouble\" trying to run the game at any other frame rate.\n\n🕒 Nov 17, 2026 · 15:35 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/gta-6-running-at-30-fps-makes-sense-experts-say-after-rockstars-confirmation-3428936/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎯 Can you live with 30 FPS? React 👍 or 👎 · 💬 Tell us why\n\n#GTA6 #RockstarGames #DigitalFoundry #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
