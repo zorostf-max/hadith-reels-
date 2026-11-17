@@ -58,3 +58,4 @@ Astralis (CS)	AstralisCS
 Star Wars	starwars
 Devolver Digital	devolverdigital
 Pokémon GO	PokemonGoApp
+Sam Altman	sama

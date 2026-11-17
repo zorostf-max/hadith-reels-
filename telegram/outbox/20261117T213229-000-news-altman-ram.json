@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/wWjtRsCtAUxf8mz5VQ7QFR-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Sam Altman says everyone should be able to buy plenty of RAM</b>\n\nOpenAI's CEO now says people should \"be able to buy a lot of RAM for their own computer.\" The comment comes after a wave of backlash over his earlier remarks that seemed to put AI data centers first, at a time when memory prices are hurting PC builders.\n\n🕒 Nov 17, 2026 · 22:50 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/openai-ceo-sam-altman-insists-everyone-should-be-able-to-buy-a-lot-of-ram-for-their-own-computer-after-backlash-over-data-center-first-comments/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/sama\">@sama</a> · <a href=\"https://x.com/OpenAI\">@OpenAI</a>\n\n💾 Convinced? React 👍 or 👎 and tell us what you paid for your last RAM kit\n\n#RAM #OpenAI #PCGaming #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-altman-ram",
+ "fallback_text": "🖥️ <b>Sam Altman says everyone should be able to buy plenty of RAM</b>\n\nOpenAI's CEO now says people should \"be able to buy a lot of RAM for their own computer.\" The comment comes after a wave of backlash over his earlier remarks that seemed to put AI data centers first, at a time when memory prices are hurting PC builders.\n\n🕒 Nov 17, 2026 · 22:50 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/openai-ceo-sam-altman-insists-everyone-should-be-able-to-buy-a-lot-of-ram-for-their-own-computer-after-backlash-over-data-center-first-comments/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/sama\">@sama</a> · <a href=\"https://x.com/OpenAI\">@OpenAI</a>\n\n💾 Convinced? React 👍 or 👎 and tell us what you paid for your last RAM kit\n\n#RAM #OpenAI #PCGaming #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

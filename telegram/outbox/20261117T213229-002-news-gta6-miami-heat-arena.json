@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Kaseya-Center.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>First look: Miami Heat's arena turns into Vice City for GTA 6</b>\n\nThe Miami Heat have shown their full Kaseya Center makeover, complete with \"the Vice City hardwood\" court. It is part of the GTA 6 tie-in that sees the NBA team play as Vice City on November 18, with new uniforms and themed merch.\n\n🕒 Nov 18, 2026 · 00:23 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/first-look-at-gtas-miami-heat-full-stadium-transformation/\">VGC</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if you'd buy a Vice City jersey · 💬 Best GTA marketing stunt yet?\n\n#GTA6 #ViceCity #MiamiHeat #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-miami-heat-arena",
+ "fallback_text": "🎮 <b>First look: Miami Heat's arena turns into Vice City for GTA 6</b>\n\nThe Miami Heat have shown their full Kaseya Center makeover, complete with \"the Vice City hardwood\" court. It is part of the GTA 6 tie-in that sees the NBA team play as Vice City on November 18, with new uniforms and themed merch.\n\n🕒 Nov 18, 2026 · 00:23 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/first-look-at-gtas-miami-heat-full-stadium-transformation/\">VGC</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 React if you'd buy a Vice City jersey · 💬 Best GTA marketing stunt yet?\n\n#GTA6 #ViceCity #MiamiHeat #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

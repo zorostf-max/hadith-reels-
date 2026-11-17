@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/ft6zUYQJetXYeep6AzRE38-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia staff letter warns of talent exodus without Jensen Huang</b>\n\nAn internal letter sent to Nvidia's board and top executives warns that \"irreplaceable talent\" could leave the company if Jensen Huang is not reinstated as CEO. It says some employees are already thinking about departing, adding fresh pressure on a board that has so far resisted bringing him back.\n\n🕒 Nov 18, 2026 · 00:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n🤔 Should the board bring him back? React 👍 or 👎 and comment your take\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-nvidia-talent-letter",
+ "fallback_text": "🖥️ <b>Nvidia staff letter warns of talent exodus without Jensen Huang</b>\n\nAn internal letter sent to Nvidia's board and top executives warns that \"irreplaceable talent\" could leave the company if Jensen Huang is not reinstated as CEO. It says some employees are already thinking about departing, adding fresh pressure on a board that has so far resisted bringing him back.\n\n🕒 Nov 18, 2026 · 00:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n🤔 Should the board bring him back? React 👍 or 👎 and comment your take\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
