@@ -576,3 +576,16 @@
 2026-11-17 18:50	Tom's Hardware	https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear
 2026-11-17 19:08	VGC	https://www.videogameschronicle.com/news/playstation-beats-2-6-billion-lawsuit-over-its-game-prices/
 2026-11-17 19:25	Eurogamer (same story)	https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result
+2026-11-17 19:33	HLTV	https://www.hltv.org/news/46006/stake-announces-six-ranked-events-with-open-qualifiers-and-150000-prize-pool-for-2027
+2026-11-17 19:33	Tom's Hardware	https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-says-he-would-be-honored-to-return-as-nvidia-ceo-first-statement-since-resignation-follows-support-from-billionaires-investors-and-some-employees
+2026-11-17 19:41	GameSpot (same story)	https://www.gamespot.com/articles/ousted-nvidia-ceo-jensen-huang-breaks-his-silence-says-he-would-come-back/
+2026-11-17 20:02	PC Gamer (same story)	https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-would-come-back-as-nvidias-ceo-if-america-needs-him-a-technique-i-now-intend-to-use-at-my-next-job-interview/
+2026-11-17 19:45	GameSpot	https://www.gamespot.com/articles/the-game-awards-2026-winners-nominees/
+2026-11-17 20:02	Dexerto (same story)	https://www.dexerto.com/gaming/the-game-awards-2026-3428374/
+2026-11-17 20:15	VGC (same story)	https://www.videogameschronicle.com/news/gta-6-is-the-most-nominated-game-at-the-game-awards-2026/
+2026-11-17 20:12	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/we-got-gta-6-nominated-for-game-of-the-year-at-the-game-awards-before-gta-6/
+2026-11-17 20:00	VGC	https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/
+2026-11-17 20:08	VGC	https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/
+2026-11-17 20:12	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-revealed-thanks-to-the-game-awards-best-performance-nomination-and-yes-its-exactly-who-everyone-expected/
+2026-11-17 20:24	HLTV	https://www.hltv.org/news/46007/100-thieves-and-fnatic-qualify-for-pgl-cluj-napoca-2027
+2026-11-17 20:23	GamesRadar+ (same story)	https://www.gamesradar.com/games/london-court-tosses-usd2-6-billion-sony-lawsuit-claiming-it-holds-near-monopoly-through-playstation-store-with-physical-games-a-big-part-of-its-ruling/
