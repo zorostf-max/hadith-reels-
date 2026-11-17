@@ -532,3 +532,10 @@
 2026-11-17 12:24	VGC (same story)	https://www.videogameschronicle.com/news/zelda-ocarina-of-time-remake-is-the-best-selling-physical-game-in-the-us-in-2026-so-far-passing-1-million-in-its-first-week/
 2026-11-17 12:51	Eurogamer	https://www.eurogamer.net/world-of-warcraft-forever-gold-farm-exploit
 2026-11-17 12:57	PC Gamer (same story)	https://www.pcgamer.com/games/fps/ex-call-of-duty-live-service-manager-joins-ea-as-the-new-gm-of-battlefield/
+2026-11-17 13:30	HLTV	https://www.hltv.org/news/46004/iem-beijing-to-return-for-2027-and-2028
+2026-11-17 13:35	VGC	https://www.videogameschronicle.com/news/a-free-demo-for-splatoon-raiders-is-now-available-on-switch-2/
+2026-11-17 13:51	Eurogamer	https://www.eurogamer.net/ps5-firmware-update-gta-6
+2026-11-17 14:21	GamesRadar+	https://www.gamesradar.com/games/dragon-quest/square-enix-should-retire-the-dragon-quest-series-following-dragon-ball-creator-akira-toriyamas-death-chrono-trigger-composer-says-as-new-mobile-rpg-sparks-backlash/
+2026-11-17 14:21	Tom's Hardware	https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts
+2026-11-17 13:15	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-has-teamed-up-with-the-weather-channel-to-show-how-dynamic-leonida-can-be/
+2026-11-17 14:16	VGC (same story)	https://www.videogameschronicle.com/news/star-wars-galactic-racer-is-getting-split-screen-multiplayer-and-a-new-free-play-mode/
