@@ -1,0 +1,11 @@
+{
+ "job": "20261117T153238-000-news-ubisoft-a24.json",
+ "ref": "news-ubisoft-a24",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T15:33:11Z",
+ "message_id": 372,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

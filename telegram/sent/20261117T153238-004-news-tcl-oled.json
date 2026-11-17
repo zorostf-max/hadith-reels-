@@ -1,0 +1,11 @@
+{
+ "job": "20261117T153238-004-news-tcl-oled.json",
+ "ref": "news-tcl-oled",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T15:33:18Z",
+ "message_id": 376,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
