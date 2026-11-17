@@ -1,0 +1,11 @@
+{
+ "job": "20261117T173258-002-news-tga-2026-nominees.json",
+ "ref": "news-tga-2026-nominees",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T17:33:35Z",
+ "message_id": 386,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

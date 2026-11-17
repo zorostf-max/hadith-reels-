@@ -1,0 +1,11 @@
+{
+ "job": "20261117T173258-001-news-jensen-return.json",
+ "ref": "news-jensen-return",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T17:33:33Z",
+ "message_id": 385,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

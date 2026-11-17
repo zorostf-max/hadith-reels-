@@ -1,0 +1,11 @@
+{
+ "job": "20261117T173259-003-news-firaxis-layoffs.json",
+ "ref": "news-firaxis-layoffs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T17:33:37Z",
+ "message_id": 387,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
