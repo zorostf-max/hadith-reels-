@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2021/03/PlayStation-Store-b.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>PlayStation wins the £2 billion UK lawsuit over PS Store prices</b>\n\nSony has defeated a UK class action that claimed it forced players into \"excessive and unfair prices\" on the PlayStation Store. The ruling came after a 30-day hearing at the Competition Appeal Tribunal in London. The claim was worth about $2.6 billion, and the result means Sony will not be compelled to allow third-party stores on its consoles.\n\n🕒 Nov 17, 2026 · 19:08 (GMT+3)\n📰 Sources: <a href=\"https://www.videogameschronicle.com/news/playstation-beats-2-6-billion-lawsuit-over-its-game-prices/\">VGC</a> · <a href=\"https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result\">Eurogamer</a>\n👥 <a href=\"https://x.com/PlayStation\">@PlayStation</a>\n\n⚖️ Good or bad for players? React 👍 or 👎 · 💬 Should consoles allow other stores?\n\n#PlayStation #PSStore #Sony #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-ps-lawsuit",
+ "fallback_text": "🕹️ <b>PlayStation wins the £2 billion UK lawsuit over PS Store prices</b>\n\nSony has defeated a UK class action that claimed it forced players into \"excessive and unfair prices\" on the PlayStation Store. The ruling came after a 30-day hearing at the Competition Appeal Tribunal in London. The claim was worth about $2.6 billion, and the result means Sony will not be compelled to allow third-party stores on its consoles.\n\n🕒 Nov 17, 2026 · 19:08 (GMT+3)\n📰 Sources: <a href=\"https://www.videogameschronicle.com/news/playstation-beats-2-6-billion-lawsuit-over-its-game-prices/\">VGC</a> · <a href=\"https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result\">Eurogamer</a>\n👥 <a href=\"https://x.com/PlayStation\">@PlayStation</a>\n\n⚖️ Good or bad for players? React 👍 or 👎 · 💬 Should consoles allow other stores?\n\n#PlayStation #PSStore #Sony #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

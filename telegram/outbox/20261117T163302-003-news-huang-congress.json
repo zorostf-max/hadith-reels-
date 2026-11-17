@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/kFmgkKKC9bnWnRVaUKyZzJ-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Jensen Huang to testify before US House committees on December 1</b>\n\nFormer Nvidia CEO Jensen Huang will appear behind closed doors before the House Foreign Affairs, Intelligence and China Select Committees on December 1, with Nvidia's lawyer following on December 2. The hearings follow Huang's admission of an affair with a woman accused of being a Chinese spy, which led to his exit as CEO.\n\n🕒 Nov 17, 2026 · 18:50 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 React if you're following the Nvidia saga · 💬 Where does this end?\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-huang-congress",
+ "fallback_text": "🖥️ <b>Jensen Huang to testify before US House committees on December 1</b>\n\nFormer Nvidia CEO Jensen Huang will appear behind closed doors before the House Foreign Affairs, Intelligence and China Select Committees on December 1, with Nvidia's lawyer following on December 2. The hearings follow Huang's admission of an affair with a woman accused of being a Chinese spy, which led to his exit as CEO.\n\n🕒 Nov 17, 2026 · 18:50 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 React if you're following the Nvidia saga · 💬 Where does this end?\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

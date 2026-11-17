@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/17/Genshin-Impact-developer-creates-AI-that-can-play-games-by-watching-the-screen.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Genshin Impact maker miHoYo builds an AI that plays games by watching the screen</b>\n\nResearchers at miHoYo have created an AI that learns to play just by looking at what is on screen. They trained it in Honkai: Star Rail, where it was taught to fight, solve puzzles and take on quests.\n\n🕒 Nov 17, 2026 · 18:27 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/genshin-impact-developer-creates-ai-that-can-play-games-by-watching-the-screen-3428996/\">Dexerto</a>\n\n🤖 Cool or creepy? React 👍 or 👎 · 💬 Would you let an AI grind for you?\n\n#miHoYo #HonkaiStarRail #GenshinImpact #AI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-mihoyo-ai",
+ "fallback_text": "🎮 <b>Genshin Impact maker miHoYo builds an AI that plays games by watching the screen</b>\n\nResearchers at miHoYo have created an AI that learns to play just by looking at what is on screen. They trained it in Honkai: Star Rail, where it was taught to fight, solve puzzles and take on quests.\n\n🕒 Nov 17, 2026 · 18:27 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gaming/genshin-impact-developer-creates-ai-that-can-play-games-by-watching-the-screen-3428996/\">Dexerto</a>\n\n🤖 Cool or creepy? React 👍 or 👎 · 💬 Would you let an AI grind for you?\n\n#miHoYo #HonkaiStarRail #GenshinImpact #AI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
