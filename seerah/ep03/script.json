@@ -1,0 +1,242 @@
+{
+ "episode": 3,
+ "title": "حليمة السعدية وبركة الرضيع",
+ "series_label": "السيرة النبوية · الحلقة ٣",
+ "sources": [
+  "الرحيق المختوم للمباركفوري — «المولد وأربعون عامًا قبل النبوة»: في بني سعد (رواية حليمة كما ساقها ابن إسحاق)",
+  "سيرة ابن هشام ١/١٦٢–١٦٤ (حديث حليمة بنت أبي ذؤيب السعدية)",
+  "البداية والنهاية لابن كثير — رضاعه ﷺ من حليمة"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "احمد النبرة العميقة الدافئة"
+  },
+  "maryam": {
+   "voice_id": "NQyF5U0t336unYhQXcuv",
+   "name": "Mimi"
+  },
+  "omar": {
+   "voice_id": "0pDT8WvJXiBq0hxYB2Cp",
+   "name": "Salama"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "majlis": {
+   "file": "../assets/majlis.png",
+   "reuse": true
+  },
+  "drought": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A dry drought-stricken desert at dawn: cracked earth, a few leafless thorn trees, a small group of tiny distant faceless Bedouin travellers in robes setting out, one riding a thin pale grey donkey, an old thin she-camel walking beside them, seen from far away. Hazy pale sky, quiet hardship mood. Palette of pale sand, ochre, dusty rose and faded blue. No text, no letters, no calligraphy, no watermark."
+  },
+  "mecca_women": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. Ancient Mecca in a narrow valley between rocky mountains in warm morning light: simple flat-roofed stone and mud houses, and in the open ground a group of tiny distant faceless Bedouin women in long dark robes and head coverings standing beside their donkeys, seen from far away and slightly above. No faces visible. Palette of sand, amber, terracotta and navy. No text, no letters, no calligraphy, no watermark."
+  },
+  "tent_night": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A Bedouin camp at night under a deep blue starry sky: a black goat-hair tent glowing softly from a small oil lamp inside, outside an old she-camel resting calmly beside a clay milk bowl that is full, a gentle peaceful and blessed mood, soft moonlight. No people visible. Palette of deep blue, warm gold, cream and terracotta. No text, no letters, no calligraphy, no watermark."
+  },
+  "donkey_race": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A desert caravan crossing rolling sand dunes in bright afternoon light, seen from far away: a line of tiny distant faceless riders on camels and donkeys, and far ahead of all of them a small pale grey donkey trotting briskly with one tiny faceless rider, dust trailing behind it. Wide open sky. Palette of sand, ochre, sky blue and soft white. No text, no letters, no calligraphy, no watermark."
+  },
+  "sheep": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. The barren hilly lands of Banu Sa'd at sunset: a flock of plump healthy sheep with full udders walking home toward a few black Bedouin tents, a tiny distant faceless shepherd with a staff behind them, while on another dry hill a few thin sheep stand. Long golden shadows. Palette of amber, sand, soft green and dusty blue. No text, no letters, no calligraphy, no watermark."
+  },
+  "badia": {
+   "file": "../ep02/img/badia.png",
+   "reuse": true
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "majlis",
+   "cam": "children",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "يا أبي، كيفَ تغيَّرَتْ حياةُ تلكَ المرأةِ الفقيرةِ لمّا أخذَتْ نبيَّنا صلّى اللهُ عليهِ وسلَّم؟",
+     "bubble": [
+      "يا أبي، كيف تغيّرت",
+      "حياةُ تلك المرأة الفقيرة؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "تلكَ يا عُمَرُ حَلِيمَةُ السَّعْدِيَّة. اسمَعوا يا أولادي.",
+     "bubble": [
+      "إنّها حليمةُ السعديّة…",
+      "اسمعوا يا أولادي"
+     ]
+    }
+   ],
+   "title_card": true
+  },
+  {
+   "id": 2,
+   "image": "drought",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "كانتْ سنةَ قَحْطٍ وجَدْب. خرجَتْ حليمةُ مع زوجِها الحارِثِ بنِ عبدِ العُزّى، ومعهما ابنُهما الرضيع، على أَتانٍ ضعيفةٍ بطيئة، ومعهم ناقةٌ كبيرةٌ لا تُعطي قطرةَ لبن.",
+     "caption": "سنةُ قحط… أتانٌ ضعيفة وناقةٌ بلا لبن"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "mecca_women",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فلمّا وصلْنَ مكّة، عُرِضَ النبيُّ صلّى اللهُ عليهِ وسلَّم على النساءِ كلِّهنّ، فكانت كلُّ واحدةٍ تأباهُ إذا قيلَ لها: إنّه يتيم. وأخذَتْ كلُّ امرأةٍ رضيعًا… إلّا حليمة.",
+     "caption": "كلّهنّ أبَيْنه… لأنّه يتيم"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "مِسكينة! وماذا فعلَتْ حليمةُ يا أبي؟",
+     "bubble": [
+      "مسكينة!",
+      "وماذا فعلت حليمة؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "قالتْ لزوجِها: واللهِ لأذهبَنَّ إلى ذلك اليتيمِ فلآخُذَنَّه. فقال: لا عليكِ، عسى اللهُ أن يجعلَ لنا فيه بَرَكة.",
+     "bubble": [
+      "«عسى الله أن يجعل",
+      "لنا فيه بركة»"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "tent_night",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فلمّا وضعَتْهُ في حِجْرِها، أقبلَ عليه اللبنُ بما شاءَ الله، فشرِبَ حتى رَوِيَ، وشرِبَ أخوهُ حتى رَوِيَ، ثم ناما. وقامَ زوجُها إلى الناقةِ الكبيرة، فإذا هي مليئةٌ باللبن! فشرِبا حتى شبِعا.",
+     "caption": "الناقة التي لا تُعطي قطرة… امتلأت لبنًا"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "سبحانَ الله!",
+     "bubble": [
+      "سبحان الله!"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "وقال لها زوجُها في الصباح: تَعَلَّمي واللهِ يا حليمة، لقد أخذْتِ نَسَمَةً مُبارَكة.",
+     "bubble": [
+      "«لقد أخذتِ",
+      "نسمةً مباركة»"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "donkey_race",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ثم ركبَتْ أَتانَها الضعيفة، فسبقَتِ الركبَ كلَّه، حتى قالتْ لها صاحباتُها: ويحَكِ يا ابنةَ أبي ذُؤَيْب! أليستْ هذه أَتانَكِ التي خرجْتِ عليها؟!",
+     "caption": "الأتانُ الضعيفة… تسبق الركب كلّه"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "sheep",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ووصلوا ديارَ بني سَعْد، وما في الأرضِ أجدبُ منها، فكانتْ غنمُ حليمةَ ترجعُ شِباعًا مليئةً باللبن، وغنمُ الناسِ ترجعُ جائعة.",
+     "caption": "غنمُ حليمة ترجع شِباعًا"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "image": "badia",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وبقيَ عندَها سنتين ثم فطمَتْه، وكان يكبرُ كِبَرًا لا يكبرُه الغِلمان، فما بلغَ سنتَيْهِ حتى صارَ غلامًا قويًّا.",
+     "caption": "سنتان في بادية بني سعد"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "image": "majlis",
+   "cam": "wide",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "وهل أرجعَتْهُ إلى أمِّه يا أبي؟",
+     "bubble": [
+      "وهل أرجعته",
+      "إلى أمّه يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "جاءوا به إلى أمِّه آمِنَة، فقالتْ لها حليمة: لو تركْتِهِ عندي حتى يغلُظ، فإنّي أخشى عليه وباءَ مكّة. فما زالتْ بها حتى ردَّتْهُ معها.",
+     "bubble": [
+      "«أخشى عليه",
+      "وباءَ مكّة»"
+     ]
+    },
+    {
+     "who": "omar",
+     "tts": "وماذا حدثَ له في الباديةِ بعدَ ذلك؟",
+     "bubble": [
+      "وماذا حدث له",
+      "بعد ذلك؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "أمرٌ عجيب، جعلَ حليمةَ تخافُ عليه خوفًا شديدًا… هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله.",
+     "bubble": [
+      "أمرٌ عجيب…",
+      "هذه حكايةُ الثلاثاء",
+      "إن شاء الله"
+     ]
+    }
+   ],
+   "end_card": "تابعنا لتسمع البقية"
+  }
+ ],
+ "publish": {
+  "planned_slot": "2026-11-19 (Thursday) 10:00 Europe/Istanbul — so the closing line points to Tuesday",
+  "needs_owner_approval": true
+ },
+ "closing_line_rule": "Last line names the next episode's day: an episode aired on Tuesday ends «هذه حكايةُ يومِ الخميسِ إن شاءَ الله», one aired on Thursday ends «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله» (owner's request 2026-11-11).",
+ "notes": [
+  "Story follows Halima's own account as quoted in الرحيق المختوم from Ibn Ishaq (ابن هشام). شق الصدر is left for the next episode."
+ ]
+}
