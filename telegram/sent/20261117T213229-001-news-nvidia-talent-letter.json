@@ -1,0 +1,11 @@
+{
+ "job": "20261117T213229-001-news-nvidia-talent-letter.json",
+ "ref": "news-nvidia-talent-letter",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T21:33:00Z",
+ "message_id": 398,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

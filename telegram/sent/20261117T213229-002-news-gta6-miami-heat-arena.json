@@ -1,0 +1,11 @@
+{
+ "job": "20261117T213229-002-news-gta6-miami-heat-arena.json",
+ "ref": "news-gta6-miami-heat-arena",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T21:33:01Z",
+ "message_id": 399,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

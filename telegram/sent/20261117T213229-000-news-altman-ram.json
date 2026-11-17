@@ -1,0 +1,11 @@
+{
+ "job": "20261117T213229-000-news-altman-ram.json",
+ "ref": "news-altman-ram",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T21:32:58Z",
+ "message_id": 397,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
