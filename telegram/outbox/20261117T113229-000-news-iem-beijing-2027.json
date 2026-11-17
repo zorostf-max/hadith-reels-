@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://img-cdn.hltv.org/gallerypicture/3Xtrx3NNHPFUZyLcJVQo36.jpg",
+  "parse_mode": "HTML",
+  "caption": "🏆 <b>IEM Beijing is staying on the CS2 calendar through 2028</b>\n\nThe Intel Extreme Masters stop in China's capital will return in both 2027 and 2028, HLTV reports. It locks in two more years of top-tier Counter-Strike in Beijing after the event's comeback in 2026.\n\n🕒 Nov 17, 2026 · 13:30 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/46004/iem-beijing-to-return-for-2027-and-2028\">HLTV</a>\n👥 <a href=\"https://x.com/ESLCS\">@ESLCS</a>\n\n🔥 React if you want to see it live · 💬 Which team takes Beijing next year?\n\n#IEMBeijing #CS2 #ESL #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-iem-beijing-2027",
+ "fallback_text": "🏆 <b>IEM Beijing is staying on the CS2 calendar through 2028</b>\n\nThe Intel Extreme Masters stop in China's capital will return in both 2027 and 2028, HLTV reports. It locks in two more years of top-tier Counter-Strike in Beijing after the event's comeback in 2026.\n\n🕒 Nov 17, 2026 · 13:30 (GMT+3)\n📰 Source: <a href=\"https://www.hltv.org/news/46004/iem-beijing-to-return-for-2027-and-2028\">HLTV</a>\n👥 <a href=\"https://x.com/ESLCS\">@ESLCS</a>\n\n🔥 React if you want to see it live · 💬 Which team takes Beijing next year?\n\n#IEMBeijing #CS2 #ESL #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

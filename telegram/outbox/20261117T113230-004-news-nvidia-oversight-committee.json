@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/TVYovaCvDrBoMvxiTPWqLL-1920-80.png",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia's board creates a national security oversight committee</b>\n\nFollowing the Jensen Huang scandal, Nvidia's board has set up a National Security and Export Control Oversight Committee. It will oversee national security concerns and global trade compliance, working with independent legal and compliance experts.\n\n🕒 Nov 17, 2026 · 14:21 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 React if you're following this saga · 💬 What does it mean for GPUs?\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-nvidia-oversight-committee",
+ "fallback_text": "🖥️ <b>Nvidia's board creates a national security oversight committee</b>\n\nFollowing the Jensen Huang scandal, Nvidia's board has set up a National Security and Export Control Oversight Committee. It will oversee national security concerns and global trade compliance, working with independent legal and compliance experts.\n\n🕒 Nov 17, 2026 · 14:21 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 React if you're following this saga · 💬 What does it mean for GPUs?\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
