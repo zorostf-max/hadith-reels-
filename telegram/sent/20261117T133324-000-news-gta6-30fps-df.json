@@ -1,0 +1,11 @@
+{
+ "job": "20261117T133324-000-news-gta6-30fps-df.json",
+ "ref": "news-gta6-30fps-df",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T13:34:05Z",
+ "message_id": 366,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

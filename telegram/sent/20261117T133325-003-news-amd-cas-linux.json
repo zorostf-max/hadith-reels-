@@ -1,0 +1,11 @@
+{
+ "job": "20261117T133325-003-news-amd-cas-linux.json",
+ "ref": "news-amd-cas-linux",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T13:34:10Z",
+ "message_id": 369,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

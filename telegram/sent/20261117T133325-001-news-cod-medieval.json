@@ -1,0 +1,11 @@
+{
+ "job": "20261117T133325-001-news-cod-medieval.json",
+ "ref": "news-cod-medieval",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T13:34:07Z",
+ "message_id": 367,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
