@@ -1,0 +1,11 @@
+{
+ "job": "20261117T143236-000-news-extremesland-asia.json",
+ "ref": "news-extremesland-asia",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T14:33:07Z",
+ "message_id": 371,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
