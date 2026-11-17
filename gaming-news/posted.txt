@@ -606,3 +606,6 @@
 2026-11-17 21:35	PC Gamer (same story)	https://www.pcgamer.com/gaming-industry/events-conferences/we-got-8-game-awards-nominations-for-gta-6-before-gta-6/
 2026-11-17 22:01	Eurogamer (same story)	https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6
 2026-11-17 21:55	PC Gamer (same story)	https://www.pcgamer.com/games/rpg/sci-fi-rpg-exodus-gets-even-more-mass-effect-like-with-its-female-lead-who-they-are-calling-femjun/
+2026-11-17 21:45	IGN (same story)	https://www.ign.com/articles/firaxis-lays-off-one-third-of-its-workforce
+2026-11-17 23:05	GameSpot (same story)	https://www.gamespot.com/articles/civilization-dev-lays-off-1-3-of-staff-new-xcom-game-facing-development-struggles-report/
+2026-11-17 22:59	VGC (same story)	https://www.videogameschronicle.com/news/gta-6-reviews-vote/
