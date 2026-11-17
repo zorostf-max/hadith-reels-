@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/Final-Fantasy-XIV-Evercold.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Final Fantasy 14 offers free game time to lure players back</b>\n\nWith FF14 between expansions and Evercold due in February, Square Enix is running a special free game-time promotion to bring lapsed players back and keep Eorzea busy over the coming months.\n\n🕒 Nov 17, 2026 · 14:48 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/final-fantasy-14-free--game-time-expansion-evercold\">Eurogamer</a>\n👥 <a href=\"https://x.com/SquareEnix\">@SquareEnix</a>\n\n⚔️ React if you're returning · 💬 Hyped for Evercold?\n\n#FFXIV #FinalFantasy14 #SquareEnix #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-ff14-free",
+ "fallback_text": "🎮 <b>Final Fantasy 14 offers free game time to lure players back</b>\n\nWith FF14 between expansions and Evercold due in February, Square Enix is running a special free game-time promotion to bring lapsed players back and keep Eorzea busy over the coming months.\n\n🕒 Nov 17, 2026 · 14:48 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/final-fantasy-14-free--game-time-expansion-evercold\">Eurogamer</a>\n👥 <a href=\"https://x.com/SquareEnix\">@SquareEnix</a>\n\n⚔️ React if you're returning · 💬 Hyped for Evercold?\n\n#FFXIV #FinalFantasy14 #SquareEnix #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

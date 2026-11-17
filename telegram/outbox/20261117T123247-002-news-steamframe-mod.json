@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/8WGv9Ya9efi6zrCWFJxEy7-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Modder adds Steam Controller tracking to the Steam Frame before Valve</b>\n\nA modder has added Steam Controller tracking support to Valve's Steam Frame headset, getting there ahead of an official solution. The modder says they will keep maintaining it at least until Valve ships its own tracking support for the controller.\n\n🕒 Nov 17, 2026 · 14:30 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/vr-hardware/modder-beats-valve-to-the-punch-adding-steam-controller-tracking-for-the-steam-frame/\">PC Gamer</a>\n👥 <a href=\"https://x.com/valvesoftware\">@valvesoftware</a> · <a href=\"https://x.com/Steam\">@Steam</a>\n\n🥽 React if you'd use this · 💬 Should Valve make it official?\n\n#SteamFrame #Valve #VR #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-steamframe-mod",
+ "fallback_text": "🖥️ <b>Modder adds Steam Controller tracking to the Steam Frame before Valve</b>\n\nA modder has added Steam Controller tracking support to Valve's Steam Frame headset, getting there ahead of an official solution. The modder says they will keep maintaining it at least until Valve ships its own tracking support for the controller.\n\n🕒 Nov 17, 2026 · 14:30 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/vr-hardware/modder-beats-valve-to-the-punch-adding-steam-controller-tracking-for-the-steam-frame/\">PC Gamer</a>\n👥 <a href=\"https://x.com/valvesoftware\">@valvesoftware</a> · <a href=\"https://x.com/Steam\">@Steam</a>\n\n🥽 React if you'd use this · 💬 Should Valve make it official?\n\n#SteamFrame #Valve #VR #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

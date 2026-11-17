@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/jU3HQtpVt8azFw4GmDC9f8-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Palworld 1.1 and Palfarm updates on hold because of GTA 6</b>\n\nPocketpair is holding back news on Palworld's 1.1 update and Palfarm, saying that competing for attention around GTA 6's launch is \"not the best idea\". Rockstar's release is pushing more studios to keep quiet until the hype settles.\n\n🕒 Nov 17, 2026 · 14:53 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/survival/palworld-1-1-and-palfarm-updates-are-on-hold-and-gta-6-is-to-blame-because-pocketpair-knows-saying-anything-around-the-launch-of-rockstars-new-epic-is-not-the-best-idea/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/Palworld_EN\">@Palworld_EN</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🐑 Smart move or overcautious? React 👍 or 👎 · 💬 Tell us below\n\n#Palworld #Pocketpair #GTA6 #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-palworld-hold",
+ "fallback_text": "🎮 <b>Palworld 1.1 and Palfarm updates on hold because of GTA 6</b>\n\nPocketpair is holding back news on Palworld's 1.1 update and Palfarm, saying that competing for attention around GTA 6's launch is \"not the best idea\". Rockstar's release is pushing more studios to keep quiet until the hype settles.\n\n🕒 Nov 17, 2026 · 14:53 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/survival/palworld-1-1-and-palfarm-updates-are-on-hold-and-gta-6-is-to-blame-because-pocketpair-knows-saying-anything-around-the-launch-of-rockstars-new-epic-is-not-the-best-idea/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/Palworld_EN\">@Palworld_EN</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🐑 Smart move or overcautious? React 👍 or 👎 · 💬 Tell us below\n\n#Palworld #Pocketpair #GTA6 #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
