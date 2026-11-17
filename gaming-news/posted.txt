@@ -566,3 +566,13 @@
 2026-11-17 17:40	Dexerto	https://www.dexerto.com/gta/school-offers-students-85-prize-if-they-dont-skip-for-gta-6-3428979/
 2026-11-17 18:03	VGC	https://www.videogameschronicle.com/news/metacritic-has-already-had-to-remove-fake-gta-6-user-reviews/
 2026-11-17 18:22	PC Gamer	https://www.pcgamer.com/hardware/gaming-monitors/tcl-csots-new-oled-panels-might-not-only-be-cheaper-but-also-have-high-refresh-rates-and-hassle-free-pixel-burn-in-compensation/
+2026-11-17 18:17	Dexerto	https://www.dexerto.com/food/kfc-brings-gta-inspired-cluck-n-bell-to-life-with-delivery-car-straight-out-of-gta-6-3428986/
+2026-11-17 18:27	Dexerto	https://www.dexerto.com/gaming/genshin-impact-developer-creates-ai-that-can-play-games-by-watching-the-screen-3428996/
+2026-11-17 18:30	Eurogamer	https://www.eurogamer.net/exodus-femjun-femshep-mass-effect-bioware-sci-fi-rpg
+2026-11-17 18:30	GamesRadar+ (same story)	https://www.gamesradar.com/games/action-rpg/with-mass-effect-5-gone-lead-actors-of-new-sci-fi-action-rpg-from-ex-bioware-devs-feel-the-legacy-more-than-ever/
+2026-11-17 18:30	GamesRadar+ (same story)	https://www.gamesradar.com/games/rpg/i-cant-believe-they-chose-to-do-this-exodus-newly-revealed-actors-on-how-the-rpgs-complexity-shaped-their-performances/
+2026-11-17 18:33	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-has-a-lot-of-different-bird-species-heres-how-many/
+2026-11-17 18:37	GamesRadar+ (same story)	https://www.gamesradar.com/games/world-of-warcraft/wow-forever-economy-takes-a-hit-as-players-go-big-on-100-gold-per-hour-exploit-before-blizzard-can-step-in/
+2026-11-17 18:50	Tom's Hardware	https://www.tomshardware.com/tech-industry/data-centers/former-nvidia-ceo-jensen-huang-will-appear-before-a-house-foreign-affairs-panel-amid-concerns-over-his-affair-with-a-suspected-chinese-spy-will-testify-behind-closed-doors-december-1-nvidia-lawyer-will-also-appear
+2026-11-17 19:08	VGC	https://www.videogameschronicle.com/news/playstation-beats-2-6-billion-lawsuit-over-its-game-prices/
+2026-11-17 19:25	Eurogamer (same story)	https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result
