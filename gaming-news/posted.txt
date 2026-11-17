@@ -618,3 +618,6 @@
 2026-11-18 00:36	Dexerto	https://www.dexerto.com/pokemon/pokemon-go-leak-reveals-which-legendary-pokemon-would-live-closest-to-you-3429142/
 2026-11-18 01:00	GamesRadar+	https://www.gamesradar.com/games/simulation/after-14-years-on-steam-euro-truck-simulator-2-devs-are-in-disbelief-as-new-dlc-pushes-the-game-over-100-000-concurrent-players/
 2026-11-18 01:09	VGC (same story)	https://www.videogameschronicle.com/news/you-can-win-a-free-devolver-digital-game-if-you-delete-gta-6/
+2026-11-18 01:33	PC Gamer	https://www.pcgamer.com/software/ai/jensen-huang-isnt-coming-back-says-nvidia-board/
+2026-11-18 01:45	GamesRadar+	https://www.gamesradar.com/games/roguelike/legendary-roguelike-binding-of-isaac-puts-new-dlc-on-console-alongside-gta-6-if-it-was-a-stupid-idea-its-a-funny-stupid-idea/
+2026-11-18 02:08	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/miami-heat-shows-off-its-vice-city-hardwood-ahead-of-the-big-grand-theft-auto-6-basketball-game/
