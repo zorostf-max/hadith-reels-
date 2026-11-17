@@ -539,3 +539,11 @@
 2026-11-17 14:21	Tom's Hardware	https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts
 2026-11-17 13:15	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-has-teamed-up-with-the-weather-channel-to-show-how-dynamic-leonida-can-be/
 2026-11-17 14:16	VGC (same story)	https://www.videogameschronicle.com/news/star-wars-galactic-racer-is-getting-split-screen-multiplayer-and-a-new-free-play-mode/
+2026-11-17 13:47	GamesRadar+	https://www.gamesradar.com/games/roguelike/as-slay-the-spire-2s-new-character-dominates-mega-crit-admits-that-they-need-to-be-tested-and-polished-up-quite-a-bit-more-before-they-escape-the-roguelikes-beta-branch/
+2026-11-17 13:57	Eurogamer	https://www.eurogamer.net/gta-6-justice-ost-only-game
+2026-11-17 14:30	PC Gamer	https://www.pcgamer.com/hardware/vr-hardware/modder-beats-valve-to-the-punch-adding-steam-controller-tracking-for-the-steam-frame/
+2026-11-17 14:40	GameSpot	https://www.gamespot.com/articles/xbox-game-pass-is-losing-8-more-games-in-november/
+2026-11-17 14:48	Eurogamer	https://www.eurogamer.net/final-fantasy-14-free--game-time-expansion-evercold
+2026-11-17 14:53	GamesRadar+	https://www.gamesradar.com/games/survival/palworld-1-1-and-palfarm-updates-are-on-hold-and-gta-6-is-to-blame-because-pocketpair-knows-saying-anything-around-the-launch-of-rockstars-new-epic-is-not-the-best-idea/
+2026-11-17 14:56	PC Gamer (same story)	https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-economy-has-a-problem-as-a-now-hotfixed-grind-rakes-in-thousands-of-gold-for-the-people-who-got-in-early/
+2026-11-17 15:04	Dexerto (same story)	https://www.dexerto.com/pokemon/pokemon-go-rewards-your-duolingo-lessons-with-a-chance-at-shiny-lucario-3428914/
