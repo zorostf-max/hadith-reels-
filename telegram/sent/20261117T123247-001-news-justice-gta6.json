@@ -1,0 +1,11 @@
+{
+ "job": "20261117T123247-001-news-justice-gta6.json",
+ "ref": "news-justice-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T12:33:17Z",
+ "message_id": 361,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

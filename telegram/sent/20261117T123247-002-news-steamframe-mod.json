@@ -1,0 +1,11 @@
+{
+ "job": "20261117T123247-002-news-steamframe-mod.json",
+ "ref": "news-steamframe-mod",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T12:33:18Z",
+ "message_id": 362,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

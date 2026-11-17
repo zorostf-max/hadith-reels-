@@ -1,0 +1,11 @@
+{
+ "job": "20261117T123247-005-news-palworld-hold.json",
+ "ref": "news-palworld-hold",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T12:33:23Z",
+ "message_id": 365,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

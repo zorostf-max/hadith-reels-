@@ -1,0 +1,11 @@
+{
+ "job": "20261117T123247-004-news-ff14-free.json",
+ "ref": "news-ff14-free",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T12:33:22Z",
+ "message_id": 364,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

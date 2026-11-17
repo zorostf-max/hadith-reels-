@@ -1,0 +1,11 @@
+{
+ "job": "20261117T123247-000-news-sts2.json",
+ "ref": "news-sts2",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T12:33:15Z",
+ "message_id": 360,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
