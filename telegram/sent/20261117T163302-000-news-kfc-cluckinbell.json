@@ -1,0 +1,11 @@
+{
+ "job": "20261117T163302-000-news-kfc-cluckinbell.json",
+ "ref": "news-kfc-cluckinbell",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T16:33:31Z",
+ "message_id": 377,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

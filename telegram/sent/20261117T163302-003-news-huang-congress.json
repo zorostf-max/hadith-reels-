@@ -1,0 +1,11 @@
+{
+ "job": "20261117T163302-003-news-huang-congress.json",
+ "ref": "news-huang-congress",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T16:33:37Z",
+ "message_id": 380,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

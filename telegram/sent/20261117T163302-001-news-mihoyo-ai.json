@@ -1,0 +1,11 @@
+{
+ "job": "20261117T163302-001-news-mihoyo-ai.json",
+ "ref": "news-mihoyo-ai",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T16:33:33Z",
+ "message_id": 378,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
