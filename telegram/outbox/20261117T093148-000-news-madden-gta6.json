@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/ULTIMATE_EDITION_SARAS_SALON_02.jpg?width=690&quality=85&format=jpg",
+  "parse_mode": "HTML",
+  "disable_notification": true,
+  "caption": "🎮 <b>EA asks players not to delete Madden NFL 27 for GTA 6</b>\n\nWith GTA 6 taking up a hefty 212GB on console, plenty of players are clearing space on PS5 and Xbox Series X/S. EA has stepped in with a playful plea for fans to keep Madden NFL 27 installed instead of sacrificing it to Rockstar's crime epic.\n\n🕒 Nov 17, 2026 · 12:17 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/ea-madden-nfl-27-dont-delete-gta-6\">Eurogamer</a>\n👥 <a href=\"https://x.com/EA\">@EA</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🗑️ What are you deleting for GTA 6? React 👍 and comment your pick\n\n#GTA6 #MaddenNFL27 #EA #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-madden-gta6",
+ "fallback_text": "🎮 <b>EA asks players not to delete Madden NFL 27 for GTA 6</b>\n\nWith GTA 6 taking up a hefty 212GB on console, plenty of players are clearing space on PS5 and Xbox Series X/S. EA has stepped in with a playful plea for fans to keep Madden NFL 27 installed instead of sacrificing it to Rockstar's crime epic.\n\n🕒 Nov 17, 2026 · 12:17 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/ea-madden-nfl-27-dont-delete-gta-6\">Eurogamer</a>\n👥 <a href=\"https://x.com/EA\">@EA</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🗑️ What are you deleting for GTA 6? React 👍 and comment your pick\n\n#GTA6 #MaddenNFL27 #EA #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
