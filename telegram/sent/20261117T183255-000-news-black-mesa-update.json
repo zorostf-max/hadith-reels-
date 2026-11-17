@@ -1,0 +1,11 @@
+{
+ "job": "20261117T183255-000-news-black-mesa-update.json",
+ "ref": "news-black-mesa-update",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T18:33:28Z",
+ "message_id": 390,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

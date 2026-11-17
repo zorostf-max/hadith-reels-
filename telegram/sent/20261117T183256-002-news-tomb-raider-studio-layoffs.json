@@ -1,0 +1,11 @@
+{
+ "job": "20261117T183256-002-news-tomb-raider-studio-layoffs.json",
+ "ref": "news-tomb-raider-studio-layoffs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T18:33:31Z",
+ "message_id": 392,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
