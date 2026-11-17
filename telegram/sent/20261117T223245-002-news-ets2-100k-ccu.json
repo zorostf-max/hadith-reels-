@@ -1,0 +1,11 @@
+{
+ "job": "20261117T223245-002-news-ets2-100k-ccu.json",
+ "ref": "news-ets2-100k-ccu",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T22:33:20Z",
+ "message_id": 402,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261117T223245-001-news-pokemongo-legendary-map.json",
+ "ref": "news-pokemongo-legendary-map",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T22:33:18Z",
+ "message_id": 401,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
