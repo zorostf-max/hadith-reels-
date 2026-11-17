@@ -1,0 +1,11 @@
+{
+ "job": "20261117T142758-000-short-result-2026-11-17.json",
+ "ref": "short-result-2026-11-17",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-17T14:28:25Z",
+ "message_id": 472,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
