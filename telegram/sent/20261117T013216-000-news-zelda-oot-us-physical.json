@@ -1,0 +1,11 @@
+{
+ "job": "20261117T013216-000-news-zelda-oot-us-physical.json",
+ "ref": "news-zelda-oot-us-physical",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T01:32:44Z",
+ "message_id": 351,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
