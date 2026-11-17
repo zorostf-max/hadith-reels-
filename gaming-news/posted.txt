@@ -614,3 +614,7 @@
 2026-11-17 23:59	GameSpot (same story)	https://www.gamespot.com/articles/this-fighting-game-is-nominated-for-a-tga-despite-development-shutting-down/
 2026-11-18 00:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing
 2026-11-18 00:23	VGC	https://www.videogameschronicle.com/news/first-look-at-gtas-miami-heat-full-stadium-transformation/
+2026-11-18 00:18	HLTV	https://www.hltv.org/news/46010/bad-news-eagles-relaunch-with-academy-project
+2026-11-18 00:36	Dexerto	https://www.dexerto.com/pokemon/pokemon-go-leak-reveals-which-legendary-pokemon-would-live-closest-to-you-3429142/
+2026-11-18 01:00	GamesRadar+	https://www.gamesradar.com/games/simulation/after-14-years-on-steam-euro-truck-simulator-2-devs-are-in-disbelief-as-new-dlc-pushes-the-game-over-100-000-concurrent-players/
+2026-11-18 01:09	VGC (same story)	https://www.videogameschronicle.com/news/you-can-win-a-free-devolver-digital-game-if-you-delete-gta-6/
