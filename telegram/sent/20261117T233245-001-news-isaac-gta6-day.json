@@ -1,0 +1,11 @@
+{
+ "job": "20261117T233245-001-news-isaac-gta6-day.json",
+ "ref": "news-isaac-gta6-day",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T23:33:13Z",
+ "message_id": 404,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
