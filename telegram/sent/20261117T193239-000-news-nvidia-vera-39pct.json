@@ -1,0 +1,11 @@
+{
+ "job": "20261117T193239-000-news-nvidia-vera-39pct.json",
+ "ref": "news-nvidia-vera-39pct",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T19:33:09Z",
+ "message_id": 393,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

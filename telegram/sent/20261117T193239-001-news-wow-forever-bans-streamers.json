@@ -1,0 +1,11 @@
+{
+ "job": "20261117T193239-001-news-wow-forever-bans-streamers.json",
+ "ref": "news-wow-forever-bans-streamers",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T19:33:10Z",
+ "message_id": 394,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

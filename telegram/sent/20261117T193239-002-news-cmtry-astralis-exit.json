@@ -1,0 +1,11 @@
+{
+ "job": "20261117T193239-002-news-cmtry-astralis-exit.json",
+ "ref": "news-cmtry-astralis-exit",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T19:33:13Z",
+ "message_id": 395,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
