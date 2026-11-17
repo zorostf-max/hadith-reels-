@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/pMdagYk4XbWFuoqaCLMikg-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Black Mesa gets a big update and the Steam Deck Verified badge</b>\n\nThe Valve-approved fan remake of Half-Life has received a major new update, which also brings cubemaps. The remake is now also officially Steam Deck Verified, so it should run smoothly on Valve's handheld out of the box.\n\n🕒 Nov 17, 2026 · 20:46 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/valve-sanctioned-half-life-remake-black-mesa-gets-a-mondo-update-and-a-steam-deck-verified-badge/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Steam\">@Steam</a> · <a href=\"https://x.com/valvesoftware\">@valvesoftware</a>\n\n🎮 Time for a replay? React 🔥 and tell us your favorite Half-Life moment 💬\n\n#BlackMesa #HalfLife #SteamDeck #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-black-mesa-update",
+ "fallback_text": "🎮 <b>Black Mesa gets a big update and the Steam Deck Verified badge</b>\n\nThe Valve-approved fan remake of Half-Life has received a major new update, which also brings cubemaps. The remake is now also officially Steam Deck Verified, so it should run smoothly on Valve's handheld out of the box.\n\n🕒 Nov 17, 2026 · 20:46 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/fps/valve-sanctioned-half-life-remake-black-mesa-gets-a-mondo-update-and-a-steam-deck-verified-badge/\">PC Gamer</a>\n👥 <a href=\"https://x.com/Steam\">@Steam</a> · <a href=\"https://x.com/valvesoftware\">@valvesoftware</a>\n\n🎮 Time for a replay? React 🔥 and tell us your favorite Half-Life moment 💬\n\n#BlackMesa #HalfLife #SteamDeck #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
