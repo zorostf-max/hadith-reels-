@@ -1,0 +1,11 @@
+{
+ "job": "20261117T113229-002-news-ps5-firmware-gta6.json",
+ "ref": "news-ps5-firmware-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T11:32:58Z",
+ "message_id": 357,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

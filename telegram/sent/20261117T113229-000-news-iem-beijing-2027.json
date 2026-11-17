@@ -1,0 +1,11 @@
+{
+ "job": "20261117T113229-000-news-iem-beijing-2027.json",
+ "ref": "news-iem-beijing-2027",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T11:32:55Z",
+ "message_id": 355,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

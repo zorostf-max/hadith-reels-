@@ -1,0 +1,11 @@
+{
+ "job": "20261117T113230-004-news-nvidia-oversight-committee.json",
+ "ref": "news-nvidia-oversight-committee",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T11:33:01Z",
+ "message_id": 359,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
