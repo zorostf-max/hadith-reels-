@@ -1,0 +1,18 @@
+{
+ "date_label": "nov 17",
+ "stories": [
+  {"tag": "GTA 6", "cat": "games",
+   "head": "Analysts: GTA 6 has already earned Rockstar about $1.45 billion",
+   "src": "source: GamesRadar+", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "$1.45B", "label": "estimated GTA 6 revenue so far", "badge": "~90% CHOSE $100 ED."}},
+  {"tag": "ZELDA", "cat": "nintendo",
+   "head": "Ocarina of Time remake is 2026's best-selling physical game in the US after 1 week",
+   "src": "source: GamesRadar+ · VGC", "audio": "audio/s1.mp3",
+   "art": {"type": "image", "file": "img/s1.jpg", "label": "#1 US PHYSICAL 2026"}},
+  {"tag": "30 FPS", "cat": "tech",
+   "head": "Rockstar confirms GTA 6 targets 30 FPS on consoles; Digital Foundry backs it",
+   "src": "source: Dexerto", "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "30", "label": "FPS target on consoles", "badge": "CONFIRMED"}}
+ ],
+ "outro": {"head": "Standard or Ultimate? Comment below", "audio": "audio/outro.mp3"}
+}
