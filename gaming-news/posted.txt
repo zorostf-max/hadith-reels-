@@ -530,3 +530,5 @@
 2026-11-17 04:00	IGN	https://www.ign.com/articles/there-really-is-no-escape-from-the-duolingo-owl-who-will-soon-join-pokmon-go
 2026-11-17 12:17	Eurogamer	https://www.eurogamer.net/ea-madden-nfl-27-dont-delete-gta-6
 2026-11-17 12:24	VGC (same story)	https://www.videogameschronicle.com/news/zelda-ocarina-of-time-remake-is-the-best-selling-physical-game-in-the-us-in-2026-so-far-passing-1-million-in-its-first-week/
+2026-11-17 12:51	Eurogamer	https://www.eurogamer.net/world-of-warcraft-forever-gold-farm-exploit
+2026-11-17 12:57	PC Gamer (same story)	https://www.pcgamer.com/games/fps/ex-call-of-duty-live-service-manager-joins-ea-as-the-new-gm-of-battlefield/
