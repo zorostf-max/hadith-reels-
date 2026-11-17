@@ -1,0 +1,11 @@
+{
+ "job": "20261117T023142-000-news-pokemongo-duolingo.json",
+ "ref": "news-pokemongo-duolingo",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-17T02:32:10Z",
+ "message_id": 352,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
