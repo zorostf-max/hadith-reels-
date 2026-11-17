@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2025/05/Lucia_Caminos_06.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6's Lucia actor officially confirmed: Manni L. Perez</b>\n\nManni L. Perez is now officially confirmed as the voice and performance behind Lucia, revealed through her Best Performance nomination at The Game Awards 2026. Fans had long expected her in the role, and the nod arrives as GTA 6 sweeps this year's nominations.\n\n🕒 Nov 17, 2026 · 20:08 (GMT+3)\n📰 Sources: <a href=\"https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/\">VGC</a> · <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-revealed-thanks-to-the-game-awards-best-performance-nomination-and-yes-its-exactly-who-everyone-expected/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/thegameawards\">@thegameawards</a>\n\n🔥 React if you called it · 💬 Will she win Best Performance?\n\n#GTA6 #Lucia #TheGameAwards #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-lucia-actor",
+ "fallback_text": "🎮 <b>GTA 6's Lucia actor officially confirmed: Manni L. Perez</b>\n\nManni L. Perez is now officially confirmed as the voice and performance behind Lucia, revealed through her Best Performance nomination at The Game Awards 2026. Fans had long expected her in the role, and the nod arrives as GTA 6 sweeps this year's nominations.\n\n🕒 Nov 17, 2026 · 20:08 (GMT+3)\n📰 Sources: <a href=\"https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/\">VGC</a> · <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-revealed-thanks-to-the-game-awards-best-performance-nomination-and-yes-its-exactly-who-everyone-expected/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/thegameawards\">@thegameawards</a>\n\n🔥 React if you called it · 💬 Will she win Best Performance?\n\n#GTA6 #Lucia #TheGameAwards #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

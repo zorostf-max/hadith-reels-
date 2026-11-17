@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/Civilization-7.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Take-Two cuts a third of Firaxis staff</b>\n\nTake-Two has laid off around a third of the team at Firaxis, the studio behind Civilization and XCOM. The cuts land just days before the publisher's biggest launch, GTA 6.\n\n🕒 Nov 17, 2026 · 20:00 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/\">VGC</a>\n\n😔 React if you grew up on Civ · 💬 What does this mean for XCOM?\n\n#Firaxis #Civilization #TakeTwo #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-firaxis-layoffs",
+ "fallback_text": "🎮 <b>Take-Two cuts a third of Firaxis staff</b>\n\nTake-Two has laid off around a third of the team at Firaxis, the studio behind Civilization and XCOM. The cuts land just days before the publisher's biggest launch, GTA 6.\n\n🕒 Nov 17, 2026 · 20:00 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/\">VGC</a>\n\n😔 React if you grew up on Civ · 💬 What does this mean for XCOM?\n\n#Firaxis #Civilization #TakeTwo #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
