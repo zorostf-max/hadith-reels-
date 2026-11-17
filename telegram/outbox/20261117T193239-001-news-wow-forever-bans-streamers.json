@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/17/wow-forever-gold-farm-streamer-bans.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>WoW Forever players say they were banned for a gold farm streamers still use</b>\n\nSome World of Warcraft Forever players say Blizzard banned them for using a dungeon gold farm, while Twitch streamers who used the same method kept playing. The complaint follows the recent gold exploit that hit the realm economy.\n\n🕒 Nov 17, 2026 · 21:28 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/world-of-warcraft/wow-forever-players-say-twitch-streamers-are-getting-away-with-the-same-gold-trick-that-got-them-banned-3429090/\">Dexerto</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a> · <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n⚖️ Fair or double standard? React 👍 or 👎 · 💬 Tell us below\n\n#WorldOfWarcraft #WoWForever #Blizzard #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-wow-forever-bans-streamers",
+ "fallback_text": "🎮 <b>WoW Forever players say they were banned for a gold farm streamers still use</b>\n\nSome World of Warcraft Forever players say Blizzard banned them for using a dungeon gold farm, while Twitch streamers who used the same method kept playing. The complaint follows the recent gold exploit that hit the realm economy.\n\n🕒 Nov 17, 2026 · 21:28 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/world-of-warcraft/wow-forever-players-say-twitch-streamers-are-getting-away-with-the-same-gold-trick-that-got-them-banned-3429090/\">Dexerto</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a> · <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n⚖️ Fair or double standard? React 👍 or 👎 · 💬 Tell us below\n\n#WorldOfWarcraft #WoWForever #Blizzard #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
