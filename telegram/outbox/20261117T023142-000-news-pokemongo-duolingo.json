@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/16/image-1794833742037.jpeg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Duolingo's Duo is heading into Pokémon Go</b>\n\nDuo, the famously persistent green owl from the Duolingo app, is set to show up in Pokémon Go, IGN reports. The mascot is leaving your lock screen behind for a crossover appearance in the mobile AR hit, the latest game collab for the owl after Brawl Stars and Genshin Impact.\n\n🕒 Nov 17, 2026 · 04:00 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/there-really-is-no-escape-from-the-duolingo-owl-who-will-soon-join-pokmon-go\">IGN</a>\n👥 <a href=\"https://x.com/PokemonGoApp\">@PokemonGoApp</a> · <a href=\"https://x.com/Pokemon\">@Pokemon</a>\n\n🦉 React if Duo got you too · 💬 Would you catch him or run?\n\n#PokemonGo #Duolingo #Pokemon #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-pokemongo-duolingo",
+ "fallback_text": "🎮 <b>Duolingo's Duo is heading into Pokémon Go</b>\n\nDuo, the famously persistent green owl from the Duolingo app, is set to show up in Pokémon Go, IGN reports. The mascot is leaving your lock screen behind for a crossover appearance in the mobile AR hit, the latest game collab for the owl after Brawl Stars and Genshin Impact.\n\n🕒 Nov 17, 2026 · 04:00 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/there-really-is-no-escape-from-the-duolingo-owl-who-will-soon-join-pokmon-go\">IGN</a>\n👥 <a href=\"https://x.com/PokemonGoApp\">@PokemonGoApp</a> · <a href=\"https://x.com/Pokemon\">@Pokemon</a>\n\n🦉 React if Duo got you too · 💬 Would you catch him or run?\n\n#PokemonGo #Duolingo #Pokemon #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
