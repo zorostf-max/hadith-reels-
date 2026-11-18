@@ -1,0 +1,11 @@
+{
+ "job": "20261118T182709-000-news-rockstar-tribunal.json",
+ "ref": "news-rockstar-tribunal",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T18:27:32Z",
+ "message_id": 447,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

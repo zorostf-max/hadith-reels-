@@ -1,0 +1,11 @@
+{
+ "job": "20261118T182709-003-news-inner-circle-owner.json",
+ "ref": "news-inner-circle-owner",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T18:27:42Z",
+ "message_id": 450,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
