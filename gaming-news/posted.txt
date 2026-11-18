@@ -677,3 +677,12 @@
 2026-11-18 17:27	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-is-apparently-everything-rockstar-promised-and-then-some/
 2026-11-18 18:17	Eurogamer (same story)	https://www.eurogamer.net/playstation-sony-game-awards-no-nominations
 2026-11-18 17:10	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang
+2026-11-18 18:22	PC Gamer	https://www.pcgamer.com/games/grand-theft-auto/gta-6-looks-gorgeous-and-seeing-it-run-at-a-stable-30-fps-on-ageing-ps5-pro-hardware-makes-me-hopeful-for-pc-performance/
+2026-11-18 18:54	VGC (same story)	https://www.videogameschronicle.com/news/rockstar-says-ps5-pro-cant-handle-gta-6-at-60-fps/
+2026-11-18 19:00	Tom's Hardware (same story)	https://www.tomshardware.com/video-games/console-gaming/gta-vi-runs-at-1440p-on-ps5-and-xbox-series-x-but-just-720p-with-upscaling-on-series-s-rockstar-details-upscaling-technologies-for-launch
+2026-11-18 18:29	GameSpot	https://www.gamespot.com/articles/the-fk-cut-resident-evil-movie-has-a-version-with-a-lot-more-swearing/
+2026-11-18 18:42	Eurogamer	https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken
+2026-11-18 19:07	Eurogamer (same story)	https://www.eurogamer.net/grand-theft-auto-6-breaks-reddit-not-out-yet
+2026-11-18 19:21	GamesRadar+	https://www.gamesradar.com/games/blade-runner-2099-producers-in-talks-for-aaa-game-based-on-the-cinematic-cyberpunk-universe/
+2026-11-18 18:48	GameSpot (same story)	https://www.gamespot.com/articles/here-are-the-most-nominated-games-and-publishers-at-the-game-awards-this-year/
+2026-11-18 17:52	Dexerto (same story)	https://www.dexerto.com/food/you-can-now-order-mcdonalds-through-discord-just-in-time-for-gta-6-3429402/
