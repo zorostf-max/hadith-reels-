@@ -145,7 +145,7 @@
     },
     {
      "who": "father",
-     "tts": "وقال لها زوجُها في الصباح: تَعَلَّمي واللهِ يا حليمة، لقد أخذْتِ نَسَمَةً مُبارَكة.",
+     "tts": "وقال لها زوجُها في الصباح: اِعْلَمي واللهِ يا حليمة، لقد أخَذْتي نَسَمَةً مُبارَكة.",
      "bubble": [
       "«لقد أخذتِ",
       "نسمةً مباركة»"
@@ -184,7 +184,7 @@
    "lines": [
     {
      "who": "father",
-     "tts": "وبقيَ عندَها سنتين ثم فطمَتْه، وكان يكبرُ كِبَرًا لا يكبرُه الغِلمان، فما بلغَ سنتَيْهِ حتى صارَ غلامًا قويًّا.",
+     "tts": "وكانَ يَشِبُّ شَبابًا لا يَشِبُّهُ الغِلْمانُ، فلم يَبْلُغْ سنتَيْهِ حتى كانَ غُلامًا جَفْرًا.",
      "caption": "سنتان في بادية بني سعد"
     }
    ]
@@ -194,6 +194,22 @@
    "image": "majlis",
    "cam": "wide",
    "lines": [
+    {
+     "who": "omar",
+     "tts": "يا أبي، ما معنى جَفْرًا؟",
+     "bubble": [
+      "يا أبي،",
+      "ما معنى «جَفْرًا»؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "الجَفْرُ يا عُمَر: الغُلامُ القويُّ المُمتلئُ الجِسم.",
+     "bubble": [
+      "الجَفْرُ: الغلامُ القويّ",
+      "الممتلئُ الجسم"
+     ]
+    },
     {
      "who": "maryam",
      "tts": "وهل أرجعَتْهُ إلى أمِّه يا أبي؟",
@@ -237,6 +253,12 @@
  },
  "closing_line_rule": "Last line names the next episode's day: an episode aired on Tuesday ends «هذه حكايةُ يومِ الخميسِ إن شاءَ الله», one aired on Thursday ends «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله» (owner's request 2026-11-11).",
  "notes": [
-  "Story follows Halima's own account as quoted in الرحيق المختوم from Ibn Ishaq (ابن هشام). شق الصدر is left for the next episode."
- ]
+  "Story follows Halima's own account as quoted in الرحيق المختوم from Ibn Ishaq (ابن هشام). شق الصدر is left for the next episode.",
+  "2026-11-19: owner fixes — s06b voice must say أخذتِ (kasra; tts spelled أخذتي), s09 replaced by Ibn Hisham's exact wording (يشبّ شبابًا لا يشبّه الغلمان… غلامًا جفرًا), Omar asks the meaning of جفرًا at the start of scene 10; tighter pauses (timing override). Owner then asked for «اعلمي» instead of «تعلّمي» (the voice misread it)."
+ ],
+ "timing": {
+  "lead": 0.3,
+  "gap": 0.3,
+  "tail": 0.35
+ }
 }

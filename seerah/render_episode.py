@@ -195,6 +195,8 @@ class Episode:
         self.ep = ep
         # Baloo.ttf has no glyph for U+FDFA (ﷺ): write the salutation out in full on screen
         self.s = json.loads(open(os.path.join(ep, "script.json")).read().replace("ﷺ", "صلّى الله عليه وسلّم"))
+        tm = self.s.get("timing", {})  # optional per-episode pause overrides
+        self.lead, self.gap, self.tail = tm.get("lead", LEAD), tm.get("gap", GAP), tm.get("tail", TAIL)
         self.imgs = {}
         for name, spec in self.s["images"].items():
             p = os.path.join(ep, spec["file"]) if "file" in spec else os.path.join(ep, "img", name + ".png")
@@ -202,17 +204,17 @@ class Episode:
         # timeline
         self.scenes, self.clips, t = [], [], 0.0
         for sc in self.s["scenes"]:
-            lines, lt = [], LEAD
+            lines, lt = [], self.lead
             multi = len(sc["lines"]) > 1
             for i, ln in enumerate(sc["lines"]):
-                a = os.path.join(ep, "audio", "s%02d%s.mp3" % (sc["id"], "abcd"[i] if multi else ""))
+                a = os.path.join(ep, "audio", "s%02d%s.mp3" % (sc["id"], "abcdefgh"[i] if multi else ""))
                 d = dur(a)
                 lines.append(dict(ln, t0=lt, t1=lt + d))
                 self.clips.append((t + lt, a))
-                lt += d + GAP
+                lt += d + self.gap
             extra = 1.4 if sc.get("title_card") else 0
             extra += 1.5 if sc.get("end_card") else 0
-            length = lt - GAP + TAIL + extra
+            length = lt - self.gap + self.tail + extra
             self.scenes.append(dict(sc, start=t, length=length, lines=lines))
             t += length
         self.total = t
