@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/d446a098797c848f4a6f5f37a9f19c5010747cfe/gaming-news/shorts/ep2026-11-18-1800/short.mp4",
+  "caption": "🎬 <b>Gaming this evening: 3 stories in 41 seconds</b>\n\n🏆 GTA 6 hits 99 on Metacritic, tied with Ocarina of Time as the highest-rated game ever\n🖥️ Nvidia posts another record quarter: $115.8B revenue, $20B from Vera Rubin\n🃏 Slay the Spire 2: an estimated 7.9M copies sold on Steam, still in Early Access\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-18-1800",
+ "fallback_text": "🎬 <b>Gaming this evening: 3 stories in 41 seconds</b>\n\n🏆 GTA 6 hits 99 on Metacritic, tied with Ocarina of Time as the highest-rated game ever\n🖥️ Nvidia posts another record quarter: $115.8B revenue, $20B from Vera Rubin\n🃏 Slay the Spire 2: an estimated 7.9M copies sold on Steam, still in Early Access\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+}
