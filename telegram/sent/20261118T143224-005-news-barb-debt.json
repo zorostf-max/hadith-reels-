@@ -1,0 +1,11 @@
+{
+ "job": "20261118T143224-005-news-barb-debt.json",
+ "ref": "news-barb-debt",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T14:32:52Z",
+ "message_id": 430,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

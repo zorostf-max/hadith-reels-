@@ -1,0 +1,11 @@
+{
+ "job": "20261118T143223-002-news-taketwo-stock.json",
+ "ref": "news-taketwo-stock",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T14:32:47Z",
+ "message_id": 427,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

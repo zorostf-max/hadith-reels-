@@ -1,0 +1,11 @@
+{
+ "job": "20261118T143223-003-news-gta6-ps5pro-df.json",
+ "ref": "news-gta6-ps5pro-df",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T14:32:49Z",
+ "message_id": 428,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

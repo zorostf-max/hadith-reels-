@@ -1,0 +1,11 @@
+{
+ "job": "20261118T143224-007-news-gta6-no-replay.json",
+ "ref": "news-gta6-no-replay",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T14:32:56Z",
+ "message_id": 432,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

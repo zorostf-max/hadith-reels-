@@ -1,0 +1,11 @@
+{
+ "job": "20261118T143224-006-news-gta6-map-size.json",
+ "ref": "news-gta6-map-size",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T14:32:54Z",
+ "message_id": 431,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

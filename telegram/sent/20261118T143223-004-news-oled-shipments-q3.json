@@ -1,0 +1,11 @@
+{
+ "job": "20261118T143223-004-news-oled-shipments-q3.json",
+ "ref": "news-oled-shipments-q3",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T14:32:51Z",
+ "message_id": 429,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
