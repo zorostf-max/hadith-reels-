@@ -1,0 +1,11 @@
+{
+ "job": "20261118T233158-000-news-masseffect-hale.json",
+ "ref": "news-masseffect-hale",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T23:32:28Z",
+ "message_id": 465,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
