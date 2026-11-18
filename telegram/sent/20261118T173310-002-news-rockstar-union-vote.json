@@ -1,0 +1,11 @@
+{
+ "job": "20261118T173310-002-news-rockstar-union-vote.json",
+ "ref": "news-rockstar-union-vote",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T17:33:50Z",
+ "message_id": 445,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
