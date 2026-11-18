@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/08/gta-6-dude-chilling.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>McDonald's lets you order food without leaving your GTA 6 session</b>\n\nTiming it with GTA 6's launch, McDonald's in the US has teamed up with Discord. A McDonald's activity inside Discord, which also works on console, lets players place a McDelivery order through Uber Eats and get straight back to the game.\n\n🕒 Nov 18, 2026 · 18:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/mcdonalds-knows-you-wont-want-to-pause-gta-6-to-make-dinner/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🍔 Genius or lazy? React 👍 or 👎 · 💬 What's your GTA 6 snack?\n\n#GTA6 #McDonalds #Discord #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-mcd-discord",
+ "fallback_text": "🎮 <b>McDonald's lets you order food without leaving your GTA 6 session</b>\n\nTiming it with GTA 6's launch, McDonald's in the US has teamed up with Discord. A McDonald's activity inside Discord, which also works on console, lets players place a McDelivery order through Uber Eats and get straight back to the game.\n\n🕒 Nov 18, 2026 · 18:00 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/mcdonalds-knows-you-wont-want-to-pause-gta-6-to-make-dinner/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🍔 Genius or lazy? React 👍 or 👎 · 💬 What's your GTA 6 snack?\n\n#GTA6 #McDonalds #Discord #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

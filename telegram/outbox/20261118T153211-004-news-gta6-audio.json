@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/gta-waveform.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Even GTA 6's shop fridges have their own sounds</b>\n\nAs reviews praise GTA 6's detail, a Rockstar developer revealed how deep the audio goes: convenience store refrigerators \"all have their own unique sounds\". It is one example of the dedicated effort Rockstar put into making Vice City feel alive.\n\n🕒 Nov 18, 2026 · 18:10 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-detailed-fridge-noise\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎧 React if you love this detail · 💬 What's the craziest detail you've found?\n\n#GTA6 #RockstarGames #ViceCity #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-audio",
+ "fallback_text": "🎮 <b>Even GTA 6's shop fridges have their own sounds</b>\n\nAs reviews praise GTA 6's detail, a Rockstar developer revealed how deep the audio goes: convenience store refrigerators \"all have their own unique sounds\". It is one example of the dedicated effort Rockstar put into making Vice City feel alive.\n\n🕒 Nov 18, 2026 · 18:10 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-detailed-fridge-noise\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎧 React if you love this detail · 💬 What's the craziest detail you've found?\n\n#GTA6 #RockstarGames #ViceCity #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

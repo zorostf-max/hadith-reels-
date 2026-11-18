@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/GTA-6-launch-screens-28.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 finally drops Rockstar's classic sprint button</b>\n\nFor decades, Rockstar games mapped sprinting to a face button (A on Xbox, X on PlayStation). GTA 6 changes the default: sprint now sits on the left analog stick. Veterans who prefer the old setup can still switch back in the settings.\n\n🕒 Nov 18, 2026 · 17:49 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🕹️ Old scheme or new? React and 💬 tell us which you're using\n\n#GTA6 #RockstarGames #Gaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-controls",
+ "fallback_text": "🎮 <b>GTA 6 finally drops Rockstar's classic sprint button</b>\n\nFor decades, Rockstar games mapped sprinting to a face button (A on Xbox, X on PlayStation). GTA 6 changes the default: sprint now sits on the left analog stick. Veterans who prefer the old setup can still switch back in the settings.\n\n🕒 Nov 18, 2026 · 17:49 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🕹️ Old scheme or new? React and 💬 tell us which you're using\n\n#GTA6 #RockstarGames #Gaming #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
