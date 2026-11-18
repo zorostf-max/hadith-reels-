@@ -1,0 +1,11 @@
+{
+ "job": "20261118T163153-002-news-gta6-stream-record.json",
+ "ref": "news-gta6-stream-record",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T16:32:28Z",
+ "message_id": 441,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

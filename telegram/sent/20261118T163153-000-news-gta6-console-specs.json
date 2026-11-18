@@ -1,0 +1,11 @@
+{
+ "job": "20261118T163153-000-news-gta6-console-specs.json",
+ "ref": "news-gta6-console-specs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T16:32:25Z",
+ "message_id": 439,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

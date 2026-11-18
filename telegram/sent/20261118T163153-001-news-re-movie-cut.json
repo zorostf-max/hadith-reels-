@@ -1,0 +1,11 @@
+{
+ "job": "20261118T163153-001-news-re-movie-cut.json",
+ "ref": "news-re-movie-cut",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T16:32:27Z",
+ "message_id": 440,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

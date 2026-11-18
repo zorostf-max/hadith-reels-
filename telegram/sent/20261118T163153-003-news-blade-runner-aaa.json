@@ -1,0 +1,11 @@
+{
+ "job": "20261118T163153-003-news-blade-runner-aaa.json",
+ "ref": "news-blade-runner-aaa",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T16:32:30Z",
+ "message_id": 442,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
