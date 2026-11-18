@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/GTA-6-review-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 locks cheats until you beat the main story</b>\n\nIn a break from series tradition, Grand Theft Auto 6 does not let you use cheats until the entire main story is complete. Even then there is a catch: using them locks progression, so cheating is strictly for post-game fun.\n\n🕒 Nov 18, 2026 · 21:42 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 Good call or a buzzkill? React and tell us below 💬\n\n#GTA6 #RockstarGames #Cheats #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-cheats-locked",
+ "fallback_text": "🎮 <b>GTA 6 locks cheats until you beat the main story</b>\n\nIn a break from series tradition, Grand Theft Auto 6 does not let you use cheats until the entire main story is complete. Even then there is a catch: using them locks progression, so cheating is strictly for post-game fun.\n\n🕒 Nov 18, 2026 · 21:42 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔥 Good call or a buzzkill? React and tell us below 💬\n\n#GTA6 #RockstarGames #Cheats #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
