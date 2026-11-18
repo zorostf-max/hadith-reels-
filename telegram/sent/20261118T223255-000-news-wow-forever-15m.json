@@ -1,0 +1,11 @@
+{
+ "job": "20261118T223255-000-news-wow-forever-15m.json",
+ "ref": "news-wow-forever-15m",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T22:33:28Z",
+ "message_id": 464,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
