@@ -1,0 +1,11 @@
+{
+ "job": "20261118T003203-000-news-infinity-nikki-maye-musk.json",
+ "ref": "news-infinity-nikki-maye-musk",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T00:32:31Z",
+ "message_id": 405,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

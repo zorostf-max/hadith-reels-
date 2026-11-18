@@ -1,0 +1,11 @@
+{
+ "job": "20261118T003203-001-news-cs2-cobblestone-major-stickers.json",
+ "ref": "news-cs2-cobblestone-major-stickers",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T00:32:33Z",
+ "message_id": 406,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
