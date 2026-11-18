@@ -1,0 +1,11 @@
+{
+ "job": "20261118T042737-000-news-darktide-novitiate.json",
+ "ref": "news-darktide-novitiate",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T04:28:05Z",
+ "message_id": 409,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
