@@ -621,3 +621,6 @@
 2026-11-18 01:33	PC Gamer	https://www.pcgamer.com/software/ai/jensen-huang-isnt-coming-back-says-nvidia-board/
 2026-11-18 01:45	GamesRadar+	https://www.gamesradar.com/games/roguelike/legendary-roguelike-binding-of-isaac-puts-new-dlc-on-console-alongside-gta-6-if-it-was-a-stupid-idea-its-a-funny-stupid-idea/
 2026-11-18 02:08	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/miami-heat-shows-off-its-vice-city-hardwood-ahead-of-the-big-grand-theft-auto-6-basketball-game/
+2026-11-18 01:56	IGN	https://www.ign.com/articles/infinity-nikki-players-baffled-after-elon-musks-mom-appears-in-games-update-trailers
+2026-11-18 02:46	GameSpot (same story)	https://www.gamespot.com/articles/bioware-is-dead-but-mass-effects-spiritual-successor-exodus-just-gave-us-a-glimpse-of-a-spicy-romance/
+2026-11-18 03:19	HLTV	https://www.hltv.org/news/46011/cobblestone-overhaul-and-major-stickers-arrive-in-new-cs-update
