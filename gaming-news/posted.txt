@@ -658,3 +658,12 @@
 2026-11-18 16:00	Tom's Hardware	https://www.tomshardware.com/pc-components/gpus/nvidias-revenue-hits-usd115-8-billion-as-vera-rubin-generates-usd20-billion-in-another-record-setting-quarter-commitments-increase-to-usd390-billion-fy28-forecast-raised
 2026-11-18 15:55	GamesRadar+ (same story)	https://www.gamesradar.com/games/action/sony-misses-out-on-a-game-awards-goty-nomination-for-the-first-time-in-12-years-with-marvels-wolverine-saros-and-marathon-failing-to-continue-its-record-breaking-run/
 2026-11-18 16:07	GamesRadar+ (same story)	https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-has-more-people-playing-weekly-than-blizzard-has-seen-in-15-years-lead-says-as-the-new-mmo-reaches-15-million-players/
+2026-11-18 16:16	GameSpot	https://www.gamespot.com/articles/gta-6-owner-take-twos-stock-explodes-after-high-review-scores-but-its-still-down-massively-this-year/
+2026-11-18 16:28	Dexerto	https://www.dexerto.com/gta/gta-6s-ps5-pro-upgrade-is-bigger-than-you-might-expect-3429387/
+2026-11-18 17:00	Tom's Hardware	https://www.tomshardware.com/monitors/gaming-monitors/global-oled-monitor-shipments-doubled-year-over-year-in-q3-2026-gamers-turn-to-display-upgrades-as-technology-gets-cheaper-and-ai-squeezes-components
+2026-11-18 17:05	Eurogamer	https://www.eurogamer.net/build-a-rocket-boy-mindseye-debt-administration-litigation
+2026-11-18 17:08	GameSpot	https://www.gamespot.com/articles/the-gta-6-map-is-truly-truly-massive-of-course/
+2026-11-18 17:24	Eurogamer	https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions
+2026-11-18 16:30	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/data-centers/nvidia-board-faction-angling-for-jensen-huang-return-as-ceo-report-claims-company-defiant-at-earnings-calls-says-no-possibility-of-reinstatement
+2026-11-18 17:14	Eurogamer (same story)	https://www.eurogamer.net/infinity-nikki-elon-musk-maye-mother-fan-reaction
+2026-11-18 17:10	PC Gamer (same story)	https://www.pcgamer.com/gaming-industry/aaa-is-under-the-most-amount-of-threat-ex-take-two-boss-explains-why-making-big-games-is-unsustainable-except-for-gta-6/
