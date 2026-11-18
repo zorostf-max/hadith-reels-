@@ -10,7 +10,7 @@ Animated reels of Sahih al-Bukhari hadiths, in order, each with points from Shay
 - Public video URL used for Telegram and publishing: `https://raw.githubusercontent.com/zorostf-max/hadith-reels-/main/videos/bukhari-NNN.mp4`
 
 
-## Links block (owner's request 2026-11-13, after YouTube enabled advanced features: links in descriptions are now clickable)
+## Links block (owner's request 2026-11-13, after YouTube enabled advanced features: links in descriptions are now clickable; Facebook + Threads added 2026-11-18)
 
 Every caption/description of every series (hadith, seerah episodes and compilations, stories) puts this block **right before the hashtags** (TikTok-only captions excepted — they stay short):
 
@@ -20,6 +20,8 @@ Every caption/description of every series (hadith, seerah episodes and compilati
 ▶️ يوتيوب: https://www.youtube.com/@hadithdailybukhari
 📸 إنستغرام: https://www.instagram.com/hadithdaily.bukhari
 🎵 تيك توك: https://www.tiktok.com/@hadithdaily.bukhari
+📘 فيسبوك: https://www.facebook.com/hadithdaily.bukhari
+🧵 ثريدز: https://www.threads.com/@hadithdaily.bukhari
 ✈️ تيليغرام: https://t.me/HadithDailyAr
 🔔 <series line>
 ```
