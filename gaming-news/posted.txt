@@ -706,3 +706,5 @@
 2026-11-18 21:55	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/ps5-users-report-playstation-network-errors-as-gta-6-fever-hits-with-some-struggling-to-redeem-codes/
 2026-11-18 22:10	PC Gamer	https://www.pcgamer.com/software/ai/embark-studios-apologizes-for-replacing-esports-casters-with-ai-voices-in-now-deleted-the-finals-video/
 2026-11-18 22:08	Eurogamer (same story)	https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital
+2026-11-18 21:49	GameSpot	https://www.gamespot.com/articles/gta-6-has-a-hilarious-riff-on-easter-eggs/
+2026-11-18 22:53	GameSpot	https://www.gamespot.com/articles/how-xboxs-streaming-deal-for-gta-6-could-expand-its-marketshare-by-30/
