@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/06/05/modern-warfare-4-dmz-operators.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Modern Warfare 4 reportedly turns up skill-based matchmaking in DMZ</b>\n\nInfinity Ward has reportedly adjusted DMZ matchmaking in Modern Warfare 4 so player skill counts for more when lobbies are built. The change comes even as SBMM in the game's regular multiplayer has drawn backlash from players.\n\n🕒 Nov 18, 2026 · 13:32 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/call-of-duty/modern-warfare-4-increased-sbmm-in-dmz-despite-multiplayer-backlash-report-3429314/\">Dexerto</a>\n👥 <a href=\"https://x.com/CallofDuty\">@CallofDuty</a>\n\n👍 or 👎 on stronger SBMM? · 💬 Tell us how your DMZ lobbies feel\n\n#ModernWarfare4 #DMZ #CallOfDuty #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-mw4-dmz-sbmm",
+ "fallback_text": "🎮 <b>Modern Warfare 4 reportedly turns up skill-based matchmaking in DMZ</b>\n\nInfinity Ward has reportedly adjusted DMZ matchmaking in Modern Warfare 4 so player skill counts for more when lobbies are built. The change comes even as SBMM in the game's regular multiplayer has drawn backlash from players.\n\n🕒 Nov 18, 2026 · 13:32 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/call-of-duty/modern-warfare-4-increased-sbmm-in-dmz-despite-multiplayer-backlash-report-3429314/\">Dexerto</a>\n👥 <a href=\"https://x.com/CallofDuty\">@CallofDuty</a>\n\n👍 or 👎 on stronger SBMM? · 💬 Tell us how your DMZ lobbies feel\n\n#ModernWarfare4 #DMZ #CallOfDuty #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

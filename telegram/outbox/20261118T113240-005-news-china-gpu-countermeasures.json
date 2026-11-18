@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/BELj7Bp6ghyH87vwNskeQA-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>China threatens countermeasures over new US AI GPU rules</b>\n\nBeijing is warning of \"countermeasures\" after new US restrictions on renting and exporting Nvidia Blackwell AI GPUs. The threat lands ahead of Thursday's meeting with Xi Jinping and raises fears that the US-China trade war could flare up again.\n\n🕒 Nov 18, 2026 · 14:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n📉 Will this hit GPU prices? React 👍 or 👎 · 💬 Your take below\n\n#Nvidia #Blackwell #AIGPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-china-gpu-countermeasures",
+ "fallback_text": "🖥️ <b>China threatens countermeasures over new US AI GPU rules</b>\n\nBeijing is warning of \"countermeasures\" after new US restrictions on renting and exporting Nvidia Blackwell AI GPUs. The threat lands ahead of Thursday's meeting with Xi Jinping and raises fears that the US-China trade war could flare up again.\n\n🕒 Nov 18, 2026 · 14:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n📉 Will this hit GPU prices? React 👍 or 👎 · 💬 Your take below\n\n#Nvidia #Blackwell #AIGPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

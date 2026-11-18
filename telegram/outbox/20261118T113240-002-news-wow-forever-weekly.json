@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/WoW-Forever-Launch-Most-Weekly-Players-In-15-Years.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>WoW: Forever hits its biggest weekly player count in 15 years</b>\n\nBlizzard shared new launch stats for World of Warcraft: Forever, the third major version of its MMO, which launched on November 4. WoW executive producer Holly Longdale says more people are playing weekly than the game has seen in about 15 years. Blizzard had already called it the biggest launch in WoW history for concurrent and returning players.\n\n🕒 Nov 18, 2026 · 13:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/wow-forever-weekly-player-numbers-are-the-highest-for-blizzards-mmo-in-15-years/\">GameSpot</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a> · <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n⚔️ React if you're back in Azeroth · 💬 Which class are you maining?\n\n#WorldOfWarcraft #WoWForever #Blizzard #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-wow-forever-weekly",
+ "fallback_text": "🎮 <b>WoW: Forever hits its biggest weekly player count in 15 years</b>\n\nBlizzard shared new launch stats for World of Warcraft: Forever, the third major version of its MMO, which launched on November 4. WoW executive producer Holly Longdale says more people are playing weekly than the game has seen in about 15 years. Blizzard had already called it the biggest launch in WoW history for concurrent and returning players.\n\n🕒 Nov 18, 2026 · 13:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/wow-forever-weekly-player-numbers-are-the-highest-for-blizzards-mmo-in-15-years/\">GameSpot</a>\n👥 <a href=\"https://x.com/Warcraft\">@Warcraft</a> · <a href=\"https://x.com/Blizzard_Ent\">@Blizzard_Ent</a>\n\n⚔️ React if you're back in Azeroth · 💬 Which class are you maining?\n\n#WorldOfWarcraft #WoWForever #Blizzard #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
