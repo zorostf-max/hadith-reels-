@@ -1,0 +1,19 @@
+{
+ "date_label": "nov 18",
+ "hook": {"text": "GTA 6 BREAKS STREAM RECORD", "kicker": "BEFORE LAUNCH", "cat": "games", "audio": "audio/hook.mp3"},
+ "stories": [
+  {"tag": "GTA 6", "cat": "games",
+   "head": "GTA 6 sets the all-time record for most livestream viewers, hours before it unlocks",
+   "src": "source: Eurogamer", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "#1", "label": "most-watched livestream ever", "badge": "ALL-TIME RECORD"}},
+  {"tag": "ROCKSTAR", "cat": "games",
+   "head": "Around 1,600 Rockstar UK staff are voting on a union as GTA 6 launches",
+   "src": "source: PC Gamer · Insider Gaming", "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "1,600", "label": "Rockstar UK staff voting", "badge": "UNION VOTE"}},
+  {"tag": "EXP 33", "cat": "games",
+   "head": "Clair Obscur: Expedition 33 writer Jennifer Svedberg-Yen has left Sandfall",
+   "src": "source: VGC · GamesRadar+", "audio": "audio/s2.mp3",
+   "art": {"type": "pills", "title": "SANDFALL INTERACTIVE", "items": ["EXPEDITION 33", "LEAD WRITER", "PARTED WAYS"]}}
+ ],
+ "outro": {"head": "Watching a GTA 6 stream tonight? Comment below", "audio": "audio/outro.mp3"}
+}
