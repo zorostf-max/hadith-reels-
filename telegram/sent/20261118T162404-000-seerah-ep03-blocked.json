@@ -1,0 +1,11 @@
+{
+ "job": "20261118T162404-000-seerah-ep03-blocked.json",
+ "ref": "seerah-ep03-blocked",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-18T16:24:37Z",
+ "message_id": 482,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
