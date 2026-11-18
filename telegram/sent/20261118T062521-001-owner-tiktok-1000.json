@@ -1,0 +1,11 @@
+{
+ "job": "20261118T062521-001-owner-tiktok-1000.json",
+ "ref": "owner-tiktok-1000",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-18T06:25:55Z",
+ "message_id": 475,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
