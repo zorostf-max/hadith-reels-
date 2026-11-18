@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/GTA6Map.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Players reveal just how huge GTA 6's map is</b>\n\nWith GTA 6 already live in New Zealand and Australia, streamer N3on showed off the full map of Leonida, Rockstar's take on Florida, with Vice City at its centre. Rockstar had said it offers more playable space than GTA 4, GTA 5 and Red Dead Redemption 2 combined.\n\n🕒 Nov 18, 2026 · 17:08 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/the-gta-6-map-is-truly-truly-massive-of-course/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🗺️ React if you want to explore every corner · 💬 Where are you heading first?\n\n#GTA6 #ViceCity #Rockstar #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-map-size",
+ "fallback_text": "🎮 <b>Players reveal just how huge GTA 6's map is</b>\n\nWith GTA 6 already live in New Zealand and Australia, streamer N3on showed off the full map of Leonida, Rockstar's take on Florida, with Vice City at its centre. Rockstar had said it offers more playable space than GTA 4, GTA 5 and Red Dead Redemption 2 combined.\n\n🕒 Nov 18, 2026 · 17:08 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/the-gta-6-map-is-truly-truly-massive-of-course/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🗺️ React if you want to explore every corner · 💬 Where are you heading first?\n\n#GTA6 #ViceCity #Rockstar #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

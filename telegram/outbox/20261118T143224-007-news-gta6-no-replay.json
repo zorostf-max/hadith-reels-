@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/lucia-mission-failed.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 has no mission replay, but supports multiple saves</b>\n\nUnlike GTA 5, GTA 6 does not let you replay story missions once they are done, as Eurogamer's reviewer confirmed over a 100+ hour playthrough. Players can keep multiple save files instead, and Rockstar says it made missions harder to fail.\n\n🕒 Nov 18, 2026 · 17:24 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n👎 React if you'll miss replays · 💬 Dealbreaker or no big deal?\n\n#GTA6 #Rockstar #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-no-replay",
+ "fallback_text": "🎮 <b>GTA 6 has no mission replay, but supports multiple saves</b>\n\nUnlike GTA 5, GTA 6 does not let you replay story missions once they are done, as Eurogamer's reviewer confirmed over a 100+ hour playthrough. Players can keep multiple save files instead, and Rockstar says it made missions harder to fail.\n\n🕒 Nov 18, 2026 · 17:24 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n👎 React if you'll miss replays · 💬 Dealbreaker or no big deal?\n\n#GTA6 #Rockstar #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/Header_mySky2c.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>MindsEye studio Build A Rocket Boy reportedly owes £62M</b>\n\nThe studio founded by former GTA producer Leslie Benzies is said to owe around £62 million. About £36.5 million of that is owed to NetEase, and more than £1 million to Benzies himself. Litigation is reportedly the main plan for paying it back.\n\n🕒 Nov 18, 2026 · 17:05 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/build-a-rocket-boy-mindseye-debt-administration-litigation\">Eurogamer</a>\n\n😬 React if you saw this coming · 💬 Can the studio recover?\n\n#MindsEye #BuildARocketBoy #NetEase #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-barb-debt",
+ "fallback_text": "🎮 <b>MindsEye studio Build A Rocket Boy reportedly owes £62M</b>\n\nThe studio founded by former GTA producer Leslie Benzies is said to owe around £62 million. About £36.5 million of that is owed to NetEase, and more than £1 million to Benzies himself. Litigation is reportedly the main plan for paying it back.\n\n🕒 Nov 18, 2026 · 17:05 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/build-a-rocket-boy-mindseye-debt-administration-litigation\">Eurogamer</a>\n\n😬 React if you saw this coming · 💬 Can the studio recover?\n\n#MindsEye #BuildARocketBoy #NetEase #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

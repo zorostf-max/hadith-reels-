@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/Jason_and_Lucia_19.jpg",
+  "parse_mode": "HTML",
+  "caption": "📈 <b>Take-Two shares jump as GTA 6 reviews land</b>\n\nGTA 6's glowing reviews sent Take-Two's stock up close to 7% in pre-market trading, a move that would add billions to the publisher's market value if it holds. The game is already playable in New Zealand and Australia, though Take-Two's share price is still well down for the year.\n\n🕒 Nov 18, 2026 · 16:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-owner-take-twos-stock-explodes-after-high-review-scores-but-its-still-down-massively-this-year/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n💰 Would you buy the stock or just the game? React 👍 or 👎 and comment\n\n#GTA6 #TakeTwo #Rockstar #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-taketwo-stock",
+ "fallback_text": "📈 <b>Take-Two shares jump as GTA 6 reviews land</b>\n\nGTA 6's glowing reviews sent Take-Two's stock up close to 7% in pre-market trading, a move that would add billions to the publisher's market value if it holds. The game is already playable in New Zealand and Australia, though Take-Two's share price is still well down for the year.\n\n🕒 Nov 18, 2026 · 16:16 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/gta-6-owner-take-twos-stock-explodes-after-high-review-scores-but-its-still-down-massively-this-year/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n💰 Would you buy the stock or just the game? React 👍 or 👎 and comment\n\n#GTA6 #TakeTwo #Rockstar #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
