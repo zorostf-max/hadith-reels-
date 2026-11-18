@@ -59,3 +59,4 @@ Star Wars	starwars
 Devolver Digital	devolverdigital
 Pokémon GO	PokemonGoApp
 Sam Altman	sama
+THE FINALS	reachthefinals
