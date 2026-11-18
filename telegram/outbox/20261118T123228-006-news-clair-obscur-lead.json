@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/clair-obscur-svedberg-yen.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Clair Obscur's lead narrative designer has left Sandfall</b>\n\nJennifer Svedberg-Yen, lead narrative designer on Clair Obscur: Expedition 33, won a BAFTA Breakthrough US award for her work on the game. Right after the win, she revealed she is no longer with developer Sandfall Interactive, after wrapping up her final work on Expedition 33.\n\n🕒 Nov 18, 2026 · 15:18 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent\">Eurogamer</a>\n\n✨ React if Expedition 33's story got you · 💬 What should she write next?\n\n#ClairObscur #Expedition33 #SandfallInteractive #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-clair-obscur-lead",
+ "fallback_text": "🎮 <b>Clair Obscur's lead narrative designer has left Sandfall</b>\n\nJennifer Svedberg-Yen, lead narrative designer on Clair Obscur: Expedition 33, won a BAFTA Breakthrough US award for her work on the game. Right after the win, she revealed she is no longer with developer Sandfall Interactive, after wrapping up her final work on Expedition 33.\n\n🕒 Nov 18, 2026 · 15:18 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent\">Eurogamer</a>\n\n✨ React if Expedition 33's story got you · 💬 What should she write next?\n\n#ClairObscur #Expedition33 #SandfallInteractive #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

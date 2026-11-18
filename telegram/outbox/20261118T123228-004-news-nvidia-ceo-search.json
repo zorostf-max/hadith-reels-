@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/5VVuqWaRm3oT74ZEf5pAgP-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Nvidia will weigh outside candidates for CEO, despite Bezos backing Jensen</b>\n\nAmazon's Jeff Bezos says that if Nvidia doesn't bring Jensen Huang back, he would not hire an outsider. Nvidia, however, says its search for a new chief executive will look at both internal and external candidates.\n\n🕒 Nov 18, 2026 · 14:41 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/graphics-cards/if-you-dont-bring-jensen-back-i-would-not-hire-an-outsider-says-amazon-boss-jeff-bezos-but-nvidia-says-its-going-to-look-at-internal-and-external-candidates/\">PC Gamer</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 Who should lead Nvidia next? React and 💬 drop your pick below\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-nvidia-ceo-search",
+ "fallback_text": "🖥️ <b>Nvidia will weigh outside candidates for CEO, despite Bezos backing Jensen</b>\n\nAmazon's Jeff Bezos says that if Nvidia doesn't bring Jensen Huang back, he would not hire an outsider. Nvidia, however, says its search for a new chief executive will look at both internal and external candidates.\n\n🕒 Nov 18, 2026 · 14:41 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/graphics-cards/if-you-dont-bring-jensen-back-i-would-not-hire-an-outsider-says-amazon-boss-jeff-bezos-but-nvidia-says-its-going-to-look-at-internal-and-external-candidates/\">PC Gamer</a>\n👥 <a href=\"https://x.com/nvidia\">@nvidia</a>\n\n👀 Who should lead Nvidia next? React and 💬 drop your pick below\n\n#Nvidia #JensenHuang #GPU #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

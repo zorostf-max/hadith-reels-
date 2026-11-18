@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/slay-the-spire-2-key-art.webp?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Slay the Spire 2 estimated at 7.9 million copies sold</b>\n\nMega Crit's roguelike deckbuilder is estimated to have sold about 7.9m copies since entering Steam Early Access in March, roughly a million for every month on sale. That puts it among the year's best-selling games, despite being available only on PC.\n\n🕒 Nov 18, 2026 · 14:33 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/slay-the-spire-2-8-million-sales-steam-estimates\">Eurogamer</a>\n\n🃏 React 👍 if you're hooked · 💬 How many hours have you sunk into it?\n\n#SlayTheSpire2 #MegaCrit #Steam #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-sts2-sales",
+ "fallback_text": "🎮 <b>Slay the Spire 2 estimated at 7.9 million copies sold</b>\n\nMega Crit's roguelike deckbuilder is estimated to have sold about 7.9m copies since entering Steam Early Access in March, roughly a million for every month on sale. That puts it among the year's best-selling games, despite being available only on PC.\n\n🕒 Nov 18, 2026 · 14:33 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/slay-the-spire-2-8-million-sales-steam-estimates\">Eurogamer</a>\n\n🃏 React 👍 if you're hooked · 💬 How many hours have you sunk into it?\n\n#SlayTheSpire2 #MegaCrit #Steam #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
