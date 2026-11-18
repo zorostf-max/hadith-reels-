@@ -74,15 +74,22 @@
     "pending": {
       "episode": 3,
       "publish_date": "2026-11-19",
-      "status": "script_sent",
+      "status": "script_approved",
       "script_message_ids": [
         473
       ],
       "preview_message_ids": [],
       "notes": [
-        "2026-11-17: S1 wrote ep03 (حليمة السعدية وبركة الرضيع); closing line points to Tuesday."
+        "2026-11-17: S1 wrote ep03 (حليمة السعدية وبركة الرضيع); closing line points to Tuesday.",
+        "2026-11-18: S2 blocked — ElevenLabs connector failed to connect (timeout, then HTTP 400) after several retries; no images/voices generated. Script approved (msg 474)."
       ],
-      "messages": []
+      "messages": [
+        {
+          "date_utc": "2026-11-17T17:15:57Z",
+          "message_id": 474,
+          "text": "Ok"
+        }
+      ]
     },
     "compilation_overrides": {
       "2026-11-21": [
