@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/fa73aa193204c47b0846f3c2b93ac1100f4dae22/gaming-news/shorts/ep2026-11-18-1000/short.mp4",
+  "caption": "🎬 <b>Gaming this morning: 3 stories in 37 seconds</b>\n🏆 No Sony game in The Game Awards GOTY race for the first time in 11 years; GTA 6 leads with 8 nominations\n💼 Take-Two reportedly lays off about a third of Firaxis (Civilization, XCOM)\n🖥️ Nvidia board rules out a Jensen Huang comeback\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-18-1000"
+}
