@@ -1,0 +1,11 @@
+{
+ "job": "20261118T013131-000-news-newzoo-gta6-console.json",
+ "ref": "news-newzoo-gta6-console",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T01:32:03Z",
+ "message_id": 407,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
