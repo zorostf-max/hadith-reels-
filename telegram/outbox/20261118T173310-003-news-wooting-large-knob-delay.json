@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/PnvE3jpdUAUxvtzYxeaXm5-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Wooting delays its Large Knob to next year after finding an issue</b>\n\nKeyboard maker Wooting says it \"found an issue with the Large Knob,\" its add-on dial for its gaming keyboards. Buyers waiting for it will now have to wait until next year.\n\n🕒 Nov 18, 2026 · 20:09 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/gaming-keyboards/wooting-admits-we-found-an-issue-with-the-large-knob/\">PC Gamer</a>\n\n⌨️ React if you were waiting for one · 💬 Better late than broken?\n\n#Wooting #GamingKeyboard #PCGaming #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-wooting-large-knob-delay",
+ "fallback_text": "🖥️ <b>Wooting delays its Large Knob to next year after finding an issue</b>\n\nKeyboard maker Wooting says it \"found an issue with the Large Knob,\" its add-on dial for its gaming keyboards. Buyers waiting for it will now have to wait until next year.\n\n🕒 Nov 18, 2026 · 20:09 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/hardware/gaming-keyboards/wooting-admits-we-found-an-issue-with-the-large-knob/\">PC Gamer</a>\n\n⌨️ React if you were waiting for one · 💬 Better late than broken?\n\n#Wooting #GamingKeyboard #PCGaming #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

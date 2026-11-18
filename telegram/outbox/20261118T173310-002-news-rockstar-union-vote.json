@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/Puho8o8xyrobyhtaXKrc9k-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>1,600 Rockstar workers vote on a union as GTA 6 launches</b>\n\nAround 1,600 Rockstar staff are voting on unionization right as Grand Theft Auto 6 hits shelves. Their message: \"Our wages, conditions and bonuses should be\" as industry-leading as their games. The vote lands on the studio's biggest launch ever.\n\n🕒 Nov 18, 2026 · 19:56 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/we-need-to-come-together-on-the-eve-of-gta-6-1-600-rockstar-workers-are-voting-on-unionization/\">PC Gamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n✊ React if you back the devs · 💬 Should Rockstar staff unionize?\n\n#GTA6 #Rockstar #GameDev #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+ },
+ "ref": "news-rockstar-union-vote",
+ "fallback_text": "🎮 <b>1,600 Rockstar workers vote on a union as GTA 6 launches</b>\n\nAround 1,600 Rockstar staff are voting on unionization right as Grand Theft Auto 6 hits shelves. Their message: \"Our wages, conditions and bonuses should be\" as industry-leading as their games. The vote lands on the studio's biggest launch ever.\n\n🕒 Nov 18, 2026 · 19:56 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/gaming-industry/we-need-to-come-together-on-the-eve-of-gta-6-1-600-rockstar-workers-are-voting-on-unionization/\">PC Gamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n✊ React if you back the devs · 💬 Should Rockstar staff unionize?\n\n#GTA6 #Rockstar #GameDev #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

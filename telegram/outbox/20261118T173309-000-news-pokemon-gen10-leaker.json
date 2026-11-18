@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/18/pokemon-wind-and-waves-browt.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Pokémon Gen 10 leaker admits the Winds &amp; Waves rumors were fake</b>\n\nA leaker behind Pokémon Gen 10 \"Winds &amp; Waves\" claims has admitted the rumors were made up. That puts some fan hopes back on the table, including full voice acting and Eevee's first new evolution since Sylveon. Nothing is confirmed until The Pokémon Company says so.\n\n🕒 Nov 18, 2026 · 19:26 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/pokemon/pokemon-gen-10-leaker-admits-faking-rumors-reviving-hopes-for-a-new-eeveelution-and-voice-acting-3429462/\">Dexerto</a>\n👥 <a href=\"https://x.com/Pokemon\">@Pokemon</a>\n\n👀 React if you never trusted it · 💬 What do you want most in Gen 10?\n\n#Pokemon #PokemonGen10 #Nintendo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-pokemon-gen10-leaker",
+ "fallback_text": "🎮 <b>Pokémon Gen 10 leaker admits the Winds &amp; Waves rumors were fake</b>\n\nA leaker behind Pokémon Gen 10 \"Winds &amp; Waves\" claims has admitted the rumors were made up. That puts some fan hopes back on the table, including full voice acting and Eevee's first new evolution since Sylveon. Nothing is confirmed until The Pokémon Company says so.\n\n🕒 Nov 18, 2026 · 19:26 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/pokemon/pokemon-gen-10-leaker-admits-faking-rumors-reviving-hopes-for-a-new-eeveelution-and-voice-acting-3429462/\">Dexerto</a>\n👥 <a href=\"https://x.com/Pokemon\">@Pokemon</a>\n\n👀 React if you never trusted it · 💬 What do you want most in Gen 10?\n\n#Pokemon #PokemonGen10 #Nintendo #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
