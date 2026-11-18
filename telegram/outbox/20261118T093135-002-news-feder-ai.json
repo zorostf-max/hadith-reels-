@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/digitalfoundry-2017-kingdom-hearts-3-vs-toy-story-face-off-1500711980973.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Ex-Take-Two CEO: gen-AI in games is \"one Toy Story moment away\"</b>\n\nBen Feder, who ran Take-Two during the launches of GTA 4, Red Dead Redemption, Borderlands and BioShock, says Western resistance to generative AI in game development will fade. In his view, it only takes one breakout hit, like Pixar's Toy Story was for CGI, for players to accept it.\n\n🕒 Nov 18, 2026 · 12:13 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-4-red-dead-redemption-take-two-ben-feder-ai-toy-story\">Eurogamer</a>\n\n🤖 Do you agree? React 👍 or 👎 · 💬 Would you play an AI-made hit?\n\n#GenerativeAI #TakeTwo #GameDev #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-feder-ai",
+ "fallback_text": "🎮 <b>Ex-Take-Two CEO: gen-AI in games is \"one Toy Story moment away\"</b>\n\nBen Feder, who ran Take-Two during the launches of GTA 4, Red Dead Redemption, Borderlands and BioShock, says Western resistance to generative AI in game development will fade. In his view, it only takes one breakout hit, like Pixar's Toy Story was for CGI, for players to accept it.\n\n🕒 Nov 18, 2026 · 12:13 (GMT+3)\n📰 Source: <a href=\"https://www.eurogamer.net/gta-4-red-dead-redemption-take-two-ben-feder-ai-toy-story\">Eurogamer</a>\n\n🤖 Do you agree? React 👍 or 👎 · 💬 Would you play an AI-made hit?\n\n#GenerativeAI #TakeTwo #GameDev #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
