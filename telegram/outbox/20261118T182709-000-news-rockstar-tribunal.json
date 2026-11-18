@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/brian-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Rockstar tribunal over 34 fired workers ends — verdict still to come</b>\n\nThe Glasgow employment tribunal over the 34 staff Rockstar dismissed in 2025 has wrapped up, with a judgement expected in a few weeks to a few months. The IWGB union calls the firings union busting; Rockstar says the workers leaked confidential information. Eurogamer confirms at least 28 of the 34 are still named in the GTA 6 credits, and the workers have asked fans not to boycott the game.\n\n🕒 Nov 18, 2026 · 20:35 (GMT+3)\n📰 Sources: <a href=\"https://www.eurogamer.net/fired-rockstar-employees-named-gta-6-credits-tribunal\">Eurogamer</a> · <a href=\"https://www.videogameschronicle.com/news/rockstars-union-busting-tribunal-comes-to-an-end-pending-verdict/\">VGC</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n⚖️ Which way do you think the verdict goes? React and drop your take 💬\n\n#GTA6 #Rockstar #IWGB #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-rockstar-tribunal",
+ "fallback_text": "🎮 <b>Rockstar tribunal over 34 fired workers ends — verdict still to come</b>\n\nThe Glasgow employment tribunal over the 34 staff Rockstar dismissed in 2025 has wrapped up, with a judgement expected in a few weeks to a few months. The IWGB union calls the firings union busting; Rockstar says the workers leaked confidential information. Eurogamer confirms at least 28 of the 34 are still named in the GTA 6 credits, and the workers have asked fans not to boycott the game.\n\n🕒 Nov 18, 2026 · 20:35 (GMT+3)\n📰 Sources: <a href=\"https://www.eurogamer.net/fired-rockstar-employees-named-gta-6-credits-tribunal\">Eurogamer</a> · <a href=\"https://www.videogameschronicle.com/news/rockstars-union-busting-tribunal-comes-to-an-end-pending-verdict/\">VGC</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n⚖️ Which way do you think the verdict goes? React and drop your take 💬\n\n#GTA6 #Rockstar #IWGB #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
