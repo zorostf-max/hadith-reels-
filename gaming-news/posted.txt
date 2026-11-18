@@ -644,3 +644,13 @@
 2026-11-18 14:00	VGC (same story)	https://www.videogameschronicle.com/review/grand-theft-auto-6/
 2026-11-18 14:00	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/
 2026-11-18 14:00	Eurogamer (same story)	https://www.eurogamer.net/grand-theft-auto-6-review
+2026-11-18 14:12	IGN	https://www.ign.com/articles/gta-flu-trends-online-as-reports-suggest-thousands-will-skip-school-and-call-in-sick-at-work-with-a-measurable-hit-to-countrys-economies
+2026-11-18 14:25	IGN (same story)	https://www.ign.com/articles/kfc-australia-fake-funeral-gta-6
+2026-11-18 14:33	Eurogamer	https://www.eurogamer.net/slay-the-spire-2-8-million-sales-steam-estimates
+2026-11-18 14:41	PC Gamer	https://www.pcgamer.com/hardware/graphics-cards/if-you-dont-bring-jensen-back-i-would-not-hire-an-outsider-says-amazon-boss-jeff-bezos-but-nvidia-says-its-going-to-look-at-internal-and-external-candidates/
+2026-11-18 15:00	Tom's Hardware	https://www.tomshardware.com/pc-components/ssds/ssds-laptops-and-phones-may-get-cheaper-as-consumer-nand-spot-pricing-drops-20-percent-bank-of-america-expects-contract-price-drops-report-cites-oversupply-in-consumer-market-amid-declining-demand-and-growing-chinese-competition
+2026-11-18 15:18	Eurogamer	https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent
+2026-11-18 14:31	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/sony-issues-mandatory-ps5-update-to-play-gta-6-potentially-slowing-down-hackers-attempts-to-dump-rockstars-game/
+2026-11-18 14:47	IGN (same story)	https://www.ign.com/articles/gta-6-is-now-the-joint-highest-rated-game-of-all-time
+2026-11-18 15:01	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-has-a-metacritic-score-so-high-its-only-happened-once-before/
+2026-11-18 15:16	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/
