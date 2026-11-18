@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/chickendisc.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>No disc in your GTA 6 box? KFC Spain will give you a chicken one</b>\n\nGTA 6's retail box ships with a download code instead of a disc, and KFC Spain is poking fun at it with a \"Replace the Disc\" campaign. Bring your GTA 6 box to KFC in Madrid, Barcelona, Valencia and other Spanish cities on December 19–20 (4–8 PM) and get a free disc-shaped piece of fried chicken.\n\n🕒 Nov 18, 2026 · 23:22 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/kfc-announces-gta-6-promo-where-you-get-a-disc-shaped-piece-of-chicken/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🍗 React 😂 if you'd go · 💬 Would you rather have the real disc?\n\n#GTA6 #KFC #Rockstar #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-kfc-disc",
+ "fallback_text": "🎮 <b>No disc in your GTA 6 box? KFC Spain will give you a chicken one</b>\n\nGTA 6's retail box ships with a download code instead of a disc, and KFC Spain is poking fun at it with a \"Replace the Disc\" campaign. Bring your GTA 6 box to KFC in Madrid, Barcelona, Valencia and other Spanish cities on December 19–20 (4–8 PM) and get a free disc-shaped piece of fried chicken.\n\n🕒 Nov 18, 2026 · 23:22 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/kfc-announces-gta-6-promo-where-you-get-a-disc-shaped-piece-of-chicken/\">GameSpot</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🍗 React 😂 if you'd go · 💬 Would you rather have the real disc?\n\n#GTA6 #KFC #Rockstar #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

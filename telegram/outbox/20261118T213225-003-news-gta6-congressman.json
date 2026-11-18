@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic15.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>US Congressman: letting kids play GTA 6 makes you a \"bad parent\"</b>\n\nRepublican Congressman Tim Burchett has criticised parents who let their children play GTA 6, arguing that the game desensitises kids to violence. The comments land on the eve of the game's November 19 launch.\n\n🕒 Nov 18, 2026 · 23:53 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/republican-congressman-says-youre-a-bad-parent-if-you-let-your-child-play-gta-6/\">VGC</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🤔 React 👍 or 👎 · 💬 Is the age rating enough, or should parents step in?\n\n#GTA6 #Rockstar #VideoGames #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-congressman",
+ "fallback_text": "🎮 <b>US Congressman: letting kids play GTA 6 makes you a \"bad parent\"</b>\n\nRepublican Congressman Tim Burchett has criticised parents who let their children play GTA 6, arguing that the game desensitises kids to violence. The comments land on the eve of the game's November 19 launch.\n\n🕒 Nov 18, 2026 · 23:53 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/republican-congressman-says-youre-a-bad-parent-if-you-let-your-child-play-gta-6/\">VGC</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🤔 React 👍 or 👎 · 💬 Is the age rating enough, or should parents step in?\n\n#GTA6 #Rockstar #VideoGames #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
