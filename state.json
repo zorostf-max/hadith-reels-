@@ -12,7 +12,9 @@
     9,
     10,
     11,
-    12
+    12,
+    13,
+    14
   ],
   "pending_batch": {
     "publish_date": "2026-11-18",
@@ -20,11 +22,71 @@
       13,
       14
     ],
-    "status": "awaiting",
-    "approved": [],
+    "status": "done",
+    "approved": [
+      13,
+      14
+    ],
     "rejected": [],
-    "scheduled": {},
-    "messages": [],
+    "scheduled": {
+      "13": {
+        "slot": "2026-11-18T10:00:00+03:00",
+        "theme": "morning",
+        "video_commit": "09b9732a402976d98b078cd3e2e26cfbc35e199d",
+        "metricool_post_id": 432434626,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=6036382441947942588",
+        "providers": [
+          "instagram",
+          "youtube",
+          "facebook"
+        ],
+        "metricool_tiktok_post_id": 432434764,
+        "tiktok_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=5783128728573921459",
+        "metricool_threads_post_id": 432434783,
+        "threads_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=7519912052219530175",
+        "youtube_title": "شرطٌ واحد لا يكمُل إيمانك حتى تحققه… فما هو؟ | الحديث 13 من صحيح البخاري",
+        "telegram_jobs": [
+          "20261118T062929-000-channel-bukhari-013.json",
+          "20261118T062929-001-channel-bukhari-013-text.json"
+        ]
+      },
+      "14": {
+        "slot": "2026-11-18T18:00:00+03:00",
+        "theme": "night",
+        "video_commit": "09b9732a402976d98b078cd3e2e26cfbc35e199d",
+        "metricool_post_id": 432434968,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-2047312338841811880",
+        "providers": [
+          "instagram",
+          "youtube",
+          "facebook"
+        ],
+        "metricool_tiktok_post_id": 432434975,
+        "tiktok_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=2377682330475971557",
+        "metricool_threads_post_id": 432434982,
+        "threads_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-2092089793484471814",
+        "youtube_title": "محبةٌ يجب أن تفوق حبَّك لوالدك وولدك… محبةُ مَن؟ | الحديث 14 من صحيح البخاري",
+        "telegram_jobs": [
+          "20261118T062929-002-channel-bukhari-014.json",
+          "20261118T062930-003-channel-bukhari-014-text.json"
+        ]
+      }
+    },
+    "messages": [
+      {
+        "message_id": 455,
+        "date_utc": "2026-11-16T15:16:42Z",
+        "text": "Ok",
+        "meaning": "approved 13 (reply to batch msg 454, then only hadith 13)"
+      },
+      {
+        "message_id": 460,
+        "date_utc": "2026-11-16T16:33:34Z",
+        "text": "Ok",
+        "reply_to_message_id": 459,
+        "meaning": "approved all (13 + 14) — reply to updated batch msg 459"
+      }
+    ],
     "preview_message_ids": [
       453,
       454,
