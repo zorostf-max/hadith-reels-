@@ -1,9 +1,0 @@
-{
- "method": "sendVideo",
- "params": {
-  "chat_id": "6875821347",
-  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/main/videos/bukhari-016.mp4",
-  "caption": "(٢/٢) الحديث رقم 16 — ثلاث من كن فيه وجد حلاوة الإيمان — يُنشر الجمعة ٦:٠٠ مساءً"
- },
- "ref": "preview-016"
-}

@@ -1,9 +1,0 @@
-{
- "method": "sendVideo",
- "params": {
-  "chat_id": "6875821347",
-  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/main/videos/bukhari-015.mp4",
-  "caption": "(١/٢) الحديث رقم 15 — علامة محبة النبي صلى الله عليه وسلم: تقديم أمره على هوى النفس — يُنشر الجمعة ١٠:٠٠ صباحًا"
- },
- "ref": "preview-015"
-}
