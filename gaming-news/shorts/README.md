@@ -26,7 +26,7 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 ## TikTok rules (owner's requests 2026-11-17/18)
 - Every TikTok post MUST carry the AI-generated label: `tiktokData.isAigc = true`. `tiktokData.title` is REQUIRED (short English hook, ≤ 90 chars), `privacyOption "PUBLIC_TO_EVERYONE"`, `autoAddMusic false`.
 - Mature-rated games (GTA, Call of Duty, Mortal Kombat, horror…): no violence, weapons, blood, gore, drugs or crime scenes in the visuals or thumbnail — logo/key art without violence, text cards and numbers only. Prefer a non-mature lead story when one is equally big.
-- **Audience controls 18+:** Metricool cannot set it. When a reel touches a mature-rated game, horror, violence-related news or gambling/loot boxes, schedule the TikTok post with `autoPublish: false` (Metricool pushes a notification to the owner, who publishes by hand with Audience controls 18+) and send the owner a short Arabic Telegram message (which reel, why, publish from the Metricool notification). Other platforms still auto-publish. Otherwise `autoPublish: true`.
+- **Automatic publishing (owner's decision 2026-11-18, 17:15):** the owner set TikTok's 18+ Audience controls himself, so TikTok posts are ALWAYS scheduled with `autoPublish: true`, including reels about mature-rated games. Never schedule TikTok with `autoPublish: false` and never send him a "publish it by hand" message.
 - Never present estimates, analyst figures, leaks or rumours as official numbers — write "reportedly", "estimated", "rumored" or name the estimator, in voice, on-screen text, title and captions.
 
 ## RUNBOOK — daily run (21:24 Istanbul, published at about 21:45)
