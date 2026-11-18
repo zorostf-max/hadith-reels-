@@ -1,0 +1,10 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1/seerah/ep03/episode.mp4",
+  "caption": "🎬 الحلقة 3 (نسخة مصحّحة) — حليمة السعدية وبركة الرضيع — تُنشر اليوم الخميس ١٠:٠٠",
+  "supports_streaming": true
+ },
+ "ref": "seerah-ep03-preview2"
+}
