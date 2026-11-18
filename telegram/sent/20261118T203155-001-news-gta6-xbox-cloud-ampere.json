@@ -1,0 +1,11 @@
+{
+ "job": "20261118T203155-001-news-gta6-xbox-cloud-ampere.json",
+ "ref": "news-gta6-xbox-cloud-ampere",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T20:32:31Z",
+ "message_id": 457,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
