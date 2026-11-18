@@ -1,0 +1,54 @@
+{
+ "date_label": "nov 18",
+ "hook": {
+  "text": "3 PS5 UPDATES IN A MONTH",
+  "kicker": "BEFORE GTA 6",
+  "cat": "playstation",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "PS5",
+   "cat": "playstation",
+   "head": "Sony pushes a third PS5 system update in a month, right before GTA 6 launches",
+   "src": "source: VGC · IGN",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "3",
+    "label": "PS5 system updates in one month",
+    "badge": "BEFORE GTA 6"
+   }
+  },
+  {
+   "tag": "FINALS",
+   "cat": "esports",
+   "head": "Embark swapped real casters for AI voices in a Finals Grand Major reel; casters push back",
+   "src": "source: IGN",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "AI",
+    "label": "voices replaced the real casters",
+    "badge": "VIDEO DELETED"
+   }
+  },
+  {
+   "tag": "WOW",
+   "cat": "games",
+   "head": "Blizzard suspends WoW Forever gold exploit abusers, blocks trading and removes the gold",
+   "src": "source: Eurogamer",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "BANNED",
+    "label": "WoW Forever gold exploit abusers",
+    "badge": "GOLD REMOVED"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Human casters or AI? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
