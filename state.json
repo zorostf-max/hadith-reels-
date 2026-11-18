@@ -1,5 +1,5 @@
 {
-  "next_hadith": 15,
+  "next_hadith": 17,
   "published": [
     1,
     2,
@@ -17,85 +17,24 @@
     14
   ],
   "pending_batch": {
-    "publish_date": "2026-11-18",
+    "publish_date": "2026-11-20",
     "hadiths": [
-      13,
-      14
+      15,
+      16
     ],
-    "status": "done",
-    "approved": [
-      13,
-      14
-    ],
+    "status": "awaiting",
+    "approved": [],
     "rejected": [],
-    "scheduled": {
-      "13": {
-        "slot": "2026-11-18T10:00:00+03:00",
-        "theme": "morning",
-        "video_commit": "09b9732a402976d98b078cd3e2e26cfbc35e199d",
-        "metricool_post_id": 432434626,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=6036382441947942588",
-        "providers": [
-          "instagram",
-          "youtube",
-          "facebook"
-        ],
-        "metricool_tiktok_post_id": 432434764,
-        "tiktok_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=5783128728573921459",
-        "metricool_threads_post_id": 432434783,
-        "threads_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=7519912052219530175",
-        "youtube_title": "شرطٌ واحد لا يكمُل إيمانك حتى تحققه… فما هو؟ | الحديث 13 من صحيح البخاري",
-        "telegram_jobs": [
-          "20261118T062929-000-channel-bukhari-013.json",
-          "20261118T062929-001-channel-bukhari-013-text.json"
-        ]
-      },
-      "14": {
-        "slot": "2026-11-18T18:00:00+03:00",
-        "theme": "night",
-        "video_commit": "09b9732a402976d98b078cd3e2e26cfbc35e199d",
-        "metricool_post_id": 432434968,
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-2047312338841811880",
-        "providers": [
-          "instagram",
-          "youtube",
-          "facebook"
-        ],
-        "metricool_tiktok_post_id": 432434975,
-        "tiktok_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=2377682330475971557",
-        "metricool_threads_post_id": 432434982,
-        "threads_plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-2092089793484471814",
-        "youtube_title": "محبةٌ يجب أن تفوق حبَّك لوالدك وولدك… محبةُ مَن؟ | الحديث 14 من صحيح البخاري",
-        "telegram_jobs": [
-          "20261118T062929-002-channel-bukhari-014.json",
-          "20261118T062930-003-channel-bukhari-014-text.json"
-        ]
-      }
-    },
-    "messages": [
-      {
-        "message_id": 455,
-        "date_utc": "2026-11-16T15:16:42Z",
-        "text": "Ok",
-        "meaning": "approved 13 (reply to batch msg 454, then only hadith 13)"
-      },
-      {
-        "message_id": 460,
-        "date_utc": "2026-11-16T16:33:34Z",
-        "text": "Ok",
-        "reply_to_message_id": 459,
-        "meaning": "approved all (13 + 14) — reply to updated batch msg 459"
-      }
-    ],
+    "scheduled": {},
+    "messages": [],
     "preview_message_ids": [
-      453,
-      454,
-      458,
-      459
+      479,
+      480,
+      481
     ],
     "notes": {
-      "13": "Ibn Uthaymeen, Sharh al-Arba'in al-Nawawiyya, hadith 13 (shamela.ws/book/21812/158 and /161, printed pp.160,163).",
-      "14": "Ibn Uthaymeen, al-Qawl al-Mufid ala Kitab al-Tawhid, ج2 ص62-63 (shamela.ws/book/7339/634-635), commentary on Anas's wording (Bukhari 15) of the same hadith. Added to batch 2026-11-16 after owner asked to retry."
+      "15": "Ibn Uthaymeen, Sharh Sahih al-Bukhari audio transcript (alathar.net coid=39230, lesson 02b-10) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126831, 30-8). Matn verified on hadeethenc.com/ar/browse/hadith/5953 (Bukhari 15).",
+      "16": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39261, 03a-12) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126833, 30-10). Matn verified on alsunna.net/hadith/1925 (Bukhari 16). pt0 shortened once to keep video at 53.9 s. Shamela pages were not fetchable in this run."
     }
   },
   "rejected_notes": {},
