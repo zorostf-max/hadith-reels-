@@ -14,6 +14,21 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 - Outro (~4 s): "Which one surprised you most? Comment below" + follow @LevelUpGamesNews. The CTA changes a little every day.
 - Length 25–40 s. Text stays in the safe zone (the renderer handles it).
 
+## FOUR REELS A DAY (owner's request 2026-11-18) — supersedes "one per day" above
+- Slots **10:00, 14:00, 18:00, 22:00 Europe/Istanbul**; each run fires ~47 min before its slot. Each reel = the 2–3 biggest stories since the previous reel (never a story already used in an earlier reel, in a breaking reel, or in this brand's Metricool posts of the last 36 h, unless there is a genuinely new development).
+- **Per-slot folder:** `epYYYY-MM-DD-HHMM/` (e.g. `ep2026-11-18-1000/`), so the four reels never overwrite each other; `done.txt` line starts with `YYYY-MM-DD HH:MM`.
+- **Hook card (owner's request 2026-11-18):** every reel opens with a full-screen hook card — add to `short.json`:
+  `"hook": {"text": "<= 6 words, the most striking fact/number/name>", "kicker": "BREAKING|TGA 2026|…", "cat": "<cat>", "audio": "audio/hook.mp3"}`.
+  `make_short.py` renders it as its own ~2–3.2 s page (very large Orbitron 900, black stroke, accent glow, slam-in) before story 1. Its voice clip `audio/hook.mp3` is a separate ElevenLabs generation of ≤ 8 words (e.g. "[energetic] GTA 6 just broke a record."); story 1's clip then starts "Three gaming stories you missed. Number one: …".
+- Publishing is through **Metricool** (blogId 8168112): one post YouTube Short + Instagram Reel + Facebook Reel; a separate TikTok post; a separate Threads + Bluesky post (text ≤ 300 chars). Not on X. The "YouTube — published through Claude in Chrome" section below is no longer used by the slot runs.
+- If WebFetch is unavailable in an unattended run, the facts can come from the hourly run's own channel captions (recover them with `git log` / `git show` of the committed `telegram/outbox/*.json` jobs), cross-checked with WebSearch result titles; anything that is not clearly confirmed is worded "reportedly".
+
+## TikTok rules (owner's requests 2026-11-17/18)
+- Every TikTok post MUST carry the AI-generated label: `tiktokData.isAigc = true`. `tiktokData.title` is REQUIRED (short English hook, ≤ 90 chars), `privacyOption "PUBLIC_TO_EVERYONE"`, `autoAddMusic false`.
+- Mature-rated games (GTA, Call of Duty, Mortal Kombat, horror…): no violence, weapons, blood, gore, drugs or crime scenes in the visuals or thumbnail — logo/key art without violence, text cards and numbers only. Prefer a non-mature lead story when one is equally big.
+- **Audience controls 18+:** Metricool cannot set it. When a reel touches a mature-rated game, horror, violence-related news or gambling/loot boxes, schedule the TikTok post with `autoPublish: false` (Metricool pushes a notification to the owner, who publishes by hand with Audience controls 18+) and send the owner a short Arabic Telegram message (which reel, why, publish from the Metricool notification). Other platforms still auto-publish. Otherwise `autoPublish: true`.
+- Never present estimates, analyst figures, leaks or rumours as official numbers — write "reportedly", "estimated", "rumored" or name the estimator, in voice, on-screen text, title and captions.
+
 ## RUNBOOK — daily run (21:24 Istanbul, published at about 21:45)
 1. `cd` into the repo, `git pull`. If `gaming-news/shorts/done.txt` already has today's date, stop.
 2. **Pick the stories:** read `gaming-news/posted.txt`, take the links posted in the last 24 h (skip `(same story)` lines). Choose the 3 **biggest** (same "big story" test as the X tweets in `gaming-news/README.md`: GTA 6/Rockstar, platform news, major release/reveal/delay, big industry move, striking number, big GPU/console price change, major esports result). Prefer stories with a striking number or a clear image. Never a story already used in an earlier Short (check `done.txt`).

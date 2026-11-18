@@ -22,7 +22,11 @@ Usage:
      "audio": "audio/s0.mp3",        # voiceover for this story (story 0 also carries the hook line)
      "art": {...}}                    # see ART TYPES below
   ],
-  "outro": {"head": "Which one surprised you most?", "audio": "audio/outro.mp3"}
+  "outro": {"head": "Which one surprised you most?", "audio": "audio/outro.mp3"},
+  "hook": {"text": "GTA 6 BROKE A RECORD",  # OPTIONAL full-screen hook card (owner's request 2026-11-18):
+           "kicker": "BREAKING",           # <= 6 words, very large bold text, ~2 s, shown before story 1;
+           "cat": "games",                 # its own short voice clip (<= 8 words) plays over it
+           "audio": "audio/hook.mp3"}
 }
 ART TYPES (all text in English, short):
   {"type":"image","file":"img/s0.jpg","label":"optional chip"}           article image, scan overlay, slow push-in
@@ -333,6 +337,13 @@ class Ep:
         self.cfg = json.load(open(os.path.join(d, "short.json")))
         st = self.cfg["stories"]; n = len(st)
         self.scenes = []
+        hk = self.cfg.get("hook")
+        if hk:
+            hd = (self.adur(hk.get("audio")) + 0.3) if hk.get("audio") else 2.0
+            self.scenes.append(dict(key="hook", idx=-2, dur=max(2.0, min(hd, 3.2)),
+                                    data=dict(head=hk["text"], tag="HOOK", src="", art={"type": "hook"},
+                                              cat=hk.get("cat", "games"), audio=hk.get("audio"), kicker=hk.get("kicker", "BREAKING"))))
+        self.first = len(self.scenes)
         for i, s in enumerate(st):
             dur = self.adur(s.get("audio")) + 0.35 if s.get("audio") else 5.0
             self.scenes.append(dict(key=f"s{i}", idx=i, data=s, dur=max(dur, 4.0)))
@@ -378,10 +389,52 @@ class Ep:
         self.lines[si] = (lines[:4], f, int(size * 1.02))
         return self.lines[si]
 
+    def hook_page(self, si, t):
+        """Full-screen hook card: huge bold text, high contrast, slam-in."""
+        sc = self.scenes[si]; data = sc["data"]; acc = acc_of(data.get("cat", "games"))
+        cv = page_bg(data.get("cat", "games"), 77).copy()
+        cv = Image.blend(cv, Image.new("RGB", (W, H), (3, 6, 12)), 0.72)
+        d = ImageDraw.Draw(cv, "RGBA")
+        e = ease(t / 0.22)
+        # accent slabs top and bottom
+        d.rectangle([0, 330, W * e, 350], fill=acc + (255,)); d.rectangle([W * (1 - e), 1430, W, 1450], fill=acc + (255,))
+        # kicker chip
+        kt = data.get("kicker", "BREAKING").upper(); kf = fOrb(46, 900); kw = d.textlength(kt, font=kf)
+        flash = int(t * 4) % 2 == 0
+        d.rectangle([W / 2 - kw / 2 - 34, 430, W / 2 + kw / 2 + 34, 520], fill=(255, 40, 40, 255) if flash else acc + (255,))
+        d.text((W / 2, 475), kt, font=kf, fill=(255, 255, 255) if flash else (5, 10, 20), anchor="mm")
+        # giant words, wrapped to fit 960 px, max 4 lines
+        words = data["head"].upper().split(); size = 190
+        while True:
+            f = fOrb(size, 900); lines, cur = [], ""
+            for w in words:
+                tst = (cur + " " + w).strip()
+                if d.textlength(tst, font=f) > 960 and cur: lines.append(cur); cur = w
+                else: cur = tst
+            lines.append(cur)
+            if (len(lines) <= 4 and max(d.textlength(l, font=f) for l in lines) <= 960) or size <= 90: break
+            size -= 8
+        lh = int(size * 1.12); y0 = 960 - lh * len(lines) / 2 + 40
+        sc_ = 1.0 + 0.35 * (1 - e)                       # slam-in zoom
+        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ld = ImageDraw.Draw(layer)
+        for k, ln in enumerate(lines):
+            col = acc if k == len(lines) - 1 else WHITE
+            ld.text((W / 2, y0 + k * lh + lh / 2), ln, font=f, fill=col + (255,), anchor="mm", stroke_width=6, stroke_fill=(0, 0, 0, 255))
+        if sc_ != 1.0:
+            lw, lh2 = int(W * sc_), int(H * sc_)
+            layer = layer.resize((lw, lh2), Image.BILINEAR).crop(((lw - W) // 2, (lh2 - H) // 2, (lw - W) // 2 + W, (lh2 - H) // 2 + H))
+        glow = layer.filter(ImageFilter.GaussianBlur(22))
+        cv.paste(Image.new("RGB", (W, H), acc), (0, 0), glow.split()[3].point(lambda v: int(v * 0.55 * e)))
+        cv.paste(layer, (0, 0), layer)
+        d = ImageDraw.Draw(cv, "RGBA")
+        d.text((W / 2, 1520), "LEVEL UP // GAMING NEWS", font=fMono(30, 700), fill=DIM, anchor="mm")
+        return cv
+
     def page(self, si, t):
         """One full-screen page (no transition)."""
         sc = self.scenes[si]; data = sc["data"]; cat = data.get("cat", "games"); acc = acc_of(cat)
-        gt = self.start(si) + t; n = len(self.cfg["stories"]); last = sc["idx"] < 0
+        if sc["idx"] == -2: return self.hook_page(si, t)
+        gt = self.start(si) + t; n = len(self.cfg["stories"]); last = sc["idx"] == -1
         cv = page_bg(cat, si).copy()
         # sheen sweeping across the solar panels
         sb = sheen_band(); ox = int(-W * 1.6 + ((gt * 0.22) % 1.0) * W * 2.6)
@@ -424,7 +477,7 @@ class Ep:
         d.text((CX0 + 4, CY1 + 26), f"FEED_{sc['idx']+1 if not last else 0:02d} · {data['art']['type'].upper()}", font=fMono(22, 500), fill=acc + (170,), anchor="lm")
         d.text((CX1 - 4, CY1 + 26), "● REC", font=fMono(22, 700), fill=(255, 60, 60, 220 if live else 90), anchor="rm")
         # hook banner (first story, first ~1.8 s)
-        if si == 0:
+        if si == self.first:
             q = 1 - ease((t - 1.7) / 0.3)
             if q > 0:
                 ban = f"{n} GAMING STORIES // {int(round(self.total))} SEC"
@@ -491,7 +544,7 @@ class Ep:
         starts = [0.0]
         for s in self.scenes[:-1]: starts.append(starts[-1] + round(s["dur"] * FPS) / FPS)
         vi = 2
-        clips = [(sc["data"].get("audio") if sc["idx"] >= 0 else self.cfg.get("outro", {}).get("audio")) for sc in self.scenes]
+        clips = [(sc["data"].get("audio") if sc["idx"] != -1 else self.cfg.get("outro", {}).get("audio")) for sc in self.scenes]
         for k, c in enumerate(clips):
             if not c: continue
             inputs += ["-i", os.path.join(self.dir, c)]

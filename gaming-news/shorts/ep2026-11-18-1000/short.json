@@ -1,0 +1,19 @@
+{
+ "date_label": "nov 18",
+ "hook": {"text": "SONY SHUT OUT OF GOTY", "kicker": "TGA 2026", "cat": "playstation", "audio": "audio/hook.mp3"},
+ "stories": [
+  {"tag": "TGA 2026", "cat": "playstation",
+   "head": "No Sony game in The Game Awards' GOTY race for the first time in 11 years",
+   "src": "source: VGC · GameSpot", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "0", "label": "Sony games nominated for GOTY 2026", "badge": "FIRST IN 11 YEARS"}},
+  {"tag": "FIRAXIS", "cat": "games",
+   "head": "Take-Two reportedly lays off about a third of Firaxis, maker of Civilization and XCOM",
+   "src": "source: VGC · IGN", "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "1/3", "label": "of Firaxis staff reportedly cut", "badge": "REPORTED"}},
+  {"tag": "NVIDIA", "cat": "hardware",
+   "head": "Nvidia's board rules out a Jensen Huang comeback, hours after he offered to return",
+   "src": "source: PC Gamer", "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "NO", "label": "Jensen Huang return as Nvidia CEO", "badge": "BOARD SAYS"}}
+ ],
+ "outro": {"head": "Which story surprised you most? Comment below", "audio": "audio/outro.mp3"}
+}
