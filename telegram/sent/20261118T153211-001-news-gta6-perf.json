@@ -1,0 +1,11 @@
+{
+ "job": "20261118T153211-001-news-gta6-perf.json",
+ "ref": "news-gta6-perf",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T15:32:39Z",
+ "message_id": 434,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

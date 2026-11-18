@@ -1,0 +1,11 @@
+{
+ "job": "20261118T153211-003-news-mcd-discord.json",
+ "ref": "news-mcd-discord",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T15:32:42Z",
+ "message_id": 436,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

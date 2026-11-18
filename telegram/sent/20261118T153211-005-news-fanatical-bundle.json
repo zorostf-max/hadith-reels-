@@ -1,0 +1,11 @@
+{
+ "job": "20261118T153211-005-news-fanatical-bundle.json",
+ "ref": "news-fanatical-bundle",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T15:32:46Z",
+ "message_id": 438,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
