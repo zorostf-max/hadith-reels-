@@ -1,0 +1,11 @@
+{
+ "job": "20261118T062949-004-summary-2026-11-18.json",
+ "ref": "summary-2026-11-18",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-18T06:30:02Z",
+ "message_id": 476,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
