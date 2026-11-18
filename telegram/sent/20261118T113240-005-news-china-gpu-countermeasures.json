@@ -1,0 +1,11 @@
+{
+ "job": "20261118T113240-005-news-china-gpu-countermeasures.json",
+ "ref": "news-china-gpu-countermeasures",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T11:33:10Z",
+ "message_id": 416,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

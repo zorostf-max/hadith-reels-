@@ -1,0 +1,11 @@
+{
+ "job": "20261118T113240-007-news-gta6-metacritic-99.json",
+ "ref": "news-gta6-metacritic-99",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T11:33:13Z",
+ "message_id": 418,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

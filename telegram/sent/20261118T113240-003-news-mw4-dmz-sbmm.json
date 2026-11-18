@@ -1,0 +1,11 @@
+{
+ "job": "20261118T113240-003-news-mw4-dmz-sbmm.json",
+ "ref": "news-mw4-dmz-sbmm",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T11:33:07Z",
+ "message_id": 414,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

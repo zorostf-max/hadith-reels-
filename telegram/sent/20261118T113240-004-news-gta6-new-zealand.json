@@ -1,0 +1,11 @@
+{
+ "job": "20261118T113240-004-news-gta6-new-zealand.json",
+ "ref": "news-gta6-new-zealand",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T11:33:08Z",
+ "message_id": 415,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
