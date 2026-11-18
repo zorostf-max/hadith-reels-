@@ -1,0 +1,11 @@
+{
+ "job": "20261118T062929-000-channel-bukhari-013.json",
+ "ref": "channel-bukhari-013",
+ "method": "sendVideo",
+ "ok": false,
+ "sent_at": "2026-11-18T07:10:10Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": "Bad Request: failed to get HTTP URL content",
+ "fallback_used": false
+}
