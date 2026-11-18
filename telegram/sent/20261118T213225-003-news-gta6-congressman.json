@@ -1,0 +1,11 @@
+{
+ "job": "20261118T213225-003-news-gta6-congressman.json",
+ "ref": "news-gta6-congressman",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T21:33:06Z",
+ "message_id": 461,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

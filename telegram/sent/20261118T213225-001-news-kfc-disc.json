@@ -1,0 +1,11 @@
+{
+ "job": "20261118T213225-001-news-kfc-disc.json",
+ "ref": "news-kfc-disc",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T21:33:03Z",
+ "message_id": 459,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

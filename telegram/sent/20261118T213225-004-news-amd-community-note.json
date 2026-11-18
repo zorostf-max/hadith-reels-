@@ -1,0 +1,11 @@
+{
+ "job": "20261118T213225-004-news-amd-community-note.json",
+ "ref": "news-amd-community-note",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T21:33:07Z",
+ "message_id": 462,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
