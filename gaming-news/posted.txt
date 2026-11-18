@@ -708,3 +708,11 @@
 2026-11-18 22:08	Eurogamer (same story)	https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital
 2026-11-18 21:49	GameSpot	https://www.gamespot.com/articles/gta-6-has-a-hilarious-riff-on-easter-eggs/
 2026-11-18 22:53	GameSpot	https://www.gamespot.com/articles/how-xboxs-streaming-deal-for-gta-6-could-expand-its-marketshare-by-30/
+2026-11-18 23:00	IGN	https://www.ign.com/articles/devgamm-awards-2026-winners-revealed
+2026-11-18 23:22	GameSpot	https://www.gamespot.com/articles/kfc-announces-gta-6-promo-where-you-get-a-disc-shaped-piece-of-chicken/
+2026-11-18 23:40	Eurogamer	https://www.eurogamer.net/gta-6-japanese-jason-thong-regional-censorship
+2026-11-18 23:53	VGC	https://www.videogameschronicle.com/news/republican-congressman-says-youre-a-bad-parent-if-you-let-your-child-play-gta-6/
+2026-11-19 00:00	Tom's Hardware	https://www.tomshardware.com/pc-components/amds-twitter-brag-that-it-loves-gamers-met-with-savage-community-note-post-met-with-backlash-over-the-companys-pivot-to-ai
+2026-11-19 00:00	Tom's Hardware	https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected
+2026-11-18 23:13	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-devs-react-to-unprecedented-reviews-i-feel-like-a-kid-on-christmas-morning/
+2026-11-18 23:55	GameSpot (same story)	https://www.gamespot.com/articles/psn-went-down-sorta-on-gta-6-eve/
