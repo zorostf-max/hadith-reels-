@@ -1,0 +1,11 @@
+{
+ "job": "20261118T190200-001-short-2200-note.json",
+ "ref": "short-2200-note",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-18T19:02:53Z",
+ "message_id": 484,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
