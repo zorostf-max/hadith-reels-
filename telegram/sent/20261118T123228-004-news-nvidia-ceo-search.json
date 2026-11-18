@@ -1,0 +1,11 @@
+{
+ "job": "20261118T123228-004-news-nvidia-ceo-search.json",
+ "ref": "news-nvidia-ceo-search",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T12:32:50Z",
+ "message_id": 421,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

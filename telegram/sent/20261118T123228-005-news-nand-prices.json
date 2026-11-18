@@ -1,0 +1,11 @@
+{
+ "job": "20261118T123228-005-news-nand-prices.json",
+ "ref": "news-nand-prices",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T12:32:52Z",
+ "message_id": 422,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
