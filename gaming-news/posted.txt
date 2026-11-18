@@ -716,3 +716,9 @@
 2026-11-19 00:00	Tom's Hardware	https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-geforce-driver-bug-reportedly-hammers-ssds-with-up-to-30gb-of-writes-per-hour-users-trace-massive-idle-wear-to-background-service-newer-driver-reportedly-still-affected
 2026-11-18 23:13	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-devs-react-to-unprecedented-reviews-i-feel-like-a-kid-on-christmas-morning/
 2026-11-18 23:55	GameSpot (same story)	https://www.gamespot.com/articles/psn-went-down-sorta-on-gta-6-eve/
+2026-11-19 00:34	PC Gamer	https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-huge-players-have-created-over-15-million-characters-so-far/
+2026-11-19 00:27	GamesRadar+ (same story)	https://www.gamesradar.com/games/grand-theft-auto/gta-6-at-60fps-on-ps5-pro-isnt-possible-because-the-console-is-not-powerful-enough-rockstar-says/
+2026-11-19 00:51	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-for-60-fps-gta-6-as-i-crack-a-smile-at-my-5090/
+2026-11-19 00:46	GamesRadar+ (same story)	https://www.gamesradar.com/games/roguelike/analyst-proves-slay-the-spire-2-players-are-obsessed-using-the-power-of-math-starting-with-nearly-8-million-copies-sold/
+2026-11-19 01:09	VGC (same story)	https://www.videogameschronicle.com/news/mindseye-studio-wants-to-sue-saboteurs-to-pay-off-62-million-debt/
+2026-11-19 01:12	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/devolvers-not-just-launching-a-game-on-the-same-day-as-gta-6-its-using-a-shot-by-shot-remake-of-the-gta-6-launch-trailer-too/
