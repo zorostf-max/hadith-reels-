@@ -1,0 +1,54 @@
+{
+ "date_label": "nov 18",
+ "hook": {
+  "text": "GTA 6 SCORES 99",
+  "kicker": "METACRITIC",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "GTA 6 hits 99 on Metacritic, tied with Ocarina of Time as the highest-rated game ever",
+   "src": "source: VGC \u00b7 IGN",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "99",
+    "label": "Metacritic score",
+    "badge": "TIED ALL-TIME #1"
+   }
+  },
+  {
+   "tag": "NVIDIA",
+   "cat": "hardware",
+   "head": "Nvidia posts another record quarter: $115.8B revenue, $20B from Vera Rubin",
+   "src": "source: Tom's Hardware",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "$115.8B",
+    "label": "quarterly revenue",
+    "badge": "RECORD"
+   }
+  },
+  {
+   "tag": "STS 2",
+   "cat": "pc",
+   "head": "Slay the Spire 2 has sold an estimated 7.9M copies on Steam, still in Early Access",
+   "src": "source: Eurogamer",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "7.9M",
+    "label": "copies sold (estimated)",
+    "badge": "EARLY ACCESS"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Does GTA 6 deserve the 99? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
