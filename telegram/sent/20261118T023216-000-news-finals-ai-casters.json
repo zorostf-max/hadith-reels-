@@ -1,0 +1,11 @@
+{
+ "job": "20261118T023216-000-news-finals-ai-casters.json",
+ "ref": "news-finals-ai-casters",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T02:32:47Z",
+ "message_id": 408,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
