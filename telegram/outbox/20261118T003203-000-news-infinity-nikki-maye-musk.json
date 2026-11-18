@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assets-prd.ignimgs.com/2026/11/17/maye-musk-infinity-nikki-confusion-1794955678498.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Elon Musk's mother shows up in Infinity Nikki's 3.0 trailers</b>\n\nInfinity Nikki fans were left confused after Maye Musk, Elon Musk's mother, appeared in a run of trailers announcing the game's upcoming 3.0 update on November 16. Players are now asking what the cameo means for the cozy dress-up adventure and why she was chosen.\n\n🕒 Nov 18, 2026 · 01:56 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/infinity-nikki-players-baffled-after-elon-musks-mom-appears-in-games-update-trailers\">IGN</a>\n\n🤔 Weird or smart marketing? React 👍 or 👎 · 💬 Tell us your take\n\n#InfinityNikki #MayeMusk #Gacha #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-infinity-nikki-maye-musk",
+ "fallback_text": "🎮 <b>Elon Musk's mother shows up in Infinity Nikki's 3.0 trailers</b>\n\nInfinity Nikki fans were left confused after Maye Musk, Elon Musk's mother, appeared in a run of trailers announcing the game's upcoming 3.0 update on November 16. Players are now asking what the cameo means for the cozy dress-up adventure and why she was chosen.\n\n🕒 Nov 18, 2026 · 01:56 (GMT+3)\n📰 Source: <a href=\"https://www.ign.com/articles/infinity-nikki-players-baffled-after-elon-musks-mom-appears-in-games-update-trailers\">IGN</a>\n\n🤔 Weird or smart marketing? React 👍 or 👎 · 💬 Tell us your take\n\n#InfinityNikki #MayeMusk #Gacha #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
