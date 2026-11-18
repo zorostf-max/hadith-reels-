@@ -79,13 +79,14 @@
     473
    ],
    "preview_message_ids": [
-    485,
-    486
+    487,
+    488
    ],
    "notes": [
     "2026-11-17: S1 wrote ep03 (حليمة السعدية وبركة الرضيع); closing line points to Tuesday.",
     "2026-11-18: S2 blocked — ElevenLabs connector failed to connect (timeout, then HTTP 400) after several retries; no images/voices generated. Script approved (msg 474).",
-    "2026-11-18 19:20Z: S2 retry done — 5 images + 16 voice clips (ElevenLabs flow 8KPqGx4qCz2Pg3Bd6wiB), render 2:46 / 14.1 MB, caption with FB/Threads links; preview sent (485/486). Video commit 079acedd588406d97b278f98f2b8fcd261d91616."
+    "2026-11-18 19:20Z: S2 retry done — 5 images + 16 voice clips (ElevenLabs flow 8KPqGx4qCz2Pg3Bd6wiB), render 2:46 / 14.1 MB, caption with FB/Threads links; preview sent (485/486). Video commit 079acedd588406d97b278f98f2b8fcd261d91616.",
+    "2026-11-19 00:43 Istanbul: owner-requested fixes (اعلمي, أخذتِ with kasra, Ibn Hisham wording for يشبّ… جفرًا, Omar asks meaning of جفرًا, tighter pauses); new render 2:47 / 14.3 MB; corrected preview sent (487/488). Old preview 485/486 is obsolete."
    ],
    "messages": [
     {
@@ -94,7 +95,7 @@
      "text": "Ok"
     }
    ],
-   "video_commit": "079acedd588406d97b278f98f2b8fcd261d91616"
+   "video_commit": "e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1"
   },
   "compilation_overrides": {
    "2026-11-21": [
