@@ -1,0 +1,11 @@
+{
+ "job": "20261118T193230-000-news-nvidia-raises.json",
+ "ref": "news-nvidia-raises",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T19:33:14Z",
+ "message_id": 452,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261118T193230-002-news-psn-errors-gta6.json",
+ "ref": "news-psn-errors-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-18T19:33:18Z",
+ "message_id": 454,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
