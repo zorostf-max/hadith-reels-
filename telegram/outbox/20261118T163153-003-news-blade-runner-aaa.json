@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/DgFwVB2qofbe3KJj34PmBZ-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>A AAA Blade Runner game could be on the way</b>\n\nThe producers behind the Blade Runner 2099 series say they are in talks about a \"AAA\" video game set in the cyberpunk universe of the films. Nothing is announced yet, but it would be the biggest Blade Runner game in decades.\n\n🕒 Nov 18, 2026 · 19:21 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/blade-runner-2099-producers-in-talks-for-aaa-game-based-on-the-cinematic-cyberpunk-universe/\">GamesRadar+</a>\n\n🌆 Want a big-budget Blade Runner game? React 👍 · 💬 Which studio should make it?\n\n#BladeRunner #BladeRunner2099 #Cyberpunk #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-blade-runner-aaa",
+ "fallback_text": "🎮 <b>A AAA Blade Runner game could be on the way</b>\n\nThe producers behind the Blade Runner 2099 series say they are in talks about a \"AAA\" video game set in the cyberpunk universe of the films. Nothing is announced yet, but it would be the biggest Blade Runner game in decades.\n\n🕒 Nov 18, 2026 · 19:21 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/blade-runner-2099-producers-in-talks-for-aaa-game-based-on-the-cinematic-cyberpunk-universe/\">GamesRadar+</a>\n\n🌆 Want a big-budget Blade Runner game? React 👍 · 💬 Which studio should make it?\n\n#BladeRunner #BladeRunner2099 #Cyberpunk #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

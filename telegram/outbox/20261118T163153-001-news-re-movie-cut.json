@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gamespot.com/wp-content/uploads/2026/11/REMovie.png",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Resident Evil movie's rough cut had far more swearing</b>\n\nDirector Zach Cregger says the rough cut of his Resident Evil film was \"carpeted\" with f-words, even more than the final version, where lead character Bryan (Austin Abrams) swears constantly in Raccoon City. He revealed it in an interview for the movie's home release, and Abrams added that a lot of the swearing was improvised.\n\n🕒 Nov 18, 2026 · 18:29 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/the-fk-cut-resident-evil-movie-has-a-version-with-a-lot-more-swearing/\">GameSpot</a>\n👥 <a href=\"https://x.com/CapcomUSA_\">@CapcomUSA_</a>\n\n🧟 Would you watch the uncut version? React 🔥 · 💬 Comment below\n\n#ResidentEvil #Capcom #RaccoonCity #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-re-movie-cut",
+ "fallback_text": "🎮 <b>Resident Evil movie's rough cut had far more swearing</b>\n\nDirector Zach Cregger says the rough cut of his Resident Evil film was \"carpeted\" with f-words, even more than the final version, where lead character Bryan (Austin Abrams) swears constantly in Raccoon City. He revealed it in an interview for the movie's home release, and Abrams added that a lot of the swearing was improvised.\n\n🕒 Nov 18, 2026 · 18:29 (GMT+3)\n📰 Source: <a href=\"https://www.gamespot.com/articles/the-fk-cut-resident-evil-movie-has-a-version-with-a-lot-more-swearing/\">GameSpot</a>\n👥 <a href=\"https://x.com/CapcomUSA_\">@CapcomUSA_</a>\n\n🧟 Would you watch the uncut version? React 🔥 · 💬 Comment below\n\n#ResidentEvil #Capcom #RaccoonCity #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

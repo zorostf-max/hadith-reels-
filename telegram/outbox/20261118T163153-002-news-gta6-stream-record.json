@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/grand-theft-auto-6-man-holding-phone-near-lucia.png?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 breaks the all-time livestream record before most players can even start</b>\n\nHours before it unlocks in most of the world, GTA 6 has already set the record for the most viewers ever across livestreaming platforms like Twitch. The hype also hit Reddit: the game's official subreddit has been running into technical issues under the flood of traffic.\n\n🕒 Nov 18, 2026 · 18:42 (GMT+3)\n📰 Sources: <a href=\"https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken\">Eurogamer</a> · <a href=\"https://www.eurogamer.net/grand-theft-auto-6-breaks-reddit-not-out-yet\">Eurogamer (Reddit)</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/Twitch\">@Twitch</a>\n\n🔥 React if you're watching a stream right now · 💬 Who are you watching?\n\n#GTA6 #RockstarGames #Twitch #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-stream-record",
+ "fallback_text": "🎮 <b>GTA 6 breaks the all-time livestream record before most players can even start</b>\n\nHours before it unlocks in most of the world, GTA 6 has already set the record for the most viewers ever across livestreaming platforms like Twitch. The hype also hit Reddit: the game's official subreddit has been running into technical issues under the flood of traffic.\n\n🕒 Nov 18, 2026 · 18:42 (GMT+3)\n📰 Sources: <a href=\"https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken\">Eurogamer</a> · <a href=\"https://www.eurogamer.net/grand-theft-auto-6-breaks-reddit-not-out-yet\">Eurogamer (Reddit)</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a> · <a href=\"https://x.com/Twitch\">@Twitch</a>\n\n🔥 React if you're watching a stream right now · 💬 Who are you watching?\n\n#GTA6 #RockstarGames #Twitch #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
