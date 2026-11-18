@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/d044663a63e88c272be8a3e4678ce2c629c1bc4c/gaming-news/shorts/ep2026-11-18-1400/short.mp4",
+  "caption": "🎬 <b>Gaming this afternoon: 3 stories in 42 seconds</b>\n\n🕹️ Sony pushes a third PS5 system update in a month, right before GTA 6 launches\n🏆 Embark swapped real casters for AI voices in a The Finals Grand Major reel; casters push back\n🎮 Blizzard suspends WoW Forever gold exploit abusers and removes the gold\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-1400"
+}
