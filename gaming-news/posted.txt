@@ -667,3 +667,13 @@
 2026-11-18 16:30	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/data-centers/nvidia-board-faction-angling-for-jensen-huang-return-as-ceo-report-claims-company-defiant-at-earnings-calls-says-no-possibility-of-reinstatement
 2026-11-18 17:14	Eurogamer (same story)	https://www.eurogamer.net/infinity-nikki-elon-musk-maye-mother-fan-reaction
 2026-11-18 17:10	PC Gamer (same story)	https://www.pcgamer.com/gaming-industry/aaa-is-under-the-most-amount-of-threat-ex-take-two-boss-explains-why-making-big-games-is-unsustainable-except-for-gta-6/
+2026-11-18 16:59	GameSpot	https://www.gamespot.com/articles/want-a-custom-gta-6-ps5-pro-just-play-in-the-nba/
+2026-11-18 17:29	VGC	https://www.videogameschronicle.com/news/gta-6-xbox-series-s-performance-analysis-admires-the-effort-but-says-significant-frame-drops-are-a-problem/
+2026-11-18 18:02	VGC (same story)	https://www.videogameschronicle.com/news/gta-6-base-ps5-performance-analysis-shows-struggle-to-maintain-30-fps-at-all-times/
+2026-11-18 17:49	GameSpot	https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/
+2026-11-18 18:00	GameSpot	https://www.gamespot.com/articles/mcdonalds-knows-you-wont-want-to-pause-gta-6-to-make-dinner/
+2026-11-18 18:10	Eurogamer	https://www.eurogamer.net/gta-6-detailed-fridge-noise
+2026-11-18 18:16	VGC	https://www.videogameschronicle.com/news/fanaticals-mystery-birthday-bundle-lets-you-buy-up-to-25-steam-games-for-17-50-with-a-chance-to-win-a-steam-deck/
+2026-11-18 17:27	GameSpot (same story)	https://www.gamespot.com/articles/gta-6-is-apparently-everything-rockstar-promised-and-then-some/
+2026-11-18 18:17	Eurogamer (same story)	https://www.eurogamer.net/playstation-sony-game-awards-no-nominations
+2026-11-18 17:10	Tom's Hardware (same story)	https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang
