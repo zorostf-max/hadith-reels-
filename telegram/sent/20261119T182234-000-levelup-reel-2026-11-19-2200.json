@@ -1,0 +1,11 @@
+{
+ "job": "20261119T182234-000-levelup-reel-2026-11-19-2200.json",
+ "ref": "levelup-reel-2026-11-19-2200",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-19T18:23:12Z",
+ "message_id": 505,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
