@@ -20,14 +20,18 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 - **Hook card (owner's request 2026-11-18):** every reel opens with a full-screen hook card — add to `short.json`:
   `"hook": {"text": "<= 6 words, the most striking fact/number/name>", "kicker": "BREAKING|TGA 2026|…", "cat": "<cat>", "audio": "audio/hook.mp3"}`.
   `make_short.py` renders it as its own ~2–3.2 s page (very large Orbitron 900, black stroke, accent glow, slam-in) before story 1. Its voice clip `audio/hook.mp3` is a separate ElevenLabs generation of ≤ 8 words (e.g. "[energetic] GTA 6 just broke a record."); story 1's clip then starts "Three gaming stories you missed. Number one: …".
-- Publishing is through **Metricool** (blogId 8168112): one post YouTube Short + Instagram Reel + Facebook Reel; a separate TikTok post; a separate Threads + Bluesky post (text ≤ 300 chars). Not on X. The "YouTube — published through Claude in Chrome" section below is no longer used by the slot runs.
+- Publishing is through **Metricool** (blogId 8168112): one post YouTube Short + Instagram Reel + Facebook Reel; a separate Threads + Bluesky post (text ≤ 300 chars). No Metricool TikTok post (the owner posts TikTok by hand, see below). Not on X. The "YouTube — published through Claude in Chrome" section below is no longer used by the slot runs.
 - If WebFetch is unavailable in an unattended run, the facts can come from the hourly run's own channel captions (recover them with `git log` / `git show` of the committed `telegram/outbox/*.json` jobs), cross-checked with WebSearch result titles; anything that is not clearly confirmed is worded "reportedly".
 
-## TikTok rules (owner's requests 2026-11-17/18)
-- Every TikTok post MUST carry the AI-generated label: `tiktokData.isAigc = true`. `tiktokData.title` is REQUIRED (short English hook, ≤ 90 chars), `privacyOption "PUBLIC_TO_EVERYONE"`, `autoAddMusic false`.
-- Mature-rated games (GTA, Call of Duty, Mortal Kombat, horror…): no violence, weapons, blood, gore, drugs or crime scenes in the visuals or thumbnail — logo/key art without violence, text cards and numbers only. Prefer a non-mature lead story when one is equally big.
-- **Automatic publishing (owner's decision 2026-11-18, 17:15):** the owner set TikTok's 18+ Audience controls himself, so TikTok posts are ALWAYS scheduled with `autoPublish: true`, including reels about mature-rated games. Never schedule TikTok with `autoPublish: false` and never send him a "publish it by hand" message.
+## TikTok — posted BY THE OWNER by hand (owner's decision 2026-11-18, 22:04)
+- **No Metricool TikTok post any more** (replaces the old "TikTok always `autoPublish: true`" rule). Each slot run sends the owner, in his private chat (`state.json → telegram_chat_id`), through the bridge, timed with `--not-before <slot in UTC>` in the same push as the reel (quiet hours: a slot between 00:00 and 08:59 Istanbul → `--not-before` 06:00 UTC):
+  1. `sendVideo` with the reel's public raw URL (≤ 20 MB, else sendDocument / link via `--fallback-text`) + short Arabic caption «🎵 ريل تيك توك جاهز للنشر — موعد HH:MM», plus «⚠️ فعّل خيار الجمهور 18+ (Audience controls)» only when a story is about a mature-rated game, and always «🤖 فعّل علامة المحتوى المُنشأ بالذكاء الاصطناعي (AI-generated)».
+  2. `sendMessage` (parse_mode HTML) with ONLY the English TikTok caption inside `<code>…</code>`: hook line ≤ 90 chars (works as the TikTok title), a question, 3–4 hashtags (#gamingnews #gaming + topic). No unverified figures stated as fact.
+- Content rules still apply: mature-rated games (GTA, Call of Duty, Mortal Kombat, horror…): no violence, weapons, blood, gore, drugs or crime scenes in the visuals or thumbnail — logo/key art without violence, text cards and numbers only. Prefer a non-mature lead story when one is equally big.
 - Never present estimates, analyst figures, leaks or rumours as official numbers — write "reportedly", "estimated", "rumored" or name the estimator, in voice, on-screen text, title and captions.
+
+## YouTube title length (owner's request 2026-11-18)
+- After YouTube rejected a 101-character title ("invalid or empty video title"): the YouTube title INCLUDING " #shorts" and every emoji/symbol must be **≤ 90 characters**. Count it with code before scheduling (`python3 -c "print(len('''<title>'''))"`); if over 90, shorten it (keep the lead story only) and count again. Never use `<` or `>` in the title. Write the same checked title in `youtube.txt`.
 
 ## RUNBOOK — daily run (21:24 Istanbul, published at about 21:45)
 1. `cd` into the repo, `git pull`. If `gaming-news/shorts/done.txt` already has today's date, stop.

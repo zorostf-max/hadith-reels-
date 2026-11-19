@@ -1,0 +1,19 @@
+{
+ "date_label": "nov 19",
+ "hook": {"text": "15 MILLION WOW CHARACTERS", "kicker": "WOW: FOREVER", "cat": "games", "audio": "audio/hook.mp3"},
+ "stories": [
+  {"tag": "WOW", "cat": "games",
+   "head": "WoW: Forever passes 15 million characters, Blizzard's biggest WoW launch ever",
+   "src": "source: PC Gamer", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "15M+", "label": "characters created", "badge": "BIGGEST WOW LAUNCH"}},
+  {"tag": "GEFORCE", "cat": "hardware",
+   "head": "GeForce driver bug reportedly writes up to 30GB an hour to SSDs, even when idle",
+   "src": "source: Tom's Hardware", "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "30GB/h", "label": "reported SSD writes at idle", "badge": "DRIVER BUG"}},
+  {"tag": "GTA 6", "cat": "xbox",
+   "head": "Ampere estimates GTA 6 cloud play on Xbox One could grow its Xbox audience ~30%",
+   "src": "source: GameSpot", "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "+30%", "label": "est. Xbox audience (Ampere)", "badge": "CLOUD GAMING"}}
+ ],
+ "outro": {"head": "Which one matters most to you? Comment below", "audio": "audio/outro.mp3"}
+}
