@@ -731,3 +731,5 @@
 2026-11-19 12:48	IGN	https://www.ign.com/articles/burger-king-parodies-gtas-heart-stopper-burger-with-real-life-7-patty-heartwhopper
 2026-11-19 13:00	Tom's Hardware	https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot
 2026-11-19 13:08	VGC	https://www.videogameschronicle.com/news/the-xbox-series-s-version-of-gta-6-is-seemingly-the-first-to-use-amds-fsr-4-1-upscaling/
+2026-11-19 13:43	VGC	https://www.videogameschronicle.com/news/rockstar-explains-why-you-cant-play-darts-in-gta-6-we-dont-have-unlimited-time/
+2026-11-19 14:00	Dexerto (same story)	https://www.dexerto.com/gta/gta-6-fans-in-japan-disappointed-after-discovering-censored-content-3429762/
