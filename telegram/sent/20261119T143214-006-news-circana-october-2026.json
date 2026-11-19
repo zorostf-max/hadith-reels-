@@ -1,0 +1,11 @@
+{
+ "job": "20261119T143214-006-news-circana-october-2026.json",
+ "ref": "news-circana-october-2026",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T14:32:59Z",
+ "message_id": 489,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

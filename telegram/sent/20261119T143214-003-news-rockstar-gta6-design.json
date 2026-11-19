@@ -1,0 +1,11 @@
+{
+ "job": "20261119T143214-003-news-rockstar-gta6-design.json",
+ "ref": "news-rockstar-gta6-design",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T14:32:53Z",
+ "message_id": 486,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

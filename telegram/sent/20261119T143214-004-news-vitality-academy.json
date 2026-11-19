@@ -1,0 +1,11 @@
+{
+ "job": "20261119T143214-004-news-vitality-academy.json",
+ "ref": "news-vitality-academy",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T14:32:55Z",
+ "message_id": 487,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

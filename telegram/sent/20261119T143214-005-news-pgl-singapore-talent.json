@@ -1,0 +1,11 @@
+{
+ "job": "20261119T143214-005-news-pgl-singapore-talent.json",
+ "ref": "news-pgl-singapore-talent",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T14:32:57Z",
+ "message_id": 488,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
