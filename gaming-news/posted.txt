@@ -728,3 +728,6 @@
 2026-11-19 06:09	PC Gamer	https://www.pcgamer.com/games/strategy/over-an-hour-of-new-total-war-warhammer-40-000-campaign-footage-shows-gear-customization-fleet-mechanics-and-emphasizes-space-marines-are-not-always-trusted-and-hard-to-replace/
 2026-11-19 11:41	Eurogamer	https://www.eurogamer.net/xbox-cant-say-grand-theft-auto-6-marketing
 2026-11-19 12:05	Eurogamer (same story)	https://www.eurogamer.net/gta-6-grand-theft-auto-6-launch-day-live-blog
+2026-11-19 12:48	IGN	https://www.ign.com/articles/burger-king-parodies-gtas-heart-stopper-burger-with-real-life-7-patty-heartwhopper
+2026-11-19 13:00	Tom's Hardware	https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot
+2026-11-19 13:08	VGC	https://www.videogameschronicle.com/news/the-xbox-series-s-version-of-gta-6-is-seemingly-the-first-to-use-amds-fsr-4-1-upscaling/
