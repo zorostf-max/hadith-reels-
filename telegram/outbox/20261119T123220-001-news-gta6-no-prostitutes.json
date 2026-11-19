@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/7GMWduYvHNCyQpEDcNjMch-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 drops a long-running series feature, and Rockstar explains why</b>\n\nRockstar confirmed that GTA 6 does not let players hire prostitutes, a first for the series in about 25 years. The studio says everything in the game was built to support \"the spirit of the story we wanted to tell\", and this mechanic did not fit that.\n\n🕒 Nov 19, 2026 · 14:38 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-says-gta-6-doesnt-let-you-hire-prostitutes-for-the-first-time-in-25-years-as-it-doesnt-support-the-spirit-of-the-story-we-wanted-to-tell/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n👍 Good call or 👎 not? · 💬 Tell us what you think below\n\n#GTA6 #RockstarGames #ViceCity #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-no-prostitutes",
+ "fallback_text": "🎮 <b>GTA 6 drops a long-running series feature, and Rockstar explains why</b>\n\nRockstar confirmed that GTA 6 does not let players hire prostitutes, a first for the series in about 25 years. The studio says everything in the game was built to support \"the spirit of the story we wanted to tell\", and this mechanic did not fit that.\n\n🕒 Nov 19, 2026 · 14:38 (GMT+3)\n📰 Source: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-says-gta-6-doesnt-let-you-hire-prostitutes-for-the-first-time-in-25-years-as-it-doesnt-support-the-spirit-of-the-story-we-wanted-to-tell/\">GamesRadar+</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n👍 Good call or 👎 not? · 💬 Tell us what you think below\n\n#GTA6 #RockstarGames #ViceCity #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
