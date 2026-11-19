@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/22ab789d82099fa57eca9fe1787d0ed2de83e075/gaming-news/shorts/ep2026-11-19-1400/short.mp4",
+  "parse_mode": "HTML",
+  "caption": "🎬 <b>Gaming in 38 seconds: 3 stories</b>\n\n🔒 GTA 6 cheats stay locked until you finish all 91 story missions, and only on that save (PC Gamer)\n💰 Deus Ex creator Warren Spector hopes GTA 6's reported $1B budget is \"the last of its kind\" (GamesRadar+)\n🚀 Jennifer Hale: EA should sell Mass Effect straight to the fans (GamesRadar+)\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+ },
+ "ref": "short-20261119-1400",
+ "fallback_text": "🎬 Gaming in 38 seconds — https://raw.githubusercontent.com/zorostf-max/hadith-reels-/22ab789d82099fa57eca9fe1787d0ed2de83e075/gaming-news/shorts/ep2026-11-19-1400/short.mp4"
+}
