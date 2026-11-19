@@ -72,32 +72,17 @@
   ],
   "slot": "10:00",
   "pending": {
-   "episode": 3,
-   "publish_date": "2026-11-19",
-   "status": "scheduled",
+   "episode": 4,
+   "publish_date": "2026-11-24",
+   "status": "script_sent",
    "script_message_ids": [
-    473
+    497
    ],
-   "preview_message_ids": [
-    487,
-    488
-   ],
+   "preview_message_ids": [],
    "notes": [
-    "2026-11-17: S1 wrote ep03 (حليمة السعدية وبركة الرضيع); closing line points to Tuesday.",
-    "2026-11-18: S2 blocked — ElevenLabs connector failed to connect (timeout, then HTTP 400) after several retries; no images/voices generated. Script approved (msg 474).",
-    "2026-11-18 19:20Z: S2 retry done — 5 images + 16 voice clips (ElevenLabs flow 8KPqGx4qCz2Pg3Bd6wiB), render 2:46 / 14.1 MB, caption with FB/Threads links; preview sent (485/486). Video commit 079acedd588406d97b278f98f2b8fcd261d91616.",
-    "2026-11-19 00:43 Istanbul: owner-requested fixes (اعلمي, أخذتِ with kasra, Ibn Hisham wording for يشبّ… جفرًا, Omar asks meaning of جفرًا, tighter pauses); new render 2:47 / 14.3 MB; corrected preview sent (487/488). Old preview 485/486 is obsolete.",
-    "2026-11-19 09:24 Istanbul: S3 — no reply from the owner after preview 487 (inbox refreshed, nothing after msg 474); not published, status skipped (reason: no approval). Moves to the next Tuesday/Thursday (S1 carries it over; closing line must name the right day).",
-    "2026-11-19 10:18 Istanbul: owner replied in the Claude chat «لا انشرها، لا تجعلها في موعد آخر، انشرها الآن» = explicit approval to publish now; skip reversed, scheduled for 10:30 today."
+    "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497)."
    ],
-   "messages": [
-    {
-     "date_utc": "2026-11-17T17:15:57Z",
-     "message_id": 474,
-     "text": "Ok"
-    }
-   ],
-   "video_commit": "e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1"
+   "messages": []
   },
   "compilation_overrides": {
    "2026-11-21": [
