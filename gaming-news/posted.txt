@@ -749,3 +749,12 @@
 2026-11-19 15:56	GamesRadar+	https://www.gamesradar.com/games/open-world/after-crimson-deserts-game-awards-snub-pearl-abyss-wins-a-record-breaking-8-categories-at-the-korea-game-awards-instead/
 2026-11-19 16:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology
 2026-11-19 16:19	PC Gamer (same story)	https://www.pcgamer.com/hardware/gaming-monitors/oled-monitor-shipments-have-doubled-from-last-year-and-all-i-can-say-is-its-well-deserved/
+2026-11-19 16:20	VGC	https://www.videogameschronicle.com/news/rockstar-says-theres-no-disney-world-in-gta-6-for-an-obvious-reason/
+2026-11-19 16:43	Eurogamer (same story)	https://www.eurogamer.net/grand-theft-auto-6-no-web-social-media-apps
+2026-11-19 16:44	PC Gamer (same story)	https://www.pcgamer.com/games/grand-theft-auto/you-cant-cheat-on-lucia-in-gta-6-with-mandy-or-strippers-because-rockstar-doesnt-believe-thats-complementary-to-the-feeling-and-motivations-of-jason-and-lucias-story/
+2026-11-19 16:28	HLTV	https://www.hltv.org/news/46013/vitality-to-shut-down-academy-project
+2026-11-19 17:00	HLTV	https://www.hltv.org/news/46014/pgl-announce-singapore-major-talent-lineup
+2026-11-19 17:01	Eurogamer	https://www.eurogamer.net/call-of-duty-modern-warfare-4-october-top-seller
+2026-11-19 17:07	GameSpot (same story)	https://www.gamespot.com/articles/despite-the-pricing-hellscape-console-sales-grew-in-october/
+2026-11-19 17:08	Eurogamer (same story)	https://www.eurogamer.net/gta-6-warren-spector-lambasts-billion-dollar-development
+2026-11-19 17:08	Eurogamer (same story)	https://www.eurogamer.net/gta-6-rockstar-tribunal-awaits-verdict
