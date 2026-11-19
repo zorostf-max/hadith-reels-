@@ -1,0 +1,11 @@
+{
+ "job": "20261119T003149-000-news-spector-gta6.json",
+ "ref": "news-spector-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T00:32:19Z",
+ "message_id": 466,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
