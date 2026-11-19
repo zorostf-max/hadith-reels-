@@ -741,3 +741,11 @@
 2026-11-19 15:09	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-borderlands-4-boss-reminds-everyone-that-rockstars-launch-week-revenue-is-predicted-to-top-the-biggest-star-wars-lord-of-the-rings-and-harry-potter-movies-combined/
 2026-11-19 14:52	PC Gamer (same story)	https://www.pcgamer.com/hardware/memory/ddr6-memory-modules-to-be-almost-half-the-size-of-ddr5-and-almost-double-the-max-speed/
 2026-11-19 14:48	PC Gamer (same story)	https://www.pcgamer.com/games/action/former-rockstar-presidents-studio-is-looking-to-sue-its-way-out-of-a-gbp61-million-debt-and-yes-its-still-claiming-mindseye-suffered-a-coordinated-campaign-of-negative-online-reviews/
+2026-11-19 14:39	IGN	https://www.ign.com/articles/gta-6-estimated-to-have-reached-20-million-preorders-ahead-of-launch
+2026-11-19 15:27	GameSpot	https://www.gamespot.com/articles/playstation-plus-is-losing-more-games-but-one-departure-stings-the-most/
+2026-11-19 15:31	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/as-digital-only-gta-6-smashes-records-gamestop-ceo-says-move-from-physical-copies-has-hurt-consumers-as-they-should-be-able-to-sell-or-trade-purchases/
+2026-11-19 15:46	IGN (same story)	https://www.ign.com/articles/gamestop-ceo-blasts-digital-only-gta-6-no-disc
+2026-11-19 16:03	Eurogamer (same story)	https://www.eurogamer.net/gta-6-discless-release-code-in-a-box-gamestop-ceo
+2026-11-19 15:56	GamesRadar+	https://www.gamesradar.com/games/open-world/after-crimson-deserts-game-awards-snub-pearl-abyss-wins-a-record-breaking-8-categories-at-the-korea-game-awards-instead/
+2026-11-19 16:00	Tom's Hardware	https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology
+2026-11-19 16:19	PC Gamer (same story)	https://www.pcgamer.com/hardware/gaming-monitors/oled-monitor-shipments-have-doubled-from-last-year-and-all-i-can-say-is-its-well-deserved/
