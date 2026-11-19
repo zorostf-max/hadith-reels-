@@ -733,3 +733,11 @@
 2026-11-19 13:08	VGC	https://www.videogameschronicle.com/news/the-xbox-series-s-version-of-gta-6-is-seemingly-the-first-to-use-amds-fsr-4-1-upscaling/
 2026-11-19 13:43	VGC	https://www.videogameschronicle.com/news/rockstar-explains-why-you-cant-play-darts-in-gta-6-we-dont-have-unlimited-time/
 2026-11-19 14:00	Dexerto (same story)	https://www.dexerto.com/gta/gta-6-fans-in-japan-disappointed-after-discovering-censored-content-3429762/
+2026-11-19 14:24	Dexerto	https://www.dexerto.com/gta/gta-6-devs-worried-about-layoffs-despite-making-biggest-game-of-all-time-3429760/
+2026-11-19 15:16	Eurogamer (same story)	https://www.eurogamer.net/gta-6-rockstar-developers-layoffs-worries
+2026-11-19 14:38	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/rockstar-says-gta-6-doesnt-let-you-hire-prostitutes-for-the-first-time-in-25-years-as-it-doesnt-support-the-spirit-of-the-story-we-wanted-to-tell/
+2026-11-19 14:55	Dexerto	https://www.dexerto.com/entertainment/eu-targets-pay-to-win-games-and-influencer-ads-in-new-law-3429789/
+2026-11-19 15:00	Tom's Hardware	https://www.tomshardware.com/pc-components/ssds/silicon-motion-demos-sm8466-pcie-6-0-ssd-controller-expected-to-ship-by-2028-controller-boasts-improved-quality-of-service-samples-imminent
+2026-11-19 15:09	GamesRadar+	https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-borderlands-4-boss-reminds-everyone-that-rockstars-launch-week-revenue-is-predicted-to-top-the-biggest-star-wars-lord-of-the-rings-and-harry-potter-movies-combined/
+2026-11-19 14:52	PC Gamer (same story)	https://www.pcgamer.com/hardware/memory/ddr6-memory-modules-to-be-almost-half-the-size-of-ddr5-and-almost-double-the-max-speed/
+2026-11-19 14:48	PC Gamer (same story)	https://www.pcgamer.com/games/action/former-rockstar-presidents-studio-is-looking-to-sue-its-way-out-of-a-gbp61-million-debt-and-yes-its-still-claiming-mindseye-suffered-a-coordinated-campaign-of-negative-online-reviews/
