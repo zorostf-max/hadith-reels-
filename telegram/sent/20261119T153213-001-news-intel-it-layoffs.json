@@ -1,0 +1,11 @@
+{
+ "job": "20261119T153213-001-news-intel-it-layoffs.json",
+ "ref": "news-intel-it-layoffs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T15:32:53Z",
+ "message_id": 491,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
