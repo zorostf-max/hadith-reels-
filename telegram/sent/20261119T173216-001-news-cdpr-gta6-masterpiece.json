@@ -1,0 +1,11 @@
+{
+ "job": "20261119T173216-001-news-cdpr-gta6-masterpiece.json",
+ "ref": "news-cdpr-gta6-masterpiece",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T17:33:14Z",
+ "message_id": 501,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261119T173216-003-news-gta6-soldiers-reenlist.json",
+ "ref": "news-gta6-soldiers-reenlist",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T17:33:18Z",
+ "message_id": 503,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

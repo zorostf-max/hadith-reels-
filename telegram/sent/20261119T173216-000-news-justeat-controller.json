@@ -1,0 +1,11 @@
+{
+ "job": "20261119T173216-000-news-justeat-controller.json",
+ "ref": "news-justeat-controller",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T17:33:12Z",
+ "message_id": 500,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
