@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 19",
+ "hook": {
+  "text": "20 MILLION PRE-ORDERS?",
+  "kicker": "GTA 6 / REPORTEDLY",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Analysts estimate GTA 6 sold around 20 million copies in pre-orders before launch",
+   "src": "source: IGN",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "~20M", "label": "estimated pre-orders (not official)", "badge": "ANALYST ESTIMATE"}
+  },
+  {
+   "tag": "GAMESTOP",
+   "cat": "deals",
+   "head": "GameStop CEO Ryan Cohen: digital-only games like GTA 6 hurt players who want to resell",
+   "src": "source: GamesRadar+ · IGN",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "pills", "title": "RYAN COHEN", "items": ["NO DISC", "NO RESALE", "NO TRADE-INS"]}
+  },
+  {
+   "tag": "AWARDS",
+   "cat": "games",
+   "head": "After its Game Awards snub, Crimson Desert wins a record 8 Korea Game Awards",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "8", "label": "Korea Game Awards wins, a new record", "badge": "CRIMSON DESERT"}
+  }
+ ],
+ "outro": {
+  "head": "Physical or digital? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
