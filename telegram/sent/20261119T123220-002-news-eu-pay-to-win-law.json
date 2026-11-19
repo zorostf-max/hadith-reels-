@@ -1,0 +1,11 @@
+{
+ "job": "20261119T123220-002-news-eu-pay-to-win-law.json",
+ "ref": "news-eu-pay-to-win-law",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T12:33:02Z",
+ "message_id": 477,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261119T123220-003-news-sm8466-pcie6.json",
+ "ref": "news-sm8466-pcie6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T12:33:04Z",
+ "message_id": 478,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

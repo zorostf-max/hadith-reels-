@@ -1,0 +1,11 @@
+{
+ "job": "20261119T123220-004-news-gta6-launch-revenue.json",
+ "ref": "news-gta6-launch-revenue",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T12:33:05Z",
+ "message_id": 479,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
