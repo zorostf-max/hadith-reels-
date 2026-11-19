@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/gta-grand-theft-auto-6-pic26.jpg",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>GTA 6 on Xbox Series S seems to be the first game using FSR 4.1</b>\n\nThe Xbox Series S version of GTA 6 appears to be the first console game to use AMD's FSR 4.1 upscaling. AMD's new tech was announced for Xbox Series X|S consoles only last month, so Rockstar's launch is the first real showcase of what it can do on Microsoft's smaller machine.\n\n🕒 Nov 19, 2026 · 13:08 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/the-xbox-series-s-version-of-gta-6-is-seemingly-the-first-to-use-amds-fsr-4-1-upscaling/\">VGC</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a> · <a href=\"https://x.com/AMD\">@AMD</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎮 Playing on Series S? React 👍 and tell us how it looks\n\n#GTA6 #XboxSeriesS #AMD #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-series-s-fsr41",
+ "fallback_text": "🕹️ <b>GTA 6 on Xbox Series S seems to be the first game using FSR 4.1</b>\n\nThe Xbox Series S version of GTA 6 appears to be the first console game to use AMD's FSR 4.1 upscaling. AMD's new tech was announced for Xbox Series X|S consoles only last month, so Rockstar's launch is the first real showcase of what it can do on Microsoft's smaller machine.\n\n🕒 Nov 19, 2026 · 13:08 (GMT+3)\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/the-xbox-series-s-version-of-gta-6-is-seemingly-the-first-to-use-amds-fsr-4-1-upscaling/\">VGC</a>\n👥 <a href=\"https://x.com/Xbox\">@Xbox</a> · <a href=\"https://x.com/AMD\">@AMD</a> · <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎮 Playing on Series S? React 👍 and tell us how it looks\n\n#GTA6 #XboxSeriesS #AMD #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
