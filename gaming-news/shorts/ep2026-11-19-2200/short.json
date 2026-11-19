@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 19",
+ "hook": {
+  "text": "WEIRD AL ON GTA 6 RADIO",
+  "kicker": "GTA 6 / CONFIRMED",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Weird Al Yankovic confirms he hosts GTA 6's '80s radio station and wrote some in-game ads",
+   "src": "source: PC Gamer · GamesRadar+",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "pills", "title": "GTA 6 RADIO HOSTS", "items": ["WEIRD AL", "LANA DEL REY", "BAD BUNNY", "KEITH RICHARDS"]}
+  },
+  {
+   "tag": "UBISOFT",
+   "cat": "games",
+   "head": "Ubisoft lays off 166 staff at its Montréal and Québec City studios",
+   "src": "source: VGC · GamesRadar+",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "166", "label": "jobs cut in Montréal and Québec City", "badge": "LAYOFFS"}
+  },
+  {
+   "tag": "FALLOUT",
+   "cat": "games",
+   "head": "A new Fallout game rated in Australia turns out to be a hidden object game",
+   "src": "source: PC Gamer",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "pills", "title": "NEW FALLOUT GAME", "items": ["RATED IN AUSTRALIA", "HIDDEN OBJECT", "SPIN-OFF"]}
+  }
+ ],
+ "outro": {
+  "head": "Which station are you tuning in to? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
