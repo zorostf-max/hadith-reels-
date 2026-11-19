@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/cgsfct7LsSe3YLSHsKbAJF-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>43 US soldiers re-enlisted to get a GTA 6 long weekend</b>\n\nGTA 6 launch fever reached the US Army: 43 soldiers signed up for another term, and the reward was a four-day weekend they plan to spend playing the game.\n\n🕒 Nov 19, 2026 · 19:42 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/grand-theft-auto/im-all-about-the-heist-43-soldiers-re-enlisted-in-the-us-army-to-get-a-4-day-weekend-to-play-gta-6/\">PC Gamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n😂 Worth it? React 👍 or 👎 · 💬 How long did you take off for GTA 6?\n\n#GTA6 #RockstarGames #LaunchDay #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-soldiers-reenlist",
+ "fallback_text": "🎮 <b>43 US soldiers re-enlisted to get a GTA 6 long weekend</b>\n\nGTA 6 launch fever reached the US Army: 43 soldiers signed up for another term, and the reward was a four-day weekend they plan to spend playing the game.\n\n🕒 Nov 19, 2026 · 19:42 (GMT+3)\n📰 Source: <a href=\"https://www.pcgamer.com/games/grand-theft-auto/im-all-about-the-heist-43-soldiers-re-enlisted-in-the-us-army-to-get-a-4-day-weekend-to-play-gta-6/\">PC Gamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n😂 Worth it? React 👍 or 👎 · 💬 How long did you take off for GTA 6?\n\n#GTA6 #RockstarGames #LaunchDay #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/19/justeatcontroller.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🕹️ <b>Just Eat made a controller with an \"order food\" button</b>\n\nFood delivery service Just Eat has revealed a limited-edition gaming controller with a dedicated button for ordering food. The idea: get a delivery on the way without pausing your game or putting the pad down. Only a limited number are being made.\n\n🕒 Nov 19, 2026 · 18:42 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/food/just-eat-reveals-limited-edition-controller-with-order-food-button-for-instant-deliveries-3429904/\">Dexerto</a>\n\n🍕 Genius or gimmick? React 👍 or 👎 and tell us below\n\n#JustEat #Controller #GamingGear #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-justeat-controller",
+ "fallback_text": "🕹️ <b>Just Eat made a controller with an \"order food\" button</b>\n\nFood delivery service Just Eat has revealed a limited-edition gaming controller with a dedicated button for ordering food. The idea: get a delivery on the way without pausing your game or putting the pad down. Only a limited number are being made.\n\n🕒 Nov 19, 2026 · 18:42 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/food/just-eat-reveals-limited-edition-controller-with-order-food-button-for-instant-deliveries-3429904/\">Dexerto</a>\n\n🍕 Genius or gimmick? React 👍 or 👎 and tell us below\n\n#JustEat #Controller #GamingGear #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
