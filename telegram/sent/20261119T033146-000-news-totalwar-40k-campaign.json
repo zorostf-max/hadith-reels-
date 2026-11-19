@@ -1,0 +1,11 @@
+{
+ "job": "20261119T033146-000-news-totalwar-40k-campaign.json",
+ "ref": "news-totalwar-40k-campaign",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T03:32:21Z",
+ "message_id": 467,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
