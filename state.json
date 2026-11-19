@@ -64,8 +64,8 @@
    "approved": "2026-11-11",
    "metricool_uuid": "-1903460450320038547"
   },
-  "next_episode": 3,
-  "next_topic": "الرضاعة في بني سعد (حليمة السعدية) — حسب ترتيب الرحيق المختوم",
+  "next_episode": 4,
+  "next_topic": "شقّ الصدر في بني سعد ورجوعه ﷺ إلى أمه — حسب ترتيب الرحيق المختوم",
   "days": [
    "Tue",
    "Thu"
@@ -74,7 +74,7 @@
   "pending": {
    "episode": 3,
    "publish_date": "2026-11-19",
-   "status": "skipped",
+   "status": "scheduled",
    "script_message_ids": [
     473
    ],
@@ -87,7 +87,8 @@
     "2026-11-18: S2 blocked — ElevenLabs connector failed to connect (timeout, then HTTP 400) after several retries; no images/voices generated. Script approved (msg 474).",
     "2026-11-18 19:20Z: S2 retry done — 5 images + 16 voice clips (ElevenLabs flow 8KPqGx4qCz2Pg3Bd6wiB), render 2:46 / 14.1 MB, caption with FB/Threads links; preview sent (485/486). Video commit 079acedd588406d97b278f98f2b8fcd261d91616.",
     "2026-11-19 00:43 Istanbul: owner-requested fixes (اعلمي, أخذتِ with kasra, Ibn Hisham wording for يشبّ… جفرًا, Omar asks meaning of جفرًا, tighter pauses); new render 2:47 / 14.3 MB; corrected preview sent (487/488). Old preview 485/486 is obsolete.",
-    "2026-11-19 09:24 Istanbul: S3 — no reply from the owner after preview 487 (inbox refreshed, nothing after msg 474); not published, status skipped (reason: no approval). Moves to the next Tuesday/Thursday (S1 carries it over; closing line must name the right day)."
+    "2026-11-19 09:24 Istanbul: S3 — no reply from the owner after preview 487 (inbox refreshed, nothing after msg 474); not published, status skipped (reason: no approval). Moves to the next Tuesday/Thursday (S1 carries it over; closing line must name the right day).",
+    "2026-11-19 10:18 Istanbul: owner replied in the Claude chat «لا انشرها، لا تجعلها في موعد آخر، انشرها الآن» = explicit approval to publish now; skip reversed, scheduled for 10:30 today."
    ],
    "messages": [
     {
@@ -116,6 +117,19 @@
    "telegram_job_rest": "20261117T062626-002-seerah-ep02-rest.json",
    "approved": "2026-11-16",
    "video_commit": "53e945c658720c1ca9e71bc6c1edcd1590e21fc3"
+  },
+  "ep03": {
+   "publish_at": "2026-11-19T10:30:00+03:00",
+   "metricool_post_id": 433848616,
+   "metricool_uuid": "-53545659713434601",
+   "metricool_tiktok_post_id": 433848804,
+   "metricool_threads_post_id": 433848816,
+   "metricool_fb_story_post_id": 433848827,
+   "youtube_title": "كلّ النساء رفضنه لأنه يتيم… فماذا حدث لحليمة حين أخذته؟ | السيرة النبوية للأطفال – الحلقة 3",
+   "telegram_job": "20261119T071842-000-seerah-ep03.json",
+   "telegram_job_rest": "20261119T071842-001-seerah-ep03-rest.json",
+   "approved": "2026-11-19 (owner, Claude chat)",
+   "video_commit": "e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1"
   }
  },
  "stories": {
