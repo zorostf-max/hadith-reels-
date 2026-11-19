@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/aa3e74af89098ec8b5c0682957d1b2a4e09f7deb/gaming-news/shorts/ep2026-11-19-1000/short.mp4",
+  "caption": "🎬 <b>Overnight in gaming: 3 stories in 40 seconds</b>\n\n⚔️ WoW: Forever passes 15 million characters, Blizzard's biggest WoW launch ever\n🖥️ GeForce driver bug reportedly writes up to 30GB an hour to SSDs\n☁️ Ampere estimates GTA 6 cloud play on Xbox One could grow its Xbox audience ~30%\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "short-2026-11-19-1000",
+ "fallback_text": "🎬 <b>Overnight in gaming: 3 stories in 40 seconds</b>\n\n⚔️ WoW: Forever passes 15 million characters, Blizzard's biggest WoW launch ever\n🖥️ GeForce driver bug reportedly writes up to 30GB an hour to SSDs\n☁️ Ampere estimates GTA 6 cloud play on Xbox One could grow its Xbox audience ~30%\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+}

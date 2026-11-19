@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/aa3e74af89098ec8b5c0682957d1b2a4e09f7deb/gaming-news/shorts/ep2026-11-19-1000/short.mp4",
+  "caption": "🎵 ريل تيك توك جاهز للنشر — موعد 10:00\n⚠️ فعّل خيار الجمهور 18+ (Audience controls)\n🤖 فعّل علامة المحتوى المُنشأ بالذكاء الاصطناعي (AI-generated)"
+ },
+ "ref": "tiktok-video-2026-11-19-1000",
+ "fallback_text": "🎵 ريل تيك توك جاهز للنشر — موعد 10:00\n⚠️ فعّل خيار الجمهور 18+ (Audience controls)\n🤖 فعّل علامة المحتوى المُنشأ بالذكاء الاصطناعي (AI-generated)\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/aa3e74af89098ec8b5c0682957d1b2a4e09f7deb/gaming-news/shorts/ep2026-11-19-1000/short.mp4",
+ "not_before": "2026-11-19T07:00:00Z"
+}
