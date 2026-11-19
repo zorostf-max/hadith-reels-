@@ -184,6 +184,34 @@ def draw_card(layer, top, main, k, y=205):
     layer.alpha_composite(fade_alpha(tile, int(255 * ease(k))))
 
 
+FOLLOW_SECS = 2.2   # follow button shown over the last seconds of the video (owner's request 2026-11-19)
+
+
+def draw_follow(layer, handle, k, pulse):
+    """Animated «تابِع» button + account handle (follow call to action at the end of every video)."""
+    tile = Image.new("RGBA", (W, H), (0, 0, 0, 0)); td = ImageDraw.Draw(tile)
+    s = 1.0 + 0.05 * math.sin(pulse * 2 * math.pi * 1.6)   # gentle pulse
+    bw, bh = int(430 * s), int(132 * s)
+    cx, cy = W // 2, 1215 + int(40 * (1 - ease(k)))
+    x0, y0 = cx - bw // 2, cy - bh // 2
+    td.rounded_rectangle((x0, y0, x0 + bw, y0 + bh), radius=bh // 2, fill=(232, 190, 96, 255),
+                         outline=(255, 246, 225, 255), width=5)
+    f = font(int(70 * s), 800)
+    label = "تابِعنا"
+    tw = td.textlength(label, font=f, direction="rtl", language="ar")
+    # plus sign drawn by hand (the font has no ➕ glyph); text to its left, as in an RTL button
+    pr = int(26 * s); lw = max(6, int(10 * s)); gw = tw + 28 + 2 * pr
+    px = int(cx + gw / 2 - pr); tx = int(cx - gw / 2 + tw / 2)
+    td.line((px - pr, cy, px + pr, cy), fill=(14, 24, 48, 255), width=lw)
+    td.line((px, cy - pr, px, cy + pr), fill=(14, 24, 48, 255), width=lw)
+    td.text((tx, cy), label, font=f, fill=(14, 24, 48), anchor="mm", direction="rtl", language="ar")
+    if handle:
+        fh = font(46, 700)
+        td.text((cx, y0 + bh + 52), handle, font=fh, fill=(255, 246, 225), anchor="mm",
+                stroke_width=4, stroke_fill=(10, 16, 32, 200))
+    layer.alpha_composite(fade_alpha(tile, int(255 * ease(k))))
+
+
 def draw_label(layer, text):
     f = font(36, 600); d = ImageDraw.Draw(layer)
     d.text((W // 2, 95), text, font=f, fill=(255, 240, 205, 210), anchor="mm", direction="rtl", language="ar",
@@ -203,6 +231,10 @@ class Episode:
             self.imgs[name] = Image.open(p).convert("RGB")
         # timeline
         self.scenes, self.clips, t = [], [], 0.0
+        # follow button on the last scene unless the script says "follow_card": false (compilation parts)
+        self.follow = self.s.get("follow_card", True) is not False
+        self.handle = self.s.get("follow_handle", "@hadithdaily.bukhari")
+        last_id = self.s["scenes"][-1]["id"]
         for sc in self.s["scenes"]:
             lines, lt = [], self.lead
             multi = len(sc["lines"]) > 1
@@ -214,6 +246,9 @@ class Episode:
                 lt += d + self.gap
             extra = 1.4 if sc.get("title_card") else 0
             extra += 1.5 if sc.get("end_card") else 0
+            if self.follow and sc["id"] == last_id:
+                extra += FOLLOW_SECS
+                sc = dict(sc, follow=True)
             length = lt - self.gap + self.tail + extra
             self.scenes.append(dict(sc, start=t, length=length, lines=lines))
             t += length
@@ -242,6 +277,10 @@ class Episode:
             t0 = sc["lines"][-1]["t1"] + 0.3
             if lt >= t0:
                 draw_card(layer, self.s["title"], sc["end_card"], (lt - t0) / 0.5, y=820)
+        if sc.get("follow"):
+            t0 = sc["length"] - FOLLOW_SECS - 0.25
+            if lt >= t0:
+                draw_follow(layer, self.handle, (lt - t0) / 0.4, lt - t0)
         return layer.convert("RGB")
 
     def frame(self, t):

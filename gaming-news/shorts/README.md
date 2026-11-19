@@ -5,6 +5,13 @@ Separate from the hadith project — never touch hadith/seerah/stories files or 
 
 Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short.json`, `audio/`, `img/`, `short.mp4`, `youtube.txt`) · `done.txt` (one line per day: date, YouTube title, stories).
 
+## Follow plan (owner's decision 2026-11-19: viewers watch but don't follow) — every Level Up reel (regular and breaking)
+
+1. **Spoken follow line at the end:** the outro voice clip = the comment question + «Follow Level Up so you never miss gaming news, four times a day.» (breaking reels: «Follow Level Up for breaking gaming news.»). One generation for the whole outro clip (generations_count 1).
+2. **FOLLOW button:** built into `make_short.py`'s outro card (pulsing «+ FOLLOW» under @LevelUpGamesNews). Check it on the `--check` sheet.
+3. **Caption line 2** (right after the hook line, on YouTube/Instagram/Facebook and in the TikTok text): «📌 Follow for gaming news 4× a day 🎮». Threads/Bluesky: add «Follow for daily gaming news» only if it fits the 300-character limit.
+
+
 ## Format (owner-approved 2026-11-14, based on the niche research)
 - **Hook in the first second:** the video opens directly on story #1 with the banner "N GAMING STORIES · NN SEC" — no logo intro.
 - **3 stories** (2 on a slow day, 4 max), biggest first.

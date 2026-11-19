@@ -325,7 +325,16 @@ def art_outro(im, t, a, acc, ctx):
     text_a(im, (CW // 2, 110), "> SUBSCRIBE_", fMono(40, 700), acc + (int(255 * p),), anchor="ma")
     glow_text(im, (CW // 2, 200 + (1 - p) * 30), "@LevelUpGamesNews", fit(d, "@LevelUpGamesNews", fOrb, 64, CW - 80), acc, p, blur=14)
     q = ease((t - 0.7) / 0.5)
-    chip(d, CW // 2 + 210, 360, "DAILY GAMING NEWS", acc, q)
+    chip(d, CW // 2 + 210, 330, "DAILY GAMING NEWS", acc, q)
+    # pulsing FOLLOW button (owner's request 2026-11-19: viewers watch but don't follow)
+    k = ease((t - 0.4) / 0.4)
+    if k > 0:
+        s = 1.0 + 0.05 * math.sin(t * 10)
+        bw, bh = int(400 * s), int(104 * s); cx, cy = CW // 2, 455
+        d.rounded_rectangle([cx - bw // 2, cy - bh // 2, cx + bw // 2, cy + bh // 2], radius=bh // 2,
+                            fill=acc + (int(255 * k),), outline=WHITE + (int(255 * k),), width=4)
+        f = fOrb(int(50 * s), 900); lbl = "+ FOLLOW"
+        d.text((cx, cy), lbl, font=f, fill=(5, 10, 20, int(255 * k)), anchor="mm")
 
 ARTS = dict(image=art_image, progress=art_progress, counter=art_counter, bars=art_bars, pills=art_pills,
             stat=art_stat, split=art_split, outro=art_outro)

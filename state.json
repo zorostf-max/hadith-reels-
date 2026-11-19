@@ -85,7 +85,7 @@
    "messages": []
   },
   "compilation_overrides": {
-   "2026-11-21": [
+   "2026-11-22": [
     1,
     2,
     3
@@ -119,10 +119,8 @@
  },
  "stories": {
   "days": [
-   "Sat",
-   "Sun"
+   "Sat"
   ],
-  "slot": "11:00",
   "next_story": 2,
   "pending": {
    "story": 2,
@@ -137,7 +135,8 @@
    ],
    "preview_message_ids": [],
    "notes": [
-    "Two-part story: Part 2 = stories.pending_part2 (st02b, Sunday 2026-11-22). One ok to msg 500 approves both. Chosen by the patience-first rule (البلاء)."
+    "Two-part story: Part 2 = stories.pending_part2 (st02b, Sunday 2026-11-22). One ok to msg 500 approves both. Chosen by the patience-first rule (البلاء).",
+    "Weekly format 2026-11-19: Part 1 Sat 11:00, Part 2 Sat 18:00, Facebook full 11:00, YouTube long 20:00. benefits.json not written yet: Friday T2 writes it."
    ],
    "messages": []
   },
@@ -155,7 +154,7 @@
    "story": 2,
    "part": 2,
    "folder": "stories/st02b",
-   "publish_date": "2026-11-22",
+   "publish_date": "2026-11-21",
    "status": "script_sent",
    "script_message_ids": [
     498,
@@ -164,9 +163,16 @@
    ],
    "preview_message_ids": [],
    "notes": [
-    "Part 2 of story 2; reuses st02/img/rich_house.png and valleys.png"
+    "Part 2 of story 2; reuses st02/img/rich_house.png and valleys.png",
+    "Weekly format 2026-11-19: Part 2 now Saturday 18:00 (same day). Friday T2 also builds full.mp4 (Facebook POST 11:00) and long.mp4 with benefits (YouTube 20:00)."
    ],
    "messages": []
+  },
+  "slots": {
+   "part1": "11:00",
+   "part2": "18:00",
+   "facebook_full": "11:00",
+   "youtube_long": "20:00"
   }
  }
 }

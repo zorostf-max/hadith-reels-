@@ -219,7 +219,7 @@ D.points.forEach((p,i)=>{
   const n=String(i+1).split('').map(c=>AR[+c]).join('');
   addScene('pt'+i,`<div class="badge"><svg viewBox="-75 -75 150 150" width="150" height="150" class="star"></svg><b>${n}</b></div><div class="ptitle">${p.title}</div><div class="pbody">${p.body}</div>`,Math.max(7.5,3.5+wc(p.title+' '+p.body)*0.32));
 });
-addScene('outro',`<div class="big" style="font-size:84px">${D.outro_big}</div><div class="mid" style="margin-top:26px">${D.outro_mid}</div><div class="rule"></div>${D.question?`<div class="mid" style="font-size:46px;color:#f6e2a8;margin-bottom:22px">${D.question}</div>`:''}<div class="small" style="font-size:38px">المصادر في الوصف ⬇</div><div class="small" style="font-size:36px;direction:ltr;color:#e3c27a">@hadithdaily.bukhari</div>`,D.question?8.5:6);
+addScene('outro',`<div class="big" style="font-size:84px">${D.outro_big}</div><div class="mid" style="margin-top:26px">${D.outro_mid}</div><div class="rule"></div>${D.question?`<div class="mid" style="font-size:46px;color:#f6e2a8;margin-bottom:22px">${D.question}</div>`:''}<div class="small" style="font-size:38px">المصادر في الوصف ⬇</div><div id="fbtn" style="display:inline-flex;align-items:center;gap:18px;margin-top:26px;padding:16px 48px;border-radius:80px;background:#e8be60;border:5px solid #fff6e1;color:#0e1830;font-size:60px;font-weight:800;direction:rtl"><span>تابِعنا</span><span style="font-size:72px;line-height:1;font-weight:900">+</span></div><div class="small" style="font-size:38px;direction:ltr;color:#fff6e1;margin-top:14px">@hadithdaily.bukhari</div>`,D.question?8.5:6);
 const DUR=cur;
 // badge stars
 document.querySelectorAll('svg.star').forEach(s=>{
@@ -267,6 +267,8 @@ window.render=function(t){
   wordSets.forEach(({id,spans,per})=>{const w0=T[id][0]+0.6;spans.forEach((w,i)=>{const a=w0+i*per;const k=ramp(t,a,a+0.5);
     w.style.opacity=k.toFixed(3);w.style.transform=`translateY(${((1-k)*24).toFixed(1)}px)`;
     w.style.textShadow=k>0?`0 0 ${(18*(1-ramp(t,a+0.3,a+1.4))+6).toFixed(1)}px rgba(255,220,140,${(0.9*(1-ramp(t,a+0.4,a+1.6))+0.15).toFixed(2)})`:'none';});});
+  {const fb=document.getElementById('fbtn');if(fb){const k=ramp(t,T.outro[0]+0.8,T.outro[0]+1.6);  // follow button (owner's request 2026-11-19)
+    fb.style.opacity=k.toFixed(3);fb.style.transform=`scale(${((0.8+0.2*k)*(1+0.05*Math.sin((t-T.outro[0])*10))).toFixed(4)})`;}}
   document.querySelectorAll('.badge').forEach(b=>{const sc=b.closest('.scene').id;const k=ramp(t,T[sc][0]+0.1,T[sc][0]+1.1);
     b.style.transform=`rotate(${((1-k)*-180+Math.sin(t)*3).toFixed(1)}deg) scale(${(0.4+0.6*k).toFixed(3)})`;});
 };
