@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/hrvPDHp2MHzLKpBMubSioa-1920-80.jpg",
+  "parse_mode": "HTML",
+  "caption": "🖥️ <b>Intel 18A yields reach 70% as Microsoft signs on for EMIB</b>\n\nIntel says yields on its 18A process have hit 70%, a key milestone for its next-gen chips. It also signed a long-term Xeon supply deal with Microsoft, which becomes the first company to publicly commit to Intel's EMIB packaging technology.\n\n🕒 Nov 19, 2026 · 16:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/intel\">@intel</a> · <a href=\"https://x.com/Microsoft\">@Microsoft</a>\n\n🔧 React if Intel is back in the game · 💬 Team Intel or Team AMD?\n\n#Intel #Intel18A #Microsoft #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-intel-18a-microsoft-emib",
+ "fallback_text": "🖥️ <b>Intel 18A yields reach 70% as Microsoft signs on for EMIB</b>\n\nIntel says yields on its 18A process have hit 70%, a key milestone for its next-gen chips. It also signed a long-term Xeon supply deal with Microsoft, which becomes the first company to publicly commit to Intel's EMIB packaging technology.\n\n🕒 Nov 19, 2026 · 16:00 (GMT+3)\n📰 Source: <a href=\"https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology\">Tom's Hardware</a>\n👥 <a href=\"https://x.com/intel\">@intel</a> · <a href=\"https://x.com/Microsoft\">@Microsoft</a>\n\n🔧 React if Intel is back in the game · 💬 Team Intel or Team AMD?\n\n#Intel #Intel18A #Microsoft #GamingNews\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
