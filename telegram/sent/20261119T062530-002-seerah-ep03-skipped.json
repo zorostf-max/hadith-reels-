@@ -1,0 +1,11 @@
+{
+ "job": "20261119T062530-002-seerah-ep03-skipped.json",
+ "ref": "seerah-ep03-skipped",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-19T06:26:05Z",
+ "message_id": 489,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
