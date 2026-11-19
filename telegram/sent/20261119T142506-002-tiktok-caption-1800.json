@@ -1,0 +1,11 @@
+{
+ "job": "20261119T142506-002-tiktok-caption-1800.json",
+ "ref": "tiktok-caption-1800",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-19T15:12:33Z",
+ "message_id": 496,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
