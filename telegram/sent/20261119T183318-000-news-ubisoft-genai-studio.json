@@ -1,0 +1,11 @@
+{
+ "job": "20261119T183318-000-news-ubisoft-genai-studio.json",
+ "ref": "news-ubisoft-genai-studio",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T18:34:31Z",
+ "message_id": 506,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

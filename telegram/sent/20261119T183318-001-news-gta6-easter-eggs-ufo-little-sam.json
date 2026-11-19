@@ -1,0 +1,11 @@
+{
+ "job": "20261119T183318-001-news-gta6-easter-eggs-ufo-little-sam.json",
+ "ref": "news-gta6-easter-eggs-ufo-little-sam",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T18:34:33Z",
+ "message_id": 507,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

@@ -1,0 +1,11 @@
+{
+ "job": "20261119T183318-002-news-bg3-console-mods-12.json",
+ "ref": "news-bg3-console-mods-12",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T18:34:35Z",
+ "message_id": 508,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
