@@ -1,0 +1,11 @@
+{
+ "job": "20261119T165618-000-seerah-ep04-script.json",
+ "ref": "seerah-ep04-script",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-19T16:56:52Z",
+ "message_id": 497,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
