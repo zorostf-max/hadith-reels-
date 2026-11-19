@@ -1,0 +1,11 @@
+{
+ "job": "20261119T163212-005-news-gta6-full-map.json",
+ "ref": "news-gta6-full-map",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T16:32:52Z",
+ "message_id": 499,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

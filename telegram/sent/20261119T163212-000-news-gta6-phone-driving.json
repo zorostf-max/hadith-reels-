@@ -1,0 +1,11 @@
+{
+ "job": "20261119T163212-000-news-gta6-phone-driving.json",
+ "ref": "news-gta6-phone-driving",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T16:32:44Z",
+ "message_id": 494,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
