@@ -1,0 +1,11 @@
+{
+ "job": "20261119T103159-002-news-burger-king-heartwhopper.json",
+ "ref": "news-burger-king-heartwhopper",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T10:32:33Z",
+ "message_id": 471,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
