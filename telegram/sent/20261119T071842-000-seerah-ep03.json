@@ -1,0 +1,11 @@
+{
+ "job": "20261119T071842-000-seerah-ep03.json",
+ "ref": "seerah-ep03",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-19T08:27:06Z",
+ "message_id": 36,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
