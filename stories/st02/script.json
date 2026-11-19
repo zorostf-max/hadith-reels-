@@ -1,0 +1,162 @@
+{
+ "story": 2,
+ "title": "الأبرص والأقرع والأعمى (الجزء 1)",
+ "series_label": "قصص من صحيح البخاري · القصة ٢",
+ "hadith_ref": "صحيح البخاري ٣٤٦٤ (عن أبي هريرة رضي الله عنه)",
+ "sources": [
+  "صحيح البخاري، كتاب أحاديث الأنبياء، باب حديث أبرص وأعمى وأقرع في بني إسرائيل، ح (٣٤٦٤)",
+  "فتح الباري شرح صحيح البخاري لابن حجر العسقلاني — شرح الحديث (٣٤٦٤)"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "الراوي"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "three_men": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. Three tiny distant faceless men in simple worn robes standing apart from each other on a dusty road outside an ancient village, seen from behind: one wrapped completely in a cloak, one with his head covered by a cloth, one leaning on a wooden walking stick. Late afternoon golden light, long shadows, a quiet thoughtful mood. Palette of amber, sand, teal and navy. No facial features, no text, no letters, no watermark."
+  },
+  "leper_alone": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A lonely faceless man wrapped head to toe in a plain cloak sitting by himself at the edge of an ancient village well, seen from behind and far away, while tiny distant villagers walk the other way. No skin visible, no illness shown. Soft dusk light, sad lonely mood. Palette of dusty blue, sand and amber. No facial features, no text, no letters, no watermark."
+  },
+  "camel": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A healthy pregnant she-camel standing calmly beside a modest mud-brick house at sunrise, a small faceless man in a clean robe seen from behind holding her rope, golden morning light, hopeful mood. Palette of soft gold, rose, sand and navy. No facial features, no text, no letters, no watermark."
+  },
+  "cow": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A pregnant cow standing in a small green field next to a simple ancient farmhouse in soft morning light, a small faceless man seen from behind and far away walking toward it, birds in the sky. Palette of soft green, sand, amber and dusty blue. No facial features, no text, no letters, no watermark."
+  },
+  "sheep": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A single pregnant ewe in a small stone sheepfold at dawn, a faceless man in a simple robe seen from behind gazing at the bright sky and the hills as if seeing the world for the first time, warm golden light spreading. Palette of soft gold, rose, sand and navy. No facial features, no text, no letters, no watermark."
+  },
+  "valleys": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A wide view from above of three neighbouring valleys between soft hills: the first valley filled with many camels, the second with many cows, the third with many white sheep, tiny distant animals moving in herds, golden afternoon light and soft dust. No people. Palette of sand, ochre, amber, green and dusty blue. No text, no letters, no watermark."
+  },
+  "rich_house": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A large wealthy ancient house with a heavy carved wooden door at the end of a long empty dusty road, many camels resting in the valley behind it, late afternoon light, the road in the foreground empty and quiet. No people visible. Palette of ochre, amber, sand and dusty blue. No text, no letters, no watermark."
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "three_men",
+   "cam": "slow_push",
+   "title_card": true,
+   "lines": [
+    {
+     "who": "father",
+     "tts": "أبرصُ… وأقرعُ… وأعمى. أعطاهمُ اللهُ كلَّ ما تمنَّوْا، ثم جاءهمُ الاختبار. فمَن نجحَ منهم؟",
+     "caption": "أعطاهم الله ما تمنّوا… فمن نجح؟"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "image": "three_men",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "قالَ رسولُ اللهِ صلّى اللهُ عليهِ وسلَّم: إنَّ ثلاثةً في بني إسرائيل: أَبْرَصَ وأَقْرَعَ وأَعْمى، بدا للهِ أن يَبْتَلِيَهُم، فبعثَ إليهم مَلَكًا.",
+     "caption": "ثلاثة في بني إسرائيل… والابتلاء"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "leper_alone",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فأتى الأبرصَ فقال: أيُّ شيءٍ أحبُّ إليك؟ قال: لونٌ حسن، وجِلدٌ حسن، قد قَذِرَني الناس. فمسحَهُ فذهبَ عنه، فأُعطِيَ لونًا حسنًا وجِلدًا حسنًا.",
+     "caption": "«قد قَذِرني الناس»"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "camel",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فقال: أيُّ المالِ أحبُّ إليك؟ فأُعطِيَ ناقةً عُشَراء، فقال: يُبارَكُ لكَ فيها.",
+     "caption": "ناقةٌ عُشَراء… «يُبارَك لك فيها»"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "cow",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وأتى الأقرعَ فقال: أيُّ شيءٍ أحبُّ إليك؟ قال: شَعرٌ حسن، ويذهبُ عنّي هذا، قد قَذِرَني الناس. فمسحَهُ فذهب، وأُعطِيَ شَعرًا حسنًا، فأعطاهُ بقرةً حاملًا، وقال: يُبارَكُ لكَ فيها.",
+     "caption": "الأقرع… وبقرةٌ حامل"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "sheep",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وأتى الأعمى فقال: أيُّ شيءٍ أحبُّ إليك؟ قال: يَرُدُّ اللهُ إليَّ بصري، فأُبصِرُ به الناس. فمسحَهُ فردَّ اللهُ إليه بصرَه، فأعطاهُ شاةً والدًا.",
+     "caption": "«يردّ الله إليّ بصري»"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "valleys",
+   "cam": "tilt_down",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فأُنْتِجَ هذانِ، ووَلَّدَ هذا، فكانَ لهذا وادٍ من الإبل، ولهذا وادٍ من البقر، ولهذا وادٍ من الغنم.",
+     "caption": "وادٍ من الإبل… ومن البقر… ومن الغنم"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "rich_house",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ثم إنَّه أتى الأبرصَ في صورتِه وهيئتِه، فقال: رجلٌ مسكين، تقطَّعتْ بيَ الحِبالُ في سفري، فلا بَلاغَ اليومَ إلا باللهِ ثم بك. أسألُك بالذي أعطاكَ اللونَ الحسن، والجلدَ الحسن، والمال، بعيرًا أتبلَّغُ عليه في سفري. فقال: إنَّ الحقوقَ كثيرة.",
+     "caption": "«إنّ الحقوق كثيرة»"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "image": "rich_house",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وماذا حدثَ بعدَ ذلك؟ نكملُها غدًا إن شاءَ الله.",
+     "caption": "وماذا حدث بعد ذلك؟"
+    }
+   ],
+   "end_card": "الجزء الثاني غدًا"
+  }
+ ],
+ "notes_for_production": [
+  "Never show the angel, even in his human disguise: scene 8–9 show only the house and the road.",
+  "Leper/bald man: no illness shown on screen; figures wrapped/covered and seen from behind.",
+  "Part 2 = stories/st02b (Sunday)."
+ ],
+ "publish": {
+  "publish_date": "2026-11-21 (Saturday) 11:00 Europe/Istanbul",
+  "needs_owner_approval": true
+ },
+ "part": 1
+}

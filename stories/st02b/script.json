@@ -1,0 +1,155 @@
+{
+ "story": 2,
+ "title": "الأبرص والأقرع والأعمى (الجزء 2)",
+ "series_label": "قصص من صحيح البخاري · القصة ٢",
+ "hadith_ref": "صحيح البخاري ٣٤٦٤ (عن أبي هريرة رضي الله عنه)",
+ "sources": [
+  "صحيح البخاري، كتاب أحاديث الأنبياء، باب حديث أبرص وأعمى وأقرع في بني إسرائيل، ح (٣٤٦٤)",
+  "فتح الباري شرح صحيح البخاري لابن حجر العسقلاني — شرح الحديث (٣٤٦٤)"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "الراوي"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "door_closed": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. Close view of a heavy carved wooden door of a rich ancient house, firmly shut, at dusk, long cold shadows across the doorstep, a dry empty road, a cooler sombre mood. No people. Palette of deep blue, grey-teal, ochre and sand. No text, no letters, no watermark."
+  },
+  "cows_dusk": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A valley full of many cows at dusk beside a large farmhouse whose gate is shut, darkening sky with heavy clouds gathering, a sombre quiet mood. No people. Palette of deep blue, grey-teal, ochre and sand. No text, no letters, no watermark."
+  },
+  "sheepfold_evening": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A modest stone house and a large sheepfold full of white sheep in a valley at evening, a warm lamp glowing in the small window, a dusty road leading to its open wooden gate. No people visible. Palette of warm amber, deep blue and sand. No text, no letters, no watermark."
+  },
+  "gate_open": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. The wooden gate of a sheepfold wide open, white sheep walking out onto the road in warm golden light, a faceless man in a simple robe seen from behind standing beside the gate with an open welcoming gesture of his hand. Generous warm mood. Palette of soft gold, rose, sand and navy. No facial features, no text, no letters, no watermark."
+  },
+  "light_valley": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style. A peaceful valley full of white sheep under a bright sky where soft beams of golden sunlight break through the clouds onto a modest stone house, a serene blessed mood. No people. Palette of soft gold, rose, navy and sand. No text, no letters, no calligraphy, no watermark."
+  },
+  "sunrise": {
+   "file": "../st01/img/sunrise.png",
+   "reuse": true
+  },
+  "rich_house": {
+   "file": "../st02/img/rich_house.png",
+   "reuse": true
+  },
+  "valleys": {
+   "file": "../st02/img/valleys.png",
+   "reuse": true
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "rich_house",
+   "cam": "slow_push",
+   "title_card": true,
+   "lines": [
+    {
+     "who": "father",
+     "tts": "«إنَّ الحقوقَ كثيرة»… هكذا ردَّ الأبرصُ على المسكين. فماذا قيلَ له؟ وماذا فعلَ الأقرعُ والأعمى؟",
+     "caption": "«إنّ الحقوق كثيرة»… ثم ماذا؟"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "image": "valleys",
+   "cam": "tilt_down",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "بالأمس: أبرصُ وأقرعُ وأعمى، ابتلاهمُ الله، فشفاهم وأعطاهم أوديةً من الإبلِ والبقرِ والغنم، ثم أتى المَلَكُ الأبرصَ في صورتِه وهيئتِه يسألُه بعيرًا يتبلَّغُ عليه في سفرِه.",
+     "caption": "في الجزء الأول…"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "door_closed",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فقالَ له: كأنّي أعرفُك! ألم تكنْ أبرصَ يَقْذَرُكَ الناس، فقيرًا فأعطاكَ الله؟ فقال: لقد وَرِثْتُ لِكابِرٍ عن كابِر. فقال: إن كنتَ كاذبًا، فصيَّرَكَ اللهُ إلى ما كنت.",
+     "caption": "«ورثتُ لكابرٍ عن كابر»"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "cows_dusk",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وأتى الأقرعَ في صورتِه وهيئتِه، فقالَ له مثلَ ما قالَ لهذا، فردَّ عليه مثلَ ما ردَّ عليه هذا. فقال: إن كنتَ كاذبًا، فصيَّرَكَ اللهُ إلى ما كنت.",
+     "caption": "والأقرع… أجاب بمثل جوابه"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "sheepfold_evening",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وأتى الأعمى في صورتِه، فقال: رجلٌ مسكينٌ وابنُ سبيل، تقطَّعتْ بيَ الحِبالُ في سفري، فلا بَلاغَ اليومَ إلا باللهِ ثم بك. أسألُك بالذي ردَّ عليكَ بصرَك، شاةً أتبلَّغُ بها في سفري.",
+     "caption": "وجاء دور الأعمى…"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "gate_open",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فقال: قد كنتُ أعمى فردَّ اللهُ بصري، وفقيرًا فقد أغناني، فخُذْ ما شئت. فواللهِ لا أَجْهَدُكَ اليومَ بشيءٍ أخذتَه لله.",
+     "caption": "«فخُذْ ما شئت»"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "light_valley",
+   "cam": "tilt_down",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فقال: أَمْسِكْ مالَك، فإنَّما ابْتُلِيتُم، فقد رَضِيَ اللهُ عنك، وسَخِطَ على صاحِبَيْك.",
+     "caption": "«فقد رضي الله عنك»"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "sunrise",
+   "cam": "wide",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "البلاءُ يكونُ بالمرضِ والفقر… ويكونُ بالنعمةِ أيضًا. والناجي مَن شكرَ ولم يَنْسَ ما كان. أيُّ البلاءَيْنِ أصعب: الفقرُ أم الغنى؟ اكتبْ رأيَك في التعليقات.",
+     "caption": "أيّ البلاءين أصعب: الفقر أم الغنى؟"
+    }
+   ],
+   "end_card": "قصة جديدة كل سبت وأحد"
+  }
+ ],
+ "notes_for_production": [
+  "Never show the angel, even in his human disguise: only houses, doors, herds and light.",
+  "rich_house and valleys re-used from Part 1 (stories/st02), sunrise from st01."
+ ],
+ "publish": {
+  "publish_date": "2026-11-22 (Sunday) 11:00 Europe/Istanbul",
+  "needs_owner_approval": true
+ },
+ "part": 2
+}

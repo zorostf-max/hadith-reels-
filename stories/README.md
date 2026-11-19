@@ -20,6 +20,8 @@ Telegram goes ONLY through the GitHub bridge (`telegram/README.md`): queue jobs 
 
 ## Story queue (in this order; take `stories.next_story`)
 
+**Patience first (owner, 2026-11-15):** take the next story in the queue that is about patience, affliction or relief after hardship (الصبر / البلاء / الفرج) while one is left; otherwise the next in order. (First applied 2026-11-19: story 2 الأقرع والأبرص والأعمى, sent as two parts `st02` + `st02b`.)
+
 Every number must be **verified** before writing (sunnah.com / dorar.net: the story must really be in Sahih al-Bukhari, with that number or note the correct one). Use the wording of the hadith; never add events, dialogue, names or numbers that are not in the narration.
 
 1. أصحاب الغار الثلاثة والصخرة (البخاري ٢٢٧٢)
@@ -49,7 +51,7 @@ When the list runs out, propose the next 12 to the owner on Telegram (story hadi
    - Images: `prompt`s with ep01's style text (vertical 9:16, warm soft flat storybook, faceless distant figures, no text). **Never depict the Prophet ﷺ, any prophet, the Companions' faces or angels**; for stories about prophets (e.g. موسى والخضر) show places, objects, light, landscapes, distant faceless figures from behind.
    - `sources`: «صحيح البخاري، كتاب …، باب …، ح (رقم)» + the explanation used.
    - **Length:** spoken text for a finished video of **1:30–2:30** (YouTube Shorts allow 3:00).
-   - **Two-part stories (TikTok plan, 2026-11-13):** if a story cannot be told well in 2:30 (e.g. موسى والخضر, أصحاب الغار with all three prayers in full), split it into «الجزء الأول» (Saturday) and «الجزء الثاني» (Sunday): Part 1 stops at the moment of highest tension and its last line is «وماذا حدث بعد ذلك؟ نكملها غدًا إن شاء الله»; Part 2 opens with a one-sentence recap. Each part is a full episode in this pipeline (its own script, approval and video); both scripts may be sent in Thursday's T1 run. Titles say «(الجزء 1)» / «(الجزء 2)».
+   - **Two-part stories (TikTok plan, 2026-11-13):** if a story cannot be told well in 2:30 (e.g. موسى والخضر, أصحاب الغار with all three prayers in full), split it into «الجزء الأول» (Saturday) and «الجزء الثاني» (Sunday): Part 1 stops at the moment of highest tension and its last line is «وماذا حدث بعد ذلك؟ نكملها غدًا إن شاء الله»; Part 2 opens with a one-sentence recap. Each part is a full episode in this pipeline (its own script, approval and video); both scripts may be sent in Thursday's T1 run. Titles say «(الجزء 1)» / «(الجزء 2)». **Bookkeeping (first used 2026-11-19):** Thursday's T1 sets `stories.pending` = Part 1 (Saturday, folder `stNN`) and `stories.pending_part2` = Part 2 (Sunday, folder `stNNb`, same shape, status `script_sent`). Friday's T1 sees `pending_part2` for Sunday and stops. Friday's T3, after scheduling Part 1, records it in `published`, then moves `pending_part2` into `pending` (delete `pending_part2`) and does NOT advance `next_story`; Saturday's T2/T3 then handle Part 2 as usual, and `next_story` = N+1 only after Part 2 is scheduled. One owner `ok` to the script message approves both parts.
 4. Commit + push. Send the script for review: one `sendMessage` (split if over 3,500 characters) with the title, each scene as «🖼 <المشهد>» + «🎙 الراوي: <النص>», «📚 المصادر», then:
    «📝 سكربت القصة N (<العنوان>) — تُنشر <اليوم والتاريخ> الساعة ١٤:٠٠.
    ✅ للموافقة أرسل: ok
