@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/19/gta-6-dexter-apartment.jpg?width=1080&quality=75&format=auto",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 players uncover Dexter's apartment in Vice City</b>\n\nPlayers exploring GTA 6 have found an apartment in Vice City modelled on Dexter Morgan's home, complete with a stash of his signature killing tools. The nod goes further: you can even steal the serial killer's boat.\n\n🕒 Nov 19, 2026 · 18:05 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔪 React if you love these easter eggs · 💬 What's the best one you've found?\n\n#GTA6 #Dexter #EasterEgg #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-dexter",
+ "fallback_text": "🎮 <b>GTA 6 players uncover Dexter's apartment in Vice City</b>\n\nPlayers exploring GTA 6 have found an apartment in Vice City modelled on Dexter Morgan's home, complete with a stash of his signature killing tools. The nod goes further: you can even steal the serial killer's boat.\n\n🕒 Nov 19, 2026 · 18:05 (GMT+3)\n📰 Source: <a href=\"https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/\">Dexerto</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🔪 React if you love these easter eggs · 💬 What's the best one you've found?\n\n#GTA6 #Dexter #EasterEgg #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}

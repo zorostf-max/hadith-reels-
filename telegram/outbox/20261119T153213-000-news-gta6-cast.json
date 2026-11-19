@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.videogameschronicle.com/files/2026/11/dylan-rourke-manni-perez.jpg",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>Rockstar finally names the full GTA 6 cast</b>\n\nRockstar has published the complete cast list for Grand Theft Auto 6, ending months of fan guessing about who plays the two leads. The actors behind Jason Duval and Lucia have now confirmed their roles themselves, with Jason's actor signing off: “See y'all in Leonida”.\n\n🕒 Nov 19, 2026 · 17:56 (GMT+3)\n📰 Sources: <a href=\"https://www.videogameschronicle.com/news/see-yall-in-leonida-jasons-actor-finally-confirms-hes-in-gta-6/\">VGC</a> · <a href=\"https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎭 React if you guessed right · 💬 Who's your favourite performance so far?\n\n#GTA6 #RockstarGames #GTAVI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-cast",
+ "fallback_text": "🎮 <b>Rockstar finally names the full GTA 6 cast</b>\n\nRockstar has published the complete cast list for Grand Theft Auto 6, ending months of fan guessing about who plays the two leads. The actors behind Jason Duval and Lucia have now confirmed their roles themselves, with Jason's actor signing off: “See y'all in Leonida”.\n\n🕒 Nov 19, 2026 · 17:56 (GMT+3)\n📰 Sources: <a href=\"https://www.videogameschronicle.com/news/see-yall-in-leonida-jasons-actor-finally-confirms-hes-in-gta-6/\">VGC</a> · <a href=\"https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n🎭 React if you guessed right · 💬 Who's your favourite performance so far?\n\n#GTA6 #RockstarGames #GTAVI #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
