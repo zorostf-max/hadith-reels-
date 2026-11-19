@@ -1,0 +1,11 @@
+{
+ "job": "20261119T133358-003-news-crimson-desert-korea-awards.json",
+ "ref": "news-crimson-desert-korea-awards",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T13:34:36Z",
+ "message_id": 483,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

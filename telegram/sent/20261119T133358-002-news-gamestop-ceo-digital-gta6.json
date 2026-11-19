@@ -1,0 +1,11 @@
+{
+ "job": "20261119T133358-002-news-gamestop-ceo-digital-gta6.json",
+ "ref": "news-gamestop-ceo-digital-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T13:34:34Z",
+ "message_id": 482,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}

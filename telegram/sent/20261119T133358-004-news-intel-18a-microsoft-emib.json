@@ -1,0 +1,11 @@
+{
+ "job": "20261119T133358-004-news-intel-18a-microsoft-emib.json",
+ "ref": "news-intel-18a-microsoft-emib",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T13:34:37Z",
+ "message_id": 484,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

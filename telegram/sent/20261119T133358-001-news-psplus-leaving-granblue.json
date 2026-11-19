@@ -1,0 +1,11 @@
+{
+ "job": "20261119T133358-001-news-psplus-leaving-granblue.json",
+ "ref": "news-psplus-leaving-granblue",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-19T13:34:32Z",
+ "message_id": 481,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
