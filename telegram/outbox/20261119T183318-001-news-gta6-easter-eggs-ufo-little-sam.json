@@ -1,0 +1,12 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/Screenshot-2026-11-19-at-17.37.59.png?width=690&quality=85&format=jpg&auto=webp",
+  "parse_mode": "HTML",
+  "caption": "🎮 <b>GTA 6 Easter egg hunt: a UFO, Bigfoot and a \"Little Sam\"</b>\n\nOnly hours after launch, GTA 6 players have already found a UFO in the woods that abducts them and a Bigfoot in the swamps that can knock them out. Fans have also spotted a \"Little Sam\" Easter egg calling back to GTA 3, which looks like a nod to Rockstar co-founder Sam Houser.\n\n🕒 Nov 19, 2026 · 20:31 (GMT+3)\n📰 Sources: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/it-sure-looks-like-rockstar-co-founder-sam-houser-is-hiding-in-gta-6-as-fans-find-little-sam-easter-egg-that-calls-back-to-gta-3/\">GamesRadar+</a> · <a href=\"https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n👽 Found any secrets yet? React 🔥 and drop your best find in the comments\n\n#GTA6 #RockstarGames #EasterEggs #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>",
+  "disable_notification": true
+ },
+ "ref": "news-gta6-easter-eggs-ufo-little-sam",
+ "fallback_text": "🎮 <b>GTA 6 Easter egg hunt: a UFO, Bigfoot and a \"Little Sam\"</b>\n\nOnly hours after launch, GTA 6 players have already found a UFO in the woods that abducts them and a Bigfoot in the swamps that can knock them out. Fans have also spotted a \"Little Sam\" Easter egg calling back to GTA 3, which looks like a nod to Rockstar co-founder Sam Houser.\n\n🕒 Nov 19, 2026 · 20:31 (GMT+3)\n📰 Sources: <a href=\"https://www.gamesradar.com/games/grand-theft-auto/it-sure-looks-like-rockstar-co-founder-sam-houser-is-hiding-in-gta-6-as-fans-find-little-sam-easter-egg-that-calls-back-to-gta-3/\">GamesRadar+</a> · <a href=\"https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs\">Eurogamer</a>\n👥 <a href=\"https://x.com/RockstarGames\">@RockstarGames</a>\n\n👽 Found any secrets yet? React 🔥 and drop your best find in the comments\n\n#GTA6 #RockstarGames #EasterEggs #GamingNews\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>"
+}
