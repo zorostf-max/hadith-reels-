@@ -1,0 +1,11 @@
+{
+ "job": "20261119T172237-000-story-st02-script-p1.json",
+ "ref": "story-st02-script-p1",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-19T17:23:12Z",
+ "message_id": 498,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
