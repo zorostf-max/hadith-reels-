@@ -1,0 +1,11 @@
+{
+ "job": "20261120T182344-002-tiktok-text-2026-11-20-2200.json",
+ "ref": "tiktok-text-2026-11-20-2200",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-20T18:24:27Z",
+ "message_id": 505,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

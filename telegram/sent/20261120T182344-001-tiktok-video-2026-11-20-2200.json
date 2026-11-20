@@ -1,0 +1,11 @@
+{
+ "job": "20261120T182344-001-tiktok-video-2026-11-20-2200.json",
+ "ref": "tiktok-video-2026-11-20-2200",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-20T18:24:25Z",
+ "message_id": 504,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
