@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 20",
+ "hook": {
+  "text": "25M COPIES IN ONE DAY?",
+  "kicker": "GTA 6 / ANALYST ESTIMATE",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Analysts estimate GTA 6 sold nearly 25 million copies in one day, mostly on PS5",
+   "src": "source: GamesRadar+ · Eurogamer",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "~25M", "label": "copies in one day (analyst estimate)", "badge": "ESTIMATE"}
+  },
+  {
+   "tag": "VALVE",
+   "cat": "pc",
+   "head": "Valve: the 512GB Steam Machine can now be ordered with no reservation",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "image", "file": "img/s1.jpg", "label": "STEAM MACHINE"}
+  },
+  {
+   "tag": "DELTARUNE",
+   "cat": "games",
+   "head": "Deltarune Chapter 6 is now 'structurally complete' as work on Chapter 7 begins",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "image", "file": "img/s2.jpg", "label": "CHAPTER 6"}
+  }
+ ],
+ "outro": {
+  "head": "Which story surprised you most? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
