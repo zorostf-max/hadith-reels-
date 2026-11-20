@@ -1,0 +1,11 @@
+{
+ "job": "20261120T230548-000-story-st02-reminder.json",
+ "ref": "story-st02-reminder",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-20T23:06:25Z",
+ "message_id": 506,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
