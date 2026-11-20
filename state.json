@@ -139,7 +139,14 @@
     "Weekly format 2026-11-19: Part 1 Sat 11:00, Part 2 Sat 18:00, Facebook full 11:00, YouTube long 20:00. benefits.json not written yet: Friday T2 writes it.",
     "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made."
    ],
-   "messages": []
+   "messages": [
+    {
+     "message_id": 507,
+     "date_utc": "2026-11-20T23:06:41Z",
+     "text": "Ok",
+     "note": "reply after story reminder 506 → script approved (both parts)"
+    }
+   ]
   },
   "published": {
    "st01": {
@@ -168,7 +175,14 @@
     "Weekly format 2026-11-19: Part 2 now Saturday 18:00 (same day). Friday T2 also builds full.mp4 (Facebook POST 11:00) and long.mp4 with benefits (YouTube 20:00).",
     "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made."
    ],
-   "messages": []
+   "messages": [
+    {
+     "message_id": 507,
+     "date_utc": "2026-11-20T23:06:41Z",
+     "text": "Ok",
+     "note": "reply after story reminder 506 → script approved (both parts)"
+    }
+   ]
   },
   "slots": {
    "part1": "11:00",
