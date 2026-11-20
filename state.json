@@ -1,180 +1,180 @@
 {
-  "next_hadith": 17,
-  "published": [
+ "next_hadith": 17,
+ "published": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "pending_batch": {
+  "publish_date": "2026-11-20",
+  "hadiths": [
+   15,
+   16
+  ],
+  "status": "awaiting",
+  "approved": [],
+  "rejected": [],
+  "scheduled": {},
+  "messages": [],
+  "preview_message_ids": [
+   479,
+   480,
+   481
+  ],
+  "notes": {
+   "15": "Ibn Uthaymeen, Sharh Sahih al-Bukhari audio transcript (alathar.net coid=39230, lesson 02b-10) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126831, 30-8). Matn verified on hadeethenc.com/ar/browse/hadith/5953 (Bukhari 15).",
+   "16": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39261, 03a-12) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126833, 30-10). Matn verified on alsunna.net/hadith/1925 (Bukhari 16). pt0 shortened once to keep video at 53.9 s. Shamela pages were not fetchable in this run."
+  }
+ },
+ "rejected_notes": {},
+ "telegram_chat_id": "6875821347",
+ "metricool_blog_id": "7884161",
+ "slots": [
+  "10:00",
+  "18:00"
+ ],
+ "timezone": "Europe/Istanbul",
+ "telegram_last_update_id": 81690007,
+ "slot_themes": {
+  "10:00": "morning",
+  "18:00": "night"
+ },
+ "telegram_channel": "@HadithDailyAr",
+ "publish_days": [
+  "Mon",
+  "Wed",
+  "Fri"
+ ],
+ "seerah": {
+  "ep01": {
+   "publish_at": "2026-11-12T10:00:00+03:00",
+   "metricool_post_id": 425281380,
+   "telegram_job": "20261111T055221-000-seerah-ep01.json",
+   "approved": "2026-11-11",
+   "metricool_uuid": "-1903460450320038547"
+  },
+  "next_episode": 4,
+  "next_topic": "شقّ الصدر في بني سعد ورجوعه ﷺ إلى أمه — حسب ترتيب الرحيق المختوم",
+  "days": [
+   "Tue",
+   "Thu"
+  ],
+  "slot": "10:00",
+  "pending": {
+   "episode": 4,
+   "publish_date": "2026-11-24",
+   "status": "script_sent",
+   "script_message_ids": [
+    497
+   ],
+   "preview_message_ids": [],
+   "notes": [
+    "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497)."
+   ],
+   "messages": []
+  },
+  "compilation_overrides": {
+   "2026-11-22": [
     1,
     2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14
-  ],
-  "pending_batch": {
-    "publish_date": "2026-11-20",
-    "hadiths": [
-      15,
-      16
-    ],
-    "status": "awaiting",
-    "approved": [],
-    "rejected": [],
-    "scheduled": {},
-    "messages": [],
-    "preview_message_ids": [
-      479,
-      480,
-      481
-    ],
-    "notes": {
-      "15": "Ibn Uthaymeen, Sharh Sahih al-Bukhari audio transcript (alathar.net coid=39230, lesson 02b-10) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126831, 30-8). Matn verified on hadeethenc.com/ar/browse/hadith/5953 (Bukhari 15).",
-      "16": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39261, 03a-12) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126833, 30-10). Matn verified on alsunna.net/hadith/1925 (Bukhari 16). pt0 shortened once to keep video at 53.9 s. Shamela pages were not fetchable in this run."
-    }
+    3
+   ]
   },
-  "rejected_notes": {},
-  "telegram_chat_id": "6875821347",
-  "metricool_blog_id": "7884161",
-  "slots": [
-    "10:00",
-    "18:00"
-  ],
-  "timezone": "Europe/Istanbul",
-  "telegram_last_update_id": 81690007,
-  "slot_themes": {
-    "10:00": "morning",
-    "18:00": "night"
+  "ep02": {
+   "publish_at": "2026-11-17T10:00:00+03:00",
+   "metricool_post_id": 431050582,
+   "metricool_uuid": "-1206766090460970206",
+   "metricool_tiktok_post_id": 431050592,
+   "metricool_tiktok_uuid": "-6985585622372759007",
+   "youtube_title": "وُلد يتيمًا… فماذا حدث يوم مولد النبي ﷺ؟ | السيرة النبوية للأطفال – الحلقة 2",
+   "telegram_job": "20261117T062626-001-seerah-ep02.json",
+   "telegram_job_rest": "20261117T062626-002-seerah-ep02-rest.json",
+   "approved": "2026-11-16",
+   "video_commit": "53e945c658720c1ca9e71bc6c1edcd1590e21fc3"
   },
-  "telegram_channel": "@HadithDailyAr",
-  "publish_days": [
-    "Mon",
-    "Wed",
-    "Fri"
-  ],
-  "seerah": {
-    "ep01": {
-      "publish_at": "2026-11-12T10:00:00+03:00",
-      "metricool_post_id": 425281380,
-      "telegram_job": "20261111T055221-000-seerah-ep01.json",
-      "approved": "2026-11-11",
-      "metricool_uuid": "-1903460450320038547"
-    },
-    "next_episode": 4,
-    "next_topic": "شقّ الصدر في بني سعد ورجوعه ﷺ إلى أمه — حسب ترتيب الرحيق المختوم",
-    "days": [
-      "Tue",
-      "Thu"
-    ],
-    "slot": "10:00",
-    "pending": {
-      "episode": 4,
-      "publish_date": "2026-11-24",
-      "status": "script_sent",
-      "script_message_ids": [
-        497
-      ],
-      "preview_message_ids": [],
-      "notes": [
-        "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497)."
-      ],
-      "messages": []
-    },
-    "compilation_overrides": {
-      "2026-11-22": [
-        1,
-        2,
-        3
-      ]
-    },
-    "ep02": {
-      "publish_at": "2026-11-17T10:00:00+03:00",
-      "metricool_post_id": 431050582,
-      "metricool_uuid": "-1206766090460970206",
-      "metricool_tiktok_post_id": 431050592,
-      "metricool_tiktok_uuid": "-6985585622372759007",
-      "youtube_title": "وُلد يتيمًا… فماذا حدث يوم مولد النبي ﷺ؟ | السيرة النبوية للأطفال – الحلقة 2",
-      "telegram_job": "20261117T062626-001-seerah-ep02.json",
-      "telegram_job_rest": "20261117T062626-002-seerah-ep02-rest.json",
-      "approved": "2026-11-16",
-      "video_commit": "53e945c658720c1ca9e71bc6c1edcd1590e21fc3"
-    },
-    "ep03": {
-      "publish_at": "2026-11-19T10:30:00+03:00",
-      "metricool_post_id": 433848616,
-      "metricool_uuid": "-53545659713434601",
-      "metricool_tiktok_post_id": 433848804,
-      "metricool_threads_post_id": 433848816,
-      "metricool_fb_story_post_id": 433848827,
-      "youtube_title": "كلّ النساء رفضنه لأنه يتيم… فماذا حدث لحليمة حين أخذته؟ | السيرة النبوية للأطفال – الحلقة 3",
-      "telegram_job": "20261119T071842-000-seerah-ep03.json",
-      "telegram_job_rest": "20261119T071842-001-seerah-ep03-rest.json",
-      "approved": "2026-11-19 (owner, Claude chat)",
-      "video_commit": "e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1"
-    }
-  },
-  "stories": {
-    "days": [
-      "Sat"
-    ],
-    "next_story": 2,
-    "pending": {
-      "story": 2,
-      "part": 1,
-      "folder": "stories/st02",
-      "publish_date": "2026-11-21",
-      "status": "script_sent",
-      "script_message_ids": [
-        498,
-        499,
-        500
-      ],
-      "preview_message_ids": [],
-      "notes": [
-        "Two-part story: Part 2 = stories.pending_part2 (st02b, Sunday 2026-11-22). One ok to msg 500 approves both. Chosen by the patience-first rule (البلاء).",
-        "Weekly format 2026-11-19: Part 1 Sat 11:00, Part 2 Sat 18:00, Facebook full 11:00, YouTube long 20:00. benefits.json not written yet: Friday T2 writes it.",
-        "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made."
-      ],
-      "messages": []
-    },
-    "published": {
-      "st01": {
-        "publish_at": "2026-11-15T11:00:00+03:00",
-        "metricool_post_id": 428335861,
-        "metricool_tiktok_post_id": 428335877,
-        "telegram_job": "20261114T204103-000-story-st01.json",
-        "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
-        "approved": "2026-11-14T20:34:56Z (msg 434)"
-      }
-    },
-    "pending_part2": {
-      "story": 2,
-      "part": 2,
-      "folder": "stories/st02b",
-      "publish_date": "2026-11-21",
-      "status": "script_sent",
-      "script_message_ids": [
-        498,
-        499,
-        500
-      ],
-      "preview_message_ids": [],
-      "notes": [
-        "Part 2 of story 2; reuses st02/img/rich_house.png and valleys.png",
-        "Weekly format 2026-11-19: Part 2 now Saturday 18:00 (same day). Friday T2 also builds full.mp4 (Facebook POST 11:00) and long.mp4 with benefits (YouTube 20:00).",
-        "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made."
-      ],
-      "messages": []
-    },
-    "slots": {
-      "part1": "11:00",
-      "part2": "18:00",
-      "facebook_full": "11:00",
-      "youtube_long": "20:00"
-    }
+  "ep03": {
+   "publish_at": "2026-11-19T10:30:00+03:00",
+   "metricool_post_id": 433848616,
+   "metricool_uuid": "-53545659713434601",
+   "metricool_tiktok_post_id": 433848804,
+   "metricool_threads_post_id": 433848816,
+   "metricool_fb_story_post_id": 433848827,
+   "youtube_title": "كلّ النساء رفضنه لأنه يتيم… فماذا حدث لحليمة حين أخذته؟ | السيرة النبوية للأطفال – الحلقة 3",
+   "telegram_job": "20261119T071842-000-seerah-ep03.json",
+   "telegram_job_rest": "20261119T071842-001-seerah-ep03-rest.json",
+   "approved": "2026-11-19 (owner, Claude chat)",
+   "video_commit": "e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1"
   }
+ },
+ "stories": {
+  "days": [
+   "Sat"
+  ],
+  "next_story": 2,
+  "pending": {
+   "story": 2,
+   "part": 1,
+   "folder": "stories/st02",
+   "publish_date": "2026-11-21",
+   "status": "script_sent",
+   "script_message_ids": [
+    498,
+    499,
+    500
+   ],
+   "preview_message_ids": [],
+   "notes": [
+    "Two-part story: Part 2 = stories.pending_part2 (st02b, Sunday 2026-11-22). One ok to msg 500 approves both. Chosen by the patience-first rule (البلاء).",
+    "Weekly format 2026-11-19: Part 1 Sat 11:00, Part 2 Sat 18:00, Facebook full 11:00, YouTube long 20:00. benefits.json not written yet: Friday T2 writes it.",
+    "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made."
+   ],
+   "messages": []
+  },
+  "published": {
+   "st01": {
+    "publish_at": "2026-11-15T11:00:00+03:00",
+    "metricool_post_id": 428335861,
+    "metricool_tiktok_post_id": 428335877,
+    "telegram_job": "20261114T204103-000-story-st01.json",
+    "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
+    "approved": "2026-11-14T20:34:56Z (msg 434)"
+   }
+  },
+  "pending_part2": {
+   "story": 2,
+   "part": 2,
+   "folder": "stories/st02b",
+   "publish_date": "2026-11-21",
+   "status": "script_sent",
+   "script_message_ids": [
+    498,
+    499,
+    500
+   ],
+   "preview_message_ids": [],
+   "notes": [
+    "Part 2 of story 2; reuses st02/img/rich_house.png and valleys.png",
+    "Weekly format 2026-11-19: Part 2 now Saturday 18:00 (same day). Friday T2 also builds full.mp4 (Facebook POST 11:00) and long.mp4 with benefits (YouTube 20:00).",
+    "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made."
+   ],
+   "messages": []
+  },
+  "slots": {
+   "part1": "11:00",
+   "part2": "18:00",
+   "facebook_full": "11:00",
+   "youtube_long": "20:00"
+  }
+ }
 }
