@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/f343d05b0e2f40022291d114889b0455afeeb8fb/gaming-news/shorts/ep2026-11-21-1400/short.mp4",
+  "caption": "🎬 <b>This afternoon in gaming: 3 stories in 42 seconds</b>\n🎤 GTA VI: The Festival hits Miami today with Travis Scott, Cardi B & Metro Boomin\n📱 Ratchet &amp; Clank: Ranger Rumble leaves app stores today (servers off May 1, 2027)\n🐱 Bethesda confirms A Wasteland Full of Cats, a Fallout-inspired adventure\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "short-2026-11-21-1400",
+ "fallback_text": "🎬 <b>This afternoon in gaming: 3 stories in 42 seconds</b>\n🎤 GTA VI: The Festival hits Miami today with Travis Scott, Cardi B & Metro Boomin\n📱 Ratchet &amp; Clank: Ranger Rumble leaves app stores today (servers off May 1, 2027)\n🐱 Bethesda confirms A Wasteland Full of Cats, a Fallout-inspired adventure\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+}
