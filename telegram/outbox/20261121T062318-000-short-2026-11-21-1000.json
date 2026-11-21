@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/59832208b443a8bb9d50348dff50012729f40032/gaming-news/shorts/ep2026-11-21-1000/short.mp4",
+  "caption": "🎬 <b>This morning in gaming: 3 stories in 39 seconds</b>\n📶 Comcast: GTA 6's final preload day was its busiest traffic day ever (+31% peak)\n🏢 Rockstar: about 1,000 staff have worked there for 10+ years\n🎭 Atlus promises future Persona games won't take as long\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "short-2026-11-21-1000",
+ "fallback_text": "🎬 <b>This morning in gaming: 3 stories in 39 seconds</b>\n📶 Comcast: GTA 6's final preload day was its busiest traffic day ever (+31% peak)\n🏢 Rockstar: about 1,000 staff have worked there for 10+ years\n🎭 Atlus promises future Persona games won't take as long\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+}
