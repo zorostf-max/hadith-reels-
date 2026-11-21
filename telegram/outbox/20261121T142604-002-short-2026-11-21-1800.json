@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/cdba6df9e18be03c076b177cb752c2c07d90b2ea/gaming-news/shorts/ep2026-11-21-1800/short.mp4",
+  "caption": "🎬 <b>Gaming news: 3 stories in 45 seconds</b>\n⚔️ GTA 6 vs the Zelda: Ocarina of Time remake: a Metacritic review bomb war (Dexerto)\n🎮 Digital Foundry: GTA 6 on Switch 2 \"feels extremely unlikely\" (Nintendo Insider)\n💸 Switch 2 + Mario Kart World bundle: $499.99 for Black Friday in the US, Nov 22 – Dec 5 (Screen Rant)\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "short-2026-11-21-1800",
+ "fallback_text": "🎬 Gaming news: 3 stories in 45 seconds\n⚔️ GTA 6 vs the Zelda: Ocarina of Time remake: a Metacritic review bomb war (Dexerto)\n🎮 Digital Foundry: GTA 6 on Switch 2 \"feels extremely unlikely\" (Nintendo Insider)\n💸 Switch 2 + Mario Kart World bundle: $499.99 for Black Friday in the US, Nov 22 – Dec 5 (Screen Rant)\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/cdba6df9e18be03c076b177cb752c2c07d90b2ea/gaming-news/shorts/ep2026-11-21-1800/short.mp4"
+}
