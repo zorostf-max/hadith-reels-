@@ -1,0 +1,11 @@
+{
+ "job": "20261121T095117-003-story-st02b-rest.json",
+ "ref": "story-st02b-rest",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-21T15:07:17Z",
+ "message_id": 41,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
