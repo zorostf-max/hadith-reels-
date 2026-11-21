@@ -1,0 +1,53 @@
+{
+ "date_label": "nov 21",
+ "hook": {
+  "text": "GTA 6 BROKE COMCAST'S RECORD",
+  "kicker": "BUSIEST DAY SINCE 1963",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Comcast: GTA 6's final preload day was the busiest traffic day in its history",
+   "src": "source: GameSpot · IGN",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "+31%",
+    "label": "Comcast peak traffic vs an average day",
+    "badge": "ALL-TIME RECORD"
+   }
+  },
+  {
+   "tag": "ROCKSTAR",
+   "cat": "games",
+   "head": "Rockstar confirms about 1,000 employees have worked there for 10+ years",
+   "src": "source: GamesRadar+ · PC Gamer",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "~1,000",
+    "label": "staff with 10+ years (about 21%)",
+    "badge": "ROCKSTAR"
+   }
+  },
+  {
+   "tag": "PERSONA",
+   "cat": "games",
+   "head": "Atlus promises future Persona games won't take as long as they used to",
+   "src": "source: Eurogamer",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "image",
+    "file": "img/s2.jpg",
+    "label": "PERSONA"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Which story surprised you most? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
