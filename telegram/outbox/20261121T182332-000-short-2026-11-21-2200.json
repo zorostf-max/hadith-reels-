@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/66034243e8b4e78fef9df202396fbf209f6b1440/gaming-news/shorts/ep2026-11-21-2200/short.mp4",
+  "caption": "🎬 <b>Tonight in gaming: 3 stories in 39 seconds</b>\n🔥 A streamer's PS5 reportedly started smoking during a GTA 6 bathroom break\n👵 Retirement home residents in France, some as old as 86, discovered GTA 6\n⚔️ Unannounced Nioh 3 Complete Edition rated in Korea\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "short-2026-11-21-2200",
+ "fallback_text": "🎬 <b>Tonight in gaming: 3 stories in 39 seconds</b>\n🔥 A streamer's PS5 reportedly started smoking during a GTA 6 bathroom break\n👵 Retirement home residents in France, some as old as 86, discovered GTA 6\n⚔️ Unannounced Nioh 3 Complete Edition rated in Korea\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+}
