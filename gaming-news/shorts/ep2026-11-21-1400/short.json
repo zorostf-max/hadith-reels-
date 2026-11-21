@@ -1,0 +1,52 @@
+{
+ "date_label": "nov 21",
+ "hook": {
+  "text": "GTA 6 FESTIVAL IS TODAY",
+  "kicker": "LIVE IN MIAMI",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "GTA VI: The Festival hits Miami today, co-presented with PlayStation",
+   "src": "source: Push Square · The FADER",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "pills",
+    "title": "GTA VI: THE FESTIVAL",
+    "items": ["TRAVIS SCOTT", "CARDI B", "METRO BOOMIN", "JUSTICE (DJ SET)"]
+   }
+  },
+  {
+   "tag": "R&C",
+   "cat": "playstation",
+   "head": "Cancelled mobile game Ratchet & Clank: Ranger Rumble leaves app stores today",
+   "src": "source: VGC",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "MAY 1",
+    "label": "servers shut down for good in 2027",
+    "badge": "DELISTED TODAY"
+   }
+  },
+  {
+   "tag": "FALLOUT",
+   "cat": "xbox",
+   "head": "Bethesda confirms A Wasteland Full of Cats, a cozy Fallout-inspired adventure",
+   "src": "source: PC Gamer",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "image",
+    "file": "img/s2.jpg",
+    "label": "A WASTELAND FULL OF CATS"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Would you go to a GTA festival? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
