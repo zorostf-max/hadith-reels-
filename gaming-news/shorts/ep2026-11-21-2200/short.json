@@ -1,0 +1,13 @@
+{
+ "date_label": "nov 21",
+ "hook": {"text": "PS5 SMOKING MID GTA 6", "kicker": "STREAMER SHOCK", "cat": "playstation", "audio": "audio/hook.mp3"},
+ "stories": [
+  {"tag": "PS5", "cat": "playstation", "head": "A streamer paused GTA 6 for a bathroom break and their PS5 reportedly started smoking", "src": "source: Dexerto", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "PS5 SMOKE", "label": "while the streamer was away mid-GTA 6", "badge": "TWITCH"}},
+  {"tag": "GTA 6", "cat": "games", "head": "Retirement home residents in France, some as old as 86, have discovered GTA 6", "src": "source: Dexerto", "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "AGE 86", "label": "some already hope to get GTA 6 for Christmas", "badge": "FRANCE"}},
+  {"tag": "NIOH 3", "cat": "games", "head": "An unannounced Nioh 3 Complete Edition has been rated in Korea", "src": "source: Eurogamer", "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "RATED", "label": "Nioh 3 Complete Edition on Korea's GRAC", "badge": "UNANNOUNCED"}}
+ ],
+ "outro": {"head": "Would you leave your console running mid-game? Comment below", "audio": "audio/outro.mp3"}
+}
