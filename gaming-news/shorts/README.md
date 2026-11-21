@@ -19,7 +19,7 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 - **AI voiceover** (ElevenLabs, voice **Alex** `6sWNMlBf4TdebygSxQGj`, model `eleven_v4`, `generations_count: 1`, never retry a generation): one clip per story + one outro clip. Story #1's clip starts with the hook line.
 - Headline on screen = the same fact the voice says, in my own words, ≤ 90 characters. Source line under it.
 - Outro (~4 s): "Which one surprised you most? Comment below" + follow @LevelUpGamesNews. The CTA changes a little every day.
-- Length 25–40 s. Text stays in the safe zone (the renderer handles it).
+- Length 25–40 s. Text stays in the safe zone (the renderer handles it). If the clips run long, speed the story clips up with `ffmpeg -filter:a atempo=1.15` (pitch kept) instead of regenerating (used 2026-11-21 18:00).
 
 ## FOUR REELS A DAY (owner's request 2026-11-18) — supersedes "one per day" above
 - Slots **10:00, 14:00, 18:00, 22:00 Europe/Istanbul**; each run fires ~47 min before its slot. Each reel = the 2–3 biggest stories since the previous reel (never a story already used in an earlier reel, in a breaking reel, or in this brand's Metricool posts of the last 36 h, unless there is a genuinely new development).

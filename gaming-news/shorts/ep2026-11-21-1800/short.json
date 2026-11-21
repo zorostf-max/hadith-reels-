@@ -1,0 +1,63 @@
+{
+ "date_label": "nov 21",
+ "hook": {
+  "text": "GTA 6 VS ZELDA: REVIEW WAR",
+  "kicker": "METACRITIC",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "REVIEWS",
+   "cat": "games",
+   "head": "GTA 6 and the Ocarina of Time remake are caught in a Metacritic review bomb war",
+   "src": "source: Dexerto",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "bars",
+    "title": "Metacritic user scores (PS5 / Switch 2)",
+    "items": [
+     [
+      "ZELDA",
+      9.0
+     ],
+     [
+      "GTA 6",
+      5.0
+     ]
+    ],
+    "badge": "ZELDA WAS 9.6"
+   }
+  },
+  {
+   "tag": "SWITCH 2",
+   "cat": "nintendo",
+   "head": "Digital Foundry: GTA 6 on Switch 2 'feels extremely unlikely' (too CPU-heavy)",
+   "src": "source: Digital Foundry via Nintendo Insider",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "30 FPS",
+    "label": "GTA 6 even on PS5 Pro, per Digital Foundry",
+    "badge": "CPU-BOUND"
+   }
+  },
+  {
+   "tag": "DEALS",
+   "cat": "deals",
+   "head": "Switch 2 + Mario Kart World bundle drops to $499.99 for Black Friday (US)",
+   "src": "source: Nintendo via Screen Rant",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "$499.99",
+    "label": "Switch 2 + Mario Kart World, Nov 22 - Dec 5 (US)",
+    "badge": "WAS $549.99"
+   }
+  }
+ ],
+ "outro": {
+  "head": "GTA or Zelda: who wins the review war? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
