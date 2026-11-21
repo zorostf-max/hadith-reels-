@@ -121,46 +121,8 @@
   "days": [
    "Sat"
   ],
-  "next_story": 2,
-  "pending": {
-   "story": 2,
-   "part": 1,
-   "folder": "stories/st02",
-   "publish_date": "2026-11-21",
-   "status": "video_sent",
-   "script_message_ids": [
-    498,
-    499,
-    500
-   ],
-   "preview_message_ids": [
-    508,
-    509,
-    510
-   ],
-   "notes": [
-    "Two-part story: Part 2 = stories.pending_part2 (st02b, Sunday 2026-11-22). One ok to msg 500 approves both. Chosen by the patience-first rule (البلاء).",
-    "Weekly format 2026-11-19: Part 1 Sat 11:00, Part 2 Sat 18:00, Facebook full 11:00, YouTube long 20:00. benefits.json not written yet: Friday T2 writes it.",
-    "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made.",
-    "2026-11-21 ~02:30 Istanbul (manual catch-up T2): approved by msg 507; rendered episode.mp4 (P1 2:19, P2 2:10), st02/full.mp4 3:45, st02/long.mp4 9:05 (benefits.json written this run, Fath al-Bari); preview commit 7d0eadb; previews msgs 508-510."
-   ],
-   "messages": [
-    {
-     "message_id": 507,
-     "date_utc": "2026-11-20T23:06:41Z",
-     "text": "Ok",
-     "note": "reply after story reminder 506 → script approved (both parts)"
-    }
-   ],
-   "videos": {
-    "part1": "stories/st02/episode.mp4",
-    "part2": "stories/st02b/episode.mp4",
-    "facebook_full": "stories/st02/full.mp4",
-    "youtube_long": "stories/st02/long.mp4",
-    "long_description": "stories/st02/long.txt",
-    "commit": "7d0eadbccfb445780a96ab46b895c01700a5cfb1"
-   }
-  },
+  "next_story": 3,
+  "pending": null,
   "published": {
    "st01": {
     "publish_at": "2026-11-15T11:00:00+03:00",
@@ -169,38 +131,41 @@
     "telegram_job": "20261114T204103-000-story-st01.json",
     "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
     "approved": "2026-11-14T20:34:56Z (msg 434)"
+   },
+   "st02": {
+    "approved": "2026-11-21T05:22:12Z (msg 511)",
+    "commit": "7d0eadbccfb445780a96ab46b895c01700a5cfb1",
+    "note": "Scheduled late (12:50 Istanbul, live owner request): Friday T3 ran at 23:23 before the previews existed; 11:00 slot missed, Part 1 + Facebook full moved to 13:10.",
+    "part1": {
+     "publish_at": "2026-11-21T13:10:00+03:00",
+     "metricool_post_id": 436525729,
+     "tiktok": 436525738,
+     "threads": 436525744,
+     "fb_story": 436525748
+    },
+    "facebook_full": {
+     "publish_at": "2026-11-21T13:10:00+03:00",
+     "metricool_post_id": 436525771
+    },
+    "telegram_jobs": [
+     "20261121T095117-000-story-st02.json",
+     "20261121T095117-001-story-st02-rest.json",
+     "20261121T095117-002-story-st02b.json",
+     "20261121T095117-003-story-st02b-rest.json"
+    ]
+   },
+   "st02b": {
+    "approved": "2026-11-21T05:22:12Z (msg 511)",
+    "publish_at": "2026-11-21T18:00:00+03:00",
+    "metricool_post_id": 436525785,
+    "tiktok": 436525796,
+    "threads": 436525805,
+    "fb_story": 436525819
+   },
+   "st02_long": {
+    "publish_at": "2026-11-21T20:00:00+03:00",
+    "metricool_post_id": 436525865
    }
-  },
-  "pending_part2": {
-   "story": 2,
-   "part": 2,
-   "folder": "stories/st02b",
-   "publish_date": "2026-11-21",
-   "status": "video_sent",
-   "script_message_ids": [
-    498,
-    499,
-    500
-   ],
-   "preview_message_ids": [
-    508,
-    509,
-    510
-   ],
-   "notes": [
-    "Part 2 of story 2; reuses st02/img/rich_house.png and valleys.png",
-    "Weekly format 2026-11-19: Part 2 now Saturday 18:00 (same day). Friday T2 also builds full.mp4 (Facebook POST 11:00) and long.mp4 with benefits (YouTube 20:00).",
-    "2026-11-20T23:05Z T2: no story approval (owner's 'Ok' msg 503 replied to seerah ep04 script msg 497). Reminder sent (msg 506); no video made.",
-    "2026-11-21 ~02:30 Istanbul (manual catch-up T2): approved by msg 507; rendered episode.mp4 (P1 2:19, P2 2:10), st02/full.mp4 3:45, st02/long.mp4 9:05 (benefits.json written this run, Fath al-Bari); preview commit 7d0eadb; previews msgs 508-510."
-   ],
-   "messages": [
-    {
-     "message_id": 507,
-     "date_utc": "2026-11-20T23:06:41Z",
-     "text": "Ok",
-     "note": "reply after story reminder 506 → script approved (both parts)"
-    }
-   ]
   },
   "slots": {
    "part1": "11:00",
