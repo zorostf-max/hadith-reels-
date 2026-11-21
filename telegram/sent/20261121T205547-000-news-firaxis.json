@@ -1,0 +1,11 @@
+{
+ "job": "20261121T205547-000-news-firaxis.json",
+ "ref": "news-firaxis",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-21T20:56:45Z",
+ "message_id": 514,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

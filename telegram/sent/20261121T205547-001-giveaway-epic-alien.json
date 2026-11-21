@@ -1,0 +1,11 @@
+{
+ "job": "20261121T205547-001-giveaway-epic-alien.json",
+ "ref": "giveaway-epic-alien",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-21T20:56:46Z",
+ "message_id": 515,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
