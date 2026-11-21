@@ -1,0 +1,11 @@
+{
+ "job": "20261121T142604-002-short-2026-11-21-1800.json",
+ "ref": "short-2026-11-21-1800",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-21T14:26:51Z",
+ "message_id": 512,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
