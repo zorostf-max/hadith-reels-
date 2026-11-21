@@ -1,0 +1,11 @@
+{
+ "job": "20261121T165420-000-seerah-comp-2026-11-22.json",
+ "ref": "seerah-comp-2026-11-22",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-21T16:55:13Z",
+ "message_id": 518,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
