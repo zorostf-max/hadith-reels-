@@ -1,0 +1,11 @@
+{
+ "job": "20261122T204653-000-news-xboxgamepass-nov22.json",
+ "ref": "news-xboxgamepass-nov22",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-22T20:48:07Z",
+ "message_id": 525,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
