@@ -1,0 +1,10 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://assetsio.gnwcdn.com/gta-week-last-drive-header-2.jpg?width=1200&height=630&fit=crop&quality=85&format=jpg&auto=webp",
+  "caption": "🎮 GTA 6's launch day stats are absolutely bonkers.\n\nNew data from Circana's Player Engagement Tracker shows that on GTA 6's launch day (November 19), 61% of all active US PlayStation 5 players and 56% of active Xbox players worldwide were playing GTA 6.\n\nPS5 players averaged 513 minutes in the game that day — over 8.5 hours — while Xbox players averaged 494 minutes, around 8.25 hours. Analyst Mat Piscatella called the numbers \"absolutely bonkers.\"\n\n🕒 Published: 15:02 GMT+3, November 22, 2026\n\n📰 Sources: Eurogamer, Circana Player Engagement Tracker\n\n👥 x.com/RockstarGames\n\n💬 Did you spend 8+ hours in GTA 6 on launch day? Tell us your playtime below!\n\n#GTA6 #Rockstar #PS5 #Xbox #GamingNews"
+ },
+ "ref": "news-gta6-circana",
+ "fallback_text": "🎮 GTA 6's launch day stats are absolutely bonkers.\n\nNew data from Circana's Player Engagement Tracker shows that on GTA 6's launch day (November 19), 61% of all active US PlayStation 5 players and 56% of active Xbox players worldwide were playing GTA 6.\n\nPS5 players averaged 513 minutes in the game that day — over 8.5 hours — while Xbox players averaged 494 minutes, around 8.25 hours. Analyst Mat Piscatella called the numbers \"absolutely bonkers.\"\n\n🕒 Published: 15:02 GMT+3, November 22, 2026\n\n📰 Sources: Eurogamer, Circana Player Engagement Tracker\n\n👥 x.com/RockstarGames\n\n💬 Did you spend 8+ hours in GTA 6 on launch day? Tell us your playtime below!\n\n#GTA6 #Rockstar #PS5 #Xbox #GamingNews"
+}
