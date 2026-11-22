@@ -1,0 +1,11 @@
+{
+ "job": "20261122T164624-000-news-navi-brawlstars.json",
+ "ref": "news-navi-brawlstars",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-22T16:47:21Z",
+ "message_id": 523,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
