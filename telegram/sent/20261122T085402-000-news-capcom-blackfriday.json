@@ -1,0 +1,11 @@
+{
+ "job": "20261122T085402-000-news-capcom-blackfriday.json",
+ "ref": "news-capcom-blackfriday",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-22T08:55:11Z",
+ "message_id": 519,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
