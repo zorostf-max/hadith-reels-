@@ -1,0 +1,11 @@
+{
+ "job": "20261122T174336-000-weekly-report-2026-11-22.json",
+ "ref": "weekly-report-2026-11-22",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-22T17:44:35Z",
+ "message_id": 529,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
