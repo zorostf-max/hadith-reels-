@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/96d90f01ff29459ee982f876b86e0adf8b8dd3fc/gaming-news/shorts/ep2026-11-22-2200/short.mp4",
+  "caption": "🎬 <b>Today in gaming: 3 stories in 40 seconds</b>\n🤖 An Activision patent describes NPCs that learn trash talk from players' voice chat\n💜 Ibai sent thousands of viewers to a GTA 6 streamer who had zero, leaving him in tears\n🇬🇷 Greece's PM faces backlash for asking young people if they want GTA 6 for Christmas\n📰 Source: Dexerto\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "short-2026-11-22-2200",
+ "fallback_text": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/96d90f01ff29459ee982f876b86e0adf8b8dd3fc/gaming-news/shorts/ep2026-11-22-2200/short.mp4"
+}
