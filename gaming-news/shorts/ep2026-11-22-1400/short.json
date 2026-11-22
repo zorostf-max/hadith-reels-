@@ -1,0 +1,54 @@
+{
+ "date_label": "nov 22",
+ "hook": {
+  "text": "CHEAT MAKER JOINS SUPERCELL",
+  "kicker": "CLASH ROYALE",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "CLASH",
+   "cat": "games",
+   "head": "Supercell caught a Clash Royale AI cheat maker, and he's joining to help catch cheaters",
+   "src": "source: Dexerto, Clash Royale",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "CAUGHT",
+    "label": "AI cheat maker joins the Clash Royale team",
+    "badge": "SUPERCELL"
+   }
+  },
+  {
+   "tag": "GTA 6",
+   "cat": "playstation",
+   "head": "Comcast: at peak, GTA 6 was nearly a quarter of all internet traffic on its network",
+   "src": "source: PC Gamer",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "~1/4",
+    "label": "of Comcast internet traffic at peak",
+    "badge": "COMCAST"
+   }
+  },
+  {
+   "tag": "D&D",
+   "cat": "tech",
+   "head": "Wizards of the Coast will pass its full AI copyright settlement payout to D&D writers",
+   "src": "source: PC Gamer, Wargamer",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "100%",
+    "label": "of the AI settlement payout to writers",
+    "badge": "D&D AUTHORS"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Would you trust a former cheat maker to stop cheaters? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
