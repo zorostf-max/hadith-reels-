@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://images.purexbox.com/69ce19fde04cc/1280x720.jpg",
+  "caption": "🎮 Xbox Game Pass closes out November with 3 new games!\n\nHere's what's landing before the month ends:\n🕹️ MOTORSLICE — moves from Ultimate down to the cheaper Premium tier (Nov 24)\n🎯 Sniper Ghost Warrior Contracts 2 — joins Ultimate, PC & Premium tiers (Nov 24), now bundled with the new \"Butcher's Banquet\" expansion\n⚔️ Arkheron — the only day-one launch, entering Early Access on Ultimate & PC Game Pass (Nov 27). A fast-paced team PvP game with a Tower to climb\n\n🕒 Published 15:00 (GMT+3)\n\n📰 Sources: Pure Xbox\n\n👥 x.com/Xbox, x.com/XboxGamePass\n\n💬 Which of these three are you adding to your queue? Drop a comment below!\n\n#XboxGamePass #Xbox #PC #Gaming #GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "news-xboxgamepass-nov22",
+ "fallback_text": "🎮 Xbox Game Pass closes out November with 3 new games! MOTORSLICE moves to Premium tier (Nov 24); Sniper Ghost Warrior Contracts 2 joins Ultimate/PC/Premium with the new Butcher's Banquet expansion (Nov 24); Arkheron launches day-one into Early Access on Ultimate & PC Game Pass (Nov 27). Published 15:00 GMT+3. Source: Pure Xbox. Which are you trying first? #XboxGamePass #Xbox #PC #Gaming #GamingNews"
+}
