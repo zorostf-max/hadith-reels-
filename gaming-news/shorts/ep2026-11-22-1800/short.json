@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 22",
+ "hook": {
+  "text": "GTA 6 AT 60 FPS?!",
+  "kicker": "XBOX GLITCH",
+  "cat": "xbox",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "xbox",
+   "head": "Xbox Series X glitch reportedly runs GTA 6 at 60fps, but with double-speed animations",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "split", "left": "30 FPS", "right": "60 FPS"}
+  },
+  {
+   "tag": "GPU",
+   "cat": "hardware",
+   "head": "Moore Threads teases Lushan GPU: a product manager claims it could pack 64GB of VRAM",
+   "src": "source: Tom's Hardware",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "bars", "title": "VRAM (GB)", "items": [["LUSHAN*", 64], ["RTX 5090", 32]], "badge": "CLAIMED"}
+  },
+  {
+   "tag": "AI GAMES",
+   "cat": "tech",
+   "head": "Atari E.T. designer compares the flood of AI games to the glut before the '80s crash",
+   "src": "source: PC Gamer",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "1983", "label": "AI game glut echoes the '80s crash", "badge": "H.S. WARSHAW"}
+  }
+ ],
+ "outro": {
+  "head": "Would you take 60fps with double-speed animations? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
