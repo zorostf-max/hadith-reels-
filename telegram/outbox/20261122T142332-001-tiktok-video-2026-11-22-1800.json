@@ -1,0 +1,10 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/541540154d6c91c508280084f533515637ea7cec/gaming-news/shorts/ep2026-11-22-1800/short.mp4",
+  "caption": "🎵 ريل تيك توك لـ Level Up — الساعة 18:00\nانشره بنفسك 👇"
+ },
+ "ref": "tiktok-video-2026-11-22-1800",
+ "fallback_text": "🎵 ريل تيك توك لـ Level Up — الساعة 18:00\nانشره بنفسك 👇\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/541540154d6c91c508280084f533515637ea7cec/gaming-news/shorts/ep2026-11-22-1800/short.mp4"
+}

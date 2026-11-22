@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/541540154d6c91c508280084f533515637ea7cec/gaming-news/shorts/ep2026-11-22-1800/short.mp4",
+  "parse_mode": "HTML",
+  "supports_streaming": true,
+  "caption": "🎬 <b>Gaming news: 3 stories in 40 seconds</b>\n🎮 An Xbox Series X glitch can reportedly run GTA 6 at 60fps, but animations may play at double speed\n🖥️ Moore Threads teased its Lushan gaming GPU; a product manager claims it could pack 64GB of VRAM\n🕹️ Atari's E.T. designer likens the flood of AI games to the glut before the '80s crash\n📰 Sources: GamesRadar+, Tom's Hardware, PC Gamer\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+ },
+ "ref": "short-2026-11-22-1800"
+}
