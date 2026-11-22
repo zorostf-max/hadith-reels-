@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 22",
+ "hook": {
+  "text": "NPCS THAT TRASH TALK?!",
+  "kicker": "ACTIVISION PATENT",
+  "cat": "tech",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "PATENT",
+   "cat": "tech",
+   "head": "Activision patent: NPCs could learn to trash talk from players' voice chat",
+   "src": "source: Dexerto",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "pills", "title": "POSSIBLE AUDIO SOURCES", "items": ["DISCORD", "TEAMSPEAK"]}
+  },
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Ibai sent thousands to a GTA 6 streamer with zero viewers, leaving him in tears",
+   "src": "source: Dexerto",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "split", "left": "0 VIEWERS", "right": "THOUSANDS"}
+  },
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Greek PM faces backlash for asking young people if they want GTA 6 for Christmas",
+   "src": "source: Dexerto",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "€400", "label": "The video promoted a payment for pensioners", "badge": "BACKLASH"}
+  }
+ ],
+ "outro": {
+  "head": "Would you want NPCs that trash talk like real players? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
