@@ -20,5 +20,27 @@
       "note": "vidIQ out of credits"
     },
     "telegram_message_id": 440
+  },
+  {
+    "date": "2026-11-22",
+    "period": "2026-11-16/2026-11-22",
+    "instagram": {
+      "followers": null,
+      "views": 978,
+      "reels": 7,
+      "avg_skip_rate_pct": 63.9
+    },
+    "youtube": {
+      "subscribers": null,
+      "views": 3438,
+      "videos": 5
+    },
+    "tiktok": {
+      "followers": null,
+      "total_likes": null,
+      "views": null,
+      "note": "vidIQ out of credits"
+    },
+    "telegram_message_id": 529
   }
 ]
