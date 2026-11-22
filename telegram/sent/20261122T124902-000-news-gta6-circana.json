@@ -1,0 +1,11 @@
+{
+ "job": "20261122T124902-000-news-gta6-circana.json",
+ "ref": "news-gta6-circana",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-22T12:49:59Z",
+ "message_id": 521,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
