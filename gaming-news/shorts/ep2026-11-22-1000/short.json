@@ -1,0 +1,13 @@
+{
+ "date_label": "nov 22",
+ "hook": {"text": "GTA 6 WITH HIS MIND", "kicker": "BRAIN IMPLANT", "cat": "tech", "audio": "audio/hook.mp3"},
+ "stories": [
+  {"tag": "NEURALINK", "cat": "tech", "head": "A Neuralink trial participant flies planes and drives boats in GTA 6 with his mind", "src": "source: IGN", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "MIND", "label": "GTA 6 played through a brain implant", "badge": "CLINICAL TRIAL"}},
+  {"tag": "ISAAC", "cat": "games", "head": "Nicalis removed undisclosed AI music from The Binding of Isaac: Repentance+", "src": "source: IGN", "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "8%", "label": "of recent Steam reviews positive", "badge": "REVIEW BOMB"}},
+  {"tag": "GTA 6", "cat": "playstation", "head": "Some GTA 6 players on PS5 report frequent crashes with error CE-108255-1", "src": "source: IGN", "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "CE-108255-1", "label": "crashes reported on PS5 and PS5 Pro", "badge": "NO FIX YET"}}
+ ],
+ "outro": {"head": "Would you try gaming with a brain implant? Comment below", "audio": "audio/outro.mp3"}
+}
