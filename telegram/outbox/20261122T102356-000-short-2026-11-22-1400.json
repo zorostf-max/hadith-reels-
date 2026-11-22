@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/c2f730156843f17db9a22fe940267bbe17d8adb1/gaming-news/shorts/ep2026-11-22-1400/short.mp4",
+  "parse_mode": "HTML",
+  "supports_streaming": true,
+  "caption": "🎬 <b>Gaming news: 3 stories in 38 seconds</b>\n🕵️ Supercell caught the creator of a Clash Royale AI cheating tool, and he's joining the team to help catch cheaters\n📶 Comcast: at peak, GTA 6 was nearly a quarter of all internet traffic on its network\n🐉 Wizards of the Coast will pass its full AI copyright settlement payout to D&D writers\n📰 Sources: Dexerto, PC Gamer, Wargamer\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+ },
+ "ref": "short-2026-11-22-1400"
+}
