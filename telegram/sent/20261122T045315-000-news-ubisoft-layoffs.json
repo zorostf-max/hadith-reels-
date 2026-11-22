@@ -1,0 +1,11 @@
+{
+ "job": "20261122T045315-000-news-ubisoft-layoffs.json",
+ "ref": "news-ubisoft-layoffs",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-22T04:54:03Z",
+ "message_id": 517,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
