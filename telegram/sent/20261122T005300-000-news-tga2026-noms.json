@@ -1,0 +1,11 @@
+{
+ "job": "20261122T005300-000-news-tga2026-noms.json",
+ "ref": "news-tga2026-noms",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-22T00:53:52Z",
+ "message_id": 516,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
