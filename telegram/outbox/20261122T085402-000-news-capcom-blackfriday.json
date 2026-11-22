@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn-ext.fanatical.com/production/product/1280x720/7c6c4e38-1a00-471e-8524-79fa1a0a495f.jpeg",
+  "caption": "🎮 <b>Capcom's Black Friday bundle: 28 games, pick your own, from $6.20 each</b>\n\nFanatical's Black Friday &quot;Build Your Own Capcom Collection&quot; lets you choose from 28 Capcom games — price per game drops the more you add, from £12.99 for 2 down to about $6.20 each at 8+.\n\nTitles include Resident Evil Village Gold Edition, Resident Evil 7 biohazard Gold Edition, Monster Hunter Stories 1 & 2, The Great Ace Attorney Chronicles and Dead Rising 4. Steam keys, live now while stocks last.\n\n🕒 Published: 12:00 (GMT+3), Nov 22, 2026\n📰 Source: <a href=\"https://www.videogameschronicle.com/news/fanaticals-black-friday-build-your-own-capcom-collection-bundle-lets-you-stock-up-on-classics-from-6-20-per-game/\">Video Games Chronicle</a>\n👥 <a href=\"https://x.com/CapcomUSA_\">@CapcomUSA_</a>\n\n💬 Which Capcom games are going in your bundle? Tell us below!\n\n#CapcomDeals #BlackFriday #PCGaming #Fanatical #GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "news-capcom-blackfriday",
+ "fallback_text": "🎮 Capcom's Black Friday bundle: 28 games, pick your own, from $6.20 each\n\nFanatical's Black Friday 'Build Your Own Capcom Collection' lets you choose from 28 Capcom games — price per game drops the more you add, from £12.99 for 2 down to about $6.20 each at 8+.\n\nTitles include Resident Evil Village Gold Edition, Resident Evil 7 biohazard Gold Edition, Monster Hunter Stories 1 & 2, The Great Ace Attorney Chronicles and Dead Rising 4. Steam keys, live now while stocks last.\n\n🕒 Published: 12:00 (GMT+3), Nov 22, 2026\n📰 Source: Video Games Chronicle — https://www.videogameschronicle.com/news/fanaticals-black-friday-build-your-own-capcom-collection-bundle-lets-you-stock-up-on-classics-from-6-20-per-game/\n👥 @CapcomUSA_\n\n💬 Which Capcom games are going in your bundle? Tell us below!\n\n#CapcomDeals #BlackFriday #PCGaming #Fanatical #GamingNews"
+}
