@@ -113,3 +113,5 @@ Runs **the evening before** the publishing day (Friday ~23:23 Istanbul). **Weekl
 4. `no <note>` → status `skipped`, keep the note; the next T1 redoes the story with it; tell the owner.
 5. No reply → nothing is published; do not mark it skipped; send the owner one short reminder that the story will not be published at 11:00 unless he replies ok, and stop.
 6. Never publish a story the owner did not approve.
+
+**Names (owner, 2026-11-23):** every narrated line follows root `README.md` → «Pronunciation of names» (bracket direction, trim the spoken tail, check the first vowel with `tool/check_vowel.py`).

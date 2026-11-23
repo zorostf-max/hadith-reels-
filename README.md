@@ -62,6 +62,7 @@ Every caption/description of every series (hadith, seerah episodes and compilati
    - Download each clip: `curl -sSfL -o data/audio/bukhari-NNN/<scene>.mp3 "<content_url>"`, then set `"narration": {"hook": "audio/bukhari-NNN/hook.mp3", ...}` in the data file (paths relative to `data/`). `render.py` places each clip 0.35 s into its scene and stretches the scene to fit, so keep the short-format `durations` as the minimums.
    - **If ElevenLabs refuses to generate** (e.g. "Free Tier access has been disabled", "busy", no credits): do not retry in a loop; keep any clips that did finish, render the video silent (or with only the clips you have only if hook + matn + point are all present), and tell the owner on Telegram «⚠️ لم يُضف التعليق الصوتي: ElevenLabs رفض التوليد (<السبب>)».
    - **If the download is refused** (HTTP 403 from the sandbox proxy — the host `elevenlabsusercontent.com` must be allowed in the account's network settings), do not retry: render the video silent as before, and say in the Telegram preview message «⚠️ لم يُضف التعليق الصوتي: تحميل الصوت محجوب في إعدادات الشبكة».
+   - **Names:** follow «Pronunciation of names» below (bracket direction, trim the spoken tail, check the vowel).
    - The narrated video must still be ≤ 55 s: if it is longer, shorten the point or keep only the Prophet's words of the matn, regenerate only the changed clip, and render again.
 5. Run `--check`, look at the stills (text must fit inside the arch, nothing cut off, the background matches its theme), fix the data if needed, then render the mp4. Keep files under 19 MB.
 6. Write `videos/bukhari-NNN.txt` caption (one text goes to all three platforms, and TikTok/Reels show only the first lines, so those lines must carry the post): **first line = the hook question + « 🤔»** (same wording as `hook`, without HTML), **second line = the follow promise («Follow plan» above), third line = «💬 » + the closing question**, blank line, title line, hadith text, «من شرح الشيخ ابن عثيمين رحمه الله:» numbered points (the video shows one; the caption may list up to 3), then «📚 المصادر:» with exact sources (book, chapter, hadith number; the sharh book you used), then one call-to-action line (owner's request 2026-11-11), varied from video to video, e.g. «❤️ إن نفعك الحديث فاضغط إعجاب وشاركه، واكتب جوابك في التعليقات 👇» or «🤍 شارك الأجر: أعجب بالمنشور وانشره، وأخبرنا في التعليقات 👇», then the links block (see «Links block» below), then 3–5 hashtags (topic first, e.g. #صحيح_البخاري #حديث_نبوي + 1–3 topic tags). **Instagram allows at most 5 hashtags per post (enforced since Dec 2025; more = reduced reach), so use 3–5 relevant hashtags, never more.** Max 2,000 characters.
@@ -101,6 +102,36 @@ Every caption/description of every series (hadith, seerah episodes and compilati
 5. Rejected videos: put `{N: "<note>"}` into `rejected_notes` so the next batch redoes them; do not publish them.
 6. Send one Telegram message (a `sendMessage` job through the bridge, then `tg.py wait`) summarising what was scheduled (times) and what was rejected. When every video in the batch is scheduled or rejected, set status `done`. Commit + push.
 7. Never publish a video the owner did not approve. Never change already scheduled posts unless the owner asks.
+
+## Pronunciation of names (owner's request 2026-11-23, after «عُبادة» was voiced «عِبادة» in hadith 18) — applies to every narrated line of every series (hadith, seerah, stories)
+
+The voice often ignores the tashkeel on the FIRST letter of a name. For every clip that contains a name from the list below (or any other name whose first vowel is a damma or kasra):
+1. Write the name with full tashkeel in the `tts` / `narration_text` line, and add an English direction in square brackets at the END of the prompt, e.g. `… رَضِيَ اللهُ عَنْهُ: [pronounce the name as "Ubaadah", starting with the vowel u]`.
+2. **The model reads the bracket text aloud** (it does not treat it as a silent direction). So after downloading, cut the clip at the silence right after the Arabic: find it with `ffmpeg -i clip.mp3 -af silencedetect=n=-40dB:d=0.15 -f null -`, then `ffmpeg -y -i clip.mp3 -t <silence_start+0.2> -af "afade=t=out:st=<t-0.13>:d=0.13" -c:a libmp3lame -b:a 128k out.mp3`. Keep the bracketed direction out of `narration_text` / the script file (they hold only what is heard).
+3. Check the name: get the word's start/end with ElevenLabs `creative_transcribe_audio` (connect_from = the speech node; costs 0 credits; the transcript simply echoes the prompt, but its `words` timings are usable), then `python3 tool/check_vowel.py <clip> <start> <end>` (needs `pip install praat-parselmouth --break-system-packages`). If it reports the wrong vowel, regenerate that ONE clip once with a stronger direction; if it is still wrong, keep the better take and tell the owner in the preview message which name to listen to.
+
+| Name (tashkeel) | Say | First vowel |
+|---|---|---|
+| عُبادة بن الصّامت | Ubaadah ibn as-Saamit | u |
+| عُمَر بن الخطّاب | Umar | u |
+| عُثْمان بن عفّان | Uthmaan | u |
+| ابن عُثَيْمِين | Uthaymeen | u |
+| أُبَيّ بن كَعْب | Ubayy ibn Ka'b | u |
+| أُسامة بن زَيْد | Usaamah | u |
+| مُعاذ بن جَبَل | Mu'aadh ibn Jabal | u |
+| حُذَيْفة بن اليَمان | Hudhayfah | u |
+| أبو هُرَيْرة | Abu Hurayrah | u |
+| النُّعْمان بن بَشِير | an-Nu'maan ibn Basheer | u |
+| أبو سعيد الخُدْرِيّ | al-Khudri | u |
+| عِمْران بن حُصَيْن | Imraan ibn Husayn | i, then u |
+| عَمْرو بن العاص / عبد الله بن عَمْرو | Amr (the و is silent) | a |
+| أَنَس بن مالك | Anas | a |
+| عَلْقَمة | Alqamah | a |
+| عَبْد الله بن عَبّاس | Abdullah ibn Abbaas | a |
+| سَعْد بن أبي وَقّاص، بنو سَعْد | Sa'd | a |
+| حَلِيمة السَّعْدِيّة | Haleemah as-Sa'diyyah | a |
+
+Add every new name you voice to this table (same commit), so later runs reuse it.
 
 ## Data schema (`data/bukhari-NNN.json`)
 
