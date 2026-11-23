@@ -32,13 +32,15 @@
     "preview_message_ids": [
       538,
       539,
-      540
+      540,
+      543
     ],
     "video_commit": "2c49ae804aee20821826b4841be710d46b28cf9c",
     "notes": {
       "17": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39244, lesson 02b-24), verified verbatim. Matn: surahquran.com/Hadith-2456.html + hadeethenc.com/ar/browse/hadith/65695. 49.5 s.",
-      "18": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39245, lesson 02b-25), verified verbatim. Matn: dorar.net/hadith/sharh/2664 + hadeethenc.com/ar/browse/hadith/66210. Video abridged (مختصر): audio cut at pauses (dropped 'فمن وفى منكم فأجره على الله' and the 'قال الشيخ ابن عثيمين' prefix of pt0), matn1+matn2 merged — 60.6 s -> 53.6 s; full text in caption."
-    }
+      "18": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39245, lesson 02b-25), verified verbatim. Matn: dorar.net/hadith/sharh/2664 + hadeethenc.com/ar/browse/hadith/66210. Video abridged (مختصر): audio cut at pauses (dropped 'فمن وفى منكم فأجره على الله' and the 'قال الشيخ ابن عثيمين' prefix of pt0), matn1+matn2 merged — 60.6 s -> 53.6 s; full text in caption. Isnad re-generated once (owner: عُبادة is with damma); corrected preview msg 543."
+    },
+    "video_commit_018": "bf38544 (isnad re-voiced: عُبادة with damma, owner's correction 2026-11-23)"
   },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",
