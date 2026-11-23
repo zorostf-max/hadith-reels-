@@ -1,0 +1,11 @@
+{
+ "job": "20261123T170419-000-preview-018-fix.json",
+ "ref": "preview-018-fix",
+ "method": "sendVideo",
+ "ok": false,
+ "sent_at": "2026-11-23T17:05:38Z",
+ "message_id": null,
+ "message_ids": null,
+ "error": "Bad Request: failed to get HTTP URL content",
+ "fallback_used": false
+}
