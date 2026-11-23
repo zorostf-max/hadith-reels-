@@ -1,0 +1,19 @@
+{
+ "date_label": "nov 23",
+ "hook": {"text": "JENSEN HUANG IS BACK", "kicker": "NVIDIA", "cat": "hardware", "audio": "audio/hook.mp3"},
+ "stories": [
+  {"tag": "NVIDIA", "cat": "hardware",
+   "head": "Nvidia's board votes unanimously to bring Jensen Huang back as CEO after an 11-day exit",
+   "src": "source: Tom's Hardware · Dexerto", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "BACK", "label": "Jensen Huang reinstated as Nvidia CEO", "badge": "UNANIMOUS"}},
+  {"tag": "GTA 6", "cat": "games",
+   "head": "GTA 6's first post-launch patch 01.002.002 is rolling out, no patch notes yet",
+   "src": "source: IGN · GameSpot", "audio": "audio/s1.mp3",
+   "art": {"type": "progress", "label": "UPDATING", "title": "GTA 6", "badge": "01.002.002"}},
+  {"tag": "REVIEWS", "cat": "nintendo",
+   "head": "GTA 6 review-bombing spills over: fans now hit Ocarina of Time and Soul Calibur",
+   "src": "source: VGC · Eurogamer", "audio": "audio/s2.mp3",
+   "art": {"type": "pills", "title": "REVIEW-BOMBED ON METACRITIC", "items": ["GTA 6", "OCARINA OF TIME", "SOUL CALIBUR"]}}
+ ],
+ "outro": {"head": "Should Metacritic lock user reviews at launch? Comment below", "audio": "audio/outro.mp3"}
+}
