@@ -1,5 +1,5 @@
 {
-  "next_hadith": 17,
+  "next_hadith": 19,
   "published": [
     1,
     2,
@@ -19,42 +19,21 @@
     16
   ],
   "pending_batch": {
-    "publish_date": "2026-11-20",
+    "publish_date": "2026-11-25",
     "hadiths": [
-      15,
-      16
+      17,
+      18
     ],
-    "status": "done",
-    "approved": [
-      15,
-      16
-    ],
+    "status": "awaiting",
+    "approved": [],
     "rejected": [],
-    "scheduled": {
-      "15": {
-        "publish_at": "2026-11-23T15:00:00+03:00",
-        "note": "one-off manual time via chat (owner), not the usual 10:00/18:00 slot",
-        "metricool_post_id": 438646504,
-        "metricool_tiktok_post_id": 438647295,
-        "metricool_threads_post_id": 438647324
-      },
-      "16": {
-        "publish_at": "2026-11-24T06:25:00+03:00",
-        "note": "one-off manual time via chat (owner) = Fajr Istanbul 24 Nov per Diyanet; Tuesday is not normally a hadith day",
-        "metricool_post_id": 438646783,
-        "metricool_tiktok_post_id": 438647362,
-        "metricool_threads_post_id": 438647380
-      }
-    },
+    "scheduled": {},
     "messages": [],
-    "preview_message_ids": [
-      479,
-      480,
-      481
-    ],
+    "preview_message_ids": [],
+    "video_commit": "2c49ae804aee20821826b4841be710d46b28cf9c",
     "notes": {
-      "15": "Ibn Uthaymeen, Sharh Sahih al-Bukhari audio transcript (alathar.net coid=39230, lesson 02b-10) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126831, 30-8). Matn verified on hadeethenc.com/ar/browse/hadith/5953 (Bukhari 15).",
-      "16": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39261, 03a-12) + Sharh Kitab al-Tawhid transcript (alathar.net coid=126833, 30-10). Matn verified on alsunna.net/hadith/1925 (Bukhari 16). pt0 shortened once to keep video at 53.9 s. Shamela pages were not fetchable in this run."
+      "17": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39244, lesson 02b-24), verified verbatim. Matn: surahquran.com/Hadith-2456.html + hadeethenc.com/ar/browse/hadith/65695. 49.5 s.",
+      "18": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39245, lesson 02b-25), verified verbatim. Matn: dorar.net/hadith/sharh/2664 + hadeethenc.com/ar/browse/hadith/66210. Video abridged (مختصر): audio cut at pauses (dropped 'فمن وفى منكم فأجره على الله' and the 'قال الشيخ ابن عثيمين' prefix of pt0), matn1+matn2 merged — 60.6 s -> 53.6 s; full text in caption."
     }
   },
   "rejected_notes": {},
@@ -94,15 +73,17 @@
     "pending": {
       "episode": 4,
       "publish_date": "2026-11-24",
-      "status": "script_sent",
+      "status": "skipped",
       "script_message_ids": [
         497
       ],
       "preview_message_ids": [],
       "notes": [
-        "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497)."
+        "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497).",
+        "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday)."
       ],
-      "messages": []
+      "messages": [],
+      "skip_reason": "no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23)."
     },
     "compilation_overrides": {
       "2026-11-22": [

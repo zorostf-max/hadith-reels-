@@ -1,0 +1,10 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/2c49ae804aee20821826b4841be710d46b28cf9c/videos/bukhari-018.mp4",
+  "caption": "(٢/٢) الحديث رقم 18 — بيعة عبادة بن الصامت: الحدود كفارة — يُنشر الأربعاء ١٨:٠٠",
+  "supports_streaming": true
+ },
+ "ref": "preview-018"
+}
