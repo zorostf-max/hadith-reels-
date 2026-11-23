@@ -1,0 +1,52 @@
+{
+ "date_label": "nov 23",
+ "hook": {
+  "text": "NO DARTS IN GTA 6",
+  "kicker": "ROCKSTAR EXPLAINS",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Rockstar: no darts or bowling in GTA 6, it \"didn't have the resources\" to do them right",
+   "src": "source: Eurogamer · Dexerto",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "NO DARTS",
+    "label": "no darts or bowling mini-games in GTA 6",
+    "badge": "ROCKSTAR"
+   }
+  },
+  {
+   "tag": "BANJO",
+   "cat": "xbox",
+   "head": "Activision calls itself \"the home of Banjo-Kazooie\" in a new job listing",
+   "src": "source: VGC",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "image",
+    "file": "img/s1.jpg"
+   }
+  },
+  {
+   "tag": "CHESS",
+   "cat": "tech",
+   "head": "A tuned chess engine on a 1995 Pentium Pro PC would beat Kasparov 9 times out of 10",
+   "src": "source: Tom's Hardware",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "9/10",
+    "label": "wins vs Kasparov on a 200 MHz PC (claim)",
+    "badge": "1995 PC"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Which GTA mini-game do you miss most? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
