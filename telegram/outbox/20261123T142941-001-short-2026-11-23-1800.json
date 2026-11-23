@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/7cdd00fa13c5a7bfa6c333420a39eddb2fb70542/gaming-news/shorts/ep2026-11-23-1800/short.mp4",
+  "caption": "🎬 <b>Gaming news: 3 stories in 38 seconds</b>\n\n👑 Nvidia's board unanimously reinstates Jensen Huang as CEO after an 11-day exit\n🛠️ GTA 6's first post-launch patch 01.002.002 is rolling out — no patch notes yet\n⭐ GTA 6's Metacritic review-bombing spills onto Ocarina of Time and Soul Calibur\n\n💬 Should Metacritic lock user reviews at launch?\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews #Nvidia #GTA6",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-23-1800",
+ "fallback_text": "🎬 Gaming news: 3 stories in 38 seconds\n\n👑 Nvidia's board unanimously reinstates Jensen Huang as CEO after an 11-day exit\n🛠️ GTA 6's first post-launch patch 01.002.002 is rolling out — no patch notes yet\n⭐ GTA 6's Metacritic review-bombing spills onto Ocarina of Time and Soul Calibur\n\n💬 Should Metacritic lock user reviews at launch?\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews #Nvidia #GTA6\n\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/7cdd00fa13c5a7bfa6c333420a39eddb2fb70542/gaming-news/shorts/ep2026-11-23-1800/short.mp4"
+}
