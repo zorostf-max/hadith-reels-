@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "@LevelUpGames0",
-  "text": "🚨 GTA VI just became the biggest entertainment launch in history!\n\nRockstar Games says Grand Theft Auto VI pulled in $3.79 billion in day-one retail sales, after more than 32 million pre-orders worldwide — a new record across any entertainment medium, beating every movie and album debut ever.\n\nThe game launched this past Thursday (Nov 19), 13 years after GTA V, on PS5 and Xbox Series X|S — and already holds a record-tying 99/100 on Metacritic.\n\n🕒 Published: 04:03 GMT+3, Nov 23\n\n📰 Sources: Video Games Chronicle\n\n👥 @RockstarGames | @Take2Games\n\nDid you grab GTA VI on day one? Tell us your first impressions below! 👇\n\n#GTA6 #GrandTheftAuto #Rockstar #GamingIndustry #GamingNews",
-  "parse_mode": "HTML"
- },
- "ref": "news-gta6-sales"
-}
