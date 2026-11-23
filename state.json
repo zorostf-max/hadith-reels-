@@ -29,7 +29,11 @@
     "rejected": [],
     "scheduled": {},
     "messages": [],
-    "preview_message_ids": [],
+    "preview_message_ids": [
+      538,
+      539,
+      540
+    ],
     "video_commit": "2c49ae804aee20821826b4841be710d46b28cf9c",
     "notes": {
       "17": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39244, lesson 02b-24), verified verbatim. Matn: surahquran.com/Hadith-2456.html + hadeethenc.com/ar/browse/hadith/65695. 49.5 s.",
@@ -83,7 +87,8 @@
         "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday)."
       ],
       "messages": [],
-      "skip_reason": "no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23)."
+      "skip_reason": "no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).",
+      "reminder_message_id": 541
     },
     "compilation_overrides": {
       "2026-11-22": [
