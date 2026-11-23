@@ -1,0 +1,10 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/bf38544d6ef11738bb31825298a03ed2aaeabec9/videos/bukhari-018.mp4",
+  "caption": "🔁 (٢/٢) الحديث رقم 18 — نسخة مصحّحة: «عُبادة» بالضم — يُنشر الأربعاء ١٨:٠٠ (تُعتمد هذه النسخة؛ الردّ ok 2 كما هو)",
+  "supports_streaming": true
+ },
+ "ref": "preview-018-fix2"
+}
