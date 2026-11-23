@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://static.invenglobal.com/upload/image/2026/11/19/i1795113325645048.jpeg",
+  "caption": "🏎️ Assetto Corsa Rally just dropped its biggest update of 2026!\n\nUpdate 0.7 adds the twin-charged Lancia Delta S4 Group B (1986) and the modern Evo2 Italtecnica build, plus a massive new Rally Sweden location — over 30km of laser-scanned snow stages across two sites (Vargåsen & Fredriksberg), with full day-night cycles, Northern Lights, dynamic weather and mandatory studded snow tyres.\n\nAlso new: a 16-player Online Rally Weekend multiplayer mode, updated handling across every car and surface (with input from WRC driver Jon Armstrong), and support for Intel XeSS 3 upscaling.\n\n🕐 Published: 23 Nov 2026, 11:57 GMT+3\n\n📰 Sources: Inven Global, GamesPress\n\nGot a favorite rally stage, or trying the new Delta S4? Tell us below! 👇\n\n#AssettoCorsa #RacingGames #SimRacing #RallyGaming #GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "news-ac-rally",
+ "fallback_text": "🏎️ Assetto Corsa Rally just dropped its biggest update of 2026! Update 0.7 adds the Lancia Delta S4 Group B (1986) and Evo2 Italtecnica cars, plus a massive new Rally Sweden location with 30+km of laser-scanned snow stages and a 16-player Online Rally Weekend mode. 📰 Sources: Inven Global, GamesPress. #AssettoCorsa #RacingGames #SimRacing #RallyGaming #GamingNews"
+}
