@@ -1,0 +1,11 @@
+{
+ "job": "20261123T084850-000-news-ac-rally.json",
+ "ref": "news-ac-rally",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-23T08:51:55Z",
+ "message_id": 529,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
