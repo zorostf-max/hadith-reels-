@@ -1,0 +1,11 @@
+{
+ "job": "20261123T125652-000-ps-plus-nov24.json",
+ "ref": "ps-plus-nov24",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-23T12:57:59Z",
+ "message_id": 531,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
