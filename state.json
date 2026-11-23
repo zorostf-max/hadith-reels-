@@ -14,7 +14,9 @@
     11,
     12,
     13,
-    14
+    14,
+    15,
+    16
   ],
   "pending_batch": {
     "publish_date": "2026-11-20",
@@ -22,10 +24,28 @@
       15,
       16
     ],
-    "status": "awaiting",
-    "approved": [],
+    "status": "done",
+    "approved": [
+      15,
+      16
+    ],
     "rejected": [],
-    "scheduled": {},
+    "scheduled": {
+      "15": {
+        "publish_at": "2026-11-23T15:00:00+03:00",
+        "note": "one-off manual time via chat (owner), not the usual 10:00/18:00 slot",
+        "metricool_post_id": 438646504,
+        "metricool_tiktok_post_id": 438647295,
+        "metricool_threads_post_id": 438647324
+      },
+      "16": {
+        "publish_at": "2026-11-24T06:25:00+03:00",
+        "note": "one-off manual time via chat (owner) = Fajr Istanbul 24 Nov per Diyanet; Tuesday is not normally a hadith day",
+        "metricool_post_id": 438646783,
+        "metricool_tiktok_post_id": 438647362,
+        "metricool_threads_post_id": 438647380
+      }
+    },
     "messages": [],
     "preview_message_ids": [
       479,
