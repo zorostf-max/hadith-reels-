@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/9b096b12e7e3fda5f11fe302be0efbe5e02a8e2e/gaming-news/shorts/ep2026-11-23-2200/short.mp4",
+  "caption": "🎬 <b>Tonight in gaming: 3 stories in 39 seconds</b>\n🎮 The hacker behind the 2022 GTA 6 leak is released on licence: \"Don't let this happen again\"\n🕹️ Xbox Project Helix was reportedly planned to run Steam games with free online multiplayer\n🎮 Ex-Dragon Age boss Mark Darrah blames EA: \"the options on the table were all terrible\"\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "short-2026-11-23-2200",
+ "fallback_text": "🎬 <b>Tonight in gaming: 3 stories in 39 seconds</b>\n🎮 The hacker behind the 2022 GTA 6 leak is released on licence: \"Don't let this happen again\"\n🕹️ Xbox Project Helix was reportedly planned to run Steam games with free online multiplayer\n🎮 Ex-Dragon Age boss Mark Darrah blames EA: \"the options on the table were all terrible\"\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews\n\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/9b096b12e7e3fda5f11fe302be0efbe5e02a8e2e/gaming-news/shorts/ep2026-11-23-2200/short.mp4"
+}
