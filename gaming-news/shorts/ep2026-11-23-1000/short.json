@@ -1,0 +1,57 @@
+{
+ "date_label": "nov 23",
+ "hook": {
+  "text": "$3.79 BILLION ON DAY ONE",
+  "kicker": "GTA 6 - OFFICIAL",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Take-Two: GTA 6 made $3.79B in day-one retail sales, the biggest entertainment launch ever",
+   "src": "source: Take-Two (company estimate)",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "$3.79B",
+    "label": "day-one retail sales (company estimate)",
+    "badge": "RECORD"
+   }
+  },
+  {
+   "tag": "STEAM",
+   "cat": "pc",
+   "head": "Steam Awards turn 10: nominations open today, with new anniversary categories",
+   "src": "source: Steam · VGTimes",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "10TH",
+    "label": "Steam Awards · final voting Dec 17",
+    "badge": "NOMINATE NOW"
+   }
+  },
+  {
+   "tag": "GAME PASS",
+   "cat": "xbox",
+   "head": "Sniper Ghost Warrior Contracts 2 joins Game Pass Nov 24, Arkheron arrives Nov 27",
+   "src": "source: Pure Xbox",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "pills",
+    "title": "GAME PASS THIS WEEK",
+    "items": [
+     "SGW CONTRACTS 2 · NOV 24",
+     "MOTORSLICE · NOV 24",
+     "ARKHERON · NOV 27"
+    ]
+   }
+  }
+ ],
+ "outro": {
+  "head": "Did you buy GTA 6 on day one? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
