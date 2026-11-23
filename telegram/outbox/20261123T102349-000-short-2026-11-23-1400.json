@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/1b326b1bd4038596fd84968f6742c3f098f63982/gaming-news/shorts/ep2026-11-23-1400/short.mp4",
+  "caption": "🎬 <b>GTA 6 is missing a fan favorite: 3 stories in 40 seconds</b>\n\n🎯 Rockstar says it \"didn't have the resources\" to do darts and bowling right in GTA 6\n🐻 Activision calls itself \"the home of Banjo-Kazooie\" in a new job listing\n♟️ A tuned chess engine on a 1995 Pentium Pro PC would reportedly beat Kasparov 9 times out of 10\n\n💬 Which GTA mini-game do you miss most?\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews #GTA6",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-23-1400",
+ "fallback_text": "🎬 <b>GTA 6 is missing a fan favorite: 3 stories in 40 seconds</b>\n\n🎯 Rockstar says it \"didn't have the resources\" to do darts and bowling right in GTA 6\n🐻 Activision calls itself \"the home of Banjo-Kazooie\" in a new job listing\n♟️ A tuned chess engine on a 1995 Pentium Pro PC would reportedly beat Kasparov 9 times out of 10\n\n💬 Which GTA mini-game do you miss most?\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews #GTA6"
+}
