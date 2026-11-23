@@ -1,0 +1,19 @@
+{
+ "date_label": "nov 23",
+ "hook": {"text": "GTA 6 HACKER WALKS FREE", "kicker": "GTA 6 LEAK", "cat": "games", "audio": "audio/hook.mp3"},
+ "stories": [
+  {"tag": "GTA 6", "cat": "games",
+   "head": "The hacker behind the 2022 GTA 6 leak is released on licence: 'Don't let this happen again'",
+   "src": "source: IGN · VGC", "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "FREE", "label": "2022 GTA 6 leaker released on licence", "badge": "JUDGE'S WARNING"}},
+  {"tag": "XBOX", "cat": "xbox",
+   "head": "Project Helix was reportedly planned to run Steam games with free online multiplayer",
+   "src": "source: GamesRadar+", "audio": "audio/s1.mp3",
+   "art": {"type": "pills", "title": "SCRAPPED PLAN (REPORTEDLY)", "items": ["STEAM GAMES", "FREE ONLINE", "PC-LIKE DESIGN"]}},
+  {"tag": "BIOWARE", "cat": "games",
+   "head": "Ex-Dragon Age boss Mark Darrah blames EA: 'the options on the table were all terrible'",
+   "src": "source: GamesRadar+ · PC Gamer", "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "EA", "label": "Mark Darrah on BioWare's fate", "badge": "DRAGON AGE"}}
+ ],
+ "outro": {"head": "Should Xbox bring back free online play? Comment below", "audio": "audio/outro.mp3"}
+}
