@@ -1,0 +1,11 @@
+{
+ "job": "20261123T145420-003-seerah-ep04-reminder.json",
+ "ref": "seerah-ep04-reminder",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-23T14:55:42Z",
+ "message_id": 541,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
