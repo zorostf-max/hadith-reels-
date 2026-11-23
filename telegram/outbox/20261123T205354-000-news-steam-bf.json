@@ -1,0 +1,10 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "text": "🛒 Steam's first-ever Black Friday format is back — but with a twist this year!\n\n📅 Steam Black Friday 2026 runs November 26-30 (10am Pacific / 1pm Eastern / 6pm UK start & end).\n🏷️ Unlike 2025's storewide event, Valve isn't running this one directly — individual publishers set their own discounts, and the usual 30-day discount cooldown still applies (only Seasonal Sales like Winter Sale are exempt).\n🏆 It overlaps with Steam Awards 2026 nominations, which just opened today for the awards' 10th anniversary.\n❄️ Winter Sale is already locked in for Dec 17 - Jan 4.\n\n🕐 Posted: 00:03 GMT+3\n\n📰 Sources: Valve/Steamworks (via Digital Citizen)\n👥 x.com/Steam\n\n💬 What's on your Steam wishlist waiting for a discount? Tell us below!\n\n#Steam #BlackFriday #PCGaming #SteamSale #GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "news-steam-bf",
+ "fallback_text": "Steam Black Friday 2026 runs Nov 26-30; Valve not running it directly this time, publishers set own discounts. Overlaps with Steam Awards 10th nominations. Winter Sale Dec 17-Jan 4. Source: Digital Citizen / Valve. #Steam #BlackFriday #PCGaming #GamingNews"
+}
