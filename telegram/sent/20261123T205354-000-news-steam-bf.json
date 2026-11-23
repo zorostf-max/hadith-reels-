@@ -1,0 +1,11 @@
+{
+ "job": "20261123T205354-000-news-steam-bf.json",
+ "ref": "news-steam-bf",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-23T20:54:54Z",
+ "message_id": 536,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
