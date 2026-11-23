@@ -1,0 +1,11 @@
+{
+ "job": "20261123T045307-000-news-steam-awards-2026.json",
+ "ref": "news-steam-awards-2026",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-23T04:54:01Z",
+ "message_id": 527,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
