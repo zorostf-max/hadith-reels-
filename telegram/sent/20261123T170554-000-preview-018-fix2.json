@@ -1,0 +1,11 @@
+{
+ "job": "20261123T170554-000-preview-018-fix2.json",
+ "ref": "preview-018-fix2",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-23T17:07:01Z",
+ "message_id": 543,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
