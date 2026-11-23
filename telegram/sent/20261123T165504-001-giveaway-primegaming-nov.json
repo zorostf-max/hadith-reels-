@@ -1,0 +1,11 @@
+{
+ "job": "20261123T165504-001-giveaway-primegaming-nov.json",
+ "ref": "giveaway-primegaming-nov",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-23T16:56:29Z",
+ "message_id": 534,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

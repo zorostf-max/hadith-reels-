@@ -1,0 +1,11 @@
+{
+ "job": "20261123T165504-000-news-anbernic-ddshandheld.json",
+ "ref": "news-anbernic-ddshandheld",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-23T16:56:28Z",
+ "message_id": 533,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
