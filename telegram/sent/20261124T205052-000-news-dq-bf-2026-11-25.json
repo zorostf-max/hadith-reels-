@@ -1,0 +1,11 @@
+{
+ "job": "20261124T205052-000-news-dq-bf-2026-11-25.json",
+ "ref": "news-dq-bf-2026-11-25",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-24T20:51:53Z",
+ "message_id": 546,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
