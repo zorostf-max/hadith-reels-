@@ -78,19 +78,22 @@
     "slot": "10:00",
     "pending": {
       "episode": 4,
-      "publish_date": "2026-11-24",
-      "status": "skipped",
+      "publish_date": "2026-11-26",
+      "status": "script_sent",
       "script_message_ids": [
-        497
+        553
       ],
       "preview_message_ids": [],
       "notes": [
         "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497).",
-        "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday)."
+        "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday).",
+        "2026-11-24: S1 carried ep04 over to Thu 2026-11-26 (prev. slot Tue 11-24 skipped: no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).). Applied: closing line → «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم». Re-sent script (msg 553). FYI for S2: inbox shows owner's 'Ok' msg 503 was reply_to 497 (the ep04 script) and 'Ok' msg 542 was reply_to 541 (the ep04 reminder) — both approve the earlier ep04 text."
       ],
       "messages": [],
-      "skip_reason": "no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).",
-      "reminder_message_id": 541
+      "previous_script_message_ids": [
+        497
+      ],
+      "previous_reminder_message_id": 541
     },
     "compilation_overrides": {
       "2026-11-22": [
