@@ -265,10 +265,10 @@
     },
     {
      "who": "father",
-     "tts": "هذه حكايةُ يومِ الخميسِ إن شاءَ الله.",
+     "tts": "هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم.",
      "bubble": [
-      "هذه حكايةُ الخميس",
-      "إن شاء الله"
+      "هذه حكايةُ الثلاثاء إن شاء الله",
+      "فتابِعونا حتى لا تفوتَكم"
      ]
     }
    ],
@@ -276,13 +276,14 @@
   }
  ],
  "publish": {
-  "planned_slot": "2026-11-24 (Tuesday) 10:00 Europe/Istanbul — so the closing line points to Thursday",
+  "planned_slot": "2026-11-26 (Thursday) 10:00 Europe/Istanbul — carried over from Tue 2026-11-24, so the closing line points to Tuesday",
   "needs_owner_approval": true
  },
- "closing_line_rule": "Last line names the next episode's day: an episode aired on Tuesday ends «هذه حكايةُ يومِ الخميسِ إن شاءَ الله», one aired on Thursday ends «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله» (owner's request 2026-11-11).",
+ "closing_line_rule": "Last line names the next episode's day: an episode aired on Tuesday ends «هذه حكايةُ يومِ الخميسِ إن شاءَ الله», one aired on Thursday ends «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله» (owner's request 2026-11-11). Follow plan (2026-11-19): append «فتابِعونا حتى لا تفوتَكم».",
  "notes": [
   "Core narration = Muslim's hadith of Anas in its own wording (as quoted in الرحيق المختوم); Halima's fear and return + six years with Amina = الرحيق المختوم wording. Amina's journey is only announced; her death at al-Abwa and the care of Abd al-Muttalib are left for the next episode.",
-  "No image depicts the Prophet ﷺ, Jibril or any angel: the shaqq scenes show an empty lit hill and a golden basin only; the boys are distant and faceless."
+  "No image depicts the Prophet ﷺ, Jibril or any angel: the shaqq scenes show an empty lit hill and a golden basin only; the boys are distant and faceless.",
+  "2026-11-24 S1: carried over to Thu 2026-11-26 (Tue slot skipped); closing line now names Tuesday + Follow-plan line «فتابِعونا حتى لا تفوتَكم». Story content unchanged."
  ],
  "timing": {
   "lead": 0.3,
