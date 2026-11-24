@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/08245948606ed70cd18b018174dcd108a0abfd0e/gaming-news/shorts/ep2026-11-24-1800/short.mp4",
+  "caption": "🎬 <b>Gaming news: 3 stories in 40 seconds</b>\n🛑 Rockstar reportedly took down Project Leonida, a fan effort to port leaked GTA 6 to PC\n🤠 Red Dead Redemption film &amp; TV rights reportedly shopped for $100M+ (GTA not on offer)\n🖥️ Samsung's Odyssey G60H monitor: 600Hz in QHD, 1,100Hz in HD mode\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-24-1800",
+ "fallback_text": "🎬 Gaming news: 3 stories in 40 seconds\n🛑 Rockstar reportedly took down Project Leonida, a fan effort to port leaked GTA 6 to PC\n🤠 Red Dead Redemption film &amp; TV rights reportedly shopped for $100M+ (GTA not on offer)\n🖥️ Samsung's Odyssey G60H monitor: 600Hz in QHD, 1,100Hz in HD mode\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/08245948606ed70cd18b018174dcd108a0abfd0e/gaming-news/shorts/ep2026-11-24-1800/short.mp4"
+}
