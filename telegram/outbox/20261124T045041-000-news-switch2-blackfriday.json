@@ -1,0 +1,11 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://cdn.mos.cms.futurecdn.net/2q53y7E3mN7WSvfUDwFJV9-2560-80.jpg",
+  "caption": "🎮 BLACK FRIDAY ALERT: Nintendo Switch 2 bundle just got WAY cheaper!\n\nAmazon has dropped the Nintendo Switch 2 + Mario Kart World bundle to $499 (down from $549.99) for Black Friday 2026 — the exact same price as the console sold alone. That means the $79.99 copy of Mario Kart World is essentially thrown in for free.\n\nThe bundle also includes 3 months of Nintendo Switch Online (Individual), and this matches the best price seen on the Switch 2 since its price rose to $499 back in September.\n\n🕒 Posted: Nov 24, 2026, 08:00 (GMT+3)\n\n📰 Sources: GamesRadar+ (live Black Friday gaming deals tracker)\n\n👥 Follow: x.com/NintendoAmerica | x.com/GamesRadar\n\n💬 Grabbing this Switch 2 bundle for Black Friday, or holding out for a better deal? Let us know below!\n\n#BlackFriday #NintendoSwitch2 #MarioKartWorld #Deals #GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "news-switch2-blackfriday",
+ "fallback_text": "🎮 BLACK FRIDAY ALERT: Nintendo Switch 2 + Mario Kart World bundle dropped to $499 (was $549.99) at Amazon — same price as the console alone, plus 3 months Switch Online. Source: GamesRadar+. #BlackFriday #NintendoSwitch2 #GamingNews"
+}
