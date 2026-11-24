@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 24",
+ "hook": {
+  "text": "GTA 6 ON PC?! (UNOFFICIAL)",
+  "kicker": "LEAKED BUILD",
+  "cat": "hardware",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "hardware",
+   "head": "Modders reportedly have GTA 6 running on PC after CyberLeek posted a leaked build's .exe",
+   "src": "source: Eurogamer · Notebookcheck",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "PC", "label": "leaked Xbox build modded to run on PC", "badge": "UNOFFICIAL"}
+  },
+  {
+   "tag": "NINTENDO",
+   "cat": "nintendo",
+   "head": "Wave Race Blue Storm is the 12th GameCube game on Switch Online, first re-release in 25 years",
+   "src": "source: VGC",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "#12", "label": "GameCube game on Switch Online", "badge": "25 YEARS LATER"}
+  },
+  {
+   "tag": "DISCORD",
+   "cat": "tech",
+   "head": "Discord Auto Clips saves gameplay when voice chat erupts in laughter or shouting",
+   "src": "source: Dexerto",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "AUTO", "label": "clips when your friends laugh", "badge": "NITRO"}
+  }
+ ],
+ "outro": {
+  "head": "Would you use Discord's laugh clips? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
