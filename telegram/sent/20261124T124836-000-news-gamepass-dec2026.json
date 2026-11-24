@@ -1,0 +1,11 @@
+{
+ "job": "20261124T124836-000-news-gamepass-dec2026.json",
+ "ref": "news-gamepass-dec2026",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-24T12:49:36Z",
+ "message_id": 542,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
