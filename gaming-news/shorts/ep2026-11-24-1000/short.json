@@ -1,0 +1,54 @@
+{
+ "date_label": "nov 24",
+ "hook": {
+  "text": "39 MILLION GTA 6 PLAYERS",
+  "kicker": "PLAYSTATION RECORD",
+  "cat": "playstation",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "playstation",
+   "head": "Sony: GTA 6 is the biggest launch in PlayStation history, with over 39M players on PS5",
+   "src": "source: VGC · PC Gamer",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "39M+",
+    "label": "GTA 6 players on PS5",
+    "badge": "PLAYSTATION RECORD"
+   }
+  },
+  {
+   "tag": "COD",
+   "cat": "games",
+   "head": "Call of Duty's player count reportedly dropped over 40% after GTA 6 launched",
+   "src": "source: IGN (analysts' report)",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "-40%",
+    "label": "Call of Duty players, per analysts",
+    "badge": "REPORTEDLY"
+   }
+  },
+  {
+   "tag": "CS2 MAJOR",
+   "cat": "esports",
+   "head": "Imperial upset HEROIC in the Singapore Major opener, HEROIC lost 12 rounds in a row",
+   "src": "source: HLTV",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "12",
+    "label": "rounds in a row lost by HEROIC",
+    "badge": "MAJOR UPSET"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Is GTA 6 killing other games? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
