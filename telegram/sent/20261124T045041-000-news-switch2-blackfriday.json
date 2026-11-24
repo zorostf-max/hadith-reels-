@@ -1,0 +1,11 @@
+{
+ "job": "20261124T045041-000-news-switch2-blackfriday.json",
+ "ref": "news-switch2-blackfriday",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-24T04:51:33Z",
+ "message_id": 538,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
