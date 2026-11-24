@@ -1,0 +1,58 @@
+{
+ "date_label": "nov 24",
+ "hook": {
+  "text": "GTA 6 PC PORT SHUT DOWN",
+  "kicker": "ROCKSTAR STRIKES",
+  "cat": "hardware",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "hardware",
+   "head": "Rockstar reportedly took down Project Leonida, a fan effort to run leaked GTA 6 on PC",
+   "src": "source: Dexerto · Eurogamer",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "OFFLINE",
+    "label": "Discord server + Project Leonida taken down",
+    "badge": "UNOFFICIAL PORT"
+   }
+  },
+  {
+   "tag": "RED DEAD",
+   "cat": "games",
+   "head": "Rockstar is reportedly shopping Red Dead Redemption film & TV rights - GTA is not on offer",
+   "src": "source: Eurogamer · RockstarINTEL",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "$100M+",
+    "label": "reported asking price for the rights",
+    "badge": "REPORTEDLY"
+   }
+  },
+  {
+   "tag": "SAMSUNG",
+   "cat": "hardware",
+   "head": "Samsung's Odyssey G60H gaming monitor: 600Hz in QHD, 1,100Hz in HD mode",
+   "src": "source: Tom's Hardware",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "counter",
+    "from": 0,
+    "to": 1100,
+    "prefix": "",
+    "suffix": "Hz",
+    "title": "ODYSSEY G60H",
+    "sub": "refresh rate in HD mode",
+    "badge": "600Hz IN QHD"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Would you watch a Red Dead movie or show? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
