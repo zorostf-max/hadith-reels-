@@ -1,0 +1,11 @@
+{
+ "job": "20261124T005254-000-news-nvidia-huang-testify.json",
+ "ref": "news-nvidia-huang-testify",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-24T00:53:45Z",
+ "message_id": 537,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
