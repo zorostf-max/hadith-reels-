@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "text": "🎮 Xbox Game Pass's December 2026 lineup is already taking shape!\n\nMicrosoft has confirmed the first five games joining Xbox Game Pass next month. Revealed so far: the surprisingly addictive co-op sandbox title \"A Game About Digging A Hole,\" football game \"Freestyle Football 2,\" and action game \"Hela\" — with more day-one and library additions expected to be announced before December begins.\n\n🕒 Published: Nov 24, 2026, 15:48 (GMT+3)\n\n📰 Sources: PureXbox, TrueAchievements\n\n👥 Official: https://x.com/Xbox\n\n💬 Which of these are you adding to your Game Pass library? Let us know below!\n\n#XboxGamePass #Xbox #PCGaming #GamePass #GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "news-gamepass-dec2026"
+}
