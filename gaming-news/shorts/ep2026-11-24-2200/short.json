@@ -1,0 +1,58 @@
+{
+ "date_label": "nov 24",
+ "hook": {
+  "text": "WITCHER 4: A GTA 6 LEAP",
+  "kicker": "CD PROJEKT RED",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "WITCHER 4",
+   "cat": "games",
+   "head": "CD Projekt Red: Witcher 3 to Witcher 4 will be a leap like GTA 5 to GTA 6",
+   "src": "source: Eurogamer · GameSpot",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "counter",
+    "from": 0,
+    "to": 513,
+    "prefix": "",
+    "suffix": "",
+    "title": "THE WITCHER 4",
+    "sub": "developers on the team (Oct 31)",
+    "badge": "CDPR'S BIGGEST PROJECT"
+   }
+  },
+  {
+   "tag": "NFL",
+   "cat": "tech",
+   "head": "Thursday Night Football hit its lowest viewership of the season on GTA 6 launch day",
+   "src": "source: GameSpot",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "stat",
+    "value": "12.23M",
+    "label": "average viewers on Nov 19, down 9% vs 2025",
+    "badge": "SEASON LOW"
+   }
+  },
+  {
+   "tag": "STEAM",
+   "cat": "games",
+   "head": "Solo dev's first game Slotbound made $1.3M on Steam in a week, despite gen AI use",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "$1.3M",
+    "label": "in one week · 200,000+ copies sold",
+    "badge": "SOLO DEV"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Can The Witcher 4 match that leap? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
