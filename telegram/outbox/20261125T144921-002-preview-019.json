@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/a899f396bc33904c12dadc266a45e3f14c04a781/videos/bukhari-019.mp4",
+  "caption": "(١/٢) الحديث رقم 19 — الفرار بالدين من الفتن — يُنشر الجمعة ١٠:٠٠",
+  "supports_streaming": true
+ },
+ "ref": "preview-019",
+ "fallback_text": "(١/٢) الحديث رقم 19 — الفرار بالدين من الفتن — يُنشر الجمعة ١٠:٠٠\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/a899f396bc33904c12dadc266a45e3f14c04a781/videos/bukhari-019.mp4"
+}

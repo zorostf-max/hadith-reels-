@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/a899f396bc33904c12dadc266a45e3f14c04a781/videos/bukhari-020.mp4",
+  "caption": "(٢/٢) الحديث رقم 20 — «إن أتقاكم وأعلمكم بالله أنا» — يُنشر الجمعة ١٨:٠٠",
+  "supports_streaming": true
+ },
+ "ref": "preview-020",
+ "fallback_text": "(٢/٢) الحديث رقم 20 — «إن أتقاكم وأعلمكم بالله أنا» — يُنشر الجمعة ١٨:٠٠\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/a899f396bc33904c12dadc266a45e3f14c04a781/videos/bukhari-020.mp4"
+}

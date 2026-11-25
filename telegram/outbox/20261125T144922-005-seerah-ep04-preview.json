@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/a899f396bc33904c12dadc266a45e3f14c04a781/seerah/ep04/episode.mp4",
+  "caption": "🎬 الحلقة 4 — شقّ الصدر في بني سعد — تُنشر الخميس ١٠:٠٠",
+  "supports_streaming": true
+ },
+ "ref": "seerah-ep04-preview",
+ "fallback_text": "🎬 الحلقة 4 — شقّ الصدر في بني سعد — تُنشر الخميس ١٠:٠٠\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/a899f396bc33904c12dadc266a45e3f14c04a781/seerah/ep04/episode.mp4"
+}
