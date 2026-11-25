@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/7f6b6e6dce4214985cb0814d7634a7dbf5ce61bd/gaming-news/shorts/ep2026-11-25-1400/short.mp4",
+  "caption": "🎬 <b>3 gaming stories in 38 seconds</b>\n🦖 Capcom: Exoprimal shuts down on Sept 29, 2027 — unplayable after that\n⏳ Showa American Story delayed to Oct 28, 2027\n🏆 CS2 Singapore Major: M80 topple HEROIC, DENDELE first team out\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-20261125-1400",
+ "fallback_text": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/7f6b6e6dce4214985cb0814d7634a7dbf5ce61bd/gaming-news/shorts/ep2026-11-25-1400/short.mp4"
+}
