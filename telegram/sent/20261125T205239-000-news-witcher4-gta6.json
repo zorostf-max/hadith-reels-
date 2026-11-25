@@ -1,0 +1,11 @@
+{
+ "job": "20261125T205239-000-news-witcher4-gta6.json",
+ "ref": "news-witcher4-gta6",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-25T20:53:59Z",
+ "message_id": 556,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
