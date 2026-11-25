@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/59c89a4be57c82a3b5e3145d53791a92e2231906/gaming-news/shorts/ep2026-11-25-1000/short.mp4",
+  "caption": "🎬 <b>Today in gaming: 3 stories in 40 seconds</b>\n🎮 GTA 6 holds a steadier 30fps on Xbox Series X than base PS5 (Digital Foundry)\n🤝 CD Projekt Red signs new Sony terms, incl. joint Witcher 4 marketing\n🏎️ Max Verstappen says he played 40+ hours of GTA 6 on Las Vegas GP weekend, and won\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-25-1000"
+}
