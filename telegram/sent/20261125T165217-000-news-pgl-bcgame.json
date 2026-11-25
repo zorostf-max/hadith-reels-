@@ -1,0 +1,11 @@
+{
+ "job": "20261125T165217-000-news-pgl-bcgame.json",
+ "ref": "news-pgl-bcgame",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-25T16:53:45Z",
+ "message_id": 554,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
