@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 25",
+ "hook": {
+  "text": "EXOPRIMAL IS SHUTTING DOWN",
+  "kicker": "CAPCOM",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "EXOPRIMAL",
+   "cat": "games",
+   "head": "Capcom: Exoprimal shuts down Sept 29, 2027 and won't be playable after that",
+   "src": "source: Shacknews · VGC",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "stat", "value": "SEP 29", "label": "2027: Exoprimal servers go offline", "badge": "END OF SERVICE"}
+  },
+  {
+   "tag": "DELAYED",
+   "cat": "games",
+   "head": "Action-RPG Showa American Story delayed to October 28, 2027",
+   "src": "source: Eurogamer",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "OCT 28", "label": "2027: new release date", "badge": "DELAYED"}
+  },
+  {
+   "tag": "CS2 MAJOR",
+   "cat": "esports",
+   "head": "CS2 Singapore Major: M80 topple HEROIC, DENDELE first team sent home",
+   "src": "source: HLTV",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "pills", "title": "SINGAPORE MAJOR", "items": ["M80 BEAT HEROIC", "9z BEAT DENDELE", "DENDELE OUT"]}
+  }
+ ],
+ "outro": {
+  "head": "Did you ever play Exoprimal? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
