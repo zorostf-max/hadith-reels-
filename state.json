@@ -1,273 +1,231 @@
 {
-  "next_hadith": 19,
-  "published": [
+ "next_hadith": 21,
+ "published": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "pending_batch": {
+  "publish_date": "2026-11-27",
+  "hadiths": [
+   19,
+   20
+  ],
+  "status": "awaiting",
+  "approved": [],
+  "rejected": [],
+  "scheduled": {},
+  "preview_message_ids": [
+   565,
+   566,
+   567
+  ],
+  "video_commit": "a899f396bc33904c12dadc266a45e3f14c04a781",
+  "notes": [
+   "2026-11-25 A: Ibn Uthaymeen, Sharh Sahih al-Bukhari transcripts (alathar.net coid=39249, lesson 02b-29 for h19; coid=39255 + 39271, lesson 03a for h20). h19 46.0 s, h20 53.8 s (pt0 audio cut after «الشريعة كلها يسر» to stay ≤55 s; full point in caption)."
+  ]
+ },
+ "rejected_notes": {},
+ "telegram_chat_id": "6875821347",
+ "metricool_blog_id": "7884161",
+ "slots": [
+  "10:00",
+  "18:00"
+ ],
+ "timezone": "Europe/Istanbul",
+ "telegram_last_update_id": 81690007,
+ "slot_themes": {
+  "10:00": "morning",
+  "18:00": "night"
+ },
+ "telegram_channel": "@HadithDailyAr",
+ "publish_days": [
+  "Mon",
+  "Wed",
+  "Fri"
+ ],
+ "seerah": {
+  "ep01": {
+   "publish_at": "2026-11-12T10:00:00+03:00",
+   "metricool_post_id": 425281380,
+   "telegram_job": "20261111T055221-000-seerah-ep01.json",
+   "approved": "2026-11-11",
+   "metricool_uuid": "-1903460450320038547"
+  },
+  "next_episode": 4,
+  "next_topic": "شقّ الصدر في بني سعد ورجوعه ﷺ إلى أمه — حسب ترتيب الرحيق المختوم",
+  "days": [
+   "Tue",
+   "Thu"
+  ],
+  "slot": "10:00",
+  "pending": {
+   "episode": 4,
+   "publish_date": "2026-11-26",
+   "status": "video_sent",
+   "script_message_ids": [
+    553
+   ],
+   "preview_message_ids": [
+    568,
+    569
+   ],
+   "notes": [
+    "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497).",
+    "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday).",
+    "2026-11-24: S1 carried ep04 over to Thu 2026-11-26 (prev. slot Tue 11-24 skipped: no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).). Applied: closing line → «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم». Re-sent script (msg 553). FYI for S2: inbox shows owner's 'Ok' msg 503 was reply_to 497 (the ep04 script) and 'Ok' msg 542 was reply_to 541 (the ep04 reminder) — both approve the earlier ep04 text.",
+    "2026-11-25: S2 — script approved (msg 557 'Ok', reply to 553); 4 images + 21 clips generated (1 take each), rendered 152.5 s / 13.8 MB, caption.txt written; preview sent (msgs 568-569), owner asked to check «عُمَر» in scenes 4 and 8."
+   ],
+   "messages": [
+    {
+     "message_id": 557,
+     "date_utc": "2026-11-24T18:45:06Z",
+     "text": "Ok",
+     "reply_to_message_id": 553
+    }
+   ],
+   "previous_script_message_ids": [
+    497
+   ],
+   "previous_reminder_message_id": 541,
+   "video_commit": "a899f396bc33904c12dadc266a45e3f14c04a781"
+  },
+  "compilation_overrides": {
+   "2026-11-22": [
     1,
     2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18
-  ],
-  "pending_batch": {
-    "publish_date": "2026-11-25",
-    "hadiths": [
-      17,
-      18
-    ],
-    "status": "done",
-    "approved": [
-      17,
-      18
-    ],
-    "rejected": [],
-    "scheduled": {
-      "17": {
-        "slot": "2026-11-25T10:00:00+03:00",
-        "theme": "morning",
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-2592083934633508364",
-        "metricool_post_id": 441312151,
-        "providers": "instagram+youtube+facebook(reel)+first comment",
-        "metricool_tiktok_post_id": 441312265,
-        "metricool_threads_post_id": 441312276,
-        "metricool_fb_story_post_id": 441312288,
-        "telegram_jobs": [
-          "20261125T062923-000-channel-bukhari-017.json",
-          "20261125T062923-001-channel-bukhari-017-text.json"
-        ]
-      },
-      "18": {
-        "slot": "2026-11-25T18:00:00+03:00",
-        "theme": "night",
-        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-3556591514044118179",
-        "metricool_post_id": 441312551,
-        "providers": "instagram+youtube+facebook(reel)+first comment",
-        "metricool_tiktok_post_id": 441312572,
-        "metricool_threads_post_id": 441312582,
-        "metricool_fb_story_post_id": 441312603,
-        "telegram_jobs": [
-          "20261125T062923-002-channel-bukhari-018.json",
-          "20261125T062923-003-channel-bukhari-018-text.json"
-        ]
-      }
-    },
-    "messages": [
-      {
-        "message_id": 544,
-        "date_utc": "2026-11-23T17:19:09Z",
-        "text": "Ok 1 ok 2"
-      }
-    ],
-    "preview_message_ids": [
-      538,
-      539,
-      540,
-      543
-    ],
-    "video_commit": "2c49ae804aee20821826b4841be710d46b28cf9c",
-    "notes": {
-      "17": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39244, lesson 02b-24), verified verbatim. Matn: surahquran.com/Hadith-2456.html + hadeethenc.com/ar/browse/hadith/65695. 49.5 s.",
-      "18": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39245, lesson 02b-25), verified verbatim. Matn: dorar.net/hadith/sharh/2664 + hadeethenc.com/ar/browse/hadith/66210. Video abridged (مختصر): audio cut at pauses (dropped 'فمن وفى منكم فأجره على الله' and the 'قال الشيخ ابن عثيمين' prefix of pt0), matn1+matn2 merged — 60.6 s -> 53.6 s; full text in caption. Isnad re-generated once (owner: عُبادة is with damma); corrected preview msg 543."
-    },
-    "video_commit_018": "bf38544 (isnad re-voiced: عُبادة with damma, owner's correction 2026-11-23)",
-    "messages_ignored": [
-      {
-        "message_id": 542,
-        "text": "Ok",
-        "note": "reply to 541 (seerah ep04 reminder), not this batch"
-      },
-      {
-        "message_id": 557,
-        "text": "Ok",
-        "note": "reply to 553 (seerah ep04 script)"
-      }
-    ]
+    3
+   ]
   },
-  "rejected_notes": {},
-  "telegram_chat_id": "6875821347",
-  "metricool_blog_id": "7884161",
-  "slots": [
-    "10:00",
-    "18:00"
-  ],
-  "timezone": "Europe/Istanbul",
-  "telegram_last_update_id": 81690007,
-  "slot_themes": {
-    "10:00": "morning",
-    "18:00": "night"
+  "ep02": {
+   "publish_at": "2026-11-17T10:00:00+03:00",
+   "metricool_post_id": 431050582,
+   "metricool_uuid": "-1206766090460970206",
+   "metricool_tiktok_post_id": 431050592,
+   "metricool_tiktok_uuid": "-6985585622372759007",
+   "youtube_title": "وُلد يتيمًا… فماذا حدث يوم مولد النبي ﷺ؟ | السيرة النبوية للأطفال – الحلقة 2",
+   "telegram_job": "20261117T062626-001-seerah-ep02.json",
+   "telegram_job_rest": "20261117T062626-002-seerah-ep02-rest.json",
+   "approved": "2026-11-16",
+   "video_commit": "53e945c658720c1ca9e71bc6c1edcd1590e21fc3"
   },
-  "telegram_channel": "@HadithDailyAr",
-  "publish_days": [
-    "Mon",
-    "Wed",
-    "Fri"
-  ],
-  "seerah": {
-    "ep01": {
-      "publish_at": "2026-11-12T10:00:00+03:00",
-      "metricool_post_id": 425281380,
-      "telegram_job": "20261111T055221-000-seerah-ep01.json",
-      "approved": "2026-11-11",
-      "metricool_uuid": "-1903460450320038547"
-    },
-    "next_episode": 4,
-    "next_topic": "شقّ الصدر في بني سعد ورجوعه ﷺ إلى أمه — حسب ترتيب الرحيق المختوم",
-    "days": [
-      "Tue",
-      "Thu"
-    ],
-    "slot": "10:00",
-    "pending": {
-      "episode": 4,
-      "publish_date": "2026-11-26",
-      "status": "script_sent",
-      "script_message_ids": [
-        553
-      ],
-      "preview_message_ids": [],
-      "notes": [
-        "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497).",
-        "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday).",
-        "2026-11-24: S1 carried ep04 over to Thu 2026-11-26 (prev. slot Tue 11-24 skipped: no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).). Applied: closing line → «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم». Re-sent script (msg 553). FYI for S2: inbox shows owner's 'Ok' msg 503 was reply_to 497 (the ep04 script) and 'Ok' msg 542 was reply_to 541 (the ep04 reminder) — both approve the earlier ep04 text."
-      ],
-      "messages": [],
-      "previous_script_message_ids": [
-        497
-      ],
-      "previous_reminder_message_id": 541
-    },
-    "compilation_overrides": {
-      "2026-11-22": [
-        1,
-        2,
-        3
-      ]
-    },
-    "ep02": {
-      "publish_at": "2026-11-17T10:00:00+03:00",
-      "metricool_post_id": 431050582,
-      "metricool_uuid": "-1206766090460970206",
-      "metricool_tiktok_post_id": 431050592,
-      "metricool_tiktok_uuid": "-6985585622372759007",
-      "youtube_title": "وُلد يتيمًا… فماذا حدث يوم مولد النبي ﷺ؟ | السيرة النبوية للأطفال – الحلقة 2",
-      "telegram_job": "20261117T062626-001-seerah-ep02.json",
-      "telegram_job_rest": "20261117T062626-002-seerah-ep02-rest.json",
-      "approved": "2026-11-16",
-      "video_commit": "53e945c658720c1ca9e71bc6c1edcd1590e21fc3"
-    },
-    "ep03": {
-      "publish_at": "2026-11-19T10:30:00+03:00",
-      "metricool_post_id": 433848616,
-      "metricool_uuid": "-53545659713434601",
-      "metricool_tiktok_post_id": 433848804,
-      "metricool_threads_post_id": 433848816,
-      "metricool_fb_story_post_id": 433848827,
-      "youtube_title": "كلّ النساء رفضنه لأنه يتيم… فماذا حدث لحليمة حين أخذته؟ | السيرة النبوية للأطفال – الحلقة 3",
-      "telegram_job": "20261119T071842-000-seerah-ep03.json",
-      "telegram_job_rest": "20261119T071842-001-seerah-ep03-rest.json",
-      "approved": "2026-11-19 (owner, Claude chat)",
-      "video_commit": "e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1"
-    },
-    "compilation": {
-      "week_of": "2026-11-22",
-      "episodes": [
-        1,
-        2,
-        3
-      ],
-      "status": "scheduled",
-      "preview_message_ids": [
-        518
-      ],
-      "messages": [
-        {
-          "message_id": 519,
-          "date_utc": "2026-11-21T17:48:24Z",
-          "text": "Ok"
-        }
-      ],
-      "video": "seerah/compilations/2026-11-22.mp4",
-      "video_commit": "d74d8951c308e6ef4575c6b4902f0070f4c7bada",
-      "description": "seerah/compilations/2026-11-22.txt",
-      "duration_s": 484.1,
-      "notes": [
-        "2026-11-21: C1 joined ep01+ep02+ep03 (one-time override), separators removed, follow button only at the end, no fade between parts; preview sent (msg 518).",
-        "2026-11-22: C2 — owner approved (msg 519 'Ok'); scheduled YouTube-only normal video 10:00 Istanbul (Metricool 437311087)."
-      ],
-      "approved": "2026-11-21 (Telegram msg 519)",
-      "publish_at": "2026-11-22T10:00:00+03:00",
-      "metricool_post_id": 437311087,
-      "metricool_uuid": "255498128585015740",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=255498128585015740",
-      "youtube_title": "السيرة النبوية | الحلقات ١ و٢ و٣: عام الفيل، ومولد النبي ﷺ، وحليمة السعدية"
+  "ep03": {
+   "publish_at": "2026-11-19T10:30:00+03:00",
+   "metricool_post_id": 433848616,
+   "metricool_uuid": "-53545659713434601",
+   "metricool_tiktok_post_id": 433848804,
+   "metricool_threads_post_id": 433848816,
+   "metricool_fb_story_post_id": 433848827,
+   "youtube_title": "كلّ النساء رفضنه لأنه يتيم… فماذا حدث لحليمة حين أخذته؟ | السيرة النبوية للأطفال – الحلقة 3",
+   "telegram_job": "20261119T071842-000-seerah-ep03.json",
+   "telegram_job_rest": "20261119T071842-001-seerah-ep03-rest.json",
+   "approved": "2026-11-19 (owner, Claude chat)",
+   "video_commit": "e73768a4c2867a26a6b8c8f7b70af4b64a2b6ec1"
+  },
+  "compilation": {
+   "week_of": "2026-11-22",
+   "episodes": [
+    1,
+    2,
+    3
+   ],
+   "status": "scheduled",
+   "preview_message_ids": [
+    518
+   ],
+   "messages": [
+    {
+     "message_id": 519,
+     "date_utc": "2026-11-21T17:48:24Z",
+     "text": "Ok"
     }
-  },
-  "stories": {
-    "days": [
-      "Sat"
-    ],
-    "next_story": 3,
-    "pending": null,
-    "published": {
-      "st01": {
-        "publish_at": "2026-11-15T11:00:00+03:00",
-        "metricool_post_id": 428335861,
-        "metricool_tiktok_post_id": 428335877,
-        "telegram_job": "20261114T204103-000-story-st01.json",
-        "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
-        "approved": "2026-11-14T20:34:56Z (msg 434)"
-      },
-      "st02": {
-        "approved": "2026-11-21T05:22:12Z (msg 511)",
-        "commit": "7d0eadbccfb445780a96ab46b895c01700a5cfb1",
-        "note": "Scheduled late (12:50 Istanbul, live owner request): Friday T3 ran at 23:23 before the previews existed; 11:00 slot missed, Part 1 + Facebook full moved to 13:10.",
-        "part1": {
-          "publish_at": "2026-11-21T13:10:00+03:00",
-          "metricool_post_id": 436525729,
-          "tiktok": 436525738,
-          "threads": 436525744,
-          "fb_story": 436525748
-        },
-        "facebook_full": {
-          "publish_at": "2026-11-21T13:10:00+03:00",
-          "metricool_post_id": 436525771
-        },
-        "telegram_jobs": [
-          "20261121T095117-000-story-st02.json",
-          "20261121T095117-001-story-st02-rest.json",
-          "20261121T095117-002-story-st02b.json",
-          "20261121T095117-003-story-st02b-rest.json"
-        ]
-      },
-      "st02b": {
-        "approved": "2026-11-21T05:22:12Z (msg 511)",
-        "publish_at": "2026-11-21T18:00:00+03:00",
-        "metricool_post_id": 436525785,
-        "tiktok": 436525796,
-        "threads": 436525805,
-        "fb_story": 436525819
-      },
-      "st02_long": {
-        "publish_at": "2026-11-21T20:00:00+03:00",
-        "metricool_post_id": 436525865
-      }
-    },
-    "slots": {
-      "part1": "11:00",
-      "part2": "18:00",
-      "facebook_full": "11:00",
-      "youtube_long": "20:00"
-    }
+   ],
+   "video": "seerah/compilations/2026-11-22.mp4",
+   "video_commit": "d74d8951c308e6ef4575c6b4902f0070f4c7bada",
+   "description": "seerah/compilations/2026-11-22.txt",
+   "duration_s": 484.1,
+   "notes": [
+    "2026-11-21: C1 joined ep01+ep02+ep03 (one-time override), separators removed, follow button only at the end, no fade between parts; preview sent (msg 518).",
+    "2026-11-22: C2 — owner approved (msg 519 'Ok'); scheduled YouTube-only normal video 10:00 Istanbul (Metricool 437311087)."
+   ],
+   "approved": "2026-11-21 (Telegram msg 519)",
+   "publish_at": "2026-11-22T10:00:00+03:00",
+   "metricool_post_id": 437311087,
+   "metricool_uuid": "255498128585015740",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=255498128585015740",
+   "youtube_title": "السيرة النبوية | الحلقات ١ و٢ و٣: عام الفيل، ومولد النبي ﷺ، وحليمة السعدية"
   }
+ },
+ "stories": {
+  "days": [
+   "Sat"
+  ],
+  "next_story": 3,
+  "pending": null,
+  "published": {
+   "st01": {
+    "publish_at": "2026-11-15T11:00:00+03:00",
+    "metricool_post_id": 428335861,
+    "metricool_tiktok_post_id": 428335877,
+    "telegram_job": "20261114T204103-000-story-st01.json",
+    "telegram_job_rest": "20261114T204103-001-story-st01-rest.json",
+    "approved": "2026-11-14T20:34:56Z (msg 434)"
+   },
+   "st02": {
+    "approved": "2026-11-21T05:22:12Z (msg 511)",
+    "commit": "7d0eadbccfb445780a96ab46b895c01700a5cfb1",
+    "note": "Scheduled late (12:50 Istanbul, live owner request): Friday T3 ran at 23:23 before the previews existed; 11:00 slot missed, Part 1 + Facebook full moved to 13:10.",
+    "part1": {
+     "publish_at": "2026-11-21T13:10:00+03:00",
+     "metricool_post_id": 436525729,
+     "tiktok": 436525738,
+     "threads": 436525744,
+     "fb_story": 436525748
+    },
+    "facebook_full": {
+     "publish_at": "2026-11-21T13:10:00+03:00",
+     "metricool_post_id": 436525771
+    },
+    "telegram_jobs": [
+     "20261121T095117-000-story-st02.json",
+     "20261121T095117-001-story-st02-rest.json",
+     "20261121T095117-002-story-st02b.json",
+     "20261121T095117-003-story-st02b-rest.json"
+    ]
+   },
+   "st02b": {
+    "approved": "2026-11-21T05:22:12Z (msg 511)",
+    "publish_at": "2026-11-21T18:00:00+03:00",
+    "metricool_post_id": 436525785,
+    "tiktok": 436525796,
+    "threads": 436525805,
+    "fb_story": 436525819
+   },
+   "st02_long": {
+    "publish_at": "2026-11-21T20:00:00+03:00",
+    "metricool_post_id": 436525865
+   }
+  },
+  "slots": {
+   "part1": "11:00",
+   "part2": "18:00",
+   "facebook_full": "11:00",
+   "youtube_long": "20:00"
+  }
+ }
 }
