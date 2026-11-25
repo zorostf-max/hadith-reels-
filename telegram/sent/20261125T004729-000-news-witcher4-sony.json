@@ -1,0 +1,11 @@
+{
+ "job": "20261125T004729-000-news-witcher4-sony.json",
+ "ref": "news-witcher4-sony",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-25T00:48:42Z",
+ "message_id": 547,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
