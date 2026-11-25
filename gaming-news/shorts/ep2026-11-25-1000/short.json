@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 25",
+ "hook": {
+  "text": "GTA 6 RUNS BETTER ON XBOX",
+  "kicker": "DIGITAL FOUNDRY",
+  "cat": "xbox",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "xbox",
+   "head": "Digital Foundry: GTA 6 holds a steadier 30fps on Xbox Series X than on base PS5",
+   "src": "source: VGC · Windows Central",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "split", "left": "PS5", "right": "SERIES X"}
+  },
+  {
+   "tag": "WITCHER 4",
+   "cat": "playstation",
+   "head": "CD Projekt Red signs new Sony terms, incl. joint Witcher 4 marketing",
+   "src": "source: Insider Gaming · TechPowerUp",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "pills", "title": "NEW CDPR x SONY TERMS", "items": ["PLAYSTATION", "PS PLUS", "WITCHER 4 MARKETING"]}
+  },
+  {
+   "tag": "F1",
+   "cat": "games",
+   "head": "Max Verstappen says he played 40+ hours of GTA 6 on Las Vegas GP weekend, and won",
+   "src": "source: IGN",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "40+ HRS", "label": "of GTA 6 on race weekend", "badge": "STILL WON"}
+  }
+ ],
+ "outro": {
+  "head": "Which console are you playing GTA 6 on? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
