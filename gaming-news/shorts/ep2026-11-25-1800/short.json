@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 25",
+ "hook": {
+  "text": "8 NEW MARIO KART TRACKS",
+  "kicker": "FREE UPDATE",
+  "cat": "nintendo",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "MARIO KART",
+   "cat": "nintendo",
+   "head": "Mario Kart World v1.9.0: 8 remixed courses, 2 Knockout Tour routes, Replays",
+   "src": "source: VGC",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "image", "file": "img/s0.jpg", "label": "VERSION 1.9.0"}
+  },
+  {
+   "tag": "EA FC 27",
+   "cat": "games",
+   "head": "John Motson returns to EA FC 27 as an AI-recreated voice, with family's blessing",
+   "src": "source: VGC · BBC",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "stat", "value": "MOTTY", "label": "AI commentary option, this week", "badge": "FAMILY-APPROVED"}
+  },
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "A player counted 1,563 of GTA 6's 5,588 buildings you can enter: nearly 28%",
+   "src": "source: Eurogamer · Reddit",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "counter", "from": 0, "to": 1563, "prefix": "", "suffix": "", "title": "ENTERABLE BUILDINGS", "sub": "of 5,588, counted by a player", "badge": "27.97%"}
+  }
+ ],
+ "outro": {
+  "head": "AI Motty: tribute or too far? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
