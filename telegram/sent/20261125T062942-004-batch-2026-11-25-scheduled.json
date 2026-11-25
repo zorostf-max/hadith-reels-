@@ -1,0 +1,11 @@
+{
+ "job": "20261125T062942-004-batch-2026-11-25-scheduled.json",
+ "ref": "batch-2026-11-25-scheduled",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-25T06:30:42Z",
+ "message_id": 560,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
