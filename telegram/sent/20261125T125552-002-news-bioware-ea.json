@@ -1,0 +1,11 @@
+{
+ "job": "20261125T125552-002-news-bioware-ea.json",
+ "ref": "news-bioware-ea",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-25T12:57:00Z",
+ "message_id": 552,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
