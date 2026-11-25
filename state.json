@@ -16,7 +16,9 @@
     13,
     14,
     15,
-    16
+    16,
+    17,
+    18
   ],
   "pending_batch": {
     "publish_date": "2026-11-25",
@@ -24,11 +26,49 @@
       17,
       18
     ],
-    "status": "awaiting",
-    "approved": [],
+    "status": "done",
+    "approved": [
+      17,
+      18
+    ],
     "rejected": [],
-    "scheduled": {},
-    "messages": [],
+    "scheduled": {
+      "17": {
+        "slot": "2026-11-25T10:00:00+03:00",
+        "theme": "morning",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-2592083934633508364",
+        "metricool_post_id": 441312151,
+        "providers": "instagram+youtube+facebook(reel)+first comment",
+        "metricool_tiktok_post_id": 441312265,
+        "metricool_threads_post_id": 441312276,
+        "metricool_fb_story_post_id": 441312288,
+        "telegram_jobs": [
+          "20261125T062923-000-channel-bukhari-017.json",
+          "20261125T062923-001-channel-bukhari-017-text.json"
+        ]
+      },
+      "18": {
+        "slot": "2026-11-25T18:00:00+03:00",
+        "theme": "night",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=-3556591514044118179",
+        "metricool_post_id": 441312551,
+        "providers": "instagram+youtube+facebook(reel)+first comment",
+        "metricool_tiktok_post_id": 441312572,
+        "metricool_threads_post_id": 441312582,
+        "metricool_fb_story_post_id": 441312603,
+        "telegram_jobs": [
+          "20261125T062923-002-channel-bukhari-018.json",
+          "20261125T062923-003-channel-bukhari-018-text.json"
+        ]
+      }
+    },
+    "messages": [
+      {
+        "message_id": 544,
+        "date_utc": "2026-11-23T17:19:09Z",
+        "text": "Ok 1 ok 2"
+      }
+    ],
     "preview_message_ids": [
       538,
       539,
@@ -40,7 +80,19 @@
       "17": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39244, lesson 02b-24), verified verbatim. Matn: surahquran.com/Hadith-2456.html + hadeethenc.com/ar/browse/hadith/65695. 49.5 s.",
       "18": "Ibn Uthaymeen, Sharh Sahih al-Bukhari transcript (alathar.net coid=39245, lesson 02b-25), verified verbatim. Matn: dorar.net/hadith/sharh/2664 + hadeethenc.com/ar/browse/hadith/66210. Video abridged (مختصر): audio cut at pauses (dropped 'فمن وفى منكم فأجره على الله' and the 'قال الشيخ ابن عثيمين' prefix of pt0), matn1+matn2 merged — 60.6 s -> 53.6 s; full text in caption. Isnad re-generated once (owner: عُبادة is with damma); corrected preview msg 543."
     },
-    "video_commit_018": "bf38544 (isnad re-voiced: عُبادة with damma, owner's correction 2026-11-23)"
+    "video_commit_018": "bf38544 (isnad re-voiced: عُبادة with damma, owner's correction 2026-11-23)",
+    "messages_ignored": [
+      {
+        "message_id": 542,
+        "text": "Ok",
+        "note": "reply to 541 (seerah ep04 reminder), not this batch"
+      },
+      {
+        "message_id": 557,
+        "text": "Ok",
+        "note": "reply to 553 (seerah ep04 script)"
+      }
+    ]
   },
   "rejected_notes": {},
   "telegram_chat_id": "6875821347",
