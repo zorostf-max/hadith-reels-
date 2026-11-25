@@ -1,0 +1,39 @@
+{
+ "date_label": "nov 25",
+ "hook": {
+  "text": "SILKSONG DLC NEWS FRIDAY",
+  "kicker": "CHERRY TIME",
+  "cat": "games",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "SILKSONG",
+   "cat": "games",
+   "head": "Team Cherry's Cherry Time show on Nov 27 brings a Sea of Sorrow DLC update",
+   "src": "source: VGC · Eurogamer",
+   "audio": "audio/s0.mp3",
+   "art": {"type": "image", "file": "img/s0.jpg", "label": "NOV 27 · 3PM GMT"}
+  },
+  {
+   "tag": "PS PLUS",
+   "cat": "playstation",
+   "head": "PS Plus December: Tony Hawk's Pro Skater 3+4, Dragon Ball Xenoverse 2, Amnesia",
+   "src": "source: Eurogamer",
+   "audio": "audio/s1.mp3",
+   "art": {"type": "pills", "title": "PS PLUS - DEC 1", "items": ["TONY HAWK'S 3+4", "XENOVERSE 2", "AMNESIA: THE BUNKER"]}
+  },
+  {
+   "tag": "GTA 5",
+   "cat": "games",
+   "head": "Take-Two's cease and desist shuts down a fan-made GTA 5 port for iPhone",
+   "src": "source: IGN",
+   "audio": "audio/s2.mp3",
+   "art": {"type": "stat", "value": "SHUT DOWN", "label": "fan port ran at 40-60fps on iPhone", "badge": "CEASE & DESIST"}
+  }
+ ],
+ "outro": {
+  "head": "Silksong DLC: shadowdrop or delay? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
