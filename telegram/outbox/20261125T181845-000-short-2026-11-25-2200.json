@@ -1,0 +1,10 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/db0075d869f91394511e4496422ab41cb1441f6f/gaming-news/shorts/ep2026-11-25-2200/short.mp4",
+  "parse_mode": "HTML",
+  "caption": "🎬 <b>Gaming news: 3 stories in 37 seconds</b>\n\n🦋 Team Cherry's Cherry Time show on Nov 27 brings an update on Silksong's Sea of Sorrow DLC, plus \"a bunch of exciting announcements\"\n🎮 PS Plus December: Tony Hawk's Pro Skater 3+4, Dragon Ball Xenoverse 2 and Amnesia: The Bunker (Dec 1 – Jan 4)\n📱 A fan-made GTA 5 port for iPhone shut down after a Take-Two cease and desist\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+ },
+ "ref": "short-2026-11-25-2200"
+}
