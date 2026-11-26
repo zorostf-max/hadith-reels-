@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/60db8d3b16a6eb851a4fa06c843e72e683217963/gaming-news/shorts/ep2026-11-26-2200/short.mp4",
+  "parse_mode": "HTML",
+  "supports_streaming": true,
+  "caption": "🎬 <b>3 gaming stories in 36 seconds</b>\n✊ Rockstar Games staff voted against recognising the Rockstar Game Workers Union: 93.2% turnout, 75% against (Eurogamer)\n📦 NielsenIQ: GTA 6 pushed UK boxed game sales up 409% vs the previous week, the biggest week since Christmas 2018, with no disc in the box (Eurogamer)\n🤖 Ubisoft says projects are not required to use generative AI, after a Vertical Slice report said teams had to justify skipping it (GamesRadar+)\n\n💬 Did you buy GTA 6 boxed?\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+ },
+ "ref": "short-2026-11-26-2200",
+ "fallback_text": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/60db8d3b16a6eb851a4fa06c843e72e683217963/gaming-news/shorts/ep2026-11-26-2200/short.mp4"
+}
