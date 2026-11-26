@@ -1,0 +1,11 @@
+{
+ "job": "20261126T062741-001-seerah-ep04-rest.json",
+ "ref": "seerah-ep04-rest",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-26T07:58:54Z",
+ "message_id": 47,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
