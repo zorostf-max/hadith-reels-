@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/dedae3561af00c81bbd2e56f7b2e2799a71a2b63/gaming-news/shorts/ep2026-11-26-1800/short.mp4",
+  "parse_mode": "HTML",
+  "supports_streaming": true,
+  "caption": "🎬 <b>3 gaming stories in 36 seconds</b>\n🖥️ Take-Two issued a DMCA takedown on 3,007 GitHub repos of unofficial GTA 6 PC ports, VideoCardz reports (Tom's Hardware)\n🎾 Rockstar cut tennis, crafting, Sims-style home decorating and movie theater visits from GTA 6 (GamesRadar+, via PCGames)\n🏴‍☠️ Ubisoft argued calling Skull and Bones a AAAA game was \"classic puffery\"; a judge sided with Ubisoft in August (GamesRadar+, via Game File)\n\n💬 Want tennis back in GTA 6?\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews"
+ },
+ "ref": "short-2026-11-26-1800",
+ "fallback_text": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/dedae3561af00c81bbd2e56f7b2e2799a71a2b63/gaming-news/shorts/ep2026-11-26-1800/short.mp4"
+}
