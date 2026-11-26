@@ -1,0 +1,11 @@
+{
+ "job": "20261126T045030-000-news-witcher4-xbox.json",
+ "ref": "news-witcher4-xbox",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-26T04:51:48Z",
+ "message_id": 558,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": true
+}
