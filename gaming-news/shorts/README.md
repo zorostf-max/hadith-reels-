@@ -7,10 +7,21 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 
 ## Follow plan (owner's decision 2026-11-19: viewers watch but don't follow) — every Level Up reel (regular and breaking)
 
-1. **Spoken follow line at the end:** the outro voice clip = the comment question + «Follow Level Up so you never miss gaming news, four times a day.» (breaking reels: «Follow Level Up for breaking gaming news.»). One generation for the whole outro clip (generations_count 1).
+1. **Spoken follow line at the end:** the outro voice clip = ONE short question tied to the video + «Follow Level Up!» — the whole clip ≤ 3.5 s so the outro stays 3–4 s (owner's rules 2026-11-26, replaces the longer «…four times a day.» line). One generation for the whole outro clip (generations_count 1).
 2. **FOLLOW button:** built into `make_short.py`'s outro card (pulsing «+ FOLLOW» under @LevelUpGamesNews). Check it on the `--check` sheet.
 3. **Caption line 2** (right after the hook line, on YouTube/Instagram/Facebook and in the TikTok text): «📌 Follow for gaming news 4× a day 🎮». Threads/Bluesky: add «Follow for daily gaming news» only if it fits the 300-character limit.
 
+
+## VIDEO RULES v3 — every Level Up reel, regular and breaking (owner's TikTok rules 2026-11-26, override anything older below)
+Brand on screen «LEVEL UP // NEWS FEED», cyber/tech grid look, dark blue-to-black palette. `make_short.py` does the layout; the run supplies the content:
+1. **Hook in the first 3 s:** full-screen hook card (≤ 6 words, the lead story's most striking fact) + spoken hook (≤ 8 words). The renderer puts an impact hit + whoosh on frame 1 — no fade-in, no dead air. Number tokens stay on their word ("SWITCH 2", "GTA 6").
+2. **Constant motion:** every page slowly pushes in with a micro-pan, the card brackets pulse; keep scripts tight (story clips sped up with `atempo=1.15` as before).
+3. **Visual variety per story:** give every story a picture — `art.type: "image"` (its file is also used as the backdrop) or `"bg": "img/sN.jpg"` next to a data card (`stat`/`counter`/`bars`/…). The renderer turns it into a darkened, blurred, blue-graded full-screen backdrop behind the grid so the white/cyan/yellow text stays high-contrast. Check pictures for violence/weapons/gore (mature games: logo/key art, or leave out `bg`). Key numbers go in data cards: they pop in with an accent pop sound (automatic).
+4. **STRICT ACCURACY:** never invent, guess, round or change any number, date, price, %, score, duration, name, title or source. Voice, on-screen text, captions and titles use the source's exact figures and spellings; unconfirmed = "reportedly".
+5. **Synced captions:** every hook/story/outro in `short.json` gets `"say"`: the EXACT words of its voice clip (the ElevenLabs prompt without the `[tag]`). The renderer times each word with faster-whisper (`pip install --break-system-packages faster-whisper`, model `base.en` downloads from huggingface.co on first use) aligned onto the script, caches them in `captions.json` (commit it), and shows 2–4-word bottom captions that pop in with the voice and light the spoken word yellow. Captions always show the script's words, never a transcription. If whisper cannot load, it falls back to timing over the voiced span (less exact) — say so in the run summary.
+6. **TikTok safe zone (built in):** all text, badges, source tags and CTAs stay between y≈210 and y≈1440 and left of x≈940 (right rail = like/comment/share/save; bottom = caption/username/music). Do not put long text in `head` (≤ 90 chars, 3 lines max) or the renderer warns and cuts.
+7. **Outro 3–4 s:** @LevelUpGamesNews, pulsing «+ FOLLOW», the question as headline, then a clean cut (renderer caps the outro at 4.0 s and warns if the clip is too long).
+8. **Voice:** energetic, casual gamer-news delivery, zero fluff, faithful to the facts and numbers.
 
 ## Format (owner-approved 2026-11-14, based on the niche research)
 - **Hook in the first second:** the video opens directly on story #1 with the banner "N GAMING STORIES · NN SEC" — no logo intro.
@@ -18,7 +29,7 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 - **Look = TECH style v2 (owner's request 2026-11-15, replaces the orange car-configurator look):** full-screen HUD over an animated **solar-panel grid** background. Every story is its own page with its own colour from `cat` (Nintendo red, PlayStation blue, Xbox green, hardware/PC lime, esports purple, deals yellow, games orange, tech cyan) — so always set `cat` correctly. Page header `01/03 NINTENDO` + tag, a "monitor" card with corner brackets for the art, typewriter headline, `> SOURCE:` line, glitch-scan transition between pages. Fonts are in `shorts/fonts/` (Orbitron, JetBrains Mono, Rajdhani).
 - **AI voiceover** (ElevenLabs, voice **Alex** `6sWNMlBf4TdebygSxQGj`, model `eleven_v4`, `generations_count: 1`, never retry a generation): one clip per story + one outro clip. Story #1's clip starts with the hook line.
 - Headline on screen = the same fact the voice says, in my own words, ≤ 90 characters. Source line under it.
-- Outro (~4 s): "Which one surprised you most? Comment below" + follow @LevelUpGamesNews. The CTA changes a little every day.
+- Outro (3–4 s, rules v3): one short question tied to the video + "Follow Level Up!"; on screen @LevelUpGamesNews + «+ FOLLOW». The question changes every reel.
 - Length 25–40 s. Text stays in the safe zone (the renderer handles it). If the clips run long, speed the story clips up with `ffmpeg -filter:a atempo=1.15` (pitch kept) instead of regenerating (used 2026-11-21 18:00).
 
 ## FOUR REELS A DAY (owner's request 2026-11-18) — supersedes "one per day" above
@@ -52,7 +63,8 @@ Files: `make_short.py` (renderer) · `epYYYY-MM-DD/` (one folder per day: `short
 5. **Voice:** `creative_create_flow` named `levelup-short-YYYY-MM-DD`, then one `creative_generate_speech` per story and one for the outro on that flow (voice/model above, `generations_count: 1`, start the prompt with `[energetic]`, outro with `[upbeat]`). Script, short and spoken (numbers written out the way they are said):
    - story 1: "N gaming stories you missed today. Number one: <fact in ≤ 25 words>."
    - story 2: "Number two: <fact>."  · last story: "And number three: <fact>."
-   - outro: one question + "follow Level Up for gaming news every day."
+   - outro: one short question + "Follow Level Up!" (≤ 3.5 s).
+   - Copy each clip's exact words (without the `[tag]`) into the scene's `"say"` in `short.json` (rules v3 §5).
    Poll `creative_get_flow_run_status` once all are started, download every `content_url` with `curl -sSfL -o audio/sN.mp3` (`audio/outro.mp3`). If ElevenLabs refuses (credits) or a download is blocked, send the owner a short Arabic Telegram message through the bridge and stop — never publish a silent Short.
 6. `python3 gaming-news/shorts/make_short.py gaming-news/shorts/epYYYY-MM-DD --check` and look at `check_sheet.png`: nothing overlapping, numbers right, text inside the frame. Fix `short.json`, check again, then render without `--check`. Must be < 19 MB (Telegram URL limit 20 MB). Delete the `check_*.png` files before committing.
 7. Write `youtube.txt`:

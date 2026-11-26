@@ -1,0 +1,46 @@
+{
+ "date_label": "nov 26",
+ "hook": {
+  "text": "SWITCH 2 PIRACY ERA IS HERE",
+  "kicker": "NINTENDO ALERT",
+  "cat": "nintendo",
+  "audio": "audio/hook.mp3",
+  "say": "The Switch 2 piracy era is here."
+ },
+ "stories": [
+  {
+   "tag": "SWITCH 2",
+   "cat": "nintendo",
+   "head": "Hacker Olmectron's nx2-relink lets jailbroken Switch 2 consoles run dumped games",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s0.mp3",
+   "say": "Three gaming stories you missed. Number one: a hacker called Olmectron released nx2-relink, a tool that lets jailbroken Switch 2 consoles run dumped games. It's experimental, and it can brick your console.",
+   "art": {"type": "image", "file": "img/s0.jpg", "label": "EXPERIMENTAL"}
+  },
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "GTA 6 animation director Mike Jones: Rockstar made 3 versions of every item interaction",
+   "src": "source: IGN",
+   "audio": "audio/s1.mp3",
+   "bg": "img/s1.jpg",
+   "say": "Number two: GTA 6's gameplay animation director, Mike Jones, says Rockstar made three versions of every item interaction. Both hands free, right hand free, or left.",
+   "art": {"type": "stat", "value": "3 VERSIONS", "label": "both hands free / right hand free / left", "badge": "EVERY ITEM"}
+  },
+  {
+   "tag": "UBISOFT",
+   "cat": "tech",
+   "head": "Report: Ubisoft asks teams pitching new games to justify not using generative AI",
+   "src": "source: VGC · Vertical Slice",
+   "audio": "audio/s2.mp3",
+   "bg": "img/s2.jpg",
+   "say": "And number three: Ubisoft is reportedly asking teams pitching new games to justify not using generative AI. That's per sources speaking to Vertical Slice.",
+   "art": {"type": "stat", "value": "GEN AI?", "label": "not using it? justify why", "badge": "REPORTEDLY"}
+  }
+ ],
+ "outro": {
+  "head": "Would you ever jailbreak a Switch 2?",
+  "audio": "audio/outro.mp3",
+  "say": "Would you ever jailbreak a Switch 2? Follow Level Up!"
+ }
+}
