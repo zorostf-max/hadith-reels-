@@ -1,0 +1,11 @@
+{
+ "job": "20261126T052718-000-seerah-ep04-preview-v2.json",
+ "ref": "seerah-ep04-preview-v2",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-26T05:28:59Z",
+ "message_id": 573,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

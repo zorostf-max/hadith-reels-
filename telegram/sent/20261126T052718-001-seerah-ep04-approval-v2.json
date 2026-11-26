@@ -1,0 +1,11 @@
+{
+ "job": "20261126T052718-001-seerah-ep04-approval-v2.json",
+ "ref": "seerah-ep04-approval-v2",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-26T05:29:00Z",
+ "message_id": 574,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
