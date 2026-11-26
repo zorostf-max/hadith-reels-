@@ -1,0 +1,154 @@
+{
+ "story": 3,
+ "part": 2,
+ "title": "جُريج العابد والرضيع الذي تكلّم (الجزء 2)",
+ "series_label": "قصص من صحيح البخاري · القصة ٣",
+ "hadith_ref": "صحيح البخاري ٣٤٣٦ (عن أبي هريرة رضي الله عنه)",
+ "sources": [
+  "صحيح البخاري، كتاب أحاديث الأنبياء، باب قول الله تعالى: ﴿وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انْتَبَذَتْ مِنْ أَهْلِهَا﴾، ح (٣٤٣٦) — عن أبي هريرة رضي الله عنه",
+  "معنى «الصومعة» و«المومسات»: الشيخ محمد صالح المنجد، محاضرة «قصة جريج العابد» (islamweb)",
+  "الفوائد: الشيخ محمد صالح المنجد، «سلسلة القصص» ج ١١ — فوائد حديث جريج (المكتبة الشاملة)"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "الراوي"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "broken_tower": {
+   "file": "../st03/img/broken_tower.png",
+   "reuse": true
+  },
+  "tower_dusk": {
+   "file": "../st03/img/tower_dusk.png",
+   "reuse": true
+  },
+  "cradle": {
+   "file": "../st03/img/cradle.png",
+   "reuse": true
+  },
+  "water_jug": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. An old clay water jug and a small basin beside a clear stream among fallen stones at the foot of a hill, a simple prayer mat spread on the grass nearby, calm soft morning light, a peaceful hopeful mood. No people, no hands. Palette of turquoise, cream, sand and soft gold. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "crowd_still": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A crowd of tiny distant faceless villagers in ancient robes standing completely still in a wide circle on a hillside, seen from far away and slightly above, sticks lowered to the ground, a soft beam of light falling into the centre of the circle where nothing is shown, an astonished silent mood. No faces visible. Palette of sand, amber, soft gold and dusty blue. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "mud_tower": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A tall slender hermitage tower rebuilt from simple mud bricks standing on a hill at sunrise, fresh earth-coloured walls, a small glowing window, a few tiny distant faceless villagers walking away down the hill, a calm humble peaceful mood. No gold. Palette of terracotta, sand, soft rose and sky blue. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "sunrise": {
+   "file": "../st01/img/sunrise.png",
+   "reuse": true
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "broken_tower",
+   "cam": "slow_push",
+   "title_card": true,
+   "lines": [
+    {
+     "who": "father",
+     "tts": "في الجزءِ الأول: كسَرَ الناسُ صَوْمَعَةَ جُرَيْج، وأنزَلوه وسَبُّوه، واتَّهَموه بالغلامِ الرضيع. فماذا فعلَ جُرَيْج؟",
+     "caption": "فماذا فعل جُريج؟"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "image": "water_jug",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "قالَ رسولُ اللهِ صلّى اللهُ عليهِ وسلَّم: فتوضَّأَ، وصلّى. لم يبدأْ جُرَيْجٌ بالجِدال، ولم يَرُدَّ السَّبَّ بالسَّبّ، بل فزِعَ إلى الصلاةِ في شِدَّتِه.",
+     "caption": "«فتوضّأ… وصلّى»"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "cradle",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ثم أتى الغلامَ الرضيع، والناسُ حولَه ينظرون، فقال: مَن أبوكَ يا غلام؟",
+     "caption": "«من أبوك يا غلام؟»"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "crowd_still",
+   "cam": "tilt_down",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فنطقَ الرضيعُ في مَهْدِه، وقال: الرّاعي! رضيعٌ لا يتكلّمُ مثلُه، أنطقَهُ اللهُ ليشهدَ ببراءةِ جُرَيْج، فعَلِمَ الناسُ أنّ المرأةَ قد كذبَتْ عليه.",
+     "caption": "«الراعي!»"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "mud_tower",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فأقبلَ الناسُ على جُرَيْج، بعدَ أن كسَروا صَوْمَعَتَه وسَبُّوه، فقالوا: نَبْني صَوْمَعَتَكَ من ذهب؟ قال: لا، إلّا من طين.",
+     "caption": "«لا… إلا من طين»"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "tower_dusk",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وهكذا استجابَ اللهُ دعوةَ أمِّه، فرأى ما دعَتْ به. فإجابةُ الأمِّ عظيمة، وهي أَوْلى من صلاةِ التطوّع.",
+     "caption": "إجابة الأم… أولى من صلاة التطوّع"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "sunrise",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ابتُلِيَ جُرَيْجٌ فصبرَ، وفزِعَ إلى الصلاة، فجعلَ اللهُ له مَخْرَجًا من حيثُ لا يحتسب: من رضيعٍ في مَهْدِه. فالصادقُ مع الله لا تضرُّه الفِتَن، وبعدَ كلِّ شدّةٍ فرجٌ ومَخرج.",
+     "caption": "الصادق مع الله لا تضرّه الفتن"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "sunrise",
+   "cam": "wide",
+   "end_card": "قصة جديدة كل سبت",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "لو اتَّهمَكَ الناسُ بما لم تفعل… ماذا تصنع؟ اكتبْ جوابَك في التعليقات. وتابِعنا لتصلَك قصةٌ جديدة كلَّ سبت.",
+     "caption": "لو اتّهمك الناس ظلمًا… ماذا تصنع؟"
+    }
+   ]
+  }
+ ],
+ "notes_for_production": [
+  "water_jug, crowd_still, mud_tower are new; broken_tower, tower_dusk, cradle from Part 1; sunrise from st01.",
+  "Names: «جُرَيْج» — bracket direction + trim (vowel u)."
+ ],
+ "publish": {
+  "publish_date": "2026-11-28 (Saturday) 18:00 Europe/Istanbul",
+  "needs_owner_approval": true
+ }
+}

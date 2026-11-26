@@ -75,47 +75,15 @@
     ],
     "slot": "10:00",
     "pending": {
-      "episode": 4,
-      "publish_date": "2026-11-26",
-      "status": "scheduled",
-      "script_message_ids": [
-        553
-      ],
-      "preview_message_ids": [
-        573,
-        574
-      ],
+      "episode": 5,
+      "publish_date": "2026-12-01",
+      "status": "script_sent",
+      "script_message_ids": [],
+      "preview_message_ids": [],
       "notes": [
-        "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497).",
-        "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday).",
-        "2026-11-24: S1 carried ep04 over to Thu 2026-11-26 (prev. slot Tue 11-24 skipped: no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).). Applied: closing line → «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم». Re-sent script (msg 553). FYI for S2: inbox shows owner's 'Ok' msg 503 was reply_to 497 (the ep04 script) and 'Ok' msg 542 was reply_to 541 (the ep04 reminder) — both approve the earlier ep04 text.",
-        "2026-11-25: S2 — script approved (msg 557 'Ok', reply to 553); 4 images + 21 clips generated (1 take each), rendered 152.5 s / 13.8 MB, caption.txt written; preview sent (msgs 568-569), owner asked to check «عُمَر» in scenes 4 and 8.",
-        "2026-11-26 08:30: owner (live chat) reported «السنة» mispronounced; s02 regenerated once with tashkeel + direction, re-rendered (commit 2b15ef9); corrected preview sent (msgs 573-574). S3 must use this commit's episode.mp4 and read replies after msg 573.",
-        "2026-11-26 09:27: S3 — owner approved (msg 575 'Ok', sent right after corrected preview 573-574). Scheduled 10:00 Istanbul: IG Reel+YT Short+FB Reel with first comment (442707452), TikTok (442707576), Threads (442707585), FB Story (442707597); Telegram channel queued --not-before 06:55Z."
+        "2026-11-26: S1 wrote ep05 (وفاة آمنة بالأبواء وكفالة عبد المطلب) from الرحيق المختوم «إلى أمّه الحنون» + «إلى جدّه العطوف» (Ibn Hisham's mat report as quoted there); closing line → Thursday + follow line. Script queued to owner."
       ],
-      "messages": [
-        {
-          "message_id": 557,
-          "date_utc": "2026-11-24T18:45:06Z",
-          "text": "Ok",
-          "reply_to_message_id": 553
-        },
-        {
-          "message_id": 575,
-          "date_utc": "2026-11-26T05:39:42Z",
-          "text": "Ok",
-          "reply_to_message_id": null
-        }
-      ],
-      "previous_script_message_ids": [
-        497
-      ],
-      "previous_reminder_message_id": 541,
-      "video_commit": "2b15ef9f243091834be97c9afc8fd04df91e09c9",
-      "previous_preview_message_ids": [
-        568,
-        569
-      ]
+      "messages": []
     },
     "compilation_overrides": {
       "2026-11-22": [
@@ -202,7 +170,17 @@
       "Sat"
     ],
     "next_story": 3,
-    "pending": null,
+    "pending": {
+      "story": 3,
+      "publish_date": "2026-11-28",
+      "status": "script_sent",
+      "script_message_ids": [],
+      "preview_message_ids": [],
+      "notes": [
+        "2026-11-26 T1: queue item 5 (جُريج العابد والرضيع الذي تكلّم, Bukhari 3436, verified sunnah.com) chosen under «patience first» (affliction then relief). Part 1 = stories/st03, Part 2 = stories/st03b, benefits = stories/st03/benefits.json (al-Munajjid; Fath al-Bari pages could not be fetched). One owner ok approves all."
+      ],
+      "messages": []
+    },
     "published": {
       "st01": {
         "publish_at": "2026-11-15T11:00:00+03:00",
@@ -252,6 +230,17 @@
       "part2": "18:00",
       "facebook_full": "11:00",
       "youtube_long": "20:00"
+    },
+    "pending_part2": {
+      "story": 3,
+      "part": 2,
+      "folder": "stories/st03b",
+      "publish_date": "2026-11-28",
+      "status": "script_sent",
+      "script_message_ids": [],
+      "preview_message_ids": [],
+      "notes": [],
+      "messages": []
     }
   }
 }

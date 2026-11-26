@@ -1,0 +1,160 @@
+{
+ "story": 3,
+ "part": 1,
+ "title": "جُريج العابد والرضيع الذي تكلّم (الجزء 1)",
+ "series_label": "قصص من صحيح البخاري · القصة ٣",
+ "hadith_ref": "صحيح البخاري ٣٤٣٦ (عن أبي هريرة رضي الله عنه)",
+ "sources": [
+  "صحيح البخاري، كتاب أحاديث الأنبياء، باب قول الله تعالى: ﴿وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انْتَبَذَتْ مِنْ أَهْلِهَا﴾، ح (٣٤٣٦) — عن أبي هريرة رضي الله عنه",
+  "معنى «الصومعة» و«المومسات»: الشيخ محمد صالح المنجد، محاضرة «قصة جريج العابد» (islamweb)"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "الراوي"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "tower": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A tall slender old stone hermitage tower (sawma'a) with a pointed top standing alone on a gentle hill above an ancient village in Bani Isra'il lands, a single small window glowing warmly, palm trees and fields below, golden late afternoon light, a peaceful devotional mood. No people visible. Palette of amber, sand, teal and navy. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "cradle": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A simple ancient wooden cradle with a soft woven blanket inside an old stone room, a gentle beam of warm light falling on it from a small window, a calm mysterious mood. The cradle is seen from the side, no baby visible, no people. Palette of cream, soft gold, rose and dusty blue. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "mother_call": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. The foot of a tall old stone hermitage tower in soft evening light: a small distant faceless woman in a long simple robe and head covering stands at the bottom, seen from behind, looking up toward the high window of the tower, a tender longing mood. Tiny figure, far away. Palette of dusty rose, sand, amber and navy. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "tower_dusk": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. The same tall old stone hermitage tower on a hill at dusk under a deep violet sky with the first stars, its little window glowing, a lonely path winding away from it down the hill, a solemn quiet mood. No people visible. Palette of violet, navy, amber and sand. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "crowd": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A crowd of tiny distant faceless villagers in ancient robes walking angrily up a hill road toward a tall stone hermitage tower, some carrying sticks and axes, dust rising, seen from far away and behind, dramatic overcast afternoon light, a tense mood. No violence shown, no faces visible. Palette of ochre, slate grey, sand and dusty blue. No facial features, no text, no letters, no calligraphy, no watermark."
+  },
+  "broken_tower": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A tall old stone hermitage tower half broken down, fallen stones and broken wooden beams scattered on the hillside, dust settling in the air, grey clouds parting with a thin ray of light, a sad heavy mood. No people visible. Palette of slate grey, ochre, sand and muted blue. No facial features, no text, no letters, no calligraphy, no watermark."
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "cradle",
+   "cam": "slow_push",
+   "title_card": true,
+   "lines": [
+    {
+     "who": "father",
+     "tts": "رضيعٌ في المَهْدِ… يتكلَّم! ويشهدُ لرجلٍ صالحٍ اتَّهمَهُ الناس. فكيفَ حدثَ ذلك؟",
+     "caption": "رضيعٌ يتكلّم… فكيف حدث؟"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "image": "cradle",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "روى البخاريُّ في صحيحِه، عن أبي هريرةَ رضيَ اللهُ عنه، أنّ رسولَ اللهِ صلّى اللهُ عليهِ وسلَّم قال: لم يتكلَّمْ في المَهْدِ إلّا ثلاثة: عيسى، وكانَ في بني إسرائيلَ رجلٌ يُقالُ له: جُرَيْج. والمَهْدُ: فِراشُ الطفلِ الرضيع. وهذه قصةُ جُرَيْج.",
+     "caption": "«لم يتكلّم في المهد إلا ثلاثة»"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "tower",
+   "cam": "tilt_down",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "كانَ جُرَيْجٌ يصلّي في صَوْمَعَتِه. والصَّوْمَعَةُ: بناءٌ مرتفع، رأسُه دقيق، كانَ عُبّادُ بني إسرائيلَ يعتكفونَ فيه.",
+     "caption": "جُريج… في صومعته"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "mother_call",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فجاءَتْهُ أمُّه فدَعَتْه، وهو قائمٌ في صلاتِه. فقالَ في نفسِه: أُجِيبُها أو أُصَلِّي؟ أمّي… أم صلاتي؟ فاختارَ أن يمضيَ في صلاتِه، ولم يُجِبْها.",
+     "caption": "«أُجيبها أو أُصلّي؟»"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "tower_dusk",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فدعَتْ عليه أمُّه وقالت: اللهمَّ لا تُمِتْهُ حتى تُرِيَهُ وُجوهَ المُومِسات. أي: النساءِ الفاسدات. دعوةُ أمٍّ… فهل تُستجاب؟",
+     "caption": "دعوةُ الأمّ…"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "tower",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وكانَ جُرَيْجٌ في صَوْمَعَتِه، فتعرَّضَتْ له امرأةٌ وكلَّمَتْه، فأبى.",
+     "caption": "تعرّضت له امرأة… فأبى"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "cradle",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ثم ولدَتْ تلكَ المرأةُ غلامًا، فسألَها الناس عنه، فقالت: مِن جُرَيْج! رمَتْ عابدًا في صَوْمَعَتِه بأمرٍ لم يفعلْه.",
+     "caption": "«من جُريج!»"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "crowd",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فأتَوْهُ، فكسَروا صَوْمَعَتَه، وأنزَلوه، وسَبُّوه.",
+     "caption": "كسروا صومعته… وسبّوه"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "image": "broken_tower",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "رجلٌ كانَ يصلّي لله… تُكسَرُ صَوْمَعَتُه، ويُتَّهَمُ بما لم يفعل. فماذا يصنعُ جُرَيْج؟ وماذا حدثَ بعدَ ذلك؟ تابِعنا حتى لا يفوتَك الجزءُ الثاني الساعةَ السادسةَ مساءً.",
+     "caption": "ماذا يصنع جُريج؟ ⏰ ٦ مساءً"
+    }
+   ]
+  }
+ ],
+ "notes_for_production": [
+  "Never show Jurayj's face, the woman's face or the baby: towers, crowds from far behind, an empty cradle.",
+  "Names: «جُرَيْج» starts with damma (say \"Jurayj\", vowel u) — bracket direction + trim per root README «Pronunciation of names»."
+ ],
+ "publish": {
+  "publish_date": "2026-11-28 (Saturday) 11:00 Europe/Istanbul",
+  "needs_owner_approval": true
+ },
+ "notes": [
+  "2026-11-26 T1: chosen under «patience first» (affliction then relief). Wording = Bukhari 3436 (checked on sunnah.com/bukhari:3436). Left out for children: the woman's act with the shepherd (only «فولدت غلامًا، فقالت: من جريج» is told; the baby's answer «الراعي» in Part 2 makes the lie clear) and the third infant of the hadith (the nursing mother), which mentions false accusations of زنا. «المومسات» explained softly as «النساء الفاسدات» (al-Munajjid: الزواني)."
+ ]
+}

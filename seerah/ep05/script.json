@@ -1,0 +1,287 @@
+{
+ "episode": 5,
+ "title": "وفاة آمنة وكفالة عبد المطلب",
+ "series_label": "السيرة النبوية · الحلقة ٥",
+ "sources": [
+  "الرحيق المختوم للمباركفوري — «المولد وأربعون عامًا قبل النبوة»: «إلى أمّه الحنون» ثم «إلى جدّه العطوف»",
+  "سيرة ابن هشام ١/١٦٨–١٦٩ (فراش عبد المطلب في ظل الكعبة، و«دعوا ابني هذا فوالله إن له لشأنًا»؛ كما نقله الرحيق المختوم)",
+  "معنى «الأبواء»: موضع بين مكة والمدينة (الرحيق المختوم)"
+ ],
+ "voices": {
+  "father": {
+   "voice_id": "YKGG8oefXIWbncG7wgoX",
+   "name": "احمد النبرة العميقة الدافئة"
+  },
+  "maryam": {
+   "voice_id": "NQyF5U0t336unYhQXcuv",
+   "name": "Mimi"
+  },
+  "omar": {
+   "voice_id": "0pDT8WvJXiBq0hxYB2Cp",
+   "name": "Salama"
+  }
+ },
+ "tts_model": "eleven_v4",
+ "images": {
+  "majlis": {
+   "file": "../assets/majlis.png",
+   "reuse": true
+  },
+  "madinah_palms": {
+   "file": "../ep02/img/madinah_palms.png",
+   "reuse": true
+  },
+  "road_mecca": {
+   "file": "../ep04/img/road_mecca.png",
+   "reuse": true
+  },
+  "kaaba": {
+   "file": "../ep01/img/kaaba.png",
+   "reuse": true
+  },
+  "abwa": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. A quiet desert stopping place called al-Abwa between Mecca and Medina at dusk: a single small travellers' tent beside a resting camel, low bare hills, the first stars appearing in a deep blue sky, a soft lantern glow at the tent door, a sad, calm, tender mood. No people visible, no faces. Palette of dusty blue, violet, sand and soft amber. No text, no letters, no calligraphy, no watermark."
+  },
+  "kaaba_mat": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. The courtyard of the Kaaba in ancient Mecca in the afternoon: a simple woven mat (furash) with cushions spread on the ground in the cool shade beside the Kaaba, which is a simple square building covered in a dark cloth, bare rocky mountains behind, warm light and long shade. The mat is empty; no people, no figures, no faces. Palette of amber, sand, deep brown and dusty blue. No text, no letters, no calligraphy, no watermark."
+  },
+  "mecca_dusk": {
+   "prompt": "Vertical 9:16 illustration, same warm soft flat storybook style as an Islamic children's story series. The valley of ancient Mecca seen from a hill at dusk: small mud-brick houses, the Kaaba small in the distance, rocky mountains around, an orange and violet sky fading to night, a quiet sorrowful mood. No people visible. Palette of orange, violet, sand and navy. No text, no letters, no calligraphy, no watermark."
+  }
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "image": "majlis",
+   "cam": "children",
+   "title_card": true,
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "يا أبي، ما الأمرُ الحزينُ الذي حدثَ لنبيِّنا صلّى اللهُ عليهِ وسلَّم في طريقِ العودةِ من يَثْرِب؟",
+     "bubble": [
+      "يا أبي، ما الأمرُ الحزين",
+      "في طريق العودة؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "أمرٌ حزينٌ يا عُمَر، فاسمعوا يا أولادي.",
+     "bubble": [
+      "أمرٌ حزين…",
+      "فاسمعوا يا أولادي"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "image": "madinah_palms",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "لمّا بلغَ النبيُّ صلّى اللهُ عليهِ وسلَّم سِتَّ سنين، رأتْ أمُّه آمِنَةُ، وفاءً لذكرى زوجِها الراحل، أن تزورَ قبرَه بيَثْرِب.",
+     "caption": "وفاءً لذكرى زوجها… إلى يثرب"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "image": "road_mecca",
+   "cam": "pan_right",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فخرجَتْ من مكّة، في رحلةٍ تبلغُ نحوَ خمسِمئةِ كيلومتر، ومعها ولدُها اليتيمُ محمّدٌ صلّى اللهُ عليهِ وسلَّم، وخادمتُها أُمُّ أَيْمَن، وعبدُ المُطَّلِب.",
+     "caption": "رحلة نحو ٥٠٠ كيلومتر"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "خمسُمئةِ كيلومتر يا أبي؟ وكم بقيَتْ هناك؟",
+     "bubble": [
+      "خمسُمئة كيلومتر؟",
+      "وكم بقيت هناك؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "مكثَتْ شهرًا يا مريم، ثم رجعَتْ إلى مكّة.",
+     "bubble": [
+      "مكثت شهرًا…",
+      "ثم رجعت"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "image": "abwa",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "وبينما هي راجعة، لحقَها المرضُ في أوائلِ الطريق، واشتدَّ عليها، حتى ماتَتْ بالأَبْواء، بينَ مكّةَ والمدينة.",
+     "caption": "ماتت بالأبواء… بين مكة والمدينة"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "ماتَتْ أمُّه يا أبي؟ فصارَ يتيمَ الأبِ والأمّ؟",
+     "bubble": [
+      "ماتت أمُّه يا أبي؟",
+      "فصار يتيمَ الأب والأم؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "نعم يا عُمَر. فعادَ به جدُّه عبدُ المُطَّلِبِ إلى مكّة.",
+     "bubble": [
+      "نعم… فعاد به جدُّه",
+      "عبدُ المطلب إلى مكة"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "image": "kaaba",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ورَقَّ عليه جدُّه رِقَّةً لم يَرِقَّها على أحدٍ من أولادِه، فكان لا يَدَعُه لوحدتِه، بل يُؤْثِرُه على أولادِه.",
+     "caption": "رِقّةٌ لم يرقّها على أحد من أولاده"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "image": "kaaba_mat",
+   "cam": "slow_push",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "قالَ ابنُ هِشام: كانَ يُوضَعُ لعبدِ المُطَّلِبِ فِراشٌ في ظِلِّ الكعبة، وكان بنوه يجلسونَ حولَ فراشِه، لا يجلسُ عليه أحدٌ منهم إجلالًا له.",
+     "caption": "فراشٌ في ظلّ الكعبة"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "image": "kaaba_mat",
+   "cam": "tilt_down",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "فكان رسولُ اللهِ صلّى اللهُ عليهِ وسلَّم يأتي وهو غلامٌ جَفْر، حتى يجلسَ عليه، فيأخذُه أعمامُه ليُؤَخِّروه عنه.",
+     "caption": "يأتي وهو غلامٌ جَفْر…"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "image": "majlis",
+   "cam": "children_then_father",
+   "lines": [
+    {
+     "who": "maryam",
+     "tts": "وماذا قالَ جدُّه يا أبي؟",
+     "bubble": [
+      "وماذا قال جدُّه",
+      "يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "كانَ يقول: دَعُوا ابني هذا، فواللهِ إنَّ له لَشأنًا. ثم يجلسُ معه على فراشِه، ويمسحُ ظهرَه بيدِه.",
+     "bubble": [
+      "«دَعُوا ابني هذا،",
+      "فواللهِ إنّ له لشأنًا»"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "image": "mecca_dusk",
+   "cam": "slow_pull",
+   "lines": [
+    {
+     "who": "father",
+     "tts": "ولمّا بلغَ النبيُّ صلّى اللهُ عليهِ وسلَّم ثمانيَ سنواتٍ وشهرينِ وعشرةَ أيّام، تُوُفِّيَ جدُّه عبدُ المُطَّلِبِ بمكّة.",
+     "caption": "٨ سنوات وشهران و١٠ أيام"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "image": "majlis",
+   "cam": "wide",
+   "end_card": "تابعنا لتسمع البقية",
+   "lines": [
+    {
+     "who": "omar",
+     "tts": "ومَن كَفَلَه بعدَ جدِّه يا أبي؟",
+     "bubble": [
+      "ومَن كفَلَه",
+      "بعد جدِّه يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "عهدَ عبدُ المُطَّلِبِ قبلَ وفاتِه بكفالتِه إلى عمِّه أبي طالب.",
+     "bubble": [
+      "عهد بكفالته",
+      "إلى عمّه أبي طالب"
+     ]
+    },
+    {
+     "who": "maryam",
+     "tts": "وكيفَ كانَ أبو طالبٍ معه يا أبي؟",
+     "bubble": [
+      "وكيف كان أبو طالب",
+      "معه يا أبي؟"
+     ]
+    },
+    {
+     "who": "father",
+     "tts": "هذه حكايةُ يومِ الخميسِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم.",
+     "bubble": [
+      "هذه حكايةُ الخميس إن شاء الله",
+      "فتابِعونا حتى لا تفوتَكم"
+     ]
+    }
+   ]
+  }
+ ],
+ "publish": {
+  "planned_slot": "2026-12-01 (Tuesday) 10:00 Europe/Istanbul",
+  "needs_owner_approval": true
+ },
+ "closing_line_rule": "Last line names the next episode's day: an episode aired on Tuesday ends «هذه حكايةُ يومِ الخميسِ إن شاءَ الله», one aired on Thursday ends «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله» (owner's request 2026-11-11). Follow plan (2026-11-19): append «فتابِعونا حتى لا تفوتَكم».",
+ "notes": [
+  "2026-11-26 S1: narration follows الرحيق المختوم wording (sections «إلى أمّه الحنون» and «إلى جدّه العطوف», checked on shamela.ws/book/9820/46); the mat in the shade of the Kaaba and «دعوا ابني هذا…» = Ibn Hisham as quoted there. «جَفْر» was already explained in ep03 (الغلام القوي الممتلئ الجسم), so no extra majlis question here.",
+  "Abu Talib's care is only announced; it is the next episode («إلى عمّه الشفيق»).",
+  "No image depicts the Prophet ﷺ or anyone's face: the journey reuses ep04's distant caravan, al-Abwa is an empty tent at dusk; scene 7 reuses ep01's kaaba picture, the mat in the Kaaba shade is empty.",
+  "For S2 (Pronunciation of names): «عُمَر» (s01b, s06b) and «أُمُّ أَيْمَن» (s03, first vowel u) need the bracket direction + trim; «عبدُ المُطَّلِب» check the damma on م."
+ ],
+ "timing": {
+  "lead": 0.3,
+  "gap": 0.3,
+  "tail": 0.35
+ }
+}
