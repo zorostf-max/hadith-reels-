@@ -1,0 +1,11 @@
+{
+ "job": "20261126T204547-000-news-xbox-branding.json",
+ "ref": "news-xbox-branding",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-26T20:47:45Z",
+ "message_id": 568,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
