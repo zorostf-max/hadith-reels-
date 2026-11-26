@@ -1,0 +1,60 @@
+{
+ "date_label": "nov 26",
+ "hook": {
+  "text": "3,007 GTA 6 REPOS GONE",
+  "kicker": "DMCA CRACKDOWN",
+  "cat": "pc",
+  "audio": "audio/hook.mp3",
+  "say": "Take-Two just wiped 3,007 GTA 6 repos."
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "pc",
+   "head": "Take-Two hits 3,007 GitHub repos of unofficial GTA 6 PC ports with a DMCA takedown",
+   "src": "source: Tom's Hardware · VideoCardz",
+   "audio": "audio/s0.mp3",
+   "bg": "img/s0.jpg",
+   "say": "Three gaming stories you missed. Number one: VideoCardz reports Take-Two issued a DMCA takedown on 3,007 GitHub repositories for unofficial GTA 6 PC ports. There's still no official PC version.",
+   "art": {
+    "type": "stat",
+    "value": "3,007",
+    "label": "GitHub repos hit by Take-Two's DMCA takedown",
+    "badge": "TAKE-TWO"
+   }
+  },
+  {
+   "tag": "CUT",
+   "cat": "games",
+   "head": "Rockstar cut tennis, crafting and Sims-style home decorating from GTA 6",
+   "src": "source: GamesRadar+ · PCGames",
+   "audio": "audio/s1.mp3",
+   "say": "Number two: Rockstar cut tennis, crafting, Sims-style home decorating and movie theater visits from GTA 6, leads Rob Nelson and Scott Mitchell revealed.",
+   "art": {
+    "type": "image",
+    "file": "img/s1.jpg",
+    "label": "CUT CONTENT"
+   }
+  },
+  {
+   "tag": "UBISOFT",
+   "cat": "tech",
+   "head": "Ubisoft argued calling Skull and Bones a AAAA game was \"classic puffery\"",
+   "src": "source: GamesRadar+ · Game File",
+   "audio": "audio/s2.mp3",
+   "bg": "img/s2.jpg",
+   "say": "And number three: Ubisoft argued that calling Skull and Bones a quadruple-A game was just classic puffery. A judge sided with Ubisoft in August.",
+   "art": {
+    "type": "stat",
+    "value": "AAAA",
+    "label": "\"classic puffery\", Ubisoft argued in a lawsuit",
+    "badge": "SKULL AND BONES"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Want tennis back in GTA 6?",
+  "audio": "audio/outro.mp3",
+  "say": "Want tennis back in GTA 6? Follow Level Up!"
+ }
+}
