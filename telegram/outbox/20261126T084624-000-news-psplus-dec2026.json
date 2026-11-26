@@ -1,0 +1,10 @@
+{
+ "method": "sendPhoto",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "photo": "https://www.gematsu.com/wp-content/uploads/2026/11/PS-Plus_11-25-26.jpg",
+  "caption": "🎮 PlayStation Plus just revealed its December 2026 Essential lineup — a nostalgia-packed trio!\n\nStarting December 1, PS Plus Essential subscribers can claim:\n🏚️ Amnesia: The Bunker (PS4)\n🐉 Dragon Ball Xenoverse 2 (PS5, PS4)\n🛹 Tony Hawk's Pro Skater 3 + 4 (PS5, PS4)\n\nAll three join the service free for Essential members, alongside the previously-announced PS Plus Extra/Premium Game Catalog additions like Assassin's Creed Mirage and Wo Long: Fallen Dynasty.\n\n🕒 Announced: Nov 25, 2026, 7:32 PM (GMT+3)\n\n📰 Sources: PlayStation Blog, Gematsu\n\n👥 x.com/PlayStation\n\nWhich one are you downloading first on December 1? Let us know below! 👇\n\n#PlayStation #PS5 #PlayStationPlus #FreeGames #GamingNews"
+ },
+ "ref": "news-psplus-dec2026",
+ "fallback_text": "🎮 PlayStation Plus December 2026 Essential lineup: Amnesia: The Bunker (PS4), Dragon Ball Xenoverse 2 (PS5/PS4), Tony Hawk's Pro Skater 3+4 (PS5/PS4) — free from Dec 1. Source: PlayStation Blog. #PlayStation #PS5 #GamingNews"
+}
