@@ -1,0 +1,11 @@
+{
+ "job": "20261126T005111-000-news-nvidia-gpu.json",
+ "ref": "news-nvidia-gpu",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-26T00:52:26Z",
+ "message_id": 557,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
