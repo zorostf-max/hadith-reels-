@@ -82,14 +82,15 @@
         553
       ],
       "preview_message_ids": [
-        568,
-        569
+        573,
+        574
       ],
       "notes": [
         "2026-11-19: S1 wrote ep04 (شقّ الصدر في بني سعد) — Muslim's hadith of Anas + الرحيق المختوم; closing line points to Thursday. Script sent (msg 497).",
         "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday).",
         "2026-11-24: S1 carried ep04 over to Thu 2026-11-26 (prev. slot Tue 11-24 skipped: no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).). Applied: closing line → «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم». Re-sent script (msg 553). FYI for S2: inbox shows owner's 'Ok' msg 503 was reply_to 497 (the ep04 script) and 'Ok' msg 542 was reply_to 541 (the ep04 reminder) — both approve the earlier ep04 text.",
-        "2026-11-25: S2 — script approved (msg 557 'Ok', reply to 553); 4 images + 21 clips generated (1 take each), rendered 152.5 s / 13.8 MB, caption.txt written; preview sent (msgs 568-569), owner asked to check «عُمَر» in scenes 4 and 8."
+        "2026-11-25: S2 — script approved (msg 557 'Ok', reply to 553); 4 images + 21 clips generated (1 take each), rendered 152.5 s / 13.8 MB, caption.txt written; preview sent (msgs 568-569), owner asked to check «عُمَر» in scenes 4 and 8.",
+        "2026-11-26 08:30: owner (live chat) reported «السنة» mispronounced; s02 regenerated once with tashkeel + direction, re-rendered (commit 2b15ef9); corrected preview sent (msgs 573-574). S3 must use this commit's episode.mp4 and read replies after msg 573."
       ],
       "messages": [
         {
@@ -103,7 +104,11 @@
         497
       ],
       "previous_reminder_message_id": 541,
-      "video_commit": "a899f396bc33904c12dadc266a45e3f14c04a781"
+      "video_commit": "2b15ef9f243091834be97c9afc8fd04df91e09c9",
+      "previous_preview_message_ids": [
+        568,
+        569
+      ]
     },
     "compilation_overrides": {
       "2026-11-22": [
