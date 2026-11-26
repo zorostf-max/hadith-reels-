@@ -80,7 +80,7 @@
    "lines": [
     {
      "who": "father",
-     "tts": "بقيَ النبيُّ صلّى اللهُ عليهِ وسلَّم في بني سَعْد، حتى إذا كانتِ السنةُ الرابعةُ أو الخامسةُ من مولدِه، وقعَ حادثُ شَقِّ صدرِه.",
+     "tts": "بقيَ النبيُّ صلّى اللهُ عليهِ وسلَّم في بني سَعْد، حتى إذا كانتِ السَّنَةُ الرابعةُ أو الخامسةُ من مولدِه، وقعَ حادثُ شَقِّ صدرِه.",
      "caption": "السنة الرابعة أو الخامسة… في بني سعد"
     }
    ]
@@ -284,7 +284,8 @@
   "Core narration = Muslim's hadith of Anas in its own wording (as quoted in الرحيق المختوم); Halima's fear and return + six years with Amina = الرحيق المختوم wording. Amina's journey is only announced; her death at al-Abwa and the care of Abd al-Muttalib are left for the next episode.",
   "No image depicts the Prophet ﷺ, Jibril or any angel: the shaqq scenes show an empty lit hill and a golden basin only; the boys are distant and faceless.",
   "2026-11-24 S1: carried over to Thu 2026-11-26 (Tue slot skipped); closing line now names Tuesday + Follow-plan line «فتابِعونا حتى لا تفوتَكم». Story content unchanged.",
-  "2026-11-25 S2: owner approved the script (msg 557 'Ok', reply to 553). 4 new images (gpt-image-2.5-sunburst, 1 take each; checked: no faces, no prophet/angel). 21 clips eleven_v4, 1 take each; s04b/s08b had the bracket direction for «عُمَر» and were trimmed after the Arabic; check_vowel unclear (F2≈1150-1200, lowest of the clip). Rendered 152.5 s."
+  "2026-11-25 S2: owner approved the script (msg 557 'Ok', reply to 553). 4 new images (gpt-image-2.5-sunburst, 1 take each; checked: no faces, no prophet/angel). 21 clips eleven_v4, 1 take each; s04b/s08b had the bracket direction for «عُمَر» and were trimmed after the Arabic; check_vowel unclear (F2≈1150-1200, lowest of the clip). Rendered 152.5 s.",
+  "2026-11-26: owner reported «السنة» mispronounced (read like السُّنّة). s02 regenerated once with tashkeel «السَّنَةُ» + English direction (not read aloud; clip trimmed after the Arabic); re-rendered."
  ],
  "timing": {
   "lead": 0.3,
