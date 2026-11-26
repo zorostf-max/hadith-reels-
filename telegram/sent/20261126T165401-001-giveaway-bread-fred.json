@@ -1,0 +1,11 @@
+{
+ "job": "20261126T165401-001-giveaway-bread-fred.json",
+ "ref": "giveaway-bread-fred",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-26T16:55:38Z",
+ "message_id": 566,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

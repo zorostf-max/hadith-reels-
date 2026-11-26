@@ -1,9 +1,0 @@
-{
- "method": "sendMessage",
- "params": {
-  "chat_id": "@LevelUpGames0",
-  "text": "🛒 Steam's Black Friday Sale Is Live!\n\nSteam's Black Friday sale kicked off today, November 26, and runs through November 30 (10am Pacific to 10am Pacific). Unlike the Autumn or Winter sales, this isn't one Valve-run event — each studio decides individually whether to discount its own game, though Steam's Discounts &amp; Events page gets the full Black Friday theming and extra promotion.\n\nAs a bonus, nominations for the 10th annual Steam Awards are open during the same stretch, with new categories and fresh award art promised. Discounts follow Steam's usual 30-day cooldown rule, so don't expect everything to be marked down — but plenty of studios are jumping in.\n\n🕗 Posted: 20:03 GMT+3, Nov 26, 2026\n\n📰 Sources: Digital Citizen\n\n👥 x.com/Steam\n\n💬 Which games are you adding to your library this Black Friday? Drop your picks below!\n\n#SteamSale #BlackFriday #PCGaming #Deals #GamingNews",
-  "parse_mode": "HTML"
- },
- "ref": "news-steam-blackfriday"
-}
