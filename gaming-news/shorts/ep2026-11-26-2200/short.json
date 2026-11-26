@@ -1,0 +1,64 @@
+{
+ "date_label": "nov 26",
+ "hook": {
+  "text": "ROCKSTAR STAFF REJECT UNION",
+  "kicker": "UNION VOTE",
+  "cat": "games",
+  "audio": "audio/hook.mp3",
+  "say": "Rockstar staff just rejected their union."
+ },
+ "stories": [
+  {
+   "tag": "ROCKSTAR",
+   "cat": "games",
+   "head": "Rockstar Games staff vote against recognising the Rockstar Game Workers Union",
+   "src": "source: Eurogamer · GameSpot",
+   "audio": "audio/s0.mp3",
+   "bg": "img/s0.jpg",
+   "say": "Three gaming stories you missed. Number one: Rockstar Games staff voted against recognizing their union. Turnout was 93.2 percent, and 75 percent voted no.",
+   "art": {
+    "type": "stat",
+    "value": "75%",
+    "label": "voted against union recognition · turnout 93.2%",
+    "badge": "UK STAFF VOTE"
+   }
+  },
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "NielsenIQ: GTA 6 pushed UK boxed game sales up 409% - biggest week since Christmas 2018",
+   "src": "source: Eurogamer · NielsenIQ",
+   "audio": "audio/s1.mp3",
+   "bg": "img/s1.jpg",
+   "say": "Number two: NielsenIQ says GTA 6 pushed UK boxed game sales up 409 percent, the biggest week since Christmas 2018. And there's no disc in the box!",
+   "art": {
+    "type": "counter",
+    "from": 0,
+    "to": 409,
+    "prefix": "+",
+    "suffix": "%",
+    "title": "UK BOXED SALES",
+    "sub": "launch week vs previous week",
+    "badge": "NO DISC IN THE BOX"
+   }
+  },
+  {
+   "tag": "UBISOFT",
+   "cat": "tech",
+   "head": "Ubisoft: projects are not required to use generative AI",
+   "src": "source: GamesRadar+ · Vertical Slice",
+   "audio": "audio/s2.mp3",
+   "say": "And number three: Ubisoft says its projects are not required to use generative AI, after a report said teams had to justify skipping it.",
+   "art": {
+    "type": "image",
+    "file": "img/s2.jpg",
+    "label": "GEN AI NOT REQUIRED"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Did you buy GTA 6 boxed?",
+  "audio": "audio/outro.mp3",
+  "say": "Did you buy GTA 6 boxed? Follow Level Up!"
+ }
+}
