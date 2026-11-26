@@ -1,0 +1,11 @@
+{
+ "job": "20261126T125312-000-news-yookalaylee.json",
+ "ref": "news-yookalaylee",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-26T12:54:41Z",
+ "message_id": 563,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
