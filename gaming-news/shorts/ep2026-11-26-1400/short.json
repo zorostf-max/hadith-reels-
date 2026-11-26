@@ -1,0 +1,60 @@
+{
+ "date_label": "nov 26",
+ "hook": {
+  "text": "PS5 SALES 2.4X",
+  "kicker": "THE GTA 6 EFFECT",
+  "cat": "playstation",
+  "audio": "audio/hook.mp3",
+  "say": "GTA 6 just sent console sales soaring."
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "playstation",
+   "head": "Circana: US PS5 unit sales 2.4x and Xbox 2.3x the same week last year, ahead of GTA 6",
+   "src": "source: Eurogamer · Circana",
+   "audio": "audio/s0.mp3",
+   "bg": "img/s0.jpg",
+   "say": "Three gaming stories you missed. Number one: GTA 6 fever hit US stores. Circana says PS5 unit sales were up two point four times on the same week last year, and Xbox two point three times, even at higher prices.",
+   "art": {
+    "type": "stat",
+    "value": "2.4X",
+    "label": "US PS5 unit sales vs same week last year (Xbox 2.3x)",
+    "badge": "CIRCANA"
+   }
+  },
+  {
+   "tag": "KAMIYA",
+   "cat": "games",
+   "head": "Hideki Kamiya wants to make Castlevania: \"we can make something truly insane\"",
+   "src": "source: Eurogamer · Automaton",
+   "audio": "audio/s1.mp3",
+   "say": "Number two: Hideki Kamiya wants to make Castlevania. The Bayonetta and Devil May Cry director told Konami: if you let us work on it, we can make something truly insane.",
+   "art": {
+    "type": "image",
+    "file": "img/s1.jpg",
+    "label": "CASTLEVANIA?"
+   }
+  },
+  {
+   "tag": "TEKKEN 8",
+   "cat": "esports",
+   "head": "103-year-old Toshiko Morishita enters a Tekken 8 seniors tournament in Japan",
+   "src": "source: Dexerto · Denfaminico",
+   "audio": "audio/s2.mp3",
+   "bg": "img/s2.jpg",
+   "say": "And number three: a hundred-and-three-year-old grandmother, Toshiko Morishita, is entering a Tekken 8 tournament for seniors in Japan. She says even losing would still be enjoyable.",
+   "art": {
+    "type": "stat",
+    "value": "103",
+    "label": "years old, entering a Tekken 8 tournament",
+    "badge": "TOSHIKO MORISHITA"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Did GTA 6 make you buy a console?",
+  "audio": "audio/outro.mp3",
+  "say": "Did GTA 6 make you buy a console? Follow Level Up!"
+ }
+}
