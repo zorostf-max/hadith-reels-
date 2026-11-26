@@ -1,0 +1,11 @@
+{
+ "job": "20261126T062752-002-seerah-ep04-confirm.json",
+ "ref": "seerah-ep04-confirm",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-26T06:29:18Z",
+ "message_id": 578,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
