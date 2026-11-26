@@ -1,0 +1,58 @@
+{
+ "date_label": "nov 26",
+ "hook": {
+  "text": "SONY TRICKED MICROSOFT?",
+  "kicker": "PLAYSTATION'S CREATOR",
+  "cat": "playstation",
+  "audio": "audio/hook.mp3"
+ },
+ "stories": [
+  {
+   "tag": "XBOX",
+   "cat": "playstation",
+   "head": "Ken Kutaragi says he refused a Microsoft offer on purpose, so it would build the Xbox",
+   "src": "source: GamesRadar+ · The Game Business",
+   "audio": "audio/s0.mp3",
+   "art": {
+    "type": "stat",
+    "value": "\"NO THANKS\"",
+    "label": "his answer to Microsoft, then came Xbox",
+    "badge": "KEN KUTARAGI"
+   }
+  },
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "Spotify: Carly Rae Jepsen's 2015 hit Run Away With Me +940% in streams after GTA 6",
+   "src": "source: IGN",
+   "audio": "audio/s1.mp3",
+   "art": {
+    "type": "counter",
+    "from": 0,
+    "to": 940,
+    "prefix": "+",
+    "suffix": "%",
+    "title": "RUN AWAY WITH ME",
+    "sub": "Spotify streams after GTA 6",
+    "badge": "SPOTIFY DATA"
+   }
+  },
+  {
+   "tag": "KOTOR 2",
+   "cat": "games",
+   "head": "BioWare vet: LucasArts wanted KOTOR 2 in 18 months, so BioWare said no and Obsidian tried",
+   "src": "source: GamesRadar+",
+   "audio": "audio/s2.mp3",
+   "art": {
+    "type": "stat",
+    "value": "18 MONTHS",
+    "label": "LucasArts' deadline for KOTOR 2",
+    "badge": "BIOWARE SAID NO"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Kutaragi: genius move or lucky guess? Comment below",
+  "audio": "audio/outro.mp3"
+ }
+}
