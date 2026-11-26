@@ -78,10 +78,12 @@
       "episode": 5,
       "publish_date": "2026-12-01",
       "status": "script_sent",
-      "script_message_ids": [],
+      "script_message_ids": [
+        585
+      ],
       "preview_message_ids": [],
       "notes": [
-        "2026-11-26: S1 wrote ep05 (وفاة آمنة بالأبواء وكفالة عبد المطلب) from الرحيق المختوم «إلى أمّه الحنون» + «إلى جدّه العطوف» (Ibn Hisham's mat report as quoted there); closing line → Thursday + follow line. Script queued to owner."
+        "2026-11-26: S1 wrote ep05 (وفاة آمنة بالأبواء وكفالة عبد المطلب) from الرحيق المختوم «إلى أمّه الحنون» + «إلى جدّه العطوف» (Ibn Hisham's mat report as quoted there); closing line → Thursday + follow line. Script queued to owner. Sent: msg 585."
       ],
       "messages": []
     },
@@ -174,10 +176,14 @@
       "story": 3,
       "publish_date": "2026-11-28",
       "status": "script_sent",
-      "script_message_ids": [],
+      "script_message_ids": [
+        586,
+        587,
+        588
+      ],
       "preview_message_ids": [],
       "notes": [
-        "2026-11-26 T1: queue item 5 (جُريج العابد والرضيع الذي تكلّم, Bukhari 3436, verified sunnah.com) chosen under «patience first» (affliction then relief). Part 1 = stories/st03, Part 2 = stories/st03b, benefits = stories/st03/benefits.json (al-Munajjid; Fath al-Bari pages could not be fetched). One owner ok approves all."
+        "2026-11-26 T1: queue item 5 (جُريج العابد والرضيع الذي تكلّم, Bukhari 3436, verified sunnah.com) chosen under «patience first» (affliction then relief). Part 1 = stories/st03, Part 2 = stories/st03b, benefits = stories/st03/benefits.json (al-Munajjid; Fath al-Bari pages could not be fetched). One owner ok approves all. Sent: msgs 586-588 (seerah ep05 script is msg 585 just before — count replies after 588 for the story, a reply_to 585 for the seerah)."
       ],
       "messages": []
     },
@@ -237,7 +243,11 @@
       "folder": "stories/st03b",
       "publish_date": "2026-11-28",
       "status": "script_sent",
-      "script_message_ids": [],
+      "script_message_ids": [
+        586,
+        587,
+        588
+      ],
       "preview_message_ids": [],
       "notes": [],
       "messages": []
