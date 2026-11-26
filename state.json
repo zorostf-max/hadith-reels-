@@ -67,8 +67,8 @@
       "approved": "2026-11-11",
       "metricool_uuid": "-1903460450320038547"
     },
-    "next_episode": 4,
-    "next_topic": "شقّ الصدر في بني سعد ورجوعه ﷺ إلى أمه — حسب ترتيب الرحيق المختوم",
+    "next_episode": 5,
+    "next_topic": "وفاة أمّه آمنة بالأبواء ثم كفالة جدّه عبد المطلب — حسب ترتيب الرحيق المختوم («إلى أمّه الحنون» ثم «إلى جدّه العطوف»)",
     "days": [
       "Tue",
       "Thu"
@@ -77,7 +77,7 @@
     "pending": {
       "episode": 4,
       "publish_date": "2026-11-26",
-      "status": "video_sent",
+      "status": "scheduled",
       "script_message_ids": [
         553
       ],
@@ -90,7 +90,8 @@
         "2026-11-23: S2 — no approval reply attributable to ep04; reminder sent; status skipped, next S1 (Tue) carries ep04 over to Thu 2026-11-26 (closing line must then name Tuesday).",
         "2026-11-24: S1 carried ep04 over to Thu 2026-11-26 (prev. slot Tue 11-24 skipped: no clear approval: the only reply after script msg 497 was 'Ok' (msg 503, 2026-11-19T18:23Z), sent after the story st02 script (msgs 498-500) — counted for the story per the cross-series rule; no ep04-specific reply by S2 (2026-11-23).). Applied: closing line → «هذه حكايةُ يومِ الثلاثاءِ إن شاءَ الله، فتابِعونا حتى لا تفوتَكم». Re-sent script (msg 553). FYI for S2: inbox shows owner's 'Ok' msg 503 was reply_to 497 (the ep04 script) and 'Ok' msg 542 was reply_to 541 (the ep04 reminder) — both approve the earlier ep04 text.",
         "2026-11-25: S2 — script approved (msg 557 'Ok', reply to 553); 4 images + 21 clips generated (1 take each), rendered 152.5 s / 13.8 MB, caption.txt written; preview sent (msgs 568-569), owner asked to check «عُمَر» in scenes 4 and 8.",
-        "2026-11-26 08:30: owner (live chat) reported «السنة» mispronounced; s02 regenerated once with tashkeel + direction, re-rendered (commit 2b15ef9); corrected preview sent (msgs 573-574). S3 must use this commit's episode.mp4 and read replies after msg 573."
+        "2026-11-26 08:30: owner (live chat) reported «السنة» mispronounced; s02 regenerated once with tashkeel + direction, re-rendered (commit 2b15ef9); corrected preview sent (msgs 573-574). S3 must use this commit's episode.mp4 and read replies after msg 573.",
+        "2026-11-26 09:27: S3 — owner approved (msg 575 'Ok', sent right after corrected preview 573-574). Scheduled 10:00 Istanbul: IG Reel+YT Short+FB Reel with first comment (442707452), TikTok (442707576), Threads (442707585), FB Story (442707597); Telegram channel queued --not-before 06:55Z."
       ],
       "messages": [
         {
@@ -98,6 +99,12 @@
           "date_utc": "2026-11-24T18:45:06Z",
           "text": "Ok",
           "reply_to_message_id": 553
+        },
+        {
+          "message_id": 575,
+          "date_utc": "2026-11-26T05:39:42Z",
+          "text": "Ok",
+          "reply_to_message_id": null
         }
       ],
       "previous_script_message_ids": [
@@ -174,6 +181,20 @@
       "metricool_uuid": "255498128585015740",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7884161&openWithPostUuid=255498128585015740",
       "youtube_title": "السيرة النبوية | الحلقات ١ و٢ و٣: عام الفيل، ومولد النبي ﷺ، وحليمة السعدية"
+    },
+    "ep04": {
+      "publish_at": "2026-11-26T10:00:00+03:00",
+      "metricool_post_id": 442707452,
+      "metricool_uuid": "2131493920736625638",
+      "metricool_tiktok_post_id": 442707576,
+      "metricool_threads_post_id": 442707585,
+      "metricool_fb_story_post_id": 442707597,
+      "youtube_title": "كان يلعب مع الغلمان فشُقّ صدره… فماذا أُخرج من قلبه؟ | السيرة النبوية للأطفال – الحلقة 4",
+      "first_comment": "ما الذي تعلّمته من حادثة شقّ الصدر؟ 👇",
+      "telegram_job": "20261126T062741-000-seerah-ep04.json",
+      "telegram_job_rest": "20261126T062741-001-seerah-ep04-rest.json",
+      "approved": "2026-11-26 (Telegram msg 575)",
+      "video_commit": "2b15ef9f243091834be97c9afc8fd04df91e09c9"
     }
   },
   "stories": {
