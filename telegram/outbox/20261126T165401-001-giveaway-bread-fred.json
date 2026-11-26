@@ -1,0 +1,9 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "text": "🎁 FREE GAME ALERT: Bread &amp; Fred, Yours to Keep!\n\nEpic Games Store just made Bread &amp; Fred free to claim, and it's yours to keep forever if you grab it before December 3, 2026. It's a co-op platformer starring two penguins — Bread and Fred — climbing a treacherous, candy-colored mountain together, built for two players whether you're on the couch or playing online.\n\nJust add it to your library before the offer ends on December 3 and there's nothing more to pay, no subscription required.\n\n🕗 Posted: 20:03 GMT+3, Nov 26, 2026\n\n📰 Sources: Epic Games Store\n\n👥 x.com/EpicGames\n\n💬 Tag a friend to co-op this one with, and claim it before Dec 3!\n\n#FreeGames #EpicGamesStore #Giveaway #PCGaming #GamingNews",
+  "parse_mode": "HTML"
+ },
+ "ref": "giveaway-bread-fred"
+}
