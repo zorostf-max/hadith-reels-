@@ -1,0 +1,11 @@
+{
+ "job": "20261127T045304-000-news-nintendo-8bitbigband.json",
+ "ref": "news-nintendo-8bitbigband",
+ "method": "sendPhoto",
+ "ok": true,
+ "sent_at": "2026-11-27T04:54:33Z",
+ "message_id": 571,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
