@@ -1,0 +1,11 @@
+{
+ "job": "20261127T044900-002-breaking-bioware-tiktok-text.json",
+ "ref": "breaking-bioware-tiktok-text",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-27T04:50:30Z",
+ "message_id": 594,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}

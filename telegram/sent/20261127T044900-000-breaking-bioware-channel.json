@@ -1,0 +1,11 @@
+{
+ "job": "20261127T044900-000-breaking-bioware-channel.json",
+ "ref": "breaking-bioware-channel",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-27T04:50:27Z",
+ "message_id": 570,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
