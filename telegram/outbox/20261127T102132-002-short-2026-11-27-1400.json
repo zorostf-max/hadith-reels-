@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/32d779f594517196fc45876ebed293ef54eb01f8/gaming-news/shorts/ep2026-11-27-1400/short.mp4",
+  "caption": "🎬 <b>Today in gaming: 3 stories in 39 seconds</b>\n🏠 A real-life version of Jason's GTA 6 house is for sale in Key Largo, Florida, for nearly $750,000 (Dexerto)\n🧙 The Witcher 3 Remastered patch 5.02 adds 40 cross-platform mods and fixes the bald-Geralt bug\n🏢 Marvelous seeks 65 voluntary early retirements after a 1,105% profit jump (April-September)\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "short-2026-11-27-1400"
+}
