@@ -1,0 +1,11 @@
+{
+ "job": "20261127T163320-000-preview-021.json",
+ "ref": "preview-021",
+ "method": "sendVideo",
+ "ok": true,
+ "sent_at": "2026-11-27T16:33:52Z",
+ "message_id": 601,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
