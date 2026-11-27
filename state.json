@@ -176,7 +176,7 @@
     "next_story": 3,
     "pending": {
       "story": 3,
-      "publish_date": "2026-11-28",
+      "publish_date": "2026-12-05",
       "status": "script_sent",
       "script_message_ids": [
         586,
@@ -185,9 +185,18 @@
       ],
       "preview_message_ids": [],
       "notes": [
-        "2026-11-26 T1: queue item 5 (جُريج العابد والرضيع الذي تكلّم, Bukhari 3436, verified sunnah.com) chosen under «patience first» (affliction then relief). Part 1 = stories/st03, Part 2 = stories/st03b, benefits = stories/st03/benefits.json (al-Munajjid; Fath al-Bari pages could not be fetched). One owner ok approves all. Sent: msgs 586-588 (seerah ep05 script is msg 585 just before — count replies after 588 for the story, a reply_to 585 for the seerah)."
+        "2026-11-26 T1: queue item 5 (جُريج العابد والرضيع الذي تكلّم, Bukhari 3436, verified sunnah.com) chosen under «patience first» (affliction then relief). Part 1 = stories/st03, Part 2 = stories/st03b, benefits = stories/st03/benefits.json (al-Munajjid; Fath al-Bari pages could not be fetched). One owner ok approves all. Sent: msgs 586-588 (seerah ep05 script is msg 585 just before — count replies after 588 for the story, a reply_to 585 for the seerah).",
+        "2026-11-27 T2: owner said no (msg 590): one part, full hadith, nothing omitted, YouTube = complete normal video (not Shorts). Rewrote stories/st03/script.json as a single episode (st03b removed), added benefit 8 (third infant, Dorar sharh) to benefits.json, re-sent the script; moved to Sat 2026-12-05 (cannot be produced before tonight's T3). format=single → T2 makes episode.mp4 (all platforms except YouTube; Facebook as POST if > 90 s) + long.mp4 (YouTube, normal video); no full.mp4, no Part 2."
       ],
-      "messages": []
+      "messages": [
+        {
+          "message_id": 590,
+          "date_utc": "2026-11-26T17:05:36Z",
+          "reply_to": 588,
+          "text": "No اريدك ان تجعلها جزءا واحدا وتنشرها على اليوتيوب كامله تمام مو شرطات والباقي مواقع شرطه وارجع المحذوف لا تحذف شيء"
+        }
+      ],
+      "format": "single"
     },
     "published": {
       "st01": {
@@ -238,21 +247,6 @@
       "part2": "18:00",
       "facebook_full": "11:00",
       "youtube_long": "20:00"
-    },
-    "pending_part2": {
-      "story": 3,
-      "part": 2,
-      "folder": "stories/st03b",
-      "publish_date": "2026-11-28",
-      "status": "script_sent",
-      "script_message_ids": [
-        586,
-        587,
-        588
-      ],
-      "preview_message_ids": [],
-      "notes": [],
-      "messages": []
     }
   }
 }
