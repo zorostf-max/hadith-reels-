@@ -1,0 +1,9 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/f90742a045fd1dc31d6161cab0ad4ee9cf9d912b/videos/bukhari-021.mp4",
+  "caption": "(١/٢) الحديث رقم 21 — ثلاث من كن فيه وجد حلاوة الإيمان — يُنشر الاثنين ١٠:٠٠ صباحًا"
+ },
+ "ref": "preview-021"
+}
