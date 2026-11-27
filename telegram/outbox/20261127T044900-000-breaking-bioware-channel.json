@@ -1,0 +1,12 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "@LevelUpGames0",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/3faad106e48be183721b9afd65d76b8d914c399e/gaming-news/shorts/breaking-2026-11-27-0750/short.mp4",
+  "caption": "🚨 <b>BREAKING: EA is closing BioWare</b>\n\nAfter more than three decades, BioWare is closing and early development on the next Mass Effect project is ending, EA confirmed.\n\n📰 Source: <a href=\"https://www.ea.com/news/bioware-update\">EA</a>\n💬 Which BioWare game will you remember most?\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#BioWare #MassEffect #GamingNews",
+  "parse_mode": "HTML",
+  "supports_streaming": true
+ },
+ "ref": "breaking-bioware-channel",
+ "fallback_text": "🚨 BREAKING: EA is closing BioWare\n\nAfter more than three decades, BioWare is closing and early development on the next Mass Effect project is ending, EA confirmed.\n\n📰 Source: <a href=\"https://www.ea.com/news/bioware-update\">EA</a>\n💬 Which BioWare game will you remember most?\n\n🔔 <a href=\"https://t.me/LevelUpGames0\">@LevelUpGames0</a>\n#BioWare #MassEffect #GamingNews\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/3faad106e48be183721b9afd65d76b8d914c399e/gaming-news/shorts/breaking-2026-11-27-0750/short.mp4"
+}
