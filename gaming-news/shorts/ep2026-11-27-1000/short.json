@@ -1,0 +1,63 @@
+{
+ "date_label": "nov 27",
+ "hook": {
+  "text": "GTA 6: 420M HOURS WATCHED",
+  "kicker": "STREAMING RECORD",
+  "cat": "games",
+  "audio": "audio/hook.mp3",
+  "say": "GTA 6 just smashed a streaming record."
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "GTA 6 reportedly passes 420m hours watched in its first 7 days on livestreams",
+   "src": "source: Eurogamer · Streams Charts",
+   "audio": "audio/s0.mp3",
+   "say": "Three gaming stories you missed. Number one: GTA 6 reportedly hit over 420 million hours watched on streams in its first week, per Streams Charts. That's nearly three times the old record!",
+   "art": {
+    "type": "counter",
+    "from": 0,
+    "to": 420,
+    "prefix": "",
+    "suffix": "M+",
+    "title": "HOURS WATCHED",
+    "sub": "first 7 days · per Streams Charts",
+    "badge": "NEARLY 3X THE OLD RECORD"
+   }
+  },
+  {
+   "tag": "FABLE",
+   "cat": "xbox",
+   "head": "Playground: Fable has over 150,000 lines of dialogue from 100+ UK voice actors",
+   "src": "source: GamesRadar+ · GamesIndustry.biz",
+   "audio": "audio/s1.mp3",
+   "bg": "img/s1.jpg",
+   "say": "Number two: Playground says Fable has over 150,000 lines of dialogue, recorded by over a hundred voice actors from all over the UK.",
+   "art": {
+    "type": "stat",
+    "value": "150,000+",
+    "label": "lines of dialogue · 100+ voice actors",
+    "badge": "PLAYGROUND GAMES"
+   }
+  },
+  {
+   "tag": "SKATE",
+   "cat": "games",
+   "head": "EA's Skate drops seasons: Season 5 ends December 1, skate.Pass gone by year end",
+   "src": "source: Eurogamer · Full Circle",
+   "audio": "audio/s2.mp3",
+   "say": "And number three: EA's Skate is ditching seasons. Season five ends December 1st, and the skate pass is gone by the end of the year.",
+   "art": {
+    "type": "image",
+    "file": "img/s2.jpg",
+    "label": "NO MORE SEASONS"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Did you watch GTA 6 streams?",
+  "audio": "audio/outro.mp3",
+  "say": "Did you watch GTA 6 streams? Follow Level Up!"
+ }
+}
