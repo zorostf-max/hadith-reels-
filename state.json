@@ -179,9 +179,9 @@
       "publish_date": "2026-12-05",
       "status": "script_sent",
       "script_message_ids": [
-        586,
-        587,
-        588
+        604,
+        605,
+        606
       ],
       "preview_message_ids": [],
       "notes": [
@@ -196,7 +196,12 @@
           "text": "No اريدك ان تجعلها جزءا واحدا وتنشرها على اليوتيوب كامله تمام مو شرطات والباقي مواقع شرطه وارجع المحذوف لا تحذف شيء"
         }
       ],
-      "format": "single"
+      "format": "single",
+      "old_script_message_ids": [
+        586,
+        587,
+        588
+      ]
     },
     "published": {
       "st01": {
