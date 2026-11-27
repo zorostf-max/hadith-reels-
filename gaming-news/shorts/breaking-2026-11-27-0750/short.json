@@ -1,0 +1,31 @@
+{
+ "date_label": "nov 27",
+ "hook": {
+  "text": "EA IS CLOSING BIOWARE",
+  "kicker": "BREAKING",
+  "cat": "games",
+  "audio": "audio/hook.mp3",
+  "say": "EA just announced BioWare is closing."
+ },
+ "stories": [
+  {
+   "tag": "BIOWARE",
+   "cat": "games",
+   "head": "EA: BioWare is closing and early development on the next Mass Effect is ending",
+   "src": "source: EA · Inven Global",
+   "audio": "audio/s0.mp3",
+   "bg": "img/s0.jpg",
+   "say": "After more than three decades, EA confirmed BioWare is closing, and early development on the next Mass Effect project is ending. That's the studio behind Baldur's Gate, Knights of the Old Republic, Dragon Age and Mass Effect.",
+   "art": {
+    "type": "pills",
+    "title": "30+ YEARS OF BIOWARE",
+    "items": ["BALDUR'S GATE", "KOTOR", "DRAGON AGE", "MASS EFFECT"]
+   }
+  }
+ ],
+ "outro": {
+  "head": "Your favorite BioWare game?",
+  "audio": "audio/outro.mp3",
+  "say": "Your favorite BioWare game? Follow Level Up!"
+ }
+}

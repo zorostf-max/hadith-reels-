@@ -637,7 +637,8 @@ class Ep:
         if si == self.first:
             q = 1 - ease((t - 1.7) / 0.3)
             if q > 0:
-                ban = f"{n} GAMING STORIES // {int(round(self.total))} SEC"
+                ban = (f"BREAKING // {int(round(self.total))} SEC" if n == 1
+                       else f"{n} GAMING STORIES // {int(round(self.total))} SEC")
                 f = fOrb(44, 900); tw = d.textlength(ban, font=f); y = CY1 - 110 + (1 - ease(t / 0.25)) * 40
                 d.rectangle([W / 2 - tw / 2 - 36, y, W / 2 + tw / 2 + 36, y + 84], fill=acc + (int(245 * q),))
                 text_a(cv, (W / 2, y + 42), ban, f, (5, 10, 20, int(255 * q)), anchor="mm")
