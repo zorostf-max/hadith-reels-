@@ -1,0 +1,11 @@
+{
+ "job": "20261127T063042-004-hadith-summary-2026-11-27.json",
+ "ref": "hadith-summary-2026-11-27",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-27T06:32:09Z",
+ "message_id": 598,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
