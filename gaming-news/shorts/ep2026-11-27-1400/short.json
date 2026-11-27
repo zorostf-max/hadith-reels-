@@ -1,0 +1,61 @@
+{
+ "date_label": "nov 27",
+ "hook": {
+  "text": "JASON'S HOUSE: NEARLY $750,000",
+  "kicker": "GTA 6 IN REAL LIFE",
+  "cat": "games",
+  "audio": "audio/hook.mp3",
+  "say": "Jason's real-life GTA 6 house is for sale!"
+ },
+ "stories": [
+  {
+   "tag": "GTA 6",
+   "cat": "games",
+   "head": "A real Key Largo home that looks like Jason's GTA 6 house is up for sale",
+   "src": "source: Dexerto",
+   "audio": "audio/s0.mp3",
+   "bg": "img/s0.jpg",
+   "say": "Three gaming stories you missed. Number one: a real-life Key Largo house that looks just like Jason's GTA 6 home is up for sale, for nearly seven hundred fifty thousand dollars. And yes, it has a boat in the yard too!",
+   "art": {
+    "type": "stat",
+    "value": "$750,000",
+    "label": "NEARLY · real-life Jason house · Key Largo, FL",
+    "badge": "FOR SALE"
+   }
+  },
+  {
+   "tag": "WITCHER 3",
+   "cat": "games",
+   "head": "Witcher 3 Remastered patch 5.02: 40 cross-platform mods, bald-Geralt bug fixed",
+   "src": "source: Eurogamer · PC Gamer",
+   "audio": "audio/s1.mp3",
+   "bg": "img/s1.jpg",
+   "say": "Number two: The Witcher 3 Remastered's patch five point oh two adds forty cross-platform mods, and fixes bugs that turned Geralt bald and made time go backwards.",
+   "art": {
+    "type": "stat",
+    "value": "40",
+    "label": "new cross-platform mods · patch 5.02",
+    "badge": "MORE ON THE WAY"
+   }
+  },
+  {
+   "tag": "MARVELOUS",
+   "cat": "games",
+   "head": "Marvelous seeks 65 voluntary early retirements after a 1,105% profit jump",
+   "src": "source: Eurogamer · Automaton",
+   "audio": "audio/s2.mp3",
+   "say": "And number three: Marvelous, the Story of Seasons studio, wants to cut sixty-five jobs through voluntary early retirement, in the same year its profit jumped one thousand one hundred five percent.",
+   "art": {
+    "type": "stat",
+    "value": "65",
+    "label": "jobs · voluntary early retirement",
+    "badge": "PROFIT +1,105% (APR-SEP)"
+   }
+  }
+ ],
+ "outro": {
+  "head": "Would you buy Jason's house?",
+  "audio": "audio/outro.mp3",
+  "say": "Would you buy Jason's house? Follow Level Up!"
+ }
+}
