@@ -35,6 +35,11 @@
     "video_commit": "f90742a045fd1dc31d6161cab0ad4ee9cf9d912b",
     "notes": [
       "2026-11-27 A: no Ibn Uthaymeen sharh found for h21/h22 (his alathar.net Bukhari lessons go 03a h20 -> h25), used Ibn Baz Sharh Sahih al-Bukhari (binbaz.org.sa audios/2124, lesson 02). Texts verified vs binbaz.org.sa + hadithprophet.com. h21 54.8 s, h22 53.6 s (pauses tightened; h22 pt0 audio cut after «إلا الكافر», full point on screen + caption; matn abridged in video, full in caption)."
+    ],
+    "preview_message_ids": [
+      601,
+      602,
+      603
     ]
   },
   "rejected_notes": {},
