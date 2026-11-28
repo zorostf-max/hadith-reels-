@@ -1,0 +1,8 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "text": "📺 الفيديو الطويل المُصحّح مع الفوائد (٩:٣٣) — يوتيوب اليوم ٨:٠٠ مساءً:\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/a0f8ea40d93be86884b6f5d6eb85f2cb53e42921/stories/st03/long.mp4\n\n✏️ صُحّح نطق «أَمَة» في المقاطع الثلاثة.\n✅ للموافقة على الاثنين أرسل: ok\n❌ للتعديل: no <ملاحظتك>"
+ },
+ "ref": "preview-st03-v2-msg"
+}

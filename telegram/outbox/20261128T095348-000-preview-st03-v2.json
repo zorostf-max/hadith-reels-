@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/a0f8ea40d93be86884b6f5d6eb85f2cb53e42921/stories/st03/episode.mp4",
+  "caption": "🎬 القصة ٣ (مُصحّحة: «أَمَة») — تُنشر اليوم ٦:٠٠ مساءً",
+  "supports_streaming": true
+ },
+ "ref": "preview-st03-v2",
+ "fallback_text": "🎬 القصة ٣ (مُصحّحة): https://raw.githubusercontent.com/zorostf-max/hadith-reels-/a0f8ea40d93be86884b6f5d6eb85f2cb53e42921/stories/st03/episode.mp4"
+}
