@@ -184,13 +184,14 @@
         606
       ],
       "preview_message_ids": [
-        608,
-        609
+        610,
+        611
       ],
       "notes": [
         "2026-11-26 T1: queue item 5 (جُريج العابد والرضيع الذي تكلّم, Bukhari 3436, verified sunnah.com) chosen under «patience first» (affliction then relief). Part 1 = stories/st03, Part 2 = stories/st03b, benefits = stories/st03/benefits.json (al-Munajjid; Fath al-Bari pages could not be fetched). One owner ok approves all. Sent: msgs 586-588 (seerah ep05 script is msg 585 just before — count replies after 588 for the story, a reply_to 585 for the seerah).",
         "2026-11-27 T2: owner said no (msg 590): one part, full hadith, nothing omitted, YouTube = complete normal video (not Shorts). Rewrote stories/st03/script.json as a single episode (st03b removed), added benefit 8 (third infant, Dorar sharh) to benefits.json, re-sent the script; moved to Sat 2026-12-05 (cannot be produced before tonight's T3). format=single → T2 makes episode.mp4 (all platforms except YouTube; Facebook as POST if > 90 s) + long.mp4 (YouTube, normal video); no full.mp4, no Part 2.",
-        "2026-11-28 (live chat with the owner, 11:50 Istanbul): owner approved the revised script («السيناريو تمام») and asked to make the video today and publish TODAY (Sat 2026-11-28), not 12-05. 11:00 had passed, so proposed 18:00 episode (Instagram Reel, TikTok, Threads, Telegram, Facebook POST since > 90 s; Facebook Story) + 20:00 long video on YouTube. Produced episode.mp4 (3:07) + long.mp4; needs the owner's ok on the preview before scheduling."
+        "2026-11-28 (live chat with the owner, 11:50 Istanbul): owner approved the revised script («السيناريو تمام») and asked to make the video today and publish TODAY (Sat 2026-11-28), not 12-05. 11:00 had passed, so proposed 18:00 episode (Instagram Reel, TikTok, Threads, Telegram, Facebook POST since > 90 s; Facebook Story) + 20:00 long video on YouTube. Produced episode.mp4 (3:07) + long.mp4; needs the owner's ok on the preview before scheduling.",
+        "2026-11-28: owner (live chat): «هناك خطأ في كلمة امة» → «أَمَة» was voiced as «أُمّة»; regenerated st03 s15, s16 and st03_benefits s09 with a bracket direction (amah), re-rendered episode.mp4 (3:08) + long.mp4 (9:33), re-sent previews 610/611."
       ],
       "messages": [
         {
@@ -211,7 +212,11 @@
         "episode": "2026-11-28 18:00 Europe/Istanbul",
         "youtube_long": "2026-11-28 20:00 Europe/Istanbul"
       },
-      "video_commit": "e3f82bacdb9d50aa028bf34e9b013f3eeb860c38"
+      "video_commit": "a0f8ea40d93be86884b6f5d6eb85f2cb53e42921",
+      "old_preview_message_ids": [
+        608,
+        609
+      ]
     },
     "published": {
       "st01": {
