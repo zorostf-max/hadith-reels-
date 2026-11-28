@@ -1,0 +1,11 @@
+{
+ "job": "20261128T091447-001-preview-st03-msg.json",
+ "ref": "preview-st03-msg",
+ "method": "sendMessage",
+ "ok": true,
+ "sent_at": "2026-11-28T09:15:42Z",
+ "message_id": 609,
+ "message_ids": null,
+ "error": null,
+ "fallback_used": false
+}
