@@ -177,13 +177,16 @@
     "pending": {
       "story": 3,
       "publish_date": "2026-11-28",
-      "status": "script_sent",
+      "status": "video_sent",
       "script_message_ids": [
         604,
         605,
         606
       ],
-      "preview_message_ids": [],
+      "preview_message_ids": [
+        608,
+        609
+      ],
       "notes": [
         "2026-11-26 T1: queue item 5 (جُريج العابد والرضيع الذي تكلّم, Bukhari 3436, verified sunnah.com) chosen under «patience first» (affliction then relief). Part 1 = stories/st03, Part 2 = stories/st03b, benefits = stories/st03/benefits.json (al-Munajjid; Fath al-Bari pages could not be fetched). One owner ok approves all. Sent: msgs 586-588 (seerah ep05 script is msg 585 just before — count replies after 588 for the story, a reply_to 585 for the seerah).",
         "2026-11-27 T2: owner said no (msg 590): one part, full hadith, nothing omitted, YouTube = complete normal video (not Shorts). Rewrote stories/st03/script.json as a single episode (st03b removed), added benefit 8 (third infant, Dorar sharh) to benefits.json, re-sent the script; moved to Sat 2026-12-05 (cannot be produced before tonight's T3). format=single → T2 makes episode.mp4 (all platforms except YouTube; Facebook as POST if > 90 s) + long.mp4 (YouTube, normal video); no full.mp4, no Part 2.",
@@ -203,7 +206,12 @@
         587,
         588
       ],
-      "script_approved": "2026-11-28 (owner, live chat)"
+      "script_approved": "2026-11-28 (owner, live chat)",
+      "planned_slots": {
+        "episode": "2026-11-28 18:00 Europe/Istanbul",
+        "youtube_long": "2026-11-28 20:00 Europe/Istanbul"
+      },
+      "video_commit": "e3f82bacdb9d50aa028bf34e9b013f3eeb860c38"
     },
     "published": {
       "st01": {
