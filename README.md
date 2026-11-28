@@ -132,6 +132,8 @@ The voice often ignores the tashkeel on the FIRST letter of a name. For every cl
 | سَعْد بن أبي وَقّاص، بنو سَعْد | Sa'd | a |
 | حَلِيمة السَّعْدِيّة | Haleemah as-Sa'diyyah | a |
 | عَائِشَة | Aa'ishah | a |
+| جُرَيْج (العابد) | Jurayj | u |
+| المُنَجِّد (الشيخ محمد صالح) | al-Munajjid | u (after al-) |
 
 Add every new name you voice to this table (same commit), so later runs reuse it.
 
