@@ -1,0 +1,11 @@
+{
+ "method": "sendVideo",
+ "params": {
+  "chat_id": "6875821347",
+  "video": "https://raw.githubusercontent.com/zorostf-max/hadith-reels-/e3f82bacdb9d50aa028bf34e9b013f3eeb860c38/stories/st03/episode.mp4",
+  "caption": "🎬 القصة ٣ — جُريج العابد والرضيع الذي تكلّم (٣:٠٧) — تُنشر اليوم ٦:٠٠ مساءً: إنستغرام، تيك توك، ثريدز، تيليغرام، وفيسبوك كمنشور فيديو",
+  "supports_streaming": true
+ },
+ "ref": "preview-st03",
+ "fallback_text": "🎬 القصة ٣ — المعاينة: https://raw.githubusercontent.com/zorostf-max/hadith-reels-/e3f82bacdb9d50aa028bf34e9b013f3eeb860c38/stories/st03/episode.mp4"
+}

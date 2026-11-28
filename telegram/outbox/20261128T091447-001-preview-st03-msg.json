@@ -1,0 +1,8 @@
+{
+ "method": "sendMessage",
+ "params": {
+  "chat_id": "6875821347",
+  "text": "📺 الفيديو الطويل مع الفوائد (٩:٣٠) — يوتيوب اليوم ٨:٠٠ مساءً:\nhttps://raw.githubusercontent.com/zorostf-max/hadith-reels-/e3f82bacdb9d50aa028bf34e9b013f3eeb860c38/stories/st03/long.mp4\n\n🎧 استمع لاسم «جُرَيْج» (يجب أن يبدأ بالضمّة) — الفحص الآلي لم يحسم.\n\n✅ للموافقة على الاثنين أرسل: ok\n❌ للرفض مع ملاحظة: no <ملاحظتك>\nلن يُنشر شيء قبل موافقتك."
+ },
+ "ref": "preview-st03-msg"
+}
